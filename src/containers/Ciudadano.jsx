@@ -1,19 +1,20 @@
-import React from 'react';
-
+/* eslint-disable react/destructuring-assignment */
+import React, { useContext } from 'react';
 import '../styles/components/Ciudadano.css';
+import AppContext from '../context/AppContext';
 
 // eslint-disable-next-line arrow-body-style
 const Ciudadano = () => {
+  // eslint-disable-next-line no-shadow
+  const { preg } = useContext(AppContext);
+  console.log(preg);
   return (
     <div className="container__cd ">
       <div className="row cd">
         <div className="card">
-          <div className="card-body text-center">
-            <h3 className="card-title">Manual del usuario</h3>
-            <p className="card-text">
-              Este Manual describe objetos, generalidades, derechos y deberes
-              del usuario.
-            </p>
+          <div className="card-body text-center" key={preg.id}>
+            <h3 className="card-title">{preg.title}</h3>
+            <p className="card-text">{preg.content}</p>
 
             <a href="/" className="card-link">
               Card link

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // eslint-disable-next-line arrow-body-style
 const Navbar = () => {
@@ -37,9 +38,9 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Atencion al cliente
-                </a>
+                <Link to="/ciudadano">
+                  <p className="nav-link">Atencion al cliente</p>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
