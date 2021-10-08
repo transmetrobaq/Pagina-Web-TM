@@ -3,6 +3,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Home from '../containers/Home';
 import Ciudadano from '../containers/Ciudadano';
+import Noticias from '../containers/Noticias';
+import NoticiasDetails from '../containers/NoticiasDetailsContainer';
 import Layout from '../components/Layout';
 import NotFound from '../containers/NotFound';
 import AppContext from '../context/AppContext';
@@ -19,6 +21,12 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/ciudadano" component={Ciudadano} />
+            <Route exact path="/noticias" component={Noticias} />
+            <Route
+              exact
+              path="/noticias/:noticiasId"
+              component={NoticiasDetails}
+            />
             <Route component={NotFound} />
           </Switch>
         </Layout>
