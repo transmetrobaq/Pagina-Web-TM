@@ -31,8 +31,8 @@ style="max-width: 540px;*/
   color: #002856;
   position: relative;
   margin-bottom: 30px;
-  /* text-align: center; */
-  text-align: justify;
+  text-align: center;
+  /* text-align: justify; */
 }
 .cd p {
   font-size: 15px;
@@ -41,7 +41,7 @@ style="max-width: 540px;*/
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .cd li {

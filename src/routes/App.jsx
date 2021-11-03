@@ -3,12 +3,13 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Home from '../containers/Home';
 import Ciudadano from '../containers/Ciudadano';
-import Noticias from '../containers/Noticias';
-import NoticiasDetails from '../containers/NoticiasDetailsContainer';
+/* import Noticias from '../containers/Noticias'; */
+import NoticiasDetails from '../containers/NoticiasDetails';
 import Layout from '../components/Layout';
 import NotFound from '../containers/NotFound';
 import AppContext from '../context/AppContext';
 import useFetch from '../hooks/useFetch';
+import Noticias from '../containers/Noticias';
 
 // eslint-disable-next-line arrow-body-style
 const App = () => {
