@@ -10,13 +10,13 @@ const NoticiasDetails = () => {
   const { noticiasId } = useParams();
 
   const [notic, setNotic] = useState([]);
-  const AP = 'http://localhost:1337/noticias';
+  const AP = `http://localhost:1337/noticias?slug=${noticiasId}`;
 
   useEffect(async () => {
     const resnoti = await axios(AP);
-    setNotic(resnoti.data[noticiasId - 1]);
-  }, []);
-
+    setNotic(resnoti.data[0]);
+  }, [noticiasId]);
+  console.log(notic);
   return (
     <div className=" container newsview">
       {/* <div className="newsviewimg" key={notic.id}>
