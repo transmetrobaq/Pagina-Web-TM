@@ -19,7 +19,7 @@ const Ciudadano = () => {
 
             <a
               href="http://bit.ly/2nQO0TD"
-              className="card-link"
+              className="btn btn-outline-success"
               target="_blanck"
               alt="Manual de Usuario"
             >

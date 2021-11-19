@@ -38,14 +38,14 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link to="/ciudadano">
+                <Link to="/ciudadano" style={{ textDecoration: 'none' }}>
                   <p className="nav-link">Atencion al cliente</p>
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Comunicaciones
-                </a>
+                <Link to="/noticias" style={{ textDecoration: 'none' }}>
+                  <p className="nav-link">Comunicaciones</p>
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <a

@@ -1,0 +1,15 @@
+.breadcrumb {
+  margin-top: 5px;
+}
+.link {
+  text-decoration: none;
+  color: #002856;
+}
+.link:hover {
+  cursor: pointer;
+  color: #00c0ef;
+}
+
+.breadcrumb-item i {
+  margin-right: 5px;
+}

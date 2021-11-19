@@ -16,10 +16,10 @@ const NoticiasDetails = () => {
     const resnoti = await axios(AP);
     setNotic(resnoti.data[0]);
   }, [noticiasId]);
-  console.log(notic);
+
   return (
     <div className=" container newsview">
-      {/* <div className="newsviewimg" key={notic.id}>
+      {/*  <div className="newsviewimg" key={notic.id}>
         <img src={`http://localhost:1337${notic.image.url}`} alt={notic.alt} />
       </div> */}
       <div>

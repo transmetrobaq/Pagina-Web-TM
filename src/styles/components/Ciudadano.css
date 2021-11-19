@@ -56,6 +56,9 @@ style="max-width: 540px;*/
 }
 .cd a {
   text-decoration: none;
-  color: inherit;
-  color: #002856;
+  /* color: inherit; */
+  /* color: #c00d0d; */
+  margin-top: 10px;
+  font-weight: bold;
+  /* border-color: #c00d0d; */
 }

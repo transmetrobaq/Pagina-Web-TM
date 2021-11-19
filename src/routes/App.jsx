@@ -11,14 +11,23 @@ import AppContext from '../context/AppContext';
 import useFetch from '../hooks/useFetch';
 import Noticias from '../containers/Noticias';
 
+import Breadcrumb from '../components/Breadcrumb';
+
 // eslint-disable-next-line arrow-body-style
 const App = () => {
   const initialState = useFetch();
   /* const isEmpty = Object.keys(initialState.preguntas); */
+  /* const [crumbs] = useState([]); */
+
+  /*  const selected = (crumb) => {
+    console.log(crumb);
+  }; */
+
   return (
     <AppContext.Provider value={initialState}>
       <BrowserRouter>
         <Layout>
+          <Breadcrumb />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/ciudadano" component={Ciudadano} />
