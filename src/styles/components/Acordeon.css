@@ -1,0 +1,50 @@
+.accordion-total {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 10px;
+}
+.accordion-total a {
+  color: black;
+  text-decoration: none;
+}
+
+.accordion-header:hover {
+  background-color: #ffdd00;
+}
+
+.hv .bor:hover {
+  background-color: #ffdd00;
+  opacity: 0.7;
+}
+
+.bor {
+  height: 50px;
+  border-color: #fff;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.accordion-button:focus {
+  background: #ffdd00;
+
+  outline: none;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+/* .accordion-flush {
+  background-color: #ffdd00;
+}
+ */
+.transp h1 {
+  color: #e30613;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 65px;
+}
+
+.transp h2 {
+  color: #004f9f;
+  font-size: 40px;
+  margin-top: 10px;
+}

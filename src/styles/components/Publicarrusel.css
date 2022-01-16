@@ -1,0 +1,81 @@
+/* body {
+  align-items: center;
+  background: #e3e3e3;
+  display: flex;
+  height: 100vh;
+
+  justify-content: center;
+} */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  /* ancho del carrusel */
+  height: 185px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slider img {
+  width: auto;
+  height: 185px;
+}
+
+/* lo blanco del costado */
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: '';
+  height: 191px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 20s linear infinite; /* velocidad del scroll */
+  display: flex;
+  width: calc(250px * 14);
+  /* margin-top: 75px; centrar carrusel  */
+}
+.slider .slide {
+  height: 100px;
+  width: auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .slider::before,
+  .slider::after {
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    content: '';
+    height: 191px;
+    position: absolute;
+    width: 33px;
+    z-index: 2;
+  }
+}

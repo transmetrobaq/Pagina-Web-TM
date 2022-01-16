@@ -28,26 +28,51 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
-                  Transmetro
-                </a>
+                <Link
+                  to="/transmetro"
+                  style={{ textDecoration: 'none' }}
+                  aria-current="page"
+                >
+                  <p className="nav-link">Transmetro</p>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Mi Sistema
-                </a>
+                <Link
+                  to="/sistema"
+                  style={{ textDecoration: 'none' }}
+                  aria-current="page"
+                >
+                  <p className="nav-link">Mi Sistema</p>
+                </Link>
               </li>
               <li className="nav-item">
-                <Link to="/ciudadano" style={{ textDecoration: 'none' }}>
+                <Link
+                  to="/ciudadano"
+                  style={{ textDecoration: 'none' }}
+                  aria-current="page"
+                >
                   <p className="nav-link">Atencion al cliente</p>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/noticias" style={{ textDecoration: 'none' }}>
+                <Link
+                  to="/noticias"
+                  style={{ textDecoration: 'none' }}
+                  aria-current="page"
+                >
                   <p className="nav-link">Comunicaciones</p>
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item">
+                <Link
+                  to="/transparencia"
+                  style={{ textDecoration: 'none' }}
+                  aria-current="page"
+                >
+                  <p className="nav-link">Transparecia</p>
+                </Link>
+              </li>
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="/"
@@ -78,7 +103,7 @@ const Navbar = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a
                   className="nav-link disabled"

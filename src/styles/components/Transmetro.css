@@ -1,0 +1,489 @@
+/*Cards*/
+
+.container-cardTM {
+  width: 100%;
+  display: flex;
+  max-width: 720px;
+  margin: auto;
+}
+
+.title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.card-tm {
+  width: 100%;
+  margin: 20px;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #00a13a;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+
+.card-tm:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card-tm img {
+  width: 100%;
+  height: 210px;
+  border-bottom: 3px solid white;
+  border-radius: 28px;
+}
+
+.card-tm .contenido-card {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-tm .contenido-card h3 {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.card-tm .contenido-card p {
+  line-height: 1.8;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card-tm .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+}
+
+.card-tm .contenido-card a:hover {
+  background: #2fb4cc;
+  color: #fff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-cardTM {
+    flex-wrap: wrap;
+    width: 350px; /* Change this to orientacion */
+  }
+  .card-tm {
+    margin: 15px;
+  }
+}
+
+/*Fin-Cards*/
+
+/* * linea con colores rojo,
+amarillo,
+verde */
+
+.linea-colores {
+  width: 50%;
+  height: 5px;
+  background-image: linear-gradient(
+    90deg,
+    #e30613 33%,
+    #ffdd00 33%,
+    #ffdd00 66.66%,
+    #00a13a 66.66%
+  );
+  margin-bottom: 60px;
+  /*espacio vertical */
+  margin-top: 60px;
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+  margin-bottom: 60px;
+  /*espacio vertical */
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.linea-colores {
+    width: 300px;
+    margin-top: 50px;
+  }
+}
+
+/* acerca de  */
+
+.acerca__card {
+  color: #002856;
+  margin-top: 100px;
+  /* text-align: justify; */
+}
+
+.acerca__card h2 {
+  margin-bottom: 3.5vw;
+  font-size: 5.5vw;
+}
+
+.acerca__card p {
+  text-align: justify;
+  font-size: 1.8vw;
+  color: #004f9f;
+  /* white-space: normal; */
+}
+
+/* .acerca__card img {
+  width: 40%;
+  height: 70%;
+ 
+} */
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .acerca__card img {
+    margin: 0 auto;
+    width: 70vw;
+    height: 50vw;
+  }
+  .acerca__card p {
+    font-size: 3.5vw;
+  }
+}
+
+/* objetivos */
+.obje__Estra {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* margin-left: -30px; */
+}
+.obj__Estra-ali {
+  /* border: 2px solid #c00d0d; */
+  border-radius: 30px;
+  margin-bottom: 70px;
+  /* width: 100%; */
+  margin-top: 60px;
+}
+.obj__Estra-ali1 {
+  /*  border: 2px solid #c00d0d; */
+  border-radius: 30px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  /*  color: #c00d0d; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+
+.obj__Estra-ali2 {
+  /* color: #c00d0d; */
+  padding-left: 50px;
+}
+.obje__Estra-title {
+  width: 34vw;
+  background-color: #e30613;
+  border-radius: 20px;
+  color: white;
+  margin: 0 auto;
+  margin-left: 250px;
+}
+
+.obje__Estra h2 {
+  font-size: 2.5vw;
+  padding: 20px;
+}
+
+.obje__Estra img {
+  width: 40vw;
+  padding-left: 50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .obje__Estra img {
+    width: 50vw;
+    padding-bottom: 50px;
+    padding-left: 0px;
+  }
+  .obje__Estra h2 {
+    font-size: 4vw;
+  }
+
+  .obje__Estra-title {
+    width: 80%;
+    margin-left: 35px;
+  }
+  .obj__Estra-ali1 {
+    /* border: 3px solid #c00d0d; */
+    border-radius: 12px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+  }
+
+  .obj__Estra-ali2 {
+    /* border: 3px solid #c00d0d; */
+    border-radius: 12px;
+    border-right: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+}
+
+/* que es transmetro */
+
+.conformado {
+  color: rgb(38, 28, 131);
+  /* text-align: justify; */
+}
+
+.conformado h2 {
+  margin-bottom: 18px;
+  font-size: 2vw;
+}
+
+.conformado p {
+  text-align: justify;
+  font-size: 1vw;
+  white-space: normal;
+}
+
+.conformado img {
+  float: left;
+  /* position: absolute; */
+  margin-right: 67px;
+  max-width: 100%;
+}
+
+.text-derecha {
+  /* margin-left: 257px; */
+  margin-bottom: 46px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .conformado p {
+    font-size: 2vw;
+  }
+  .conformado h2 {
+    font-size: 2.5vw;
+  }
+}
+
+/* --------------------- */
+
+/* <!-- DATOS DE INFRAESTRUCTURA --> */
+
+.color-tex-da-infra {
+  color: rgb(0, 0, 56);
+  margin-bottom: 50px;
+}
+
+.color-tex-da-infra h1 {
+  font-size: 3vw;
+}
+
+.dato1- {
+  border: 2px solid rgb(4, 2, 107);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  /*espacio vertical */
+  padding: 23px;
+  color: rgb(2, 0, 77);
+  max-width: 90vw;
+}
+
+.dato1- h3 {
+  font-size: 2vw;
+}
+
+.dato1- i {
+  color: rgb(177, 10, 10);
+  font-size: 4vw;
+}
+
+.dato1- li {
+  font-size: 1.1vw;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .color-tex-da-infra h1 {
+    font-size: 4vw;
+  }
+  .dato1- i {
+    font-size: 5vw;
+  }
+}
+
+/* <!-- DATOS DE INFRSESTRUCTURA bloque 2 --> */
+
+.cont-a {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.portal1 {
+  border: 2px solid rgb(4, 2, 107);
+  border-radius: 20px;
+  max-width: 25vw;
+  margin-left: 12px;
+  padding-bottom: 5px;
+  word-wrap: break-word;
+  padding: 14px;
+}
+
+.cont-a h3 {
+  color: rgb(4, 2, 107);
+  font-size: 2vw;
+}
+
+.dato-ico {
+  color: rgb(177, 10, 10);
+  font-size: 5vw;
+}
+
+.dato-ico2 {
+  color: yellow;
+  font-size: 5vw;
+}
+
+.dato-ico3 {
+  color: green;
+  font-size: 5vw;
+}
+
+/* --------------------- */
+
+/*DATOS DE INFRAESTRUCTURA bloque 3 */
+
+.cont-infr {
+  margin-top: 120px;
+}
+
+.cont-infr2 {
+  margin-top: 50px;
+}
+
+.linea-colores-peque {
+  width: 35%;
+  height: 3px;
+  background-image: linear-gradient(
+    90deg,
+    red 33%,
+    yellow 33%,
+    yellow 66.66%,
+    green 66.66%
+  );
+  /*espacio vertical */
+  margin-bottom: 15px;
+}
+
+.cont-infr i {
+  margin-bottom: 26px;
+  color: blue;
+  font-size: 4vw;
+}
+
+.cont-infr2 i {
+  margin-bottom: 26px;
+  color: blue;
+  font-size: 4vw;
+}
+
+.cont-infr p {
+  font-size: 1.2vw;
+}
+
+.cont-infr2 p {
+  font-size: 1.2vw;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .linea-colores-peque {
+    width: 35%;
+    height: 2px;
+  }
+}
+
+/* hover */
+
+a i {
+  transition: all 0.3s linear;
+}
+
+a:hover i {
+  transform: scale(1.5);
+}
+
+.efecto:hover {
+  color: blue;
+}
+
+/* card horizontal */
+
+.card- {
+  width: auto;
+  margin: 20px;
+  border-radius: 6px;
+  text-align: center;
+  background: rgb(1, 4, 46);
+  box-shadow: 0px 1px 10px rgba(252, 247, 247, 0.2);
+  color: #fff;
+  margin-top: 120px;
+  margin-right: 20px;
+}
+
+.card- img {
+  width: 100%;
+  height: 218px;
+}
+
+/* .card- .contenido-card {
+  padding: 15px;
+  text-align: center;
+} */
+
+.btn-si {
+  border: 2px solid white;
+  background-color: rgb(1, 4, 46);
+}
+
+.btn-no {
+  border: 2px solid white;
+  background-color: rgb(1, 4, 46);
+}
+
+.btn-votar {
+  border: 2px solid white;
+  background-color: rgb(1, 4, 46);
+}
+
+.ver-resultado {
+  margin-top: 12px;
+}
+
+/* Asamblea */
+.asamblea {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #002856;
+}
+
+.asamblea h2 {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: #002856;
+}
+
+.asamblea img {
+  width: 100%;
+  height: auto;
+}

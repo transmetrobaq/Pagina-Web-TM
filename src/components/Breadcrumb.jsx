@@ -13,10 +13,6 @@ function Breadcrumb() {
   const capatilize = (s) =>
     s.charAt(0).toUpperCase() + s.replaceAll('-', ' ').slice(1);
 
-  /*  function isLast(index) {
-    return index === crumbs.length - 1;
-  } */
-
   return (
     <nav className="container" aria-label="breadcrumb">
       <ul className="breadcrumb">
@@ -40,6 +36,7 @@ function Breadcrumb() {
         {crumbs.map((name, index) => {
           const routeTo = `/${crumbs.slice(0, index + 1).join('/')}`;
           const isLast = index === crumbs.length - 1;
+
           return isLast ? (
             <li className="breadcrumb-item active" aria-current="page">
               {capatilize(name)}

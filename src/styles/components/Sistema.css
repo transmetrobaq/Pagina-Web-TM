@@ -1,0 +1,548 @@
+.sist {
+  margin-bottom: 100px;
+  margin-top: 65px;
+}
+
+.sist h1 {
+  margin-bottom: 60px;
+  color: #002856;
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.hora {
+  border-radius: 20px;
+  background-color: #255a97;
+  max-width: 540px;
+  content-visibility: center;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+}
+
+.hora p {
+  margin: 0 0 0 20px;
+}
+
+/* .bordo {
+  border-radius: 100px;
+} */
+
+/* VIDEO */
+
+.video-contenedor {
+  border: 2px solid rgb(4, 2, 107);
+  border-radius: 50px;
+  margin-top: 65px;
+  margin-bottom: 144px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video-contenedor h1 {
+  color: #002856;
+  position: relative;
+  top: -6px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.video-contenedor iframe {
+  width: 100%;
+  height: 40vw;
+  border-radius: 0 0 50px 50px;
+}
+
+/* tarjeta transmetro */
+
+/* texto credito */
+
+.tarj {
+  color: #002856;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+.tarj h1 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.tarj p {
+  margin-top: 50px;
+  padding: auto;
+}
+
+.tarj spam {
+  font-weight: bold;
+}
+.tarj img {
+  border-radius: 50px;
+}
+
+.cred {
+  margin-bottom: 60px;
+  color: #002856;
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.cred h1 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.cred ul {
+  display: inline-table;
+
+  max-width: 600px;
+}
+.cred li {
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+/*Como personalizar */
+
+.como-perso {
+  border-radius: 20px;
+  margin-bottom: 60px;
+  /*espacio vertical */
+  max-width: 940px;
+}
+
+.tex-como-per {
+  color: rgb(246, 246, 248);
+  position: relative;
+  top: -6px;
+  background-color: #c00d0d;
+  border-radius: 50px 50px 0 0;
+  padding: 40px;
+  margin-bottom: -3px;
+}
+
+.como-perso-text {
+  color: white;
+  background-color: #c00d0d;
+  border-radius: 0 0 50px 50px;
+  padding: 40px;
+}
+
+.como-perso-text spam {
+  font-weight: bold;
+}
+
+.per-tarjeta p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Usuarios Movilizados */
+
+.card__Movi {
+  background-image: url('http://localhost:1337/uploads/Recurso_2_4424b1663a.png');
+  background-color: transparent;
+  background-size: 100% 100%;
+  height: 80vw;
+}
+.card__Movil {
+  position: static;
+}
+.card__Movil img {
+  width: 15vw;
+  margin-top: -140px;
+  margin-left: 140px;
+  margin-bottom: 30px;
+
+  /* position: absolute; */
+}
+.car__Movi-1 {
+  background-color: #00a13a;
+  border-radius: 10px 0 0 10px;
+  padding: 20px;
+  /* width: 70vw; */
+
+  letter-spacing: 2px;
+  line-height: 1;
+  margin-top: -40px;
+  position: static;
+}
+.car__Movi-1 h4 {
+  font-weight: bold;
+  font-size: 3.5vw;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: #fff;
+}
+.car__Movi-2 {
+  background-color: #c00d0d;
+  border-radius: 10px 0 0 10px;
+
+  margin-top: -25px;
+  padding: 20px;
+  /* position: relative; */
+  /* width: 40vw; */
+}
+.car__Movi-2 h4 {
+  font-weight: bold;
+  font-size: 3.5vw;
+  padding-top: 5px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .car__Movi-1 {
+    margin-top: -20px;
+    padding: 5px;
+  }
+
+  .car__Movi-2 {
+    width: 40vw;
+    margin-top: -10px;
+    padding: 5px;
+  }
+  .card__Movi {
+    height: 320px;
+  }
+
+  .card__Movil img {
+    width: 25vw;
+    height: 20vw;
+    margin-top: -90px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+
+    /* position: absolute; */
+  }
+  /*  .card__Movi {
+    height: 820px;
+  }  */
+}
+
+.car__cul {
+  border-radius: 20px;
+  /* padding: 40px; */
+  /* width: 90%; */
+  font-size: 20px;
+  margin: 0 auto;
+
+  line-height: 1;
+  margin-top: 65px;
+}
+.car__cul h2 {
+  color: #e30613;
+}
+/* OPERACION */
+
+.car__opera {
+  /* el div se ajusta automaticamente al contenido del div */
+  height: 20%;
+  min-height: 70%;
+  /* el div se ajusta automaticamente al contenido del div */
+}
+
+.car__opera h2 {
+  padding: 40px 15px 15px 15px;
+}
+
+.car__opera p {
+  margin-bottom: 65px;
+  color: #002856;
+  text-align: center;
+}
+
+.car__opera h2 {
+  color: #002856;
+}
+
+/* ICONO OPERACION */
+
+.textIco1 {
+  font-size: 21px;
+  padding: 20px;
+  color: rgb(167, 3, 3);
+}
+
+.ico-ope {
+  /* text-align:right; */
+  color: rgb(2, 2, 187);
+}
+
+/* TARJETA 6 */
+
+.Tarjeta {
+  background-color: rgb(139, 3, 3);
+  color: white;
+  border-radius: 15px;
+  width: 56%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.seis {
+  font-size: 91px;
+}
+
+.tarjetaT {
+  margin-top: 17px;
+}
+
+/*Cards 4*/
+
+.container-card {
+  width: 40%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.car__info {
+  width: 100%;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgb(0, 1, 83);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+  /* el div se ajusta automaticamente al contenido del div */
+  height: 20%;
+  min-height: 70%;
+  /* el div se ajusta automaticamente al contenido del div */
+}
+
+.car__info:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.hr-card {
+  background-color: rgb(0, 1, 83);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 20px;
+  border-style: none none solid none;
+}
+
+.car__info .contenido-card {
+  padding: 15px;
+  text-align: center;
+}
+
+.car__info .contenido-card p {
+  line-height: 1.8;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.car__info .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+}
+.car__info i {
+  margin: 0 auto;
+  text-align: auto;
+}
+.car__info .contenido-card a:hover {
+  background: #2fb4cc;
+  color: #fff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-card {
+    flex-wrap: wrap;
+  }
+  .car__info {
+    margin: 15px;
+  }
+  .card-ali {
+    margin-right: 30px;
+  }
+}
+
+/* movilizado */
+
+.tarjetaT-movilizados {
+  margin-top: 5px;
+}
+
+/* 1.080 buses  */
+
+.Chatarra-card {
+  background-color: rgb(253, 253, 253);
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  border: 2px solid red;
+  width: 56%;
+  color: red;
+
+  margin: 20px;
+
+  /* centrar conatiner  */
+  margin: 0 auto;
+  text-align: auto;
+}
+
+.Chatarra-card i {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Chatarra-card h3 {
+  padding: 12px;
+}
+/* 
+.bloqueUltimo1 {
+  text-align: left;
+  padding: 12px;
+  display: flex;
+  margin-top: 5px;
+}
+
+.bloqueUltimo2 {
+  margin-top: 8px;
+} */
+
+/* RUTA */
+.rutas-ali {
+  border: 3px solid rgb(17, 0, 80);
+  border-radius: 20px;
+  max-width: 68%;
+  margin-bottom: 70px;
+}
+.rutas-ali1 {
+  border: 3px solid rgb(17, 0, 80);
+  border-radius: 12px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  color: rgb(17, 0, 80);
+  padding: 10px;
+}
+.rutas-ali2 {
+  border: 3px solid rgb(17, 0, 80);
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  color: #dc3545;
+}
+.rutas-ali3 {
+  border: 3px solid rgb(17, 0, 80);
+  border-radius: 12px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  color: rgb(17, 0, 80);
+  padding: 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 568px) {
+  .rutas-ali1 {
+    border: 3px solid rgb(17, 0, 80);
+    border-radius: 12px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+  }
+  /* .rutas-ali{
+      min-width:12%;  
+  } */
+
+  .rutas-ali2 {
+    border: 3px solid rgb(17, 0, 80);
+    border-radius: 12px;
+    border-right: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .rutas-ali3 {
+    border: 3px solid rgb(17, 0, 80);
+    border-radius: 12px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+}
+
+/* Sistemas 2 */
+
+.linea-accesible {
+  width: 80%;
+  height: 3px;
+  background-image: linear-gradient(
+    90deg,
+    red 33%,
+    yellow 33%,
+    yellow 66.66%,
+    green 66.66%
+  );
+  /*espacio vertical */
+  margin-bottom: 15px;
+}
+
+.acce {
+  background-color: rgb(0, 0, 56);
+  color: rgb(0, 0, 56);
+  margin-bottom: 100px;
+}
+.accesible {
+  border: 2px;
+  border-radius: 20px;
+  background-color: white;
+  width: 70%;
+  height: auto;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+  margin: 0 auto;
+  text-align: auto;
+  margin-bottom: 12px;
+}
+
+.accesible:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.accesible i {
+  padding: 12%;
+}
+.titulo-acce {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.space {
+  padding-bottom: 65px;
+}
