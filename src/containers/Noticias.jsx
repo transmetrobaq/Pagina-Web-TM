@@ -12,19 +12,10 @@ const Noticias = () => {
   const [noti, setNoti] = useState([]);
   const [start, setStart] = useState(0);
   const [limit] = useState(2);
-  const AP = `http://localhost:1337/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
+  /* const AP = `http://34.125.209.125/api/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`; */
+  const AP = `http://34.125.209.125/api/noticias`;
+
   const [totalCount, setTotalCount] = useState([]);
-
-  useEffect(async () => {
-    /* Get Api Filtrada inicio-limite-Descendente */
-    const resnoti = await axios.get(AP);
-    setNoti(resnoti.data);
-
-    /* Get Total de Arrays */
-    const resCount = await axios.get(`http://localhost:1337/noticias/count`);
-    setTotalCount(resCount.data);
-  }, [start, limit]);
-
   const nextPage = () => {
     setStart(limit + start);
   };
@@ -32,43 +23,73 @@ const Noticias = () => {
   const prevPage = () => {
     setStart(start - limit);
   };
+  /* const _start = nextPage;
+  const _limit = prevPage; */
+  useEffect(async () => {
+    /* Get Api Filtrada inicio-limite-Descendente */
+    const resnoti = await axios.get(AP);
+    setNoti(resnoti.data.data.slice(start, limit));
+
+    /* Get Total de Arrays */
+    const resCount = await axios.get(`http://34.125.209.125/api/noticias`);
+    setTotalCount(resCount.data.meta.pagination.total);
+    /*  console.log(resCount.data.meta); */
+  }, [start, limit]);
+  console.log(totalCount);
+
+  console.log(AP);
+
+  /*  const nextPage = () => {
+    setStart(limit + start);
+  };
+
+  const prevPage = () => {
+    setStart(start - limit);
+  }; */
+
+  console.log(noti);
 
   return (
     <div className="container py-2">
-      {noti.map((noti) => (
-        <article className="nt ligth blue" key={noti.id}>
-          <img
-            src={`http://localhost:1337${noti.image.url}`}
-            className="nt__img"
-            alt={noti.alt}
-          />
+      {noti
+        ? noti.map((notis) => (
+            <article className="nt ligth blue" key={notis.id}>
+              <img
+                src={`http://34.125.209.125${notis.attributes.url}`}
+                className="nt__img"
+                alt={notis.attributes.alt}
+              />
 
-          <div className="nt__text">
-            <h3 className="nt__title">{noti.title}</h3>
-            <div>
-              <time>
-                <p className="card-text">
-                  <small className="text-muted">Fecha: {noti.date}</small>
-                </p>
-              </time>
-            </div>
-            <div className="nt__bar" />
-            <div className="nt__preview-txt">
-              <p>{noti.content}</p>
-            </div>
-            <div>
-              <Link
-                to={`/noticias/${noti.slug}`}
-                role="button"
-                className="btn btn-outline-primary"
-                alt="Ver Noticia"
-              >
-                Ver Noticia
-              </Link>
-            </div>
-          </div>
-        </article>
-      ))}
+              <div className="nt__text">
+                <h3 className="nt__title">{notis.attributes.title}</h3>
+                <div>
+                  <time>
+                    <p className="card-text">
+                      <small className="text-muted">
+                        Fecha: {notis.attributes.date}
+                      </small>
+                    </p>
+                  </time>
+                </div>
+                <div className="nt__bar" />
+                <div className="nt__preview-txt">
+                  <p>{notis.attributes.content.slice(0, 200)}...</p>
+                </div>
+                <div>
+                  <Link
+                    to={`/noticias/${notis.attributes.slug}`}
+                    role="button"
+                    className="btn btn-outline-primary"
+                    alt="Ver Noticia"
+                  >
+                    Ver Noticia
+                  </Link>
+                </div>
+              </div>
+            </article>
+          ))
+        : 'Loading...'}
+
       <div className="navPage">
         <span>
           <button

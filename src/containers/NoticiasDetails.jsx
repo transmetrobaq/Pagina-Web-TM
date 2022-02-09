@@ -10,13 +10,15 @@ const NoticiasDetails = () => {
   const { noticiasId } = useParams();
 
   const [notic, setNotic] = useState([]);
-  const AP = `http://localhost:1337/noticias?slug=${noticiasId}`;
-
+  /* const AP = `http://localhost:1337/noticias?slug=${noticiasId}`; */
+  const AP = `http://34.125.209.125/api/noticias?filters[slug][$eq]=${noticiasId}`;
+  /* console.log(AP); */
   useEffect(async () => {
     const resnoti = await axios(AP);
-    setNotic(resnoti.data[0]);
+    setNotic(resnoti.data.data[0].attributes);
+    /* console.log(resnoti.data); */
   }, [noticiasId]);
-  console.log(notic);
+  /* console.log(notic); */
   return (
     <div className=" container newsview">
       {/* <div className="newsviewimg" key={notic.id}>

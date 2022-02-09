@@ -133,7 +133,7 @@ verde */
 .acerca__card p {
   text-align: justify;
   font-size: 1.8vw;
-  color: #004f9f;
+  color: #002856;
   /* white-space: normal; */
 }
 
@@ -240,26 +240,31 @@ verde */
 /* que es transmetro */
 
 .conformado {
-  color: rgb(38, 28, 131);
+  color: #002856;
   /* text-align: justify; */
 }
 
 .conformado h2 {
   margin-bottom: 18px;
-  font-size: 2vw;
+  font-size: 3.5vw;
+  font-weight: bold;
 }
 
 .conformado p {
   text-align: justify;
-  font-size: 1vw;
+  font-size: 1.8vw;
   white-space: normal;
+}
+
+.conformado span {
+  font-weight: bold;
 }
 
 .conformado img {
   float: left;
   /* position: absolute; */
   margin-right: 67px;
-  max-width: 100%;
+  width: 20vw;
 }
 
 .text-derecha {
@@ -270,10 +275,13 @@ verde */
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .conformado p {
-    font-size: 2vw;
+    font-size: 3.5vw;
   }
   .conformado h2 {
-    font-size: 2.5vw;
+    font-size: 5.5vw;
+  }
+  .conformado img {
+    margin-right: 10px;
   }
 }
 
@@ -282,43 +290,19 @@ verde */
 /* <!-- DATOS DE INFRAESTRUCTURA --> */
 
 .color-tex-da-infra {
-  color: rgb(0, 0, 56);
+  color: #002856;
   margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 .color-tex-da-infra h1 {
-  font-size: 3vw;
-}
-
-.dato1- {
-  border: 2px solid rgb(4, 2, 107);
-  border-radius: 20px;
-  margin-bottom: 20px;
-  /*espacio vertical */
-  padding: 23px;
-  color: rgb(2, 0, 77);
-  max-width: 90vw;
-}
-
-.dato1- h3 {
-  font-size: 2vw;
-}
-
-.dato1- i {
-  color: rgb(177, 10, 10);
-  font-size: 4vw;
-}
-
-.dato1- li {
-  font-size: 1.1vw;
+  font-size: 3.5vw;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .color-tex-da-infra h1 {
-    font-size: 4vw;
-  }
-  .dato1- i {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 }
 
@@ -327,22 +311,24 @@ verde */
 .cont-a {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .portal1 {
-  border: 2px solid rgb(4, 2, 107);
+  border: 2px solid #002856;
   border-radius: 20px;
-  max-width: 25vw;
-  margin-left: 12px;
+  width: 28.5vw;
+  /* margin-left: 10px; */
   padding-bottom: 5px;
-  word-wrap: break-word;
-  padding: 14px;
+  /* word-wrap: break-word; */
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .cont-a h3 {
-  color: rgb(4, 2, 107);
+  color: #002856;
   font-size: 2vw;
+  font-weight: bold;
 }
 
 .dato-ico {
@@ -359,7 +345,11 @@ verde */
   color: green;
   font-size: 5vw;
 }
-
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .cont-a h3 {
+    font-size: 2.5vw;
+  }
+}
 /* --------------------- */
 
 /*DATOS DE INFRAESTRUCTURA bloque 3 */
@@ -368,48 +358,46 @@ verde */
   margin-top: 120px;
 }
 
-.cont-infr2 {
-  margin-top: 50px;
-}
-
 .linea-colores-peque {
   width: 35%;
   height: 3px;
   background-image: linear-gradient(
     90deg,
-    red 33%,
-    yellow 33%,
-    yellow 66.66%,
-    green 66.66%
+    #e30613 33%,
+    #ffdd00 33%,
+    #ffdd00 66.66%,
+    #00a13a 66.66%
   );
   /*espacio vertical */
   margin-bottom: 15px;
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
 }
 
-.cont-infr i {
+.cont-infr img {
   margin-bottom: 26px;
-  color: blue;
-  font-size: 4vw;
-}
-
-.cont-infr2 i {
-  margin-bottom: 26px;
-  color: blue;
+  width: 10vw;
   font-size: 4vw;
 }
 
 .cont-infr p {
-  font-size: 1.2vw;
-}
-
-.cont-infr2 p {
-  font-size: 1.2vw;
+  font-size: 1.8vw;
+  color: #004f9f;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .linea-colores-peque {
     width: 35%;
     height: 2px;
+  }
+  .cont-infr {
+    margin-top: 40px;
+  }
+  .cont-infr img {
+    width: 20vw;
+    margin-bottom: 10px;
+  }
+  .cont-infr p {
+    font-size: 3.5vw;
   }
 }
 
@@ -486,4 +474,49 @@ a:hover i {
 .asamblea img {
   width: 100%;
   height: auto;
+}
+
+/* -----Movilizados----------------- */
+/* Usuarios Movilizados */
+
+.card__Movi {
+  background-image: url('http://localhost:1337/uploads/Recurso_2_4424b1663a.png');
+  background-color: transparent;
+  background-size: 100% 100%;
+  height: 80vw;
+  margin-bottom: 100px;
+}
+.movilizado {
+  box-shadow: 0px 1px 5px 3px rgba(64, 64, 64, 0.37);
+  -webkit-box-shadow: 0px 1px 5px 3px rgba(64, 64, 64, 0.37);
+  -moz-box-shadow: 0px 1px 5px 3px rgba(64, 64, 64, 0.37);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+  margin-top: 905px;
+  width: 90%;
+}
+.movilizado h2 {
+  color: #002856;
+  font-size: 3.5vw;
+}
+.movilizado:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.usu-movilizados {
+  margin: 18px;
+}
+
+.movilizado img {
+  float: right;
+  display: flex;
+  width: 26%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .movilizado {
+    margin-top: 200px;
+  }
 }

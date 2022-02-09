@@ -10,17 +10,22 @@ const Header = () => {
   const [noti3, setNoti3] = useState([]);
   const [start] = useState(0);
   const [limit] = useState(3);
-  const AP = `http://localhost:1337/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
-
+  const AP = `http://34.125.209.125/api/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
+  /* const AP = `http://34.125.92.175/api/noticias`; */
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const resnoti = await axios.get(AP);
 
-    setNoti1(resnoti.data[0]);
-    setNoti2(resnoti.data[1]);
-    setNoti3(resnoti.data[2]);
+    setNoti1(resnoti.data.data[0].attributes);
+    setNoti2(resnoti.data.data[1].attributes);
+    setNoti3(resnoti.data.data[2].attributes);
+    /* console.log(resnoti); */
+    /* console.log(resnoti.data.data[1].attributes); */
+    /* console.log(setNoti2); */
   }, [start, limit]);
-
+  /* console.log(noti2.title); */
+  /* console.log(noti2.url); */
+  /* console.log(noti2); */
   return (
     <div
       id="carouselExampleIndicators"
@@ -53,7 +58,7 @@ const Header = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src={`http://localhost:1337${noti1.url}`}
+            src={`http://34.125.209.125${noti1.url}`}
             className="d-block w-100"
             alt="{noti1.alt}"
           />
@@ -70,7 +75,7 @@ const Header = () => {
         </div>
         <div className="carousel-item">
           <img
-            src={`http://localhost:1337${noti2.url}`}
+            src={`http://34.125.209.125${noti2.url}`}
             className="d-block w-100"
             alt="{noti2.alt}"
           />
@@ -90,7 +95,7 @@ const Header = () => {
         </div>
         <div className="carousel-item">
           <img
-            src={`http://localhost:1337${noti3.url}`}
+            src={`http://34.125.209.125${noti3.url}`}
             className="d-block w-100"
             alt="{noti3.alt}"
           />

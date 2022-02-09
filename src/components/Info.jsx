@@ -62,177 +62,468 @@ const Info = () => {
 
       <div className="container">
         {/*  <!--INFO BLOQUE 4 Mapa---> */}
+        {/* Mapa Troncal Bootstap */}
+        <div className="container ">
+          <div
+            className="mapa__Troncal"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '0px 30px 30px 30px',
+            }}
+          >
+            <div
+              className="card "
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '0px 0px 30px 30px',
+                borderLeft: 'none',
+                borderTop: 'none',
+                width: '40%',
+                backgroundColor: '#004f9f',
+              }}
+            >
+              <div className="card-body">
+                <h1 className="card-text text-center">Mapa Troncales</h1>
+              </div>
+            </div>
 
-        <div className="container mapa ">
-          <div className="row map ">
-            <h4 className="text-center">MAPA TRONCALES</h4>
-          </div>
+            <div
+              className="card "
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '20px 20px 0 0',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+                borderTop: 'none',
+              }}
+            >
+              <div className="card-body">
+                <div className="row g-0">
+                  <div className="col-md-12 ">
+                    <div className="card-text text-center">
+                      <img
+                        className="mapa__Troncal-img"
+                        src="https://i.postimg.cc/4dbVfXgp/m1.jpg"
+                        alt="mapa troncales"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <div className="card-body">
-            <div className="card-text text-center">
-              <span>
-                {' '}
-                <img
-                  className="img-mapa"
-                  src="https://i.postimg.cc/4dbVfXgp/m1.jpg"
-                  alt="troncales"
-                />
-              </span>
+            <div
+              className="card"
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '20px',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+                marginBottom: '20px',
+              }}
+            >
+              <div className="card-body">
+                <div className="row  g-0 align-items-center">
+                  <div className="col-md-6  ">
+                    <h3>TRONCALES</h3>
+                  </div>
+                  <div className="col-md-6  ">
+                    <ul className="fa-ul">
+                      <li>
+                        <span className="fa-li">
+                          <i
+                            className="far fa-square"
+                            style={{ color: '#e30613' }}
+                          />
+                        </span>
+                        Troncal Murillo
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i
+                            className="far fa-square"
+                            style={{ color: '#00a13a' }}
+                          />
+                        </span>
+                        Troncal Olaya Herrera
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
 
-          <div className="row borTerm">
-            <div className="col-4 col-md-4  col-sm-6 text-center">
-              <h5>TRONCALES</h5>
+        {/* Todos contra el Covida */}
+        <div className="container ">
+          <div
+            className="mapa__Troncal"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '30px 30px 30px 30px',
+            }}
+          >
+            <div
+              className="card "
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '30px 30px 30px 30px',
+                borderLeft: 'none',
+                borderTop: 'none',
+                borderRight: 'none',
+                borderBottom: 'none',
+              }}
+            >
+              <div className="card-body">
+                <h3 className="card-text text-center">
+                  TODOS CONTRA EL COVID-19
+                </h3>
+                <p className="card-text text-center">
+                  Como protegerse y proteger a los demas
+                </p>
+              </div>
             </div>
-            <div className=" col-8 col-sm-6 col-md-8 ">
-              <div className="text-center">
-                <i className="fas fa-square icono-map1 fa-1x">
-                  <span className="text-map">Troncal Murrillo</span>
-                </i>
-                <i className="fas fa-square icono-map2 fa-1x">
-                  <span className="text-map text-center">
-                    Troncal Olaya Herrera
-                  </span>
-                </i>
+
+            <div
+              className="card"
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '20px',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+                marginBottom: '20px',
+              }}
+            >
+              <div className="card-body">
+                <div className="row  g-0 ">
+                  <center className="col-md-3 ">
+                    <img
+                      src="http://34.125.209.125/uploads/Lavado_de_manos_8c57c76e31.png"
+                      alt="icono lavado de manos"
+                      style={{ width: '40%' }}
+                    />
+                    <p> Lavarse las manos </p>
+                  </center>
+                  <center className="col-md-3  ">
+                    <img
+                      src="http://34.125.209.125/uploads/Mascarilla_f99c0ef375.png"
+                      alt="icnono Uso mascarilla"
+                      style={{ width: '40%' }}
+                    />
+                    <p>Uso mascarilla </p>
+                  </center>
+                  <center className="col-md-3  ">
+                    <img
+                      src="http://34.125.209.125/uploads/Desinfeccion_99d7ebbe74.png"
+                      alt="icono Limpie y desinfecte"
+                      style={{ width: '40%' }}
+                    />
+                    <p>Limpie y desinfecte </p>
+                  </center>
+                  <center className="col-md-3  ">
+                    <img
+                      src="http://34.125.209.125/uploads/Destancia_745837c724.png"
+                      alt="icono Mantenga sana distancia"
+                      style={{ width: '40%' }}
+                    />
+                    <p>Mantenga sana distancia </p>
+                  </center>
+                </div>
               </div>
             </div>
           </div>
         </div>
         {/* <!--INFO BLOQUE 3---> */}
-        <div className=" container-fluid bio">
+        {/*  <div className=" container-fluid bio">
           <div className="row borTerm1 text-center">
             <h3 className="  "> TODOS CONTRA EL COVID-19</h3>
             <p className="">Como protegerse y proteger a los demas</p>
           </div>
           <div className="container icono__Cv">
             <div className="row text-center">
-              <ul className="list-group  flex-row  ">
-                <li className=" list-group-item border-0  ">
-                  <img
-                    src="http://localhost:1337/uploads/Lavado_de_manos_67a04dad81.png"
-                    alt=""
-                  />
-                  <p> Lavarse las manos </p>
-                </li>
-                <li className=" list-group-item  border-0 ">
-                  <img
-                    src="http://localhost:1337/uploads/Mascarilla_2b65140801.png"
-                    alt=""
-                  />
-                  <p>Uso mascarilla </p>
-                </li>
-                <li className=" list-group-item border-0  ">
-                  <img
-                    src="http://localhost:1337/uploads/Desinfeccion_312bb6f1bd.png"
-                    alt=""
-                  />
-                  <p>Limpie y desinfecte </p>
-                </li>
-                <li className=" list-group-item border-0  ">
-                  <img
-                    src="http://localhost:1337/uploads/Destancia_cb36bc889e.png"
-                    alt=""
-                  />
-                  <p>Mantenga sana distancia </p>
-                </li>
-              </ul>
+              <div className=" card-body">
+                <ul className="list-group  flex-row  ">
+                  <li className="col-md-3 list-group-item border-0  ">
+                    <img
+                      src="http://34.125.209.125/uploads/Lavado_de_manos_8c57c76e31.png"
+                      alt="icono lavado de manos"
+                    />
+                    <p> Lavarse las manos </p>
+                  </li>
+                  <li className=" col-md-3 list-group-item  border-0 ">
+                    <img
+                      src="http://34.125.209.125/uploads/Mascarilla_f99c0ef375.png"
+                      alt="icnono Uso mascarilla"
+                    />
+                    <p>Uso mascarilla </p>
+                  </li>
+                  <li className=" list-group-item border-0  ">
+                    <img
+                      src="http://34.125.209.125/uploads/Desinfeccion_99d7ebbe74.png"
+                      alt="icono Limpie y desinfecte"
+                    />
+                    <p>Limpie y desinfecte </p>
+                  </li>
+                  <li className=" list-group-item border-0  ">
+                    <img
+                      src="http://34.125.209.125/uploads/Destancia_745837c724.png"
+                      alt="icono Mantenga sana distancia"
+                    />
+                    <p>Mantenga sana distancia </p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  */}
         {/* Card Bloque Troncales  */}
-        <div className="container card__Troncales">
-          <div className="row">
-            <div className="col-3 ">
-              <h3>TRONCAL MURILLO</h3>
-              <div className="cars-ico">
-                <img
-                  src="http://localhost:1337/uploads/icosn_05_5f87539d14.png"
-                  alt=""
-                />
+
+        {/* Cards Troncales */}
+        <div className="container">
+          <div
+            className="containerr"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px',
+            }}
+          >
+            <div
+              className="card"
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '20px 20px 0 0',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+                borderTop: 'none',
+              }}
+            >
+              <div className="card-body">
+                <p className="card-text">
+                  Los servicios Troncales agilizan el traslado de los usuarios
+                  porque transitan por carriles excusivos (Solo Bus) de las
+                  troncales Murillo y Olaya Herrera para llevar a los ciudadanos
+                  a las diferentes estaciones y portales con los que cuenta el
+                  Sistema Masivo.
+                </p>
               </div>
             </div>
-            <div className="col order-1">
-              <ol>
-                <li>
-                  Portal <span>de Soledad</span> - Calle 65 # 13 - 455 (Soledad,
-                  Atl.).
-                </li>
-                <li>
-                  Estacion <span>Pedro Ramayá Beltran</span> - Entre carreras 23
-                  y Av. Circunvalar (Soledad, Atl.).
-                </li>
-                <li>
-                  Estacion <span>Pacho Galán</span> - Entre carreras 16 y 17
-                  (Soledad, Atl.).
-                </li>
-                <li>
-                  Estacion <span>Joaquin Barrios Polo</span> - Entre carreras 1G
-                  y 2A.
-                </li>
-                <li>
-                  Estacion <span>Buenos Aires</span> - Entres carrera 7 y 7G.
-                </li>
-                <li>
-                  Estacion <span>LA Ocho</span> - Entre carreras 8 y 8C.
-                </li>
-                <li>
-                  Estacion <span>La Catorce</span> - Entre carreras 14 y 17.
-                </li>
-                <li>
-                  Estacion <span>La Veintiuna</span> - Entre carreras 20 y 21.
-                </li>
-                <li>
-                  Estacion <span>Atlántico</span> - Entre carreras 26 y 27.
-                </li>
-                <li>
-                  Estacion <span>Chiquinquirá</span> - Entre carreras 33 y 36.
-                </li>
-                <li>
-                  Estacion <span>La Arenosa</span> - Entre carreras 41 y 43.
-                </li>
-              </ol>
+
+            <div
+              className="card "
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '20px 20px 0 0',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+              }}
+            >
+              <div className="card-body">
+                <div className="row g-0">
+                  <div className="col-md-3 ">
+                    <h3>TRONCAL MURILLO</h3>
+                    <div className="cars-ico">
+                      <img
+                        src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-9">
+                    <ol>
+                      <li>
+                        Portal <span>de Soledad</span> - Calle 65 # 13 - 455
+                        (Soledad, Atl.).
+                      </li>
+                      <li>
+                        Estacion <span>Pedro Ramayá Beltran</span> - Entre
+                        carreras 23 y Av. Circunvalar (Soledad, Atl.).
+                      </li>
+                      <li>
+                        Estacion <span>Pacho Galán</span> - Entre carreras 16 y
+                        17 (Soledad, Atl.).
+                      </li>
+                      <li>
+                        Estacion <span>Joaquin Barrios Polo</span> - Entre
+                        carreras 1G y 2A.
+                      </li>
+                      <li>
+                        Estacion <span>Buenos Aires</span> - Entres carrera 7 y
+                        7G.
+                      </li>
+                      <li>
+                        Estacion <span>LA Ocho</span> - Entre carreras 8 y 8C.
+                      </li>
+                      <li>
+                        Estacion <span>La Catorce</span> - Entre carreras 14 y
+                        17.
+                      </li>
+                      <li>
+                        Estacion <span>La Veintiuna</span> - Entre carreras 20 y
+                        21.
+                      </li>
+                      <li>
+                        Estacion <span>Atlántico</span> - Entre carreras 26 y
+                        27.
+                      </li>
+                      <li>
+                        Estacion <span>Chiquinquirá</span> - Entre carreras 33 y
+                        36.
+                      </li>
+                      <li>
+                        Estacion <span>La Arenosa</span> - Entre carreras 41 y
+                        43.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
             </div>
-            {/*  <div className="col-5 order-2">
-              <ol></ol>
-            </div> */}
+
+            <div
+              className="card"
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '20px',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+                marginBottom: '20px',
+              }}
+            >
+              <div className="card-body">
+                <div className="row  g-0">
+                  <div className="col-md-6  ">
+                    <h3>TRONCAL OLAYA HERRERA</h3>
+                    <div className="cars-ico ">
+                      <img
+                        src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6 ">
+                    <ol>
+                      <li>
+                        Estacion retorno <span>Joe Arroyo</span> - Carrera 46
+                        con calle 74.
+                      </li>
+                      <li>
+                        Estacion <span>Esthercita Forero</span> - Entre calles
+                        69 y 70.
+                      </li>
+                      <li>
+                        Estacion <span>Alfredo Correa De Andréis</span> - Entre
+                        calles 60 y 62.
+                      </li>
+                      <li>
+                        Estacion <span>La Catedral</span> - Entre calles 50 y
+                        53.
+                      </li>
+                      <li>
+                        Estacion <span>Barrio Abajo</span> - Entre calles 43 y
+                        45.
+                      </li>
+                      <li>
+                        Estacion <span>Parque Cultural</span> - Entre calles 36
+                        y 39.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="container card__Troncales">
-          <div className="row">
-            <div className="col-4 ">
-              <h3>TRONCAL OLAYA HERRERA</h3>
-              <div className="cars-ico">
-                <img
-                  src="http://localhost:1337/uploads/icosn_05_5f87539d14.png"
-                  alt=""
-                />
+
+        {/* Card Alimentadoras */}
+        <div className="container">
+          <div
+            className="containerr"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px',
+            }}
+          >
+            <div
+              className="card"
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '20px 20px 0 0',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+                borderTop: 'none',
+              }}
+            >
+              <div className="card-body">
+                <p className="card-text">
+                  Estos servicios conectan a los usuarios ubicados en barrios
+                  alejados de las troncales a través de las estaciones del
+                  Sistema o de paraderos cercanos a estas con la posibilidad de
+                  hacer transbordos a los servicios troncales sin ningún costo
+                  adicional para el ciudadano
+                </p>
               </div>
             </div>
-            <div className="col-8 order-1">
-              <ol>
-                <li>
-                  Estacion retorno <span>Joe Arroyo</span> - Carrera 46 con
-                  calle 74.
-                </li>
-                <li>
-                  Estacion <span>Esthercita Forero</span> - Entre calles 69 y
-                  70.
-                </li>
-                <li>
-                  Estacion <span>Alfredo Correa De Andréis</span> - Entre calles
-                  60 y 62.
-                </li>
-                <li>
-                  Estacion <span>La Catedral</span> - Entre calles 50 y 53.
-                </li>
-                <li>
-                  Estacion <span>Barrio Abajo</span> - Entre calles 43 y 45.
-                </li>
-                <li>
-                  Estacion <span>Parque Cultural</span> - Entre calles 36 y 39.
-                </li>
-              </ol>
+
+            <div
+              className="card"
+              style={{
+                border: '2px solid #004f9f',
+                borderRadius: '20px',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+                marginBottom: '20px',
+              }}
+            >
+              <div className="card-body">
+                <div className="row  g-0">
+                  <div className="col-md-6  ">
+                    <h3>RUTAS ALIMENTADORAS</h3>
+                    <div className="cars-ico ">
+                      <img
+                        src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6 ">
+                    <ol>
+                      <li>
+                        Estacion retorno <span>Joe Arroyo</span> - Carrera 46
+                        con calle 74.
+                      </li>
+                      <li>
+                        Estacion <span>Esthercita Forero</span> - Entre calles
+                        69 y 70.
+                      </li>
+                      <li>
+                        Estacion <span>Alfredo Correa De Andréis</span> - Entre
+                        calles 60 y 62.
+                      </li>
+                      <li>
+                        Estacion <span>La Catedral</span> - Entre calles 50 y
+                        53.
+                      </li>
+                      <li>
+                        Estacion <span>Barrio Abajo</span> - Entre calles 43 y
+                        45.
+                      </li>
+                      <li>
+                        Estacion <span>Parque Cultural</span> - Entre calles 36
+                        y 39.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -248,22 +539,22 @@ const Info = () => {
           </Link>
         </div>
         <div className="container__card-noti">
-          {noti.map((noti) => (
+          {noti.map((notis) => (
             <div className="cards" key={noti.id}>
               <figure>
                 <img
-                  src={`http://localhost:1337${noti.image.url}`}
-                  alt={noti.alt}
+                  src={`http://localhost:1337${notis.image.url}`}
+                  alt={notis.alt}
                 />
                 <div className="linea-colores1" />
               </figure>
 
               <div className="contenido-card-noti">
-                <small className="text-muted">Fecha: {noti.date}</small>
-                <h3>{noti.title}</h3>
+                <small className="text-muted">Fecha: {notis.date}</small>
+                <h3>{notis.title}</h3>
                 {/* <p>{noti.content}</p> */}
                 <Link
-                  to={`/noticias/${noti.slug}`}
+                  to={`/noticias/${notis.slug}`}
                   role="button"
                   className="btn btn-outline-primary"
                   alt="Ver Noticia"
@@ -280,31 +571,36 @@ const Info = () => {
 
       {/* Movilizados */}
       <div className="container-fluid card__Movi">
-        {/*  <img
-          src="http://localhost:1337/uploads/Recurso_2_4424b1663a.png"
-          className="card-img"
-          alt="usuaria con tarjeta transmetro"
-        /> */}
-      </div>
-      <div className="container-fluid">
-        <div className="row card__Movil">
-          <img
-            src="http://localhost:1337/uploads/icosn_06_c2501f2cb4.png"
-            className="col-10 "
-            alt="usuaria con tarjeta transmetro"
-          />
-        </div>
-        <div className="row justify-content-end">
-          <div className="col-10 car__Movi-1">
-            <h4> Usuarios Movilizados</h4>
+        <div className="row justify-content-center ">
+          <div className="card mb-3 movilizado ">
+            <div className="row g-0 ">
+              <div className="col-md-6">
+                <div className="card-body  usu-movilizados">
+                  <h2 className="card-text text-center">
+                    Usuarios
+                    <strong className="text-danger"> movilizados</strong>
+                  </h2>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="card-body">
+                  <img
+                    src="http://34.125.209.125/uploads/bus_movilizados_98caf0019d.png"
+                    alt="Bus Transmetro"
+                  />
+                  <h2 className="card-title text">
+                    <strong className="text-danger">350.718.296</strong>{' '}
+                  </h2>
+                  <p className="card-text">
+                    Desde el 10 de Julio de 2010 hasta el 2 de Enero de 2022
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="row justify-content-end">
-          <div className="col-6 car__Movi-2">
-            <h4>123.321</h4>
-          </div>
-        </div>
       </div>
+      {/* Fin Movilizados */}
     </>
   );
 };

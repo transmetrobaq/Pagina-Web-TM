@@ -38,7 +38,11 @@ function Breadcrumb() {
           const isLast = index === crumbs.length - 1;
 
           return isLast ? (
-            <li className="breadcrumb-item active" aria-current="page">
+            <li
+              className="breadcrumb-item active"
+              aria-current="page"
+              key={name}
+            >
               {capatilize(name)}
             </li>
           ) : (
