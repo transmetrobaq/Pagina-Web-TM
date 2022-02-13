@@ -10,16 +10,20 @@ const Header = () => {
   const [noti3, setNoti3] = useState([]);
   const [start] = useState(0);
   const [limit] = useState(3);
-  const AP = `http://34.125.209.125/api/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
-  /* const AP = `http://34.125.92.175/api/noticias`; */
+  const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
+  /* const AP = `http://34.125.209.125/api/noticias`; */
+  /* const AP = `http://34.125.92.175/api/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`; */
+  /* console.log(AP); */
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const resnoti = await axios.get(AP);
-
-    setNoti1(resnoti.data.data[0].attributes);
+    setNoti1(resnoti.data[0]);
+    setNoti2(resnoti.data[1]);
+    setNoti3(resnoti.data[2]);
+    /*  setNoti1(resnoti.data.data[0].attributes);
     setNoti2(resnoti.data.data[1].attributes);
-    setNoti3(resnoti.data.data[2].attributes);
-    /* console.log(resnoti); */
+    setNoti3(resnoti.data.data[2].attributes); */
+    console.log(resnoti.data[0]);
     /* console.log(resnoti.data.data[1].attributes); */
     /* console.log(setNoti2); */
   }, [start, limit]);
@@ -56,9 +60,9 @@ const Header = () => {
       </div> */}
 
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item active" key={noti1.id}>
           <img
-            src={`http://34.125.209.125${noti1.url}`}
+            src={`https://apiwebtm.com${noti1.url}`}
             className="d-block w-100"
             alt="{noti1.alt}"
           />
@@ -74,14 +78,14 @@ const Header = () => {
           </div>
         </div>
         <div className="carousel-item">
-          <img
-            src={`http://34.125.209.125${noti2.url}`}
+          {/*   <img
+            src={`https://apiwebtm.com${noti2.url}`}
             className="d-block w-100"
             alt="{noti2.alt}"
-          />
+          /> */}
           <div className="card carrusel__cards carousel-control-prev">
             <div className="cards__body">
-              <h1 className="carrusel__title">{noti2.title}</h1>
+              {/*   <h1 className="carrusel__title">{noti2.title}</h1>
 
               <Link
                 to={`/noticias/${noti2.slug}`}
@@ -89,19 +93,19 @@ const Header = () => {
                 alt="Ver Noticia"
               >
                 Ver Noticia
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
         <div className="carousel-item">
-          <img
-            src={`http://34.125.209.125${noti3.url}`}
+          {/*    <img
+            src={`https://apiwebtm.com${noti3.url}`}
             className="d-block w-100"
             alt="{noti3.alt}"
-          />
+          /> */}
           <div className="card carrusel__cards carousel-control-prev">
             <div className="cards__body">
-              <h1 className="carrusel__title">{noti3.title}</h1>
+              {/*  <h1 className="carrusel__title">{noti3.title}</h1>
 
               <Link
                 to={`/noticias/${noti3.slug}`}
@@ -109,7 +113,7 @@ const Header = () => {
                 alt="Ver Noticia"
               >
                 Ver Noticia
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
