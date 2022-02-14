@@ -23,7 +23,7 @@ const Header = () => {
     /*  setNoti1(resnoti.data.data[0].attributes);
     setNoti2(resnoti.data.data[1].attributes);
     setNoti3(resnoti.data.data[2].attributes); */
-    console.log(resnoti.data[0]);
+
     /* console.log(resnoti.data.data[1].attributes); */
     /* console.log(setNoti2); */
   }, [start, limit]);
