@@ -78,14 +78,14 @@ const Header = () => {
           </div>
         </div>
         <div className="carousel-item">
-          {/*   <img
+          <img
             src={`https://apiwebtm.com${noti2.url}`}
             className="d-block w-100"
             alt="{noti2.alt}"
-          /> */}
+          />
           <div className="card carrusel__cards carousel-control-prev">
             <div className="cards__body">
-              {/*   <h1 className="carrusel__title">{noti2.title}</h1>
+              <h1 className="carrusel__title">{noti2.title}</h1>
 
               <Link
                 to={`/noticias/${noti2.slug}`}
@@ -93,19 +93,19 @@ const Header = () => {
                 alt="Ver Noticia"
               >
                 Ver Noticia
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>
         <div className="carousel-item">
-          {/*    <img
+          <img
             src={`https://apiwebtm.com${noti3.url}`}
             className="d-block w-100"
             alt="{noti3.alt}"
-          /> */}
+          />
           <div className="card carrusel__cards carousel-control-prev">
             <div className="cards__body">
-              {/*  <h1 className="carrusel__title">{noti3.title}</h1>
+              <h1 className="carrusel__title">{noti3.title}</h1>
 
               <Link
                 to={`/noticias/${noti3.slug}`}
@@ -113,7 +113,7 @@ const Header = () => {
                 alt="Ver Noticia"
               >
                 Ver Noticia
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>

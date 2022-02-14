@@ -11,25 +11,17 @@ import '../styles/components/Noticias.css';
 const Noticias = () => {
   const [noti, setNoti] = useState([]);
   const [start, setStart] = useState(0);
-  const [limit] = useState(2);
-  /* const AP = `http://34.125.209.125/api/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`; */
-  const AP = `http://34.125.209.125/api/noticias`;
+  const [limit] = useState(5);
+  const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
+  /* const AP = `http://34.125.209.125/api/noticias`; */
 
   const [totalCount, setTotalCount] = useState([]);
-  const nextPage = () => {
-    setStart(limit + start);
-  };
 
-  const prevPage = () => {
-    setStart(start - limit);
-  };
-  /* const _start = nextPage;
-  const _limit = prevPage; */
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const resnoti = await axios.get(AP);
-    setNoti(resnoti.data.data.slice(start, limit));
-
+    /* setNoti(resnoti.data.data.slice(start, limit)); */
+    setNoti(resnoti.data);
     /* Get Total de Arrays */
     const resCount = await axios.get(`http://34.125.209.125/api/noticias`);
     setTotalCount(resCount.data.meta.pagination.total);
@@ -37,15 +29,13 @@ const Noticias = () => {
   }, [start, limit]);
   console.log(totalCount);
 
-  console.log(AP);
-
-  /*  const nextPage = () => {
+  const nextPage = () => {
     setStart(limit + start);
   };
 
   const prevPage = () => {
     setStart(start - limit);
-  }; */
+  };
 
   console.log(noti);
 
@@ -55,29 +45,27 @@ const Noticias = () => {
         ? noti.map((notis) => (
             <article className="nt ligth blue" key={notis.id}>
               <img
-                src={`http://34.125.209.125${notis.attributes.url}`}
+                src={`https://apiwebtm.com${notis.url}`}
                 className="nt__img"
-                alt={notis.attributes.alt}
+                alt={notis.alt}
               />
 
               <div className="nt__text">
-                <h3 className="nt__title">{notis.attributes.title}</h3>
+                <h3 className="nt__title">{notis.title}</h3>
                 <div>
                   <time>
                     <p className="card-text">
-                      <small className="text-muted">
-                        Fecha: {notis.attributes.date}
-                      </small>
+                      <small className="text-muted">Fecha: {notis.date}</small>
                     </p>
                   </time>
                 </div>
                 <div className="nt__bar" />
                 <div className="nt__preview-txt">
-                  <p>{notis.attributes.content.slice(0, 200)}...</p>
+                  <p>{notis.Content.slice(0, 200)}...</p>
                 </div>
                 <div>
                   <Link
-                    to={`/noticias/${notis.attributes.slug}`}
+                    to={`/noticias/${notis.slug}`}
                     role="button"
                     className="btn btn-outline-primary"
                     alt="Ver Noticia"
