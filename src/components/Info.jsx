@@ -8,14 +8,14 @@ const Info = () => {
   const [noti, setNoti] = useState([]);
   const [start] = useState(0);
   const [limit] = useState(3);
-  const AP = `http://localhost:1337/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
-
+  /* const AP = `http://localhost:1337/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`; */
+  const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const resnoti = await axios.get(AP);
     setNoti(resnoti.data);
   }, [start, limit]);
-
+  console.log(noti.url);
   return (
     <>
       <div className="wave">
@@ -540,12 +540,9 @@ const Info = () => {
         </div>
         <div className="container__card-noti">
           {noti.map((notis) => (
-            <div className="cards" key={noti.id}>
+            <div className="cards" key={notis.id}>
               <figure>
-                <img
-                  src={`http://localhost:1337${notis.image.url}`}
-                  alt={notis.alt}
-                />
+                <img src={`https://apiwebtm.com${notis.url}`} alt={notis.alt} />
                 <div className="linea-colores1" />
               </figure>
 
