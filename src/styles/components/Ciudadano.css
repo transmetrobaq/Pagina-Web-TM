@@ -466,7 +466,7 @@ verde */
 }
 
 .preguntas-tm .respuestas-content {
-  /* max-height: 0; */
+  max-height: 0;
   padding: 0 1em;
   background: white;
   transition: all 0.35s;
@@ -498,7 +498,7 @@ verde */
 }
 
 .preguntas-tm input:checked ~ .respuestas-content {
-  /* max-height: 100vh; */
+  max-height: 100vh;
   max-width: auto;
   padding: 1em;
 }
@@ -513,4 +513,11 @@ verde */
 .titulo-preguntas h1 {
   font-size: 35px;
   font-weight: bold;
+}
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  .preguntas-tm input:checked ~ .respuestas-content {
+    max-height: 400vh;
+    max-width: auto;
+    padding: 1em;
+  }
 }

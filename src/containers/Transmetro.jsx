@@ -23,7 +23,7 @@ const Transmetro = () => {
               coordinado por la Cámara de Comercio de Barranquilla.
             </p>
             <img
-              src="http://34.125.209.125/uploads/Acerca_de_6d78f28a2f.jpg"
+              src="https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg"
               className="col-md-6 float-md-end mb-3 ms-md-3 rounded-start "
               alt="Buses Transmetro"
             />
@@ -97,7 +97,7 @@ const Transmetro = () => {
           <h2 className="text-center"> Asamblea de Socios</h2>
           <figure>
             <img
-              src="http://34.125.209.125/uploads/Asamblea_a7e6810fc1.png"
+              src="https://apiwebtm.com/uploads/Asamblea_588b9ec063.png"
               alt="Asamblea"
               className="card-img"
             />
@@ -122,7 +122,7 @@ const Transmetro = () => {
               <div className="card-body ">
                 <img
                   alt="hombre señalando titulo"
-                  src="http://34.125.209.125/uploads/Obj_Estra_6de89c973d.png"
+                  src="https://apiwebtm.com/uploads/Obj_Estra_743c30512f.png"
                 />
               </div>
             </div>
@@ -266,7 +266,7 @@ const Transmetro = () => {
             <div className="col-md-2 align-self-center">
               <img
                 alt="icono lupa"
-                src="http://34.125.209.125/uploads/Lupa_f032848b95.png"
+                src="https://apiwebtm.com/uploads/Lupa_9ea6eebe41.png"
               />
             </div>
           </div>
@@ -278,7 +278,7 @@ const Transmetro = () => {
               <div className="row">
                 <div className="col-md-2 align-self-center">
                   <img
-                    src="http://34.125.209.125/uploads/Recurso_3_e9d3e90064.png"
+                    src="https://apiwebtm.com/uploads/Recurso_3_cf8887466d.png"
                     alt="icono planilla"
                   />
                 </div>
@@ -358,7 +358,7 @@ const Transmetro = () => {
 
             <div className="col-md-2 align-self-center">
               <img
-                src="http://34.125.209.125/uploads/Recurso_4_4034a1a359.png"
+                src="https://apiwebtm.com/uploads/Recurso_4_c76c7fcac8.png"
                 alt="icono corazon"
               />
             </div>
@@ -373,7 +373,7 @@ const Transmetro = () => {
               <div className="row">
                 <div className="col-md-2 align-self-center">
                   <img
-                    src="http://34.125.209.125/uploads/Recurso_5_358f163079.png"
+                    src="https://apiwebtm.com/uploads/Recurso_5_1c7a4e581b.png"
                     alt="icono planilla"
                   />
                 </div>
@@ -442,7 +442,7 @@ const Transmetro = () => {
 
             <div className="col-md-2 align-self-center">
               <img
-                src="http://34.125.209.125/uploads/Recurso_6_36506838db.png"
+                src="https://apiwebtm.com/uploads/Recurso_6_01ae18a3af.png"
                 alt="icono planilla"
               />
             </div>
@@ -489,7 +489,7 @@ const Transmetro = () => {
                 <p className="text-derecha ">
                   <img
                     alt="logo recaudos sit"
-                    src="http://34.125.209.125/uploads/icosn_39_339f318377.png"
+                    src="https://apiwebtm.com/uploads/icosn_39_b38f16dfab.png"
                   />
                   El Sistema emplea un método de recaudo único a cargo de la
                   empresa Recaudos SIT Barranquilla, concesionario del Sistema
@@ -507,7 +507,7 @@ const Transmetro = () => {
                 <p className="text-derecha ">
                   <img
                     alt="logo sistur"
-                    src="http://34.125.209.125/uploads/icosn_40_3c06404744.png"
+                    src="https://apiwebtm.com/uploads/icosn_40_a4f85ba55c.png"
                   />
                   la cantidad de 10 o más hijos deseados para mantener la
                   herencia. Por otra parte la moda de la época, marcada por el
@@ -522,7 +522,7 @@ const Transmetro = () => {
                 <p className="text-derecha ">
                   <img
                     alt="logo transmetro"
-                    src="http://34.125.209.125/uploads/icosn_42_bf33a6a883.png"
+                    src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
                   />
                   TRANSMETRO S.A.S. es una sociedad por acciones constituida
                   entre entidades públicas, ubicada dentro de las sociedades por
@@ -599,8 +599,8 @@ const Transmetro = () => {
                   <h3>TRONCAL MURILLO</h3>
                   <div className="cars-ico">
                     <img
-                      src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                      alt=""
+                      src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                      alt="icono bus"
                     />
                   </div>
                 </div>
@@ -669,8 +669,8 @@ const Transmetro = () => {
                   <h3>TRONCAL OLAYA HERRERA</h3>
                   <div className="cars-ico ">
                     <img
-                      src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                      alt=""
+                      src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                      alt="icono bus"
                     />
                   </div>
                 </div>
@@ -754,8 +754,8 @@ const Transmetro = () => {
                   <h3>RUTAS ALIMENTADORAS</h3>
                   <div className="cars-ico ">
                     <img
-                      src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                      alt=""
+                      src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                      alt="icono bus"
                     />
                   </div>
                 </div>
@@ -816,7 +816,7 @@ const Transmetro = () => {
         <div className="row cont-infr">
           <div className="col-sm-4 text-center">
             <img
-              src="http://34.125.209.125/uploads/icosn_49_b063e37dbf.png"
+              src="https://apiwebtm.com/uploads/icosn_49_e68842dd46.png"
               alt="icono"
             />
             <div className="container linea-colores-peque" />
@@ -825,7 +825,7 @@ const Transmetro = () => {
           </div>
           <div className="col-sm-4  text-center">
             <img
-              src="http://34.125.209.125/uploads/icosn_43_9a1b2c7a37.png"
+              src="https://apiwebtm.com/uploads/icosn_43_faf8d5db31.png"
               alt="icono"
             />
             <div className="container linea-colores-peque" />
@@ -833,7 +833,7 @@ const Transmetro = () => {
           </div>
           <div className="col-sm-4  text-center">
             <img
-              src="http://34.125.209.125/uploads/icosn_46_e24038f25d.png"
+              src="https://apiwebtm.com/uploads/icosn_46_e433788e52.png"
               alt="icono"
             />
             <div className="container linea-colores-peque" />
@@ -844,7 +844,7 @@ const Transmetro = () => {
         <div className="row cont-infr">
           <div className="col-sm-4 text-center">
             <img
-              src="http://34.125.209.125/uploads/icosn_48_d013e219fb.png"
+              src="https://apiwebtm.com/uploads/icosn_48_7194edb295.png"
               alt="icono"
             />
             <div className="container linea-colores-peque" />
@@ -853,7 +853,7 @@ const Transmetro = () => {
           </div>
           <div className="col-sm-4  text-center">
             <img
-              src="http://34.125.209.125/uploads/icosn_44_03deee75d1.png"
+              src="https://apiwebtm.com/uploads/icosn_44_d03171c121.png"
               alt="icono"
             />
             <div className="container linea-colores-peque" />
@@ -864,7 +864,7 @@ const Transmetro = () => {
           </div>
           <div className="col-sm-4  text-center">
             <img
-              src="http://34.125.209.125/uploads/icosn_47_01ab65445b.png"
+              src="https://apiwebtm.com/uploads/icosn_47_7b564c98a2.png"
               alt="icono"
             />
             <div className="container linea-colores-peque" />
@@ -874,81 +874,124 @@ const Transmetro = () => {
       </div>
 
       {/* Movilizados */}
-
-      <div className="container">
-        <div className="card mb-3 movilizado">
-          <div className="row g-0 ">
-            <div className="col-md-6">
-              <div className="card-body  usu-movilizados">
-                <h2 className="card-text text-center">
-                  Usuarios
-                  <strong className="text-danger"> movilizados</strong>
-                </h2>
+      <div className="container-fluid card__Movi">
+        <div className="row justify-content-center ">
+          <div className="card mb-3 movilizado ">
+            <div className="row g-0 ">
+              <div className="col-md-6">
+                <div className="card-body  usu-movilizados">
+                  <h2 className="card-text text-center">
+                    Usuarios
+                    <strong className="text-danger"> movilizados</strong>
+                  </h2>
+                </div>
               </div>
-            </div>
-            <div className="col-md-6">
-              <div className="card-body">
-                <img
-                  src="http://34.125.209.125/uploads/bus_movilizados_98caf0019d.png"
-                  alt="Bus Transmetro"
-                />
-                <h2 className="card-title text">
-                  <strong className="text-danger">350.718.296</strong>{' '}
-                </h2>
-                <p className="card-text">
-                  Desde el 10 de Julio de 2010 hasta el 2 de Enero de 2022
-                </p>
+              <div className="col-md-6">
+                <div className="card-body">
+                  <img
+                    src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
+                    alt="Bus Transmetro"
+                  />
+                  <h2 className="card-title text">
+                    <strong className="text-danger">350.718.296</strong>{' '}
+                  </h2>
+                  <p className="card-text">
+                    Desde el 10 de Julio de 2010 hasta el 2 de Enero de 2022
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      {/* Fin Movilizados */}
 
       <div className="container">
         {/* <!-- Button trigger modal --> */}
-        <button
+        {/*  <button
           type="button"
           className="btn btn-primary "
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
           Encuesta
-        </button>
+        </button> */}
 
-        {/* <!-- Modal --> */}
-        <div
-          className="modal fade"
-          id="exampleModal"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">
-                  Encuestas Transmetro
-                </h5>
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                />
-              </div>
-              <div className="modal-body ">
-                {/*  <iframe
+        {/* Encuestas Ciudadano */}
+        <div className="container" style={{ marginBottom: '65px' }}>
+          <div className="row cd">
+            <div className="card">
+              <div className="card-body">
+                <h3 className="card-title">Encuesta</h3>
+                <figure className="col-md-12 ">
+                  <center>
+                    <img
+                      src="https://apiwebtm.com/uploads/Encuesta_7366385556.png"
+                      className="img-fluid rounded-start center-block"
+                      alt="imagen de encuesta"
+                      style={{ width: '20%' }}
+                    />
+                  </center>
+                </figure>
+                <div className="container">
+                  {/* <!-- Button trigger modal --> */}
+                  <center>
+                    <button
+                      type="button"
+                      className="btn btn-success"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      style={{
+                        marginTop: '20px',
+                        fontSize: '18px',
+                        width: '200px',
+                      }}
+                    >
+                      <span style={{ textTransform: 'uppercase' }}>
+                        Encuesta de
+                      </span>{' '}
+                      Participacion Ciudadana
+                    </button>
+                  </center>
+                  {/* <!-- Modal --> */}
+                  <div
+                    className="modal fade"
+                    id="exampleModal"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div className="modal-dialog">
+                      <div className="modal-content">
+                        <div className="modal-header">
+                          <h5 className="modal-title" id="exampleModalLabel">
+                            Encuestas Transmetro
+                          </h5>
+                          <button
+                            type="button"
+                            className="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          />
+                        </div>
+                        <div className="modal-body ">
+                          {/*  <iframe
                   src="https://us20.list-manage.com/survey?u=82026dcd7051db356ac870607&id=305155383f&attribution=false"
                   style={{ width: '100%', height: '600px ' }}
                 />  */}
-              </div>
-              <div className="modal-footer">
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Cerrar
-                </button>
+                        </div>
+                        <div className="modal-footer">
+                          <button
+                            type="button"
+                            className="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

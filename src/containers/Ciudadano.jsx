@@ -529,7 +529,7 @@ const Ciudadano = () => {
                 <figure className="col-md-12 ">
                   <center>
                     <img
-                      src="http://34.125.209.125/uploads/Encuesta_e9571a25f4.png"
+                      src="https://apiwebtm.com/uploads/Encuesta_7366385556.png"
                       className="img-fluid rounded-start center-block"
                       alt="imagen de encuesta"
                       style={{ width: '20%' }}
@@ -652,7 +652,7 @@ const Ciudadano = () => {
               </div>
               <figure className="col-md-4 ">
                 <img
-                  src="http://34.125.209.125/uploads/Estudiante_031558d2f6.png"
+                  src="https://apiwebtm.com/uploads/Estudiante_4743d0456d.png"
                   className="img-fluid rounded-start center-block"
                   alt="..."
                 />

@@ -202,7 +202,7 @@ const Info = () => {
                 <div className="row  g-0 ">
                   <center className="col-md-3 ">
                     <img
-                      src="http://34.125.209.125/uploads/Lavado_de_manos_8c57c76e31.png"
+                      src="https://apiwebtm.com/uploads/Lavado_de_manos_7a58441131.png"
                       alt="icono lavado de manos"
                       style={{ width: '40%' }}
                     />
@@ -210,7 +210,7 @@ const Info = () => {
                   </center>
                   <center className="col-md-3  ">
                     <img
-                      src="http://34.125.209.125/uploads/Mascarilla_f99c0ef375.png"
+                      src="https://apiwebtm.com/uploads/Mascarilla_ee3b44234e.png"
                       alt="icnono Uso mascarilla"
                       style={{ width: '40%' }}
                     />
@@ -218,7 +218,7 @@ const Info = () => {
                   </center>
                   <center className="col-md-3  ">
                     <img
-                      src="http://34.125.209.125/uploads/Desinfeccion_99d7ebbe74.png"
+                      src="https://apiwebtm.com/uploads/Desinfeccion_846d77751e.png"
                       alt="icono Limpie y desinfecte"
                       style={{ width: '40%' }}
                     />
@@ -226,7 +226,7 @@ const Info = () => {
                   </center>
                   <center className="col-md-3  ">
                     <img
-                      src="http://34.125.209.125/uploads/Destancia_745837c724.png"
+                      src="https://apiwebtm.com/uploads/Destancia_d9347dfa76.png"
                       alt="icono Mantenga sana distancia"
                       style={{ width: '40%' }}
                     />
@@ -329,8 +329,8 @@ const Info = () => {
                     <h3>TRONCAL MURILLO</h3>
                     <div className="cars-ico">
                       <img
-                        src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                        alt=""
+                        src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                        alt="icono bus"
                       />
                     </div>
                   </div>
@@ -402,8 +402,8 @@ const Info = () => {
                     <h3>TRONCAL OLAYA HERRERA</h3>
                     <div className="cars-ico ">
                       <img
-                        src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                        alt=""
+                        src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                        alt="icono bus"
                       />
                     </div>
                   </div>
@@ -489,8 +489,8 @@ const Info = () => {
                     <h3>RUTAS ALIMENTADORAS</h3>
                     <div className="cars-ico ">
                       <img
-                        src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                        alt=""
+                        src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                        alt="icono bus"
                       />
                     </div>
                   </div>
@@ -582,7 +582,7 @@ const Info = () => {
               <div className="col-md-6">
                 <div className="card-body">
                   <img
-                    src="http://34.125.209.125/uploads/bus_movilizados_98caf0019d.png"
+                    src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
                     alt="Bus Transmetro"
                   />
                   <h2 className="card-title text">

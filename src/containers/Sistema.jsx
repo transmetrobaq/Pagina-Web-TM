@@ -6,330 +6,335 @@ const Sistema = () => (
   <div>
     {/*  <!--INFO BLOQUE  Mapa---> */}
 
-    {/* Mapa Troncal Bootstap */}
-    <div className="container ">
-      <div
-        className="mapa__Troncal"
-        style={{
-          border: '2px solid #004f9f',
-          borderRadius: '0px 30px 30px 30px',
-        }}
-      >
+    <div className="container">
+      {/* Mapa Troncal Bootstap */}
+      <div className="container ">
         <div
-          className="card "
+          className="mapa__Troncal"
           style={{
             border: '2px solid #004f9f',
-            borderRadius: '0px 0px 30px 30px',
-            borderLeft: 'none',
-            borderTop: 'none',
-            width: '40%',
-            backgroundColor: '#004f9f',
+            borderRadius: '0px 30px 30px 30px',
           }}
         >
-          <div className="card-body">
-            <h1 className="card-text text-center">Mapa Troncales</h1>
+          <div
+            className="card "
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '0px 0px 30px 30px',
+              borderLeft: 'none',
+              borderTop: 'none',
+              width: '40%',
+              backgroundColor: '#004f9f',
+            }}
+          >
+            <div className="card-body">
+              <h1 className="card-text text-center">Mapa Troncales</h1>
+            </div>
           </div>
-        </div>
 
-        <div
-          className="card "
-          style={{
-            border: '2px solid #004f9f',
-            borderRadius: '20px 20px 0 0',
-            borderBottom: 'none',
-            borderLeft: 'none',
-            borderRight: 'none',
-            borderTop: 'none',
-          }}
-        >
-          <div className="card-body">
-            <div className="row g-0">
-              <div className="col-md-12 ">
-                <div className="card-text text-center">
-                  <img
-                    className="mapa__Troncal-img"
-                    src="https://i.postimg.cc/4dbVfXgp/m1.jpg"
-                    alt="mapa troncales"
-                  />
+          <div
+            className="card "
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px 20px 0 0',
+              borderBottom: 'none',
+              borderLeft: 'none',
+              borderRight: 'none',
+              borderTop: 'none',
+            }}
+          >
+            <div className="card-body">
+              <div className="row g-0">
+                <div className="col-md-12 ">
+                  <div className="card-text text-center">
+                    <img
+                      className="mapa__Troncal-img"
+                      src="https://i.postimg.cc/4dbVfXgp/m1.jpg"
+                      alt="mapa troncales"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div
-          className="card"
-          style={{
-            border: '2px solid #004f9f',
-            borderRadius: '20px',
-            borderBottom: 'none',
-            borderLeft: 'none',
-            borderRight: 'none',
-            marginBottom: '20px',
-          }}
-        >
-          <div className="card-body">
-            <div className="row  g-0 align-items-center">
-              <div className="col-md-6  ">
-                <h3>TRONCALES</h3>
-              </div>
-              <div className="col-md-6  ">
-                <ul className="fa-ul">
-                  <li>
-                    <span className="fa-li">
-                      <i
-                        className="far fa-square"
-                        style={{ color: '#e30613' }}
-                      />
-                    </span>
-                    Troncal Murillo
-                  </li>
-                  <li>
-                    <span className="fa-li">
-                      <i
-                        className="far fa-square"
-                        style={{ color: '#00a13a' }}
-                      />
-                    </span>
-                    Troncal Olaya Herrera
-                  </li>
-                </ul>
+          <div
+            className="card"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px',
+              borderBottom: 'none',
+              borderLeft: 'none',
+              borderRight: 'none',
+              marginBottom: '20px',
+            }}
+          >
+            <div className="card-body">
+              <div className="row  g-0 align-items-center">
+                <div className="col-md-6  ">
+                  <h3>TRONCALES</h3>
+                </div>
+                <div className="col-md-6  ">
+                  <ul className="fa-ul">
+                    <li>
+                      <span className="fa-li">
+                        <i
+                          className="far fa-square"
+                          style={{ color: '#e30613' }}
+                        />
+                      </span>
+                      Troncal Murillo
+                    </li>
+                    <li>
+                      <span className="fa-li">
+                        <i
+                          className="far fa-square"
+                          style={{ color: '#00a13a' }}
+                        />
+                      </span>
+                      Troncal Olaya Herrera
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    {/* Cards Troncales */}
-    <div className="container">
-      <div
-        className="containerr"
-        style={{
-          border: '2px solid #004f9f',
-          borderRadius: '20px',
-        }}
-      >
+      {/* Cards Troncales */}
+      <div className="container">
         <div
-          className="card"
-          style={{
-            border: '2px solid #004f9f',
-            borderRadius: '20px 20px 0 0',
-            borderBottom: 'none',
-            borderLeft: 'none',
-            borderRight: 'none',
-            borderTop: 'none',
-          }}
-        >
-          <div className="card-body">
-            <p className="card-text">
-              Los servicios Troncales agilizan el traslado de los usuarios
-              porque transitan por carriles excusivos (Solo Bus) de las
-              troncales Murillo y Olaya Herrera para llevar a los ciudadanos a
-              las diferentes estaciones y portales con los que cuenta el Sistema
-              Masivo.
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="card "
-          style={{
-            border: '2px solid #004f9f',
-            borderRadius: '20px 20px 0 0',
-            borderBottom: 'none',
-            borderLeft: 'none',
-            borderRight: 'none',
-          }}
-        >
-          <div className="card-body">
-            <div className="row g-0">
-              <div className="col-md-3 ">
-                <h3>TRONCAL MURILLO</h3>
-                <div className="cars-ico">
-                  <img
-                    src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="col-md-9">
-                <ol>
-                  <li>
-                    Portal <span>de Soledad</span> - Calle 65 # 13 - 455
-                    (Soledad, Atl.).
-                  </li>
-                  <li>
-                    Estacion <span>Pedro Ramayá Beltran</span> - Entre carreras
-                    23 y Av. Circunvalar (Soledad, Atl.).
-                  </li>
-                  <li>
-                    Estacion <span>Pacho Galán</span> - Entre carreras 16 y 17
-                    (Soledad, Atl.).
-                  </li>
-                  <li>
-                    Estacion <span>Joaquin Barrios Polo</span> - Entre carreras
-                    1G y 2A.
-                  </li>
-                  <li>
-                    Estacion <span>Buenos Aires</span> - Entres carrera 7 y 7G.
-                  </li>
-                  <li>
-                    Estacion <span>LA Ocho</span> - Entre carreras 8 y 8C.
-                  </li>
-                  <li>
-                    Estacion <span>La Catorce</span> - Entre carreras 14 y 17.
-                  </li>
-                  <li>
-                    Estacion <span>La Veintiuna</span> - Entre carreras 20 y 21.
-                  </li>
-                  <li>
-                    Estacion <span>Atlántico</span> - Entre carreras 26 y 27.
-                  </li>
-                  <li>
-                    Estacion <span>Chiquinquirá</span> - Entre carreras 33 y 36.
-                  </li>
-                  <li>
-                    Estacion <span>La Arenosa</span> - Entre carreras 41 y 43.
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="card"
+          className="containerr"
           style={{
             border: '2px solid #004f9f',
             borderRadius: '20px',
-            borderBottom: 'none',
-            borderLeft: 'none',
-            borderRight: 'none',
-            marginBottom: '20px',
           }}
         >
-          <div className="card-body">
-            <div className="row  g-0">
-              <div className="col-md-6  ">
-                <h3>TRONCAL OLAYA HERRERA</h3>
-                <div className="cars-ico ">
-                  <img
-                    src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                    alt=""
-                  />
+          <div
+            className="card"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px 20px 0 0',
+              borderBottom: 'none',
+              borderLeft: 'none',
+              borderRight: 'none',
+              borderTop: 'none',
+            }}
+          >
+            <div className="card-body">
+              <p className="card-text">
+                Los servicios Troncales agilizan el traslado de los usuarios
+                porque transitan por carriles excusivos (Solo Bus) de las
+                troncales Murillo y Olaya Herrera para llevar a los ciudadanos a
+                las diferentes estaciones y portales con los que cuenta el
+                Sistema Masivo.
+              </p>
+            </div>
+          </div>
+
+          <div
+            className="card "
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px 20px 0 0',
+              borderBottom: 'none',
+              borderLeft: 'none',
+              borderRight: 'none',
+            }}
+          >
+            <div className="card-body">
+              <div className="row g-0">
+                <div className="col-md-3 ">
+                  <h3>TRONCAL MURILLO</h3>
+                  <div className="cars-ico">
+                    <img
+                      src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                      alt="icono bus"
+                    />
+                  </div>
+                </div>
+                <div className="col-md-9">
+                  <ol>
+                    <li>
+                      Portal <span>de Soledad</span> - Calle 65 # 13 - 455
+                      (Soledad, Atl.).
+                    </li>
+                    <li>
+                      Estacion <span>Pedro Ramayá Beltran</span> - Entre
+                      carreras 23 y Av. Circunvalar (Soledad, Atl.).
+                    </li>
+                    <li>
+                      Estacion <span>Pacho Galán</span> - Entre carreras 16 y 17
+                      (Soledad, Atl.).
+                    </li>
+                    <li>
+                      Estacion <span>Joaquin Barrios Polo</span> - Entre
+                      carreras 1G y 2A.
+                    </li>
+                    <li>
+                      Estacion <span>Buenos Aires</span> - Entres carrera 7 y
+                      7G.
+                    </li>
+                    <li>
+                      Estacion <span>LA Ocho</span> - Entre carreras 8 y 8C.
+                    </li>
+                    <li>
+                      Estacion <span>La Catorce</span> - Entre carreras 14 y 17.
+                    </li>
+                    <li>
+                      Estacion <span>La Veintiuna</span> - Entre carreras 20 y
+                      21.
+                    </li>
+                    <li>
+                      Estacion <span>Atlántico</span> - Entre carreras 26 y 27.
+                    </li>
+                    <li>
+                      Estacion <span>Chiquinquirá</span> - Entre carreras 33 y
+                      36.
+                    </li>
+                    <li>
+                      Estacion <span>La Arenosa</span> - Entre carreras 41 y 43.
+                    </li>
+                  </ol>
                 </div>
               </div>
-              <div className="col-md-6 ">
-                <ol>
-                  <li>
-                    Estacion retorno <span>Joe Arroyo</span> - Carrera 46 con
-                    calle 74.
-                  </li>
-                  <li>
-                    Estacion <span>Esthercita Forero</span> - Entre calles 69 y
-                    70.
-                  </li>
-                  <li>
-                    Estacion <span>Alfredo Correa De Andréis</span> - Entre
-                    calles 60 y 62.
-                  </li>
-                  <li>
-                    Estacion <span>La Catedral</span> - Entre calles 50 y 53.
-                  </li>
-                  <li>
-                    Estacion <span>Barrio Abajo</span> - Entre calles 43 y 45.
-                  </li>
-                  <li>
-                    Estacion <span>Parque Cultural</span> - Entre calles 36 y
-                    39.
-                  </li>
-                </ol>
+            </div>
+          </div>
+
+          <div
+            className="card"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px',
+              borderBottom: 'none',
+              borderLeft: 'none',
+              borderRight: 'none',
+              marginBottom: '20px',
+            }}
+          >
+            <div className="card-body">
+              <div className="row  g-0">
+                <div className="col-md-6  ">
+                  <h3>TRONCAL OLAYA HERRERA</h3>
+                  <div className="cars-ico ">
+                    <img
+                      src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                      alt="icono bus"
+                    />
+                  </div>
+                </div>
+                <div className="col-md-6 ">
+                  <ol>
+                    <li>
+                      Estacion retorno <span>Joe Arroyo</span> - Carrera 46 con
+                      calle 74.
+                    </li>
+                    <li>
+                      Estacion <span>Esthercita Forero</span> - Entre calles 69
+                      y 70.
+                    </li>
+                    <li>
+                      Estacion <span>Alfredo Correa De Andréis</span> - Entre
+                      calles 60 y 62.
+                    </li>
+                    <li>
+                      Estacion <span>La Catedral</span> - Entre calles 50 y 53.
+                    </li>
+                    <li>
+                      Estacion <span>Barrio Abajo</span> - Entre calles 43 y 45.
+                    </li>
+                    <li>
+                      Estacion <span>Parque Cultural</span> - Entre calles 36 y
+                      39.
+                    </li>
+                  </ol>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    {/* Card Alimentadoras */}
-    <div className="container">
-      <div
-        className="containerr"
-        style={{
-          border: '2px solid #004f9f',
-          borderRadius: '20px',
-        }}
-      >
+      {/* Card Alimentadoras */}
+      <div className="container">
         <div
-          className="card"
-          style={{
-            border: '2px solid #004f9f',
-            borderRadius: '20px 20px 0 0',
-            borderBottom: 'none',
-            borderLeft: 'none',
-            borderRight: 'none',
-            borderTop: 'none',
-          }}
-        >
-          <div className="card-body">
-            <p className="card-text">
-              Estos servicios conectan a los usuarios ubicados en barrios
-              alejados de las troncales a través de las estaciones del Sistema o
-              de paraderos cercanos a estas con la posibilidad de hacer
-              transbordos a los servicios troncales sin ningún costo adicional
-              para el ciudadano
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="card"
+          className="containerr"
           style={{
             border: '2px solid #004f9f',
             borderRadius: '20px',
-            borderBottom: 'none',
-            borderLeft: 'none',
-            borderRight: 'none',
-            marginBottom: '20px',
           }}
         >
-          <div className="card-body">
-            <div className="row  g-0">
-              <div className="col-md-6  ">
-                <h3>RUTAS ALIMENTADORAS</h3>
-                <div className="cars-ico ">
-                  <img
-                    src="http://34.125.209.125/uploads/icosn_05_a1503b3051.png"
-                    alt=""
-                  />
+          <div
+            className="card"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px 20px 0 0',
+              borderBottom: 'none',
+              borderLeft: 'none',
+              borderRight: 'none',
+              borderTop: 'none',
+            }}
+          >
+            <div className="card-body">
+              <p className="card-text">
+                Estos servicios conectan a los usuarios ubicados en barrios
+                alejados de las troncales a través de las estaciones del Sistema
+                o de paraderos cercanos a estas con la posibilidad de hacer
+                transbordos a los servicios troncales sin ningún costo adicional
+                para el ciudadano
+              </p>
+            </div>
+          </div>
+
+          <div
+            className="card"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px',
+              borderBottom: 'none',
+              borderLeft: 'none',
+              borderRight: 'none',
+              marginBottom: '20px',
+            }}
+          >
+            <div className="card-body">
+              <div className="row  g-0">
+                <div className="col-md-6  ">
+                  <h3>RUTAS ALIMENTADORAS</h3>
+                  <div className="cars-ico ">
+                    <img
+                      src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
+                      alt="icono bus"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="col-md-6 ">
-                <ol>
-                  <li>
-                    Estacion retorno <span>Joe Arroyo</span> - Carrera 46 con
-                    calle 74.
-                  </li>
-                  <li>
-                    Estacion <span>Esthercita Forero</span> - Entre calles 69 y
-                    70.
-                  </li>
-                  <li>
-                    Estacion <span>Alfredo Correa De Andréis</span> - Entre
-                    calles 60 y 62.
-                  </li>
-                  <li>
-                    Estacion <span>La Catedral</span> - Entre calles 50 y 53.
-                  </li>
-                  <li>
-                    Estacion <span>Barrio Abajo</span> - Entre calles 43 y 45.
-                  </li>
-                  <li>
-                    Estacion <span>Parque Cultural</span> - Entre calles 36 y
-                    39.
-                  </li>
-                </ol>
+                <div className="col-md-6 ">
+                  <ol>
+                    <li>
+                      Estacion retorno <span>Joe Arroyo</span> - Carrera 46 con
+                      calle 74.
+                    </li>
+                    <li>
+                      Estacion <span>Esthercita Forero</span> - Entre calles 69
+                      y 70.
+                    </li>
+                    <li>
+                      Estacion <span>Alfredo Correa De Andréis</span> - Entre
+                      calles 60 y 62.
+                    </li>
+                    <li>
+                      Estacion <span>La Catedral</span> - Entre calles 50 y 53.
+                    </li>
+                    <li>
+                      Estacion <span>Barrio Abajo</span> - Entre calles 43 y 45.
+                    </li>
+                    <li>
+                      Estacion <span>Parque Cultural</span> - Entre calles 36 y
+                      39.
+                    </li>
+                  </ol>
+                </div>
               </div>
             </div>
           </div>
@@ -465,7 +470,7 @@ const Sistema = () => (
           </div>
           <div className="col-md-4 tarj__Img">
             <img
-              src="https://s3.amazonaws.com/media.django.transmetro/news/tarjeta_la_novia_de_Barranquilla.jpg"
+              src="https://apiwebtm.com/uploads/tarjeta_la_novia_de_Barranquilla_3c5f0b139c.jpg"
               className=""
               alt="Estacion de Transmetro"
             />
@@ -483,7 +488,7 @@ const Sistema = () => (
             style={{ backgroundColor: '#004f9f' }}
           >
             <img
-              src="http://34.125.209.125/uploads/Recurso_1_a3adc8b23a.png"
+              src="https://apiwebtm.com/uploads/credito_9e6e099d6c.png"
               className="card-img-top"
               alt="..."
             />
@@ -523,7 +528,7 @@ const Sistema = () => (
             }}
           >
             <img
-              src="http://34.125.209.125/uploads/Recurso_2_6aa4c8d267.png"
+              src="https://apiwebtm.com/uploads/personalizacion_f07a455788.png"
               className="card-img-top"
               alt="..."
             />
@@ -668,9 +673,9 @@ const Sistema = () => (
           </div>
           <figure className="col-md-4 ">
             <img
-              src="http://34.125.209.125/uploads/cultura_3f97175923.png"
+              src="https://apiwebtm.com/uploads/cultura_ef186cfcf6.png"
               className="img-fluid rounded-start center-block"
-              alt="..."
+              alt="usuario en paradero"
             />
           </figure>
         </div>
@@ -702,7 +707,7 @@ const Sistema = () => (
           <div className="col-md-4">
             <div className="text-center ">
               <img
-                src="http://34.125.209.125/uploads/icosn_26_bdda29d53b.png"
+                src="https://apiwebtm.com/uploads/icosn_26_a906f6271a.png"
                 alt="icono bus articulado"
                 className="car__opera-img"
               />
@@ -712,7 +717,7 @@ const Sistema = () => (
           <div className="col-md-4">
             <div className="text-center ">
               <img
-                src="http://34.125.209.125/uploads/icosn_27_d865778c16.png"
+                src="https://apiwebtm.com/uploads/icosn_27_f82dcd614d.png"
                 alt="icono bus "
               />
               <h3> 85 padrones </h3>
@@ -721,7 +726,7 @@ const Sistema = () => (
           <div className="col-md-4">
             <div className="text-center ">
               <img
-                src="http://34.125.209.125/uploads/icosn_25_5e908f0234.png"
+                src="https://apiwebtm.com/uploads/icosn_25_3af655a391.png"
                 alt="icono bus "
               />
               <h3> 107 busetones </h3>
@@ -758,7 +763,7 @@ const Sistema = () => (
             <h2 className="card-text">24 Rutas Alimentadoras</h2>
 
             <img
-              src="http://34.125.209.125/uploads/icosn_29_66986f7934.png"
+              src="https://apiwebtm.com/uploads/icosn_29_3a3181e8d8.png"
               alt="icono bus "
             />
           </div>
@@ -776,7 +781,7 @@ const Sistema = () => (
       <div className="card car__info ">
         <div className="text-center">
           <img
-            src="http://34.125.209.125/uploads/icosn_50_18298c0084.png"
+            src="https://apiwebtm.com/uploads/icosn_50_a66554c381.png"
             alt="icono bus "
           />
           <div className="hr-card" />
@@ -790,7 +795,7 @@ const Sistema = () => (
       <div className="card car__info">
         <div className="text-center">
           <img
-            src="http://34.125.209.125/uploads/icosn_31_99cd8b6173.png"
+            src="https://apiwebtm.com/uploads/icosn_31_5f13bb7208.png"
             alt="icono bus "
           />
           <div className="hr-card" />
@@ -806,7 +811,7 @@ const Sistema = () => (
       <div className="card car__info ">
         <div className="text-center">
           <img
-            src="http://34.125.209.125/uploads/icosn_30_bc8082900c.png"
+            src="https://apiwebtm.com/uploads/icosn_30_8209b17d3c.png"
             alt="icono bus "
           />
           <div className="hr-card" />
@@ -820,7 +825,7 @@ const Sistema = () => (
       <div className=" card car__info">
         <div className="text-center">
           <img
-            src="http://34.125.209.125/uploads/icosn_32_335abfcb58.png"
+            src="https://apiwebtm.com/uploads/icosn_32_e85865ae5d.png"
             alt="icono bus "
           />
           <div className="hr-card" />
@@ -858,7 +863,7 @@ const Sistema = () => (
           <div className="col ">
             <div className="card car__Acce-card h-100  align-items-center">
               <img
-                src="http://34.125.209.125/uploads/icosn_33_62ed07b4e2.png"
+                src="https://apiwebtm.com/uploads/icosn_33_959cd9c678.png"
                 alt="icono accesibilidad "
               />
               <div className="card-body">
@@ -874,7 +879,7 @@ const Sistema = () => (
           <div className="col">
             <div className="card  car__Acce-card h-100 align-items-center">
               <img
-                src="http://34.125.209.125/uploads/icosn_35_5d00165560.png"
+                src="https://apiwebtm.com/uploads/icosn_35_70844bdef4.png"
                 alt="icono accesibilidad "
               />
               <div className="card-body">
@@ -892,7 +897,7 @@ const Sistema = () => (
           <div className="col">
             <div className="card  car__Acce-card h-100 align-items-center">
               <img
-                src="http://34.125.209.125/uploads/icosn_37_070448cbbf.png"
+                src="https://apiwebtm.com/uploads/icosn_37_5ce3c5bb37.png"
                 alt="icono accesibilidad "
               />
               <div className="card-body">
@@ -909,7 +914,7 @@ const Sistema = () => (
           <div className="col">
             <div className="card  car__Acce-card  h-100 align-items-center">
               <img
-                src="http://34.125.209.125/uploads/icosn_34_342e532aa4.png"
+                src="https://apiwebtm.com/uploads/icosn_34_8b71171ea5.png"
                 alt="icono accesibilidad "
               />
               <div className="card-body">
@@ -926,7 +931,7 @@ const Sistema = () => (
           <div className="col">
             <div className="card  car__Acce-card  h-100 align-items-center">
               <img
-                src="http://34.125.209.125/uploads/icosn_36_02fbe01ad0.png"
+                src="https://apiwebtm.com/uploads/icosn_36_aeee2d0512.png"
                 alt="icono accesibilidad "
               />
               <div className="card-body">
@@ -943,7 +948,7 @@ const Sistema = () => (
           <div className="col">
             <div className="card  car__Acce-card  h-100 align-items-center">
               <img
-                src="http://34.125.209.125/uploads/icosn_38_a1d48b4c78.png"
+                src="https://apiwebtm.com/uploads/icosn_38_9e4092666f.png"
                 alt="icono accesibilidad "
               />
               <div className="card-body">
