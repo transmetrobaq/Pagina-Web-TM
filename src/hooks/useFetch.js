@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const API = 'http://localhost:1337/manual';
 const API1 = 'http://localhost:1337/quests';
-const API2 = 'http://localhost:1337/noticias';
+const API2 = 'https://apiwebtm.com/noticias';
 const useFetch = () => {
   const [manual, setManual] = useState([]);
   const [quest, setQuest] = useState([]);

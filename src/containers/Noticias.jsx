@@ -11,9 +11,8 @@ import '../styles/components/Noticias.css';
 const Noticias = () => {
   const [noti, setNoti] = useState([]);
   const [start, setStart] = useState(0);
-  const [limit] = useState(5);
+  const [limit] = useState(2);
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
-  /* const AP = `http://34.125.209.125/api/noticias`; */
 
   const [totalCount, setTotalCount] = useState([]);
 
@@ -23,11 +22,11 @@ const Noticias = () => {
     /* setNoti(resnoti.data.data.slice(start, limit)); */
     setNoti(resnoti.data);
     /* Get Total de Arrays */
-    const resCount = await axios.get(`http://34.125.209.125/api/noticias`);
-    setTotalCount(resCount.data.meta.pagination.total);
-    /*  console.log(resCount.data.meta); */
+    const resCount = await axios.get(`https://apiwebtm.com/noticias/count`);
+    setTotalCount(resCount.data);
+    /* console.log(resCount.data); */
   }, [start, limit]);
-  console.log(totalCount);
+  /* console.log(totalCount); */
 
   const nextPage = () => {
     setStart(limit + start);
@@ -36,8 +35,6 @@ const Noticias = () => {
   const prevPage = () => {
     setStart(start - limit);
   };
-
-  console.log(noti);
 
   return (
     <div className="container py-2">

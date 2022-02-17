@@ -308,46 +308,35 @@ verde */
 
 /* <!-- DATOS DE INFRSESTRUCTURA bloque 2 --> */
 
-.cont-a {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+.car__port {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
-.portal1 {
-  border: 2px solid #002856;
+.car__port-infra {
+  border: 2px solid #004f9f;
   border-radius: 20px;
-  width: 28.5vw;
-  /* margin-left: 10px; */
-  padding-bottom: 5px;
-  /* word-wrap: break-word; */
   padding: 10px;
-  margin-top: 10px;
 }
-
-.cont-a h3 {
+.car__port-infra img {
+  width: 30%;
+  margin-left: 15px;
+}
+.car__port-infra h3 {
   color: #002856;
   font-size: 2vw;
   font-weight: bold;
 }
 
-.dato-ico {
-  color: rgb(177, 10, 10);
-  font-size: 5vw;
-}
-
-.dato-ico2 {
-  color: yellow;
-  font-size: 5vw;
-}
-
-.dato-ico3 {
-  color: green;
-  font-size: 5vw;
-}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .cont-a h3 {
-    font-size: 2.5vw;
+  .car__port-infra h3 {
+    font-size: 18px;
+  }
+  .car__port-infra img {
+    width: 20%;
+  }
+  .car__port-infra {
+    width: 60%;
+    margin: 0 auto;
   }
 }
 /* --------------------- */
@@ -484,7 +473,7 @@ a:hover i {
   background-color: transparent;
   background-size: 100% 100%;
   height: 80vw;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .movilizado {
   box-shadow: 0px 1px 5px 3px rgba(64, 64, 64, 0.37);
@@ -494,6 +483,7 @@ a:hover i {
   transition: all 400ms ease-out;
   cursor: default;
   margin-top: 905px;
+
   width: 90%;
 }
 .movilizado h2 {
@@ -515,8 +505,14 @@ a:hover i {
   width: 26%;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+/* @media only screen and (min-width: 320px) and (max-width: 2048px) {
   .movilizado {
     margin-top: 200px;
   }
-}
+  .movilizado h2 {
+    font-size: 5vw;
+  }
+  .usu-movilizados {
+    margin: 10px;
+  }
+} */

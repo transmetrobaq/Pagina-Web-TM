@@ -791,25 +791,44 @@ const Transmetro = () => {
         </div>
       </div>
 
-      {/* <!-- DATOS DE INFRSESTRUCTURA bloque 2 --> */}
-
-      <div className="container">
-        <div className="row cont-a justify-content-evenly">
-          <div className="col-4 portal1 text-center">
-            <h3>PORTAL DE SOLEDAD</h3>
-            <i className="fas fa-directions fa-3x dato-ico" alt="" />
+      {/*  <!-- DATOS DE INFRSESTRUCTURA bloque 2 --> */}
+      <div className="container car__port">
+        <div className="row row-cols-1 row-cols-md-3 g-4 ">
+          <div className="col ">
+            <div className="card car__port-infra  h-100">
+              <div className="card-body">
+                <h3 className="card-title">PORTAL DE SOLEDAD</h3>
+              </div>
+              <img
+                src="https://apiwebtm.com/uploads/icon_portal_rojo_a77a466c0b.png"
+                alt="icono"
+              />
+            </div>
           </div>
-          <div className="col-4 portal1 text-center">
-            <h3>PORTAL DE BARRANQUILLITA</h3>
-            <i className="fas fa-directions fa-3x dato-ico2" alt="" />
+          <div className="col">
+            <div className="card car__port-infra  h-100">
+              <div className="card-body">
+                <h3 className="card-title">PORTAL BARRANQUILLITA</h3>
+              </div>
+              <img
+                src="https://apiwebtm.com/uploads/icon_portal_A_f0df37cb97.png"
+                alt="icono"
+              />
+            </div>
           </div>
-          <div className="col-4 portal1 text-center">
-            <h3>ESTACION JOE ARROYO</h3>
-            <i className="fas fa-directions fa-3x dato-ico3" alt="" />
+          <div className="col">
+            <div className="card car__port-infra  h-100">
+              <div className="card-body">
+                <h3 className="card-title">PORTAL DE SOLEDAD</h3>
+              </div>
+              <img
+                src="https://apiwebtm.com/uploads/icon_estacion_V_c6b7ce1a82.png"
+                alt="icono"
+              />
+            </div>
           </div>
         </div>
       </div>
-
       {/* <!-- DATOS DE INFRAESTRUCTURA bloque 3 --> */}
 
       <div className="container ">
