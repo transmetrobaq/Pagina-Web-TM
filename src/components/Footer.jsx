@@ -28,7 +28,10 @@ const Footer = () => {
                     <li>Sujeto a modificacion</li>
                   </ul>
                 </div>
-                <div className="contact__us-info" style={{ marginTop: '50px' }}>
+                <div
+                  className="contact__us-info"
+                  style={{ marginTop: '50px', marginBottom: '50px' }}
+                >
                   <h3>POLITICAS WEB</h3>
                   <ul className="fa-ul">
                     <li>

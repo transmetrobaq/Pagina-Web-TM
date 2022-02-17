@@ -5,6 +5,7 @@
 =============================*/
 .footer-social-link {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .footer-social-link h3 {
   color: #002856;
@@ -78,7 +79,7 @@
 }
 
 .contact__us-info {
-  margin-left: 35px;
+  margin-left: 10px;
   color: #002856;
   position: relative;
 }
@@ -206,6 +207,7 @@
 .copyright p {
   color: #002856;
   margin-top: 25px;
+  margin-left: 10px;
 }
 
 .copyright-img1 {
