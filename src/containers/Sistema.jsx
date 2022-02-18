@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/components/Sistema.css';
 
 const Sistema = () => (
@@ -599,6 +600,16 @@ const Sistema = () => (
           alt="YouTube video player"
         />
       </div>
+      <center style={{ marginTop: '20px' }}>
+        <Link
+          to="/sistema/transbordos"
+          role="button"
+          className="btn btn-outline-primary"
+          alt="Ver Noticia"
+        >
+          Mas informacion...
+        </Link>
+      </center>
     </div>
 
     {/* <div className="container">

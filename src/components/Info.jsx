@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -15,7 +16,7 @@ const Info = () => {
     const resnoti = await axios.get(AP);
     setNoti(resnoti.data);
   }, [start, limit]);
-  console.log(noti.url);
+  /* console.log(noti.url); */
   return (
     <>
       <div className="wave">
@@ -102,10 +103,10 @@ const Info = () => {
                 <div className="row g-0">
                   <div className="col-md-12 ">
                     <div className="card-text text-center">
-                      <img
-                        className="mapa__Troncal-img"
-                        src="https://i.postimg.cc/4dbVfXgp/m1.jpg"
-                        alt="mapa troncales"
+                      <iframe
+                        src="https://www.google.com/maps/d/embed?mid=1pMSLCHvUZGZ0VYNxKPTSu0yQNKHFv7iI&ehbc=2E312F"
+                        width="100%"
+                        height="480"
                       />
                     </div>
                   </div>
@@ -528,6 +529,8 @@ const Info = () => {
           </div>
         </div>
       </div>
+
+      {/* Bloque Noticias Home */}
       <div className="container">
         <div className="title-cards">
           <Link
@@ -564,6 +567,17 @@ const Info = () => {
 
           {/* <!--FIN DE INFO BLOQUE 3---> */}
         </div>
+        <center>
+          <Link
+            to="/noticias"
+            role="button"
+            className="btn btn-primary"
+            style={{ marginBottom: '50px' }}
+            alt="Ver Noticia"
+          >
+            Ver Mas Noticia...
+          </Link>
+        </center>
       </div>
 
       {/* Movilizados */}

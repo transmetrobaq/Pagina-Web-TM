@@ -23,7 +23,7 @@
   color: #002856;
   position: relative;
   margin-bottom: 30px;
-  text-align: center;
+
   /* text-align: justify; */
 }
 .cd p {
@@ -52,6 +52,7 @@
   /* color: #c00d0d; */
   margin-top: 20px;
   font-weight: bold;
+
   /* border-color: #c00d0d; */
 }
 

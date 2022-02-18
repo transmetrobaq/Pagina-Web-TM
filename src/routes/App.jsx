@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from '../containers/Home';
 import Transmetro from '../containers/Transmetro';
 import Sistema from '../containers/Sistema';
+import Transbordos from '../containers/Transbordos';
 import Ciudadano from '../containers/Ciudadano';
 import NoticiasDetails from '../containers/NoticiasDetails';
 import Layout from '../components/Layout';
@@ -31,6 +32,7 @@ const App = () => {
             <Route exact path="/" component={Home} />
             <Route exact path="/transmetro" component={Transmetro} />
             <Route exact path="/sistema" component={Sistema} />
+            <Route exact path="/sistema/transbordos" component={Transbordos} />
             <Route exact path="/ciudadano" component={Ciudadano} />
             <Route exact path="/noticias" component={Noticias} />
             <Route

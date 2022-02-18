@@ -2,13 +2,13 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable no-shadow */
 /* eslint-disable react/destructuring-assignment */
-import React, { useContext } from 'react';
+import React from 'react';
 import '../styles/components/Ciudadano.css';
-import AppContext from '../context/AppContext';
+/* import AppContext from '../context/AppContext'; */
 
 // eslint-disable-next-line arrow-body-style
 const Ciudadano = () => {
-  const { manual } = useContext(AppContext);
+  /* const { manual } = useContext(AppContext); */
   /* const { manual, quest } = useContext(AppContext); */
   /* const quests = quest; */
   return (
@@ -17,19 +17,35 @@ const Ciudadano = () => {
         <div className="container">
           <div className="row cd">
             <div className="card ">
-              <div className="card-body text-center" key={manual.id}>
-                <h3 className="card-title">{manual.title}</h3>
-                <h4 className="card-text">{manual.subtitle}</h4>
-                <p className="card-text">{manual.content}</p>
-
-                <a
-                  href="http://bit.ly/2nQO0TD"
-                  className="btn btn-outline-success"
-                  target="_blanck"
-                  alt="Manual de Usuario"
-                >
-                  Manual de Usuario
-                </a>
+              <div className="card-body ">
+                <h3 className="card-title text-center">MANUAL DEL USUARIO</h3>
+                <h4 className="card-text">
+                  Este Manual describe objetos, generalidades, derechos y
+                  deberes del usuario, restricciones y canales de comunicacion
+                  con el sistema
+                </h4>
+                <p className="card-text">
+                  Esta información se debe tener en cuenta al momento de
+                  utilizar el Sistema Integrado de Transporte Masivo de la
+                  ciudad de Barranquilla y su Área Metropolitana –Transmetro-,
+                  ya que representa para los usuarios/ciudadanos una guía sobre
+                  el buen uso y el comportamiento que se debe tener al interior
+                  de los escenarios que componen el SITM -Transmetro- con el fin
+                  de procurar una mejor convivencia entre todos los actores del
+                  Sistema. Puede descargarlo y conocer todos los detalles de
+                  este importante documento, haciendo clic en el siguiente
+                  enlace:
+                </p>
+                <center>
+                  <a
+                    href="http://bit.ly/2nQO0TD"
+                    className="btn btn-outline-success "
+                    target="_blanck"
+                    alt="Manual de Usuario"
+                  >
+                    Manual de Usuario
+                  </a>
+                </center>
               </div>
             </div>
           </div>
@@ -611,27 +627,48 @@ const Ciudadano = () => {
                   <h2 className="card-title">
                     ESTÍMULO SOCIAL DE TRANSPORTE ESTUDIANTIL
                   </h2>
-                  <p className="card-text">
-                    La Cultura Transmetro está basada en el Manual del Usuario
-                    de Transmetro que suministra información sobre cómo utilizar
-                    el Sistema correctamente y es una guía de cómo relacionarse
-                    con el otros usuarios y funcionarios. Además aporta claridad
-                    sobre los derechos y deberes de los usuarios, restricciones
-                    y sanciones.
+                  <p className="card-text" style={{ fontWeight: 'bold' }}>
+                    El Estímulo Social de Transporte es un programa de la
+                    Secretaría de Gestión Social Distrital, para estudiantes de
+                    instituciones de educación superior, técnicas y tecnólogas
+                    del Distrito de Barranquilla es un subsidio indirecto a los
+                    estudiantes de educación superior de la ciudad
+                    (profesionales, técnicos y tecnólogos), que cumplan con los
+                    requisitos del programa. Con este estímulo, el Distrito
+                    busca proporcionar el acceso y la permanencia de los
+                    estudiantes que residen en la ciudad de Barranquilla al
+                    servicio educativo, reduciendo así la deserción estudiantil
+                    en las instituciones de educación superior
                   </p>
                   <p>
                     {' '}
-                    Esta estandarización de comportamientos y sus consecuencias,
-                    son una herramienta útil para que Transmetro agilice la
-                    respuesta ante diferentes situaciones que se presentan en la
-                    operación diaria del Sistema.
+                    <span style={{ fontWeight: 'bold' }}>Beneficio:</span> 40%
+                    de descuento en el valor del pasaje, el cual no implica la
+                    entrega de dinero material, porque se hace mediante la
+                    tarjeta Transmetro.
+                  </p>
+                  <p>
+                    <span style={{ fontWeight: 'bold' }}>
+                      Puntos de atención:{' '}
+                    </span>
+                    Alcaldía Distrital de Barranquilla, Piso 1 Ventanillas 19,20
+                    y 21.
+                  </p>
+                  <p>
+                    <sapn style={{ fontWeight: 'bold' }}>
+                      Horario de atención:{' '}
+                    </sapn>
+                    Lunes a viernes 8:00 a.m a 12:00 m. y 1:30 p.m a 5:00 p.m
+                    Teléfono:3399438
+                  </p>
+                  <p>
+                    <span style={{ fontWeight: 'bold' }}>Email: </span>
+                    estimulodetransporte@barranquilla.gov.co
                   </p>
                   <p className="card-text">
                     {' '}
-                    En la medida que los usuarios conozcan, entiendan y acaten
-                    las normas del Sistema, basadas en el respeto mutuo,
-                    tolerancia y responsabilidad, hacemos de nuestro Sistema
-                    Masivo un espacio de buena convivencia.
+                    https://www.barranquilla.gov.co/gestionsocial/subsidios/estimulo-social-de-transp
+                    orte/el-programa
                   </p>
                   {/*    <a
                     href="http://bit.ly/2nQO0TD"

@@ -25,11 +25,8 @@ const Header = () => {
     setNoti3(resnoti.data.data[2].attributes); */
 
     /* console.log(resnoti.data.data[1].attributes); */
-    /* console.log(setNoti2); */
   }, [start, limit]);
-  /* console.log(noti2.title); */
-  /* console.log(noti2.url); */
-  /* console.log(noti2); */
+
   return (
     <div
       id="carouselExampleIndicators"

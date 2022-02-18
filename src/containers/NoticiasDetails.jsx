@@ -18,7 +18,7 @@ const NoticiasDetails = () => {
     setNotic(resnoti.data[0]);
     /* console.log(resnoti.data); */
   }, [noticiasId]);
-  console.log(notic);
+  /* console.log(notic); */
   return (
     <div className=" container newsview" key={notic.id}>
       {/* <div className="newsviewimg" key={notic.id}>
