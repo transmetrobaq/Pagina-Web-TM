@@ -6,111 +6,121 @@ import '../styles/components/Transbordos.css';
 // eslint-disable-next-line arrow-body-style
 const Transbordos = () => {
   return (
-    <div className="container">
+    <div className="container ">
       {/* Transbordo */}
-      <div className="card">
-        <div className="card-body">
-          <h1 className="card-title text-center">TRANSBORDOS</h1>
 
-          <p className="card-text">
-            El Sistema de Transporte Masivo de Barranquilla y su área
-            metropolitana Transmetro, te permite realizar transferencias entre
-            servicios, bien sea de troncal a alimentación, alimentación a
-            alimentación, alimentación a troncal totalmente gratis.
-          </p>
-        </div>
-      </div>
+      <div className="row car__transb justify-content-center">
+        <div
+          className="card"
+          style={{ marginBottom: '20px', border: 'none', width: '70rem' }}
+        >
+          <div className="card-body">
+            <h1 className="card-title text-center">TRANSBORDOS</h1>
 
-      {/* Como Funciona */}
-      <div className="container">
-        <h1 className="text-center azul-lt" style={{ marginBottom: '6%' }}>
-          ¿Como funciona?
-        </h1>
-        <div className="row ">
-          <div className="col-sm-6 acho-contenedor h-100">
-            <div className="card funciona-tm align-items-center">
-              <img
-                style={{ width: '35%' }}
-                src="https://apiwebtm.com/uploads/Recurso_10_e98f84db95.png"
-                className="card-img-top"
-                alt="icono"
-              />
-              <div className="card-body">
-                <p className="card-text">
-                  Al cambiar de bus o al entrar a una estación para hacer el
-                  transbordo, tienes que pasar la tarjeta por el sensor de
-                  validación.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="acho-contenedor2  col-sm-6 h-100">
-            <div className="card funciona-tm align-items-center">
-              <img
-                style={{ width: '25%' }}
-                src="https://apiwebtm.com/uploads/Recurso_11_094f440548.png"
-                className="card-img-top"
-                alt="icono"
-              />
-
-              <div className="card-body">
-                <p className="card-text">
-                  El transbordo no tiene costo adicional. Sólo pagas un
-                  trayecto, desde el punto de partida hasta tu destino, aunque
-                  hayas utilizado dos o tres servicios.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 acho-contenedor h-100">
-            <div className="card funciona-tm align-items-center">
-              <img
-                style={{ width: '25%' }}
-                src="https://apiwebtm.com/uploads/Recurso_12_45e5ca814c.png"
-                className="card-img-top"
-                alt="icono"
-              />
-              <div className="card-body">
-                <p className="card-text">
-                  Si viaja con uno o varios acompañantes, cada usuario debe
-                  tener su propia tarjeta para realizar su transbordo sin que se
-                  cobre otro pasaje.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 acho-contenedor2 h-100">
-            <div className="card funciona-tm align-items-center">
-              <img
-                style={{ width: '25%' }}
-                src="https://apiwebtm.com/uploads/Recurso_13_1fc97b6397.png"
-                className="card-img-top"
-                alt="icono"
-              />
-              <div className="card-body">
-                <p className="card-text">
-                  Puedes realizar hasta dos (2) transbordos entre diferentes
-                  servicios en 105 minutos. Puedes realizar hasta dos (2)
-                  transbordos entre diferentes servicios en 105 minutos.
-                </p>
-              </div>
-            </div>
+            <p className="card-text">
+              El Sistema de Transporte Masivo de Barranquilla y su área
+              metropolitana Transmetro, te permite realizar transferencias entre
+              servicios, bien sea de troncal a alimentación, alimentación a
+              alimentación, alimentación a troncal{' '}
+              <span>totalmente gratis.</span>
+            </p>
           </div>
         </div>
       </div>
-
-      <div className="container">
-        <div className="card border-danger mb-3 encuenta-tm ">
-          <div className="card-body azul-lt " style={{ display: 'flex' }}>
-            <i className="fa fa-bus fa-4x rojo-lt " />
-            <div style={{ marginLeft: '20%', marginTop: '5%' }}>
-              <h2>Ten en cuenta que </h2>
+      <div className="container linea-colores" />
+      {/* Como Funciona Bootstrap */}
+      <div
+        className="container"
+        style={{ marginBottom: '100px', marginTop: '100px' }}
+      >
+        <div className="container" style={{ width: '75vw' }}>
+          <div className="row row-cols-1 row-cols-md-2 g-4 ">
+            <div className="col">
+              <div className="card h-100 funciona-tm align-items-center">
+                <img
+                  src="https://apiwebtm.com/uploads/Recurso_10_e98f84db95.png"
+                  className="card-img-top funciona-tm-img"
+                  alt="icono"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    Al cambiar de bus o al entrar a una estación para hacer el
+                    transbordo, tienes que pasar la tarjeta por el sensor de
+                    validación.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card h-100 funciona-tm align-items-center">
+                <img
+                  src="https://apiwebtm.com/uploads/Recurso_11_094f440548.png"
+                  className="card-img-top"
+                  alt="icono"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    El transbordo no tiene costo adicional. Sólo pagas un
+                    trayecto, desde el punto de partida hasta tu destino, aunque
+                    hayas utilizado dos o tres servicios.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card h-100 funciona-tm align-items-center">
+                <img
+                  src="https://apiwebtm.com/uploads/Recurso_12_45e5ca814c.png"
+                  className="card-img-top"
+                  alt="icono"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    Si viaja con uno o varios acompañantes, cada usuario debe
+                    tener su propia tarjeta para realizar su transbordo sin que
+                    se cobre otro pasaje.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card h-100 funciona-tm align-items-center">
+                <img
+                  src="https://apiwebtm.com/uploads/Recurso_13_1fc97b6397.png"
+                  className="card-img-top"
+                  alt="icono"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    Puedes realizar hasta dos (2) transbordos entre diferentes
+                    servicios en 105 minutos. Puedes realizar hasta dos (2)
+                    transbordos entre diferentes servicios en 105 minutos.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div className="card-footer bg-transparent border-danger">
+      {/* Tenga en cuenta que  */}
+      <div className="container">
+        <div className="card  mb-3 encuenta-tm ">
+          <div className="row align-items-center">
+            <div className="col-md-4">
+              <img
+                src="https://apiwebtm.com/uploads/Recurso_15_c2df59272f.png"
+                className="card-img-top"
+                alt="icono"
+              />
+            </div>
+            <div className="col-md-8 ">
+              <h1>Ten en cuenta que </h1>
+            </div>
+          </div>
+          <div className="card-footer bg-transparent encuentra-tm-li">
             <div style={{ display: 'flex' }}>
-              <h1>1.</h1>
+              <span>1.</span>
               <div style={{ margin: '20px' }}>
                 <p>
                   El transbordo entre servicios troncales sólo aplica si te
@@ -120,9 +130,9 @@ const Transbordos = () => {
             </div>
           </div>
 
-          <div className="card-footer bg-transparent border-danger">
+          <div className="card-footer bg-transparent ">
             <div style={{ display: 'flex' }}>
-              <h1>2.</h1>
+              <span>2.</span>
               <div style={{ margin: '20px' }}>
                 <p>
                   Sólo puedes realizar transbordo en los paraderos o estaciones
@@ -132,9 +142,9 @@ const Transbordos = () => {
             </div>
           </div>
 
-          <div className="card-footer bg-transparent border-danger">
+          <div className="card-footer bg-transparent encuentra-tm-li">
             <div style={{ display: 'flex' }}>
-              <h1>3.</h1>
+              <span>3.</span>
               <div style={{ margin: '20px' }}>
                 <p>
                   Cuando cambias de bus o al entrar a una estación para hacer el
@@ -145,9 +155,9 @@ const Transbordos = () => {
             </div>
           </div>
 
-          <div className="card-footer bg-transparent border-danger">
+          <div className="card-footer bg-transparent ">
             <div style={{ display: 'flex' }}>
-              <h1>4.</h1>
+              <span>4.</span>
               <div style={{ margin: '20px' }}>
                 <p>
                   Si vas acompañado por una o varias personas, cada una debe
@@ -157,9 +167,9 @@ const Transbordos = () => {
               </div>
             </div>
           </div>
-          <div className="card-footer bg-transparent border-danger">
+          <div className="card-footer bg-transparent encuentra-tm-li">
             <div style={{ display: 'flex' }}>
-              <h1>5.</h1>
+              <span>5.</span>
               <div style={{ margin: '20px' }}>
                 <p>
                   Si hiciste uso del crédito, y vas a hacer transbordo en la
@@ -170,9 +180,9 @@ const Transbordos = () => {
             </div>
           </div>
 
-          <div className="card-footer bg-transparent border-danger">
+          <div className="card-footer bg-transparent ">
             <div style={{ display: 'flex' }}>
-              <h1>6.</h1>
+              <span>6.</span>
               <div style={{ margin: '20px' }}>
                 <p>
                   Los transbordos con tarjeta débito de bancos aliados funcionan
@@ -186,12 +196,13 @@ const Transbordos = () => {
         </div>
       </div>
 
+      {/* Reloj */}
       <div className="container reloj">
         <div className="row justify-content-center ">
           <div className="card time-tm" style={{ maxWidth: '30rem' }}>
             <div className="reloj-icono text-center  ">
               <i
-                className="far fa-clock fa-4x rojo-lt"
+                className="far fa-clock fa-5x rojo-lt"
                 style={{ backgroundColor: 'white' }}
               />
             </div>
@@ -213,10 +224,10 @@ const Transbordos = () => {
           </div>
         </div>
       </div>
-
+      <div className="container linea-colores" />
       {/* Matrix de Transbordos */}
       <div className="titulo-plus">
-        <h1 className="text-center azul-lt">Matriz de transbordo</h1>
+        <h1 className="text-center azul-lt">MATRIZ DE TRANSBORDOS</h1>
         <h4 className="text-center azul-lt">
           Transbordos entre servicios Troncales y rutas Alimentadoras
         </h4>

@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/components/Footer.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -35,7 +37,9 @@ const Footer = () => {
                   <h3>POLITICAS WEB</h3>
                   <ul className="fa-ul">
                     <li>
-                      <span>Preguntas frecuentes</span>
+                      <Link to="/ciudadano" role="button" alt="Ver Noticia">
+                        Preguntas frecuentes
+                      </Link>
                     </li>
                     <li>
                       <span>Terminos y condiciones</span>
