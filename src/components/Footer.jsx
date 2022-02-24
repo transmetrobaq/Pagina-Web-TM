@@ -22,11 +22,19 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="contact__us-info">
-                  <p>HORARIO DE OPERACION SISTEMAS</p>
+                  <p>HORARIO DE OPERACIÓN DEL SISTEMAS</p>
                   <span>Lunes a Viernes:</span>
                   <ul>
-                    <li>05:00 - 20:00</li>
-                    <li>05:30 - 19:00</li>
+                    <li>05:00 - 22:00</li>
+                  </ul>
+                  <span>Sabados:</span>
+                  <ul>
+                    <li>05:00 - 22:00</li>
+                  </ul>
+                  <span>Domingos y Festivos:</span>
+                  <ul>
+                    <li>05:00 - 21:00</li>
+
                     <li>Sujeto a modificacion</li>
                   </ul>
                 </div>
@@ -34,7 +42,7 @@ const Footer = () => {
                   className="contact__us-info"
                   style={{ marginTop: '50px', marginBottom: '50px' }}
                 >
-                  <h3>POLITICAS WEB</h3>
+                  <h3>POLÍTICAS WEB</h3>
                   <ul className="fa-ul">
                     <li>
                       <Link to="/ciudadano" role="button" alt="Ver Noticia">
@@ -42,7 +50,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <span>Terminos y condiciones</span>
+                      <span>Términos y condiciones</span>
                     </li>
 
                     <li>
@@ -66,7 +74,7 @@ const Footer = () => {
                         <i className="fa fa-file-text-o" aria-hidden="true" />
                       </span>
                       <a href="/">
-                        <span>Petriciones, quejas y reclamos</span>
+                        <span>Peticiones, quejas y reclamos</span>
                       </a>
                     </li>
                     <li>
@@ -183,41 +191,87 @@ const Footer = () => {
           <div className="copyright">
             <div className="container">
               <div className="row align-items-center">
-                <div className="col-md-6">
-                  <p>
-                    Copyright © 2021, All Right Reserved
-                    <span>Transmetro S.A.S</span>
-                  </p>
-                </div>
                 {/* End Col 1 */}
-                <div className="col-md-6 ">
-                  <div className="row row-cols-1 row-cols-md-2 g-4">
-                    <div className="col">
+                <div className="col-md-12 ">
+                  <div className="row row-cols-1 row-cols-md-2 g-5">
+                    <div className="col copyright__img">
                       <div>
                         <a href="https://www.gov.co/home/" target="_blanck">
                           <img
                             src="https://apiwebtm.com/uploads/icosn_20_8b497e7f22.png"
                             alt="icono"
-                            style={{ width: '70%' }}
-                            className="mx-auto d-block"
+                            style={{ width: '10vw', marginTop: '10px' }}
+                            className="mx-auto d-block copyright__img-gov"
                           />
                         </a>
                       </div>
                     </div>
-                    <div className="col">
-                      <div className="copyright-img1">
+                    <div className="col copyright__img">
+                      <div>
+                        <a
+                          href="https://www.barranquilla.gov.co/"
+                          target="_blanck"
+                        >
+                          <img
+                            src="https://apiwebtm.com/uploads/logo_alcaldia_c6054f4065.svg"
+                            alt="icono"
+                            style={{
+                              width: '10vw',
+                              marginTop: '5px',
+                            }}
+                            className="mx-auto d-block copyright__img-baq"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                    <div className="col copyright__img">
+                      <div>
+                        <a
+                          href="https://www.mintransporte.gov.co/"
+                          target="_blanck"
+                        >
+                          <img
+                            src="https://apiwebtm.com/uploads/Mintransporte_39c7a45771.png"
+                            alt="icono"
+                            style={{ width: '10vw', marginTop: '10px' }}
+                            className="mx-auto d-block copyright__img-min"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                    <div className="col copyright__img">
+                      <div>
                         <a href="https://www.colombia.co/" target="_blanck">
                           <img
                             src="https://apiwebtm.com/uploads/icosn_21_e329fc7483.png"
                             alt="icono"
-                            style={{ width: '50%' }}
-                            className="mx-auto d-block copyright-img1"
+                            style={{ width: '3vw' }}
+                            className="mx-auto d-block copyright__img-co"
+                          />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="col copyright__img">
+                      <div>
+                        <a href="https://www.ambq.gov.co/" target="_blanck">
+                          <img
+                            src="https://apiwebtm.com/uploads/AREA_METROPOLITANA_BARRANQUILLA_LOGO_ab49e2fe6d.png"
+                            alt="icono"
+                            style={{ width: '5vw', marginTop: '5px' }}
+                            className="mx-auto d-block copyright__img-amb"
                           />
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="col-md-5">
+                <p>
+                  Copyright © 2021, All Right Reserved
+                  <span>Transmetro S.A.S</span>
+                </p>
               </div>
               {/* End col 2 */}
             </div>

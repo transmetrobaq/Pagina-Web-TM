@@ -111,7 +111,7 @@ const Navbar = () => {
                   tabIndex="-1"
                   aria-disabled="true"
                 >
-                  Disabled
+                  Participacion Ciudadana
                 </a>
               </li>
             </ul>

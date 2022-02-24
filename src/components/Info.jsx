@@ -19,16 +19,99 @@ const Info = () => {
   /* console.log(noti.url); */
   return (
     <>
-      <div className="wave">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#004f9f"
-            d="M0,160L15,176C30,192,60,224,90,218.7C120,213,150,171,180,149.3C210,128,240,128,270,154.7C300,181,330,235,360,245.3C390,256,420,224,450,229.3C480,235,510,277,540,293.3C570,309,600,299,630,266.7C660,235,690,181,720,181.3C750,181,780,235,810,240C840,245,870,203,900,165.3C930,128,960,96,990,69.3C1020,43,1050,21,1080,48C1110,75,1140,149,1170,181.3C1200,213,1230,203,1260,165.3C1290,128,1320,64,1350,58.7C1380,53,1410,107,1425,133.3L1440,160L1440,0L1425,0C1410,0,1380,0,1350,0C1320,0,1290,0,1260,0C1230,0,1200,0,1170,0C1140,0,1110,0,1080,0C1050,0,1020,0,990,0C960,0,930,0,900,0C870,0,840,0,810,0C780,0,750,0,720,0C690,0,660,0,630,0C600,0,570,0,540,0C510,0,480,0,450,0C420,0,390,0,360,0C330,0,300,0,270,0C240,0,210,0,180,0C150,0,120,0,90,0C60,0,30,0,15,0L0,0Z"
-          />
-        </svg>
+      <div
+        className="container-fluid"
+        style={{
+          marginTop: '-45px',
+          height: '300px',
+          backgroundColor: '#e30613',
+        }}
+      >
+        <div className="row justify-content-center">
+          <div
+            className="card-group wave__card-group "
+            style={{
+              width: '50%',
+
+              border: '3px solid #fff',
+              borderRadius: '20px',
+            }}
+          >
+            <div
+              className="card wave__card"
+              style={{
+                borderTop: 'none',
+                borderBottom: 'none',
+                borderLeft: 'none',
+                borderRadius: '20px',
+              }}
+            >
+              <img
+                src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                className="card-img-top "
+                alt="..."
+              />
+              <div className="card-body">
+                <h4 className="card-title">Rutas Troncales</h4>
+              </div>
+            </div>
+            <div
+              className="card wave__card"
+              style={{
+                borderTop: 'none',
+                borderBottom: 'none',
+                borderRadius: '20px',
+              }}
+            >
+              <img
+                src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                className="card-img-top "
+                alt="..."
+              />
+              <div className="card-body">
+                <h4 className="card-title">Rutas Alimentadoras</h4>
+              </div>
+            </div>
+            <div
+              className="card wave__card"
+              style={{
+                borderTop: 'none',
+                borderBottom: 'none',
+                borderRadius: '20px',
+              }}
+            >
+              <img
+                src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                className="card-img-top "
+                alt="..."
+              />
+              <div className="card-body">
+                <h4 className="card-title">Transbordos</h4>
+              </div>
+            </div>
+            <div
+              className="card wave__card"
+              style={{
+                borderTop: 'none',
+                borderBottom: 'none',
+                borderRadius: '20px',
+                borderRight: 'none',
+              }}
+            >
+              <img
+                src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                className="card-img-top "
+                alt="..."
+              />
+              <div className="card-body">
+                <h4 className="card-title">TransKids</h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/*  <div className="container content1">
+      {/* <div className="container content1">
         <div className="row g-4 ">
           <div className="col">
             <div className="card border-light mb-3 nav__infe-1">
@@ -238,49 +321,7 @@ const Info = () => {
             </div>
           </div>
         </div>
-        {/* <!--INFO BLOQUE 3---> */}
-        {/*  <div className=" container-fluid bio">
-          <div className="row borTerm1 text-center">
-            <h3 className="  "> TODOS CONTRA EL COVID-19</h3>
-            <p className="">Como protegerse y proteger a los demas</p>
-          </div>
-          <div className="container icono__Cv">
-            <div className="row text-center">
-              <div className=" card-body">
-                <ul className="list-group  flex-row  ">
-                  <li className="col-md-3 list-group-item border-0  ">
-                    <img
-                      src="http://34.125.209.125/uploads/Lavado_de_manos_8c57c76e31.png"
-                      alt="icono lavado de manos"
-                    />
-                    <p> Lavarse las manos </p>
-                  </li>
-                  <li className=" col-md-3 list-group-item  border-0 ">
-                    <img
-                      src="http://34.125.209.125/uploads/Mascarilla_f99c0ef375.png"
-                      alt="icnono Uso mascarilla"
-                    />
-                    <p>Uso mascarilla </p>
-                  </li>
-                  <li className=" list-group-item border-0  ">
-                    <img
-                      src="http://34.125.209.125/uploads/Desinfeccion_99d7ebbe74.png"
-                      alt="icono Limpie y desinfecte"
-                    />
-                    <p>Limpie y desinfecte </p>
-                  </li>
-                  <li className=" list-group-item border-0  ">
-                    <img
-                      src="http://34.125.209.125/uploads/Destancia_745837c724.png"
-                      alt="icono Mantenga sana distancia"
-                    />
-                    <p>Mantenga sana distancia </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>  */}
+
         {/* Card Bloque Troncales  */}
 
         {/* Cards Troncales */}
@@ -581,7 +622,46 @@ const Info = () => {
       </div>
 
       {/* Movilizados */}
-      <div className="container-fluid card__Movi">
+      <div className="card bg-dark text-white">
+        <div className="row align-items-end">
+          <img
+            src="https://apiwebtm.com/uploads/Recurso_Movilizados_6bc73b974f.png"
+            className="card-img"
+            alt="..."
+          />
+
+          <div className="card-img-overlay" />
+        </div>
+      </div>
+      <div className="row justify-content-center ">
+        <div className="card mb-3 movilizado ">
+          <div className="row g-0 ">
+            <div className="col-md-6">
+              <div className="card-body  usu-movilizados">
+                <h2 className="card-text text-center">
+                  Usuarios
+                  <strong className="text-danger"> Movilizados</strong>
+                </h2>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="card-body">
+                <img
+                  src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
+                  alt="Bus Transmetro"
+                />
+                <h2 className="card-title text">
+                  <strong className="text-danger">350.718.296</strong>{' '}
+                </h2>
+                <p className="card-text">
+                  Desde el 10 de Julio de 2010 hasta el 2 de Enero de 2022
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*      <div className="container-fluid card__Movi">
         <div className="row justify-content-center ">
           <div className="card mb-3 movilizado ">
             <div className="row g-0 ">
@@ -610,7 +690,7 @@ const Info = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Fin Movilizados */}
     </>
   );

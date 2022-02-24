@@ -210,12 +210,41 @@
   margin-left: 10px;
 }
 
-.copyright-img1 {
-  margin-top: 15px;
+.copyright__img-gov {
+  margin-top: 5px;
 }
-
+.copyright__img-baq {
+  margin-top: 5px;
+}
+.copyright__img-min {
+  margin-top: 5px;
+}
+.copyright__img-co {
+  margin-top: 5px;
+}
+.copyright__img-amb {
+  margin-top: 5px;
+}
+.copyright__img {
+  width: 15vw;
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .copyright img {
-    width: 30% !important;
+  .copyright__img-gov {
+    width: 25vw !important;
+  }
+  .copyright__img-baq {
+    width: 25vw !important;
+  }
+  .copyright__img-min {
+    width: 25vw !important;
+  }
+  .copyright__img-co {
+    width: 10vw !important;
+  }
+  .copyright__img-amb {
+    width: 20vw !important;
+  }
+  .copyright__img {
+    width: 30vw;
   }
 }

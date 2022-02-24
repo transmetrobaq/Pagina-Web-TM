@@ -84,41 +84,6 @@ hr {
   background-color: rgb(21, 2, 128);
 }
 
-/*ICONOS BLOQUE3*/
-.bio {
-  font-weight: bold;
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #002856;
-  border-radius: 20px;
-  margin-bottom: 50px;
-}
-
-.icono__Cv {
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1vh;
-}
-.icono__Cv h3 {
-  font-size: 3.5vw;
-  font-weight: bold;
-  color: #002856;
-}
-.icono__Cv li {
-  border-radius: 20px;
-}
-.icono__Cv img {
-  width: 12vw;
-  text-decoration: none;
-}
-.icono__Cv p {
-  color: #002856;
-  font-size: 1.8vw;
-}
-
 .borTerm {
   border: 2px solid #002856;
   border-color: #002856;
@@ -375,9 +340,25 @@ hr {
 /*Fin-Cards*/
 
 /* Nav inferior */
-.wave {
-  margin-top: -45px;
+
+.wave__card {
+  /* margin-top: 25px; */
+  border-radius: 20px;
+  background-color: #e30613;
+  border: 3px solid #fff;
+  color: #fff;
 }
+.wave__card h5 {
+  /* padding-top: 20px; */
+}
+.wave__card img {
+  width: 6vw;
+  margin-left: 5px;
+}
+.wave__card-group {
+  margin-top: 25px;
+}
+
 .content1 {
   display: flex;
   justify-content: center;

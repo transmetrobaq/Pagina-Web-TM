@@ -29,14 +29,14 @@ const Header = () => {
 
   return (
     <div
-      id="carouselExampleIndicators"
+      id="carouselExampleCaptions"
       className="carousel slide"
       data-bs-ride="carousel"
     >
-      {/*  <div className="carousel-indicators">
+      <div className="carousel-indicators">
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="0"
           className="active"
           aria-current="true"
@@ -44,82 +44,59 @@ const Header = () => {
         />
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="1"
           aria-label="Slide 2"
         />
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="2"
           aria-label="Slide 3"
         />
-      </div> */}
-
+      </div>
       <div className="carousel-inner">
-        <div className="carousel-item active" key={noti1.id}>
+        <div className="carousel-item active ">
           <img
             src={`https://apiwebtm.com${noti1.url}`}
             className="d-block w-100"
             alt="{noti1.alt}"
           />
-
-          <div className="card carrusel__cards carousel-control-prev">
-            <div className="cards__body ">
-              <h1 className="carrusel__title ">{noti1.title}</h1>
-
-              <Link to={`/noticias/${noti1.slug}`} role="button">
-                Ver Noticia
-              </Link>
-            </div>
+          <div className="carousel-caption  d-md-block cards__body ">
+            <Link to={`/noticias/${noti1.slug}`}>
+              <h1 className="carrusel__title">{noti1.title}</h1>
+            </Link>
           </div>
         </div>
         <div className="carousel-item">
           <img
             src={`https://apiwebtm.com${noti2.url}`}
             className="d-block w-100"
-            alt="{noti2.alt}"
+            alt="{noti1.alt}"
           />
-          <div className="card carrusel__cards carousel-control-prev">
-            <div className="cards__body">
+          <div className="carousel-caption  d-md-block cards__body ">
+            <Link to={`/noticias/${noti2.slug}`}>
               <h1 className="carrusel__title">{noti2.title}</h1>
-
-              <Link
-                to={`/noticias/${noti2.slug}`}
-                role="button"
-                alt="Ver Noticia"
-              >
-                Ver Noticia
-              </Link>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="carousel-item">
           <img
             src={`https://apiwebtm.com${noti3.url}`}
             className="d-block w-100"
-            alt="{noti3.alt}"
+            alt="{noti1.alt}"
           />
-          <div className="card carrusel__cards carousel-control-prev">
-            <div className="cards__body">
+          <div className="carousel-caption  d-md-block cards__body ">
+            <Link to={`/noticias/${noti3.slug}`}>
               <h1 className="carrusel__title">{noti3.title}</h1>
-
-              <Link
-                to={`/noticias/${noti3.slug}`}
-                role="button"
-                alt="Ver Noticia"
-              >
-                Ver Noticia
-              </Link>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
-
       <button
         className="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleIndicators"
+        data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
       >
         <span className="carousel-control-prev-icon" aria-hidden="true" />
@@ -128,7 +105,7 @@ const Header = () => {
       <button
         className="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleIndicators"
+        data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
         <span className="carousel-control-next-icon" aria-hidden="true" />
