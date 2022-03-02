@@ -5,6 +5,10 @@ import Home from '../containers/Home';
 import Transmetro from '../containers/Transmetro';
 import Sistema from '../containers/Sistema';
 import Transbordos from '../containers/Transbordos';
+import RutasTroncales from '../containers/RutasTroncales';
+import TroncalesDetails from '../containers/TroncalesDetails';
+import RutasAlimentadoras from '../containers/RutasAlimentadoras';
+import AlimentadorasDetails from '../containers/AlimentadorasDetails';
 import Ciudadano from '../containers/Ciudadano';
 import NoticiasDetails from '../containers/NoticiasDetails';
 import Layout from '../components/Layout';
@@ -33,6 +37,29 @@ const App = () => {
             <Route exact path="/transmetro" component={Transmetro} />
             <Route exact path="/sistema" component={Sistema} />
             <Route exact path="/sistema/transbordos" component={Transbordos} />
+
+            <Route
+              exact
+              path="/sistema/rutas_troncales"
+              component={RutasTroncales}
+            />
+            <Route
+              exact
+              path="/sistema/rutas_troncales/:noticiasId"
+              component={TroncalesDetails}
+            />
+
+            <Route
+              exact
+              path="/sistema/rutas_alimentadoras"
+              component={RutasAlimentadoras}
+            />
+            <Route
+              exact
+              path="/sistema/rutas_alimentadoras/:noticiasId"
+              component={AlimentadorasDetails}
+            />
+
             <Route exact path="/ciudadano" component={Ciudadano} />
             <Route exact path="/noticias" component={Noticias} />
             <Route

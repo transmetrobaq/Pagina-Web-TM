@@ -1,0 +1,33 @@
+.adetail__cards {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.adetail__cards h1 {
+  font-weight: bold;
+}
+.adetail__cards span {
+  color: #e30613;
+  font-weight: bold;
+}
+@media only screen and (min-width: 200px) and (max-width: 568px) {
+  .seleccion-rutas .row {
+    max-width: none;
+  }
+}
+
+/* alimentador rutas mapa */
+
+.map-alimentadora {
+  border: 3px solid #e30613;
+  max-width: 100%;
+  height: 583px;
+  margin-top: 50px;
+}
+
+/* Horario y sitio */
+
+.horario-sitio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

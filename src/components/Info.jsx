@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
@@ -20,129 +21,130 @@ const Info = () => {
   return (
     <>
       <div
-        className="container-fluid"
+        className="container-fluid "
         style={{
           marginTop: '-45px',
-          height: '300px',
+
           backgroundColor: '#e30613',
         }}
       >
-        <div className="row justify-content-center">
-          <div
-            className="card-group wave__card-group "
-            style={{
-              width: '50%',
+        <div className="row ">
+          <div className="col-md-7" style={{ border: '1px solid #fff' }}>
+            <div className="wave__card-group  ">
+              <div className=" wrapper ">
+                <div className="card h-30 wave__card">
+                  <Link
+                    to="/sistema/rutas_troncales"
+                    role="button"
+                    className=""
+                    alt="ir a rutas alimentadoras"
+                  >
+                    <img
+                      src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                      className="card-img-top"
+                      alt="..."
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title">Rutas Troncales</h5>
+                    </div>
+                  </Link>
+                </div>
+                <div className="card h-30 wave__card">
+                  <Link
+                    to="/sistema/rutas_alimentadoras"
+                    role="button"
+                    className=""
+                    alt="ir a rutas alimentadoras"
+                  >
+                    <img
+                      src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                      className="card-img-top"
+                      alt="..."
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title">Rutas Alimentadoras </h5>
+                    </div>
+                  </Link>
+                </div>
+                <div className="card h-30 wave__card">
+                  <Link
+                    to="/sistema/transbordos"
+                    role="button"
+                    className=""
+                    alt="ir a transbordos"
+                  >
+                    <img
+                      src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                      className="card-img-top"
+                      alt="..."
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title">Transbordos</h5>
+                    </div>
+                  </Link>
+                </div>
 
-              border: '3px solid #fff',
-              borderRadius: '20px',
-            }}
-          >
-            <div
-              className="card wave__card"
-              style={{
-                borderTop: 'none',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRadius: '20px',
-              }}
-            >
-              <img
-                src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                className="card-img-top "
-                alt="..."
-              />
-              <div className="card-body">
-                <h4 className="card-title">Rutas Troncales</h4>
+                <div className="card h-30 wave__card">
+                  <img
+                    src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                    className="card-img-top"
+                    alt="..."
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">TransKids</h5>
+                  </div>
+                </div>
               </div>
             </div>
-            <div
-              className="card wave__card"
-              style={{
-                borderTop: 'none',
-                borderBottom: 'none',
-                borderRadius: '20px',
-              }}
-            >
-              <img
-                src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                className="card-img-top "
-                alt="..."
-              />
-              <div className="card-body">
-                <h4 className="card-title">Rutas Alimentadoras</h4>
-              </div>
-            </div>
-            <div
-              className="card wave__card"
-              style={{
-                borderTop: 'none',
-                borderBottom: 'none',
-                borderRadius: '20px',
-              }}
-            >
-              <img
-                src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                className="card-img-top "
-                alt="..."
-              />
-              <div className="card-body">
-                <h4 className="card-title">Transbordos</h4>
-              </div>
-            </div>
-            <div
-              className="card wave__card"
-              style={{
-                borderTop: 'none',
-                borderBottom: 'none',
-                borderRadius: '20px',
-                borderRight: 'none',
-              }}
-            >
-              <img
-                src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                className="card-img-top "
-                alt="..."
-              />
-              <div className="card-body">
-                <h4 className="card-title">TransKids</h4>
+          </div>
+          <div className="col-md-5" style={{ border: '1px solid #fff' }}>
+            <div className="moovit__card">
+              <div className="iframe-container responsive">
+                <div
+                  className="mv-gd-widget-20"
+                  data-width="100%"
+                  data-height="100%"
+                >
+                  <div
+                    className="r2v04k_mv-widget-wrapper rounded-corners black_blue"
+                    style={{ width: '80%', height: '100%' }}
+                  >
+                    <h3
+                      className="r2v04k_mv-widget-title title-long"
+                      data-automation="widget_header"
+                    >
+                      Tu Ruta
+                    </h3>
+                    <iframe
+                      title="Tu Ruta"
+                      allowtransparency="true"
+                      width="100%"
+                      className="responsive"
+                      src="https://widgets.moovit.com/ws/fp/D888A86159E94E19E0530100007F3EC8/4393334?metroId=2883&amp;lang=es"
+                    />
+                    <div className="r2v04k_mv-widget-footer">
+                      <div className="r2v04k_mv-widget-footer-container">
+                        <div className="r2v04k_mv-widget-footer-links">
+                          <a
+                            className="r2v04k_mv-widget-moovitHomePageLink"
+                            href="https://moovit.onelink.me/3986059930?pid=widget&amp;c=logo&amp;af_web_dp=https%3A%2F%2Fmoovitapp.com%2F%3Futm_source%3Dwidget%26utm_campaign%3Dget_yours"
+                            target="_blank"
+                          >
+                            <img
+                              src="https://widgets.moovit.com/w/images/moovit_logo.svg"
+                              alt="Moovit logo"
+                            />{' '}
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* <div className="container content1">
-        <div className="row g-4 ">
-          <div className="col">
-            <div className="card border-light mb-3 nav__infe-1">
-              <div className="card-body text-primary ">
-                <h5 className="card-title">Rutas Troncales</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card border-light mb-3 nav__infe-1">
-              <div className="card-body text-primary">
-                <h5 className="card-title">Rutas Alimentadoras</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card border-light mb-3 nav__infe-1">
-              <div className="card-body text-primary">
-                <h5 className="card-title">Transbordos</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card border-light mb-3 nav__infe-1">
-              <div className="card-body text-primary">
-                <h5 className="card-title">Mi Tarjeta</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       <div className="container">
         {/*  <!--INFO BLOQUE 4 Mapa---> */}
