@@ -371,7 +371,7 @@ hr {
   text-decoration: none;
 }
 .wave__card img {
-  width: 4vw;
+  width: 70px;
   margin-left: 5px;
 }
 .container__wave {
@@ -380,21 +380,17 @@ hr {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .wave__card h5 {
-    font-size: 18px !important;
-  }
   .wrapper {
-    grid-gap: 1px;
+    grid-gap: 2px;
   }
-  .wave__card img {
+  /*   .wave__card img {
     width: 15vw;
-  }
-  .wave__card h5 {
-    font-size: 3.5vw;
-  }
+  } */
+
   .wave__card-group {
     width: 100% !important;
-    padding-left: 10px;
+    padding-left: 0px;
+    margin-top: 20px;
   }
   .moovit__card {
     padding-left: 60px;
@@ -668,4 +664,21 @@ a:hover {
     height: 45vw;
     max-height: 45vw !important;
   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1036px) {
+  .r2v04k_mv-widget-wrapper iframe.responsive {
+    height: 35vw;
+    max-height: 35vw !important;
+  }
+
+  .wave__card-group {
+    width: 100% !important;
+    padding-left: 30px;
+  }
+  .wave__card {
+    max-width: 180px;
+  }
+  /*  .wrapper {
+    grid-gap: 4px;
+  } */
 }

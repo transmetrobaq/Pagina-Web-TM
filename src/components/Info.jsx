@@ -39,7 +39,7 @@ const Info = () => {
                       alt="..."
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Rutas Troncales</h5>
+                      <h6 className="card-title">Rutas Troncales</h6>
                     </div>
                   </Link>
                 </div>
@@ -56,7 +56,7 @@ const Info = () => {
                       alt="..."
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Rutas Alimentadoras </h5>
+                      <h6 className="card-title">Rutas Alimentadoras </h6>
                     </div>
                   </Link>
                 </div>
@@ -73,7 +73,7 @@ const Info = () => {
                       alt="..."
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Transbordos</h5>
+                      <h6 className="card-title">Transbordos</h6>
                     </div>
                   </Link>
                 </div>
@@ -85,7 +85,7 @@ const Info = () => {
                     alt="..."
                   />
                   <div className="card-body">
-                    <h5 className="card-title">TransKids</h5>
+                    <h6 className="card-title">TransKids</h6>
                   </div>
                 </div>
               </div>
