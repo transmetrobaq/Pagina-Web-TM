@@ -20,19 +20,13 @@ const Info = () => {
   /* console.log(noti.url); */
   return (
     <>
-      <div
-        className="container-fluid "
-        style={{
-          marginTop: '-45px',
-
-          backgroundColor: '#e30613',
-        }}
-      >
+      {/* Nav inferior / Moovit */}
+      <div className="container-fluid container__wave ">
         <div className="row ">
-          <div className="col-md-7" style={{ border: '1px solid #fff' }}>
-            <div className="wave__card-group  ">
+          <div className="col-md-7 align-self-center ">
+            <div className="wave__card-group">
               <div className=" wrapper ">
-                <div className="card h-30 wave__card">
+                <div className="card h-100 wave__card">
                   <Link
                     to="/sistema/rutas_troncales"
                     role="button"
@@ -49,7 +43,7 @@ const Info = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="card h-30 wave__card">
+                <div className="card h-100 wave__card">
                   <Link
                     to="/sistema/rutas_alimentadoras"
                     role="button"
@@ -66,7 +60,7 @@ const Info = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="card h-30 wave__card">
+                <div className="card h-100 wave__card">
                   <Link
                     to="/sistema/transbordos"
                     role="button"
@@ -84,7 +78,7 @@ const Info = () => {
                   </Link>
                 </div>
 
-                <div className="card h-30 wave__card">
+                <div className="card h-100 wave__card">
                   <img
                     src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
                     className="card-img-top"
@@ -97,7 +91,8 @@ const Info = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-5" style={{ border: '1px solid #fff' }}>
+          {/* Moovit */}
+          <div className="col-md-5 align-self-center">
             <div className="moovit__card">
               <div className="iframe-container responsive">
                 <div
@@ -107,7 +102,7 @@ const Info = () => {
                 >
                   <div
                     className="r2v04k_mv-widget-wrapper rounded-corners black_blue"
-                    style={{ width: '80%', height: '100%' }}
+                    style={{ width: '80%' }}
                   >
                     <h3
                       className="r2v04k_mv-widget-title title-long"
@@ -122,6 +117,7 @@ const Info = () => {
                       className="responsive"
                       src="https://widgets.moovit.com/ws/fp/D888A86159E94E19E0530100007F3EC8/4393334?metroId=2883&amp;lang=es"
                     />
+
                     <div className="r2v04k_mv-widget-footer">
                       <div className="r2v04k_mv-widget-footer-container">
                         <div className="r2v04k_mv-widget-footer-links">
@@ -145,6 +141,7 @@ const Info = () => {
           </div>
         </div>
       </div>
+      {/* Fin Nav inferior */}
 
       <div className="container">
         {/*  <!--INFO BLOQUE 4 Mapa---> */}
@@ -629,7 +626,7 @@ const Info = () => {
           <img
             src="https://apiwebtm.com/uploads/Recurso_Movilizados_6bc73b974f.png"
             className="card-img"
-            alt="..."
+            alt="foto tarjeta transmetro"
           />
 
           <div className="card-img-overlay" />

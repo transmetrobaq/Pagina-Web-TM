@@ -341,15 +341,16 @@ hr {
 
 /* Nav inferior */
 .wave__card-group {
-  padding-top: 50px;
-  padding-left: 30px;
+  /* padding-top: 50px; */
+  padding-left: 10px;
 }
 
 .wrapper {
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   background-color: #e30613;
+  grid-auto-rows: 150px;
 }
 
 .wave__card {
@@ -358,7 +359,7 @@ hr {
   background-color: #e30613;
   border: 3px solid #fff;
   color: #fff;
-  /* width: 150px; */
+  max-width: 200px;
 }
 .wave__card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
@@ -373,33 +374,33 @@ hr {
   width: 4vw;
   margin-left: 5px;
 }
+.container__wave {
+  margin-top: -45px;
+  background-color: #e30613;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .wave__card {
-    /* margin-top: 25px; */
-    border-radius: 20px;
-    background-color: #e30613;
-    border: 3px solid #fff;
-    color: #fff;
+  .wave__card h5 {
+    font-size: 18px !important;
   }
   .wrapper {
     grid-gap: 1px;
   }
   .wave__card img {
-    width: 8vw;
-    margin-left: 5px;
+    width: 15vw;
   }
   .wave__card h5 {
     font-size: 3.5vw;
   }
   .wave__card-group {
     width: 100% !important;
-    padding-left: 0px;
+    padding-left: 10px;
   }
   .moovit__card {
-    padding-left: 50px;
+    padding-left: 60px;
   }
 }
+
 .content1 {
   display: flex;
   justify-content: center;
@@ -468,11 +469,10 @@ hr {
 
 /*Moovit */
 .moovit__card {
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 20px;
   background-color: #e30613;
-  margin-bottom: 50px;
-  /* width: 150px; */
 }
 moovit-preview .widget-container {
   display: table-cell;
@@ -523,7 +523,9 @@ a:hover {
 }
 .r2v04k_mv-widget-wrapper iframe.responsive {
   display: block;
-  height: calc(100% - 142px);
+  /* height: calc(100% - 142px); */
+  height: 18vw;
+  /* max-height: 25vw !important; */
 }
 .r2v04k_mv-widget-wrapper {
   background: #fff;
@@ -635,6 +637,7 @@ a:hover {
 }
 .r2v04k_mv-widget-title {
   color: #fff !important;
+  font-weight: bold;
 }
 
 .r2v04k_mv-widget-footer {
@@ -658,4 +661,11 @@ a:hover {
 }
 .r2v04k_mv-widget-get-link:hover {
   color: #fff !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .r2v04k_mv-widget-wrapper iframe.responsive {
+    height: 45vw;
+    max-height: 45vw !important;
+  }
 }

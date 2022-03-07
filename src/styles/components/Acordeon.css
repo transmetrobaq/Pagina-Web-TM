@@ -39,12 +39,12 @@
 .transp h1 {
   color: #e30613;
   font-weight: bold;
-  font-size: 60px;
-  margin-top: 65px;
+  /* font-size: 60px; */
+  margin-top: 50px;
 }
 
 .transp h2 {
-  color: #004f9f;
-  font-size: 40px;
+  color: #002856;
+  /* font-size: 40px; */
   margin-top: 10px;
 }

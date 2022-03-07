@@ -9,7 +9,7 @@ const Transmetro = () => {
 
       <div className="container acerca__card">
         <div className="row">
-          <h2>Acerca de </h2>
+          <h1>Acerca de </h1>
 
           <div className="clearfix">
             <p>
