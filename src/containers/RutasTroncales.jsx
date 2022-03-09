@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/no-redundant-roles */
@@ -23,10 +24,18 @@ const RutasTroncales = () => {
   }, []);
 
   return (
-    <div className="container rutali__cards">
+    <div
+      className="container rutali__cards scrollspy-example"
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-Tm"
+      data-bs-offset="0"
+      tabindex="0"
+    >
       {/* Droptown RutasAlimentadoras */}
       <div className="row">
-        <h1 className="text-center azul-lt">RUTAS TRONCALES</h1>
+        <h1 id="rutas-troncales" className="text-center azul-lt">
+          RUTAS TRONCALES
+        </h1>
         <p className="text-center azul-lt">
           Estos servicios transitan por el carril Solo Bus (exclusivo) de las
           troncales Murillo y Olaya Herrera. Estas rutas operan para llevar a

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -7,7 +8,7 @@ const Sistema = () => (
   <div>
     {/*  <!--INFO BLOQUE  Mapa---> */}
 
-    <div className="container">
+    <div className="container ">
       {/* Mapa Troncal Bootstap */}
       <div className="container ">
         <div
@@ -458,7 +459,7 @@ const Sistema = () => (
                 validadores en los portales, en las estaciones o en los
                 alimentadores, el costo de la{' '}
                 <span>
-                  Tarjeta Inteligente Sin Conacto es de $4.000 pesos,
+                  Tarjeta Inteligente Sin Contacto es de $4.000 pesos,
                 </span>{' '}
                 que se pueden personalizar a travez del sitio web y en los CAU.{' '}
                 <span>
@@ -537,7 +538,9 @@ const Sistema = () => (
               className="card-body"
               style={{ backgroundColor: '#c00d0d', borderRadius: '50px' }}
             >
-              <h5 className="card-title">Personalización</h5>
+              <h5 id="personalizacion" className="card-title">
+                Personalización
+              </h5>
               <p className="card-text">
                 Personalizar la tarjeta transmetro es vincular los datos
                 personales del usuario, adulto o menor de edad con el número de
@@ -591,7 +594,9 @@ const Sistema = () => (
     <div className="container">
       <div className="card video-contenedor">
         <div className="card-body">
-          <h1 className="card-text">TRANSBORDOS</h1>
+          <h1 id="transbordos" className="card-text">
+            TRANSBORDOS
+          </h1>
           {/* <hr className="dropdown-divider" /> */}
         </div>
         <iframe
@@ -643,7 +648,9 @@ const Sistema = () => (
         <div className="row g-0">
           <div className="col-md-8">
             <div className="card-body">
-              <h2 className="card-title">CULTURA TRANSMETRO</h2>
+              <h2 id="cultura-transmetro" className="card-title">
+                CULTURA TRANSMETRO
+              </h2>
               <p className="card-text">
                 La Cultura Transmetro está basada en el Manual del Usuario de
                 Transmetro que suministra información sobre cómo utilizar el
@@ -698,7 +705,9 @@ const Sistema = () => (
 
     <div className="container car__opera">
       <div className="text-center">
-        <h1 className="text-danger">DATOS DE LA OPERACIÓN </h1>
+        <h1 id="datos-operacion" className="text-danger">
+          DATOS DE LA OPERACIÓN{' '}
+        </h1>
       </div>
 
       <div className="card-title text-center">
@@ -865,7 +874,9 @@ const Sistema = () => (
     {/* SIstemas 2 */}
     <div className="container-fluid acce ">
       <div className="titulo-acce text-center">
-        <h1 className="card-title">ACCESIBILIDAD</h1>
+        <h1 id="accesibilidad" className="card-title">
+          ACCESIBILIDAD
+        </h1>
       </div>
 
       {/* Accesibilidad Bootstrap */}

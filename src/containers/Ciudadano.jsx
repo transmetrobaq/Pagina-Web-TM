@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable no-shadow */
@@ -13,12 +14,20 @@ const Ciudadano = () => {
   /* const quests = quest; */
   return (
     <>
-      <div className="container ">
-        <div className="container">
+      <div
+        className="container scrollspy-example"
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-Tm"
+        data-bs-offset="0"
+        tabindex="0"
+      >
+        <div className="container ">
           <div className="row cd">
             <div className="card ">
               <div className="card-body ">
-                <h3 className="card-title text-center">MANUAL DEL USUARIO</h3>
+                <h3 id="manual-del-usuario" className="card-title text-center">
+                  MANUAL DEL USUARIO
+                </h3>
                 <h4 className="card-text">
                   Este Manual describe objetos, generalidades, derechos y
                   deberes del usuario, restricciones y canales de comunicacion
@@ -111,7 +120,7 @@ const Ciudadano = () => {
           </div>
         </div> */}
         <div className="titulo-preguntas">
-          <h1 className="text-center azul-lt">
+          <h1 className="text-center azul-lt" id="preguntas-frecuentes">
             PREGUNTAS Y RESPUESTAS FRECUENTES
           </h1>
         </div>
@@ -624,7 +633,7 @@ const Ciudadano = () => {
             <div className="row g-0">
               <div className="col-md-8">
                 <div className="card-body">
-                  <h2 className="card-title">
+                  <h2 className="card-title" id="estimulo-estudiantil">
                     ESTÍMULO SOCIAL DE TRANSPORTE ESTUDIANTIL
                   </h2>
                   <p className="card-text" style={{ fontWeight: 'bold' }}>

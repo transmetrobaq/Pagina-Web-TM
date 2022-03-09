@@ -5,13 +5,17 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav
+        id="navbar-Tm"
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
-              src="https://s3.amazonaws.com/media.django.transmetro/images/logo_transmetro.png"
-              alt="..."
+              src="https://apiwebtm.com/uploads/icosn_15_aa2282bbfc.png"
+              alt="Logo Transmetro"
               className="img-fluid mb-2"
+              style={{ width: '40px', marginLeft: '10px' }}
             />
           </a>
           <button
@@ -25,7 +29,11 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style={{ marginTop: '10px', marginLeft: '10px' }}
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
@@ -36,7 +44,7 @@ const Navbar = () => {
                   <p className="nav-link">Transmetro</p>
                 </Link>
               </li>
-              <li className="nav-item">
+              {/*       <li className="nav-item">
                 <Link
                   to="/sistema"
                   style={{ textDecoration: 'none' }}
@@ -44,15 +52,135 @@ const Navbar = () => {
                 >
                   <p className="nav-link">Mi Sistema</p>
                 </Link>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              <li className="nav-item dropdown">
                 <Link
-                  to="/ciudadano"
-                  style={{ textDecoration: 'none' }}
-                  aria-current="page"
+                  className="nav-link dropdown-toggle"
+                  to="/sistema"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  <p className="nav-link">Atencion al cliente</p>
+                  Mi Sistema
                 </Link>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li className="nav-item">
+                    <Link
+                      to="/sistema"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Datos del Sistema
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#personalizacion"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Personalización
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/sistema/rutas_troncales/#rutas-troncales"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Rutas Troncales
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/sistema/rutas_alimentadoras/#rutas-alimentadoras"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Rutas Alimentadoras
+                    </a>
+                  </li>
+
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#transbordos"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Transbordos
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#cultura-transmetro"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Cultura Transmetro
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#datos-operacion"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Datos de la Operación
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#accesibilidad"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Accesibilidad
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle"
+                  to="/ciudadano"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Atencion al Ciudadano
+                </Link>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li className="nav-item">
+                    <a
+                      href="/ciudadano/#manual-del-usuario"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Manual del Usuario
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/ciudadano/#preguntas-frecuentes"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Preguntas Frecuentes
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/ciudadano/#estimulo-estudiantil"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Estimulo Social de Transporte Estudiantil
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item">
                 <Link

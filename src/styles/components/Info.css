@@ -381,7 +381,7 @@ hr {
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .wrapper {
-    grid-gap: 2px;
+    grid-gap: 3px;
   }
   /*   .wave__card img {
     width: 15vw;
@@ -394,6 +394,12 @@ hr {
   }
   .moovit__card {
     padding-left: 60px;
+  }
+  .wave__card {
+    max-width: 150px;
+    width: 100%;
+    max-height: 140px;
+    margin: 0 auto;
   }
 }
 
@@ -467,8 +473,10 @@ hr {
 .moovit__card {
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #e30613;
+  border: 3px solid #fff;
+  /* width: 80%; */
 }
 moovit-preview .widget-container {
   display: table-cell;
@@ -664,6 +672,12 @@ a:hover {
     height: 45vw;
     max-height: 45vw !important;
   }
+  .r2v04k_mv-widget-wrapper {
+    width: 100% !important;
+  }
+  .moovit__card {
+    padding-left: 0px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1036px) {
   .r2v04k_mv-widget-wrapper iframe.responsive {
@@ -678,7 +692,10 @@ a:hover {
   .wave__card {
     max-width: 180px;
   }
-  /*  .wrapper {
-    grid-gap: 4px;
-  } */
+  .r2v04k_mv-widget-wrapper {
+    width: 100% !important;
+  }
+  .moovit__card {
+    padding-left: 0px;
+  }
 }

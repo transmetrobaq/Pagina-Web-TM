@@ -26,7 +26,9 @@ const RutasAlimentadoras = () => {
     <div className="container rutali__cards">
       {/* Droptown RutasAlimentadoras */}
       <div className="row">
-        <h1 className="text-center azul-lt">RUTAS ALIMENTADORAS</h1>
+        <h1 id="rutas-alimentadoras" className="text-center azul-lt">
+          RUTAS ALIMENTADORAS
+        </h1>
         <p className="text-center azul-lt">
           Las rutas alimentadoras operan con buses tipo padrón y busetón. Estos
           servicios se integran a las rutas troncales a través de las estaciones
