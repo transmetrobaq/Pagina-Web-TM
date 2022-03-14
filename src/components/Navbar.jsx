@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/components/Navbar.css';
 
 // eslint-disable-next-line arrow-body-style
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
     <div>
       <nav
         id="navbar-Tm"
-        className="navbar navbar-expand-lg navbar-light bg-light"
+        className="navbar__card navbar navbar-expand-lg navbar-light bg-light"
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
@@ -38,10 +39,11 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   to="/transmetro"
+                  className="nav-link"
                   style={{ textDecoration: 'none' }}
                   aria-current="page"
                 >
-                  <p className="nav-link">Transmetro</p>
+                  Transmetro
                 </Link>
               </li>
               {/*       <li className="nav-item">
@@ -185,19 +187,21 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   to="/noticias"
+                  className="nav-link"
                   style={{ textDecoration: 'none' }}
                   aria-current="page"
                 >
-                  <p className="nav-link">Comunicaciones</p>
+                  Comunicaciones
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   to="/transparencia"
+                  className="nav-link"
                   style={{ textDecoration: 'none' }}
                   aria-current="page"
                 >
-                  <p className="nav-link">Transparecia</p>
+                  Transparecia
                 </Link>
               </li>
               {/* <li className="nav-item dropdown">
