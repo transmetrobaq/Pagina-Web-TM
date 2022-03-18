@@ -11,6 +11,13 @@ body {
 .light {
   background: #f3f5f7;
 }
+/* title noticias */
+.card__noti {
+  margin-top: 25px;
+}
+.card__noti img {
+  width: 30vw;
+}
 
 /* Cards */
 .nt {
@@ -217,8 +224,19 @@ body {
 
 /* GALERIA */
 .contianer__galeria {
-  border-radius: 10px;
+  border-radius: 20px 20px;
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
 
   overflow: hidden;
+  width: 80%;
+  border: 3px solid #002856;
+}
+
+.contianer__galeria h1 {
+  text-align: center;
+  color: #002856;
+  font-size: 2rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
 }
