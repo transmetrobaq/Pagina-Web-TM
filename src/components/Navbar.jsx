@@ -184,15 +184,37 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
+              <li className="nav-item dropdown">
                 <Link
+                  className="nav-link dropdown-toggle"
                   to="/noticias"
-                  className="nav-link"
-                  style={{ textDecoration: 'none' }}
-                  aria-current="page"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
                   Comunicaciones
                 </Link>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li className="nav-item">
+                    <a
+                      href="/noticias/#comunicados-prensa"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Comunicados de Prensa
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/noticias/#galeria-de-imagenes"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Galería
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item">
                 <Link

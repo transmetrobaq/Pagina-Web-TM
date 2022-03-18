@@ -44,7 +44,7 @@ const Noticias = () => {
         <div className="row align-items-center ">
           <div className="col-md-6">
             <div className="card-body ">
-              <h1 className=" card-title text-center ">
+              <h1 id="comunicados-prensa" className=" card-title text-center ">
                 COMUNICADOS DE PRENSA
               </h1>
             </div>
@@ -127,7 +127,9 @@ const Noticias = () => {
 
         {/* <!-- GALERIA --> */}
         <div className="container contianer__galeria text-center rounded-bottom">
-          <h1 className="card-title">GALERÍA</h1>
+          <h1 id="galeria-de-imagenes" className="card-title">
+            GALERÍA
+          </h1>
         </div>
         <div
           id="carouselExampleIndicators"

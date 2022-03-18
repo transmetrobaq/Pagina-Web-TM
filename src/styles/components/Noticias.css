@@ -15,6 +15,10 @@ body {
 .card__noti {
   margin-top: 25px;
 }
+.card__noti h1 {
+  font-weight: bold;
+  color: #002856;
+}
 .card__noti img {
   width: 30vw;
 }
