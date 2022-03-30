@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 /* import initialState from '../initialState'; */
 
-const API = 'http://localhost:1337/manual';
+const API = 'http://apiwebtm.com/manual';
 const API1 = 'http://localhost:1337/quests';
 const API2 = 'https://apiwebtm.com/noticias';
 const useFetch = () => {

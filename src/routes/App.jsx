@@ -45,7 +45,7 @@ const App = () => {
             />
             <Route
               exact
-              path="/sistema/rutas_troncales/:noticiasId"
+              path="/sistema/rutas_troncales/:troncalId"
               component={TroncalesDetails}
             />
 
@@ -56,7 +56,7 @@ const App = () => {
             />
             <Route
               exact
-              path="/sistema/rutas_alimentadoras/:noticiasId"
+              path="/sistema/rutas_alimentadoras/:alimentadorId"
               component={AlimentadorasDetails}
             />
 

@@ -12,15 +12,15 @@ import '../styles/components/RutasTroncales.css';
 
 // eslint-disable-next-line arrow-body-style
 const RutasTroncales = () => {
-  const [noti, setNoti] = useState([]);
+  const [rtron, setRtron] = useState([]);
 
-  const AP = `https://apiwebtm.com/noticias`;
+  const AP = `https://apiwebtm.com/rutas-troncales`;
 
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
-    const resnoti = await axios.get(AP);
+    const resrtron = await axios.get(AP);
     /* setNoti(resnoti.data.data.slice(start, limit)); */
-    setNoti(resnoti.data);
+    setRtron(resrtron.data);
   }, []);
 
   return (
@@ -45,7 +45,10 @@ const RutasTroncales = () => {
         </p>
       </div>
 
-      <div className="row justify-content-center">
+      <div
+        className="row justify-content-center mx-auto d-block"
+        style={{ width: '50%' }}
+      >
         <div className="col-md-11">
           <div className="tabs">
             <div className="tab">
@@ -57,17 +60,17 @@ const RutasTroncales = () => {
                 <table className="table border-danger">
                   <tbody>
                     <tr>
-                      {noti
-                        ? noti.map((notis) => (
-                            <div className="" key={notis.id}>
+                      {rtron
+                        ? rtron.map((rtrons) => (
+                            <div className="tab-content-color" key={rtrons.id}>
                               <th className=" azul-lt " rowspan="9">
                                 <Link
-                                  to={`/sistema/rutas_troncales/${notis.slug}`}
+                                  to={`/sistema/rutas_troncales/${rtrons.Slug}`}
                                   role="button"
                                   className="text-decoration-none"
-                                  alt="Ver Noticia"
+                                  alt="Ver Ruta Troncal"
                                 >
-                                  {notis.title}
+                                  <h5 className=" azul-lt "> {rtrons.name}</h5>
                                 </Link>
                               </th>
                             </div>

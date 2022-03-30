@@ -11,15 +11,15 @@ import '../styles/components/RutasAlimentadoras.css';
 
 // eslint-disable-next-line arrow-body-style
 const RutasAlimentadoras = () => {
-  const [noti, setNoti] = useState([]);
+  const [rali, setRali] = useState([]);
 
-  const AP = `https://apiwebtm.com/noticias`;
+  const AP = `https://apiwebtm.com/rutas-alimentadoras`;
 
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
-    const resnoti = await axios.get(AP);
+    const resrali = await axios.get(AP);
     /* setNoti(resnoti.data.data.slice(start, limit)); */
-    setNoti(resnoti.data);
+    setRali(resrali.data);
   }, []);
 
   return (
@@ -38,7 +38,10 @@ const RutasAlimentadoras = () => {
         </p>
       </div>
 
-      <div className="row justify-content-center">
+      <div
+        className="row justify-content-center mx-auto d-block"
+        style={{ width: '50%' }}
+      >
         <div className="col-md-11">
           <div className="tabs">
             <div className="tab">
@@ -50,17 +53,17 @@ const RutasAlimentadoras = () => {
                 <table className="table border-danger">
                   <tbody>
                     <tr>
-                      {noti
-                        ? noti.map((notis) => (
-                            <div className="" key={notis.id}>
-                              <th className=" azul-lt " rowspan="9">
+                      {rali
+                        ? rali.map((ralis) => (
+                            <div className="tab-content-color" key={ralis.id}>
+                              <th rowspan="9">
                                 <Link
-                                  to={`/sistema/rutas_alimentadoras/${notis.slug}`}
+                                  to={`/sistema/rutas_alimentadoras/${ralis.Slug}`}
                                   role="button"
                                   className="text-decoration-none"
-                                  alt="Ver Noticia"
+                                  alt="Ver Ruta Alimentadora"
                                 >
-                                  {notis.title}
+                                  <h5 className=" azul-lt ">{ralis.name}</h5>
                                 </Link>
                               </th>
                             </div>
