@@ -9,7 +9,7 @@ const Transmetro = () => {
 
       <div className="container acerca__card">
         <div className="row">
-          <h1>Acerca de </h1>
+          <h1 id="acerca">Acerca de </h1>
 
           <div className="clearfix">
             <p>
@@ -52,7 +52,7 @@ const Transmetro = () => {
 
       {/* Mision -Vision */}
       <div className="container-cardTM">
-        <div className="card-tm">
+        <div id="mision-vision" className="card-tm">
           <figure>
             <img
               alt=""
@@ -109,7 +109,7 @@ const Transmetro = () => {
 
       {/* Objetivos */}
       <div className="container">
-        <div className="container obje__Estra">
+        <div id="objetivos-estrategicos" className="container obje__Estra">
           <div className="row text-center obj__Estra-ali">
             <div className="col-sm-4 obj__Estra-ali1 ">
               <div className="card-body ">
@@ -509,13 +509,11 @@ const Transmetro = () => {
                     alt="logo sistur"
                     src="https://apiwebtm.com/uploads/icosn_40_a4f85ba55c.png"
                   />
-                  la cantidad de 10 o más hijos deseados para mantener la
-                  herencia. Por otra parte la moda de la época, marcada por el
-                  uso de corsettes que achataban los pechos y causaban pezones
-                  invertidos, impedía muchas veces que las propias madres
-                  alimentaran a sus hijos. En contra de las recomendaciones de
-                  religiosos y médicos la mayoría de las mujeres que tenían
-                  posibilidades económicas de contratar amas de leche lo hacían.{' '}
+                  Desde el año 2000 los transportadores y empresas de transporte
+                  han generado un modelo de democratización ejemplo a nivel
+                  nacional donde se generaron empresas conformadas por pequeños
+                  propietarios quienes con pequeños aportes han constituido un
+                  gran capital acorde a las exigencias de la nación…
                 </p>
               </div>
               <div>
@@ -550,7 +548,7 @@ const Transmetro = () => {
       {/* <!-- DATOS DE INFRAESTRUCTURA --> */}
 
       {/* Cards Troncales */}
-      <div className="container">
+      <div id="datos-infraestructura" className="container">
         <div className="color-tex-da-infra">
           <h1 className="text-center">DATOS DE INFRAESTRUCTURA</h1>
         </div>
@@ -893,7 +891,7 @@ const Transmetro = () => {
       </div>
 
       {/* Movilizados */}
-      <div className="container-fluid card__Movi">
+      <div className="container-fluid card__Movi" style={{ marginTop: '60px' }}>
         <div className="row justify-content-center ">
           <div className="card mb-3 movilizado ">
             <div className="row g-0 ">

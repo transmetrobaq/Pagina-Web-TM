@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 import '../styles/components/Footer.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -45,16 +45,33 @@ const Footer = () => {
                   <h3>POLÍTICAS WEB</h3>
                   <ul className="fa-ul">
                     <li>
-                      <Link to="/ciudadano" role="button" alt="Ver Noticia">
+                      <a
+                        id="preguntas-frecuentes"
+                        href="/ciudadano/#preguntas-frecuentes"
+                        role="button"
+                        alt="preguntas frecuentes"
+                      >
                         Preguntas frecuentes
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <span>Términos y condiciones</span>
+                      <a
+                        href="https://drive.google.com/file/d/1r_z9PU_-Elhpf1CJnsg8OudxpKdvmfHt/view?usp=sharing"
+                        target="_blanck"
+                        alt="Términos y condiciones"
+                      >
+                        <span>Términos y condiciones</span>
+                      </a>
                     </li>
 
                     <li>
-                      <span>Política de privacidad</span>
+                      <a
+                        href="https://drive.google.com/file/d/18EcMay50AmkcNx0bjzstqYtu8hQ_l-Tg/view?usp=sharing"
+                        target="_blanck"
+                        alt="Política de privacidad"
+                      >
+                        <span>Política de privacidad</span>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -89,7 +106,13 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <span>Notificacones judiciales</span>
+                      <span>Notificacones judiciales:</span>
+                    </li>
+                    <li>
+                      <span className="fa-li">
+                        <i className="far fa-envelope contact-icon" />
+                      </span>
+                      <span>info@transmetro.gov.co</span>
                     </li>
                   </ul>
                 </div>

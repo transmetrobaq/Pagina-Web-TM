@@ -246,7 +246,7 @@ verde */
 
 .conformado h2 {
   margin-bottom: 18px;
-  font-size: 3.5vw;
+  /* font-size: 3.5vw; */
   font-weight: bold;
 }
 
@@ -278,7 +278,7 @@ verde */
     font-size: 3.5vw;
   }
   .conformado h2 {
-    font-size: 5.5vw;
+    /* font-size: 5.5vw; */
   }
   .conformado img {
     margin-right: 10px;

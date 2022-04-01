@@ -36,25 +36,57 @@ const Navbar = () => {
             style={{ marginTop: '10px', marginLeft: '10px' }}
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              <li className="nav-item dropdown">
                 <Link
+                  className="nav-link dropdown-toggle"
                   to="/transmetro"
-                  className="nav-link"
-                  style={{ textDecoration: 'none' }}
-                  aria-current="page"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
                   Transmetro
                 </Link>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li className="nav-item">
+                    <a
+                      href="/transmetro/#acerca"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Acerca de
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/transmetro/#mision-vision"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Misión/Visión
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/transmetro/#objetivos-estrategicos"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Objetivos Estrategicos
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/transmetro/#datos-infraestructura"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Datos de Infraestructura
+                    </a>
+                  </li>
+                </ul>
               </li>
-              {/*       <li className="nav-item">
-                <Link
-                  to="/sistema"
-                  style={{ textDecoration: 'none' }}
-                  aria-current="page"
-                >
-                  <p className="nav-link">Mi Sistema</p>
-                </Link>
-              </li> */}
+
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
@@ -217,14 +249,14 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/transparencia"
+                <a
+                  href="/transparencia/#transparencia"
                   className="nav-link"
                   style={{ textDecoration: 'none' }}
                   aria-current="page"
                 >
                   Transparecia
-                </Link>
+                </a>
               </li>
               {/* <li className="nav-item dropdown">
                 <a

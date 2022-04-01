@@ -129,6 +129,7 @@ const AlimentadorasDetails = () => {
             Ir a Rutas Alimentadoras
           </Link>
         </center>
+        
       </div>
     </>
   );
