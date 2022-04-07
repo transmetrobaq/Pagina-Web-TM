@@ -17,6 +17,7 @@ import AppContext from '../context/AppContext';
 import useFetch from '../hooks/useFetch';
 import Noticias from '../containers/Noticias';
 import Transparencia from '../containers/Transparencia';
+import Accesibilidad from '../containers/Accesibilidad';
 
 // eslint-disable-next-line arrow-body-style
 const App = () => {
@@ -68,6 +69,7 @@ const App = () => {
               component={NoticiasDetails}
             />
             <Route exact path="/transparencia" component={Transparencia} />
+            <Route exact path="/accesibilidad" component={Accesibilidad} />
             <Route component={NotFound} />
           </Switch>
         </Layout>

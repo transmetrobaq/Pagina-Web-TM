@@ -27,7 +27,7 @@ const Acordeon = () => {
             <div className="accordion-body ">
               <dd type="button" className="bor ">
                 <a href="/" target="_blank">
-                  1.1 Misión y visión
+                  1.1 Misión, visión, funciones y deberes.
                 </a>
               </dd>
               <dd className="bor ">
@@ -62,33 +62,43 @@ const Acordeon = () => {
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  1.8 Procedimientos que se siguen para tomar decisiones
+                  1.8 Servicio al público, normas, formularios y protocolos de
+                  atención
                 </a>
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  1.9 Mecanismo de presentación directa de solicitudes
+                  1.9 Procedimientos que se siguen para tomar decisiones
                 </a>
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  1.10 Calendario de actividades y eventos
+                  1.10 Mecanismo de presentación directa de solicitudes
                 </a>
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  1.11 Información sobre decisiones que puede afectar al
+                  1.11 Calendario de actividades y eventos
+                </a>
+              </dd>
+              <dd className="bor ">
+                <a href="pagina. html" target="_blank">
+                  1.12 Información sobre decisiones que puede afectar al
                   público.
                 </a>{' '}
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  1.12 Entes y autoridades que lo vigilan
+                  1.13 Entes y autoridades que lo vigilan
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
-                  1.13 Publicación de hojas de vida
+                <a
+                  href="https://drive.google.com/drive/folders/13cKR6RUIltdPdO6z5OGHBucvWeBh4bRO?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  1.14 Publicación de hojas de vida
                 </a>
               </dd>
             </div>
@@ -204,22 +214,38 @@ const Acordeon = () => {
           >
             <div className="accordion-body">
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
+                <a
+                  href="https://drive.google.com/drive/folders/1pw_dAKyNzz48Dk100iw7gm6VKDO5vdfS?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   3.1 Plan Anual de Adquisiciones
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
+                <a
+                  href="https://www.contratos.gov.co/consultas/inicioConsulta.do"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   3.2 Publicación de la información contractual
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
+                <a
+                  href="https://drive.google.com/drive/folders/1USnQsfDjQESQKinqnxIu6rt1t1I1cCfa?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   3.3 Publicación de la ejecución de los contratos
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
+                <a
+                  href="https://drive.google.com/drive/folders/1rJRwoQlQzvvAONxtr8Q5J6jwf28uMwT5?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   3.4 Manual de contratación
                 </a>
               </dd>
@@ -253,7 +279,11 @@ const Acordeon = () => {
           >
             <div className="accordion-body">
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
+                <a
+                  href="https://drive.google.com/drive/folders/1RVPZphj9aHxhJjRUHObOI0cJv9lPsHYT?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   4.1 Presupuesto general de ingresos
                 </a>
               </dd>
@@ -263,7 +293,11 @@ const Acordeon = () => {
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
+                <a
+                  href="https://drive.google.com/drive/folders/1xfL9EjCQeSgjVoHiW3fuN9QMEWeLofqk?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   4.3 Plan de Acción
                 </a>
               </dd>
@@ -378,7 +412,11 @@ const Acordeon = () => {
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
+                <a
+                  href="https://datos.gov.co/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   7.2 Sección de Datos Abiertos.
                 </a>
               </dd>

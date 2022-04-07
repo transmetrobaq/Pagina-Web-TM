@@ -239,7 +239,7 @@ body {
 .contianer__galeria h1 {
   text-align: center;
   color: #002856;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   margin-top: 25px;
   margin-bottom: 25px;
   font-weight: bold;

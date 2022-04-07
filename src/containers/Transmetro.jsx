@@ -92,7 +92,7 @@ const Transmetro = () => {
       </div>
       <div className="container linea-colores" />
       {/* Asamblea de Socios */}
-      <div className="container asamblea">
+      <div id="asamblea-socios" className="container asamblea">
         <div className="row">
           <h2 className="text-center"> Asamblea de Socios</h2>
           <figure>
@@ -492,12 +492,12 @@ const Transmetro = () => {
                     src="https://apiwebtm.com/uploads/icosn_39_b38f16dfab.png"
                   />
                   El Sistema emplea un método de recaudo único a cargo de la
-                  empresa Recaudos SIT Barranquilla, concesionario del Sistema
-                  encargado de proveer y distribuir las tarjetas inteligentes,
-                  suministro de la comunicación y la tecnología que permite la
-                  utilización de validadores y barreras de acceso electonicos.
-                  Asi mismo es la empresa encargada de proveer al personal
-                  idoneo para taquillas y mantenimiento de los equipos
+                  empresa <span>Recaudos SIT Barranquilla</span>, concesionario
+                  del Sistema encargado de proveer y distribuir las tarjetas
+                  inteligentes, suministro de la comunicación y la tecnología
+                  que permite la utilización de validadores y barreras de acceso
+                  electonicos. Asi mismo es la empresa encargada de proveer al
+                  personal idoneo para taquillas y mantenimiento de los equipos
                   correspondientes al recaudo del Sistema, que incluyen la
                   alianza con otras Organizaciones para ubicar una red de
                   recarga en Barranquilla y Soledad.
@@ -509,11 +509,18 @@ const Transmetro = () => {
                     alt="logo sistur"
                     src="https://apiwebtm.com/uploads/icosn_40_a4f85ba55c.png"
                   />
-                  Desde el año 2000 los transportadores y empresas de transporte
-                  han generado un modelo de democratización ejemplo a nivel
-                  nacional donde se generaron empresas conformadas por pequeños
-                  propietarios quienes con pequeños aportes han constituido un
-                  gran capital acorde a las exigencias de la nación…
+                  El Ente Gestor, mediante proceso de licitación
+                  LP-Tm300-001-09, adjudicó la Operación del sistema de
+                  Transporte Masivo para Barranquilla y su área Metropolitana,
+                  la <span>Unión Temporal Sistur-Transurbanos</span> obtuvo el
+                  60% de la operación del sistema y el{' '}
+                  <span>Grupo Empresarial Metrocaribe S.A.</span>
+                  el 40%. Estas empresas son las encargadas de prestar el
+                  servicio de transporte masivo, suministrar la flota de
+                  autobuses, maquinas y equipos necesarios para dotar los
+                  talleres, parqueos y los necesarios para mantenimiento de las
+                  instalaciones y flota. Mensualmente, desde el centro de
+                  Control del Sistema, se realiza la lidicación que permite
                 </p>
               </div>
               <div>
@@ -522,17 +529,17 @@ const Transmetro = () => {
                     alt="logo transmetro"
                     src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
                   />
-                  TRANSMETRO S.A.S. es una sociedad por acciones constituida
-                  entre entidades públicas, ubicada dentro de las sociedades por
-                  acciones simplificadas regulada por la ley 1258 de diciembre 5
-                  de 2008, vinculada al Área Metropolitana de Barranquilla,
-                  regida por las disposiciones legales aplicables a las empresas
-                  industriales y comerciales del estado y en particular a lo
-                  dispuesto en el artículo 85 y siguientes de la ley 489 y sus
-                  decretos reglamentarios, que tiene como objeto social
-                  principal el ejercicio de la titularidad sobre el Sistema
-                  Integrado de Transporte Masivo de Pasajeros del Distrito de
-                  Barranquilla y su Área Metropolitana, así como la
+                  <span>TRANSMETRO S.A.S.</span> es una sociedad por acciones
+                  constituida entre entidades públicas, ubicada dentro de las
+                  sociedades por acciones simplificadas regulada por la ley 1258
+                  de diciembre 5 de 2008, vinculada al Área Metropolitana de
+                  Barranquilla, regida por las disposiciones legales aplicables
+                  a las empresas industriales y comerciales del estado y en
+                  particular a lo dispuesto en el artículo 85 y siguientes de la
+                  ley 489 y sus decretos reglamentarios, que tiene como objeto
+                  social principal el ejercicio de la titularidad sobre el
+                  Sistema Integrado de Transporte Masivo de Pasajeros del
+                  Distrito de Barranquilla y su Área Metropolitana, así como la
                   construcción, operación, mantenimiento y puesta en
                   funcionamiento del mismo.
                 </p>

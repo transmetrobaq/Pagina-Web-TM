@@ -13,10 +13,10 @@ const Navbar = () => {
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
-              src="https://apiwebtm.com/uploads/icosn_15_aa2282bbfc.png"
+              src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
               alt="Logo Transmetro"
               className="img-fluid mb-2"
-              style={{ width: '40px', marginLeft: '10px' }}
+              style={{ width: '120px', marginLeft: '10px' }}
             />
           </a>
           <button
@@ -68,6 +68,15 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
+                      href="/transmetro/#asamblea-socios"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Asamblea de Socios
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
                       href="/transmetro/#objetivos-estrategicos"
                       className="dropdown-item"
                       aria-current="page"
@@ -100,13 +109,13 @@ const Navbar = () => {
                 </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li className="nav-item">
-                    <Link
-                      to="/sistema"
+                    <a
+                      href="/sistema/#datos-sistema"
                       className="dropdown-item"
                       aria-current="page"
                     >
                       Datos del Sistema
-                    </Link>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <a
@@ -214,6 +223,15 @@ const Navbar = () => {
                       Estimulo Social de Transporte Estudiantil
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="/ciudadano/#estimulo-estudiantil"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Peticiones, quejas y reclamos
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -298,6 +316,16 @@ const Navbar = () => {
                   aria-disabled="true"
                 >
                   Participacion Ciudadana
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link "
+                  href="/accesibilidad/#accesibilidad"
+                  tabIndex="-1"
+                  aria-disabled="true"
+                >
+                  Accesibilidad
                 </a>
               </li>
             </ul>

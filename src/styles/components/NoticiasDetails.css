@@ -5,6 +5,7 @@
 
 .backNoti {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .newsviewimg {
@@ -27,7 +28,7 @@
 
 .newsviewtitle h1 {
   margin-bottom: 6px;
-  font-size: 48px;
+  /* font-size: 48px; */
   color: #002856;
 }
 

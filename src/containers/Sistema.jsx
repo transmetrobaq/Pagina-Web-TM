@@ -29,7 +29,7 @@ const Sistema = () => (
               backgroundColor: '#004f9f',
             }}
           >
-            <div className="card-body">
+            <div id="datos-sistema" className="card-body">
               <h1 className="card-text text-center">Mapa Troncales</h1>
             </div>
           </div>

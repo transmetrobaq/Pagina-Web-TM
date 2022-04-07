@@ -1,0 +1,39 @@
+.azul-lt {
+  color: #002856;
+}
+
+.accesibilidad-tm {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.accesibilidad-tm i {
+  padding: 25%;
+  padding-top: 30%;
+  color: #c00d0d;
+
+  margin: 0 auto;
+}
+
+.accesibilidad-tm .accesibilidad-border {
+  border: 3px solid #00a13a;
+  border-radius: 20px;
+}
+
+.accesibilidad-tm a {
+  text-decoration: none;
+  color: #002856;
+  font-weight: bold;
+}
+
+/* accordeon */
+
+span.tecla {
+  color: #b70000;
+  border: 2px solid;
+  border-color: #b70000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  line-height: 42px;
+}

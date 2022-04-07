@@ -12,11 +12,11 @@ const NoticiasDetails = () => {
   const [notic, setNotic] = useState([]);
   const AP = `https://apiwebtm.com/noticias?slug=${noticiasId}`;
   /* const AP = `http://34.125.209.125/api/noticias?filters[slug][$eq]=${noticiasId}`; */
-  console.log(AP);
+  /* console.log(AP); */
   useEffect(async () => {
     const resnoti = await axios(AP);
     setNotic(resnoti.data[0]);
-    console.log(resnoti.data);
+    /* console.log(resnoti.data); */
   }, [noticiasId]);
   /* console.log(notic); */
   return (
@@ -35,7 +35,7 @@ const NoticiasDetails = () => {
             </span>
           </div>
         </div>
-        <div className="newsviewbody">{notic.Content}</div>
+        <p className="newsviewbody">{notic.Content}</p>
       </div>
       <div className="backNoti">
         <Link

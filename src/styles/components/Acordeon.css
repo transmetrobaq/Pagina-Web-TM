@@ -24,7 +24,14 @@
   background-color: #fff;
   border-radius: 5px;
 }
-
+.bor a {
+  color: #002856;
+  font-weight: bold;
+}
+.accordion-header {
+  color: #002856;
+  font-weight: bold;
+}
 .accordion-button:focus {
   background: #ffdd00;
 
