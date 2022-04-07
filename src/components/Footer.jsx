@@ -22,12 +22,12 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="contact__us-info">
-                  <p>HORARIO DE OPERACIÓN DEL SISTEMAS</p>
+                  <p>HORARIO DE OPERACIÓN DEL SISTEMA</p>
                   <span>Lunes a Viernes:</span>
                   <ul>
                     <li>05:00 - 22:00</li>
                   </ul>
-                  <span>Sabados:</span>
+                  <span>Sábados:</span>
                   <ul>
                     <li>05:00 - 22:00</li>
                   </ul>
@@ -35,7 +35,95 @@ const Footer = () => {
                   <ul>
                     <li>05:00 - 21:00</li>
 
-                    <li>Sujeto a modificacion</li>
+                    <li>* Sujeto a modificación</li>
+                  </ul>
+                </div>
+                <div className="footer-social-link">
+                  <h3>SÍGUENOS:</h3>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://es-la.facebook.com/transmetrobaq/"
+                        target="_blanck"
+                      >
+                        {/* <i className="fab fa-facebook" /> */}
+                        <i className="fa fa-facebook" aria-hidden="true" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/transmetrobaq"
+                        target="_blanck"
+                      >
+                        <i className="fab fa-twitter" aria-hidden="true" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/user/transmetrotv"
+                        target="_blanck"
+                      >
+                        <i className="fab fa-youtube" aria-hidden="true" />
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.instagram.com/transmetrobaq/?hl=es"
+                        target="_blanck"
+                      >
+                        <i className="fab fa-instagram" aria-hidden="true" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-md-12 col-lg-4">
+                <div className="cont__us">
+                  <h3>ATENCIÓN AL CIUDADANO</h3>
+                  <ul className="fa-ul">
+                    <li>
+                      <span className="fa-li">
+                        <i className="far fa-envelope contact-icon" />
+                      </span>
+                      <span>atencionalcliente@transmetro.gov.co</span>
+                    </li>
+                    <li>
+                      <span className="fa-li">
+                        <i className="fa fa-mobile" aria-hidden="true" />
+                      </span>
+                      <p>
+                        <span>605 - 3712222</span> Línea de atención
+                      </p>
+                    </li>
+                    <li>
+                      <span className="fa-li">
+                        <i className="fa fa-file-text-o" aria-hidden="true" />
+                      </span>
+                      <a href="/">
+                        <span>Peticiones, quejas y reclamos</span>
+                      </a>
+                    </li>
+                    {/*      <li>
+                      <span className="fa-li">
+                        <i
+                          className="fa fa-address-book-o"
+                          aria-hidden="true"
+                        />
+                      </span>
+                      <a href="/">
+                        <span>Directorio de funcionarios</span>
+                      </a>
+                    </li> */}
+                    <li>
+                      <span className="fa-li">
+                        <i className="far fa-envelope contact-icon" />
+                      </span>
+                      <span>Notificaciones judiciales:</span>
+                    </li>
+                    <li>
+                      <span>info@transmetro.gov.co</span>
+                    </li>
                   </ul>
                 </div>
                 <div
@@ -78,86 +166,6 @@ const Footer = () => {
               </div>
               <div className="col-md-12 col-lg-4">
                 <div className="cont__us">
-                  <h3>ATENCIÓN AL CIUDADANO</h3>
-                  <ul className="fa-ul">
-                    <li>
-                      <span className="fa-li">
-                        <i className="far fa-envelope contact-icon" />
-                      </span>
-                      <span>atencionalcliente@transmetro.gov.co</span>
-                    </li>
-                    <li>
-                      <span className="fa-li">
-                        <i className="fa fa-file-text-o" aria-hidden="true" />
-                      </span>
-                      <a href="/">
-                        <span>Peticiones, quejas y reclamos</span>
-                      </a>
-                    </li>
-                    <li>
-                      <span className="fa-li">
-                        <i
-                          className="fa fa-address-book-o"
-                          aria-hidden="true"
-                        />
-                      </span>
-                      <a href="/">
-                        <span>Directorio de funcionarios</span>
-                      </a>
-                    </li>
-                    <li>
-                      <span>Notificacones judiciales:</span>
-                    </li>
-                    <li>
-                      <span className="fa-li">
-                        <i className="far fa-envelope contact-icon" />
-                      </span>
-                      <span>info@transmetro.gov.co</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="footer-social-link">
-                  <h3>SIGUENOS:</h3>
-                  <ul>
-                    <li>
-                      <a
-                        href="https://es-la.facebook.com/transmetrobaq/"
-                        target="_blanck"
-                      >
-                        {/* <i className="fab fa-facebook" /> */}
-                        <i className="fa fa-facebook" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/transmetrobaq"
-                        target="_blanck"
-                      >
-                        <i className="fab fa-twitter" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.youtube.com/user/transmetrotv"
-                        target="_blanck"
-                      >
-                        <i className="fab fa-youtube" aria-hidden="true" />
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        href="https://www.instagram.com/transmetrobaq/?hl=es"
-                        target="_blanck"
-                      >
-                        <i className="fab fa-instagram" aria-hidden="true" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-12 col-lg-4">
-                <div className="cont__us">
                   <h3>CONTACTO</h3>
 
                   <div className="cont__us">
@@ -167,7 +175,7 @@ const Footer = () => {
                           <i className="fas fa-map-marker-alt" />
                         </span>
                         <span>Cra. 57 No. 99A - 65</span>
-                        <p>Ed. Torres del Atlantico T. Sur Piso 15</p>
+                        <p>Ed. Torres del Atlántico - Torre sur, piso 15</p>
                       </li>
                       <li>
                         <span className="fa-li">
@@ -200,7 +208,9 @@ const Footer = () => {
                             <i className="fas fa-map-marker-alt" />
                           </span>
                           <div>Cra. 57 No. 99A - 65</div>
-                          <div>Ed. Torres del Atlantico T. Sur Piso 15</div>
+                          <div>
+                            Ed. Torres del Atlántico - Torre Sur Piso 15
+                          </div>
                         </li>
                       </ul>
                     </div>

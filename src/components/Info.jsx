@@ -23,6 +23,89 @@ const Info = () => {
     <>
       <Navinfe />
 
+      {/* Todos contra el Covida */}
+      <div className="container ">
+        <div
+          className="mapa__Troncal"
+          style={{
+            border: '2px solid #004f9f',
+            borderRadius: '30px 30px 30px 30px',
+          }}
+        >
+          <div
+            className="card "
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '30px 30px 30px 30px',
+              borderLeft: 'none',
+              borderTop: 'none',
+              borderRight: 'none',
+              borderBottom: 'none',
+            }}
+          >
+            <div className="card-body">
+              <h3 className="card-text text-center">
+                TODOS CONTRA EL COVID-19
+              </h3>
+              <p className="card-text text-center">
+                Cómo protegerse y proteger a los demás
+              </p>
+            </div>
+          </div>
+
+          <div
+            className="card"
+            style={{
+              border: '2px solid #004f9f',
+              borderRadius: '20px',
+              borderBottom: 'none',
+              borderLeft: 'none',
+              borderRight: 'none',
+              marginBottom: '20px',
+            }}
+          >
+            <div className="card-body">
+              <div className="row  g-0 ">
+                <center className="col-md-3 ">
+                  <img
+                    src="https://apiwebtm.com/uploads/Lavado_de_manos_7a58441131.png"
+                    alt="icono lavado de manos"
+                    style={{ width: '40%' }}
+                  />
+                  <p> Lávese las manos </p>
+                </center>
+                <center className="col-md-3  ">
+                  <img
+                    src="https://apiwebtm.com/uploads/Mascarilla_ee3b44234e.png"
+                    alt="icnono Uso mascarilla"
+                    style={{ width: '40%' }}
+                  />
+                  <p>Use mascarilla </p>
+                </center>
+                <center className="col-md-3  ">
+                  <img
+                    src="https://apiwebtm.com/uploads/Desinfeccion_846d77751e.png"
+                    alt="icono Limpie y desinfecte"
+                    style={{ width: '40%' }}
+                  />
+                  <p>Limpie y desinfecte </p>
+                </center>
+                <center className="col-md-3  ">
+                  <img
+                    src="https://apiwebtm.com/uploads/Destancia_d9347dfa76.png"
+                    alt="icono Mantenga sana distancia"
+                    style={{ width: '40%' }}
+                  />
+                  <p>Mantenga sana distancia </p>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Card Bloque Troncales  */}
+
       <div className="container">
         {/*  <!--INFO BLOQUE 4 Mapa---> */}
         {/* Mapa Troncal Bootstap */}
@@ -119,89 +202,6 @@ const Info = () => {
             </div>
           </div>
         </div>
-
-        {/* Todos contra el Covida */}
-        <div className="container ">
-          <div
-            className="mapa__Troncal"
-            style={{
-              border: '2px solid #004f9f',
-              borderRadius: '30px 30px 30px 30px',
-            }}
-          >
-            <div
-              className="card "
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '30px 30px 30px 30px',
-                borderLeft: 'none',
-                borderTop: 'none',
-                borderRight: 'none',
-                borderBottom: 'none',
-              }}
-            >
-              <div className="card-body">
-                <h3 className="card-text text-center">
-                  TODOS CONTRA EL COVID-19
-                </h3>
-                <p className="card-text text-center">
-                  Como protegerse y proteger a los demas
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="card"
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '20px',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRight: 'none',
-                marginBottom: '20px',
-              }}
-            >
-              <div className="card-body">
-                <div className="row  g-0 ">
-                  <center className="col-md-3 ">
-                    <img
-                      src="https://apiwebtm.com/uploads/Lavado_de_manos_7a58441131.png"
-                      alt="icono lavado de manos"
-                      style={{ width: '40%' }}
-                    />
-                    <p> Lavarse las manos </p>
-                  </center>
-                  <center className="col-md-3  ">
-                    <img
-                      src="https://apiwebtm.com/uploads/Mascarilla_ee3b44234e.png"
-                      alt="icnono Uso mascarilla"
-                      style={{ width: '40%' }}
-                    />
-                    <p>Uso mascarilla </p>
-                  </center>
-                  <center className="col-md-3  ">
-                    <img
-                      src="https://apiwebtm.com/uploads/Desinfeccion_846d77751e.png"
-                      alt="icono Limpie y desinfecte"
-                      style={{ width: '40%' }}
-                    />
-                    <p>Limpie y desinfecte </p>
-                  </center>
-                  <center className="col-md-3  ">
-                    <img
-                      src="https://apiwebtm.com/uploads/Destancia_d9347dfa76.png"
-                      alt="icono Mantenga sana distancia"
-                      style={{ width: '40%' }}
-                    />
-                    <p>Mantenga sana distancia </p>
-                  </center>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Card Bloque Troncales  */}
 
         {/* Cards Troncales */}
         <div className="container">
@@ -384,11 +384,11 @@ const Info = () => {
             >
               <div className="card-body">
                 <p className="card-text">
-                  Estos servicios conectan a los usuarios ubicados en barrios
-                  alejados de las troncales a través de las estaciones del
-                  Sistema o de paraderos cercanos a estas con la posibilidad de
-                  hacer transbordos a los servicios troncales sin ningún costo
-                  adicional para el ciudadano
+                  Los servicios alimentadores conectan a los usuarios ubicados
+                  en barrios alejados de las troncales a través de las
+                  estaciones del Sistema o de paraderos cercanos a estas con la
+                  posibilidad de hacer transbordos a los servicios troncales sin
+                  ningún costo adicional para el ciudadano
                 </p>
               </div>
             </div>
@@ -495,7 +495,7 @@ const Info = () => {
             style={{ marginBottom: '50px' }}
             alt="Ver Noticia"
           >
-            Ver Mas Noticia...
+            Ver más noticia...
           </Link>
         </center>
       </div>
