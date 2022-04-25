@@ -97,7 +97,7 @@ const Transmetro = () => {
           <h2 className="text-center"> Asamblea de Socios</h2>
           <figure>
             <img
-              src="https://apiwebtm.com/uploads/Asamblea_588b9ec063.png"
+              src="https://apiwebtm.com/uploads/Asamblea_V2_30a7029fd8.png"
               alt="Asamblea"
               className="card-img"
             />
@@ -601,7 +601,7 @@ const Transmetro = () => {
             <div className="card-body">
               <div className="row g-0">
                 <div className="col-md-3 ">
-                  <h3>TRONCAL MURILLO</h3>
+                  <h5>TRONCAL MURILLO</h5>
                   <div className="cars-ico">
                     <img
                       src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
@@ -671,7 +671,7 @@ const Transmetro = () => {
             <div className="card-body">
               <div className="row  g-0">
                 <div className="col-md-6  ">
-                  <h3>TRONCAL OLAYA HERRERA</h3>
+                  <h5>TRONCAL OLAYA HERRERA</h5>
                   <div className="cars-ico ">
                     <img
                       src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
@@ -755,8 +755,11 @@ const Transmetro = () => {
           >
             <div className="card-body">
               <div className="row  g-0">
-                <div className="col-md-6  ">
-                  <h3>RUTAS ALIMENTADORAS</h3>
+                <div className="col-md-4  ">
+                  <a href="/sistema/rutas_alimentadoras/#rutas-alimentadoras">
+                    <h5>RUTAS ALIMENTADORAS</h5>
+                  </a>
+
                   <div className="cars-ico ">
                     <img
                       src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
@@ -764,31 +767,104 @@ const Transmetro = () => {
                     />
                   </div>
                 </div>
-                <div className="col-md-6 ">
-                  <ol>
+                <div className="col-md-4 ">
+                  <ul>
                     <li>
-                      Estación retorno <span>Joe Arroyo</span> - Carrera 46 con
-                      calle 74.
+                      A1-2 <span>Carrera Ocho </span>
                     </li>
                     <li>
-                      Estación <span>Esthercita Forero</span> - Entre calles 69
-                      y 70.
+                      A1-3 <span>Galán </span>
                     </li>
                     <li>
-                      Estación <span>Alfredo Correa De Andréis</span> - Entre
-                      calles 60 y 62.
+                      A1-4 <span>La Magdalena</span>
                     </li>
                     <li>
-                      Estación <span>La Catedral</span> - Entre calles 50 y 53.
+                      A2-1 <span>Hipódromo</span>
                     </li>
                     <li>
-                      Estación <span>Barrio Abajo</span> - Entre calles 43 y 45.
+                      A3-1 <span>Villa Katanga</span>
                     </li>
                     <li>
-                      Estación <span>Parque Cultural</span> - Entre calles 36 y
-                      39.
+                      A3-2 <span>Soledad 2000</span>
                     </li>
-                  </ol>
+                    <li>
+                      A3-3 <span>Manuela Beltran</span>
+                    </li>
+                    <li>
+                      A3-40 <span>Villa Sol (SUSPENDIDA)</span>
+                    </li>
+                    <li>
+                      A3-41 <span>Villa Karla</span>
+                    </li>
+                    <li>
+                      A3-4 <span>Villa Sol </span>
+                    </li>
+                    <li>
+                      A3-5 <span>Ciudadela Metropolitana (SUSPENDIDA)</span>
+                    </li>
+                    <li>
+                      A5-1 <span>Los Robles</span>
+                    </li>
+                    <li>
+                      A5-2 <span>Las Moras</span>
+                    </li>
+                    <li>
+                      A5-3 <span>La Central</span>
+                    </li>
+                    <li>
+                      A5-4 <span>San Antonio</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-md-4">
+                  <ul>
+                    <li>
+                      A5-5 <span>Manantial</span>
+                    </li>
+                    <li>
+                      A5-6 <span>Desde Granabastos</span>
+                    </li>
+                    <li>
+                      A6-5 <span>Carrizal</span>
+                    </li>
+                    <li>
+                      A6-6 <span>Manantial</span>
+                    </li>
+                    <li>
+                      A7-1 <span>Miramar</span>
+                    </li>
+                    <li>
+                      A7-3 <span>Carrera 38</span>
+                    </li>
+                    <li>
+                      A7-4 <span>Los Andes</span>
+                    </li>
+                    <li>
+                      A8-1 <span>Paraíso</span>
+                    </li>
+                    <li>
+                      A8-2 <span>Vía 40</span>
+                    </li>
+                    <li>
+                      A8-3 <span>Prado</span>
+                    </li>
+                    <li>
+                      A9-3 <span>Buenavista</span>
+                    </li>
+                    <li>
+                      A9-4 <span>Carrera 46</span>
+                    </li>
+                    <li>
+                      U-30 <span>Universidades</span>
+                    </li>
+                    <li>
+                      <span>Gran Malecón</span>
+                    </li>
+                    {/*  <li>
+                    <span>Ventana al Mundo</span>
+                    
+                    </li> */}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -802,7 +878,7 @@ const Transmetro = () => {
           <div className="col ">
             <div className="card car__port-infra  h-100">
               <div className="card-body">
-                <h3 className="card-title">PORTAL DE SOLEDAD</h3>
+                <h5 className="card-title">PORTAL DE SOLEDAD</h5>
               </div>
               <img
                 src="https://apiwebtm.com/uploads/icon_portal_rojo_a77a466c0b.png"
@@ -813,7 +889,7 @@ const Transmetro = () => {
           <div className="col">
             <div className="card car__port-infra  h-100">
               <div className="card-body">
-                <h3 className="card-title">PORTAL BARRANQUILLITA</h3>
+                <h5 className="card-title">PORTAL BARRANQUILLITA</h5>
               </div>
               <img
                 src="https://apiwebtm.com/uploads/icon_portal_A_f0df37cb97.png"
@@ -824,7 +900,7 @@ const Transmetro = () => {
           <div className="col">
             <div className="card car__port-infra  h-100">
               <div className="card-body">
-                <h3 className="card-title">ESTACIÓN RETORNO JOE ARROYO</h3>
+                <h5 className="card-title">ESTACIÓN RETORNO JOE ARROYO</h5>
               </div>
               <img
                 src="https://apiwebtm.com/uploads/icon_estacion_V_c6b7ce1a82.png"
@@ -834,6 +910,7 @@ const Transmetro = () => {
           </div>
         </div>
       </div>
+
       {/* <!-- DATOS DE INFRAESTRUCTURA bloque 3 --> */}
 
       <div className="container ">
