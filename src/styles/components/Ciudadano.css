@@ -1,39 +1,30 @@
 .cd {
-  /* width: 100%; */
   border-radius: 6px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease-out;
   cursor: default;
-  margin-top: 65px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.cd h3 {
-  font-size: 35px;
+.cd h2 {
+  /* font-size: 35px; */
   color: #002856;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
 }
-.cd h4 {
-  font-size: 18px;
+.cd h5 {
   color: #002856;
   position: relative;
   margin-bottom: 30px;
-
-  /* text-align: justify; */
 }
 .cd p {
-  font-size: 18px;
   color: #002856;
-  position: relative;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0;
-  /* text-align: justify; */
 }
 
 .cd li {
@@ -48,23 +39,9 @@
 }
 .cd a {
   text-decoration: none;
-  /* color: inherit; */
-  /* color: #c00d0d; */
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: bold;
-
-  /* border-color: #c00d0d; */
 }
-
-@media only screen and (max-width: 600px) {
-  .cd img {
-    width: 50% !important;
-    margin-top: -50px;
-  }
-}
-/* * linea con colores rojo,
-amarillo,
-verde */
 
 .linea-colores {
   width: 50%;
@@ -509,11 +486,11 @@ verde */
 }
 
 .titulo-preguntas {
-  margin: 7%;
+  margin: 5%;
 }
-.titulo-preguntas h1 {
-  font-size: 35px;
+.titulo-preguntas h2 {
   font-weight: bold;
+  color: #002856;
 }
 @media only screen and (min-width: 200px) and (max-width: 768px) {
   .preguntas-tm input:checked ~ .respuestas-content {

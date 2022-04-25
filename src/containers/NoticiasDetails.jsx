@@ -1,6 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import ReactMarkdown from 'react-markdown';
 import { useParams, Link } from 'react-router-dom';
 import '../styles/components/NoticiasDetails.css';
 
@@ -31,11 +32,14 @@ const NoticiasDetails = () => {
           </div>
           <div className="newsviewdetails">
             <span style={{ flex: '1', color: 'rgb(99 98 98)' }}>
-              Date: <span>{notic.date}</span>
+              Fecha: <span>{notic.date}</span>
             </span>
           </div>
         </div>
-        <p className="newsviewbody">{notic.Content}</p>
+
+        <ReactMarkdown className="newsviewbody" escapeHtml={false}>
+          {notic.Content}
+        </ReactMarkdown>
       </div>
       <div className="backNoti">
         <Link

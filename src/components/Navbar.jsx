@@ -5,7 +5,7 @@ import '../styles/components/Navbar.css';
 // eslint-disable-next-line arrow-body-style
 const Navbar = () => {
   return (
-    <div>
+    <div className="container-fluid">
       <nav
         id="navbar-Tm"
         className="navbar__card navbar navbar-expand-lg navbar-light bg-light"
@@ -81,7 +81,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Objetivos Estrategicos
+                      Objetivos Estratégicos
                     </a>
                   </li>
                   <li className="nav-item">
@@ -193,7 +193,7 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Atencion al Ciudadano
+                  Atención al Ciudadano
                 </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li className="nav-item">
@@ -205,6 +205,27 @@ const Navbar = () => {
                       Manual del Usuario
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="/ciudadano/#estimulo-estudiantil"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Peticiones, quejas y reclamos
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.sitbarranquilla.com/index.php/personaliza-tu-tarjeta"
+                      className="dropdown-item"
+                      aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Personaliza tu tarjeta
+                    </a>
+                  </li>
+
                   <li>
                     <a
                       href="/ciudadano/#preguntas-frecuentes"
@@ -220,16 +241,19 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Estimulo Social de Transporte Estudiantil
+                      Estímulo Social de Transporte Estudiantil
                     </a>
                   </li>
+
                   <li>
                     <a
-                      href="/ciudadano/#estimulo-estudiantil"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSc_p_YrG710pOHyR8sg_3RQRZObZ2jf81D7aLzrG1ewoIZd3g/viewform"
                       className="dropdown-item"
                       aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
                     >
-                      Peticiones, quejas y reclamos
+                      Encuesta Transparencia y Acceso a la Información
                     </a>
                   </li>
                 </ul>
@@ -273,7 +297,7 @@ const Navbar = () => {
                   style={{ textDecoration: 'none' }}
                   aria-current="page"
                 >
-                  Transparecia
+                  Transparencia
                 </a>
               </li>
               {/* <li className="nav-item dropdown">
@@ -315,7 +339,7 @@ const Navbar = () => {
                   tabIndex="-1"
                   aria-disabled="true"
                 >
-                  Participacion Ciudadana
+                  Participación Ciudadana
                 </a>
               </li>
               <li className="nav-item">
@@ -329,17 +353,17 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Buscar"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Buscar
-              </button>
-            </form>
+            {/*     <form className="d-flex ">
+            <input
+              className="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button className="btn btn-outline-success" type="submit">
+              <i className="fa fa-search" aria-hidden="true" />
+            </button>
+          </form> */}
           </div>
         </div>
       </nav>

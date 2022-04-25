@@ -17,10 +17,10 @@ const Transmetro = () => {
               cuando un grupo de profesionales especialistas en urbanismo y
               planificación de transporte decidieron formular un proyecto basado
               en el modelo brasileño de transporte masivo y el proyecto
-              Transmilenio, en ese entonces en construcción, este trabajo
+              Transmilenio, en ese entonces en construcción. Este fue trabajo
               desarrollado por Planeación Distrital, Tránsito Distrital, Dadima,
               Edubar, Ministerio de Ambiente, Universidad del Norte liderado y
-              coordinado por la Cámara de Comercio de Barranquilla.
+              estuvo coordinado por la Cámara de Comercio de Barranquilla.
             </p>
             <img
               src="https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg"
@@ -29,18 +29,18 @@ const Transmetro = () => {
             />
             <p>
               Después de realizados los estudios de transporte público y del
-              diseño conceptual de Transmetro llevados a cabo por el consorcio
-              colombo-español Bocarejo-ETT, mediante acuerdo Nº 003 de febrero
-              14 de 2003 del Concejo de Barranquilla se autoriza al Alcalde
-              Metropolitano para que el Distrito participe en la conformación de
-              la empresa Transmetro cuyo objeto principal es ser titular del
+              diseño conceptual de Transmetro, llevados a cabo por el consorcio
+              colombo-español Bocarejo-ETT mediante acuerdo Nº 003 de febrero 14
+              de 2003 del Concejo de Barranquilla, se autoriza al alcalde
+              metropolitano para que el Distrito participe en la conformación de
+              la empresa Transmetro, cuyo objeto principal es ser titular del
               sistema integrado de transporte masivo de pasajeros de
               Barranquilla y su área metropolitana.
             </p>
 
             <p>
-              Transmetro se constituye en la Notaría Novena de Barranquilla,
-              mediante escritura Pública suscrita el 2 de julio de 2003 como una
+              Transmetro se constituye en la notaría novena de Barranquilla,
+              mediante escritura pública suscrita el 2 de julio de 2003 como una
               sociedad por acciones entre entidades públicas de la especie de
               Sociedad Anónima Simplificada.
             </p>
@@ -56,7 +56,7 @@ const Transmetro = () => {
           <figure>
             <img
               alt=""
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ9DMNFHxwZcfPXJrJeBMITxPMP3FMZk_ixXzTfzt4G_C-G058"
+              src="https://apiwebtm.com/uploads/Mision_9b60965b6a.JPG"
             />
           </figure>
 
@@ -75,7 +75,7 @@ const Transmetro = () => {
           <figure>
             <img
               alt=""
-              src="https://image.freepik.com/foto-gratis/desarrollo-programadores-desarrollo-tecnologias-diseno-codificacion-sitios-web_18497-1090.jpg"
+              src="https://apiwebtm.com/uploads/small_Vision_b79475c4d1.jpg"
             />
           </figure>
 
@@ -114,7 +114,7 @@ const Transmetro = () => {
             <div className="col-sm-4 obj__Estra-ali1 ">
               <div className="card-body ">
                 <div className="obje__Estra-title">
-                  <h2 className="text-center ">OBJETIVO ESTRATEGICO</h2>
+                  <h2 className="text-center ">OBJETIVO ESTRATÉGICO</h2>
                 </div>
               </div>
             </div>
@@ -154,7 +154,7 @@ const Transmetro = () => {
               <div className="card-body ">
                 <ul className="list-group list-group-horizontal-md">
                   <li>
-                    1. Incrementar el nivel de satisfaccion de ususarios y
+                    1. Incrementar el nivel de satisfacción de ususarios y
                     ciudadanos.
                   </li>
                   <li>
@@ -163,8 +163,8 @@ const Transmetro = () => {
                 </ul>
                 <ul className="list-group list-group-horizontal-md">
                   <li>
-                    3. Gestionar una comunicacion adecuada con nuestro pcublico
-                    y generar valor agregado.
+                    3. Gestionar una comunicación adecuada con nuestro publico y
+                    generar valor agregado.
                   </li>
                   <li>
                     4. Contribuir sustancialmente al mejoramiento en la
@@ -176,7 +176,7 @@ const Transmetro = () => {
           </div>
 
           <div className="row text-center obj_ali">
-            <div className="col-sm-4 obj-ali3 ">
+            <div className="col-sm-4 obj-ali3">
               <div className="card-body ">
                 <i className="fas fa-cogs fa-5x" />
               </div>
@@ -188,14 +188,14 @@ const Transmetro = () => {
                     1. Optimizar los procesos internos de acuerdo a exigencias
                     de MIPG.
                   </li>
-                  <li>2. Mejorar en los indicadores del sistema.</li>
+                  <li>2. Mejorar en los indicadores del Sistema.</li>
                   <li>
-                    3. Gestionar la integracion del Transporte Masivo con el
+                    3. Gestionar la integración del Transporte Masivo con el
                     complementario..
                   </li>
                 </ul>
                 <ul className="list-group list-group-horizontal-md">
-                  <li>4. Constituir Banco de Proyectos.</li>
+                  <li>4. Constituir banco de proyectos.</li>
                   <li>5. Incrementar la demanda.</li>
                 </ul>
               </div>
@@ -216,14 +216,14 @@ const Transmetro = () => {
                   </li>
                   <li>
                     2. Desarrollar una cultura organizacional de trabajo en
-                    equipo y orientacion a los logros.
+                    equipo y orientación a los logros.
                   </li>
                 </ul>
                 <ul className="list-group list-group-horizontal-md">
                   <li>
                     3. Propiciar ambientes laborales seguros y armoniosos que
                     redunden en el mejoramiento de la calidad de vida de los
-                    servidores publicos.
+                    servidores públicos.
                   </li>
                 </ul>
               </div>
@@ -231,7 +231,8 @@ const Transmetro = () => {
           </div>
         </div>
       </div>
-      <div className="cubo__Info">
+      {/* Informacion Objetivos Estrategicos */}
+      {/* <div className="cubo__Info">
         <div className="card mb-3 cubo text-white ">
           <div className="row g-0">
             <div className="col-md-10">
@@ -302,7 +303,7 @@ const Transmetro = () => {
                       de cumplimiento de la operación y demanda alcanzada por
                       ruta
                       <span>3)</span> Hacer planes de servicio para cada
-                      estacionalidad del año <span>4)</span> hacer planes de
+                      estaciónalidad del año <span>4)</span> hacer planes de
                       desvío por cada evento de ciudad del que se tenga
                       información <span>5)</span> Contar con presencia en los
                       comités organizados por las autoridades para aprobar
@@ -365,7 +366,7 @@ const Transmetro = () => {
           </div>
         </div>
 
-        {/* <!-- cubo 4 --> */}
+        
 
         <div className="container-fluid">
           <div className=" row justify-content-end">
@@ -448,7 +449,7 @@ const Transmetro = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!-- linea con colores rojo, amarillo, verde  --> */}
       <div className="container linea-colores" />
 
@@ -457,7 +458,7 @@ const Transmetro = () => {
         <div className="row">
           <div className="conformado">
             <div className="col-8">
-              <h2>QUE ES TRANSMETRO Y COMO ESTA CONFORMADO</h2>
+              <h2>Qué es Transmetro y cómo está conformado</h2>
             </div>
 
             <div className="col-12">
@@ -480,12 +481,33 @@ const Transmetro = () => {
                   que recorren barrios de Barranquilla, Soledad y un pequeño
                   sector de Puerto Colombia.{' '}
                   <span>
-                    Organizaciones que conforman el Sistema de Transporte masivo
+                    organizaciones que conforman el Sistema de Transporte masivo
                     en Barranquilla y su área Metropolitana:
                   </span>
                 </p>
               </div>
               <div>
+                <div>
+                  <p className="text-derecha ">
+                    <img
+                      alt="logo transmetro"
+                      src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
+                    />
+                    <span>TRANSMETRO S.A.S.</span> es una sociedad por acciones
+                    constituida entre entidades públicas, ubicada dentro de las
+                    sociedades por acciones simplificadas regulada por la ley
+                    1258 de diciembre 5 de 2008, vinculada al Área Metropolitana
+                    de Barranquilla, regida por las disposiciones legales
+                    aplicables a las empresas industriales y comerciales del
+                    estado y en particular a lo dispuesto en el artículo 85 y
+                    siguientes de la ley 489 y sus decretos reglamentarios, que
+                    tiene como objeto social principal el ejercicio de la
+                    titularidad sobre el Sistema Integrado de Transporte Masivo
+                    de Pasajeros del Distrito de Barranquilla y su área
+                    metropolitana, así como la construcción, operación,
+                    mantenimiento y puesta en funcionamiento del mismo.
+                  </p>
+                </div>
                 <p className="text-derecha ">
                   <img
                     alt="logo recaudos sit"
@@ -494,10 +516,10 @@ const Transmetro = () => {
                   El Sistema emplea un método de recaudo único a cargo de la
                   empresa <span>Recaudos SIT Barranquilla</span>, concesionario
                   del Sistema encargado de proveer y distribuir las tarjetas
-                  inteligentes, suministro de la comunicación y la tecnología
+                  inteligentes, suministro de la comunicación y la tecnología,
                   que permite la utilización de validadores y barreras de acceso
-                  electonicos. Asi mismo es la empresa encargada de proveer al
-                  personal idoneo para taquillas y mantenimiento de los equipos
+                  electonicos. Asimismo, es la empresa encargada de proveer al
+                  personal idoneó para taquillas y mantenimiento de los equipos
                   correspondientes al recaudo del Sistema, que incluyen la
                   alianza con otras Organizaciones para ubicar una red de
                   recarga en Barranquilla y Soledad.
@@ -511,37 +533,15 @@ const Transmetro = () => {
                   />
                   El Ente Gestor, mediante proceso de licitación
                   LP-Tm300-001-09, adjudicó la Operación del sistema de
-                  Transporte Masivo para Barranquilla y su área Metropolitana,
-                  la <span>Unión Temporal Sistur-Transurbanos</span> obtuvo el
-                  60% de la operación del sistema y el{' '}
+                  Transporte Masivo para Barranquilla y su área Metropolitana.
+                  La <span>Unión Temporal Sistur-Transurbanos</span> obtuvo el
+                  60% de la operación del Sistema y el{' '}
                   <span>Grupo Empresarial Metrocaribe S.A.</span>
                   el 40%. Estas empresas son las encargadas de prestar el
                   servicio de transporte masivo, suministrar la flota de
-                  autobuses, maquinas y equipos necesarios para dotar los
+                  autobuses, maquinás y equipos necesarios para dotar los
                   talleres, parqueos y los necesarios para mantenimiento de las
-                  instalaciones y flota. Mensualmente, desde el centro de
-                  Control del Sistema, se realiza la lidicación que permite
-                </p>
-              </div>
-              <div>
-                <p className="text-derecha ">
-                  <img
-                    alt="logo transmetro"
-                    src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
-                  />
-                  <span>TRANSMETRO S.A.S.</span> es una sociedad por acciones
-                  constituida entre entidades públicas, ubicada dentro de las
-                  sociedades por acciones simplificadas regulada por la ley 1258
-                  de diciembre 5 de 2008, vinculada al Área Metropolitana de
-                  Barranquilla, regida por las disposiciones legales aplicables
-                  a las empresas industriales y comerciales del estado y en
-                  particular a lo dispuesto en el artículo 85 y siguientes de la
-                  ley 489 y sus decretos reglamentarios, que tiene como objeto
-                  social principal el ejercicio de la titularidad sobre el
-                  Sistema Integrado de Transporte Masivo de Pasajeros del
-                  Distrito de Barranquilla y su Área Metropolitana, así como la
-                  construcción, operación, mantenimiento y puesta en
-                  funcionamiento del mismo.
+                  instalaciones y flota.
                 </p>
               </div>
             </div>
@@ -579,10 +579,10 @@ const Transmetro = () => {
           >
             <div className="card-body">
               <p className="card-text">
-                Los servicios Troncales agilizan el traslado de los usuarios
+                Los servicios troncales agilizan el traslado de los usuarios
                 porque transitan por carriles excusivos (Solo Bus) de las
                 troncales Murillo y Olaya Herrera para llevar a los ciudadanos a
-                las diferentes estaciones y portales con los que cuenta el
+                las diferentes estaciónes y portales con los que cuenta el
                 Sistema Masivo.
               </p>
             </div>
@@ -616,40 +616,40 @@ const Transmetro = () => {
                       (Soledad, Atl.).
                     </li>
                     <li>
-                      Estacion <span>Pedro Ramayá Beltran</span> - Entre
+                      Estación <span>Pedro Ramayá Beltran</span> - Entre
                       carreras 23 y Av. Circunvalar (Soledad, Atl.).
                     </li>
                     <li>
-                      Estacion <span>Pacho Galán</span> - Entre carreras 16 y 17
+                      Estación <span>Pacho Galán</span> - Entre carreras 16 y 17
                       (Soledad, Atl.).
                     </li>
                     <li>
-                      Estacion <span>Joaquin Barrios Polo</span> - Entre
+                      Estación <span>Joaquín Barrios Polo</span> - Entre
                       carreras 1G y 2A.
                     </li>
                     <li>
-                      Estacion <span>Buenos Aires</span> - Entres carrera 7 y
+                      Estación <span>Buenos Aires</span> - Entres carrera 7 y
                       7G.
                     </li>
                     <li>
-                      Estacion <span>LA Ocho</span> - Entre carreras 8 y 8C.
+                      Estación <span>LA Ocho</span> - Entre carreras 8 y 8C.
                     </li>
                     <li>
-                      Estacion <span>La Catorce</span> - Entre carreras 14 y 17.
+                      Estación <span>La Catorce</span> - Entre carreras 14 y 17.
                     </li>
                     <li>
-                      Estacion <span>La Veintiuna</span> - Entre carreras 20 y
+                      Estación <span>La Veintiuna</span> - Entre carreras 20 y
                       21.
                     </li>
                     <li>
-                      Estacion <span>Atlántico</span> - Entre carreras 26 y 27.
+                      Estación <span>Atlántico</span> - Entre carreras 26 y 27.
                     </li>
                     <li>
-                      Estacion <span>Chiquinquirá</span> - Entre carreras 33 y
+                      Estación <span>Chiquinquirá</span> - Entre carreras 33 y
                       36.
                     </li>
                     <li>
-                      Estacion <span>La Arenosa</span> - Entre carreras 41 y 43.
+                      Estación <span>La Arenosa</span> - Entre carreras 41 y 43.
                     </li>
                   </ol>
                 </div>
@@ -682,25 +682,25 @@ const Transmetro = () => {
                 <div className="col-md-6 ">
                   <ol>
                     <li>
-                      Estacion retorno <span>Joe Arroyo</span> - Carrera 46 con
+                      Estación retorno <span>Joe Arroyo</span> - Carrera 46 con
                       calle 74.
                     </li>
                     <li>
-                      Estacion <span>Esthercita Forero</span> - Entre calles 69
+                      Estación <span>Esthercita Forero</span> - Entre calles 69
                       y 70.
                     </li>
                     <li>
-                      Estacion <span>Alfredo Correa De Andréis</span> - Entre
+                      Estación <span>Alfredo Correa De Andréis</span> - Entre
                       calles 60 y 62.
                     </li>
                     <li>
-                      Estacion <span>La Catedral</span> - Entre calles 50 y 53.
+                      Estación <span>La Catedral</span> - Entre calles 50 y 53.
                     </li>
                     <li>
-                      Estacion <span>Barrio Abajo</span> - Entre calles 43 y 45.
+                      Estación <span>Barrio Abajo</span> - Entre calles 43 y 45.
                     </li>
                     <li>
-                      Estacion <span>Parque Cultural</span> - Entre calles 36 y
+                      Estación <span>Parque Cultural</span> - Entre calles 36 y
                       39.
                     </li>
                   </ol>
@@ -734,7 +734,7 @@ const Transmetro = () => {
             <div className="card-body">
               <p className="card-text">
                 Estos servicios conectan a los usuarios ubicados en barrios
-                alejados de las troncales a través de las estaciones del Sistema
+                alejados de las troncales a través de las estaciónes del Sistema
                 o de paraderos cercanos a estas con la posibilidad de hacer
                 transbordos a los servicios troncales sin ningún costo adicional
                 para el ciudadano
@@ -767,25 +767,25 @@ const Transmetro = () => {
                 <div className="col-md-6 ">
                   <ol>
                     <li>
-                      Estacion retorno <span>Joe Arroyo</span> - Carrera 46 con
+                      Estación retorno <span>Joe Arroyo</span> - Carrera 46 con
                       calle 74.
                     </li>
                     <li>
-                      Estacion <span>Esthercita Forero</span> - Entre calles 69
+                      Estación <span>Esthercita Forero</span> - Entre calles 69
                       y 70.
                     </li>
                     <li>
-                      Estacion <span>Alfredo Correa De Andréis</span> - Entre
+                      Estación <span>Alfredo Correa De Andréis</span> - Entre
                       calles 60 y 62.
                     </li>
                     <li>
-                      Estacion <span>La Catedral</span> - Entre calles 50 y 53.
+                      Estación <span>La Catedral</span> - Entre calles 50 y 53.
                     </li>
                     <li>
-                      Estacion <span>Barrio Abajo</span> - Entre calles 43 y 45.
+                      Estación <span>Barrio Abajo</span> - Entre calles 43 y 45.
                     </li>
                     <li>
-                      Estacion <span>Parque Cultural</span> - Entre calles 36 y
+                      Estación <span>Parque Cultural</span> - Entre calles 36 y
                       39.
                     </li>
                   </ol>
@@ -824,7 +824,7 @@ const Transmetro = () => {
           <div className="col">
             <div className="card car__port-infra  h-100">
               <div className="card-body">
-                <h3 className="card-title">PORTAL DE SOLEDAD</h3>
+                <h3 className="card-title">ESTACIÓN RETORNO JOE ARROYO</h3>
               </div>
               <img
                 src="https://apiwebtm.com/uploads/icon_estacion_V_c6b7ce1a82.png"
@@ -861,7 +861,7 @@ const Transmetro = () => {
               alt="icono"
             />
             <div className="container linea-colores-peque" />
-            <p className="">198 kilómetros en Rutas Alimentadoras</p>
+            <p className="">198 kilómetros en rutas alimentadoras</p>
           </div>
         </div>
 
@@ -873,7 +873,7 @@ const Transmetro = () => {
             />
             <div className="container linea-colores-peque" />
 
-            <p className="icono">85.000 mil mt2 de área en Portal de Soledad</p>
+            <p className="icono">85.000 mil m2 de área en Portal de Soledad</p>
           </div>
           <div className="col-sm-4  text-center">
             <img
@@ -882,7 +882,7 @@ const Transmetro = () => {
             />
             <div className="container linea-colores-peque" />
             <p className="">
-              45.000 mil mts2 de área en Barranquillita: Capacidad para 120
+              45.000 mil m2 de área en Barranquillita: capacidad para 120
               vehículos
             </p>
           </div>
@@ -892,13 +892,13 @@ const Transmetro = () => {
               alt="icono"
             />
             <div className="container linea-colores-peque" />
-            <p className="">Par Vial: 2 kms. de vía de andenes</p>
+            <p className="">Par Vial: 2 km de vía de andenes</p>
           </div>
         </div>
       </div>
 
       {/* Movilizados */}
-      <div className="container-fluid card__Movi" style={{ marginTop: '60px' }}>
+      <div className="container-fluid card__Movi" style={{ marginTop: '65px' }}>
         <div className="row justify-content-center ">
           <div className="card mb-3 movilizado ">
             <div className="row g-0 ">
@@ -930,88 +930,77 @@ const Transmetro = () => {
       </div>
       {/* Fin Movilizados */}
 
-      <div className="container">
-        {/* <!-- Button trigger modal --> */}
-        {/*  <button
-          type="button"
-          className="btn btn-primary "
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-        >
-          Encuesta
-        </button> */}
+      {/* Encuestas Ciudadano */}
+      <center className="container">
+        <div className="row card__Encuesta">
+          <div className="card">
+            <div className="card-body ">
+              <h2 className="card-title">
+                Encuesta de participacion ciudadana
+              </h2>
 
-        {/* Encuestas Ciudadano */}
-        <div className="container" style={{ marginBottom: '65px' }}>
-          <div className="row cd">
-            <div className="card">
-              <div className="card-body">
-                <h3 className="card-title">Encuesta</h3>
-                <figure className="col-md-12 ">
-                  <center>
-                    <img
-                      src="https://apiwebtm.com/uploads/Encuesta_7366385556.png"
-                      className="img-fluid rounded-start center-block"
-                      alt="imagen de encuesta"
-                      style={{ width: '20%' }}
-                    />
-                  </center>
-                </figure>
-                <div className="container">
-                  {/* <!-- Button trigger modal --> */}
-                  <center>
-                    <button
-                      type="button"
-                      className="btn btn-success"
-                      data-bs-toggle="modal"
-                      data-bs-target="#exampleModal"
-                      style={{
-                        marginTop: '20px',
-                        fontSize: '18px',
-                        width: '200px',
-                      }}
-                    >
-                      <span style={{ textTransform: 'uppercase' }}>
-                        Encuesta de
-                      </span>{' '}
-                      Participacion Ciudadana
-                    </button>
-                  </center>
-                  {/* <!-- Modal --> */}
-                  <div
-                    className="modal fade"
-                    id="exampleModal"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
+              <figure className="col-md-12 ">
+                <center>
+                  <img
+                    src="https://apiwebtm.com/uploads/Encuesta_7366385556.png"
+                    className="img-fluid rounded-start center-block"
+                    alt="imagen de encuesta"
+                    style={{ width: '30%' }}
+                  />
+                </center>
+              </figure>
+
+              <div className="container">
+                {/* <!-- Button trigger modal --> */}
+                <center>
+                  <button
+                    type="button"
+                    className="btn btn-success"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style={{
+                      marginTop: '20px',
+                      fontSize: '18px',
+                      width: '150px',
+                    }}
                   >
-                    <div className="modal-dialog">
-                      <div className="modal-content">
-                        <div className="modal-header">
-                          <h5 className="modal-title" id="exampleModalLabel">
-                            Encuestas Transmetro
-                          </h5>
-                          <button
-                            type="button"
-                            className="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          />
-                        </div>
-                        <div className="modal-body ">
-                          {/*  <iframe
+                    Ver encuesta
+                  </button>
+                </center>
+                {/* <!-- Modal --> */}
+                <div
+                  className="modal fade"
+                  id="exampleModal"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">
+                          Encuestas Transmetro
+                        </h5>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        />
+                      </div>
+                      <div className="modal-body ">
+                        {/*  <iframe
                   src="https://us20.list-manage.com/survey?u=82026dcd7051db356ac870607&id=305155383f&attribution=false"
                   style={{ width: '100%', height: '600px ' }}
                 />  */}
-                        </div>
-                        <div className="modal-footer">
-                          <button
-                            type="button"
-                            className="btn btn-secondary"
-                            data-bs-dismiss="modal"
-                          >
-                            Cerrar
-                          </button>
-                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Cerrar
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -1020,7 +1009,7 @@ const Transmetro = () => {
             </div>
           </div>
         </div>
-      </div>
+      </center>
     </>
   );
 };

@@ -38,44 +38,48 @@ const Footer = () => {
                     <li>* Sujeto a modificación</li>
                   </ul>
                 </div>
-                <div className="footer-social-link">
-                  <h3>SÍGUENOS:</h3>
-                  <ul>
-                    <li>
-                      <a
-                        href="https://es-la.facebook.com/transmetrobaq/"
-                        target="_blanck"
-                      >
-                        {/* <i className="fab fa-facebook" /> */}
-                        <i className="fa fa-facebook" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/transmetrobaq"
-                        target="_blanck"
-                      >
-                        <i className="fab fa-twitter" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.youtube.com/user/transmetrotv"
-                        target="_blanck"
-                      >
-                        <i className="fab fa-youtube" aria-hidden="true" />
-                      </a>
-                    </li>
+                <div className="footer-social-link d-flex">
+                  <div className="col-md-6">
+                    <h3>SÍGUENOS:</h3>
+                  </div>
+                  <div className="col-md-6">
+                    <ul>
+                      <li>
+                        <a
+                          href="https://es-la.facebook.com/transmetrobaq/"
+                          target="_blanck"
+                        >
+                          {/* <i className="fab fa-facebook" /> */}
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://twitter.com/transmetrobaq"
+                          target="_blanck"
+                        >
+                          <i className="fab fa-twitter" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.youtube.com/user/transmetrotv"
+                          target="_blanck"
+                        >
+                          <i className="fab fa-youtube" aria-hidden="true" />
+                        </a>
+                      </li>
 
-                    <li>
-                      <a
-                        href="https://www.instagram.com/transmetrobaq/?hl=es"
-                        target="_blanck"
-                      >
-                        <i className="fab fa-instagram" aria-hidden="true" />
-                      </a>
-                    </li>
-                  </ul>
+                      <li>
+                        <a
+                          href="https://www.instagram.com/transmetrobaq/?hl=es"
+                          target="_blanck"
+                        >
+                          <i className="fab fa-instagram" aria-hidden="true" />
+                        </a>
+                      </li>
+                    </ul>{' '}
+                  </div>
                 </div>
               </div>
               <div className="col-md-12 col-lg-4">
@@ -90,10 +94,10 @@ const Footer = () => {
                     </li>
                     <li>
                       <span className="fa-li">
-                        <i className="fa fa-mobile" aria-hidden="true" />
+                        <i className="fa fa-phone" aria-hidden="true" />
                       </span>
                       <p>
-                        <span>605 - 3712222</span> Línea de atención
+                        <span>605 3712222</span> Línea de atención
                       </p>
                     </li>
                     <li>
@@ -128,7 +132,7 @@ const Footer = () => {
                 </div>
                 <div
                   className="contact__us-info"
-                  style={{ marginTop: '50px', marginBottom: '50px' }}
+                  style={{ marginTop: '70px', marginBottom: '50px' }}
                 >
                   <h3>POLÍTICAS WEB</h3>
                   <ul className="fa-ul">

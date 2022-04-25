@@ -2,7 +2,7 @@
 .mapa__Troncal {
   width: 100%;
   text-align: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -227,7 +227,7 @@
   border-radius: 20px;
   /* padding: 40px; */
   /* width: 90%; */
-  font-size: 20px;
+  /*  font-size: 20px; */
   margin: 0 auto;
 
   line-height: 1;
@@ -243,7 +243,7 @@
   color: #004f9f;
   text-align: left;
   line-height: 1.5;
-  font-size: 1.5vw;
+  /* font-size: 1.5vw; */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {

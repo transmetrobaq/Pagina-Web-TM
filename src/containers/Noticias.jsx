@@ -13,7 +13,7 @@ import '../styles/components/Noticias.css';
 const Noticias = () => {
   const [noti, setNoti] = useState([]);
   const [start, setStart] = useState(0);
-  const [limit] = useState(3);
+  const [limit] = useState(6);
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
 
   const [totalCount, setTotalCount] = useState([]);
@@ -93,7 +93,7 @@ const Noticias = () => {
                       className="btn btn-outline-primary"
                       alt="Ver Noticia"
                     >
-                      Ver Noticia
+                      Ver noticia
                     </Link>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const Noticias = () => {
               onClick={prevPage}
               alt="Anterior Noticia"
             >
-              Anterior Noticia
+              Anterior noticia
             </button>
           </span>
           <span>
@@ -120,7 +120,7 @@ const Noticias = () => {
               onClick={nextPage}
               alt="Siguiente Noticia"
             >
-              Siguiente Noticia
+              Siguiente noticia
             </button>
           </span>
         </div>
@@ -167,22 +167,25 @@ const Noticias = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://apiwebtm.com/uploads/noti2_adbb12f701.JPG"
+                src="https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg"
                 className="d-block w-100"
+                style={{ maxHeight: '500px' }}
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://apiwebtm.com/uploads/noti2_adbb12f701.JPG"
+                src="https://apiwebtm.com/uploads/PSX_20190403_180752_5b356aaa65.jpg"
                 className="d-block w-100"
+                style={{ maxHeight: '500px' }}
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://apiwebtm.com/uploads/noti2_adbb12f701.JPG"
+                src="https://apiwebtm.com/uploads/PSX_20190403_063253_8bd25532d9.jpg"
                 className="d-block w-100"
+                style={{ maxHeight: '500px' }}
                 alt="..."
               />
             </div>

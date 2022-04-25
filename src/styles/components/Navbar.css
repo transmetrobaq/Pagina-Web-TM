@@ -1,10 +1,22 @@
 .navbar__card li {
   color: #002856;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-weight: bold;
 }
 .navbar__card a {
   color: #002856 !important;
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
+}
+
+.navbar__card a:hover {
+  color: #e30613 !important;
+}
+/* .navbar__card a:active {
+  color: red !important;
+} */
+@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+  .navbar__card a {
+    font-size: 1.2rem;
+  }
 }

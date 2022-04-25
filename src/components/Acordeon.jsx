@@ -333,9 +333,22 @@ const Acordeon = () => {
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
+                <a
+                  href="https://drive.google.com/drive/folders/1pURjjpOiq66PtRNQZpTAGYt7U7xqUmXW?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   4.10 Informes trimestrales sobre acceso a información, quejas
                   y reclamos
+                </a>
+              </dd>
+              <dd className="bor ">
+                <a
+                  href="https://drive.google.com/drive/folders/13yb9qBlefN2yyszk1tzkrG1_BD9p53Qt?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  4.11 Respuesta a peticiones anónimas o sin dirección
                 </a>
               </dd>
             </div>

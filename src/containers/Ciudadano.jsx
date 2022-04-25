@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable jsx-a11y/label-has-associated-control */
@@ -25,14 +26,14 @@ const Ciudadano = () => {
           <div className="row cd">
             <div className="card ">
               <div className="card-body ">
-                <h3 id="manual-del-usuario" className="card-title text-center">
+                <h2 id="manual-del-usuario" className="card-title text-center">
                   MANUAL DEL USUARIO
-                </h3>
-                <h4 className="card-text">
+                </h2>
+                <h5 className="card-text text-center">
                   Este Manual describe objetos, generalidades, derechos y
                   deberes del usuario, restricciones y canales de comunicacion
                   con el sistema
-                </h4>
+                </h5>
                 <p className="card-text">
                   Esta información se debe tener en cuenta al momento de
                   utilizar el Sistema Integrado de Transporte Masivo de la
@@ -61,68 +62,12 @@ const Ciudadano = () => {
         </div>
         {/* <!-- linea con colores rojo, amarillo, verde  --> */}
         <div className="container linea-colores" />
+
         {/* Preguntas Frecuentes */}
-        {/*  <div className="row cd">
-          <div className="card">
-            <div className="card-body text-center" key={quest.id}>
-              <h3 className="card-title">Preguntas y Respuestas Frecuentes</h3>
-              <div className="card-group">
-                <div className="col-md-6">
-                  <ul className="list-group">
-                    {quests.map((quest) => (
-                      <li key={quest.id} className="list-group-item">
-                        <h4>{quest.title}</h4>
-                        <p>{quest.content}</p>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="col-md-6">
-                  <p className="card-text">
-                    Este Manual describe objetos, generalidades, derechos y
-                    deberes del usuario.
-                  </p>
-                  <a href="/" className="card-link">
-                    Card link
-                  </a>
-                  <a href="/" className="card-link">
-                    Another link
-                  </a>
-                </div>
-              </div>
-              <div className="card-group">
-                <div className="col-md-6">
-                  <p className="card-text">
-                    Este Manual describe objetos, generalidades, derechos y
-                    deberes del usuario.
-                  </p>
-                  <a href="/" className="card-link">
-                    Card link
-                  </a>
-                  <a href="/" className="card-link">
-                    Another link
-                  </a>
-                </div>
-                <div className="col-md-6">
-                  <p className="card-text">
-                    Este Manual describe objetos, generalidades, derechos y
-                    deberes del usuario.
-                  </p>
-                  <a href="/" className="card-link">
-                    Card link
-                  </a>
-                  <a href="/" className="card-link">
-                    Another link
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="titulo-preguntas">
-          <h1 className="text-center azul-lt" id="preguntas-frecuentes">
+          <h2 className="text-center azul-lt" id="preguntas-frecuentes">
             PREGUNTAS Y RESPUESTAS FRECUENTES
-          </h1>
+          </h2>
         </div>
         <div className="container">
           <div className="row">
@@ -146,8 +91,8 @@ const Ciudadano = () => {
                             <i className="fas fa-check-square" />
                           </span>
                           <span>Línea de atención</span>{' '}
-                          <span style={{ color: '#e30613' }}>3712222:</span> En
-                          la línea de atención al cliente se puede interponer
+                          <span style={{ color: '#e30613' }}>6053712222:</span>{' '}
+                          En la línea de atención al cliente se puede interponer
                           PQRSDF de manera sencilla. Aquí también se puede
                           indagar sobre el estado de la operación y reportar
                           objetos perdidos. En las estaciones del Sistema el
@@ -168,15 +113,13 @@ const Ciudadano = () => {
                           <span>
                             oficina administrativa de Transmetro, (Carrera 57 99
                             A 65 Piso 15, Torres del Atlántico, Torre Sur)
-                          </span>
+                          </span>{' '}
                           puede usted radicar o presentar su PQRSDF.
                           <br />
                           Solo si el ciudadano no posee la petición de forma
                           escrita el funcionario del punto de información
                           procede a diligenciar el formulario de PQRSDF,
-                          dispuesto para tal fin. Nuestro número telefónico es{' '}
-                          {''}
-                          <span style={{ color: '#e30613' }}>3100020.</span>
+                          dispuesto para tal fin.
                         </li>
                         <li>
                           <span className="fa-li">
@@ -325,13 +268,13 @@ const Ciudadano = () => {
                     problemas con el saldo o transbordo?
                   </label>
                   <div className="respuestas-content">
-                    El usuario debe comunicarse a la línea de atención 3712222
-                    para que podamos realizar la verificación de las novedades
-                    presentadas con la tarjeta. En caso de presentarse alguna
-                    inconsistencia con la recarga, el usuario tiene hasta 60
-                    minutos para poner su queja o reclamo en el PAC, en
+                    El usuario debe comunicarse a la línea de atención
+                    6053712222 para que podamos realizar la verificación de las
+                    novedades presentadas con la tarjeta. En caso de presentarse
+                    alguna inconsistencia con la recarga, el usuario tiene hasta
+                    60 minutos para poner su queja o reclamo en el PAC, en
                     cualquier taquilla, o en la línea de atención al cliente
-                    3712222. El trámite tendrá la respuesta oportuna en los
+                    6053712222. El trámite tendrá la respuesta oportuna en los
                     términos legales. Artículo 3.4 del manual de usuario, el
                     cual puede descargar en nuestra página web (Atención al
                     ciudadano)
@@ -351,7 +294,7 @@ const Ciudadano = () => {
                     la línea de atención al cliente, el PAC y de la página web
                     www.transmetro.gov.co. En caso de pérdida, daño o hurto, la
                     personalización permite bloquear la tarjeta llamando al
-                    3712222 o en el PAC. Así, luego de comprar una nueva
+                    6053712222 o en el PAC. Así, luego de comprar una nueva
                     tarjeta, puede recuperar el saldo, siempre y cuando haya
                     personalizado la anterior. El usuario solo podrá registrar
                     una tarjeta personalizada en el sistema por lo que, al
@@ -461,6 +404,43 @@ const Ciudadano = () => {
                     transbordos (usar 3 servicios).{' '}
                   </div>
                 </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg16" />
+                  <label className="preguntas-label " for="preg16">
+                    ¿Puedo ingresar mascotas en el Sistema?
+                  </label>
+                  <div className="respuestas-content">
+                    Manual del usuario 2.8 Transporte de mascotas y perros
+                    lazarillos: El usuario puede viajar con su mascota que debe
+                    ir en guacal, contenedor o jaula adecuada para el animal y
+                    portando los certificados de vacunación. Las personas ciegas
+                    pueden viajar con su perro lazarillo y deberán portar los
+                    documentos que certifiquen su condición de lazarillo, ya que
+                    estos pueden ser solicitados por representantes de
+                    Transmetro.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg17" />
+                  <label className="preguntas-label " for="preg17">
+                    {' '}
+                    ¿Puedo viajar sin saldo en mi tarjeta?
+                  </label>
+                  <div className="respuestas-content">
+                    Sí. Cuando tenga saldo en cero (0) o esté incompleto el
+                    pasaje, nunca con saldo negativo, es decir, que ya se le
+                    haya prestado anteriormente. Conforme a nuestro manual del
+                    usuario, 2.5 Crédito: El usuario tiene la opción de utilizar
+                    un crédito en las rutas alimentadoras de Transmetro hasta
+                    por el valor de un pasaje. Para hacer transbordo en
+                    servicios troncales, el usuario deberá pagar el crédito
+                    cuando llegue a una estación del Sistema. Si el usuario no
+                    realiza transbordo a servicio troncal, en la siguiente
+                    recarga que haga, será cobrado el pasaje a crédito.
+                  </div>
+                </div>
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg15" />
                   <label className="preguntas-label " for="preg15">
@@ -502,43 +482,6 @@ const Ciudadano = () => {
                     </ul>
                   </div>
                 </div>
-
-                <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg16" />
-                  <label className="preguntas-label " for="preg16">
-                    ¿Puedo ingresar mascotas en el Sistema?
-                  </label>
-                  <div className="respuestas-content">
-                    Manual del usuario 2.8 Transporte de mascotas y perros
-                    lazarillos: El usuario puede viajar con su mascota que debe
-                    ir en guacal, contenedor o jaula adecuada para el animal y
-                    portando los certificados de vacunación. Las personas ciegas
-                    pueden viajar con su perro lazarillo y deberán portar los
-                    documentos que certifiquen su condición de lazarillo, ya que
-                    estos pueden ser solicitados por representantes de
-                    Transmetro.
-                  </div>
-                </div>
-
-                <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg17" />
-                  <label className="preguntas-label " for="preg17">
-                    {' '}
-                    ¿Puedo viajar sin saldo en mi tarjeta?
-                  </label>
-                  <div className="respuestas-content">
-                    Sí. Cuando tenga saldo en cero (0) o esté incompleto el
-                    pasaje, nunca con saldo negativo, es decir, que ya se le
-                    haya prestado anteriormente. Conforme a nuestro manual del
-                    usuario, 2.5 Crédito: El usuario tiene la opción de utilizar
-                    un crédito en las rutas alimentadoras de Transmetro hasta
-                    por el valor de un pasaje. Para hacer transbordo en
-                    servicios troncales, el usuario deberá pagar el crédito
-                    cuando llegue a una estación del Sistema. Si el usuario no
-                    realiza transbordo a servicio troncal, en la siguiente
-                    recarga que haga, será cobrado el pasaje a crédito.
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -546,11 +489,11 @@ const Ciudadano = () => {
         {/* Fin preguntas frecuentes */}
         <div className="container linea-colores" />
         {/* Encuestas Ciudadano */}
-        <div className="container">
-          <div className="row cd">
+        <center className="container">
+          <div className="row card__Encuesta">
             <div className="card">
               <div className="card-body">
-                <h3 className="card-title">Encuesta</h3>
+                <h2 className="card-title">Encuesta al ciudadano</h2>
                 <figure className="col-md-12 ">
                   <center>
                     <img
@@ -575,10 +518,7 @@ const Ciudadano = () => {
                         width: '200px',
                       }}
                     >
-                      <span style={{ textTransform: 'uppercase' }}>
-                        Encuesta de
-                      </span>{' '}
-                      Participacion Ciudadana
+                      Ver encuesta
                     </button>
                   </center>
                   {/* <!-- Modal --> */}
@@ -623,17 +563,20 @@ const Ciudadano = () => {
               </div>
             </div>
           </div>
-        </div>
+        </center>
         <div className="container linea-colores" />
+
+        {/* Estimulo Estudiantil */}
         <div className="container ">
           <div
             className="card mb-3 car__cul border-light"
             style={{ maxWidth: '100%' }}
+            id="estimulo-estudiantil"
           >
             <div className="row g-0">
               <div className="col-md-8">
                 <div className="card-body">
-                  <h2 className="card-title" id="estimulo-estudiantil">
+                  <h2 className="card-title">
                     ESTÍMULO SOCIAL DE TRANSPORTE ESTUDIANTIL
                   </h2>
                   <p className="card-text" style={{ fontWeight: 'bold' }}>
@@ -668,16 +611,21 @@ const Ciudadano = () => {
                       Horario de atención:{' '}
                     </sapn>
                     Lunes a viernes 8:00 a.m a 12:00 m. y 1:30 p.m a 5:00 p.m
-                    Teléfono:3399438
+                    Teléfono:6053399438
                   </p>
                   <p>
                     <span style={{ fontWeight: 'bold' }}>Email: </span>
                     estimulodetransporte@barranquilla.gov.co
                   </p>
                   <p className="card-text">
-                    {' '}
-                    https://www.barranquilla.gov.co/gestionsocial/subsidios/estimulo-social-de-transp
-                    orte/el-programa
+                    <span style={{ fontWeight: 'bold' }}>Link: </span>
+                    <a
+                      href="https://www.barranquilla.gov.co/gestionsocial/subsidios/estimulo-social-de-transporte/el-programa"
+                      alt="Estimulo Estudiantil"
+                      target="_blanck"
+                    >
+                      Estimulo Social de Transporte
+                    </a>
                   </p>
                   {/*    <a
                     href="http://bit.ly/2nQO0TD"
