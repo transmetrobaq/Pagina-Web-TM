@@ -1,9 +1,9 @@
-/* eslint-disable react/self-closing-comp */
 /* eslint-disable react/no-unknown-property */
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable jsx-a11y/no-redundant-roles */
 /* eslint-disable react/button-has-type */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable no-shadow */
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -125,11 +125,86 @@ const Noticias = () => {
           </span>
         </div>
 
+        <div className="container linea-colores" />
+        {/* Informativos */}
+        <div className="container card__informativos">
+          <h2>INFORMATIVOS</h2>
+          <div className="row row-cols-1 row-cols-md-2 g-4">
+            <div className="col">
+              <div className="card ">
+                <iframe
+                  src="https://www.youtube.com/embed/PpC6SUgMpvQ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <iframe
+                  src="https://www.youtube.com/embed/tR09Vs0LLto"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <iframe
+                  src="https://www.youtube.com/embed/yascGQLLaZ0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <iframe
+                  src="https://www.youtube.com/embed/_aG_248QY24"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="navPage">
+          <span>
+            <button
+              className="btn btn-outline-primary"
+              disabled={limit > start}
+              onClick={prevPage}
+              alt="Anterior Noticia"
+            >
+              Anterior noticia
+            </button>
+          </span>
+          <span>
+            <button
+              className="btn btn-outline-primary"
+              role="button"
+              disabled={totalCount && start + limit >= totalCount}
+              onClick={nextPage}
+              alt="Siguiente Noticia"
+            >
+              Siguiente noticia
+            </button>
+          </span>
+        </div>
+        <div className="container linea-colores" />
         {/* <!-- GALERIA --> */}
         <div className="container contianer__galeria text-center rounded-bottom">
-          <h1 id="galeria-de-imagenes" className="card-title">
+          <h2 id="galeria-de-imagenes" className="card-title">
             GALERÍA
-          </h1>
+          </h2>
         </div>
         <div
           id="carouselExampleIndicators"
@@ -137,7 +212,7 @@ const Noticias = () => {
           data-bs-ride="carousel"
           style={{
             border: '3px solid #002856',
-            width: '80%',
+            width: '90%',
             borderTop: 'none',
             marginBottom: '50px',
           }}

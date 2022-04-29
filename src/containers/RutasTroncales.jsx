@@ -45,10 +45,7 @@ const RutasTroncales = () => {
         </p>
       </div>
 
-      <div
-        className="row justify-content-center mx-auto d-block"
-        style={{ width: '50%' }}
-      >
+      <div className="row justify-content-center mx-auto d-block width-Troncal">
         <div className="col-md-11">
           <div className="tabs">
             <div className="tab">

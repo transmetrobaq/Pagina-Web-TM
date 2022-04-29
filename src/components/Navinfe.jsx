@@ -10,7 +10,7 @@ const Navinfe = () => {
       <div className="container-fluid container__wave ">
         <div className="row ">
           <div className="col-md-6 align-self-center ">
-            <div className="wave__card-group">
+            <div className="wave__card-group ">
               <div className=" wrapper ">
                 <div className="card h-100 wave__card">
                   <Link

@@ -281,6 +281,15 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
+                      href="/noticias/#comunicados-prensa"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Informativos (videos)
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
                       href="/noticias/#galeria-de-imagenes"
                       className="dropdown-item"
                       aria-current="page"

@@ -99,7 +99,7 @@
   transition: all 0.35s;
 }
 .tabs .tab-content {
-  max-height: 0;
+  max-height: auto !important;
   padding: 0 1em;
 
   background: white;
@@ -123,10 +123,23 @@
   transform: rotate(90deg);
 }
 .tabs input:checked ~ .tab-content {
-  max-height: 100vh;
+  max-height: 200vh;
   padding: 1em;
 }
 
 .sin-border {
   border: none;
+}
+.width-Troncal {
+  width: 60%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 821px) {
+  .tabs input:checked ~ .tab-content {
+    max-height: 300vh;
+    padding: 1em;
+  }
+  .width-Troncal {
+    width: 90%;
+  }
 }

@@ -670,7 +670,7 @@ const Transmetro = () => {
           >
             <div className="card-body">
               <div className="row  g-0">
-                <div className="col-md-6  ">
+                <div className="col-md-4  ">
                   <h5>TRONCAL OLAYA HERRERA</h5>
                   <div className="cars-ico ">
                     <img
@@ -679,7 +679,7 @@ const Transmetro = () => {
                     />
                   </div>
                 </div>
-                <div className="col-md-6 ">
+                <div className="col-md-8 ">
                   <ol>
                     <li>
                       Estación retorno <span>Joe Arroyo</span> - Carrera 46 con
@@ -816,7 +816,7 @@ const Transmetro = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4" id="ali">
                   <ul>
                     <li>
                       A5-5 <span>Manantial</span>

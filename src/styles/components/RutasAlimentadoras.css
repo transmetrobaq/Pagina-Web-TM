@@ -73,16 +73,12 @@
 .tabs .tab-label {
   display: flex;
   justify-content: space-between;
-
   background: #ffffff;
   font-weight: bold;
   cursor: pointer;
   border-radius: 15px;
-
   padding: 15px;
-
   font-size: 20px;
-
   border-bottom: 1px solid #fff;
 
   /* Icon */
@@ -99,7 +95,7 @@
   transition: all 0.35s;
 }
 .tabs .tab-content {
-  max-height: 0;
+  max-height: auto !important;
   padding: 0 1em;
 
   background: white;
@@ -125,10 +121,10 @@
 .tabs input:checked + .tab-label::after {
   transform: rotate(90deg);
 }
-.tabs input:checked ~ .tab-content {
-  max-height: 100vh;
+/* .tabs input:checked ~ .tab-content {
+  min-height: 100vh;
   padding: 1em;
-}
+} */
 
 .sin-border {
   border: none;

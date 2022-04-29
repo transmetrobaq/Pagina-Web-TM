@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-curly-brace-presence */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -55,12 +56,13 @@ const Header = () => {
           aria-label="Slide 3"
         />
       </div>
+
       <div className="carousel-inner">
         <div className="carousel-item active ">
           <img
             src={`https://apiwebtm.com${noti1.url}`}
             className="d-block w-100"
-            alt="{noti1.alt}"
+            alt={noti1.alt}
           />
           <div className="carousel-caption  d-md-block cards__body ">
             <Link to={`/noticias/${noti1.slug}`}>
@@ -72,7 +74,7 @@ const Header = () => {
           <img
             src={`https://apiwebtm.com${noti2.url}`}
             className="d-block w-100"
-            alt="{noti1.alt}"
+            alt={noti1.alt}
           />
           <div className="carousel-caption  d-md-block cards__body ">
             <Link to={`/noticias/${noti2.slug}`}>
@@ -84,7 +86,7 @@ const Header = () => {
           <img
             src={`https://apiwebtm.com${noti3.url}`}
             className="d-block w-100"
-            alt="{noti1.alt}"
+            alt={noti1.alt}
           />
           <div className="carousel-caption  d-md-block cards__body ">
             <Link to={`/noticias/${noti3.slug}`}>
@@ -93,6 +95,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+
       <button
         className="carousel-control-prev"
         type="button"

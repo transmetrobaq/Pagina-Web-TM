@@ -325,8 +325,22 @@ verde */
   word-break: keep-all;
   font-weight: bold;
   overflow-wrap: normal !important;
-}
 
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    rgb(277, 6, 19) 90%,
+    rgb(277, 6, 19) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position: right;
+  transition: background-size 300ms;
+}
+.car__port-infra h5:hover {
+  background-size: 100% 100%;
+  background-position: left;
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .car__port-infra h3 {
     font-size: 20px;

@@ -4,14 +4,19 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Navinfe from './Navinfe';
+import Infra from './Infra';
 import '../styles/components/Info.css';
 
 // eslint-disable-next-line arrow-body-style
 const Info = () => {
   const [noti, setNoti] = useState([]);
   const [start] = useState(0);
-  const [limit] = useState(3);
-  /* const AP = `http://localhost:1337/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`; */
+  const [limit, setLimit] = useState(0);
+
+  const [mQuery, setMQuery] = useState({
+    matches: window.innerWidth > 768,
+  });
+
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
@@ -19,355 +24,28 @@ const Info = () => {
     setNoti(resnoti.data);
   }, [start, limit]);
   /* console.log(noti.url); */
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(min-width: 821px)');
+    if (mediaQuery.matches) {
+      setLimit(4);
+    } else {
+      setLimit(2);
+    }
+
+    mediaQuery.addEventListener('change', setMQuery);
+    // this is the cleanup function to remove the listener
+    return () => mediaQuery.removeEventListener('change', setMQuery);
+  }, [mQuery]);
+
   return (
     <>
       <Navinfe />
 
-      {/* Card Bloque Troncales  */}
+      {/* Datos de Infraestructura */}
+      <Infra />
 
-      <div className="container">
-        {/*  <!--INFO BLOQUE 4 Mapa---> */}
-        {/* Mapa Troncal Bootstap */}
-        <div className="container ">
-          <div
-            className="mapa__Troncal"
-            style={{
-              border: '2px solid #004f9f',
-              borderRadius: '0px 30px 30px 30px',
-            }}
-          >
-            <div
-              className="card "
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '0px 0px 30px 30px',
-                borderLeft: 'none',
-                borderTop: 'none',
-                width: '40%',
-                backgroundColor: '#004f9f',
-              }}
-            >
-              <div className="card-body">
-                <h1 className="card-text text-center">Mapa Troncales</h1>
-              </div>
-            </div>
-
-            <div
-              className="card "
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '20px 20px 0 0',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRight: 'none',
-                borderTop: 'none',
-              }}
-            >
-              <div className="card-body">
-                <div className="row g-0">
-                  <div className="col-md-12 ">
-                    <div className="card-text text-center">
-                      <iframe
-                        src="https://www.google.com/maps/d/embed?mid=1pMSLCHvUZGZ0VYNxKPTSu0yQNKHFv7iI&ehbc=2E312F"
-                        width="100%"
-                        height="480"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="card"
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '20px',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRight: 'none',
-                marginBottom: '20px',
-              }}
-            >
-              <div className="card-body">
-                <div className="row  g-0 align-items-center">
-                  <div className="col-md-6  ">
-                    <h3>TRONCALES</h3>
-                  </div>
-                  <div className="col-md-6  ">
-                    <ul className="fa-ul">
-                      <li>
-                        <span className="fa-li">
-                          <i
-                            className="far fa-square"
-                            style={{ color: '#e30613' }}
-                          />
-                        </span>
-                        Troncal Murillo
-                      </li>
-                      <li>
-                        <span className="fa-li">
-                          <i
-                            className="far fa-square"
-                            style={{ color: '#00a13a' }}
-                          />
-                        </span>
-                        Troncal Olaya Herrera
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Cards Troncales */}
-        <div className="container">
-          <div
-            className="containerr"
-            style={{
-              border: '2px solid #004f9f',
-              borderRadius: '20px',
-            }}
-          >
-            <div
-              className="card"
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '20px 20px 0 0',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRight: 'none',
-                borderTop: 'none',
-              }}
-            >
-              <div className="card-body">
-                <p className="card-text">
-                  Los servicios Troncales agilizan el traslado de los usuarios
-                  porque transitan por carriles excusivos (Solo Bus) de las
-                  troncales Murillo y Olaya Herrera para llevar a los ciudadanos
-                  a las diferentes estaciones y portales con los que cuenta el
-                  Sistema Masivo.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="card "
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '20px 20px 0 0',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRight: 'none',
-              }}
-            >
-              <div className="card-body">
-                <div className="row g-0">
-                  <div className="col-md-3 ">
-                    <h3>TRONCAL MURILLO</h3>
-                    <div className="cars-ico">
-                      <img
-                        src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
-                        alt="icono bus"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-9">
-                    <ol>
-                      <li>
-                        Portal <span>de Soledad</span> - Calle 65 # 13 - 455
-                        (Soledad, Atl.).
-                      </li>
-                      <li>
-                        Estacion <span>Pedro Ramayá Beltran</span> - Entre
-                        carreras 23 y Av. Circunvalar (Soledad, Atl.).
-                      </li>
-                      <li>
-                        Estacion <span>Pacho Galán</span> - Entre carreras 16 y
-                        17 (Soledad, Atl.).
-                      </li>
-                      <li>
-                        Estacion <span>Joaquin Barrios Polo</span> - Entre
-                        carreras 1G y 2A.
-                      </li>
-                      <li>
-                        Estacion <span>Buenos Aires</span> - Entres carrera 7 y
-                        7G.
-                      </li>
-                      <li>
-                        Estacion <span>LA Ocho</span> - Entre carreras 8 y 8C.
-                      </li>
-                      <li>
-                        Estacion <span>La Catorce</span> - Entre carreras 14 y
-                        17.
-                      </li>
-                      <li>
-                        Estacion <span>La Veintiuna</span> - Entre carreras 20 y
-                        21.
-                      </li>
-                      <li>
-                        Estacion <span>Atlántico</span> - Entre carreras 26 y
-                        27.
-                      </li>
-                      <li>
-                        Estacion <span>Chiquinquirá</span> - Entre carreras 33 y
-                        36.
-                      </li>
-                      <li>
-                        Estacion <span>La Arenosa</span> - Entre carreras 41 y
-                        43.
-                      </li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="card"
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '20px',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRight: 'none',
-                marginBottom: '20px',
-              }}
-            >
-              <div className="card-body">
-                <div className="row  g-0">
-                  <div className="col-md-6  ">
-                    <h3>TRONCAL OLAYA HERRERA</h3>
-                    <div className="cars-ico ">
-                      <img
-                        src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
-                        alt="icono bus"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 ">
-                    <ol>
-                      <li>
-                        Estacion retorno <span>Joe Arroyo</span> - Carrera 46
-                        con calle 74.
-                      </li>
-                      <li>
-                        Estacion <span>Esthercita Forero</span> - Entre calles
-                        69 y 70.
-                      </li>
-                      <li>
-                        Estacion <span>Alfredo Correa De Andréis</span> - Entre
-                        calles 60 y 62.
-                      </li>
-                      <li>
-                        Estacion <span>La Catedral</span> - Entre calles 50 y
-                        53.
-                      </li>
-                      <li>
-                        Estacion <span>Barrio Abajo</span> - Entre calles 43 y
-                        45.
-                      </li>
-                      <li>
-                        Estacion <span>Parque Cultural</span> - Entre calles 36
-                        y 39.
-                      </li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Card Alimentadoras */}
-        <div className="container">
-          <div
-            className="containerr"
-            style={{
-              border: '2px solid #004f9f',
-              borderRadius: '20px',
-            }}
-          >
-            <div
-              className="card"
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '20px 20px 0 0',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRight: 'none',
-                borderTop: 'none',
-              }}
-            >
-              <div className="card-body">
-                <p className="card-text">
-                  Los servicios alimentadores conectan a los usuarios ubicados
-                  en barrios alejados de las troncales a través de las
-                  estaciones del Sistema o de paraderos cercanos a estas con la
-                  posibilidad de hacer transbordos a los servicios troncales sin
-                  ningún costo adicional para el ciudadano
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="card"
-              style={{
-                border: '2px solid #004f9f',
-                borderRadius: '20px',
-                borderBottom: 'none',
-                borderLeft: 'none',
-                borderRight: 'none',
-                marginBottom: '20px',
-              }}
-            >
-              <div className="card-body">
-                <div className="row  g-0">
-                  <div className="col-md-6  ">
-                    <h3>RUTAS ALIMENTADORAS</h3>
-                    <div className="cars-ico ">
-                      <img
-                        src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
-                        alt="icono bus"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 ">
-                    <ol>
-                      <li>
-                        Estacion retorno <span>Joe Arroyo</span> - Carrera 46
-                        con calle 74.
-                      </li>
-                      <li>
-                        Estacion <span>Esthercita Forero</span> - Entre calles
-                        69 y 70.
-                      </li>
-                      <li>
-                        Estacion <span>Alfredo Correa De Andréis</span> - Entre
-                        calles 60 y 62.
-                      </li>
-                      <li>
-                        Estacion <span>La Catedral</span> - Entre calles 50 y
-                        53.
-                      </li>
-                      <li>
-                        Estacion <span>Barrio Abajo</span> - Entre calles 43 y
-                        45.
-                      </li>
-                      <li>
-                        Estacion <span>Parque Cultural</span> - Entre calles 36
-                        y 39.
-                      </li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {/* Noticias */}
 
       {/* Bloque Noticias Home */}
       <div className="container">
@@ -377,7 +55,7 @@ const Info = () => {
             alt="Ver Noticias"
             style={{ textDecoration: 'none' }}
           >
-            <h2>NOTICIAS</h2>
+            <h1>NOTICIAS</h1>
           </Link>
         </div>
         <div className="container__card-noti">
@@ -390,7 +68,7 @@ const Info = () => {
 
               <div className="contenido-card-noti">
                 <small className="text-muted">Fecha: {notis.date}</small>
-                <h3>{notis.title}</h3>
+                <h5>{notis.title}</h5>
                 {/* <p>{noti.content}</p> */}
                 <Link
                   to={`/noticias/${notis.slug}`}
