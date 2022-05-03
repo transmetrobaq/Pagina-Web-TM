@@ -60,16 +60,16 @@ const RutasTroncales = () => {
                       {rtron
                         ? rtron.map((rtrons) => (
                             <div className="tab-content-color" key={rtrons.id}>
-                              <th className=" azul-lt " rowspan="9">
-                                <Link
-                                  to={`/sistema/rutas_troncales/${rtrons.Slug}`}
-                                  role="button"
-                                  className="text-decoration-none"
-                                  alt="Ver Ruta Troncal"
-                                >
+                              <Link
+                                to={`/sistema/rutas_troncales/${rtrons.Slug}`}
+                                role="button"
+                                className="text-decoration-none"
+                                alt="Ver Ruta Troncal"
+                              >
+                                <th className=" azul-lt " rowspan="9">
                                   <h5 className=" azul-lt "> {rtrons.name}</h5>
-                                </Link>
-                              </th>
+                                </th>
+                              </Link>
                             </div>
                           ))
                         : 'Loading...'}
@@ -83,7 +83,7 @@ const RutasTroncales = () => {
       </div>
 
       <img
-        src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
+        src="https://apiwebtm.com/uploads/Buspadron_d3d3bafa33.jpg"
         style={{ width: '30vw', marginTop: '50px' }}
         className="card-img-top mx-auto d-block"
         alt="icono"

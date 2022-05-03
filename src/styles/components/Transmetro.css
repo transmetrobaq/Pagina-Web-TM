@@ -105,9 +105,7 @@ verde */
   /*espacio vertical */
   margin-top: 60px;
   clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
-  margin-bottom: 60px;
-  /*espacio vertical */
-  margin-top: 60px;
+ 
 }
 
 @media only screen and (max-width: 600px) {

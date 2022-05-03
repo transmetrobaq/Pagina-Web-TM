@@ -71,7 +71,7 @@ const AlimentadorasDetails = () => {
               </div>
               <div className="col-md-6">
                 <div className="card-body">
-                  <h1 className="card-title azul-lt">SITIOS DE INTERES</h1>
+                  <h1 className="card-title azul-lt">SITIOS DE INTERÉS</h1>
                   <p className="card-text azul-lt">
                     {/* Parroquia Jesús Misericordioso Cll 52C No. 8G - 06, Jesús
                     Profeta Cll 52D No. 11 - 97, La Natividad de María Cll 35A
@@ -129,7 +129,6 @@ const AlimentadorasDetails = () => {
             Ir a Rutas Alimentadoras
           </Link>
         </center>
-        
       </div>
     </>
   );

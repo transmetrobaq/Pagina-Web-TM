@@ -76,7 +76,7 @@ const RutasAlimentadoras = () => {
       </div>
 
       <img
-        src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
+        src="https://apiwebtm.com/uploads/Buspadron_d3d3bafa33.jpg"
         style={{ width: '30vw', marginTop: '50px' }}
         className="card-img-top mx-auto d-block"
         alt="icono"

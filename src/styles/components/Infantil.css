@@ -1,0 +1,185 @@
+.cubo__Infantil i {
+ display: flex;
+ justify-content: center;
+ padding-bottom: 5%;
+  }
+
+  .cubo__Infantil i:hover {
+    transform: translate(0, -5%);
+    cursor: pointer;
+     }
+  
+.cubo__Infantil {
+  margin-bottom: 100px;
+   }
+
+  .container__infantil h1 {
+      color: #002856;
+    font-weight: bold;  }
+    .container__infantil h3 {
+        color: #002856;
+      font-weight: bold;  }
+
+      .container__infantil h6 {
+        color: #002856;
+        font-size: 18px;
+        
+       }
+
+       .container__infantil h4 {
+        /* color: #002856; */
+      font-weight: bold;  }
+     
+
+/* Cubos Infantil */
+
+/* 1 */
+
+.cubo {
+    background-color: #e30613;
+    /* max-width: 90%; */
+    width: 80vw;
+    border: 0px 1px 1px 1px;
+    border-radius: 0 27px 27px 0px;
+    z-index: 2;
+  }
+  
+  .cubo .text-cubo {
+    padding: 59px;
+    padding-left: 100px;
+  }
+  
+  .cubo__Infantil {
+    margin-bottom: 100px;
+  }
+  .cubo__Infantil h5 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .cubo__Infantil p {
+    text-align: justify;
+  }
+  .cubo__Infantil span {
+    font-weight: bold;
+  }
+  
+  .cubo__Infantil img {
+    width: 10vw;
+  }
+  
+  /* 2 */
+  
+  .cubo__Infantil-2 {
+    background-color: #ffffff;
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: 0px;
+    border-color: #002856;
+    position: relative;
+    z-index: 1;
+    /* max-width: 90%; */
+    width: 80vw;
+    margin-top: -100px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  
+  .cubo__Infantil-2 .text-cubo-2 {
+    padding: 59px;
+    padding-right: 100px;
+    color: #002856;
+  }
+  .cubo__Infantil-2 img {
+    margin-left: 50px;
+  }
+  /* 3 */
+  
+  .cubo-3 {
+    background-color: #004f9f;
+    border: 0px 1px 1px 1px;
+    border-radius: 0 27px 27px 0px;
+    z-index: 2;
+    width: 80vw;
+    margin-top: -73px;
+  }
+  
+  .cubo-3 .text-cubo {
+    padding: 59px;
+    padding-left: 100px;
+  }
+  
+  /* cubo-4 */
+  
+  .cubo-4 {
+    border-top: 0;
+    border-right: 0;
+    border-radius: 0px;
+    border-color: #002856;
+    position: relative;
+    z-index: 1;
+    width: 80vw;
+    padding-top: 300px;
+    padding-bottom: 240px;
+    margin-top: -211px;
+  }
+  
+  .cubo-4 .text-cubo-4 {
+    padding: 59px;
+    padding-right: 100px;
+    color: #002856;
+  }
+  
+  .cubo-4 img {
+    margin-left: 50px;
+  }
+  
+  /* cubo 5 */
+  
+  .cubo-5 {
+    background-color: #e30613;
+    border: 0px 1px 1px 1px;
+    width: 80vw;
+    border-radius: 0 27px 27px 0px;
+    z-index: 2;
+    margin-top: -143px;
+  }
+  
+  .cubo-5 .text-cubo {
+    padding: 59px;
+    padding-left: 100px;
+  }
+  
+  @media only screen and (min-width: 200px) and (max-width: 568px) {
+    .cubo .text-cubo {
+      padding: 40px;
+      padding-left: 50px;
+    }
+    .cubo__Infantil-2 .text-cubo-2 {
+      padding: 40px;
+      padding-left: 50px;
+    }
+    .cubo-3 .text-cubo {
+      padding: 40px;
+      padding-left: 50px;
+    }
+    .cubo-4 .text-cubo-4 {
+      padding: 40px;
+      padding-left: 40px;
+    }
+    .cubo-5 .text-cubo {
+      padding: 40px;
+      padding-left: 50px;
+    }
+    .cubo img {
+      margin-left: 120px;
+      margin-bottom: 40px;
+    }
+    .cubo-3 img {
+      margin-left: 120px;
+      margin-bottom: 40px;
+    }
+    .cubo-5 img {
+      margin-left: 120px;
+      margin-bottom: 40px;
+    }
+  }

@@ -18,6 +18,10 @@ const Noticias = () => {
 
   const [totalCount, setTotalCount] = useState([]);
 
+  /* const [mQuery, setMQuery] = useState({
+    matches: window.innerWidth > 768,
+  }); */
+
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const resnoti = await axios.get(AP);
@@ -37,6 +41,19 @@ const Noticias = () => {
   const prevPage = () => {
     setStart(start - limit);
   };
+
+  /*  useEffect(() => {
+    const mediaQuery = window.matchMedia('(min-width: 821px)');
+    if (mediaQuery.matches) {
+      setLimit(4);
+    } else {
+      setLimit(2);
+    }
+
+    mediaQuery.addEventListener('change', setMQuery);
+    // this is the cleanup function to remove the listener
+    return () => mediaQuery.removeEventListener('change', setMQuery);
+  }, [mQuery]); */
 
   return (
     <>
@@ -163,7 +180,7 @@ const Noticias = () => {
                 ></iframe>
               </div>
             </div>
-            <div className="col">
+            <div className="col" disabled>
               <div className="card">
                 <iframe
                   src="https://www.youtube.com/embed/_aG_248QY24"
@@ -184,7 +201,7 @@ const Noticias = () => {
               onClick={prevPage}
               alt="Anterior Noticia"
             >
-              Anterior noticia
+              Anterior
             </button>
           </span>
           <span>
@@ -195,11 +212,12 @@ const Noticias = () => {
               onClick={nextPage}
               alt="Siguiente Noticia"
             >
-              Siguiente noticia
+              Siguiente
             </button>
           </span>
         </div>
         <div className="container linea-colores" />
+
         {/* <!-- GALERIA --> */}
         <div className="container contianer__galeria text-center rounded-bottom">
           <h2 id="galeria-de-imagenes" className="card-title">
@@ -208,7 +226,7 @@ const Noticias = () => {
         </div>
         <div
           id="carouselExampleIndicators"
-          className="carousel slide mx-auto d-block "
+          className="carousel slide mx-auto d-block card__galeria"
           data-bs-ride="carousel"
           style={{
             border: '3px solid #002856',
@@ -244,7 +262,6 @@ const Noticias = () => {
               <img
                 src="https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg"
                 className="d-block w-100"
-                style={{ maxHeight: '500px' }}
                 alt="..."
               />
             </div>
@@ -252,7 +269,6 @@ const Noticias = () => {
               <img
                 src="https://apiwebtm.com/uploads/PSX_20190403_180752_5b356aaa65.jpg"
                 className="d-block w-100"
-                style={{ maxHeight: '500px' }}
                 alt="..."
               />
             </div>
@@ -260,7 +276,6 @@ const Noticias = () => {
               <img
                 src="https://apiwebtm.com/uploads/PSX_20190403_063253_8bd25532d9.jpg"
                 className="d-block w-100"
-                style={{ maxHeight: '500px' }}
                 alt="..."
               />
             </div>

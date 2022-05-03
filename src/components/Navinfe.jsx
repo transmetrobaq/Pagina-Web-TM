@@ -65,14 +65,21 @@ const Navinfe = () => {
                 </div>
 
                 <div className="card h-100 wave__card">
-                  <img
-                    src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
-                  <div className="card-body">
-                    <h6 className="card-title">TransKids</h6>
-                  </div>
+                  <Link
+                    to="/infantil"
+                    role="button"
+                    className=""
+                    alt="ir a transbordos"
+                  >
+                    <img
+                      src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                      className="card-img-top"
+                      alt="..."
+                    />
+                    <div className="card-body">
+                      <h6 className="card-title">TransKids</h6>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

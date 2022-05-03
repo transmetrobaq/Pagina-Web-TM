@@ -19,6 +19,7 @@ import Noticias from '../containers/Noticias';
 import Transparencia from '../containers/Transparencia';
 import Accesibilidad from '../containers/Accesibilidad';
 import Directorio from '../containers/Directorio';
+import Infantil from '../containers/Infantil';
 
 // eslint-disable-next-line arrow-body-style
 const App = () => {
@@ -72,6 +73,7 @@ const App = () => {
             <Route exact path="/transparencia" component={Transparencia} />
             <Route exact path="/accesibilidad" component={Accesibilidad} />
             <Route exact path="/directorio" component={Directorio} />
+            <Route exact path="/infantil" component={Infantil} />
             <Route component={NotFound} />
           </Switch>
         </Layout>

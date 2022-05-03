@@ -143,7 +143,7 @@ const Footer = () => {
                         role="button"
                         alt="preguntas frecuentes"
                       >
-                        Preguntas frecuentes
+                        <span>Preguntas frecuentes</span>
                       </a>
                     </li>
                     <li>

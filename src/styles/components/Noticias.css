@@ -49,7 +49,7 @@ body {
 }
 
 .nt__title {
-  font-size: 1.75rem;
+  /* font-size: 1.75rem; */
   color: #002856;
 }
 .nt__img {
@@ -244,6 +244,18 @@ body {
   font-weight: bold;
 }
 
+.card__galeria .carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  
+}
+@media only screen and (min-width: 320px) and (max-width: 810px) { 
+  .card__galeria .carousel-item img {
+    height: 250px;
+       
+  }
+}
 /* Galeria Videos */
 .card__informativos {
   margin-bottom: 50px;
@@ -282,7 +294,7 @@ body {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 810px) {
 
   .card__informativos iframe {
     width: 100%;

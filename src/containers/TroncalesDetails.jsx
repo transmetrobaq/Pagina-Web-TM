@@ -65,7 +65,7 @@ const TroncalesDetails = () => {
               </div>
               <div className="col-md-6">
                 <div className="card-body">
-                  <h1 className="card-title azul-lt">SITIOS DE INTERES</h1>
+                  <h1 className="card-title azul-lt">SITIOS DE INTERÉS</h1>
                   <p className="card-text azul-lt">{rtron.sitios}</p>
                 </div>
               </div>
