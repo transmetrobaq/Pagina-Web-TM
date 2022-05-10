@@ -191,7 +191,7 @@ verde */
 }
 
 .obje__Estra h2 {
-  font-size: 2.5vw;
+  /* font-size: 2.5vw; */
   padding: 20px;
 }
 
@@ -201,14 +201,19 @@ verde */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  
+  .obj__Estra-ali {
+    margin-bottom: -80px;
+  }
+  
   .obje__Estra img {
     width: 50vw;
     padding-bottom: 50px;
     padding-left: 0px;
   }
-  .obje__Estra h2 {
+  /* .obje__Estra h2 {
     font-size: 4vw;
-  }
+  } */
 
   .obje__Estra-title {
     width: 80%;

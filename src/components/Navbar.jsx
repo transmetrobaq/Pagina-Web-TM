@@ -348,7 +348,7 @@ const Navbar = () => {
                   tabIndex="-1"
                   aria-disabled="true"
                 >
-                  Participación Ciudadana
+                  Participa
                 </a>
               </li>
               <li className="nav-item">

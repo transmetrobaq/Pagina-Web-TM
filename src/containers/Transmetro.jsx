@@ -127,14 +127,13 @@ const Transmetro = () => {
               </div>
             </div>
           </div>
-          <div className="row text-center obj-ali">
-            <div className="col-sm-4 obj-ali1 ">
-              <div className="card-body ">
-                <i className="far fa-chart-bar fa-5x" />
-              </div>
+          {/* obj-1 */}
+          <div className="row g-0 obj-ali">
+            <div className="col-md-4 obj-ali1 ">
+              <i className="far fa-chart-bar fa-5x" />
             </div>
-            <div className="col obj-ali2 align-self-center">
-              <div className="card-body ">
+            <div className="col-md-8 obj-ali2">
+              <div className="card-body">
                 <ol className="list-group list-group-horizontal-md">
                   <li>1. Optimizar el uso de los recursos disponibles</li>
                   <li>
@@ -144,14 +143,14 @@ const Transmetro = () => {
               </div>
             </div>
           </div>
-          <div className="row text-center obj-ali">
-            <div className="col-sm-4 obj-ali1 ">
-              <div className="card-body ">
-                <i className="fas fa-users fa-5x" />
-              </div>
+
+          {/* obj-2 */}
+          <div className="row g-0 obj-ali">
+            <div className="col-md-4 obj-ali1 ">
+              <i className="fas fa-users fa-5x" />
             </div>
-            <div className="col obj-ali2 align-self-center">
-              <div className="card-body ">
+            <div className="col-md-8 obj-ali2">
+              <div className="card-body">
                 <ul className="list-group list-group-horizontal-md">
                   <li>
                     1. Incrementar el nivel de satisfacción de ususarios y
@@ -174,14 +173,13 @@ const Transmetro = () => {
               </div>
             </div>
           </div>
+          {/* obj-3 */}
 
-          <div className="row text-center obj_ali">
-            <div className="col-sm-4 obj-ali3">
-              <div className="card-body ">
-                <i className="fas fa-cogs fa-5x" />
-              </div>
+          <div className="row g-0 obj_ali">
+            <div className="col-md-4 obj-ali3 ">
+              <i className="fas fa-cogs fa-5x" />
             </div>
-            <div className="col obj-ali4 align-self-center">
+            <div className="col-md-8 obj-ali4">
               <div className="card-body ">
                 <ul className="list-group list-group-horizontal-md">
                   <li>
@@ -201,14 +199,14 @@ const Transmetro = () => {
               </div>
             </div>
           </div>
-          <div className="row text-center obj_ali">
-            <div className="col-sm-4 obj-ali3 ">
-              <div className="card-body ">
-                <i className="far fa-id-badge fa-5x >" />
-              </div>
+          {/* obj-4 */}
+
+          <div className="row g-0 obj_ali">
+            <div className="col-md-4 obj-ali3 ">
+              <i className="far fa-id-badge fa-5x >" />
             </div>
-            <div className="col obj-ali4 align-self-center">
-              <div className="card-body ">
+            <div className="col-md-8 obj-ali4">
+              <div className="card-body">
                 <ul className="list-group list-group-horizontal-md">
                   <li>
                     1. Fortalecer las competecias del talento humano y el
@@ -231,6 +229,7 @@ const Transmetro = () => {
           </div>
         </div>
       </div>
+
       {/* Informacion Objetivos Estrategicos */}
       {/* <div className="cubo__Info">
         <div className="card mb-3 cubo text-white ">
