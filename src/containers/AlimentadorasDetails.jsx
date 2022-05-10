@@ -91,7 +91,7 @@ const AlimentadorasDetails = () => {
         <div className="container tabla-alimentadoras">
           <div className="card-group">
             <div className="card border-danger">
-              <div className="card-body mx-auto d-block">
+              <div className="card-body ">
                 <h2 className="card-title text-center">Paraderos</h2>
                 <ReactMarkdown className="card-text" escapeHtml={false}>
                   {rali.paraderos}
@@ -99,7 +99,7 @@ const AlimentadorasDetails = () => {
               </div>
             </div>
             <div className="card border-danger">
-              <div className="card-body mx-auto d-block">
+              <div className="card-body ">
                 <h2 className="card-title text-center">Venta</h2>
                 <ReactMarkdown className="card-text" escapeHtml={false}>
                   {rali.venta}
@@ -107,7 +107,7 @@ const AlimentadorasDetails = () => {
               </div>
             </div>
             <div className="card border-danger">
-              <div className="card-body mx-auto d-block">
+              <div className="card-body ">
                 <h2 className="card-title text-center">Transbordos</h2>
                 <ReactMarkdown className="card-text" escapeHtml={false}>
                   {rali.transbordos}
