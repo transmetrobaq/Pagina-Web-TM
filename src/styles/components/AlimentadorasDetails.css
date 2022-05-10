@@ -3,8 +3,9 @@
   margin-bottom: 50px;
 }
 
-.adetail__cards h1 {
-  font-weight: bold;
+.adetail__cards h2 {
+  /* font-weight: bold; */
+  color: #002856
 }
 .adetail__cards span {
   color: #e30613;
@@ -30,4 +31,19 @@
 .horario-sitio {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* Tabla */
+
+.tabla-alimentadoras .card{
+  border-radius: 25px;
+
+}
+.tabla-alimentadoras .card-text{
+  color: #002856
+
+}
+.tabla-alimentadoras h2 {
+  
+  color: #002856
 }

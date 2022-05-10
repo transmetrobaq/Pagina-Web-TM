@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams, Link } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
 import '../styles/components/AlimentadorasDetails.css';
 
 const AlimentadorasDetails = () => {
@@ -49,7 +50,7 @@ const AlimentadorasDetails = () => {
               </div>
               <div className="col-md-6">
                 <div className="card-body">
-                  <h1 className="card-title azul-lt">HORARIO DE RUTAS</h1>
+                  <h2 className="card-title azul-lt">HORARIO DE RUTAS</h2>
                   <ul className="list-group " style={{ listStyleType: 'none' }}>
                     <li className="azul-lt">
                       <span>Lunes a viernes:</span> {rali.horario_lv}
@@ -71,7 +72,7 @@ const AlimentadorasDetails = () => {
               </div>
               <div className="col-md-6">
                 <div className="card-body">
-                  <h1 className="card-title azul-lt">SITIOS DE INTERÉS</h1>
+                  <h2 className="card-title azul-lt">SITIOS DE INTERÉS</h2>
                   <p className="card-text azul-lt">
                     {/* Parroquia Jesús Misericordioso Cll 52C No. 8G - 06, Jesús
                     Profeta Cll 52D No. 11 - 97, La Natividad de María Cll 35A
@@ -87,38 +88,35 @@ const AlimentadorasDetails = () => {
 
         {/* / tabla / */}
 
-        {/* <div className="container">
-          <table className="table border-danger">
-            <tbody>
-              <tr>
-                <th className="rojo-lt" scope="col">
-                  PARADEROS
-                </th>
-                <th className="rojo-lt" scope="col">
-                  PUNTOS DE VENTA / RECARGA
-                </th>
-              </tr>
-
-              <tr>
-                <td className=" azul-lt ">
-                  {' '}
-                  1 - Carrera 8 con Calle 31 Lado Sur
-                </td>
-                <td className="azul-lt ">Carrera 8 con Calle 31 Lado Sur</td>
-              </tr>
-              <tr>
-                <td className=" azul-lt ">
-                  {' '}
-                  2 - Calle 30 con Carrera 4B Home Center
-                </td>
-                <td className="azul-lt ">
-                  Calle 30 con Carrera 4B Home Center
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div> */}
-
+        <div className="container tabla-alimentadoras">
+          <div className="card-group">
+            <div className="card border-danger">
+              <div className="card-body mx-auto d-block">
+                <h2 className="card-title text-center">Paraderos</h2>
+                <ReactMarkdown className="card-text" escapeHtml={false}>
+                  {rali.paraderos}
+                </ReactMarkdown>
+              </div>
+            </div>
+            <div className="card border-danger">
+              <div className="card-body mx-auto d-block">
+                <h2 className="card-title text-center">Venta</h2>
+                <ReactMarkdown className="card-text" escapeHtml={false}>
+                  {rali.venta}
+                </ReactMarkdown>
+              </div>
+            </div>
+            <div className="card border-danger">
+              <div className="card-body mx-auto d-block">
+                <h2 className="card-title text-center">Transbordos</h2>
+                <ReactMarkdown className="card-text" escapeHtml={false}>
+                  {rali.transbordos}
+                </ReactMarkdown>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Boton Ir Rutas Alimentadoras */}
         <center className="backNoti">
           <Link
             to="/sistema/rutas_alimentadoras"
