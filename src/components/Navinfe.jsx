@@ -77,7 +77,7 @@ const Navinfe = () => {
                       alt="..."
                     />
                     <div className="card-body">
-                      <h6 className="card-title">TransKids</h6>
+                      <h6 className="card-title">Sección Infantil</h6>
                     </div>
                   </Link>
                 </div>
