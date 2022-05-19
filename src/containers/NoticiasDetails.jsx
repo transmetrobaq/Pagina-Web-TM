@@ -22,10 +22,7 @@ const NoticiasDetails = () => {
   /* console.log(notic); */
   return (
     <div className=" container newsview" key={notic.id} id="noti">
-      {/* <div className="newsviewimg" key={notic.id}>
-        <img src={`https://apiwebtm.com${notic.url}`} alt={notic.alt} />
-      </div> */}
-      <div>
+      <div className="cd">
         <div className="newsviewtitlesection">
           <div className="newsviewtitle">
             <h1>{notic.title}</h1>
@@ -35,6 +32,13 @@ const NoticiasDetails = () => {
               Fecha: <span>{notic.date}</span>
             </span>
           </div>
+          {/*  <div className="container" style={{ width: '70%' }}>
+            <img
+              className="card-img-top cd"
+              src={`https://apiwebtm.com${notic.url}`}
+              alt={notic.alt}
+            />
+          </div> */}
         </div>
 
         <ReactMarkdown className="newsviewbody" escapeHtml={false}>

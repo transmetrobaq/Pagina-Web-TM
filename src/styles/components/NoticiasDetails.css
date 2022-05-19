@@ -28,6 +28,8 @@
 
 .newsviewtitle h1 {
   margin-bottom: 6px;
+  margin-top: 30px;
+  padding: 1%;
   /* font-size: 48px; */
   color: #002856;
 }
@@ -49,7 +51,8 @@
 
 .newsviewbody {
   clear: left;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.58;
   letter-spacing: -0.003em;
+  padding: 2%;
 }

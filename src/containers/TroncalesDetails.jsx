@@ -58,7 +58,7 @@ const TroncalesDetails = () => {
 
                   <p className="card-text">
                     <small className="text-muted">
-                      Actializado {rtron.updated_at}
+                      Actualizado {rtron.updated_at}
                     </small>
                   </p>
                 </div>

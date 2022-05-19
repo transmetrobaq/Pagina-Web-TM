@@ -206,10 +206,11 @@ const Noticias = () => {
         <div className="container linea-colores" />
 
         {/* <!-- GALERIA --> */}
-        <div className="container contianer__galeria text-center rounded-bottom">
-          <h2 id="galeria-de-imagenes" className="card-title">
-            GALERÍA
-          </h2>
+        <div
+          className="container contianer__galeria text-center rounded-bottom"
+          id="galeria-de-imagenes"
+        >
+          <h2 className="card-title">GALERÍA</h2>
         </div>
         <div
           id="carouselExampleIndicators"
@@ -243,27 +244,53 @@ const Noticias = () => {
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
                 src="https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="Imagen de Galeria"
               />
             </div>
             <div className="carousel-item">
               <img
                 src="https://apiwebtm.com/uploads/PSX_20190403_180752_5b356aaa65.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="Imagen de Galeria"
               />
             </div>
             <div className="carousel-item">
               <img
                 src="https://apiwebtm.com/uploads/PSX_20190403_063253_8bd25532d9.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="Imagen de Galeria"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://apiwebtm.com/uploads/Nino_pagando_53c9c8745b.JPG"
+                className="d-block w-100"
+                alt="Imagen de Galeria"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://apiwebtm.com/uploads/2b0bace4_ce5d_4290_9238_ccb4ea71aba2_dd1a2ce1d7.jpg"
+                className="d-block w-100"
+                alt="Imagen de Galeria"
               />
             </div>
           </div>
