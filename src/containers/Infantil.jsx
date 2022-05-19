@@ -96,10 +96,14 @@ const Infantil = () => (
                   <div className="card-body text-cubo-2">
                     <h4 className="card-title">COLOREA</h4>
                     <p className="card-text">
-                      Disfrutar con las mejores plantillas de dibujos para
-                      colorear, explora nuestra extensa colección de plantillas,
-                      elige tu favorita, personalízala completamente y logra
-                      divertidos dibujos en minutos.
+                      Disfrutar con las mejores plantillas de dibujos, explora
+                      nuestra extensa colección. Elige tu favorita,
+                      personalízala y logra divertidos dibujos en minutos.
+                    </p>
+                    <p>
+                      {' '}
+                      Elige tu favorita, personalízala y logra divertidos
+                      dibujos en minutos.
                     </p>
                   </div>
                 </div>
@@ -114,8 +118,8 @@ const Infantil = () => (
               <div className="card-body text-cubo">
                 <h4 className="card-title">LABERINTO</h4>
                 <p className="card-text">
-                  Los laberintos son juegos antiguos en los que los niños tienes
-                  que encontrar un camino o una ruta de principio a fin
+                  Los laberintos son juegos antiguos, en los que los niños
+                  tienen que encontrar un camino o una ruta de principio a fin.
                 </p>
               </div>
             </div>
@@ -156,10 +160,10 @@ const Infantil = () => (
                     <h4 className="card-title">CRUCIGRAMA</h4>
                     <p className="card-text">
                       Debemos descubrir qué palabra formar en los cuadrados
-                      blancos con ayuda de una pequeña pista y las letras de
-                      otras palabras que se entrecruzan. Los cuadrados negros
-                      que aparecen en los crucigramas más difíciles sirven para
-                      separar una palabra de otra que no se cruza entre sí
+                      blancos con la ayuda de las letras de otras palabras que
+                      se entrecruzan. Los cuadrados negros que aparecen en los
+                      crucigramas más difíciles sirven para separar una palabra
+                      de otra que no se cruza entre sí.
                     </p>
                   </div>
                 </div>
@@ -172,13 +176,12 @@ const Infantil = () => (
           <div className="row g-0">
             <div className="col-md-10">
               <div className="card-body text-cubo">
-                <h4 className="card-title">ENCUETRA LAS DIFERENCIAS</h4>
+                <h4 className="card-title">ENCUENTRA LAS DIFERENCIAS</h4>
 
                 <p className="card-text">
-                  Encuentra las diferencias de los diferentes objetos, los
-                  cuales son, por lo general, iguales. Entre ellos se encuentran
-                  una o varias excepciones que debes detectar y seleccionar para
-                  resolver el ejercicio
+                  Encuentra las diferencias de los objetos, por lo general son
+                  iguales. Entre ellos se encuentran una o varias excepciones
+                  que debes detectar y seleccionar para resolver el ejercicio.
                 </p>
               </div>
             </div>

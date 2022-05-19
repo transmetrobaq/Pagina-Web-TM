@@ -322,8 +322,10 @@ const Navbar = () => {
 
               <li className="nav-item">
                 <a
-                  className="nav-link disabled "
-                  href="/"
+                  className="nav-link  "
+                  href="https://drive.google.com/drive/folders/14etZu-TBRFRy94QX8zcLdpBuE0blzLia?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
                   tabIndex="-1"
                   aria-disabled="true"
                 >
