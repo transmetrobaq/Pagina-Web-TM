@@ -6,7 +6,7 @@ import '../styles/components/Transbordos.css';
 // eslint-disable-next-line arrow-body-style
 const Transbordos = () => {
   return (
-    <div className="container ">
+    <div className="container">
       {/* Transbordo */}
 
       <div className="row car__transb justify-content-center">
@@ -93,8 +93,7 @@ const Transbordos = () => {
                 <div className="card-body">
                   <p className="card-text">
                     Puedes realizar hasta dos (2) transbordos entre diferentes
-                    servicios en 105 minutos. Puedes realizar hasta dos (2)
-                    transbordos entre diferentes servicios en 105 minutos.
+                    servicios en 105 minutos.
                   </p>
                 </div>
               </div>
@@ -173,7 +172,7 @@ const Transbordos = () => {
               <div style={{ margin: '20px' }}>
                 <p>
                   Si hiciste uso del crédito, y vas a hacer transbordo en la
-                  Troncal, al llegar a la estación deber pagar el crédito para
+                  Troncal, al llegar a la estación debes pagar el crédito para
                   que te haga efectivo el transbordo.{' '}
                 </p>
               </div>
@@ -207,9 +206,9 @@ const Transbordos = () => {
               />
             </div>
             <div className="card-body">
-              <h1 className="card-title rojo-lt text-center">
+              <h2 className="card-title rojo-lt text-center">
                 Tiempo para hacer tu transbordo
-              </h1>
+              </h2>
 
               <p className="card-text azul-lt">
                 Es un rango de 105 minutos que se mide a partir del momento en

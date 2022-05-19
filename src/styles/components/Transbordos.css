@@ -27,11 +27,13 @@
 .car__transb h1 {
   color: #002856;
   margin-top: 60px;
+  font-weight: bold;
 }
 .car__transb p {
   color: #004f9f;
   font-weight: bold;
   margin-top: 50px;
+  font-size: 18px;
 }
 .car__transb span {
   color: #e30613;
@@ -134,7 +136,8 @@
 }
 
 .titulo-plus {
-  margin: 7%;
+  /* margin: 4%; */
+  margin-top: 50px;
   color: #002856;
 }
 
@@ -149,6 +152,7 @@
 .funciona-tm p {
   padding: 3vw;
   color: #004f9f;
+  font-size: 18px;
 }
 .funciona-tm img {
   width: 15%;
@@ -191,6 +195,7 @@
 .encuenta-tm p {
   margin-left: 1%;
   color: #002856;
+  font-size: 18px;
 }
 
 .encuenta-tm i {
@@ -234,12 +239,13 @@
   /* z-index: 1; */
 }
 
-.reloj h1 {
-  font-size: 2rem;
+.reloj h2 {
+  /* font-size: 2rem; */
   font-weight: bold;
 }
 .reloj p {
   font-weight: bold;
+  font-size: 18px;
 }
 .reloj .row {
   margin-top: 112px;

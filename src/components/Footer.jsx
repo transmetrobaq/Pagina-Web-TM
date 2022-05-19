@@ -49,7 +49,6 @@ const Footer = () => {
                           href="https://es-la.facebook.com/transmetrobaq/"
                           target="_blanck"
                         >
-                          {/* <i className="fab fa-facebook" /> */}
                           <i className="fa fa-facebook" aria-hidden="true" />
                         </a>
                       </li>

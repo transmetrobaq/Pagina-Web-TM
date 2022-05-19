@@ -8,7 +8,9 @@ import Transbordos from '../containers/Transbordos';
 import RutasTroncales from '../containers/RutasTroncales';
 import TroncalesDetails from '../containers/TroncalesDetails';
 import RutasAlimentadoras from '../containers/RutasAlimentadoras';
+import Estaciones from '../containers/Estaciones';
 import AlimentadorasDetails from '../containers/AlimentadorasDetails';
+import EstacionesDetails from '../containers/EstacionesDetails';
 import Ciudadano from '../containers/Ciudadano';
 import NoticiasDetails from '../containers/NoticiasDetails';
 import Layout from '../components/Layout';
@@ -63,6 +65,13 @@ const App = () => {
               component={AlimentadorasDetails}
             />
 
+            <Route exact path="/sistema/estaciones" component={Estaciones} />
+            <Route
+              exact
+              path="/sistema/estaciones/:estacionesId"
+              component={EstacionesDetails}
+            />
+
             <Route exact path="/ciudadano" component={Ciudadano} />
             <Route exact path="/noticias" component={Noticias} />
             <Route
@@ -72,7 +81,11 @@ const App = () => {
             />
             <Route exact path="/transparencia" component={Transparencia} />
             <Route exact path="/accesibilidad" component={Accesibilidad} />
-            <Route exact path="/directorio" component={Directorio} />
+            <Route
+              exact
+              path="/transparencia/directorio"
+              component={Directorio}
+            />
             <Route exact path="/infantil" component={Infantil} />
             <Route component={NotFound} />
           </Switch>

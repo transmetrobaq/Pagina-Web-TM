@@ -21,7 +21,7 @@ const NoticiasDetails = () => {
   }, [noticiasId]);
   /* console.log(notic); */
   return (
-    <div className=" container newsview" key={notic.id}>
+    <div className=" container newsview" key={notic.id} id="noti">
       {/* <div className="newsviewimg" key={notic.id}>
         <img src={`https://apiwebtm.com${notic.url}`} alt={notic.alt} />
       </div> */}

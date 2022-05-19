@@ -6,7 +6,7 @@ const Acordeon = () => {
     <div className=" container " style={{ maxWidth: '720px' }}>
       <div className="accordion accordion-total" id="accordionExample">
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingOne">
+          <div className="accordion-header" id="headingOne">
             <button
               className="accordion-button  collapsed  fw-bolder  text-dark"
               type="button"
@@ -15,9 +15,9 @@ const Acordeon = () => {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              1. Información de la entidad
+              <h5>1. Información de la entidad</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseOne"
             className="accordion-collapse collapse hv"
@@ -26,18 +26,26 @@ const Acordeon = () => {
           >
             <div className="accordion-body ">
               <dd type="button" className="bor ">
-                <a href="/" target="_blank">
-                  1.1 Misión, visión, funciones y deberes.
+                <a
+                  href="https://drive.google.com/drive/folders/1GIgaJR0bNbympBTqEkJcsUHiFs8vsOWv?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p> 1.1 Misión, visión, funciones y deberes.</p>
+                </a>
+              </dd>
+              <dd className="bor ">
+                <a
+                  href="https://drive.google.com/drive/folders/1iA89ywT8RtCO-ubMrMglBBoq66iOurER?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>1.2 Estructura orgánica</p>
                 </a>
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  1.2 Estructura orgánica
-                </a>
-              </dd>
-              <dd className="bor ">
-                <a href="pagina. html" target="_blank">
-                  1.3 Mapas y Cartas descriptivas
+                  <p>1.3 Mapas y Cartas descriptivas</p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -46,8 +54,8 @@ const Acordeon = () => {
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
-                  1.5 Directorio de servidores públicos
+                <a href="/transparencia/directorio">
+                  <p>1.5 Directorio de servidores públicos</p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -98,14 +106,14 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  1.14 Publicación de hojas de vida
+                  <p>1.14 Publicación de hojas de vida</p>
                 </a>
               </dd>
             </div>
           </div>
         </div>
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingTwo">
+          <div className="accordion-header" id="headingTwo">
             <button
               className="accordion-button collapsed  fw-bolder  text-dark"
               type="button"
@@ -114,9 +122,9 @@ const Acordeon = () => {
               aria-expanded="true"
               aria-controls="collapseTwo"
             >
-              2. Normativa
+              <h5>2. Normativa</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseTwo"
             className="accordion-collapse collapse hv"
@@ -194,7 +202,7 @@ const Acordeon = () => {
           </div>
         </div>
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingThree">
+          <div className="accordion-header" id="headingThree">
             <button
               className="accordion-button collapsed fw-bolder  text-dark"
               type="button"
@@ -203,9 +211,9 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              3. Contratación
+              <h5>3. Contratación</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseThree"
             className="accordion-collapse collapse hv"
@@ -219,7 +227,7 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  3.1 Plan Anual de Adquisiciones
+                  <p>3.1 Plan Anual de Adquisiciones</p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -237,7 +245,7 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  3.3 Publicación de la ejecución de los contratos
+                  <p>3.3 Publicación de la ejecución de los contratos</p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -246,12 +254,16 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  3.4 Manual de contratación
+                  <p>3.4 Manual de contratación</p>
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
-                  3.5 Formatos o modelos de contratos o pliegos tipo
+                <a
+                  href="https://drive.google.com/drive/folders/12MzzEH1O79uCdYYdr8fkpw9B7UgNtmHE?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>3.5 Formatos o modelos de contratos o pliegos tipo</p>
                 </a>
               </dd>
             </div>
@@ -259,7 +271,7 @@ const Acordeon = () => {
         </div>
 
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingFour">
+          <div className="accordion-header" id="headingFour">
             <button
               className="accordion-button collapsed  fw-bolder  text-dark"
               type="button"
@@ -268,9 +280,9 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="collapseFor"
             >
-              4. Planeación
+              <h5>4. Planeación</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseFor"
             className="accordion-collapse collapse hv"
@@ -284,7 +296,7 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  4.1 Presupuesto general de ingresos
+                  <p>4.1 Presupuesto general de ingresos</p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -298,7 +310,7 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  4.3 Plan de Acción
+                  <p>4.3 Plan de Acción</p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -322,8 +334,12 @@ const Acordeon = () => {
                 </a>
               </dd>
               <dd className="bor ">
-                <a href="pagina. html" target="_blank">
-                  4.8 Informes de la Oficina de Control Interno
+                <a
+                  href="https://drive.google.com/drive/folders/1WxAsBYZOE1lZmXynnq4mav4_G7Fd7l13?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>4.8 Informes de la Oficina de Control Interno</p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -338,8 +354,10 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  4.10 Informes trimestrales sobre acceso a información, quejas
-                  y reclamos
+                  <p>
+                    4.10 Informes trimestrales sobre acceso a información,
+                    quejas y reclamos
+                  </p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -348,14 +366,14 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  4.11 Respuesta a peticiones anónimas o sin dirección
+                  <p>4.11 Respuesta a peticiones anónimas o sin dirección</p>
                 </a>
               </dd>
             </div>
           </div>
         </div>
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingFive">
+          <div className="accordion-header" id="headingFive">
             <button
               className="accordion-button collapsed fw-bolder text-dark"
               type="button"
@@ -364,9 +382,9 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="collapseFive"
             >
-              5. Trámites
+              <h5>5. Trámites</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseFive"
             className="accordion-collapse collapse hv"
@@ -377,7 +395,7 @@ const Acordeon = () => {
           </div>
         </div>
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingSix">
+          <div className="accordion-header" id="headingSix">
             <button
               className="accordion-button collapsed fw-bolder text-dark"
               type="button"
@@ -386,21 +404,31 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="collapseSix"
             >
-              6. Participa
+              <h5>6. Participa</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseSix"
             className="accordion-collapse collapse hv"
             aria-labelledby="headingSix"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" />
+            <div className="accordion-body">
+              <dd className="bor ">
+                <a
+                  href="https://drive.google.com/drive/folders/1GXifF3djRYFjw6MGQo5VqkpMkJF8ym2V?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>6.1 Informes</p>
+                </a>
+              </dd>
+            </div>
           </div>
         </div>
 
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingSev">
+          <div className="accordion-header" id="headingSev">
             <button
               className="accordion-button collapsed fw-bolder  text-dark"
               type="button"
@@ -409,9 +437,9 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="collapseSev"
             >
-              7. Datos abiertos
+              <h5>7. Datos abiertos</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseSev"
             className="accordion-collapse collapse  hv"
@@ -430,14 +458,14 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  7.2 Sección de Datos Abiertos.
+                  <p>7.2 Sección de Datos Abiertos.</p>
                 </a>
               </dd>
             </div>
           </div>
         </div>
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingEi">
+          <div className="accordion-header" id="headingEi">
             <button
               className="accordion-button collapsed fw-bolder  text-dark"
               type="button"
@@ -446,9 +474,9 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="collapseEi"
             >
-              8. Información específica
+              <h5>8. Información específica</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseEi"
             className="accordion-collapse collapse hv"
@@ -460,7 +488,7 @@ const Acordeon = () => {
         </div>
 
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingNine">
+          <div className="accordion-header" id="headingNine">
             <button
               className="accordion-button collapsed fw-bolder  text-dark"
               type="button"
@@ -469,9 +497,9 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="collapseNine"
             >
-              9. Obligación de reporte de información
+              <h5>9. Obligación de reporte de información</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseNine"
             className="accordion-collapse collapse hv"
@@ -482,7 +510,7 @@ const Acordeon = () => {
           </div>
         </div>
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingTeen">
+          <div className="accordion-header" id="headingTeen">
             <button
               className="accordion-button collapsed fw-bolder  text-dark"
               type="button"
@@ -491,9 +519,9 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="collapseTeen"
             >
-              10. Obligación de reporte de información
+              <h5> 10. Obligación de reporte de información</h5>
             </button>
-          </h2>
+          </div>
           <div
             id="collapseTeen"
             className="accordion-collapse collapse hv"

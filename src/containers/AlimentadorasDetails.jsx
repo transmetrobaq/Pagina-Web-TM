@@ -22,8 +22,7 @@ const AlimentadorasDetails = () => {
   return (
     <>
       <div className="container adetail__cards " key={rali.id}>
-        <h1 className=" azul-lt justify-content-start">
-          {/* <span>A1-2</span> Carrera Ocho */}
+        <h1 className=" azul-lt justify-content-start" id="rutas">
           {rali.name}
         </h1>
 
@@ -40,12 +39,7 @@ const AlimentadorasDetails = () => {
             <div className="row g-0">
               <div className="col-md-6">
                 <div className="card-body">
-                  <p className="card-text azul-lt">
-                    {/*  La Ruta A1-2 Carrera Ocho recorre, a lo largo de un trayecto
-                    de 8 kilómetros, algunas zonas de los barrios El Santuario,
-                    La Alboraya, El Campito y Las Palmas. */}
-                    {rali.content}
-                  </p>
+                  <p className="card-text azul-lt">{rali.content}</p>
                 </div>
               </div>
               <div className="col-md-6">
@@ -65,7 +59,7 @@ const AlimentadorasDetails = () => {
 
                   <p className="card-text">
                     <small className="text-muted">
-                      Actializado {rali.updated_at}
+                      Actualizado {rali.updated_at}
                     </small>
                   </p>
                 </div>
@@ -73,13 +67,10 @@ const AlimentadorasDetails = () => {
               <div className="col-md-6">
                 <div className="card-body">
                   <h2 className="card-title azul-lt">SITIOS DE INTERÉS</h2>
-                  <p className="card-text azul-lt">
-                    {/* Parroquia Jesús Misericordioso Cll 52C No. 8G - 06, Jesús
-                    Profeta Cll 52D No. 11 - 97, La Natividad de María Cll 35A
-                    con Cra. 8D Esq. María Auxiliadora Calle 38B No. 7C - 08
-                    Ruta A1-2 Carrera Ocho o A1-4 La Magdalena. */}
+
+                  <ReactMarkdown className="card-text azul-lt">
                     {rali.sitios}
-                  </p>
+                  </ReactMarkdown>
                 </div>
               </div>
             </div>
@@ -90,26 +81,26 @@ const AlimentadorasDetails = () => {
 
         <div className="container tabla-alimentadoras">
           <div className="card-group">
-            <div className="card border-danger">
+            <div className="card ">
               <div className="card-body ">
-                <h2 className="card-title text-center">Paraderos</h2>
-                <ReactMarkdown className="card-text" escapeHtml={false}>
+                <h2 className="card-title text-center">PARADEROS</h2>
+                <ReactMarkdown className="card-text">
                   {rali.paraderos}
                 </ReactMarkdown>
               </div>
             </div>
-            <div className="card border-danger">
+            <div className="card ">
               <div className="card-body ">
-                <h2 className="card-title text-center">Venta</h2>
-                <ReactMarkdown className="card-text" escapeHtml={false}>
+                <h2 className="card-title text-center">VENTA</h2>
+                <ReactMarkdown className="card-text">
                   {rali.venta}
                 </ReactMarkdown>
               </div>
             </div>
-            <div className="card border-danger">
+            <div className="card">
               <div className="card-body ">
-                <h2 className="card-title text-center">Transbordos</h2>
-                <ReactMarkdown className="card-text" escapeHtml={false}>
+                <h2 className="card-title text-center">TRANSBORDOS</h2>
+                <ReactMarkdown className="card-text">
                   {rali.transbordos}
                 </ReactMarkdown>
               </div>

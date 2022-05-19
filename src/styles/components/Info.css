@@ -245,6 +245,14 @@ hr {
   margin-left: 40px;
 }
 
+
+.cars-ico-1 {
+  background-color: green;
+  width: 10vw;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
 /*Cards*/
 .container__card-noti {
   width: 100%;

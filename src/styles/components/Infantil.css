@@ -13,24 +13,28 @@
   margin-bottom: 100px;
    }
 
-  .container__infantil h1 {
+.container__infantil h1 {
       color: #002856;
     font-weight: bold;  }
-    .container__infantil h3 {
+.container__infantil h3 {
         color: #002856;
       font-weight: bold;  }
 
-      .container__infantil h6 {
+.container__infantil h6 {
         color: #002856;
         font-size: 18px;
         
        }
 
-       .container__infantil h4 {
+.container__infantil h4 {
         /* color: #002856; */
       font-weight: bold;  }
      
-
+.container__infantil img {
+  width:  40%;
+  margin: 0 auto;
+  display: block;
+}
 /* Cubos Infantil */
 
 /* 1 */

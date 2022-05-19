@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable jsx-a11y/role-supports-aria-props */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/components/Navbar.css';
@@ -16,7 +18,6 @@ const Navbar = () => {
               src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
               alt="Logo Transmetro"
               className="img-fluid mb-2"
-              style={{ width: '120px', marginLeft: '10px' }}
             />
           </a>
           <button
@@ -35,10 +36,10 @@ const Navbar = () => {
             id="navbarSupportedContent"
             style={{ marginTop: '10px', marginLeft: '10px' }}
           >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item dropdown">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li className="nav-item dropdown ">
                 <Link
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle "
                   to="/transmetro"
                   id="navbarDropdown"
                   role="button"
@@ -47,7 +48,7 @@ const Navbar = () => {
                 >
                   Transmetro
                 </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
                   <li className="nav-item">
                     <a
                       href="/transmetro/#acerca"
@@ -87,7 +88,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <a
                       href="/transmetro/#datos-infraestructura"
-                      className="dropdown-item"
+                      className="dropdown-item "
                       aria-current="page"
                     >
                       Datos de Infraestructura
@@ -98,7 +99,7 @@ const Navbar = () => {
 
               <li className="nav-item dropdown">
                 <Link
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle "
                   to="/sistema"
                   id="navbarDropdown"
                   role="button"
@@ -124,6 +125,15 @@ const Navbar = () => {
                       aria-current="page"
                     >
                       Personalización
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/sistema/estaciones/#estaciones"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Estaciones
                     </a>
                   </li>
                   <li>
@@ -184,9 +194,9 @@ const Navbar = () => {
                 </ul>
               </li>
 
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown ">
                 <Link
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle "
                   to="/ciudadano"
                   id="navbarDropdown"
                   role="button"
@@ -260,7 +270,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item dropdown">
                 <Link
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle "
                   to="/noticias"
                   id="navbarDropdown"
                   role="button"
@@ -281,7 +291,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
-                      href="/noticias/#comunicados-prensa"
+                      href="/noticias/#informativos"
                       className="dropdown-item"
                       aria-current="page"
                     >
@@ -302,48 +312,17 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   href="/transparencia/#transparencia"
-                  className="nav-link"
+                  className="nav-link "
                   style={{ textDecoration: 'none' }}
                   aria-current="page"
                 >
                   Transparencia
                 </a>
               </li>
-              {/* <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="/"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Transparecia
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
+
               <li className="nav-item">
                 <a
-                  className="nav-link disabled"
+                  className="nav-link disabled "
                   href="/"
                   tabIndex="-1"
                   aria-disabled="true"
@@ -362,17 +341,17 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            {/*     <form className="d-flex ">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Buscar"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              <i className="fa fa-search" aria-hidden="true" />
-            </button>
-          </form> */}
+            <form className="d-flex ">
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-success" type="submit">
+                <i className="fa fa-search" aria-hidden="true" />
+              </button>
+            </form>
           </div>
         </div>
       </nav>

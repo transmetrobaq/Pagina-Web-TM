@@ -43,12 +43,12 @@ function Breadcrumb() {
             <li
               className="breadcrumb-item active"
               aria-current="page"
-              key={name}
+              key={index}
             >
               {capatilize(name)}
             </li>
           ) : (
-            <li className="breadcrumb-item">
+            <li className="breadcrumb-item" key={index}>
               <Link
                 to={`${routeTo}`}
                 style={{

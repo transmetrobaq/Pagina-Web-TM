@@ -5,7 +5,7 @@
 /* eslint-disable react/button-has-type */
 
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 import axios from 'axios';
 import '../styles/components/Noticias.css';
 
@@ -41,19 +41,6 @@ const Noticias = () => {
   const prevPage = () => {
     setStart(start - limit);
   };
-
-  /*  useEffect(() => {
-    const mediaQuery = window.matchMedia('(min-width: 821px)');
-    if (mediaQuery.matches) {
-      setLimit(4);
-    } else {
-      setLimit(2);
-    }
-
-    mediaQuery.addEventListener('change', setMQuery);
-    // this is the cleanup function to remove the listener
-    return () => mediaQuery.removeEventListener('change', setMQuery);
-  }, [mQuery]); */
 
   return (
     <>
@@ -104,14 +91,14 @@ const Noticias = () => {
                     <p>{notis.Content.slice(0, 200)}...</p>
                   </div>
                   <div>
-                    <Link
-                      to={`/noticias/${notis.slug}`}
+                    <a
+                      href={`/noticias/${notis.slug}/#noti`}
                       role="button"
                       className="btn btn-outline-primary"
                       alt="Ver Noticia"
                     >
                       Ver noticia
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </article>
@@ -144,7 +131,7 @@ const Noticias = () => {
 
         <div className="container linea-colores" />
         {/* Informativos */}
-        <div className="container card__informativos">
+        <div className="container card__informativos" id="informativos">
           <h2>INFORMATIVOS</h2>
           <div className="row row-cols-1 row-cols-md-2 g-4">
             <div className="col">

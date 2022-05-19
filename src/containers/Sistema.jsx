@@ -47,13 +47,13 @@ const Sistema = () => (
                   $.2500 pesos en dias ordinarios (De lunes a sábado) y $2.600
                   (domingos y festivos)
                 </span>{' '}
-                que es descontado cienado la tarjeta inteligente pasa por los
+                que es descontado de la tarjeta inteligente al pasar por los
                 validadores en los portales, en las estaciones o en los
-                alimentadores, el costo de la{' '}
+                alimentadores, y el costo de la{' '}
                 <span>
                   Tarjeta Inteligente Sin Contacto es de $4.000 pesos,
                 </span>{' '}
-                que se pueden personalizar a travez del sitio web y en los CAU.{' '}
+                que se pueden personalizar a travez del sitio web y en los PAC.{' '}
                 <span>
                   {' '}
                   Con un pasaje se puede utilizar el servicio cuantas veces se
@@ -400,7 +400,7 @@ const Sistema = () => (
         </div>
       </div>
 
-      <div className="card car__info">
+      <div className="card car__info ">
         <div className="text-center">
           <img
             src="https://apiwebtm.com/uploads/icosn_31_5f13bb7208.png"
@@ -430,7 +430,7 @@ const Sistema = () => (
         </div>
       </div>
 
-      <div className=" card car__info">
+      <div className=" card car__info ">
         <div className="text-center">
           <img
             src="https://apiwebtm.com/uploads/icosn_32_e85865ae5d.png"
@@ -440,7 +440,7 @@ const Sistema = () => (
         </div>
 
         <div className="contenido-card">
-          <p>MÁS DE 600 PARADEROS DE RUTAS ALIMENTADORAS</p>
+          <p>105 MINUTOS PARA HACER TRANSBORDOS</p>
         </div>
       </div>
     </div>

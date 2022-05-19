@@ -102,7 +102,7 @@ const Infra = () => (
         </div>
       </div>
 
-      {/* Cards Troncales */}
+      {/* Cards Estaciones */}
       <div className="container">
         <div
           className="containerr"
@@ -123,12 +123,14 @@ const Infra = () => (
             }}
           >
             <div className="card-body">
+              <h2 className="card-text text-center">ESTACIONES</h2>
               <p className="card-text">
-                Los servicios troncales agilizan el traslado de los usuarios
-                porque transitan por carriles excusivos (Solo Bus) de las
-                troncales Murillo y Olaya Herrera para llevar a los ciudadanos a
-                las diferentes estaciónes y portales con los que cuenta el
-                Sistema Masivo.
+                Nuestras estaciones son cada uno de los puntos de abordaje de
+                vehículos ubicadas a lo largo de las dos troncales que componen
+                nuestro Sistema: Troncal Murillo y Troncal Olaya Herrera. En
+                ellas los usuarios pueden adquirir sus tarjetas, recargarlas,
+                verificar sus saldos y validar sus pasajes, para poder acceder a
+                las rutas troncales corrientes y expresas, o alimentadoras.
               </p>
             </div>
           </div>
@@ -157,44 +159,113 @@ const Infra = () => (
                 <div className="col-md-9">
                   <ol>
                     <li>
-                      Portal <span>de Soledad</span> - Calle 65 # 13 - 455
-                      (Soledad, Atl.).
+                      <a
+                        href="/sistema/estaciones/estacion-portal-de-soledad/#estacion"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        Portal <span>de Soledad</span> - Calle 65 # 13 - 455
+                        (Soledad, Atl.).
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Pedro Ramayá Beltran</span> - Entre
-                      carreras 23 y Av. Circunvalar (Soledad, Atl.).
+                      <a
+                        href="/sistema/estaciones/estacion-pedro-ramaya/#estacion"
+                        role="button"
+                        alt="estacion pedro ramaya"
+                      >
+                        Estación <span>Pedro Ramayá Beltran</span> - Entre
+                        carreras 23 y Av. Circunvalar (Soledad, Atl.).
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Pacho Galán</span> - Entre carreras 16 y 17
-                      (Soledad, Atl.).
+                      <a
+                        href="/sistema/estaciones/estacion-pacho-galan/#estacion"
+                        role="button"
+                        alt="estacion pacho galan"
+                      >
+                        Estación <span>Pacho Galán</span> - Entre carreras 16 y
+                        17 (Soledad, Atl.).
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Joaquín Barrios Polo</span> - Entre
-                      carreras 1G y 2A.
+                      <a
+                        href="/sistema/estaciones/estacion-joaquin-barrios-polo/#estacion"
+                        role="button"
+                        alt="estacion joaquin barrios polo"
+                      >
+                        Estación <span>Joaquín Barrios Polo</span> - Entre
+                        carreras 1G y 2A.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Buenos Aires</span> - Entres carrera 7 y
-                      7G.
+                      <a
+                        href="/sistema/estaciones/estacion-buenos-aires/#estacion"
+                        role="button"
+                        alt="estacion buenos aires"
+                      >
+                        Estación <span>Buenos Aires</span> - Entres carrera 7 y
+                        7G.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>LA Ocho</span> - Entre carreras 8 y 8C.
+                      <a
+                        href="/sistema/estaciones/estacion-la-ocho/#estacion"
+                        role="button"
+                        alt="estacion la ocho"
+                      >
+                        Estación <span>La Ocho</span> - Entre carreras 8 y 8C.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>La Catorce</span> - Entre carreras 14 y 17.
+                      <a
+                        href="/sistema/estaciones/estacion-la-catorce/#estacion"
+                        role="button"
+                        alt="estacion la catorce"
+                      >
+                        Estación <span>La Catorce</span> - Entre carreras 14 y
+                        17.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>La Veintiuna</span> - Entre carreras 20 y
-                      21.
+                      <a
+                        href="/sistema/estaciones/estacion-la-veintiuna/#estacion"
+                        role="button"
+                        alt="estacion la veintiuna"
+                      >
+                        Estación <span>La Veintiuna</span> - Entre carreras 20 y
+                        21.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Atlántico</span> - Entre carreras 26 y 27.
+                      <a
+                        href="/sistema/estaciones/estacion-atlantico/#estacion"
+                        role="button"
+                        alt="estacion atlantico"
+                      >
+                        Estación <span>Atlántico</span> - Entre carreras 26 y
+                        27.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Chiquinquirá</span> - Entre carreras 33 y
-                      36.
+                      <a
+                        href="/sistema/estaciones/estacion-chiquinquira/#estacion"
+                        role="button"
+                        alt="estacion chiquinquira"
+                      >
+                        Estación <span>Chiquinquirá</span> - Entre carreras 33 y
+                        36.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>La Arenosa</span> - Entre carreras 41 y 43.
+                      <a
+                        href="/sistema/estaciones/estacion-la-arenosa/#estacion"
+                        role="button"
+                        alt="estacion la arenosa"
+                      >
+                        Estación <span>La Arenosa</span> - Entre carreras 41 y
+                        43.
+                      </a>
                     </li>
                   </ol>
                 </div>
@@ -217,7 +288,7 @@ const Infra = () => (
               <div className="row  g-0">
                 <div className="col-md-4  ">
                   <h5>TRONCAL OLAYA HERRERA</h5>
-                  <div className="cars-ico ">
+                  <div className="cars-ico-1 ">
                     <img
                       src="https://apiwebtm.com/uploads/icosn_bus_070505e055.png"
                       alt="icono bus"
@@ -227,26 +298,64 @@ const Infra = () => (
                 <div className="col-md-8 ">
                   <ol>
                     <li>
-                      Estación retorno <span>Joe Arroyo</span> - Carrera 46 con
-                      calle 74.
+                      <a
+                        href="/sistema/estaciones/estacion-retorno-joe-arroyo/#estacion"
+                        role="button"
+                        alt="estacion retorno joe arroyo"
+                      >
+                        Estación retorno <span>Joe Arroyo</span> - Carrera 46
+                        con calle 74.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Esthercita Forero</span> - Entre calles 69
-                      y 70.
+                      <a
+                        href="/sistema/estaciones/estacion-esthercita-forero/#estacion"
+                        role="button"
+                        alt="estacion esthercita forero"
+                      >
+                        Estación <span>Esthercita Forero</span> - Entre calles
+                        69 y 70.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Alfredo Correa De Andréis</span> - Entre
-                      calles 60 y 62.
+                      <a
+                        href="/sistema/estaciones/estacion-alfredo-correa-de-andreis/#estacion"
+                        role="button"
+                        alt="estacion alfredo correa de andreis"
+                      >
+                        Estación <span>Alfredo Correa De Andréis</span> - Entre
+                        calles 60 y 62.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>La Catedral</span> - Entre calles 50 y 53.
+                      <a
+                        href="/sistema/estaciones/estacion-la-catedral/#estacion"
+                        role="button"
+                        alt="estacion la catedral"
+                      >
+                        Estación <span>La Catedral</span> - Entre calles 50 y
+                        53.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Barrio Abajo</span> - Entre calles 43 y 45.
+                      <a
+                        href="/sistema/estaciones/estacion-barrio-abajo/#estacion"
+                        role="button"
+                        alt="estacion barrio abajo"
+                      >
+                        Estación <span>Barrio Abajo</span> - Entre calles 43 y
+                        45.
+                      </a>
                     </li>
                     <li>
-                      Estación <span>Parque Cultural</span> - Entre calles 36 y
-                      39.
+                      <a
+                        href="/sistema/estaciones/estacion-parque-cultural-del-caribe/#estacion"
+                        role="button"
+                        alt="estacion parque cultural del caribe"
+                      >
+                        Estación <span>Parque Cultural</span> - Entre calles 36
+                        y 39.
+                      </a>
                     </li>
                   </ol>
                 </div>
@@ -277,12 +386,13 @@ const Infra = () => (
             }}
           >
             <div className="card-body">
+              <h2 className="card-text text-center">RUTAS ALIMENTADORAS</h2>
               <p className="card-text">
-                Estos servicios conectan a los usuarios ubicados en barrios
-                alejados de las troncales a través de las estaciónes del Sistema
-                o de paraderos cercanos a estas con la posibilidad de hacer
-                transbordos a los servicios troncales sin ningún costo adicional
-                para el ciudadano
+                Los servicios alimentadores conectan a los usuarios ubicados en
+                barrios alejados de las troncales a través de las estaciónes del
+                Sistema o de paraderos cercanos a estas con la posibilidad de
+                hacer transbordos a los servicios troncales sin ningún costo
+                adicional para el ciudadano
               </p>
             </div>
           </div>
@@ -315,95 +425,270 @@ const Infra = () => (
                 <div className="col-md-4 ">
                   <ul>
                     <li>
-                      A1-2 <span>Carrera Ocho </span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a1-2-carrera-ocho/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A1-2 <span>Carrera Ocho </span>
+                      </a>
                     </li>
                     <li>
-                      A1-3 <span>Galán </span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a1-3-galan/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A1-3 <span>Galán </span>
+                      </a>
                     </li>
                     <li>
-                      A1-4 <span>La Magdalena</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a1-4-la-magdalena/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A1-4 <span>La Magdalena</span>
+                      </a>
                     </li>
                     <li>
-                      A2-1 <span>Hipódromo</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a2-1-hipodromo/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A2-1 <span>Hipódromo</span>
+                      </a>
                     </li>
                     <li>
-                      A3-1 <span>Villa Katanga</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a3-1-villa-katanga/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A3-1 <span>Villa Katanga</span>
+                      </a>
                     </li>
                     <li>
-                      A3-2 <span>Soledad 2000</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a3-2-soledad-2000/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A3-2 <span>Soledad 2000</span>
+                      </a>
                     </li>
                     <li>
-                      A3-3 <span>Manuela Beltran</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a3-3-manuela-beltran/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A3-3 <span>Manuela Beltran</span>
+                      </a>
                     </li>
                     <li>
-                      A3-40 <span>Villa Sol (SUSPENDIDA)</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a3-40-villa-sol-suspendida/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A3-40 <span>Villa Sol (SUSPENDIDA)</span>
+                      </a>
                     </li>
                     <li>
-                      A3-41 <span>Villa Karla</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a3-41-villa-karla/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A3-41 <span>Villa Karla</span>
+                      </a>
                     </li>
-                    <li>
+                    {/*  <li>
+                    <a
+                        href="/sistema/rutas_alimentadoras/a3-40-villa-sol-suspendida/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A3-40 <span>Villa Sol (SUSPENDIDA)</span>
+                      </a>
                       A3-4 <span>Villa Sol </span>
+                    </li> */}
+                    <li>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a3-5-ciudadela-metropolitana-suspendida/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A3-5 <span>Ciudadela Metropolitana (SUSPENDIDA)</span>
+                      </a>
                     </li>
                     <li>
-                      A3-5 <span>Ciudadela Metropolitana (SUSPENDIDA)</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a5-1-los-robles/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A5-1 <span>Los Robles</span>
+                      </a>
                     </li>
                     <li>
-                      A5-1 <span>Los Robles</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a5-2-las-moras/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A5-2 <span>Las Moras</span>
+                      </a>
                     </li>
                     <li>
-                      A5-2 <span>Las Moras</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a5-3-la-central/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A5-3 <span>La Central</span>
+                      </a>
                     </li>
                     <li>
-                      A5-3 <span>La Central</span>
-                    </li>
-                    <li>
-                      A5-4 <span>San Antonio</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a5-4-san-antonio/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A5-4 <span>San Antonio</span>
+                      </a>
                     </li>
                   </ul>
                 </div>
                 <div className="col-md-4" id="ali">
                   <ul>
                     <li>
-                      A5-5 <span>Manantial</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a5-5-manantial/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A5-5 <span>Manantial</span>
+                      </a>
                     </li>
                     <li>
-                      A5-6 <span>Desde Granabastos</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a5-6-desde-granabastos/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A5-6 <span>Desde Granabastos</span>
+                      </a>
                     </li>
                     <li>
-                      A6-5 <span>Carrizal</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a6-5-carrizal/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A6-5 <span>Carrizal</span>
+                      </a>
                     </li>
                     <li>
-                      A6-6 <span>Manantial</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a6-6-ciudadela/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A6-6 <span>Ciudadela</span>
+                      </a>
                     </li>
                     <li>
-                      A7-1 <span>Miramar</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a7-1-m-iramar/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A7-1 <span>Miramar</span>
+                      </a>
                     </li>
                     <li>
-                      A7-3 <span>Carrera 38</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a7-3-carrera-38/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A7-3 <span>Carrera 38</span>
+                      </a>
                     </li>
                     <li>
-                      A7-4 <span>Los Andes</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a7-4-los-andes/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A7-4 <span>Los Andes</span>
+                      </a>
                     </li>
                     <li>
-                      A8-1 <span>Paraíso</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a8-1-paraiso/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A8-1 <span>Paraíso</span>
+                      </a>
                     </li>
                     <li>
-                      A8-2 <span>Vía 40</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a8-2-via-40/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A8-2 <span>Vía 40</span>
+                      </a>
                     </li>
                     <li>
-                      A8-3 <span>Prado</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a8-3-prado/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A8-3 <span>Prado</span>
+                      </a>
                     </li>
                     <li>
-                      A9-3 <span>Buenavista</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a9-3-buenavista/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A9-3 <span>Buenavista</span>
+                      </a>
                     </li>
                     <li>
-                      A9-4 <span>Carrera 46</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/a9-4-carrera-46/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A9-4 <span>Carrera 46</span>
+                      </a>
                     </li>
                     <li>
-                      U-30 <span>Universidades</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/u-30-universidades/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        U-30 <span>Universidades</span>
+                      </a>
                     </li>
                     <li>
-                      <span>Gran Malecón</span>
+                      <a
+                        href="/sistema/rutas_alimentadoras/gran-malecon/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        <span>Gran Malecón</span>
+                      </a>
                     </li>
                     {/*  <li>
                 <span>Ventana al Mundo</span>
@@ -419,5 +704,4 @@ const Infra = () => (
     </div>
   </>
 );
-
 export default Infra;

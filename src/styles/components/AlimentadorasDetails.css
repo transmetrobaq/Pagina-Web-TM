@@ -37,6 +37,7 @@
 
 .tabla-alimentadoras .card{
   border-radius: 25px;
+  border: 3px solid #e30613;
 
 }
 .tabla-alimentadoras .card-text{

@@ -55,7 +55,7 @@ const RutasAlimentadoras = () => {
                             <div className="tab-content-color" key={ralis.id}>
                               <th rowspan="9">
                                 <Link
-                                  to={`/sistema/rutas_alimentadoras/${ralis.Slug}`}
+                                  to={`/sistema/rutas_alimentadoras/${ralis.Slug}/#rutas`}
                                   role="button"
                                   className="text-decoration-none"
                                   alt="Ver Ruta Alimentadora"

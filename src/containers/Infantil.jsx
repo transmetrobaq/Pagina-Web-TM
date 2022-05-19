@@ -4,9 +4,25 @@ import '../styles/components/Infantil.css';
 const Infantil = () => (
   <>
     <div className="container__infantil">
-      <h1 style={{ textAlign: 'center', padding: '5%', color: '#002856' }}>
+      {/*  <h1 style={{ textAlign: 'center', padding: '4%', color: '#002856' }}>
         SECCION INFANTIL
-      </h1>
+      </h1> */}
+      {/* <div className="card">
+        <img src="..." className="card-img-top" alt="niño leyendo" />
+      </div> */}
+
+      <div className="card border-light">
+        <div className="card-body">
+          <h1 className="card-title text-center" style={{ color: '#002856' }}>
+            SECCION INFANTIL
+          </h1>
+        </div>
+        <img
+          src="https://apiwebtm.com/uploads/Nino_leyendo_ba623016f5.PNG"
+          className="card-img-bottom"
+          alt="niño leyendo"
+        />
+      </div>
 
       <div className="container">
         <div className="card video-contenedor">
@@ -126,7 +142,7 @@ const Infantil = () => (
               <div className="row">
                 <div className="col-md-2 align-self-center">
                   <a
-                    href="https://drive.google.com/file/d/1oN2wGV5koWQgFDcOoNELDcvghY47OMz-/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1oDKa7U5XKvcrnHDyrzEbMBDFU1V-B6bT/view?usp=sharing"
                     alt="Descargar"
                     style={{ color: '#002856' }}
                     target="_blank"
@@ -169,7 +185,7 @@ const Infantil = () => (
 
             <div className="col-md-2 align-self-center">
               <a
-                href="https://drive.google.com/file/d/1oN2wGV5koWQgFDcOoNELDcvghY47OMz-/view?usp=sharing"
+                href="https://drive.google.com/file/d/1dOQA8w07rC-eGk-pY2tGQZ6aR9dWwW3i/view?usp=sharing"
                 alt="Descargar"
                 style={{ color: 'white' }}
                 target="_blank"

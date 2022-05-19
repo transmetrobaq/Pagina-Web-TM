@@ -1,0 +1,22 @@
+.card__Estaciones {
+    color: #002856;
+    margin-top: 50px;
+}
+
+.card__Estaciones .card {
+    border-radius: 40px;
+    border: none;
+}
+
+.card__Estaciones h2 {
+    color: #e30613;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card__Estaciones img { 
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
