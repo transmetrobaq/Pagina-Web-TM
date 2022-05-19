@@ -17,7 +17,9 @@
   border-radius: 20px;
   font-weight: bold;
 }
-
+.cards__body a:hover {
+  color: #004f9f
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .carrusel__title {
     margin-bottom: -3rem;
