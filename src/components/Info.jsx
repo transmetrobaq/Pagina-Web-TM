@@ -224,6 +224,16 @@ const Info = () => {
           </div>
         </div>
       </div>
+      {/* Arriendo Locales */}
+      <div className="container arriendo ">
+        <div className="card mb-3 border-light ">
+          <img
+            src="https://apiwebtm.com/uploads/publicidad1_9b984ef087.png"
+            className="card-img-top mx-auto d-block cd"
+            alt="..."
+          />
+        </div>
+      </div>
     </>
   );
 };

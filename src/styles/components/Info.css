@@ -791,3 +791,14 @@ a:hover {
   padding: 10px 50px;
   margin-left: -45px;
 }
+
+.arriendo img {
+  width: 50%;
+
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+.arriendo img {
+  width: 80% !important;
+
+}
+}
