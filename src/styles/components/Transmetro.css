@@ -126,11 +126,12 @@ verde */
 .acerca__card h1 {
   margin-bottom: 3.5vw;
   /* font-size: 5.5vw; */
+  font-weight: bold;
 }
 
 .acerca__card p {
   text-align: justify;
-  /* font-size: 1.8vw; */
+  /* font-size: 18px; */
   color: #002856;
   /* white-space: normal; */
 }
@@ -148,7 +149,7 @@ verde */
     height: 50vw;
   }
   .acerca__card p {
-    font-size: 3.5vw;
+    /* font-size: 3.5vw; */
   }
   .acerca__card {
     width: 80%;
@@ -242,6 +243,7 @@ verde */
 
 .conformado {
   color: #002856;
+  
   /* text-align: justify; */
 }
 
@@ -253,7 +255,6 @@ verde */
 
 .conformado p {
   text-align: justify;
-  /* font-size: 1.8vw; */
   white-space: normal;
 }
 
@@ -275,15 +276,13 @@ verde */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .conformado p {
-    /* font-size: 3.5vw; */
-  }
-  .conformado h2 {
-    /* font-size: 5.5vw; */
-  }
+  
   .conformado img {
     margin-right: 10px;
     width: 20vw;
+  }
+  .conformado {
+    padding: 0px 25px ;
   }
 }
 
@@ -298,15 +297,11 @@ verde */
 }
 
 .color-tex-da-infra h1 {
-  /* font-size: 3.5vw; */
+  
   font-weight: bold;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .color-tex-da-infra h1 {
-    /* font-size: 5.5vw; */
-  }
-}
+
 
 /* <!-- DATOS DE INFRSESTRUCTURA bloque 2 --> */
 
@@ -389,7 +384,8 @@ verde */
 }
 
 .cont-infr p {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
+  /* font-size: 18px; */
   color: #004f9f;
 }
 
@@ -406,7 +402,7 @@ verde */
     margin-bottom: 10px;
   }
   .cont-infr p {
-    font-size: 3.5vw;
+    font-size: 18px;
   }
 }
 
@@ -478,6 +474,7 @@ a:hover i {
   margin-top: 20px;
   margin-bottom: 60px;
   color: #002856;
+  font-weight: bold;
 }
 
 .asamblea img {
@@ -543,7 +540,7 @@ a:hover i {
   margin-bottom: 10px;
   text-align: center;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .card__Encuesta img {

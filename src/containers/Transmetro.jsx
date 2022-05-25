@@ -115,7 +115,7 @@ const Transmetro = () => {
             <div className="col-sm-4 obj__Estra-ali1 ">
               <div className="card-body ">
                 <div className="obje__Estra-title">
-                  <h2 className="text-center ">OBJETIVO ESTRATÉGICO</h2>
+                  <h2 className="text-center ">Objetivos Estratégicos</h2>
                 </div>
               </div>
             </div>

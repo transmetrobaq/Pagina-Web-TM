@@ -2,17 +2,27 @@
   color: #002856;
 }
 
+#accesibilidad span {
+  font-weight: bold;
+}
+#accesibilidad h1 {
+  font-weight: bold;
+}
+
 .accesibilidad-tm {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .accesibilidad-tm i {
-  padding: 25%;
+  padding: 5%;
   padding-top: 30%;
   color: #c00d0d;
 
   margin: 0 auto;
+}
+.accesibilidad-tm h5 {
+  font-weight: bold;
 }
 
 .accesibilidad-tm .accesibilidad-border {

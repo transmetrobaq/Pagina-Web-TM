@@ -70,14 +70,14 @@ const Info = () => {
                 <small className="text-muted">Fecha: {notis.date}</small>
                 <h5>{notis.title}</h5>
                 {/* <p>{noti.content}</p> */}
-                <Link
-                  to={`/noticias/${notis.slug}`}
+                <a
+                  href={`/noticias/${notis.slug}/#noti`}
                   role="button"
                   className="btn btn-outline-primary"
                   alt="Ver Noticia"
                 >
                   Ver Noticia
-                </Link>
+                </a>
               </div>
             </div>
           ))}

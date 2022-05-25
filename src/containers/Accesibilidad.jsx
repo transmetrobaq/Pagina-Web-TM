@@ -11,15 +11,47 @@ const Accesibilidad = () => (
       <div className="col-sm-12">
         <div className="card border-0">
           <div id="accesibilidad" className="card-body">
-            <h1 className="card-title" style={{ marginBottom: '30px' }}>
-              Comandos de accesibilidad en la pagina web de Transmetro{' '}
+            <h1
+              className="card-title text-center"
+              style={{ marginBottom: '30px' }}
+            >
+              Accesibilidad en la pagina web de Transmetro{' '}
             </h1>
 
             <p className="card-text">
-              El Sistema Transmetro pensando en su comunidad adaptó sus
-              contenidos y desde ahora, cuenta con los servicios de
-              accesibilidad que permiten la inclusión de personas con
-              discapacidad visual, problemas auditivos y discapacidad cognitiva.
+              La accesibilidad para personas que presentan discapacidad es otro
+              de los factores que hacen del Sistema de Trasporte Masivo,
+              Transmetro, un servicio incluyente. La accesibilidad en el
+              transporte público es una de las maneras de garantizar la
+              movilidad de la comunidad en general, de ello da cuanta lo que
+              tenemos ante nuestra vista con la infraestructura, los autobuses y
+              la operación en general del Sistema de Transporte Masivo.
+            </p>
+            <p className="card-text">
+              <span>Espacio público:</span> En los andenes de Transmetro la
+              accesibilidad está dada por su red continua a lo largo de las
+              Troncales Olaya Herrera y Murillo. Las losetas de color amarillo
+              con guías podotáctiles para personas con discapacidad visual y las
+              rampas que facilitan acceso a personas en sillas de ruedas, que
+              llevan coches de bebés, adulto mayor, entre otras personas que las
+              utilizan.
+            </p>
+            <p className="card-text">
+              <span>En cuanto a las estaciones</span>, tienen rampas de acceso,
+              losetas podotáctiles, barreras de acceso especiales para personas
+              cuya capacidad física para movilizarse le impida el paso a través
+              de las barreras normales. En algunos casos la obesidad puede ser
+              motivo para utilizar estas barreas especiales. Los buses del
+              sistema Transmetro cuentan con sillas preferenciales para personas
+              que presentan discapacidad, para adulto mayor, para mujeres
+              embarazadas y personas con niños en brazos; además de un espacio
+              para silla de rueda que cuenta con cinturones que afianza la silla
+              al bus y que asegura también al usuario que la utiliza. Un
+              porcentaje de los buses Padrones y Busetones, además de contar con
+              estas características, cuentan con ascensor y recogen usuarios a
+              la altura de los andenes. El mismo es manipulado por el operador
+              del bus para facilitar el acceso del usuario con discapacidad
+              física.
             </p>
             <p className="card-text">
               De acuerdo al lineamiento LI.SIS.24 Accesibilidad de la Política
@@ -35,49 +67,49 @@ const Accesibilidad = () => (
           </div>
         </div>
       </div>
-    </div>
-    {/* Personas con discapacidad visual  */}
+      {/* Personas con discapacidad visual  */}
 
-    <div className="container accesibilidad-tm  ">
-      <div className="row justify-content-center aliegn-items-center">
-        <div
-          className="card mb-3 accesibilidad-border  "
-          style={{ maxWidth: '540px' }}
-        >
-          <div className="row">
-            <div className="col-md-4 text-center">
-              <i
-                className="card-img-top fa fa-low-vision fa-6x"
-                aria-hidden="true"
-              />
-            </div>
-            <div className="col-md-8">
-              <div className="card-body azul-lt ">
-                <h3 className="card-title">
-                  Personas con discapacidad visual o baja visión:
-                </h3>
-                <p className="card-text">
-                  Usted puede descargar los lectores de pantalla
-                  <a
-                    href="https://www.convertic.gov.co/641/w3-propertyvalue-15339.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Enlace para descargar programa JAWS"
-                  >
-                    {' '}
-                    JAWS{' '}
-                  </a>
-                  y
-                  <a
-                    href="https://convertic.gov.co/641/w3-propertyvalue-15340.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Enlace para descargar programa ZOOMTEXT"
-                  >
-                    {' '}
-                    ZOOMTEXT.
-                  </a>{' '}
-                </p>
+      <div className="container accesibilidad-tm  ">
+        <div className="row justify-content-center aliegn-items-center">
+          <div
+            className="card mb-3 accesibilidad-border  "
+            style={{ maxWidth: '540px' }}
+          >
+            <div className="row  ">
+              <div className="col-md-4 text-center ">
+                <i
+                  className="card-img-top fa fa-low-vision fa-6x  "
+                  aria-hidden="true"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body azul-lt ">
+                  <h3 className="card-title">
+                    Personas con discapacidad visual o baja visión:
+                  </h3>
+                  <p className="card-text">
+                    Usted puede descargar los lectores de pantalla
+                    <a
+                      href="https://www.convertic.gov.co/641/w3-propertyvalue-15339.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Enlace para descargar programa JAWS"
+                    >
+                      {' '}
+                      JAWS{' '}
+                    </a>
+                    y
+                    <a
+                      href="https://convertic.gov.co/641/w3-propertyvalue-15340.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Enlace para descargar programa ZOOMTEXT"
+                    >
+                      {' '}
+                      ZOOMTEXT.
+                    </a>{' '}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -172,7 +204,7 @@ const Accesibilidad = () => (
       </div>
     </div> */}
 
-    <div className="container accesibilidad-tm" style={{ paddingTop: '90px' }}>
+    <div className="container accesibilidad-tm">
       <div className="row">
         <div className="col-sm-8">
           <div className="card border-0">

@@ -9,9 +9,9 @@ const Sistema = () => (
   <div>
     {/*  <!--INFO BLOQUE  Mapa---> */}
     <Infra />
-
+    <div className="container linea-colores" />
     {/* Buscado de Horario */}
-    <div className="container">
+    {/*  <div className="container">
       <nav className="navbar navbar-light  hora">
         <div className="container-fluid">
           <p className="navbar-text-ligth">Horarios</p>
@@ -28,7 +28,7 @@ const Sistema = () => (
           </form>
         </div>
       </nav>
-    </div>
+    </div> */}
 
     {/* Tarjeta TM */}
 
@@ -71,6 +71,7 @@ const Sistema = () => (
           </div>
         </div>
       </div>
+      <div className="container linea-colores" />
     </div>
 
     {/* Credito y Personlaizacion */}
@@ -177,7 +178,9 @@ const Sistema = () => (
           </a>
         </p>
       </div>
+      <div className="container linea-colores" />
     </div>
+
     {/* Video */}
     <div className="container">
       <div className="card video-contenedor">
