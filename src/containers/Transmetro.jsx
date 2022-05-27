@@ -95,7 +95,7 @@ const Transmetro = () => {
       {/* Asamblea de Socios */}
       <div id="asamblea-socios" className="container asamblea">
         <div className="row">
-          <h2 className="text-center"> Asamblea de Socios</h2>
+          <h2 className="text-center"> Organigrama</h2>
           <figure>
             <img
               src="https://apiwebtm.com/uploads/Asamblea_V2_30a7029fd8.png"
@@ -457,13 +457,13 @@ const Transmetro = () => {
       <div className="container">
         <div className="row">
           <div className="conformado">
-            <div className="col-8">
-              <h2>Qué es Transmetro y cómo está conformado</h2>
-            </div>
+            <h2 className="text-center">
+              Qué es Transmetro y cómo está conformado
+            </h2>
 
-            <div className="col-12">
-              <div>
-                <p>
+            <div className="card  mb-3">
+              <div className="card-body">
+                <p className="card-text">
                   El Sistema de Transporte Masivo Transmetro es el sistema de
                   buses de tránsito rápido (BTR) que opera comercialmente en
                   Barranquilla y su área metropolitana desde el 10 de julio de
@@ -471,7 +471,7 @@ const Transmetro = () => {
                   implementar e inaugurar este tipo de sistema de transporte
                   (después de Bogotá, Pereira, Cali y Bucaramanga).
                 </p>
-                <p>
+                <p className="card-text">
                   Tras una etapa de pedagogía y pruebas de más de 2 meses,
                   Transmetro inició su operación comercial el 10 de julio de
                   2010 con un pasaje de $ 1.400 pesos mediante un sistema de
@@ -486,63 +486,103 @@ const Transmetro = () => {
                   </span>
                 </p>
               </div>
-              <div>
-                <div>
-                  <p className="text-derecha ">
+
+              <div className="card  mb-3">
+                <div className="row g-0 align-items-center ">
+                  <div className="col-md-2 ">
                     <img
+                      className="mx-auto d-block"
                       alt="logo transmetro"
                       src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
                     />
-                    <span>TRANSMETRO S.A.S.</span> es una sociedad por acciones
-                    constituida entre entidades públicas, ubicada dentro de las
-                    sociedades por acciones simplificadas regulada por la ley
-                    1258 de diciembre 5 de 2008, vinculada al Área Metropolitana
-                    de Barranquilla, regida por las disposiciones legales
-                    aplicables a las empresas industriales y comerciales del
-                    estado y en particular a lo dispuesto en el artículo 85 y
-                    siguientes de la ley 489 y sus decretos reglamentarios, que
-                    tiene como objeto social principal el ejercicio de la
-                    titularidad sobre el Sistema Integrado de Transporte Masivo
-                    de Pasajeros del Distrito de Barranquilla y su área
-                    metropolitana, así como la construcción, operación,
-                    mantenimiento y puesta en funcionamiento del mismo.
-                  </p>
+                  </div>
+                  <div className="col-md-10">
+                    <div className="card-body">
+                      <p className="card-text">
+                        <span>TRANSMETRO S.A.S.</span> es una sociedad por
+                        acciones constituida entre entidades públicas, ubicada
+                        dentro de las sociedades por acciones simplificadas
+                        regulada por la ley 1258 de diciembre 5 de 2008,
+                        vinculada al Área Metropolitana de Barranquilla, regida
+                        por las disposiciones legales aplicables a las empresas
+                        industriales y comerciales del estado y en particular a
+                        lo dispuesto en el artículo 85 y siguientes de la ley
+                        489 y sus decretos reglamentarios, que tiene como objeto
+                        social principal el ejercicio de la titularidad sobre el
+                        Sistema Integrado de Transporte Masivo de Pasajeros del
+                        Distrito de Barranquilla y su área metropolitana, así
+                        como la construcción, operación, mantenimiento y puesta
+                        en funcionamiento del mismo.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-derecha ">
-                  <img
-                    alt="logo recaudos sit"
-                    src="https://apiwebtm.com/uploads/icosn_39_b38f16dfab.png"
-                  />
-                  El Sistema emplea un método de recaudo único a cargo de la
-                  empresa <span>Recaudos SIT Barranquilla</span>, concesionario
-                  del Sistema encargado de proveer y distribuir las tarjetas
-                  inteligentes, suministro de la comunicación y la tecnología,
-                  que permite la utilización de validadores y barreras de acceso
-                  electonicos. Asimismo, es la empresa encargada de proveer al
-                  personal idoneó para taquillas y mantenimiento de los equipos
-                  correspondientes al recaudo del Sistema, que incluyen la
-                  alianza con otras Organizaciones para ubicar una red de
-                  recarga en Barranquilla y Soledad.
-                </p>
               </div>
-              <div>
-                <p className="text-derecha ">
-                  <img
-                    alt="logo sistur"
-                    src="https://apiwebtm.com/uploads/icosn_40_a4f85ba55c.png"
-                  />
-                  El Ente Gestor, mediante proceso de licitación
-                  LP-Tm300-001-09, adjudicó la Operación del sistema de
-                  Transporte Masivo para Barranquilla y su área Metropolitana.
-                  La <span>Unión Temporal Sistur-Transurbanos</span> obtuvo el
-                  60% de la operación del Sistema y el{' '}
-                  <span>Grupo Empresarial Metrocaribe S.A.</span>
-                  el 40%. Estas empresas son las encargadas de prestar el
-                  servicio de transporte masivo, suministrar la flota de
-                  autobuses, maquinás y equipos necesarios para dotar los
-                  talleres, parqueos y los necesarios para mantenimiento de las
-                  instalaciones y flota.
-                </p>
+
+              <div className="card  mb-3">
+                <div className="row g-0 align-items-center ">
+                  <div className="col-md-2 ">
+                    <img
+                      className="mx-auto d-block"
+                      alt="logo recaudos sit"
+                      src="https://apiwebtm.com/uploads/icosn_39_b38f16dfab.png"
+                    />
+                  </div>
+                  <div className="col-md-10">
+                    <div className="card-body">
+                      <p className="card-text">
+                        El Sistema emplea un método de recaudo único a cargo de
+                        la empresa <span>Recaudos SIT Barranquilla</span>,
+                        concesionario del Sistema encargado de proveer y
+                        distribuir las tarjetas inteligentes, suministro de la
+                        comunicación y la tecnología, que permite la utilización
+                        de validadores y barreras de acceso electonicos.
+                        Asimismo, es la empresa encargada de proveer al personal
+                        idoneó para taquillas y mantenimiento de los equipos
+                        correspondientes al recaudo del Sistema, que incluyen la
+                        alianza con otras Organizaciones para ubicar una red de
+                        recarga en Barranquilla y Soledad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card border-light mb-3">
+                <div className="row g-0 align-items-center">
+                  <div className="col-md-2 ">
+                    <img
+                      className="mx-auto d-block"
+                      alt="logo sistur"
+                      src="https://apiwebtm.com/uploads/icosn_40_a4f85ba55c.png"
+                    />
+                    <img
+                      className="mx-auto d-block"
+                      style={{ marginTop: '10px' }}
+                      alt="logo sistur"
+                      src="https://apiwebtm.com/uploads/LOGO_Metrocaribe_2363c756b2.jpg"
+                    />
+                  </div>
+                  <div className="col-md-10">
+                    <div className="card-body">
+                      <p className="card-text">
+                        {' '}
+                        El Ente Gestor, mediante proceso de licitación
+                        LP-Tm300-001-09, adjudicó la Operación del sistema de
+                        Transporte Masivo para Barranquilla y su área
+                        Metropolitana. La{' '}
+                        <span>Unión Temporal Sistur-Transurbanos</span> obtuvo
+                        el 60% de la operación del Sistema y el{' '}
+                        <span>Grupo Empresarial Metrocaribe S.A. </span>
+                        el 40%. Estas empresas son las encargadas de prestar el
+                        servicio de transporte masivo, suministrar la flota de
+                        autobuses, maquinás y equipos necesarios para dotar los
+                        talleres, parqueos y los necesarios para mantenimiento
+                        de las instalaciones y flota.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

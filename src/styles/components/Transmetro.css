@@ -263,10 +263,10 @@ verde */
 }
 
 .conformado img {
-  float: left;
-  /* position: absolute; */
-  margin-right: 67px;
-  width: 10vw;
+   width: 10vw;
+}
+.conformado .card {
+  border: none !important;
 }
 
 .text-derecha {
@@ -278,8 +278,8 @@ verde */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   
   .conformado img {
-    margin-right: 10px;
-    width: 20vw;
+    /* margin-right: 10px; */
+    width: 30vw;
   }
   .conformado {
     padding: 0px 25px ;

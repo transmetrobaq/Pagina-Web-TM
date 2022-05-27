@@ -8,7 +8,7 @@ const Transparecia = () => (
       <h1 id="transparencia" className="text-center">
         TRANSPARENCIA
       </h1>
-      <h2 className="text-center">Acceso a la informacion publica</h2>
+      <h2 className="text-center">Acceso a la informacion pública</h2>
       <Acordeon />
     </div>
   </div>
