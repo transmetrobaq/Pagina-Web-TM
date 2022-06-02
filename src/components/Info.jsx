@@ -28,7 +28,7 @@ const Info = () => {
   useEffect(() => {
     const mediaQuery = window.matchMedia('(min-width: 821px)');
     if (mediaQuery.matches) {
-      setLimit(4);
+      setLimit(3);
     } else {
       setLimit(2);
     }
@@ -62,7 +62,11 @@ const Info = () => {
           {noti.map((notis) => (
             <div className="cards" key={notis.id}>
               <figure>
-                <img src={`https://apiwebtm.com${notis.url}`} alt={notis.alt} />
+                <img
+                  src={`https://apiwebtm.com${notis.url}`}
+                  alt={notis.alt}
+                  className="card-img-top"
+                />
                 <div className="linea-colores1" />
               </figure>
 
