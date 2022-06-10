@@ -13,11 +13,13 @@ import '../styles/components/Noticias.css';
 const Noticias = () => {
   const [noti, setNoti] = useState([]);
   const [start, setStart] = useState(0);
-  const [limit] = useState(6);
+  const [limit] = useState(3);
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
+  /* const AP1 = `https://apiwebtm.com/galeria`; */
 
   const [totalCount, setTotalCount] = useState([]);
 
+  /* s */
   /* const [mQuery, setMQuery] = useState({
     matches: window.innerWidth > 768,
   }); */
@@ -31,6 +33,10 @@ const Noticias = () => {
     const resCount = await axios.get(`https://apiwebtm.com/noticias/count`);
     setTotalCount(resCount.data);
     /* console.log(resCount.data); */
+
+    /* const resgal = await axios.get(AP1);
+    setGaleria(resgal.data);
+    console.log(resgal.data.img[0]); */
   }, [start, limit]);
   /* console.log(totalCount); */
 
@@ -44,6 +50,15 @@ const Noticias = () => {
 
   return (
     <>
+      {/*  <div>
+        {' '}
+        <img
+          src={`https://apiwebtm.com${galeria.img}`}
+          className="nt__img"
+          alt={galeria.alt}
+        />
+      </div> */}
+
       <div className="container card__noti">
         <div className="row align-items-center ">
           <div className="col-md-6">
@@ -256,42 +271,124 @@ const Noticias = () => {
               data-bs-slide-to="4"
               aria-label="Slide 5"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="7"
+              aria-label="Slide 8"
+            ></button>
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg"
+                src="https://apiwebtm.com/uploads/DSC_02052_cf8d58e6d0.JPG"
                 className="d-block w-100"
                 alt="Imagen de Galeria"
               />
+              <div className="carousel-caption d-none d-md-block text-white">
+                <h5 className="card-title">
+                  Usuarios esperando servicio en plataforma de estación Joe
+                  Arroyo
+                </h5>
+              </div>
             </div>
             <div className="carousel-item">
               <img
-                src="https://apiwebtm.com/uploads/PSX_20190403_180752_5b356aaa65.jpg"
+                src="https://apiwebtm.com/uploads/DSC_02043_a7ea16c696.JPG"
                 className="d-block w-100"
                 alt="Imagen de Galeria"
               />
+              <div className="carousel-caption d-none d-md-block text-white">
+                <h5 className="card-title">
+                  Plataforma de servicio estación Joe Arroyo
+                </h5>
+              </div>
+            </div>
+
+            <div className="carousel-item">
+              <img
+                src="https://apiwebtm.com/uploads/DSC_02028_68ff9f6288.JPG"
+                className="d-block w-100"
+                alt="Imagen de Galeria"
+              />
+              <div className="carousel-caption d-none d-md-block text-white">
+                <h5 className="card-title">
+                  Usuarios al interior de un servicio articulado
+                </h5>
+              </div>
             </div>
             <div className="carousel-item">
               <img
-                src="https://apiwebtm.com/uploads/PSX_20190403_063253_8bd25532d9.jpg"
+                src="https://apiwebtm.com/uploads/DSC_02004_3304f2a884.JPG"
                 className="d-block w-100"
                 alt="Imagen de Galeria"
               />
+              <div className="carousel-caption d-none d-md-block text-white">
+                <h5 className="card-title">
+                  Usuario validando su entrada a Portal de Soledad
+                </h5>
+              </div>
             </div>
             <div className="carousel-item">
               <img
-                src="https://apiwebtm.com/uploads/Nino_pagando_53c9c8745b.JPG"
+                src="https://apiwebtm.com/uploads/DSC_02001_d3c7f9f0a0.JPG"
                 className="d-block w-100"
                 alt="Imagen de Galeria"
               />
+              <div className="carousel-caption d-none d-md-block text-white">
+                <h5 className="card-title">
+                  Usuario abordando servicio alimentador
+                </h5>
+              </div>
             </div>
             <div className="carousel-item">
               <img
-                src="https://apiwebtm.com/uploads/2b0bace4_ce5d_4290_9238_ccb4ea71aba2_dd1a2ce1d7.jpg"
+                src="https://apiwebtm.com/uploads/DSC_01984_66959cb169.JPG"
                 className="d-block w-100"
                 alt="Imagen de Galeria"
               />
+              <div className="carousel-caption d-none d-md-block text-white">
+                <h5 className="card-title">
+                  Usuario consultando señalética informativa de ruta
+                  alimentadora
+                </h5>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://apiwebtm.com/uploads/DSC_01973_5a8b2a6204.JPG"
+                className="d-block w-100"
+                alt="Imagen de Galeria"
+              />
+              <div className="carousel-caption d-none d-md-block text-white">
+                <h5 className="card-title">
+                  Servicio alimentador en Portal de Soledad
+                </h5>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://apiwebtm.com/uploads/DSC_01952_2ceaaafec7.JPG"
+                className="d-block w-100"
+                alt="Imagen de Galeria"
+              />
+              <div className="carousel-caption d-none d-md-block text-white">
+                <h5 className="card-title">
+                  Servicio troncal en plataforma de Portal de Soledad
+                </h5>
+              </div>
             </div>
           </div>
           <button

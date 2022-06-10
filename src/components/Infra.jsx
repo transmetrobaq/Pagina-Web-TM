@@ -48,7 +48,7 @@ const Infra = () => (
                 <div className="col-md-12 ">
                   <div className="card-text text-center">
                     <iframe
-                      src="https://www.google.com/maps/d/embed?mid=1pMSLCHvUZGZ0VYNxKPTSu0yQNKHFv7iI&ehbc=2E312F"
+                      src="https://www.google.com/maps/d/embed?mid=1-c9ocD-8OqizQY5XLo2Pd1lZ-Rz-EoQ&ehbc=2E312F"
                       width="100%"
                       height="480"
                     />

@@ -2,12 +2,13 @@
 /* eslint-disable jsx-a11y/role-supports-aria-props */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Buscar from './Buscar';
 import '../styles/components/Navbar.css';
 
 // eslint-disable-next-line arrow-body-style
 const Navbar = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fliud">
       <nav
         id="navbar-Tm"
         className="navbar__card navbar navbar-expand-lg navbar-light bg-light"
@@ -343,7 +344,8 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <form className="d-flex ">
+            <Buscar />
+            {/*  <form className="d-flex ">
               <input
                 className="form-control me-2"
                 type="search"
@@ -353,7 +355,7 @@ const Navbar = () => {
               <button className="btn btn-outline-success" type="submit">
                 <i className="fa fa-search" aria-hidden="true" />
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </nav>
