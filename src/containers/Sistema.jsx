@@ -36,36 +36,34 @@ const Sistema = () => (
       <div className="row">
         <h2 className="text-center">TARJETA TRANSMETRO / FORMA DE PAGO</h2>
       </div>
-      <div className="card border-light mb-3">
+      <div className="card border-white mb-3">
         <div className="row g-0">
           <div className="col-md-8">
             <div className="card-body">
               <p className="card-text">
-                El servicio a partir del 1 de enero de 2021 tiene un costo de{' '}
+                El servicio tiene un costo de{' '}
                 <span>
-                  {' '}
-                  $.2500 pesos en dias ordinarios (De lunes a sábado) y $2.600
-                  (domingos y festivos)
-                </span>{' '}
-                que es descontado de la tarjeta inteligente al pasar por los
-                validadores en los portales, en las estaciones o en los
-                alimentadores, y el costo de la{' '}
+                  $.2500 en días hábiles (lunes a sábado) y $2.600 para los días
+                  domingos y festivos (vigente desde 1 de enero de 2021)
+                </span>
+                . El mismo es descontado de la tarjeta inteligente al pasar por
+                los validadores en los portales, estaciones o servicios
+                alimentadores. El costo de la{' '}
+                <span>Tarjeta Inteligente Sin Contacto es de $4.000</span> y se
+                puede personalizar a través del sitio web y en el Punto de
+                Atención al Cliente de la estación Joe Arroyo.{' '}
                 <span>
-                  Tarjeta Inteligente Sin Contacto es de $4.000 pesos,
-                </span>{' '}
-                que se pueden personalizar a travez del sitio web y en los PAC.{' '}
-                <span>
-                  {' '}
-                  Con un pasaje se puede utilizar el servicio cuantas veces se
-                  requera mientras no se abandonen las estaciones.
-                </span>{' '}
+                  Con el valor de un pasaje se puede utilizar el servicio
+                  cuantas veces se requiera siempre y cuando el usuario
+                  permanezca en las estaciones.
+                </span>
               </p>
             </div>
           </div>
           <div className="col-md-4 tarj__Img">
             <img
               src="https://apiwebtm.com/uploads/tarjeta_la_novia_de_Barranquilla_3c5f0b139c.jpg"
-              className=""
+              className="img-fluid"
               alt="Estacion de Transmetro"
             />
           </div>
@@ -92,25 +90,25 @@ const Sistema = () => (
               style={{ backgroundColor: '#004f9f', borderRadius: '50px' }}
             >
               <h2 className="card-title">Crédito</h2>
-              <p className="text-center">
-                EL usuario con credito para ingresar al sistema en las rutas
-                alimentadoras.
+              <p className="card-text">
+                Uso del crédito para ingresar al Sistema en las rutas
+                alimentadoras:
               </p>
               <ul className="card-text">
                 <li>
-                  El monto del crédito: por una parte o la totalidad del pasaje.
+                  El monto del crédito será una parte o la totalidad del pasaje.
                 </li>
                 <li>
-                  Al hacer transbordo a una estacion, debe cancelar el dredito
+                  Al hacer transbordo a una estación debe cancelar el crédito
                   para seguir su recorrido. En este caso no se cobrará un nuevo
                   pasaje, se validará el transbordo.
                 </li>
                 <li>
-                  Si la tarjeta tiene un saldo negativo, auque sea un valor
-                  minimo, se tiene que cancelar el primer credito para activar
+                  Si la tarjeta tiene un saldo negativo, aunque sea un valor
+                  mínimo, se tiene que cancelar el primer crédito para activar
                   uno nuevo.
                 </li>
-                <li>En las rutas troncales no puede hacer uso de crédito</li>
+                <li>En las rutas troncales no puede hacer uso de crédito.</li>
               </ul>
             </div>
           </div>
@@ -135,9 +133,10 @@ const Sistema = () => (
                 Personalización
               </h2>
               <p className="card-text">
-                Personalizar la tarjeta transmetro es vincular los datos
-                personales del usuario, adulto o menor de edad con el número de
-                la tarjeta, así se protege el saldo en caso de pérdida o robo.
+                Personalizar la tarjeta Transmetro es vincular los datos
+                personales del usuario, adulto o menor de edad, con el número de
+                la tarjeta para proteger el saldo en caso de pérdida, daño o
+                hurto.
               </p>
             </div>
           </div>
@@ -148,19 +147,22 @@ const Sistema = () => (
     {/* <!-- Como personalizar --> */}
     <div className="container como-perso ">
       <div className="card-body text-center tex-como-per">
-        <h2>¿Como personalizas?</h2>
+        <h2>¿Cómo personalizas?</h2>
       </div>
 
       <div className="card-body como-perso-text">
-        <div
-          className="  text-center"
-          style={{ maxWidth: '500px', margin: '0 auto' }}
-        >
+        <div className="card-text">
           <p>
-            Linea de atencion al cliente <span>3712222</span>, en{' '}
-            <span>www.transmetro.gov.co</span>, punto de atencion al cliente en
-            la <span>Estacion Joe Arroyo</span>, a través de estos medios
-            también la pueden bloquear.
+            <ul>
+              <li>
+                Línea de atención al cliente <span>3712222</span>.
+              </li>
+              <li>
+                En <span>www.transmetro.gov.co</span>.
+              </li>
+              <li>Punto de Atención al Cliente / Estación Joe Arroyo.</li>
+            </ul>
+            *A través de estos medios también se puede bloquear.
           </p>
         </div>
       </div>
@@ -168,13 +170,13 @@ const Sistema = () => (
     <div className="container">
       <div className="text-center per-tarjeta">
         <p>
-          Personaliza tu parjeta haciendo clikc{' '}
+          Personaliza tu tarjeta haciendo clic{' '}
           <a
             href="http://www.sitbarranquilla.com/index.php/personaliza-tu-tarjeta"
             target="_blank"
             rel="noopener noreferrer"
           >
-            aqui
+            aquí
           </a>
         </p>
       </div>
@@ -185,16 +187,21 @@ const Sistema = () => (
     <div className="container">
       <div className="card video-contenedor">
         <div className="card-body">
-          <h2 id="transbordos" className="card-text">
-            TRANSBORDOS
-          </h2>
+          <Link to="/sistema/transbordos" role="button" alt="Transbordos">
+            <h2 id="transbordos" className="card-text">
+              TRANSBORDOS
+            </h2>
+          </Link>
+
           {/* <hr className="dropdown-divider" /> */}
         </div>
-        <iframe
-          src="https://www.youtube.com/embed/R0sOgE-oc8k"
-          title="YouTube video player"
-          alt="YouTube video player"
-        />
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/R0sOgE-oc8k"
+            title="YouTube video player"
+            alt="YouTube video player"
+          />
+        </div>
       </div>
       <center style={{ marginTop: '20px' }}>
         <Link
@@ -203,7 +210,7 @@ const Sistema = () => (
           className="btn btn-outline-primary"
           alt="Ver Noticia"
         >
-          Mas informacion...
+          Mas información
         </Link>
       </center>
     </div>
@@ -233,7 +240,7 @@ const Sistema = () => (
 
     <div className="container ">
       <div
-        className="card mb-3 car__cul border-light"
+        className="card mb-3 car__cul border-white"
         style={{ maxWidth: '100%' }}
       >
         <div className="row g-0">
@@ -243,15 +250,16 @@ const Sistema = () => (
                 CULTURA TRANSMETRO
               </h2>
               <p className="card-text">
-                La Cultura Transmetro está basada en el Manual del Usuario de
+                La ´Cultura Transmetro´ está basada en el Manual del Usuario de
                 Transmetro que suministra información sobre cómo utilizar el
-                Sistema correctamente y es una guía de cómo relacionarse con el
-                otros usuarios y funcionarios. Además aporta claridad sobre los
-                derechos y deberes de los usuarios, restricciones y sanciones.
+                Sistema correctamente. Es una guía de cómo relacionarse con
+                otros usuarios y funcionarios, aportando, además, claridad sobre
+                los derechos y deberes de los usuarios, restricciones y
+                sanciones.
               </p>
               <p>
                 {' '}
-                Esta estandarización de comportamientos y sus consecuencias, son
+                Esta estandarización de comportamientos y sus consecuencias son
                 una herramienta útil para que Transmetro agilice la respuesta
                 ante diferentes situaciones que se presentan en la operación
                 diaria del Sistema.
@@ -259,25 +267,27 @@ const Sistema = () => (
               <p className="card-text">
                 {' '}
                 En la medida que los usuarios conozcan, entiendan y acaten las
-                normas del Sistema, basadas en el respeto mutuo, tolerancia y
+                normas de Transmetro, basadas en el respeto mutuo, tolerancia y
                 responsabilidad, hacemos de nuestro Sistema Masivo un espacio de
                 buena convivencia.
               </p>
-              <a
-                href="http://bit.ly/2nQO0TD"
-                className="btn btn-outline-success"
-                target="_blanck"
-                alt="Manual de Usuario"
-                style={{
-                  height: '50px',
-                  fontSize: '18px',
-                  border: '3px solid',
-                  fontWeight: 'bold',
-                  marginTop: '10px',
-                }}
-              >
-                Manual de Usuario
-              </a>
+              <center>
+                <a
+                  href="http://bit.ly/2nQO0TD"
+                  className="btn btn-outline-success"
+                  target="_blanck"
+                  alt="Manual de Usuario"
+                  style={{
+                    height: '50px',
+                    fontSize: '18px',
+                    border: '3px solid',
+                    fontWeight: 'bold',
+                    marginTop: '10px',
+                  }}
+                >
+                  Manual de Usuario
+                </a>
+              </center>
             </div>
           </div>
           <figure className="col-md-4 ">
@@ -302,12 +312,12 @@ const Sistema = () => (
       </div>
 
       <div className="card-title text-center">
-        <h2>Operación</h2>
+        <h1 id="title-operacion">OPERACIÓN</h1>
       </div>
 
       <div className="card-body">
         <p>
-          Flota contractualmente vinculada al Sistema de Transporte masivo
+          Flota contractualmente vinculada al Sistema de Transporte Masivo
           Transmetro:
         </p>
       </div>
@@ -347,105 +357,104 @@ const Sistema = () => (
       </div>
     </div>
     <center>
-      <div className="container card__opera-tarj">
-        <div className="row">
-          <div className="col-3">
-            <h1 className="align-baseline">6</h1>
+      <div className="container">
+        <div className="row justify-content-md-center card__opera-tarj">
+          <div className="col-2">
+            <h1 className="align-baseline text-center ">6</h1>
           </div>
-          <div className="col-9">
-            <p>RUTAS TRONCALES CORRIENTES</p>
-            <hr />
-            <p>RUTAS TRONCALES EXPRESAS</p>
+          <div className="col-10">
+            <div className="card-body">
+              <p>RUTAS TRONCALES CORRIENTES</p>
+              <hr />
+              <p>RUTAS TRONCALES EXPRESAS</p>
+            </div>
           </div>
         </div>
       </div>
     </center>
 
     <div className="container rutas-ali">
-      <div className="row text-center">
-        <div className="col-sm-3 rutas-ali1 ">
-          <div className="card-body ">
-            <h2 className="card-text  text-break">Soledad</h2>
-            <h3 className="card-text">10</h3>
-          </div>
+      <div className="row">
+        <div className="col-md-3 rutas-ali1">
+          <h2 className="card-text  text-break">Soledad</h2>
+          <p className="card-text">10</p>
         </div>
         <div className="col-sm-6  rutas-ali2">
-          <div className="card-body ">
+          <div className="card-body text-center">
             <h2 className="card-text">24 Rutas Alimentadoras</h2>
 
             <img
               src="https://apiwebtm.com/uploads/icosn_29_3a3181e8d8.png"
               alt="icono bus "
+              className="img-fluid"
             />
           </div>
         </div>
-        <div className="col-sm-3 rutas-ali3">
-          <div className="card-body ">
-            <h2 className="card-text">Barranquilla</h2>
-            <h3 className="card-text">14</h3>
+        <div className="col-md-3 rutas-ali3">
+          <h2 className="card-text">Barranquilla</h2>
+          <p className="card-text">14</p>
+        </div>
+      </div>
+    </div>
+
+    {/* card informacion sistemas */}
+    <div className="container" style={{ maxWidth: '640px' }}>
+      <center className="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+        <div className="col ">
+          <div className="card h-100 car__info ">
+            <img
+              src="https://apiwebtm.com/uploads/icosn_50_a66554c381.png"
+              className="card-img-top mx-auto"
+              alt="icono bus"
+            />
+            <div className="hr-card" />
+
+            <div className="contenido-card">
+              <p>4 RUTAS ALIMENTADORAS DE REFUERZO</p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    {/* card informacion sistemas */}
-    <div className="container-card">
-      <div className="card car__info ">
-        <div className="text-center">
-          <img
-            src="https://apiwebtm.com/uploads/icosn_50_a66554c381.png"
-            alt="icono bus "
-          />
-          <div className="hr-card" />
-        </div>
+        <div className="col">
+          <div className="card h-100 car__info">
+            <img
+              src="https://apiwebtm.com/uploads/icosn_31_5f13bb7208.png"
+              className="card-img-top mx-auto"
+              alt="icono punto de recarga"
+            />
+            <div className="hr-card" />
 
-        <div className="contenido-card">
-          <p>4 RUTAS ALIMENTADORAS DE REFUERZO</p>
+            <div className="contenido-card  ">
+              <p>CONTAMOS CON 120 PUNTOS DE RECARGA DISPONIBLES</p>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className="card car__info ">
-        <div className="text-center">
-          <img
-            src="https://apiwebtm.com/uploads/icosn_31_5f13bb7208.png"
-            alt="icono bus "
-          />
-          <div className="hr-card" />
+        <div className="col">
+          <div className="card h-100 car__info">
+            <img
+              src="https://apiwebtm.com/uploads/icosn_30_8209b17d3c.png"
+              className="card-img-top mx-auto"
+              alt="icono paradero"
+            />
+            <div className="hr-card" />
+            <div className="contenido-card">
+              <p>MÁS DE 600 PARADEROS DE RUTAS ALIMENTADORAS</p>
+            </div>
+          </div>
         </div>
-
-        <div className="contenido-card  ">
-          <p>CONTAMOS CON 120 PUNTOS DE RECARGA DISPONIBLES</p>
+        <div className="col">
+          <div className="card h-100 car__info">
+            <img
+              src="https://apiwebtm.com/uploads/icosn_32_e85865ae5d.png"
+              className="card-img-top mx-auto"
+              alt="..."
+            />
+            <div className="hr-card" />
+            <div className="contenido-card">
+              <p>105 MINUTOS PARA HACER TRANSBORDOS</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div className="container-card">
-      <div className="card car__info ">
-        <div className="text-center">
-          <img
-            src="https://apiwebtm.com/uploads/icosn_30_8209b17d3c.png"
-            alt="icono bus "
-          />
-          <div className="hr-card" />
-        </div>
-
-        <div className="contenido-card">
-          <p>MÁS DE 600 PARADEROS DE RUTAS ALIMENTADORAS</p>
-        </div>
-      </div>
-
-      <div className=" card car__info ">
-        <div className="text-center">
-          <img
-            src="https://apiwebtm.com/uploads/icosn_32_e85865ae5d.png"
-            alt="icono bus "
-          />
-          <div className="hr-card" />
-        </div>
-
-        <div className="contenido-card">
-          <p>105 MINUTOS PARA HACER TRANSBORDOS</p>
-        </div>
-      </div>
+      </center>
     </div>
 
     <center>
@@ -481,9 +490,9 @@ const Sistema = () => (
               />
               <div className="card-body">
                 <div className="container linea-accesible" />
-                <p className="card-text">
-                  La población en condición de discapacidad cuentan con
-                  señalización en estaciones para su ubicación en filas y tienen
+                <p className="card-text text-center">
+                  La población en condición de discapacidad cuenta con
+                  señalización en estaciones para su ubicación en filas. Tienen
                   preferencia al abordar los buses del Sistema.
                 </p>
               </div>
@@ -497,12 +506,12 @@ const Sistema = () => (
               />
               <div className="card-body">
                 <div className="container linea-accesible" />
-                <p className="card-text">
+                <p className="card-text text-center">
                   {' '}
                   La infraestructura del Sistema es accesible. Las troncales
                   cuentan con andenes con placas podotáctiles para personas con
-                  baja visión y/o personas ciegas y tienen rampas de acceso en
-                  cada cuadra.
+                  baja visión y/o discapacidad visual y rampas de acceso en cada
+                  cuadra.
                 </p>
               </div>
             </div>
@@ -515,11 +524,11 @@ const Sistema = () => (
               />
               <div className="card-body">
                 <div className=" container linea-accesible" />
-                <p className="card-text">
+                <p className="card-text text-center">
                   Las personas con discapacidad motriz tienen la asistencia del
-                  operador para manipular el acensor del autobus y tienen la
-                  Tarjeta de Movilidad Reducida con la que facilita la
-                  accesibilidad a las estaciones.
+                  operador para manipular el ascensor del vehículo. Cuentan con
+                  la Tarjeta de Movilidad Reducida que facilita la accesibilidad
+                  a las estaciones.
                 </p>
               </div>
             </div>
@@ -532,11 +541,11 @@ const Sistema = () => (
               />
               <div className="card-body">
                 <div className="container linea-accesible " />
-                <p className="card-text">
+                <p className="card-text text-center">
                   Los usuarios con movilidad reducida pueden informarse sobre
-                  los autobuses que tienen ascensor para programar mejor sus
+                  los vehículos que tienen ascensor para programar sus
                   desplazamientos. Se puede coordinar el servicio en la línea de
-                  atentción al cliente: 3712222
+                  atención al cliente: 605-3712222.
                 </p>
               </div>
             </div>
@@ -549,11 +558,11 @@ const Sistema = () => (
               />
               <div className="card-body">
                 <div className="container linea-accesible " />
-                <p className="card-text">
-                  Las estaciones sencillas, la estación de Retorno Joe Arroyo y
+                <p className="card-text text-center">
+                  Las estaciones sencillas, la estación de retorno Joe Arroyo y
                   el Portal de Soledad cuentan con rampas e informadores
                   electrónicos con información sobre los servicios y avisos
-                  sobre la operación
+                  sobre la operación.
                 </p>
               </div>
             </div>
@@ -566,8 +575,10 @@ const Sistema = () => (
               />
               <div className="card-body">
                 <div className="container linea-accesible " />
-                <p className="card-text">
-                  Los buses tienen sillas azules preferenciales
+                <p className="card-text text-center">
+                  Los buses tienen sillas azules preferenciales para adultos
+                  mayores, personas en condición de discapacidad y mujeres
+                  gestantes y/o con niños.
                 </p>
               </div>
             </div>

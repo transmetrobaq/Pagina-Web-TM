@@ -16,7 +16,7 @@
 
 .accesibilidad-tm i {
   padding: 5%;
-  padding-top: 30%;
+  padding-top: 40%;
   color: #c00d0d;
 
   margin: 0 auto;
@@ -34,6 +34,19 @@
   text-decoration: none;
   color: #002856;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .accesibilidad-tm .accesibilidad-border {
+    width: 280px;
+  }
+  .accesibilidad-tm i {
+    padding: 1%;
+    padding-top: 10%;
+    
+  
+   
+  }
 }
 
 /* accordeon */

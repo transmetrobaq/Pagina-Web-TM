@@ -29,22 +29,24 @@ const Ciudadano = () => {
                 <h2 id="manual-del-usuario" className="card-title text-center">
                   MANUAL DEL USUARIO
                 </h2>
-                <h5 className="card-text text-center">
-                  Este Manual describe objetos, generalidades, derechos y
-                  deberes del usuario, restricciones y canales de comunicacion
-                  con el sistema
+                <h5 className="card-text">
+                  El Manual de Usuarios describe objetos, generalidades,
+                  derechos y deberes del usuario, restricciones y canales de
+                  comunicación con el Sistema.
                 </h5>
                 <p className="card-text">
                   Esta información se debe tener en cuenta al momento de
-                  utilizar el Sistema Integrado de Transporte Masivo de la
-                  ciudad de Barranquilla y su Área Metropolitana –Transmetro-,
-                  ya que representa para los usuarios/ciudadanos una guía sobre
-                  el buen uso y el comportamiento que se debe tener al interior
-                  de los escenarios que componen el SITM -Transmetro- con el fin
-                  de procurar una mejor convivencia entre todos los actores del
-                  Sistema. Puede descargarlo y conocer todos los detalles de
-                  este importante documento, haciendo clic en el siguiente
-                  enlace:
+                  utilizar el Sistema de Transporte Masivo de la ciudad de
+                  Barranquilla y su área metropolitana, Transmetro, ya que
+                  representa para los usuarios/ciudadanos una guía sobre el buen
+                  uso y el comportamiento que se debe tener al interior de los
+                  escenarios que componen el Sistema de Transporte Masivo,
+                  Transmetro, a fin de procurar una mejor convivencia entre
+                  todos los actores del Sistema.
+                </p>
+                <p>
+                  *Puede descargarlo y conocer todos los detalles de este
+                  importante documento haciendo clic en el siguiente enlace:
                 </p>
                 <center>
                   <a
@@ -569,7 +571,7 @@ const Ciudadano = () => {
         {/* Estimulo Estudiantil */}
         <div className="container ">
           <div
-            className="card mb-3 car__cul border-light"
+            className="card mb-3 car__cul border-white"
             style={{ maxWidth: '100%' }}
             id="estimulo-estudiantil"
           >
@@ -579,52 +581,53 @@ const Ciudadano = () => {
                   <h2 className="card-title">
                     ESTÍMULO SOCIAL DE TRANSPORTE ESTUDIANTIL
                   </h2>
+                  <p>
+                    * El beneficio estudiantil solo se gestiona ante el Distrito
+                    de Barranquilla.
+                  </p>
                   <p className="card-text" style={{ fontWeight: 'bold' }}>
                     El Estímulo Social de Transporte es un programa de la
-                    Secretaría de Gestión Social Distrital, para estudiantes de
+                    Secretaría de Gestión Social Distrital para estudiantes de
                     instituciones de educación superior, técnicas y tecnólogas
-                    del Distrito de Barranquilla es un subsidio indirecto a los
-                    estudiantes de educación superior de la ciudad
-                    (profesionales, técnicos y tecnólogos), que cumplan con los
-                    requisitos del programa. Con este estímulo, el Distrito
-                    busca proporcionar el acceso y la permanencia de los
-                    estudiantes que residen en la ciudad de Barranquilla al
-                    servicio educativo, reduciendo así la deserción estudiantil
-                    en las instituciones de educación superior
+                    del Distrito de Barranquilla que se traduce en un subsidio
+                    indirecto a los estudiantes que cumplan con los requisitos
+                    del programa. Con este estímulo, el Distrito busca
+                    proporcionar el acceso y la permanencia de los estudiantes
+                    que residen en la ciudad de Barranquilla al servicio
+                    educativo, reduciendo así la deserción estudiantil en las
+                    instituciones de educación superior.
                   </p>
                   <p>
                     {' '}
-                    <span style={{ fontWeight: 'bold' }}>Beneficio:</span> 40%
-                    de descuento en el valor del pasaje, el cual no implica la
-                    entrega de dinero material, porque se hace mediante la
-                    tarjeta Transmetro.
+                    <span>Beneficio:</span> 40 % de descuento en el valor del
+                    pasaje. No implica la entrega de dinero material pues se
+                    hace mediante la tarjeta Transmetro.
                   </p>
                   <p>
-                    <span style={{ fontWeight: 'bold' }}>
-                      Puntos de atención:{' '}
-                    </span>
-                    Alcaldía Distrital de Barranquilla, Piso 1 Ventanillas 19,20
-                    y 21.
+                    <span>Puntos de atención: </span>
+                    Alcaldía Distrital de Barranquilla, piso 1 - ventanillas 19,
+                    20 y 21.
                   </p>
                   <p>
-                    <sapn style={{ fontWeight: 'bold' }}>
-                      Horario de atención:{' '}
-                    </sapn>
-                    Lunes a viernes 8:00 a.m a 12:00 m. y 1:30 p.m a 5:00 p.m
-                    Teléfono:6053399438
+                    <span>Horario de atención: </span>
+                    lunes a viernes 8:00 a.m. a 12:00 m. y 1:30 p.m. a 5:00 p.m.
                   </p>
                   <p>
-                    <span style={{ fontWeight: 'bold' }}>Email: </span>
+                    <span>Teléfono: </span>
+                    605-3399438
+                  </p>
+                  <p>
+                    <span>Email: </span>
                     estimulodetransporte@barranquilla.gov.co
                   </p>
                   <p className="card-text">
-                    <span style={{ fontWeight: 'bold' }}>Link: </span>
+                    <span>Link: </span>
                     <a
                       href="https://www.barranquilla.gov.co/gestionsocial/subsidios/estimulo-social-de-transporte/el-programa"
                       alt="Estimulo Estudiantil"
                       target="_blanck"
                     >
-                      Estimulo Social de Transporte
+                      Estimulo Social de Transporte.
                     </a>
                   </p>
                   {/*    <a
@@ -647,8 +650,8 @@ const Ciudadano = () => {
               <figure className="col-md-4 ">
                 <img
                   src="https://apiwebtm.com/uploads/Estudiante_4743d0456d.png"
-                  className="img-fluid rounded-start center-block"
-                  alt="..."
+                  className="img-fluid center-block"
+                  alt="adolecente saludando"
                 />
               </figure>
             </div>

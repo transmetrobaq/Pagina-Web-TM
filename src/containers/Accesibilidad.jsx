@@ -15,43 +15,43 @@ const Accesibilidad = () => (
               className="card-title text-center"
               style={{ marginBottom: '30px' }}
             >
-              Accesibilidad en la pagina web de Transmetro{' '}
+              Accesibilidad en la página web de Transmetro{' '}
             </h1>
 
             <p className="card-text">
-              La accesibilidad para personas que presentan discapacidad es otro
+              La accesibilidad a personas en condición de discapacidad es otro
               de los factores que hacen del Sistema de Trasporte Masivo,
-              Transmetro, un servicio incluyente. La accesibilidad en el
-              transporte público es una de las maneras de garantizar la
-              movilidad de la comunidad en general, de ello da cuanta lo que
-              tenemos ante nuestra vista con la infraestructura, los autobuses y
-              la operación en general del Sistema de Transporte Masivo.
+              Transmetro, un servicio incluyente. El acceso al transporte
+              público es una de las maneras de garantizar la movilidad a la
+              comunidad en general, de ello da cuanta lo que tenemos ante
+              nuestra vista con la infraestructura, los autobuses y la operación
+              en general del Sistema.
             </p>
             <p className="card-text">
-              <span>Espacio público:</span> En los andenes de Transmetro la
+              <span>Espacio público:</span> en los andenes del Sistema la
               accesibilidad está dada por su red continua a lo largo de las
-              Troncales Olaya Herrera y Murillo. Las losetas de color amarillo
-              con guías podotáctiles para personas con discapacidad visual y las
-              rampas que facilitan acceso a personas en sillas de ruedas, que
-              llevan coches de bebés, adulto mayor, entre otras personas que las
+              Troncales Olaya Herrera y Murillo, losetas de color amarillo con
+              guías podotáctiles para personas con discapacidad visual y rampas
+              que facilitan acceso a usuarios con movilidad reducida, adultos
+              mayores, niños movilizados en coches, entre otras personas que las
               utilizan.
             </p>
             <p className="card-text">
-              <span>En cuanto a las estaciones</span>, tienen rampas de acceso,
-              losetas podotáctiles, barreras de acceso especiales para personas
-              cuya capacidad física para movilizarse le impida el paso a través
-              de las barreras normales. En algunos casos la obesidad puede ser
+              <span>Estaciones</span>: cuentan con rampas de acceso, losetas
+              podotáctiles y barreras de acceso especiales para personas cuya
+              capacidad física para movilizarse le impida el paso a través de
+              las barreras normales. En algunos casos, la obesidad puede ser
               motivo para utilizar estas barreas especiales. Los buses del
-              sistema Transmetro cuentan con sillas preferenciales para personas
-              que presentan discapacidad, para adulto mayor, para mujeres
+              Sistema cuentan con sillas preferenciales para personas que
+              presentan discapacidad, para adulto mayor, para mujeres
               embarazadas y personas con niños en brazos; además de un espacio
               para silla de rueda que cuenta con cinturones que afianza la silla
-              al bus y que asegura también al usuario que la utiliza. Un
-              porcentaje de los buses Padrones y Busetones, además de contar con
-              estas características, cuentan con ascensor y recogen usuarios a
-              la altura de los andenes. El mismo es manipulado por el operador
-              del bus para facilitar el acceso del usuario con discapacidad
-              física.
+              al bus, asegurando al usuario que la utiliza. Un porcentaje de los
+              buses Padrones y Busetones, además de las características
+              mencionadas, cuentan con un mecanismo de ascensor para usuarios
+              con movilidad reducida, quienes abordan el vehículo a la altura de
+              los andenes. El mismo es manipulado por el operador del bus para
+              facilitar el acceso del usuario.
             </p>
             <p className="card-text">
               De acuerdo al lineamiento LI.SIS.24 Accesibilidad de la Política
@@ -78,7 +78,7 @@ const Accesibilidad = () => (
             <div className="row  ">
               <div className="col-md-4 text-center ">
                 <i
-                  className="card-img-top fa fa-low-vision fa-6x  "
+                  className="card-img-top fa fa-low-vision fa-4x   "
                   aria-hidden="true"
                 />
               </div>

@@ -237,13 +237,13 @@ hr {
 .card__Troncales ol {
   margin-top: 40px;
 }
-.cars-ico {
+/* .cars-ico {
   background-color: #e30613;
   width: 10vw;
   border-radius: 10px;
   margin-top: 15px;
   margin-left: 40px;
-}
+} */
 
 
 .cars-ico-1 {
@@ -253,6 +253,9 @@ hr {
   margin-top: 15px;
   margin-left: 40px;
 }
+/* .cars-ico img {
+  width: 10vw;
+} */
 /*Cards*/
 .container__card-noti {
   width: 100%;
@@ -350,6 +353,7 @@ hr {
 /* Nav inferior */
 .wave__card-group {
   padding-left: 10px;
+  margin: auto;
 }
 
 .wrapper {

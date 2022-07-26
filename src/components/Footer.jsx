@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="contact__us-info">
                   <h3>HORARIO</h3>
                   <p>HORARIO DE OFICINA</p>
-                  <span>Lunes a Viernes:</span>
+                  <span>Lunes a viernes:</span>
                   <ul>
                     <li>8:00 - 12:00</li>
                     <li>13:00-17:00</li>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="contact__us-info">
                   <p>HORARIO DE OPERACIÓN DEL SISTEMA</p>
-                  <span>Lunes a Viernes:</span>
+                  <span>Lunes a viernes:</span>
                   <ul>
                     <li>05:00 - 22:00</li>
                   </ul>
@@ -31,9 +31,9 @@ const Footer = () => {
                   <ul>
                     <li>05:00 - 22:00</li>
                   </ul>
-                  <span>Domingos y Festivos:</span>
+                  <span>Domingos y festivos:</span>
                   <ul>
-                    <li>05:00 - 21:00</li>
+                    <li>05:30 - 21:00</li>
 
                     <li>* Sujeto a modificación</li>
                   </ul>
@@ -96,7 +96,7 @@ const Footer = () => {
                         <i className="fa fa-phone" aria-hidden="true" />
                       </span>
                       <p>
-                        <span>605 3712222</span> Línea de atención
+                        <span>605 3712222 Línea de atención</span>
                       </p>
                     </li>
                     <li>
@@ -177,15 +177,17 @@ const Footer = () => {
                         <span className="fa-li" aria-hidden="true">
                           <i className="fas fa-map-marker-alt" />
                         </span>
-                        <span>Cra. 57 No. 99A - 65</span>
-                        <p>Ed. Torres del Atlántico - Torre sur, piso 15</p>
+                        <span>Cra. 57 No. 99A - 65 </span>
+                        <span>
+                          Ed. Torres del Atlántico - Torre sur, piso 15
+                        </span>
                       </li>
                       <li>
                         <span className="fa-li">
                           <i className="fa fa-mobile" aria-hidden="true" />
                         </span>
                         <p>
-                          <span>350 2849625</span> Ofic. Adm.
+                          <span>350 2849625 Ofic. Adm.</span>
                         </p>
                       </li>
                       <li>
@@ -226,80 +228,72 @@ const Footer = () => {
         <div>
           <div className="copyright">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row row-cols-1 row-cols-md-3 g-4 align-items-center">
                 {/* End Col 1 */}
-                <div className="col-md-12 ">
-                  <div className="row row-cols-1 row-cols-md-2 g-5">
-                    <div className="col copyright__img">
-                      <div>
-                        <a href="https://www.gov.co/home/" target="_blanck">
-                          <img
-                            src="https://apiwebtm.com/uploads/icosn_20_8b497e7f22.png"
-                            alt="icono"
-                            style={{ width: '10vw', marginTop: '10px' }}
-                            className="mx-auto d-block copyright__img-gov"
-                          />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="col copyright__img">
-                      <div>
-                        <a
-                          href="https://www.barranquilla.gov.co/"
-                          target="_blanck"
-                        >
-                          <img
-                            src="https://apiwebtm.com/uploads/logo_alcaldia_c6054f4065.svg"
-                            alt="icono"
-                            style={{
-                              width: '10vw',
-                              marginTop: '5px',
-                            }}
-                            className="mx-auto d-block copyright__img-baq"
-                          />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="col copyright__img">
-                      <div>
-                        <a
-                          href="https://www.mintransporte.gov.co/"
-                          target="_blanck"
-                        >
-                          <img
-                            src="https://apiwebtm.com/uploads/Mintransporte_39c7a45771.png"
-                            alt="icono"
-                            style={{ width: '10vw', marginTop: '10px' }}
-                            className="mx-auto d-block copyright__img-min"
-                          />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="col copyright__img">
-                      <div>
-                        <a href="https://www.colombia.co/" target="_blanck">
-                          <img
-                            src="https://apiwebtm.com/uploads/icosn_21_e329fc7483.png"
-                            alt="icono"
-                            style={{ width: '3vw' }}
-                            className="mx-auto d-block copyright__img-co"
-                          />
-                        </a>
-                      </div>
-                    </div>
 
-                    <div className="col copyright__img">
-                      <div>
-                        <a href="https://www.ambq.gov.co/" target="_blanck">
-                          <img
-                            src="https://apiwebtm.com/uploads/AREA_METROPOLITANA_BARRANQUILLA_LOGO_ab49e2fe6d.png"
-                            alt="icono"
-                            style={{ width: '5vw', marginTop: '5px' }}
-                            className="mx-auto d-block copyright__img-amb"
-                          />
-                        </a>
-                      </div>
-                    </div>
+                <div className="col copyright__img">
+                  <a href="https://www.gov.co/home/" target="_blanck">
+                    <img
+                      src="https://apiwebtm.com/uploads/icosn_20_8b497e7f22.png"
+                      alt="icono"
+                      style={{ width: '100px', marginTop: '10px' }}
+                      className="mx-auto d-block copyright__img-gov"
+                    />
+                  </a>
+                </div>
+                <div className="col copyright__img">
+                  <div>
+                    <a href="https://www.barranquilla.gov.co/" target="_blanck">
+                      <img
+                        src="https://apiwebtm.com/uploads/logo_alcaldia_c6054f4065.svg"
+                        alt="icono"
+                        style={{
+                          width: '100px',
+                          marginTop: '5px',
+                        }}
+                        className="mx-auto d-block copyright__img-baq"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="col copyright__img">
+                  <div>
+                    <a
+                      href="https://www.mintransporte.gov.co/"
+                      target="_blanck"
+                    >
+                      <img
+                        src="https://apiwebtm.com/uploads/Mintransporte_39c7a45771.png"
+                        alt="icono"
+                        style={{ width: '100px', marginTop: '10px' }}
+                        className="mx-auto d-block copyright__img-min"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-md-4 copyright__img">
+                  <div>
+                    <a href="https://www.colombia.co/" target="_blanck">
+                      <img
+                        src="https://apiwebtm.com/uploads/icosn_21_e329fc7483.png"
+                        alt="icono"
+                        style={{ width: '30px' }}
+                        className="mx-auto d-block copyright__img-co"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div className="col copyright__img">
+                  <div>
+                    <a href="https://www.ambq.gov.co/" target="_blanck">
+                      <img
+                        src="https://apiwebtm.com/uploads/AREA_METROPOLITANA_BARRANQUILLA_LOGO_ab49e2fe6d.png"
+                        alt="icono"
+                        style={{ width: '50px', marginTop: '5px' }}
+                        className="mx-auto d-block copyright__img-amb"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>

@@ -31,7 +31,7 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <p> 1.1 Misión, visión, funciones y deberes.</p>
+                  <p> 1.1 Misión, visión, funciones y deberes</p>
                 </a>
               </dd>
               <dd className="bor ">
@@ -45,12 +45,12 @@ const Acordeon = () => {
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  <p>1.3 Mapas y Cartas descriptivas</p>
+                  <p>1.3 Mapas y cartas descriptivas</p>
                 </a>
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  1.4 Directorio Institucional incluyendo sedes
+                  1.4 Directorio institucional incluyendo sedes
                 </a>
               </dd>
               <dd className="bor ">
@@ -91,8 +91,7 @@ const Acordeon = () => {
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  1.12 Información sobre decisiones que puede afectar al
-                  público.
+                  1.12 Información sobre decisiones que puede afectar al público
                 </a>{' '}
               </dd>
               <dd className="bor ">
@@ -154,7 +153,7 @@ const Acordeon = () => {
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  2.1.4 Vínculo al Diario o Gaceta Oficial.
+                  2.1.4 Vínculo al Diario o Gaceta Oficial
                 </a>
               </dd>
               <dd className="bor ">
@@ -179,9 +178,8 @@ const Acordeon = () => {
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
-                  2.2.2 Sistema de búsquedas de norma
+                  2.2.2 Sistema de búsquedas de normas
                 </a>
-                s
               </dd>
               <dd className="bor ">
                 <a href="pagina. html" target="_blank">
@@ -458,7 +456,7 @@ const Acordeon = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <p>7.2 Sección de Datos Abiertos.</p>
+                  <p>7.2 Sección de Datos Abiertos</p>
                 </a>
               </dd>
             </div>

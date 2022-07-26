@@ -73,7 +73,7 @@ const Buscar = () => {
               rel="noreferrer"
               key={noti.id}
             >
-              <p>{value.title} </p>
+              <p>{value.title}... </p>
             </a>
           ))}
         </div>

@@ -7,9 +7,10 @@ const Navinfe = () => {
   return (
     <>
       {/* Nav inferior / Moovit */}
-      <div className="container-fluid container__wave ">
+
+      <div className="container-xxl container__wave ">
         <div className="row ">
-          <div className="col-md-6 align-self-center ">
+          <div className="col-md-7 align-self-center ">
             <div className="wave__card-group ">
               <div className=" wrapper ">
                 <div className="card h-100 wave__card">
@@ -85,7 +86,7 @@ const Navinfe = () => {
             </div>
           </div>
           {/* Moovit */}
-          <div className="col-md-6 align-self-center">
+          <div className="col-md-5 align-self-center">
             <div className="moovit__card">
               <div className="iframe-container responsive">
                 <div
@@ -131,6 +132,7 @@ const Navinfe = () => {
           </div>
         </div>
       </div>
+
       {/* Fin Nav inferior */}
     </>
   );

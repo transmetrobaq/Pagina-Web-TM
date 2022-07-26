@@ -103,15 +103,13 @@ const Info = () => {
 
       {/* Movilizados */}
 
-      <div className="container-fluid card bg-dark text-white">
+      <div className="container-xxl bg-dark text-white">
         <div className="row align-items-end">
           <img
             src="https://apiwebtm.com/uploads/Recurso_Movilizados_6bc73b974f.png"
             className="card-img"
             alt="foto tarjeta transmetro"
           />
-
-          <div className="card-img-overlay" />
         </div>
       </div>
 
@@ -191,7 +189,7 @@ const Info = () => {
           >
             <div className="card-body">
               <div className="row  g-0 ">
-                <center className="col-md-3 ">
+                <center className="col-md-4 ">
                   <img
                     src="https://apiwebtm.com/uploads/Lavado_de_manos_7a58441131.png"
                     alt="icono lavado de manos"
@@ -199,7 +197,7 @@ const Info = () => {
                   />
                   <p> Lávese las manos </p>
                 </center>
-                <center className="col-md-3  ">
+                <center className="col-md-4  ">
                   <img
                     src="https://apiwebtm.com/uploads/Mascarilla_ee3b44234e.png"
                     alt="icnono Uso mascarilla"
@@ -207,7 +205,7 @@ const Info = () => {
                   />
                   <p>Use mascarilla </p>
                 </center>
-                <center className="col-md-3  ">
+                <center className="col-md-4  ">
                   <img
                     src="https://apiwebtm.com/uploads/Desinfeccion_846d77751e.png"
                     alt="icono Limpie y desinfecte"
@@ -215,21 +213,21 @@ const Info = () => {
                   />
                   <p>Limpie y desinfecte </p>
                 </center>
-                <center className="col-md-3  ">
+                {/* <center className="col-md-3  ">
                   <img
                     src="https://apiwebtm.com/uploads/Destancia_d9347dfa76.png"
                     alt="icono Mantenga sana distancia"
                     style={{ width: '40%' }}
                   />
                   <p>Mantenga sana distancia </p>
-                </center>
+                </center> */}
               </div>
             </div>
           </div>
         </div>
       </div>
       {/* Arriendo Locales */}
-      <div className="container arriendo ">
+      {/* <div className="container arriendo ">
         <div className="card mb-3 border-light ">
           <img
             src="https://apiwebtm.com/uploads/publicidad1_9b984ef087.png"
@@ -237,7 +235,7 @@ const Info = () => {
             alt="..."
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

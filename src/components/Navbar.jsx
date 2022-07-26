@@ -8,17 +8,17 @@ import '../styles/components/Navbar.css';
 // eslint-disable-next-line arrow-body-style
 const Navbar = () => {
   return (
-    <div className="container-fliud">
+    <>
       <nav
         id="navbar-Tm"
-        className="navbar__card navbar navbar-expand-lg navbar-light bg-light"
+        className=" container-fluid navbar__card navbar navbar-expand-lg navbar-light bg-light"
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
               src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
               alt="Logo Transmetro"
-              className="img-fluid mb-2"
+              className="img-fluid"
             />
           </a>
           <button
@@ -74,7 +74,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Asamblea de Socios
+                      Organigrama
                     </a>
                   </li>
                   <li className="nav-item">
@@ -359,7 +359,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 

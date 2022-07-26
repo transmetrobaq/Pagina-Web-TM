@@ -33,13 +33,13 @@ const Transbordos = () => {
         className="container"
         style={{ marginBottom: '100px', marginTop: '100px' }}
       >
-        <div className="container" style={{ width: '75vw' }}>
+        <div className="container" style={{ maxWidth: '750px' }}>
           <div className="row row-cols-1 row-cols-md-2 g-4 ">
             <div className="col">
               <div className="card h-100 funciona-tm align-items-center">
                 <img
                   src="https://apiwebtm.com/uploads/Recurso_10_e98f84db95.png"
-                  className="card-img-top funciona-tm-img"
+                  className="card-img-top funciona-tm-img "
                   alt="icono"
                 />
                 <div className="card-body">
@@ -1402,7 +1402,7 @@ const Transbordos = () => {
               <div className="tab">
                 <input type="checkbox" id="chck-18" />
                 <label className="tab-label " for="chck-18">
-                  U-30 Universidades{' '}
+                  U-30 Universidades
                 </label>
                 <div className="tab-content">
                   <table className="table border-danger">
@@ -1421,7 +1421,10 @@ const Transbordos = () => {
 
                       <tr>
                         <th className=" azul-lt " rowspan="7">
-                          U-30 Universidades{' '}
+                          U-30{' '}
+                          <span style={{ fontSize: '14px' }}>
+                            Universidades
+                          </span>
                         </th>
                         <td className="azul-lt">A7-1 Miramar</td>
                         <td className="azul-lt">

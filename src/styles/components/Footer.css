@@ -230,7 +230,7 @@
   margin-top: 5px;
 }
 .copyright__img {
-  width: 15vw;
+  width: 150px;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .copyright__img-gov {

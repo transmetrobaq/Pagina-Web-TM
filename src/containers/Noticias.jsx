@@ -73,7 +73,7 @@ const Noticias = () => {
               <img
                 alt="hombre con megafono"
                 src="https://apiwebtm.com/uploads/Prensa_a8fa881943.png"
-                className="mx-auto d-block"
+                className="img-fluid mx-auto d-block"
               />
             </div>
           </div>
@@ -147,7 +147,7 @@ const Noticias = () => {
         <div className="container linea-colores" />
         {/* Informativos */}
         <div className="container card__informativos" id="informativos">
-          <h2>INFORMATIVOS</h2>
+          <h2>VIDEOS</h2>
           <div className="row row-cols-1 row-cols-md-2 g-4">
             <div className="col">
               <div className="card ">

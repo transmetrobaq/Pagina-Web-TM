@@ -1,13 +1,19 @@
+.carousel {
+  max-width: 1400px;
+  margin: auto;
+}
 .cards__body {
   width: 50%;
   border: none;
 }
 
 .carrusel__title {
-  font-size: 2.5vw;
+ /*  font-size: 2.5vw; */
   font-weight: bold;
   margin-bottom: 3rem;
   text-align: left;
+
+  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.9);
 }
 
 .cards__body a {
@@ -17,11 +23,11 @@
   border-radius: 20px;
   font-weight: bold;
 }
-.cards__body a:hover {
-  color: #004f9f
-}
+
+
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .carrusel__title {
     margin-bottom: -3rem;
+    font-size: 18px;
   }
 }

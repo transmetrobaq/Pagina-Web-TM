@@ -148,20 +148,30 @@
   border: 3px solid #c00d0d;
   border-radius: 30px;
   color: #002856;
+  
+}
+.funciona-tm .card {
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 .funciona-tm p {
-  padding: 3vw;
+  padding: 1px;
   color: #004f9f;
   font-size: 18px;
+  text-align: center;
 }
 .funciona-tm img {
   width: 15%;
-  margin-top: 70px;
+  margin-top: 25px;
+ 
+  
 }
 .funciona-tm-img {
   width: 20% !important;
-  padding-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 25px;
+ /*  margin-bottom: 10px; */
+ 
 }
 
 @media only screen and (min-width: 250px) and (max-width: 1320px) {
@@ -172,6 +182,10 @@
     width: 30% !important;
     padding-top: 1px;
     margin-bottom: 5px;
+  }
+
+  .car__transb p {
+    text-align: center;
   }
 }
 /* ten en cuenta */

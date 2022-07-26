@@ -5,7 +5,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable no-shadow */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 import axios from 'axios';
 import '../styles/components/RutasAlimentadoras.css';
 
@@ -54,14 +54,14 @@ const RutasAlimentadoras = () => {
                         ? rali.map((ralis) => (
                             <div className="tab-content-color" key={ralis.id}>
                               <th rowspan="9">
-                                <Link
-                                  to={`/sistema/rutas_alimentadoras/${ralis.Slug}/#rutas`}
+                                <a
+                                  href={`/sistema/rutas_alimentadoras/${ralis.Slug}/#rutas`}
                                   role="button"
                                   className="text-decoration-none"
                                   alt="Ver Ruta Alimentadora"
                                 >
                                   <h5 className=" azul-lt ">{ralis.name}</h5>
-                                </Link>
+                                </a>
                               </th>
                             </div>
                           ))
@@ -77,7 +77,6 @@ const RutasAlimentadoras = () => {
 
       <img
         src="https://apiwebtm.com/uploads/Buspadron_d3d3bafa33.jpg"
-        style={{ width: '30vw', marginTop: '50px' }}
         className="card-img-top mx-auto d-block"
         alt="icono"
       />
