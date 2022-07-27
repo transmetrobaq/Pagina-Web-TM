@@ -11,6 +11,7 @@
   
 .cubo__Infantil {
   margin-bottom: 100px;
+  
    }
 
 .container__infantil h1 {
@@ -31,7 +32,7 @@
       font-weight: bold;  }
      
 .container__infantil img {
-  width:  40%;
+  width:  400px;
   margin: 0 auto;
   display: block;
 }
@@ -55,6 +56,7 @@
   
   .cubo__Infantil {
     margin-bottom: 100px;
+    
   }
   .cubo__Infantil h5 {
     margin-bottom: 20px;

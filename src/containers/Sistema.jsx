@@ -198,8 +198,8 @@ const Sistema = () => (
         <div className="ratio ratio-16x9">
           <iframe
             src="https://www.youtube.com/embed/R0sOgE-oc8k"
-            title="YouTube video player"
-            alt="YouTube video player"
+            title="Transmetro paso a paso"
+            alt="YouTube video como funciona"
           />
         </div>
       </div>

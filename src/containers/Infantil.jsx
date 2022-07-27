@@ -32,11 +32,13 @@ const Infantil = () => (
             </h3>
             {/* <hr className="dropdown-divider" /> */}
           </div>
-          <iframe
-            src="https://www.youtube.com/embed/R0sOgE-oc8k"
-            title="YouTube video player"
-            alt="YouTube video player"
-          />
+          <div className="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/R0sOgE-oc8k"
+              title="Transmetro paso a paso"
+              alt="YouTube video como funciona"
+            />
+          </div>
         </div>
       </div>
       {/* -------------------------------------------------- */}
@@ -49,7 +51,7 @@ const Infantil = () => (
         </h6>
       </div>
 
-      <div className="cubo__Infantil">
+      <div className=" cubo__Infantil">
         <div className="card mb-3 cubo text-white ">
           <div className="row g-0">
             <div className="col-md-10">
