@@ -1,0 +1,19 @@
+.tarjetas__tm {
+    margin-bottom: 100px;
+}
+.tarjetas__tm h1 {
+color: #002856;
+margin: 0 50px 25px 0;
+}
+
+.tarjetas__tm h5 {
+    color: #002856;
+    }
+
+.tarjetas__tm p {
+color: #002856;     
+ }
+
+ .tarjetas__tm .card {
+    border: 2px solid #002856;
+ }

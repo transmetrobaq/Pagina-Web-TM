@@ -11,6 +11,7 @@ import RutasAlimentadoras from '../containers/RutasAlimentadoras';
 import Estaciones from '../containers/Estaciones';
 import AlimentadorasDetails from '../containers/AlimentadorasDetails';
 import EstacionesDetails from '../containers/EstacionesDetails';
+import Tarjetas from '../containers/Tarjetas';
 import Ciudadano from '../containers/Ciudadano';
 import NoticiasDetails from '../containers/NoticiasDetails';
 import Layout from '../components/Layout';
@@ -71,7 +72,7 @@ const App = () => {
               path="/sistema/estaciones/:estacionesId"
               component={EstacionesDetails}
             />
-
+            <Route exact path="/sistema/tarjetas" component={Tarjetas} />
             <Route exact path="/ciudadano" component={Ciudadano} />
             <Route exact path="/noticias" component={Noticias} />
             <Route
