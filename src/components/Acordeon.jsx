@@ -507,7 +507,7 @@ const Acordeon = () => {
             <div className="accordion-body" />
           </div>
         </div>
-        <div className="accordion-item">
+        {/* <div className="accordion-item">
           <div className="accordion-header" id="headingTeen">
             <button
               className="accordion-button collapsed fw-bolder  text-dark"
@@ -540,7 +540,7 @@ const Acordeon = () => {
               </dd>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

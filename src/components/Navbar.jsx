@@ -192,6 +192,15 @@ const Navbar = () => {
                       Accesibilidad
                     </a>
                   </li>
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/tarjetas/#tarjetas"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Galería de Tarjetas
+                    </a>
+                  </li>
                 </ul>
               </li>
 
