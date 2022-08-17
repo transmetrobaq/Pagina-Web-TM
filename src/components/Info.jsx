@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Navinfe from './Navinfe';
 import Infra from './Infra';
+import Header from './Header';
 import '../styles/components/Info.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -40,6 +41,7 @@ const Info = () => {
 
   return (
     <>
+      <Header />
       <Navinfe />
 
       {/* Datos de Infraestructura */}
@@ -89,15 +91,15 @@ const Info = () => {
           {/* <!--FIN DE INFO BLOQUE 3---> */}
         </div>
         <center>
-          <Link
-            to="/noticias"
+          <a
+            href="/noticias/#comunicados-prensa"
             role="button"
             className="btn btn-primary"
             style={{ marginBottom: '50px' }}
             alt="Ver Noticia"
           >
             Ver más noticia...
-          </Link>
+          </a>
         </center>
       </div>
 
@@ -132,10 +134,10 @@ const Info = () => {
                     alt="Bus Transmetro"
                   />
                   <h2 className="card-title text">
-                    <strong className="text-danger">350.718.296</strong>{' '}
+                    <strong className="text-danger">13.047.831</strong>{' '}
                   </h2>
                   <p className="card-text">
-                    Desde el 10 de Julio de 2010 hasta el 2 de Enero de 2022
+                    Desde el 01 de enero de 2022 hasta el 30 de junio de 2022
                   </p>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable jsx-a11y/role-supports-aria-props */
 import React from 'react';
@@ -37,7 +38,7 @@ const Navbar = () => {
             id="navbarSupportedContent"
             style={{ marginTop: '10px', marginLeft: '10px' }}
           >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0  ">
               <li className="nav-item dropdown ">
                 <Link
                   className="nav-link dropdown-toggle "
@@ -305,7 +306,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Informativos (videos)
+                      Videos
                     </a>
                   </li>
                   <li className="nav-item">

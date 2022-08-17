@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+/* import Header from './Header'; */
 import Footer from './Footer';
 import Navbar from './Navbar';
 import Breadcrumb from './Breadcrumb';
@@ -12,7 +12,7 @@ const Layout = ({ children }) => (
     <div className="container-xxl">
       <Navbar />
     </div>
-    <Header />
+    {/* <Header /> */}
     <Breadcrumb />
     {children}
 

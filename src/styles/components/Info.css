@@ -354,6 +354,7 @@ hr {
 .wave__card-group {
   padding-left: 10px;
   margin: auto;
+  
 }
 
 .wrapper {
@@ -386,8 +387,9 @@ hr {
   margin-left: 5px;
 }
 .container__wave {
-  margin-top: -45px;
+  /* margin-top: -45px; */
   background-color: #e30613;
+  /* max-height: 500px; */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -551,7 +553,7 @@ a:hover {
 .r2v04k_mv-widget-wrapper iframe.responsive {
   display: block;
   /* height: calc(100% - 142px); */
-  height: 18vw;
+  height: 200px;
   /* max-height: 25vw !important; */
 }
 .r2v04k_mv-widget-wrapper {

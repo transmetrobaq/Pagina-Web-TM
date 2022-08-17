@@ -28,7 +28,7 @@ const Infra = () => (
             }}
           >
             <div className="card-body">
-              <h2 className="card-text text-center">Mapa Troncales</h2>
+              <h2 className="card-text text-center">Mapa Troncal</h2>
             </div>
           </div>
 
@@ -480,7 +480,7 @@ const Infra = () => (
                         role="button"
                         alt="estacion portal de soledad"
                       >
-                        A3-40 <span>Villa Sol (SUSPENDIDA)</span>
+                        A3-40 <span>Villa Sol</span>
                       </a>
                     </li>
                     <li>

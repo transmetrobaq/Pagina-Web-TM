@@ -8,6 +8,12 @@ import '../styles/components/Sistema.css';
 const Sistema = () => (
   <div>
     {/*  <!--INFO BLOQUE  Mapa---> */}
+
+    <div className="container">
+      <div className="card-body title__Datos" id="datos-sistema">
+        <h1 className="text-center">DATOS DEL SISTEMA</h1>
+      </div>
+    </div>
     <Infra />
     <div className="container linea-colores" />
     {/* Buscado de Horario */}
@@ -43,8 +49,8 @@ const Sistema = () => (
               <p className="card-text">
                 El servicio tiene un costo de{' '}
                 <span>
-                  $.2500 en días hábiles (lunes a sábado) y $2.600 para los días
-                  domingos y festivos (vigente desde 1 de enero de 2021)
+                  $2.700 en días hábiles (lunes a sábado) y $2.800 para los días
+                  domingos y festivos (vigente desde 1 de agosto de 2022)
                 </span>
                 . El mismo es descontado de la tarjeta inteligente al pasar por
                 los validadores en los portales, estaciones o servicios
@@ -463,7 +469,7 @@ const Sistema = () => (
           <div className="card-body d-flex align-items-center">
             <div className="col">
               <h2>
-                <span>56.653 Usuarios Movilizados</span> diariamente en promedio
+                <span>93.000 Usuarios Movilizados</span> diariamente en promedio
               </h2>
             </div>
           </div>

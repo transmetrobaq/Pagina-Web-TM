@@ -1,6 +1,7 @@
 .carousel {
   max-width: 1400px;
   margin: auto;
+  margin-top: -45px;
 }
 .cards__body {
   width: 50%;

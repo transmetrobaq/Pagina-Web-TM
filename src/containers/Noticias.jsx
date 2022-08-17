@@ -59,11 +59,11 @@ const Noticias = () => {
         />
       </div> */}
 
-      <div className="container card__noti">
+      <div className="container card__noti" id="comunicados-prensa">
         <div className="row align-items-center ">
           <div className="col-md-6">
             <div className="card-body ">
-              <h1 id="comunicados-prensa" className=" card-title text-center ">
+              <h1 className=" card-title text-center ">
                 COMUNICADOS DE PRENSA
               </h1>
             </div>

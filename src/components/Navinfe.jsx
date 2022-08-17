@@ -14,8 +14,8 @@ const Navinfe = () => {
             <div className="wave__card-group ">
               <div className=" wrapper ">
                 <div className="card h-100 wave__card">
-                  <Link
-                    to="/sistema/rutas_troncales"
+                  <a
+                    href="/sistema/rutas_troncales/#rutas-troncales"
                     role="button"
                     className=""
                     alt="ir a rutas alimentadoras"
@@ -23,16 +23,16 @@ const Navinfe = () => {
                     <img
                       src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
                       className="card-img-top"
-                      alt="..."
+                      alt="Icono Transmetro"
                     />
                     <div className="card-body">
                       <h6 className="card-title">Rutas Troncales</h6>
                     </div>
-                  </Link>
+                  </a>
                 </div>
                 <div className="card h-100 wave__card">
-                  <Link
-                    to="/sistema/rutas_alimentadoras"
+                  <a
+                    href="/sistema/rutas_alimentadoras/#rutas-alimentadoras"
                     role="button"
                     className=""
                     alt="ir a rutas alimentadoras"
@@ -40,12 +40,12 @@ const Navinfe = () => {
                     <img
                       src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
                       className="card-img-top"
-                      alt="..."
+                      alt="Icono Transmetro"
                     />
                     <div className="card-body">
                       <h6 className="card-title">Rutas Alimentadoras </h6>
                     </div>
-                  </Link>
+                  </a>
                 </div>
                 <div className="card h-100 wave__card">
                   <Link
@@ -57,7 +57,7 @@ const Navinfe = () => {
                     <img
                       src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
                       className="card-img-top"
-                      alt="..."
+                      alt="Icono Transmetro"
                     />
                     <div className="card-body">
                       <h6 className="card-title">Transbordos</h6>
@@ -75,7 +75,7 @@ const Navinfe = () => {
                     <img
                       src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
                       className="card-img-top"
-                      alt="..."
+                      alt="Icono Transmetro"
                     />
                     <div className="card-body">
                       <h6 className="card-title">Sección Infantil</h6>

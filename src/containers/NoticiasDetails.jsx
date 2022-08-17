@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import '../styles/components/NoticiasDetails.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -46,14 +46,14 @@ const NoticiasDetails = () => {
         </ReactMarkdown>
       </div>
       <div className="backNoti">
-        <Link
-          to="/noticias"
+        <a
+          href="/noticias/#comunicados-prensa"
           role="button"
           className="btn btn-outline-primary"
           alt="Ver Noticia"
         >
           Ir a Noticias
-        </Link>
+        </a>
       </div>
     </div>
   );

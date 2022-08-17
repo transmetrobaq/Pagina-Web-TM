@@ -1,4 +1,10 @@
 /*Mapa Troncal Bootstap */
+.title__Datos h1 {
+  color: #002856;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
 .mapa__Troncal {
   width: 100%;
   text-align: auto;

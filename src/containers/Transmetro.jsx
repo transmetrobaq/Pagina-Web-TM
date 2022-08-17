@@ -199,11 +199,14 @@ const Transmetro = () => {
                     Optimizar los procesos internos de acuerdo a exigencias de
                     MIPG.
                   </li>
-                  <li>Mejorar en los indicadores del Sistema.</li>
+
                   <li>
                     Gestionar la integración del Transporte Masivo con el
                     complementario.
                   </li>
+                  <li>Mejorar en los indicadores del Sistema.</li>
+                  <li>Construir banco de proyectos.</li>
+                  <li>Incrementar la demanda.</li>
                 </ol>
               </div>
             </div>
@@ -219,18 +222,17 @@ const Transmetro = () => {
               <div className="card-body">
                 <ol>
                   <li>
-                    Incrementar el nivel de satisfacción de usuarios y
-                    ciudadanos.
+                    Fortalecer las competencias del talento humano y el ambiente
+                    laboral.
                   </li>
                   <li>
-                    Trabajar bajo el principio de la responsabilidad social.
+                    Desarrollar una cultura organizacional de trabajo en equipo
+                    y orientacion a los logros.
                   </li>
                   <li>
-                    Gestionar una comunicación adecuada con nuestro público y
-                    generar valor agregado.
-                  </li>
-                  <li>
-                    Contribuir sustancialmente al mejoramiento en la movilidad.
+                    Proporcionar ambientes laborales seguros y armoniosos que
+                    redunden en el mejoramiento de la calidad de vida de los
+                    servidores públicos.
                   </li>
                 </ol>
               </div>
@@ -771,7 +773,7 @@ const Transmetro = () => {
                         role="button"
                         alt="estacion portal de soledad"
                       >
-                        A3-40 <span>Villa Sol (SUSPENDIDA)</span>
+                        A3-40 <span>Villa Sol</span>
                       </a>
                     </li>
                     <li>
@@ -1113,10 +1115,10 @@ const Transmetro = () => {
                     alt="Bus Transmetro"
                   />
                   <h2 className="card-title text">
-                    <strong className="text-danger">350.718.296</strong>{' '}
+                    <strong className="text-danger">13.047.831</strong>{' '}
                   </h2>
                   <p className="card-text">
-                    Desde el 10 de julio de 2010 hasta el 2 de enero de 2022
+                    Desde el 01 de enero de 2022 hasta el 30 de junio de 2022
                   </p>
                 </div>
               </div>
