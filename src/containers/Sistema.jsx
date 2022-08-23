@@ -190,13 +190,11 @@ const Sistema = () => (
     </div>
 
     {/* Video */}
-    <div className="container">
+    <div className="container" id="transbordos">
       <div className="card video-contenedor">
         <div className="card-body">
           <Link to="/sistema/transbordos" role="button" alt="Transbordos">
-            <h2 id="transbordos" className="card-text">
-              TRANSBORDOS
-            </h2>
+            <h2 className="card-text">TRANSBORDOS</h2>
           </Link>
 
           {/* <hr className="dropdown-divider" /> */}
@@ -210,14 +208,14 @@ const Sistema = () => (
         </div>
       </div>
       <center style={{ marginTop: '20px' }}>
-        <Link
-          to="/sistema/transbordos"
+        <a
+          href="/sistema/transbordos/#transbordos"
           role="button"
           className="btn btn-outline-primary"
           alt="Ver Noticia"
         >
           Mas información
-        </Link>
+        </a>
       </center>
     </div>
 

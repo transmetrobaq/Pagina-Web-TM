@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable arrow-body-style */
 import React from 'react';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 
 const Navinfe = () => {
   return (
@@ -48,8 +48,8 @@ const Navinfe = () => {
                   </a>
                 </div>
                 <div className="card h-100 wave__card">
-                  <Link
-                    to="/sistema/transbordos"
+                  <a
+                    href="/sistema/transbordos/#transbordos"
                     role="button"
                     className=""
                     alt="ir a transbordos"
@@ -62,12 +62,12 @@ const Navinfe = () => {
                     <div className="card-body">
                       <h6 className="card-title">Transbordos</h6>
                     </div>
-                  </Link>
+                  </a>
                 </div>
 
                 <div className="card h-100 wave__card">
-                  <Link
-                    to="/infantil"
+                  <a
+                    href="/infantil/#infantil"
                     role="button"
                     className=""
                     alt="ir a transbordos"
@@ -80,7 +80,7 @@ const Navinfe = () => {
                     <div className="card-body">
                       <h6 className="card-title">Sección Infantil</h6>
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

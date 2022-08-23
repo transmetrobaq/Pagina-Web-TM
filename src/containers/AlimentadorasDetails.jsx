@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import '../styles/components/AlimentadorasDetails.css';
 
@@ -109,14 +109,14 @@ const AlimentadorasDetails = () => {
         </div>
         {/* Boton Ir Rutas Alimentadoras */}
         <center className="backNoti">
-          <Link
-            to="/sistema/rutas_alimentadoras"
+          <a
+            href="/sistema/rutas_alimentadoras/#rutas-alimentadoras"
             role="button"
             className="btn btn-outline-primary"
             alt="Regresar"
           >
             Ir a Rutas Alimentadoras
-          </Link>
+          </a>
         </center>
       </div>
     </>

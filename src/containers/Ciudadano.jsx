@@ -16,19 +16,17 @@ const Ciudadano = () => {
   return (
     <>
       <div
-        className="container scrollspy-example"
+        className="container "
         data-bs-spy="scroll"
         data-bs-target="#navbar-Tm"
         data-bs-offset="0"
-        tabindex="0"
+        tabIndex="0"
       >
         <div className="container ">
           <div className="row cd">
-            <div className="card ">
+            <div className="card " id="manual-del-usuario">
               <div className="card-body ">
-                <h2 id="manual-del-usuario" className="card-title text-center">
-                  MANUAL DEL USUARIO
-                </h2>
+                <h2 className="card-title text-center">MANUAL DEL USUARIO</h2>
                 <h5 className="card-text">
                   El Manual de Usuarios describe objetos, generalidades,
                   derechos y deberes del usuario, restricciones y canales de
@@ -50,7 +48,7 @@ const Ciudadano = () => {
                 </p>
                 <center>
                   <a
-                    href="http://bit.ly/2nQO0TD"
+                    href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
                     className="btn btn-outline-success "
                     target="_blanck"
                     alt="Manual de Usuario"

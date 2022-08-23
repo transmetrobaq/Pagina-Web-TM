@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import '../styles/components/TroncalesDetails.css';
 
 const TroncalesDetails = () => {
@@ -20,10 +20,8 @@ const TroncalesDetails = () => {
   /* console.log(rali); */
   return (
     <>
-      <div className="container adetail__cards">
-        <h1 className=" azul-lt justify-content-start">
-          {/* <span>S1 -</span> */} {rtron.name}
-        </h1>
+      <div className="container adetail__cards" id="Rtroncal">
+        <h1 className=" azul-lt justify-content-start">{rtron.name}</h1>
 
         <div className="map-alimentadora">
           <iframe
@@ -106,14 +104,14 @@ const TroncalesDetails = () => {
       </div> */}
 
         <center className="backNoti">
-          <Link
-            to="/sistema/rutas_troncales"
+          <a
+            href="/sistema/rutas_troncales/#rutas-troncales"
             role="button"
             className="btn btn-outline-primary"
             alt="Regresar"
           >
             Ir a Rutas Troncales
-          </Link>
+          </a>
         </center>
       </div>
     </>

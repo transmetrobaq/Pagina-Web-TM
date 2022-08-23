@@ -6,7 +6,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable no-shadow */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 import axios from 'axios';
 import '../styles/components/RutasTroncales.css';
 
@@ -25,11 +25,11 @@ const RutasTroncales = () => {
 
   return (
     <div
-      className="container rutali__cards scrollspy-example"
+      className="container rutali__cards "
       data-bs-spy="scroll"
       data-bs-target="#navbar-Tm"
       data-bs-offset="0"
-      tabindex="0"
+      tabIndex="0"
     >
       {/* Droptown RutasAlimentadoras */}
       <div className="row">
@@ -45,7 +45,7 @@ const RutasTroncales = () => {
         </p>
       </div>
 
-      <div className="row justify-content-center mx-auto d-block width-Troncal">
+      {/*    <div className="row justify-content-center mx-auto d-block width-Troncal">
         <div className="col-md-11">
           <div className="tabs">
             <div className="tab">
@@ -59,17 +59,18 @@ const RutasTroncales = () => {
                     <tr>
                       {rtron
                         ? rtron.map((rtrons) => (
-                            <div className="tab-content-color" key={rtrons.id}>
-                              <Link
-                                to={`/sistema/rutas_troncales/${rtrons.Slug}`}
+                            <div
+                              className="tab-content-color list-group"
+                              key={rtrons.id}
+                            >
+                              <a
+                                href={`/sistema/rutas_troncales/${rtrons.Slug}/#Rtroncal`}
                                 role="button"
-                                className="text-decoration-none"
+                                className="text-decoration-none list-group-item list-group-item-action border border-white"
                                 alt="Ver Ruta Troncal"
                               >
-                                <th className=" azul-lt " rowspan="9">
-                                  <h5 className=" azul-lt "> {rtrons.name}</h5>
-                                </th>
-                              </Link>
+                                <h5 className=" azul-lt "> {rtrons.name}</h5>
+                              </a>
                             </div>
                           ))
                         : 'Loading...'}
@@ -81,6 +82,63 @@ const RutasTroncales = () => {
           </div>
         </div>
       </div>
+ */}
+      {/* Prueba de acordeon */}
+      <center className="accordion" id="accordionExample">
+        <div
+          className="accordion-item"
+          style={{
+            border: '3px solid #c00d0d',
+            borderRadius: '5px',
+            maxWidth: '600px',
+            marginTop: '50px',
+          }}
+        >
+          <h2 className="accordion-header" id="headingOne">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+              style={{
+                borderRadius: '5px',
+                color: '#c00d0d',
+                fontWeight: 'bold',
+              }}
+            >
+              Selecciona la ruta
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body">
+              {rtron
+                ? rtron.map((rtrons) => (
+                    <div
+                      className="tab-content-color list-group"
+                      key={rtrons.id}
+                    >
+                      <a
+                        href={`/sistema/rutas_troncales/${rtrons.Slug}/#Rtroncal`}
+                        role="button"
+                        className="text-decoration-none tab-content-color list-group-item list-group-item-action border border-white"
+                        alt="Ver Ruta Troncal"
+                      >
+                        <h5 className=" azul-lt "> {rtrons.name}</h5>
+                      </a>
+                    </div>
+                  ))
+                : 'Loading...'}
+            </div>
+          </div>
+        </div>
+      </center>
 
       <img
         src="https://apiwebtm.com/uploads/Buspadron_d3d3bafa33.jpg"

@@ -228,7 +228,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="/ciudadano/#estimulo-estudiantil"
+                      href="/ciudadano"
                       className="dropdown-item"
                       aria-current="page"
                     >
@@ -334,7 +334,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link  "
-                  href="https://drive.google.com/drive/folders/14etZu-TBRFRy94QX8zcLdpBuE0blzLia?usp=sharing"
+                  href="/participa"
                   target="_blank"
                   rel="noreferrer"
                   tabIndex="-1"

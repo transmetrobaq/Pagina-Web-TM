@@ -238,8 +238,10 @@ body {
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
   overflow: hidden;
   width: 90%;
-   border: 3px solid #002856;
+  border: 3px solid #002856;
 }
+
+
 
 .contianer__galeria h2 {
   text-align: center;

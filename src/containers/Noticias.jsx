@@ -236,6 +236,7 @@ const Noticias = () => {
             width: '90%',
             borderTop: 'none',
             marginBottom: '50px',
+            marginTop: '0px',
           }}
         >
           <div className="carousel-indicators">

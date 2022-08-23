@@ -338,21 +338,34 @@ const Transmetro = () => {
 
               <div className="card mb-3">
                 <div className="row g-0">
-                  <div className="col-md-3">
-                    <img
-                      src="https://apiwebtm.com/uploads/icosn_40_a4f85ba55c.png"
-                      className="img-fluid rounded-start  "
-                      style={{ width: '200px' }}
-                      alt="logo sistur"
-                    />
-                    <img
-                      src="https://apiwebtm.com/uploads/LOGO_Metrocaribe_2363c756b2.jpg"
-                      className="img-fluid rounded-start "
-                      alt="logo metrocaribe"
-                    />
+                  <div className="col-md-2">
+                    <center>
+                      <ul
+                        style={{
+                          listStyle: 'none',
+
+                          marginTop: '10px',
+                        }}
+                        id="sistur"
+                      >
+                        <li>
+                          <img
+                            src="https://apiwebtm.com/uploads/icosn_40_a4f85ba55c.png"
+                            className="img-fluid rounded-start  "
+                            alt="logo sistur"
+                          />
+                          <img
+                            src="https://apiwebtm.com/uploads/LOGO_Metrocaribe_2363c756b2.jpg"
+                            className="img-fluid rounded-start "
+                            style={{ width: '200px' }}
+                            alt="logo metrocaribe"
+                          />
+                        </li>
+                      </ul>
+                    </center>
                   </div>
 
-                  <div className="col-md-9">
+                  <div className="col-md-10">
                     <div className="card-body">
                       <p className="card-text">
                         El Ente Gestor mediante proceso de licitación

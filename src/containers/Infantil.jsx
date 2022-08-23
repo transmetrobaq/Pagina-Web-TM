@@ -11,7 +11,7 @@ const Infantil = () => (
         <img src="..." className="card-img-top" alt="niño leyendo" />
       </div> */}
 
-      <div className="card border-light">
+      <div className="card border-light" id="infantil">
         <div className="card-body">
           <h1 className="card-title text-center" style={{ color: '#002856' }}>
             SECCION INFANTIL

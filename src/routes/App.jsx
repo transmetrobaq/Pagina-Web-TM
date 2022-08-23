@@ -23,7 +23,7 @@ import Transparencia from '../containers/Transparencia';
 import Accesibilidad from '../containers/Accesibilidad';
 import Directorio from '../containers/Directorio';
 import Infantil from '../containers/Infantil';
-
+import Construccion from '../containers/Construccion';
 // eslint-disable-next-line arrow-body-style
 const App = () => {
   const initialState = useFetch();
@@ -88,6 +88,7 @@ const App = () => {
               component={Directorio}
             />
             <Route exact path="/infantil" component={Infantil} />
+            <Route exact path="/participa" component={Construccion} />
             <Route component={NotFound} />
           </Switch>
         </Layout>

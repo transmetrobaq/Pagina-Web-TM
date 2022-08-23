@@ -63,7 +63,7 @@
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.144);
   border: 3px solid #c00d0d;
   border-radius: 15px;
-  /* width: 70vw; */
+  width: 70vw;
   margin-top: 50px;
 }
 .tabs .tab {
@@ -94,14 +94,18 @@
   text-align: center;
   transition: all 0.35s;
 }
-.tabs .tab-content {
-  max-height: auto !important;
+.tabs .tab-content1 {
+  /* max-height: auto !important; */
   padding: 0 1em;
 
   background: white;
   transition: all 0.35s;
 }
+
 .tabs .tab-content-color:hover {
+  background-color: #ffdd00;
+}
+.tab-content-color:hover {
   background-color: #ffdd00;
 }
 .tabs .tab-close {
