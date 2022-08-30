@@ -49,14 +49,15 @@
 }
  */
 .transp h1 {
-  color: #e30613;
+  color: #002856;
   font-weight: bold;
   /* font-size: 60px; */
   margin-top: 50px;
 }
 
 .transp h2 {
-  color: #002856;
+  
+  color: #e30613;
   /* font-size: 40px; */
   margin-top: 10px;
 }

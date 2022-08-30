@@ -31,25 +31,44 @@ const Buscar = () => {
     }
   };
 
-  /*   const clearInput = () => {
+  const clearInput = () => {
     setFilteredData([]);
     setWordEntered('');
-  }; */
+  };
 
   return (
     <div className="search ">
       <form className="d-flex">
-        <input
+        {/* <input
           className="form-control me-2"
           type="search"
           placeholder="Buscar"
           value={wordEntered}
           onChange={handleFilter}
-        />
-        {/*  <i className="fa fa-search" aria-hidden="true" /> */}
-        <div className="btn btn-outline-success" type="submit">
-          <i className="fa fa-search" aria-hidden="true" />
+        /> */}
+        <div className="input-box">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Buscar"
+            value={wordEntered}
+            onChange={handleFilter}
+          />
+          {filteredData.length === 0 ? (
+            <i className="fa fa-search" aria-hidden="true" />
+          ) : (
+            <i
+              className="fa fa-close"
+              aria-hidden="true"
+              id="clearBtn"
+              onClick={clearInput}
+            />
+          )}
         </div>
+        {/*  <i className="fa fa-search" aria-hidden="true" /> */}
+        {/* <div className="btn btn-outline-success" type="submit">
+          <i className="fa fa-search" aria-hidden="true" />
+        </div> */}
         {/* <div className="searchIcon">
           {filteredData.length === 0 ? (
             <i className="fa fa-search" aria-hidden="true" />

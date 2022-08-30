@@ -9,7 +9,9 @@ const Transmetro = () => {
 
       <div className="container acerca__card">
         <div className="row">
-          <h1 id="acerca">Acerca de </h1>
+          <h1 className="text-center" id="acerca">
+            ACERCA DE
+          </h1>
           <div className="clearfix">
             <p>
               En agosto del año 2000, el Sistema de Transporte Masivo de
@@ -96,7 +98,7 @@ const Transmetro = () => {
       {/* Asamblea de Socios */}
       <div id="asamblea-socios" className="container asamblea">
         <div className="row">
-          <h2 className="text-center">Organigrama</h2>
+          <h1 className="text-center">ORGANIGRAMA</h1>
           <figure>
             <img
               src="https://apiwebtm.com/uploads/Asamblea_V2_30a7029fd8.png"
@@ -118,12 +120,16 @@ const Transmetro = () => {
         >
           <div className="row g-0">
             <div className="col-md-7">
-              <div className="card-body">
+              {/* <div className="card-body">
                 <h2 className="card-title text-center">
                   Objetivos Estratégicos
                 </h2>
-              </div>
+              </div> */}
+              <h1 style={{ color: '#002856', fontWeight: 'bold' }}>
+                OBJETIVOS ESTRATÉGICOS
+              </h1>
             </div>
+
             <div className="col-md-5">
               <img
                 src="https://apiwebtm.com/uploads/Obj_Estra_743c30512f.png"
@@ -134,7 +140,7 @@ const Transmetro = () => {
           </div>
         </div>
         {/* Objetivo 1 */}
-        <div
+        {/* <div
           className="card mb-3 mx-auto d-block card__obje-e1"
           style={{ maxWidth: '100%' }}
         >
@@ -153,9 +159,9 @@ const Transmetro = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Objetivo 2 */}
-        <div className="card mb-3 mx-auto d-block card__obje-e1">
+        {/* <div className="card mb-3 mx-auto d-block card__obje-e1">
           <div className="row g-0">
             <div className="col-md-4">
               <i className="fas fa-users fa-5x" />
@@ -181,10 +187,10 @@ const Transmetro = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Objetivos 3 y 4 */}
         {/* Objetivo 3 */}
-        <div
+        {/* <div
           className="card mb-3 mx-auto d-block card__Obje-e2"
           style={{ maxWidth: '100%' }}
         >
@@ -211,9 +217,9 @@ const Transmetro = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Objetivo 4 */}
-        <div className="card mb-3 mx-auto d-block card__Obje-e2">
+        {/*  <div className="card mb-3 mx-auto d-block card__Obje-e2">
           <div className="row g-0">
             <div className="col-md-4">
               <i className="far fa-id-badge fa-5x >" />
@@ -238,6 +244,102 @@ const Transmetro = () => {
               </div>
             </div>
           </div>
+        </div> */}
+      </div>
+
+      <div className="container d-flex align-items-center justify-content-center position-relative flex-wrap objeinfra">
+        <div
+          className="card d-flex position-relative flex-column"
+          style={{ border: '3px solid #002856' }}
+        >
+          <center className="imgContainer">
+            <i
+              className="far fa-chart-bar fa-10x "
+              style={{ color: '#004f9f' }}
+            />
+          </center>
+          <div className="content">
+            <ol>
+              <li>Optimizar el uso de los recursos disponibles.</li>
+              <li>
+                Gestionar para propender por la sostenibilidad financiera.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div
+          className="card d-flex position-relative flex-column"
+          style={{ border: '3px solid #e30613' }}
+        >
+          <center className="imgContainer">
+            <i className="fas fa-users fa-10x" style={{ color: '#e30613' }} />
+          </center>
+          <div className="content">
+            <ol>
+              <li>
+                Incrementar el nivel de satisfacción de usuarios y ciudadanos.
+              </li>
+              <li>Trabajar bajo el principio de la responsabilidad social.</li>
+              <li>
+                Gestionar una comunicación adecuada con nuestro público y
+                generar valor agregado.
+              </li>
+              <li>
+                Contribuir sustancialmente al mejoramiento en la movilidad.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div
+          className="card d-flex position-relative flex-column"
+          style={{ border: '3px solid #002856' }}
+        >
+          <center className="imgContainer">
+            <i className="fas fa-cogs fa-10x" style={{ color: '#004f9f' }} />
+          </center>
+          <div className="content">
+            <ol>
+              <li>
+                Optimizar los procesos internos de acuerdo a exigencias de MIPG.
+              </li>
+
+              <li>
+                Gestionar la integración del Transporte Masivo con el
+                complementario.
+              </li>
+              <li>Mejorar en los indicadores del Sistema.</li>
+              <li>Construir banco de proyectos.</li>
+              <li>Incrementar la demanda.</li>
+            </ol>
+          </div>
+        </div>
+        <div
+          className="card d-flex position-relative flex-column"
+          style={{ border: '3px solid #e30613' }}
+        >
+          <center className="imgContainer">
+            <i
+              className="far fa-id-badge fa-10x >"
+              style={{ color: '#e30613' }}
+            />
+          </center>
+          <div className="content">
+            <ol>
+              <li>
+                Fortalecer las competencias del talento humano y el ambiente
+                laboral.
+              </li>
+              <li>
+                Desarrollar una cultura organizacional de trabajo en equipo y
+                orientacion a los logros.
+              </li>
+              <li>
+                Proporcionar ambientes laborales seguros y armoniosos que
+                redunden en el mejoramiento de la calidad de vida de los
+                servidores públicos.
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
 
@@ -248,9 +350,9 @@ const Transmetro = () => {
       <div className="container">
         <div className="row">
           <div className="conformado">
-            <h2 className="text-center">
-              Qué es Transmetro y cómo está conformado
-            </h2>
+            <h1 className="text-center">
+              QUÉ ES TRANSMETRO Y CÓMO ESTÁ CONFORMADO
+            </h1>
 
             <div className="card  mb-3">
               <div className="card-body">

@@ -81,3 +81,30 @@
   #clearBtn {
     cursor: pointer;
   } */
+
+
+
+  .input-box{
+    position: relative;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 13px;
+    top:13px;
+    color:#ced4da;
+  
+  }
+  
+  .form-control{
+  
+    height: 40px;
+    background-color:#eeeeee69;
+  }
+  
+  .form-control:focus{
+    background-color: #eeeeee69;
+    box-shadow: none;
+    border-color: #eee;
+  }
+ 

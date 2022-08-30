@@ -331,7 +331,7 @@ const Navbar = () => {
                 </a>
               </li>
 
-              <li className="nav-item">
+              {/*   <li className="nav-item">
                 <a
                   className="nav-link  "
                   href="/participa"
@@ -342,7 +342,7 @@ const Navbar = () => {
                 >
                   Participa
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a
                   className="nav-link "

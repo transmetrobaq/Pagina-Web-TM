@@ -259,7 +259,7 @@ verde */
   /* text-align: justify; */
 }
 
-.conformado h2 {
+.conformado h1 {
   margin-bottom: 18px;
    font-weight: bold;
 }
@@ -472,7 +472,7 @@ a:hover i {
   color: #002856;
 }
 
-.asamblea h2 {
+.asamblea h1 {
   margin-top: 20px;
   margin-bottom: 60px;
   color: #002856;
@@ -556,4 +556,68 @@ a:hover i {
   .card__Encuesta {
     max-width: 300px !important;
   }
+}
+
+
+
+.objeinfra .card
+{
+    max-width: 300px;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+    
+    border-radius: 20px;
+    /* background: linear-gradient(60deg, #ffffff,#004f9f); */
+    /* background:#002856; */
+    
+}
+.objeinfra .card:hover
+{
+    height: 450px;
+}
+.objeinfra .card .imgContainer
+{
+    position: relative;
+    width:250px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    z-index: 1;
+   /*  box-shadow: 0 5px 20px rgba(0,0,0,0.2); */
+}
+.objeinfra .card .imgContainer i
+{
+    max-width: 100%;
+    border-radius: 4px;
+    
+}
+.objeinfra .card .content
+{
+    position: relative;
+    margin-top: -140px;
+    /* padding: 10px 15px; */
+    /* text-align: center; */
+    color:#004f9f;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+    
+    
+}
+.objeinfra .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+@media (max-width: 330px){
+    .objeinfra .card .imgContainer{
+        left: -2px;
+    }
 }
