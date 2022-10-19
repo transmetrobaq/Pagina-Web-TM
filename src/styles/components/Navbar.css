@@ -2,19 +2,16 @@
   background-color: #fff;
 }
 .navbar__card li {
-  color: #002856;
+  color: #004f9f;
  
-  font-weight: bold;
+ 
   
-
+margin-left: 0.625rem;
 }
 .navbar__card a {
-  color: #002856 !important;
+  color: #004f9f !important;
   text-decoration: none;
-  /* font-size: 1.1rem; */
-  font-size: 1rem;
- 
-  
+   
 }
 
 .navbar__card a:hover {
@@ -23,12 +20,13 @@
 
 
 .navbar__card img { 
-  width: 150px;
-  
-  margin-right: 10px;
+  max-width: 274px;
+  /* margin-left: 1.3vw; */
+    max-height: 73px;
+  /* margin-right: 10px; */
 }
 
-@media only screen and (width: 1024px) {
+/* @media only screen and (width: 1024px) {
   .navbar__card a {
     font-size: .6rem;
   }
@@ -37,7 +35,16 @@
   .navbar__card a {
     font-size: 1.8rem;
   }
-}
+} */
+/* css Rediseño */
 
+/* @media sreem */
+@media screen and (max-width: 992px) {
+  img {
+    width: 232px;
+    height: 61px;
+  }
+ 
+}
 
 

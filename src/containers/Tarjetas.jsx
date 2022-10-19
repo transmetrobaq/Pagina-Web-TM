@@ -4,9 +4,43 @@ import '../styles/components/Tarjetas.css';
 // eslint-disable-next-line arrow-body-style
 const Tarjetas = () => {
   return (
-    <div className="container tarjetas__tm" id="tarjetas">
-      <h1 className="text-center mx-auto">Tarjetas del Sistema</h1>
-      <div className="row row-cols-1 row-cols-md-2 g-4">
+    <>
+      <div className="container-xxl tarjetas__tm" id="tarjetas">
+        <div className="card mb-3 border border-0">
+          <div className="row g-0 justify-content-end ">
+            <div className="col-md-6">
+              <div className="card-body">
+                <h2 id="acerca">Tarjetas del Sistema</h2>
+              </div>
+            </div>
+            <div className="col-md-5" />
+          </div>
+        </div>
+
+        <div className="card mb-3 border border-0">
+          <div className="row g-0 justify-content-end ">
+            <div className="col-md-4">
+              <img
+                src="https://apiwebtm.com/uploads/Juegos_Pana_0ccfbf1562.svg"
+                className="card-img-top img-fluid"
+                alt="Tarjeta Transmetro"
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <div className="card-body">
+                <p
+                  className="card-text fs-5 fw-semibold"
+                  style={{ marginTop: '-20px' }}
+                >
+                  Tarjeta con fondo negro conmemorativa a los Juegos
+                  Panamericanos en Barranquilla 2027
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="card h-100">
             <img
@@ -345,7 +379,7 @@ const Tarjetas = () => {
         <div className="col">
           <div className="card h-100">
             <img
-              src="https://apiwebtm.com/uploads/Juegos_Panamericanos_en_Barranquilla_2027_3eefb2e37a.png"
+              src="https://apiwebtm.com/uploads/Juegos_Pana_0ccfbf1562.svg"
               className="card-img-top"
               alt="Tarjeta Transmetro"
             />
@@ -358,8 +392,31 @@ const Tarjetas = () => {
             </div>
           </div>
         </div>
+      </div> */}
       </div>
-    </div>
+      <div className="container">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          <div className="col cardMini">
+            <div className="card h-100 ">
+              <img
+                src="https://apiwebtm.com/uploads/Juegos_Pana_0ccfbf1562.svg"
+                className="card-img-top img-fluid"
+                alt="Tarjeta Transmetro"
+              />
+              <div className="card-body">
+                <p className="card-title fw-bold">
+                  Tarjeta con diseño artístico.
+                </p>
+                <p className="card-text">
+                  Tarjeta con fondo negro conmemorativa a los Juegos
+                  Panamericanos en Barranquilla 2027
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

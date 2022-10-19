@@ -86,11 +86,58 @@
 
   .input-box{
     position: relative;
+    
+    
+    
+  }
+
+
+
+  .search-click {
+    border: 1px solid #fff;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding-left: 35px;
+    transition: all 0.5s;
+  }
+  .search-click:focus {
+    width: 250px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+  }
+  .search-click {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+  }
+  .search-click input {
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 0%;
+    padding: 10px;
   }
   
+ /*  .input-box input::placeholder {
+    color: rgba(255,255,255,.5);
+   }
+
+   .input-box input:hover::placeholder {
+   color: rgba(17, 16, 16, 0.5);
+    
+  } */
+
+
   .input-box i {
     position: absolute;
-    right: 13px;
+    right: 16px;
     top:13px;
     color:#ced4da;
   
@@ -106,5 +153,6 @@
     background-color: #eeeeee69;
     box-shadow: none;
     border-color: #eee;
+    border: 1px solid #ccc;
   }
  

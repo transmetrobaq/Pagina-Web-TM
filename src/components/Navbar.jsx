@@ -3,7 +3,8 @@
 /* eslint-disable jsx-a11y/role-supports-aria-props */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Buscar from './Buscar';
+/* import Buscar from './Buscar'; */
+
 import '../styles/components/Navbar.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -12,12 +13,12 @@ const Navbar = () => {
     <>
       <nav
         id="navbar-Tm"
-        className=" container-fluid navbar__card navbar navbar-expand-lg navbar-light bg-light"
+        className=" container-fluid navbar__card navbar fixed-top navbar-expand-lg navbar-light bg-white"
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
-              src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
+              src="https://apiwebtm.com/uploads/logo_TM_018f113446.svg"
               alt="Logo Transmetro"
               className="img-fluid"
             />
@@ -354,7 +355,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <Buscar />
+            {/* <Buscar /> */}
             {/*  <form className="d-flex ">
               <input
                 className="form-control me-2"

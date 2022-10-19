@@ -22,30 +22,37 @@ const NoticiasDetails = () => {
   /* console.log(notic); */
   return (
     <div className=" container newsview" key={notic.id} id="noti">
-      <div className="cd">
-        <div className="newsviewtitlesection">
-          <div className="newsviewtitle">
-            <h1>{notic.title}</h1>
-          </div>
-          <div className="newsviewdetails">
-            <span style={{ flex: '1', color: 'rgb(99 98 98)' }}>
-              Fecha: <span>{notic.date}</span>
-            </span>
-          </div>
-          {/*  <div className="container" style={{ width: '70%' }}>
+      <div className="newsviewtitlesection">
+        <div className="text-center newsviewtitle ">
+          <h1>{notic.title}</h1>
+        </div>
+        <center className="newsviewdetails">
+          <span style={{ flex: '1', color: '#002856' }}>
+            Fecha: <span>{notic.date}</span>
+          </span>
+        </center>
+        {/* <div className="container" style={{ width: '500px' }}>
             <img
               className="card-img-top cd"
               src={`https://apiwebtm.com${notic.url}`}
               alt={notic.alt}
             />
           </div> */}
+        <div className="card mb-3 " style={{ border: 'none' }}>
+          <img
+            src={`https://apiwebtm.com${notic.url}`}
+            className="card-img-top img-fluid"
+            alt={notic.alt}
+          />
+          <div className="card-body">
+            <ReactMarkdown className="newsviewbody" escapeHtml={false}>
+              {notic.Content}
+            </ReactMarkdown>
+          </div>
         </div>
-
-        <ReactMarkdown className="newsviewbody" escapeHtml={false}>
-          {notic.Content}
-        </ReactMarkdown>
       </div>
-      <div className="backNoti">
+
+      <center className="backNoti">
         <a
           href="/noticias/#comunicados-prensa"
           role="button"
@@ -54,7 +61,7 @@ const NoticiasDetails = () => {
         >
           Ir a Noticias
         </a>
-      </div>
+      </center>
     </div>
   );
 };

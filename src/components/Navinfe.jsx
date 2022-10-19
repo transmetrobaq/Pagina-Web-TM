@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable arrow-body-style */
 import React from 'react';
+import '../styles/components/Navinfe.css';
 /* import { Link } from 'react-router-dom'; */
 
 const Navinfe = () => {
@@ -8,85 +9,85 @@ const Navinfe = () => {
     <>
       {/* Nav inferior / Moovit */}
 
-      <div className="container-xxl container__wave ">
+      <div className="container-fluid container__wave ">
         <div className="row ">
-          <div className="col-md-7 align-self-center ">
+          <div className="col-md-6 align-self-center ">
             <div className="wave__card-group ">
               <div className=" wrapper ">
-                <div className="card h-100 wave__card">
+                <div className="card wave__card">
                   <a
                     href="/sistema/rutas_troncales/#rutas-troncales"
                     role="button"
-                    className=""
+                    className="btn btn-link"
                     alt="ir a rutas alimentadoras"
                   >
-                    <img
-                      src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                      className="card-img-top"
-                      alt="Icono Transmetro"
-                    />
-                    <div className="card-body">
-                      <h6 className="card-title">Rutas Troncales</h6>
-                    </div>
+                    <picture>
+                      <img
+                        src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                        className="card-img-top "
+                        alt="Icono Transmetro"
+                      />
+                    </picture>
+                    <p className="card-title">Rutas Troncales</p>
                   </a>
                 </div>
-                <div className="card h-100 wave__card">
+                <div className="card wave__card">
                   <a
                     href="/sistema/rutas_alimentadoras/#rutas-alimentadoras"
                     role="button"
-                    className=""
+                    className="btn btn-link"
                     alt="ir a rutas alimentadoras"
                   >
-                    <img
-                      src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                      className="card-img-top"
-                      alt="Icono Transmetro"
-                    />
-                    <div className="card-body">
-                      <h6 className="card-title">Rutas Alimentadoras </h6>
-                    </div>
+                    <picture>
+                      <img
+                        src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                        className="card-img-top "
+                        alt="Icono Transmetro"
+                      />
+                    </picture>
+                    <p className="card-title">Rutas Alimentadoras </p>
                   </a>
                 </div>
-                <div className="card h-100 wave__card">
+                <div className="card wave__card">
                   <a
                     href="/sistema/transbordos/#transbordos"
                     role="button"
-                    className=""
-                    alt="ir a transbordos"
+                    className="btn btn-link"
+                    alt="ir a rutas alimentadoras"
                   >
-                    <img
-                      src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                      className="card-img-top"
-                      alt="Icono Transmetro"
-                    />
-                    <div className="card-body">
-                      <h6 className="card-title">Transbordos</h6>
-                    </div>
+                    <picture>
+                      <img
+                        src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                        className="card-img-top "
+                        alt="Icono Transmetro"
+                      />
+                    </picture>
+                    <p className="card-title">Transbordos</p>
                   </a>
                 </div>
 
-                <div className="card h-100 wave__card">
+                <div className="card wave__card">
                   <a
                     href="/infantil/#infantil"
                     role="button"
-                    className=""
-                    alt="ir a transbordos"
+                    className="btn btn-link"
+                    alt="ir a rutas alimentadoras"
                   >
-                    <img
-                      src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
-                      className="card-img-top"
-                      alt="Icono Transmetro"
-                    />
-                    <div className="card-body">
-                      <h6 className="card-title">Sección Infantil</h6>
-                    </div>
+                    <picture>
+                      <img
+                        src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                        className="card-img-top "
+                        alt="Icono Transmetro"
+                      />
+                    </picture>
+                    <p className="card-title">Sección Infantil</p>
                   </a>
                 </div>
               </div>
             </div>
           </div>
           {/* Moovit */}
-          <div className="col-md-5 align-self-center">
+          <div className="col-md-6 align-self-center">
             <div className="moovit__card">
               <div className="iframe-container responsive">
                 <div

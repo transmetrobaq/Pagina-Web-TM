@@ -12,6 +12,7 @@ const Header = () => {
   const [start] = useState(0);
   const [limit] = useState(3);
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
+
   /* const AP = `http://34.125.209.125/api/noticias`; */
   /* const AP = `http://34.125.92.175/api/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`; */
   /* console.log(AP); */
@@ -29,7 +30,70 @@ const Header = () => {
   }, [start, limit]);
 
   return (
-    <div
+    <>
+      <div
+        id="carouselInterval"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="10000">
+            <div className="mask" id="carouselInterval">
+              <div className="d-flex  align-items-center h-100">
+                <div className="text-white ">
+                  <Link to={`/noticias/${noti1.slug}`}>
+                    <h2 className="mb-3">{noti1.title}</h2>
+                  </Link>
+                  <div className="linea-coloresHeader" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <div className="mask" id="carouselInterval">
+              <div className="d-flex  align-items-center h-100">
+                <div className="text-white">
+                  <Link to={`/noticias/${noti2.slug}`}>
+                    <h2 className="mb-3">{noti2.title}</h2>
+                  </Link>
+                  <div className="linea-coloresHeader" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="mask" id="carouselInterval">
+              <div className="d-flex  align-items-center h-100">
+                <div className="text-white ">
+                  <Link to={`/noticias/${noti3.slug}`}>
+                    <h2 className="mb-3">{noti3.title}</h2>
+                  </Link>
+                  <div className="linea-coloresHeader" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselInterval"
+          data-bs-slide="prev"
+        >
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselInterval"
+          data-bs-slide="next"
+        >
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
+      {/* <div
       id="carouselExampleCaptions"
       className="carousel slide"
       data-bs-ride="carousel"
@@ -114,7 +178,8 @@ const Header = () => {
         <span className="carousel-control-next-icon" aria-hidden="true" />
         <span className="visually-hidden">Next</span>
       </button>
-    </div>
+    </div> */}
+    </>
   );
 };
 

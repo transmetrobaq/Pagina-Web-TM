@@ -112,6 +112,7 @@ verde */
   div.linea-colores {
     width: 300px;
     margin-top: 50px;
+    
   }
 }
 
@@ -120,23 +121,103 @@ verde */
 .acerca__card {
   color: #002856;
   margin-top: 50px;
-  /* text-align: justify; */
+ 
+ 
 }
 
-.acerca__card h1 {
+.acerca__card .card {
+  background-color: #F5F5F5;
+}
+.acerca__card h2 {
   margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+  
+}
+.acerca__card p {
+  padding-right: 30px;
+  font-style: oblique;
+}
+
+.acerca__card img {
+  height: 65vh;
+  width: 100vw;
+}
+
+#acerca_img {
+  background-image: url("https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  #acerca_img {
+    /* width: 50vw; */
+    height: 300px;
+    /* margin: 0 auto; */
+  }
+
+
+}
+
+/* Misión y Visión */
+.card__mision {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__mision .baseTab{
+ 
+  background-color: #F5F5F5;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  margin: 50px 0 20px 0;
+  /* padding: 20px 15px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ /*  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out; */
+  border-radius: 1px;
+ font-weight: bold;
+ color:#002856;
+ font-size: 30px;
+}
+
+.card__mision .baseTab:hover{
+  background-color: #002856 !important;
+  color: white !important;
+}
+
+
+
+.card__mision .activeTab{
+  background-color: #002856 !important;
+  color: white !important;
+  
+}
+
+.card__mision p{
+  color:#002856;
+}
+.card__mision span{
   font-weight: bold;
 }
 
-.acerca__card p {
-  text-align: justify;
-  /* font-size: 18px; */
-  color: #002856;
-  /* white-space: normal; */
+.card__mision #mision_img {
+  background-image: url("https://apiwebtm.com/uploads/Mision_9b60965b6a.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
 }
 
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
-  .acerca__card img {
+/*   .acerca__card img {
     margin: 0 auto;
     display: block;
     width: 70vw;
@@ -145,127 +226,173 @@ verde */
  
   .acerca__card {
     width: 80%;
+  } */
+}
+
+/* Asamblea */
+.asamblea {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #002856;
+}
+
+.asamblea h2 {
+  margin-top: 20px;
+  
+  color: #00519E;
+  font-weight: bold;
+}
+
+.asamblea img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Objetivos Estrategicos*/
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
-/* Objetivos Estrategicos*/
-.obje__Estra {
-  max-width: 90%;
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.obje__Estra .card {
+  background-color: #F5F5F5;
+  
+}
+
+.obje__Estra .baseTab{
+ 
+  background-color: #fff;
+  cursor: pointer;
+  width: 120px;
+  height: 100px;
+  margin: 0 5px 50px 0;
+  /* padding: 20px 15px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+ 
+}
+
+.obje__Estra .baseTab:hover{
+  background-color: #002856 !important;
+  color: white !important;
+}
+.obje__Estra .baseTab:hover i {
+  color: #fff !important;
+}
+
+
+.obje__Estra .activeTab{
+  background-color: #002856 !important;
+  color: white !important;
+  
+}
+.obje__Estra .activeTab i{
+ 
+  color: white !important;
+}
+
+
+.obje__Estra .lis-group li {
+  color: #002856;
+  font-size: 20px;
+  counter-increment: item;
+  display: block;
+  text-indent: -1.3rem;
+}
+
+/* ------------ */
+.obje__Estra .lis-group ol {
+  counter-reset: item;
+}
+
+.obje__Estra .lis-group li:before {
+ content: counter(item) ".";
+ font-weight: bold;
+ padding-right: .5rem; 
+ text-align: right;
 }
 .obje__Estra h2 {
- color: white;
- background-color: #e30613;
- width: 90%;
-  padding: 20px;
-  border-radius: 20px;
+  font-weight: bold;
+  color: #00519E;
+ margin-top: 50px;
+ 
 }
-/* Objetivo 1 y 2 */
-.card__obje-e1 {
-  border: 2px solid #e30613;
-  border-radius: 20px;
-  color:#e30613;
-  margin-top: 50px;
+#estra_img{
+ /*  background-image: url("https://apiwebtm.com/uploads/Obj_Estra_743c30512f.png"); */
+/*   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+  height: 400px;
+  margin-top: -50px;
+  align-items: left;
 }
-.card__obje-e1 .col-md-4 {
-  border-right: 2px solid #e30613;
-  border-radius: 0px 20px 20px 0px;
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  #estra_img{
+    margin-top: 0px;
+     display: none;
+     /* align-items: center;
+     justify-content: center;
+     height: 250px; */
+   }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color:#e30613
-}
-.card__obje-e1 i {
-  padding: 20px;
   
-  }
-.card__obje-e1 li {
-  float: left;
-  padding: 5px;
-  width: 200px;
-  margin: 10px;  
-  margin-left: 50px;
-  color: #e30613; 
 }
-.card__obje-e1 ol {
-   margin: 0 auto;
-}
-.card__obje-e1 ol:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
- }
-/* Objetivos 3 y 4 */
-.card__Obje-e2 {
-  border: 2px solid #004f9f;
-  border-radius: 20px;
-  color:#004f9f;
-  margin-top: 50px;
-}
-.card__Obje-e2 .col-md-4 {
-  border-right: 2px solid #004f9f;
-  border-radius: 0px 20px 20px 0px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color:#004f9f
-}
-.card__Obje-e2 i {
-  padding: 20px;
-  
-  }
-.card__Obje-e2 li {
-  float: left;
-  padding: 5px;
-  width: 200px;
-  margin: 10px;  
-  margin-left: 50px;
-  color: #004f9f; 
-}
-.card__Obje-e2 ol {
-   margin: 0 auto;
-}
-.card__Obje-e2 ol:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
- }
-
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .card__obje-e1 .col-md-4 {
-    border-bottom: 2px solid #e30613;
-    border-radius: 0px 0px 20px 20px;
-    border-right: none;
-  }
-
-  .card__Obje-e2 .col-md-4 {
-     border-bottom: 2px solid #004f9f;
-    border-radius: 0px 0px 20px 20px;
-    border-right: none;
-  }
-}
-
 
 /* que es transmetro */
 
 .conformado {
   color: #002856;
-  
-  /* text-align: justify; */
+  margin-top: 50px;
 }
 
-.conformado h1 {
-  margin-bottom: 18px;
-   font-weight: bold;
+.conformado h2 {
+  font-weight: bold;
+  color: #00519E;
 }
 
 .conformado p {
-  text-align: justify;
+  
   white-space: normal;
 }
 
@@ -284,11 +411,35 @@ verde */
 #sistur {
   padding: 0px;
    }
+
+#queTm_img{
+     background-image: url("https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     /* height: 350px; */
+     
+     
+       }
+
+.cardbox {
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0 5px 50px 0;
+  padding: 20px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 20px #707070;
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+  /* height: 300px; */
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   
-  .conformado img {
-  width: 40vw;
-    }
+  #organiTM {
+    display: none;
+  }
 
 }
 
@@ -296,6 +447,78 @@ verde */
 
 /* <!-- DATOS DE INFRAESTRUCTURA --> */
 
+.cont-infr h2 {
+
+  color: #00519E;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+.linea-colores-peque {
+  width: 35%;
+  height: 4px;
+  /* margin-top: 50px; */
+  
+  background-image: linear-gradient(
+    90deg,
+    #e30613 33%,
+    #ffdd00 33%,
+    #ffdd00 66.66%,
+    #00a13a 66.66%
+  );
+  /*espacio vertical */
+  /* margin-bottom: 15px; */
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+}
+
+.cont-infr img {
+  margin-bottom: 10px;
+ /*  width: 150px; */
+  
+}
+
+.cont-infr p {
+  color: #004f9f;
+}
+
+
+.cardbox_infra {
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0 50px 50px 0;
+  padding: 15px 15px  ;
+  width: 250px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 20px #707070;
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+  /* height: 300px; */
+  
+}
+.cardbox_infra img {
+  width: 150px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .linea-colores-peque {
+    width: 35%;
+    height: 2px;
+  }
+ 
+  .cardbox_infra {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .cont-infr h2 {
+    margin-bottom: 0px;
+    margin-top: -50px;
+  }
+ 
+}
+/* ----------------- */
 .color-tex-da-infra {
   color: #002856;
   margin-bottom: 50px;
@@ -311,7 +534,7 @@ verde */
 
 /* <!-- DATOS DE INFRSESTRUCTURA bloque 2 --> */
 
-.car__port {
+/* .car__port {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -353,60 +576,17 @@ verde */
     font-size: 20px;
   }
   .car__port-infra img {
-    width: 60px;
+    width: 0px;
   }
   .car__port-infra {
-    /* width: 70vw; */
+    width: 70vw; 
     margin: 0 auto;
   }
-}
+} */
 /* --------------------- */
 
 /*DATOS DE INFRAESTRUCTURA bloque 3 */
 
-.cont-infr {
-  margin-top: 120px;
-}
-
-.linea-colores-peque {
-  width: 35%;
-  height: 3px;
-  background-image: linear-gradient(
-    90deg,
-    #e30613 33%,
-    #ffdd00 33%,
-    #ffdd00 66.66%,
-    #00a13a 66.66%
-  );
-  /*espacio vertical */
-  margin-bottom: 15px;
-  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
-}
-
-.cont-infr img {
-  margin-bottom: 26px;
-  width: 100px;
-  
-}
-
-.cont-infr p {
-  color: #004f9f;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .linea-colores-peque {
-    width: 35%;
-    height: 2px;
-  }
-  .cont-infr {
-    margin-top: 40px;
-  }
-  .cont-infr img {
-    width: 20vw;
-    margin-bottom: 10px;
-  }
- 
-}
 
 /* hover */
 
@@ -465,24 +645,7 @@ a:hover i {
   margin-top: 12px;
 }
 
-/* Asamblea */
-.asamblea {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  color: #002856;
-}
 
-.asamblea h1 {
-  margin-top: 20px;
-  margin-bottom: 60px;
-  color: #002856;
-  font-weight: bold;
-}
-
-.asamblea img {
-  width: 100%;
-  height: auto;
-}
 
 /* -----Movilizados----------------- */
 /* Usuarios Movilizados */
@@ -559,65 +722,3 @@ a:hover i {
 }
 
 
-
-.objeinfra .card
-{
-    max-width: 300px;
-    height: 215px;
-    margin: 30px 10px;
-    padding: 20px 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    transition: 0.3s ease-in-out;
-    
-    border-radius: 20px;
-    /* background: linear-gradient(60deg, #ffffff,#004f9f); */
-    /* background:#002856; */
-    
-}
-.objeinfra .card:hover
-{
-    height: 450px;
-}
-.objeinfra .card .imgContainer
-{
-    position: relative;
-    width:250px;
-    height:250px;
-    top:-50px;
-    left:10px;
-    z-index: 1;
-   /*  box-shadow: 0 5px 20px rgba(0,0,0,0.2); */
-}
-.objeinfra .card .imgContainer i
-{
-    max-width: 100%;
-    border-radius: 4px;
-    
-}
-.objeinfra .card .content
-{
-    position: relative;
-    margin-top: -140px;
-    /* padding: 10px 15px; */
-    /* text-align: center; */
-    color:#004f9f;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    transition: 0.3s ease-in-out;
-    
-    
-}
-.objeinfra .card:hover .content
-{
-    visibility: visible;
-    opacity: 1;
-    margin-top: -40px;
-    transition-delay: 0.3s;
-}
-
-@media (max-width: 330px){
-    .objeinfra .card .imgContainer{
-        left: -2px;
-    }
-}

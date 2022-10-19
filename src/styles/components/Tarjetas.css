@@ -1,19 +1,50 @@
 .tarjetas__tm {
     margin-bottom: 100px;
+    background-color: #F5F5F5;
 }
-.tarjetas__tm h1 {
+.tarjetas__tm h2 {
 color: #002856;
 margin: 0 50px 25px 0;
+font-weight: bold;
 }
 
-.tarjetas__tm h5 {
-    color: #002856;
-    }
+.tarjetas__tm .card-body {
+ /* margin: 0 auto; */
+}
 
 .tarjetas__tm p {
-color: #002856;     
+color: #002856;   
+font-style: oblique; 
+ 
+
+ }
+.tarjetas__tm .card {
+    background-color: #F5F5F5;
  }
 
- .tarjetas__tm .card {
-    border: 2px solid #002856;
+.tarjetas__tm .card img {
+    border-radius: 20px;
+    margin-bottom: 50px;
+     }
+
+
+.cardMini {
+  margin-bottom: 50px;
+}
+.cardMini .card {
+ border-radius: 20px;
+ 
+ box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+ transition: 0.3s ease-in-out;
+
+ }
+.cardMini .card img {
+  border-radius: 20px;
+
+ }
+
+.cardMini .card p {
+  color: #002856;   
+  font-style: oblique; 
+ 
  }

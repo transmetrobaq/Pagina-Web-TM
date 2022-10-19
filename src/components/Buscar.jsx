@@ -49,7 +49,7 @@ const Buscar = () => {
         <div className="input-box">
           <input
             type="text"
-            className="form-control"
+            className="form-control search-click"
             placeholder="Buscar"
             value={wordEntered}
             onChange={handleFilter}
