@@ -48,16 +48,42 @@
   background-color: #ffdd00;
 }
  */
-.transp h1 {
-  color: #002856;
+ .transparencia {
+  margin-bottom: 50px;
+ }
+ .transparencia .accordion-item {
+  
+  border-color: #00519E;
+  
+  background-color: #fff;
+  border-radius: 5px;
+ }
+ .transparencia button {
+  color: #00519E;
   font-weight: bold;
-  /* font-size: 60px; */
-  margin-top: 50px;
+  
+}
+.transparencia a {
+  color: #00519E;
+  
 }
 
+
+
+ #transparencia {
+  margin-top: 50px;
+ }
 .transp h2 {
+  color: #00519E;
+  font-weight: bold;
+  /* font-size: 60px; */
+  
+}
+
+.transp h3 {
   
   color: #e30613;
   /* font-size: 40px; */
   margin-top: 10px;
+  margin-bottom: 40px;
 }

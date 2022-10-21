@@ -263,91 +263,34 @@ hr {
   /* max-width: 1100px; */
   margin: auto;
   margin-bottom: 50px;
+  margin-top: -20px;;
 }
-.title-cards {
-  width: 100%;
+.title-noti {
+  /* width: 100%;
   max-width: 1080px;
   margin: auto;
   padding: 20px;
-  margin-top: 20px;
-  text-align: center;
-}
-.title-cards h1 {
-  /* font-size: 50px; */
-  font-weight: bold;
-  color: #002856;
-}
-.cards {
-  width: 100%;
-  margin: 20px;
-  border-radius: 6px;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  transition: all 400ms ease-out;
-  cursor: default;
-}
-.cards:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
-}
-/* .cards img {
-  width: 100%;
-  height: 210px;
-} */
-.cards .contenido-card-noti {
-  padding: 15px;
-  text-align: center;
-}
-
-.cards .contenido-card-noti h5 {
-  margin-bottom: 15px;
-  color: #002856;
-}
-.cards .contenido-card-noti p {
-  line-height: 1.8;
-  color: #002856;
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-.cards .contenido-card-noti a {
-  display: inline-block;
-  padding: 10px;
-  margin-top: 10px;
-  text-decoration: none;
-  color: #e30613;
-  border: 1px solid #e30613;
-  border-radius: 30px;
-  transition: all 400ms ease;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-.cards .contenido-card-noti a:hover {
-  background: #e30613;
-  color: #fff;
-}.container__card-noti {
-  width: 100%;
+  margin-top: 20px; */
   display: flex;
-  /* max-width: 1100px; */
-  margin: auto;
-  margin-bottom: 50px;
+  
+
 }
-.title-cards {
-  width: 100%;
-  max-width: 1080px;
-  margin: auto;
-  padding: 20px;
-  margin-top: 20px;
-  text-align: center;
-}
-.title-cards h1 {
+.title-noti h2 {
   /* font-size: 50px; */
   font-weight: bold;
-  color: #002856;
+  color: #00519E;
+}
+.title-noti P {
+  /* font-size: 50px; */
+  font-weight: bold;
+  color: #00519E;
+  text-align: right;
+  padding-top:5px;
+  align-items: center;
 }
 .cards {
   width: 100%;
-  margin: 20px;
+  margin: 10px;
   border-radius: 6px;
   overflow: hidden;
   background: #fff;
@@ -365,7 +308,7 @@ hr {
 } */
 .cards .contenido-card-noti {
   padding: 15px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .cards .contenido-card-noti h5 {
@@ -375,25 +318,31 @@ hr {
 .cards .contenido-card-noti p {
   line-height: 1.8;
   color: #002856;
-  font-size: 14px;
+  /* font-size: 14px; */
   margin-bottom: 5px;
 }
 .cards .contenido-card-noti a {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   margin-top: 10px;
   text-decoration: none;
-  color: #e30613;
-  border: 1px solid #e30613;
+  color: #fff;
+  border: 1px solid #00a13a;
+  background-color: #00a13a;
   border-radius: 30px;
   transition: all 400ms ease;
   margin-bottom: 5px;
   font-weight: bold;
+  font-size: 14px;
+  width: 150px;
 }
 .cards .contenido-card-noti a:hover {
   background: #e30613;
+  border: 1px solid #e30613;
   color: #fff;
 }
+
+
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .container__card-noti {
     flex-wrap: wrap;
@@ -542,4 +491,351 @@ hr {
   width: 80% !important;
 
 }
+}
+
+/* infra css */
+
+.mapa_troncal {
+  margin-top: 0px;
+  background-color: #F5F5F5;
+  /* height: 300px; */
+}
+
+.mapa_troncal .card {
+  background-color: #F5F5F5;
+}
+.mapa_troncal h2 {
+  font-weight: bold;
+  color: #00519E;
+  margin-top: 50px;
+}
+
+.mapa_troncal-linea {
+  width: 100px;
+  height: 5px;
+  background-image: linear-gradient(90deg, #e30613, #ffdd00, #ffdd00, #00a13a);
+  margin-bottom: 10px;
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+}
+
+
+.mapa_troncal-gmap{
+  margin-top: 20px;
+  
+  background: linear-gradient(to bottom, #F5F5F5 0%, #F5F5F5 50%, white 50%, white 100% );
+}
+
+
+/* Estaciones */
+/* Troncal Murillo */
+.estaciones h2{
+  font-weight: bold;
+  color: #00519E;
+  margin-top: 50px;
+}
+
+.estaciones p {
+  color: #002856;
+  
+}
+.estaciones a {
+  
+  text-decoration: none;
+  color:#002856;
+  /* font-weight: 600; */
+  
+}
+.estaciones a span{ 
+  color:#00a13a;
+}
+.estaciones li {
+  color:#002856;
+  font-weight: 600;
+  /* padding-bottom: 10px; */
+  line-height: 2;
+}
+.card_personalizacion {
+    border-radius: 10px;
+}
+.card_personalizacion .card-body {
+  background-color: #00519E;
+  border-radius: 0 0 10px 10px ;
+}
+
+.card_personalizacion p {
+  color: #fff
+}
+
+.card_personalizacion img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card_personalizacion a {
+  /* background-color: ;
+  color: #fff;
+  border-radius: 10px; */
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #00a13a;
+  background-color: #00a13a;
+  border-radius: 30px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 200px;
+}
+
+
+.card_personalizacion a:hover {
+  background: #e30613;
+  border: 1px solid #e30613;
+  color: #fff;
+}
+
+.card_personalizacion .linea-colores-perso {
+  width: 35%;
+  height: 4px;
+  margin-top: -5px;
+  
+  background-image: linear-gradient(
+    90deg,
+    #e30613 33%,
+    #ffdd00 33%,
+    #ffdd00 66.66%,
+    #00a13a 66.66%
+  );
+  /*espacio vertical */
+  /* margin-bottom: 15px; */
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+}
+
+/* icon Troncal Murillo */
+.icon_troncal {
+  width: 150px;
+  height: 250px;
+  background-color: #e30613;
+  border-radius: 10px;
+}
+
+.icon_troncal p {
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.icon_troncal img {
+  width: 120px;
+}
+/* Troncal olaya */
+
+/* Troncal Olaya */
+.estaciones_olaya h2{
+  font-weight: bold;
+  color: #00519E;
+  margin-top: 50px;
+}
+
+.estaciones_olaya p {
+  color: #002856;
+  
+}
+.estaciones_olaya a {
+  
+  text-decoration: none;
+  color:#002856;
+  /* font-weight: 600; */
+  
+}
+.estaciones_olaya a span{ 
+  color:#e30613;
+}
+.estaciones_olaya li {
+  color:#002856;
+  font-weight: 600;
+  /* padding-bottom: 10px; */
+  line-height: 2;
+}
+.card_pqrs-olaya {
+    border-radius: 10px;
+    background-color: #fff;
+    border-color: #fff;
+}
+.card_pqrs-olaya .card-body {
+  background-color: #fff;
+  border-radius: 0 0 10px 10px ;
+}
+
+.card_pqrs-olaya p {
+  color: #fff
+}
+
+.card_pqrs-olaya img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card_pqrs-olaya a {
+  display: block;
+  padding: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #e30613;
+  background-color: #e30613;
+  border-radius: 30px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 250px;
+  margin:  auto;
+
+}
+
+
+.card_pqrs-olaya a:hover {
+  background: #00a13a;
+  border: 1px solid #00a13a;
+  color: #fff;
+}
+
+/* icon Troncal olaya */
+.icon_troncal-olaya {
+  width: 150px;
+  height: 250px;
+  background-color: #00a13a;
+  border-radius: 10px;
+}
+
+.icon_troncal-olaya p {
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.icon_troncal-olaya img {
+  width: 120px;
+}
+
+/* Rutas alimentadoras */
+.rutas_alimentadoras {
+  background-color: #F5F5F5;
+  margin-top: 50px;
+}
+
+.rutas_alimentadoras p {
+  color: #002856;
+  
+}
+.rutas_alimentadoras a {
+  
+  text-decoration: none;
+  color:#002856;
+  /* font-weight: 600; */
+  
+}
+
+.rutas_alimentadoras li {
+  color:#002856;
+  font-weight: 600;
+  /* padding-bottom: 10px; */
+  line-height: 2;
+  list-style: none;
+}
+
+.rutas_alimentadoras a span  {
+  color:#002856;
+  font-weight: 700;
+  /* padding-bottom: 10px; */
+  
+  
+}
+/* icon Troncal Olaya */
+.rutas_alimentadoras .icon_alimentadoras {
+  width: 200px;
+  height: 250px;
+  background-color: #ffdd00;
+  border-radius: 10px;
+}
+
+.rutas_alimentadoras .icon_alimentadoras p {
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.rutas_alimentadoras .icon_alimentadoras img {
+  width: 120px;
+}
+
+/* Rutas alimentadoras */
+.alimentadora__card {
+  color: #002856;
+  margin-top: 50px;
+ 
+ 
+}
+
+.alimentadora__card .col-md-6 {
+  /* background-color: #F5F5F5; */
+  background: linear-gradient(to top, #F5F5F5 0%, #F5F5F5 82.5%, white 50%, white 100% );
+}
+.alimentadora__card h2 {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+  margin-top: 170px; 
+}
+.alimentadora__card p {
+  padding-right: 30px;
+  margin-left: 50px;
+}
+
+.alimentadora__card img {
+  height: 70vh;
+  width: 100vw;
+}
+
+.alimentadora__card .linea-colores-ali {
+  width: 35%;
+  height: 4px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  background-image: linear-gradient(
+    90deg,
+    #e30613 33%,
+    #ffdd00 33%,
+    #ffdd00 66.66%,
+    #00a13a 66.66%
+  );
+  /*espacio vertical */
+  /* margin-bottom: 15px; */
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+}
+
+
+
+
+
+/* #alimentadora_img {
+  background-image: url("https://apiwebtm.com/uploads/img_rutas_alimentadoras_c8fa5f7de0.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  #acerca_img {
+    /* width: 50vw; */
+    height: 300px;
+    /* margin: 0 auto; */
+  }
+
+
 }

@@ -37,7 +37,7 @@ const Transmetro = () => {
               <div className="col-md-6">
                 <div className="card-body">
                   <p
-                    className="card-text fs-5 fw-semibold"
+                    className="card-text  fw-semibold"
                     style={{ marginTop: '-20px' }}
                   >
                     En agosto del año 2000, el Sistema de Transporte Masivo de
@@ -48,7 +48,7 @@ const Transmetro = () => {
                     y el proyecto Transmilenio, en ese entonces en construcción
                     en la ciudad de Bogotá D.C.
                   </p>
-                  <p className="card-text fw-bold fs-5">
+                  <p className="card-text fw-bold ">
                     Este trabajo fue desarrollado por Planeación Distrital,
                     Tránsito Distrital, Dadima, Edubar, Ministerio de Ambiente,
                     Universidad del Norte, liderado y coordinado además por la

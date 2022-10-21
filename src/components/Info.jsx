@@ -50,57 +50,70 @@ const Info = () => {
       {/* Noticias */}
 
       {/* Bloque Noticias Home */}
-      <div className="container">
-        <div className="title-cards">
-          <Link
-            to="/noticias"
-            alt="Ver Noticias"
-            style={{ textDecoration: 'none' }}
-          >
-            <h1>NOTICIAS</h1>
-          </Link>
-        </div>
-        <div className="container__card-noti">
-          {noti.map((notis) => (
-            <div className="cards" key={notis.id}>
-              <figure>
-                <img
-                  src={`https://apiwebtm.com${notis.url}`}
-                  alt={notis.alt}
-                  className="card-img-top"
-                />
-                <div className="linea-colores1" />
-              </figure>
-
-              <div className="contenido-card-noti">
-                <small className="text-muted">Fecha: {notis.date}</small>
-                <h5>{notis.title}</h5>
-                {/* <p>{noti.content}</p> */}
-                <a
-                  href={`/noticias/${notis.slug}/#noti`}
-                  role="button"
-                  className="btn btn-outline-primary"
-                  alt="Ver Noticia"
-                >
-                  Ver Noticia
-                </a>
+      <div className="container-xxl">
+        <div className="card mb-3 border border-0 title-noti">
+          <div className="row g-0 justify-content-end ">
+            <div className="col-md-10">
+              <div className="card-body">
+                <div className="title-noti justify-content-between">
+                  <h2>Noticias</h2>{' '}
+                  <Link
+                    to="/noticias"
+                    alt="Ver Noticias"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <p>
+                      Ver todas las noticias{' '}
+                      <i className="fa-solid fa-arrow-right" />
+                    </p>
+                  </Link>
+                </div>
               </div>
             </div>
-          ))}
-
-          {/* <!--FIN DE INFO BLOQUE 3---> */}
+            <div className="col-md-1" />
+          </div>
         </div>
-        <center>
-          <a
-            href="/noticias/#comunicados-prensa"
-            role="button"
-            className="btn btn-primary"
-            style={{ marginBottom: '50px' }}
-            alt="Ver Noticia"
-          >
-            Ver más noticia...
-          </a>
-        </center>
+        <div className="card mb-3 border border-0">
+          <div className="row g-0 justify-content-end ">
+            <div className="col-md-10">
+              <div className="card-body ">
+                <div className="container__card-noti ">
+                  {noti.map((notis) => (
+                    <div className="card cards h-100" key={notis.id}>
+                      <figure>
+                        <img
+                          src={`https://apiwebtm.com${notis.url}`}
+                          alt={notis.alt}
+                          className="card-img-top img-fluid"
+                        />
+                        <div className="linea-colores1" />
+                      </figure>
+
+                      <div className="contenido-card-noti">
+                        <small className="text-muted">
+                          Fecha: {notis.date}
+                        </small>
+                        <h5>{notis.title}</h5>
+                        {/* <p>{noti.content}</p> */}
+                        <a
+                          href={`/noticias/${notis.slug}/#noti`}
+                          role="button"
+                          className="btn btn-outline-primary"
+                          alt="Ver Noticia"
+                        >
+                          Ver noticia
+                        </a>
+                      </div>
+                    </div>
+                  ))}
+
+                  {/* <!--FIN DE INFO BLOQUE 3---> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-md-1" />
+          </div>
+        </div>
       </div>
 
       {/* Movilizados */}

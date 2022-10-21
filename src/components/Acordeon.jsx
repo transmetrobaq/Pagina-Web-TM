@@ -3,7 +3,7 @@ import React from 'react';
 // eslint-disable-next-line arrow-body-style
 const Acordeon = () => {
   return (
-    <div className=" container " style={{ maxWidth: '720px' }}>
+    <div className=" container transparencia" style={{ maxWidth: '720px' }}>
       <div className="accordion" id="accordionPanelsStayOpenExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="panelsStayOpen-headingOne">
@@ -12,7 +12,7 @@ const Acordeon = () => {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseOne"
-              aria-expanded="true"
+              aria-expanded="false"
               aria-controls="panelsStayOpen-collapseOne"
             >
               1. Información de la entidad
@@ -47,7 +47,7 @@ const Acordeon = () => {
                 >
                   <div className="accordion-body">
                     <div className="list-group">
-                      <a
+                      {/*  <a
                         href="https://apiwebtm.com/uploads/Funciones_y_Deberes_TM_S_A_S_4d82095412.pdf"
                         className="list-group-item list-group-item-action"
                         aria-current="true"
@@ -55,16 +55,13 @@ const Acordeon = () => {
                         rel="noreferrer"
                       >
                         1.1.1 Misión y visión
-                      </a>
+                      </a> */}
                       <a
-                        href="/"
+                        href="https://apiwebtm.com/uploads/Funciones_y_Deberes_TM_S_A_S_4d82095412.pdf"
                         className="list-group-item list-group-item-action"
-                      >
-                        1.1.2 Funciones y deberes
-                      </a>
-                      <a
-                        href="/"
-                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         1.1.2 Funciones y deberes
                       </a>
@@ -356,7 +353,7 @@ const Acordeon = () => {
                     <div className="accordion-body">
                       <div className="list-group">
                         <a
-                          href="/"
+                          href="https://www.suin-juriscol.gov.co/"
                           className="list-group-item list-group-item-action "
                         >
                           2.2.1 Sistema Único de Información Normativa
@@ -537,20 +534,14 @@ const Acordeon = () => {
                     aria-labelledby="panelsStayOpen-headingThreeTwo"
                   >
                     <div className="accordion-body">
-                      {/*  <div className="list-group">
+                      <div className="list-group">
                         <a
-                          href="/"
+                          href="https://www.colombiacompra.gov.co/"
                           className="list-group-item list-group-item-action "
                         >
-                          2.2.1 Sistema Único de Información Normativa
+                          SECOP
                         </a>
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action"
-                        >
-                          2.2.2 Sistema de búsquedas de normas
-                        </a>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -675,6 +666,7 @@ const Acordeon = () => {
             </div>
           </div>
         </div>
+        {/* 4. Planeación */}
         <div className="accordion-item">
           <h2 className="accordion-header" id="panelsStayOpen-headingFour">
             <button
@@ -737,14 +729,6 @@ const Acordeon = () => {
                             >
                               Estados financieros
                             </a>{' '}
-                            <a
-                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2015_b4413c74d2.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Ejecución Presupuestal
-                            </a>
                           </div>
                         </li>
                         <li className="list-group-item list-group-item-action ">
@@ -766,14 +750,6 @@ const Acordeon = () => {
                             >
                               Estados financieros
                             </a>{' '}
-                            <a
-                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2016_d02d8bd0f3.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Ejecución Presupuestal
-                            </a>
                           </div>
                         </li>
                         <li className="list-group-item list-group-item-action ">
@@ -795,14 +771,6 @@ const Acordeon = () => {
                             >
                               Estados financieros
                             </a>{' '}
-                            <a
-                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2017_abe61f2a9d.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Ejecución Presupuestal
-                            </a>
                           </div>
                         </li>
                         <li className="list-group-item list-group-item-action ">
@@ -824,14 +792,6 @@ const Acordeon = () => {
                             >
                               Estados financieros
                             </a>{' '}
-                            <a
-                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2018_3acbe6490e.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Ejecución Presupuestal
-                            </a>
                           </div>
                         </li>
                         <li className="list-group-item list-group-item-action ">
@@ -853,14 +813,6 @@ const Acordeon = () => {
                             >
                               Estados financieros
                             </a>{' '}
-                            <a
-                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2019_29729d3165.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Ejecución Presupuestal
-                            </a>
                           </div>
                         </li>
                         <li className="list-group-item list-group-item-action ">
@@ -874,21 +826,47 @@ const Acordeon = () => {
                             >
                               Presupuesto
                             </a>
-                            {/* <a
-                              href="https://apiwebtm.com/uploads/Estados_Financieros_2019_2018_Dictaminados_9ca84f44b9.pdf"
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2021
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ppto_vigencia_2021_5174ee205d.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Presupuesto
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Estado_Financiero_2021_658497eaa2.7z"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
                             >
                               Estados financieros
-                            </a>{' '}
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2022
+                          <div className="list-group">
                             <a
-                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2019_29729d3165.pdf"
+                              href="https://apiwebtm.com/uploads/Ppto_vigencia_2022_b1eaf21bfe.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
                             >
-                              Ejecución Presupuestal
+                              Presupuesto
+                            </a>
+                            {/*    <a
+                              href="https://apiwebtm.com/uploads/Estado_Financiero_2021_658497eaa2.7z"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Estados financieros
                             </a> */}
                           </div>
                         </li>
@@ -928,20 +906,120 @@ const Acordeon = () => {
                     aria-labelledby="panelsStayOpen-headingFourTwo"
                   >
                     <div className="accordion-body">
-                      {/*  <div className="list-group">
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action "
-                        >
-                          2.2.1 Sistema Único de Información Normativa
-                        </a>
-                        <a
-                          href="/"
+                      <div className="list-group">
+                        <li className="list-group-item list-group-item-action ">
+                          2015
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2015_b4413c74d2.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Ejecución Presupuestal
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2016
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2016_d02d8bd0f3.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Ejecución Presupuestal
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2017
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2017_abe61f2a9d.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Ejecución Presupuestal
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2018
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2018_3acbe6490e.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Ejecución Presupuestal
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2019
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2019_29729d3165.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Ejecución Presupuestal
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2020
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejec_Presupuestal_Diciembre_31_2019_29729d3165.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Ejecución Presupuestal
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2021
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejec_Pptal_corte_Diciembre_2021_63f8b98457.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Ejecución Presupuestal
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2022
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejec_Pptal_corte_Junio_2022_5290ab6d6c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Ejecución Presupuestal
+                            </a>
+                          </div>
+                        </li>
+                        {/* <a
+                          href="https://apiwebtm.com/uploads/PAA_Y_MOD_PAA_2021_3ca1e7e657.pdf"
                           className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
                         >
-                          2.2.2 Sistema de búsquedas de normas
-                        </a>
-                      </div> */}
+                          2021
+                        </a> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -961,28 +1039,821 @@ const Acordeon = () => {
                       4.3 Plan de Acción
                     </button>
                   </h2>
-                  {/*  <div
-                    id="panelsStayOpen-collapseTwoThree"
+                  <div
+                    id="panelsStayOpen-collapseFourThree"
                     className="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingTwoThree"
+                    aria-labelledby="panelsStayOpen-headingFourThree"
                   >
                     <div className="accordion-body">
-                      <div className="list-group">
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action "
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeOne"
                         >
-                          2.3.1 Comentarios y documento de respuesta
-                        </a>
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action"
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeOne"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeOne"
+                          >
+                            Plan Estratégico de Gestión de TI (PETI)
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeOne"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeOne"
                         >
-                          2.3.2 Participación ciudadana
-                        </a>
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/PETI_TM_2019_eba000134b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PETI_TM_V2_2020_0db4b7ded7.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PETI_TM_2021_3f6c5adc66.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PETI_TM_V3_c815e527a7.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeTwo"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeTwo"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeTwo"
+                          >
+                            Plan de Tratamiento de Riesgos de Seguridad y
+                            Privacidad de la Información
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeTwo"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeTwo"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Tratamiento_de_riesgos_de_seguridad_y_privacidad_de_la_informacion_2019_eef50969cd.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Tratamiento_de_riesgos_de_seguridad_y_privacidad_de_la_informacion_2020_98abb6812c.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Tratamiento_de_riesgos_de_seguridad_y_privacidad_de_la_informacion_TM_2021_d75ae051cf.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Tratamiento_de_riesgos_de_seguridad_y_privacidad_de_la_informacion_TM_2022_396431b4fe.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeThree"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeThree"
+                          >
+                            Plan de Seguridad y Privacidad de la Información
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeThree"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeThree"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Seguridad_y_Privacidad_de_la_Informacion_57d0d16c4f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Seguridad_y_Privacidad_de_la_Informacion_2020_d52f4a334e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Seguridad_y_Privacidad_de_la_Informacion_2021_d490004a48.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Seguridad_y_Privacidad_de_la_Informacion_2022_812356b358.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeFour"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeFour"
+                          >
+                            Plan Anticorrupción y de Atención al Ciudadano
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeFour"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeFour"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Anticorrupcion_2019_51b41126c7.7z"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Anticorrupcion_2020_c3219a628f.7z"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Anticorrupcion_2021_674c09de45.7z"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Plan de Accion */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeFive"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeFive"
+                          >
+                            Plan de Acción
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeFive"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeFive"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/EVALUACION_PLAN_DE_ACCION_2014_TRANSMETRO_S_A_S_b5a9da6a41.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2014
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_accion_2015_5434533149.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2015
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_accion_Transmetro_2017_bc01dc64c1.XLS"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2017
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/2019_ae36fd9baa.7z"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/2020_a4d2e0dd88.7z"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/2021_74156714ba.7z"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_accion_compilado_2022_44a12831a1.xls"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Plan estrategico talento humano */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeSix"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeSix"
+                          >
+                            Plan estratégico de talento humano
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeSix"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeSix"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_ESTRATRATEGICO_DE_TALENTO_HUMANO_2019_d45112595e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Estrategico_Talento_Humano_2020_5b3c6537cb.zip"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_ESTRATEGICO_DE_TALENTO_HUMANO_2021_f25e42d1e2.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_ESTRATEGICO_DE_TALENTO_HUMANO_2022_1_31c86e8820.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Plan de seguridad y salud en el trabajo */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeSeven"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeSeven"
+                          >
+                            Plan de seguridad y salud en el trabajo
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeSeven"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeSeven"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_TRABAJO_SGSST_2019_7c39a8fdb0.xlsx"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_SGSST_2020_ae2c19b402.zip"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO_2021_TRANSMETRO_0cba4dcb1d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO_2022_TRANSMETRO_V4_1_bea677cb5b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Plan institucional de capacitación  */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeEigth"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeEigth"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeEigth"
+                          >
+                            Plan institucional de capacitación
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeEigth"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeEigth"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_2016_139fe065f7.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2016
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_2017_398432ac8f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2017
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_2018_3e28089613.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2018
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_2019_ceb13beda0.doc"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_2020_6eccefd266.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_Plan_Institucional_de_Capacitacion_2021_8a74c1e35c.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_Plan_Institucional_de_Capacitacion_2022_1_dd4a7cd852.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/*  Plan de bienestar laboral, social y de incentivos */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeNine"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeNine"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeNine"
+                          >
+                            Plan de bienestar laboral, social y de incentivos
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeNine"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeNine"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Bienestar_Social_y_De_Incentivos_2015_2016_713f4848bd.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2015 - 2016
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Bienestar_Laboral_Social_y_de_Incentivos_2017_479316a0fb.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2017
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Bienestar_Laboral_Social_y_de_Incentivos_2018_33d0f02cda.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2018
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Bienestar_Laboral_Social_y_de_Incentivos_2019_6a2be0a5b7.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/plan_institucional_de_bienestar_social_y_de_Incentivos_2020_8b5b4328c7.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Bienestar_Laboral_Social_y_de_Incentivos_2021_98424ab2ed.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_Plan_Institucional_de_Capacitacion_2022_1_2442c07bc0.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Programa de gestión doumental */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeTen"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeTen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeTen"
+                          >
+                            Programa de gestión doumental
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeTen"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeTen"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Programa_de_Gestion_Documental_0787f86fdf.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Programa de gestión doumental
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Tablas de retención doumental */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeEleven"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeEleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeEleven"
+                          >
+                            Tablas de retención documental
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeEleven"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeEleven"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Tablas_de_Retencion_Documental_Transmetro_SAS_2021_8f64676cc8.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/TABLAS_DE_RETENCION_TRANSMETRO_SAS_2022_b1f3ef5950.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Cuadro de clasificación documental */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeTwelve"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeTwelve"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeTwelve"
+                          >
+                            Cuadro de clasificación documental
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeTwelve"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeTwelve"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/CUADRO_DE_CLASIFICACION_DOCUMENTAL_TRANSMETRO_S_A_S_1_2b319c4ec3.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Cuadro de clasificación documental
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Plan institucional de archivos - PINAR */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeThirteen"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeThirteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeThirteen"
+                          >
+                            Plan institucional de archivos - PINAR
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeThirteen"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeThirteen"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Institucional_de_Archivos_PINAR_2020_5d8a9606a3.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Institucional_de_Archivos_PINAR_2021_34cbe32ec3.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Pinar_2022_1_compressed_2ffe5c77fa.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/*  */}
+
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreeFourteen"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreeFourteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreeFourteen"
+                          >
+                            Sistema integrado de conservacion
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreeFourteen"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreeFourteen"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/SISTEMA_INTEGRADO_DE_CONSERVACION_TRANSMETRO_1_40c02fcdca.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Sistema integrado de conservación
+                              </a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
                 <div className="accordion-item">
                   <h2
@@ -1066,7 +1937,289 @@ const Acordeon = () => {
             </div>
           </div>
         </div>
-
+        {/* 5. Tramites */}
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="panelsStayOpen-headingFive">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive"
+            >
+              5. Trámites
+            </button>
+          </h2>
+          {/* <div
+            id="panelsStayOpen-collapseEigth"
+            className="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingEigth"
+          >
+            <div className="accordion-body">
+              <div className="accordion-item">
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenOne"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenOne"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenOne"
+                    >
+                      7.1 Instrumentos de gestión de la información
+                    </button>
+                  </h2>
+                </div>
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenTwo"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenTwo"
+                    >
+                      7.2 Sección de Datos Abiertos
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseSevenTwo"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSevenTwo"
+                  >
+                    <div className="accordion-body">
+                      <div className="list-group">
+                        <a
+                          href="https://datos.gov.co/"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Link Datos abiertos (datos.gov.co)
+                        </a>
+                        <li className="list-group-item list-group-item-action ">
+                          2022
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre01_2022_b2f70343a1.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre I
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre02_2022_1a9b31c43f.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre II
+                            </a>{' '}
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre03_2022_ebf5f58f57.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre III
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Paraderos_SITM_TM_aea4b7d958.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) de paraderos del
+                              sistema
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Rutas_SITM_TM_c9c6c247da.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) del sistema de
+                              rutas de Transmetro
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Puntos_de_recarga_SITM_9c0b73e7cc.rar"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) de puntos de
+                              recarga activos
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/tablasretencion_2022_297276b3e3.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Tablas de retención documental
+                            </a>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+        </div>
+        {/* 6. Participa */}
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="panelsStayOpen-headingFive">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive"
+            >
+              6. Participa
+            </button>
+          </h2>
+          {/* <div
+            id="panelsStayOpen-collapseEigth"
+            className="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingEigth"
+          >
+            <div className="accordion-body">
+              <div className="accordion-item">
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenOne"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenOne"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenOne"
+                    >
+                      7.1 Instrumentos de gestión de la información
+                    </button>
+                  </h2>
+                </div>
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenTwo"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenTwo"
+                    >
+                      7.2 Sección de Datos Abiertos
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseSevenTwo"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSevenTwo"
+                  >
+                    <div className="accordion-body">
+                      <div className="list-group">
+                        <a
+                          href="https://datos.gov.co/"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Link Datos abiertos (datos.gov.co)
+                        </a>
+                        <li className="list-group-item list-group-item-action ">
+                          2022
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre01_2022_b2f70343a1.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre I
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre02_2022_1a9b31c43f.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre II
+                            </a>{' '}
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre03_2022_ebf5f58f57.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre III
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Paraderos_SITM_TM_aea4b7d958.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) de paraderos del
+                              sistema
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Rutas_SITM_TM_c9c6c247da.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) del sistema de
+                              rutas de Transmetro
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Puntos_de_recarga_SITM_9c0b73e7cc.rar"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) de puntos de
+                              recarga activos
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/tablasretencion_2022_297276b3e3.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Tablas de retención documental
+                            </a>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+        </div>
+        {/* 7. Datos Abiertos */}
         <div className="accordion-item">
           <h2 className="accordion-header" id="panelsStayOpen-headingSeven">
             <button
@@ -1100,16 +2253,41 @@ const Acordeon = () => {
                       aria-expanded="false"
                       aria-controls="panelsStayOpen-collapseSevenOne"
                     >
+                      7.1 Instrumentos de gestión de la información
+                    </button>
+                  </h2>
+                </div>
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenTwo"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenTwo"
+                    >
                       7.2 Sección de Datos Abiertos
                     </button>
                   </h2>
                   <div
-                    id="panelsStayOpen-collapseSevenOne"
+                    id="panelsStayOpen-collapseSevenTwo"
                     className="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingSevenOne"
+                    aria-labelledby="panelsStayOpen-headingSevenTwo"
                   >
                     <div className="accordion-body">
                       <div className="list-group">
+                        <a
+                          href="https://datos.gov.co/"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Link Datos abiertos (datos.gov.co)
+                        </a>
                         <li className="list-group-item list-group-item-action ">
                           2022
                           <div className="list-group">
@@ -1182,9 +2360,291 @@ const Acordeon = () => {
             </div>
           </div>
         </div>
+        {/* 8. Informacion Especifica */}
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="panelsStayOpen-headingEigth">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseEigth"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseEigth"
+            >
+              8. Información específica
+            </button>
+          </h2>
+          {/* <div
+            id="panelsStayOpen-collapseEigth"
+            className="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingEigth"
+          >
+            <div className="accordion-body">
+              <div className="accordion-item">
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenOne"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenOne"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenOne"
+                    >
+                      7.1 Instrumentos de gestión de la información
+                    </button>
+                  </h2>
+                </div>
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenTwo"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenTwo"
+                    >
+                      7.2 Sección de Datos Abiertos
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseSevenTwo"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSevenTwo"
+                  >
+                    <div className="accordion-body">
+                      <div className="list-group">
+                        <a
+                          href="https://datos.gov.co/"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Link Datos abiertos (datos.gov.co)
+                        </a>
+                        <li className="list-group-item list-group-item-action ">
+                          2022
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre01_2022_b2f70343a1.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre I
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre02_2022_1a9b31c43f.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre II
+                            </a>{' '}
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre03_2022_ebf5f58f57.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre III
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Paraderos_SITM_TM_aea4b7d958.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) de paraderos del
+                              sistema
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Rutas_SITM_TM_c9c6c247da.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) del sistema de
+                              rutas de Transmetro
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Puntos_de_recarga_SITM_9c0b73e7cc.rar"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) de puntos de
+                              recarga activos
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/tablasretencion_2022_297276b3e3.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Tablas de retención documental
+                            </a>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+        </div>
+        {/* 9. Obligación de reportes */}
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="panelsStayOpen-headingNine">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseNine"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseNine"
+            >
+              9. Obligación de reporte de información
+            </button>
+          </h2>
+          {/* <div
+            id="panelsStayOpen-collapseEigth"
+            className="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingEigth"
+          >
+            <div className="accordion-body">
+              <div className="accordion-item">
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenOne"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenOne"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenOne"
+                    >
+                      7.1 Instrumentos de gestión de la información
+                    </button>
+                  </h2>
+                </div>
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingSevenTwo"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSevenTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSevenTwo"
+                    >
+                      7.2 Sección de Datos Abiertos
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseSevenTwo"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSevenTwo"
+                  >
+                    <div className="accordion-body">
+                      <div className="list-group">
+                        <a
+                          href="https://datos.gov.co/"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Link Datos abiertos (datos.gov.co)
+                        </a>
+                        <li className="list-group-item list-group-item-action ">
+                          2022
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre01_2022_b2f70343a1.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre I
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre02_2022_1a9b31c43f.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre II
+                            </a>{' '}
+                            <a
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre03_2022_ebf5f58f57.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Demanda diaria Trimestre III
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Paraderos_SITM_TM_aea4b7d958.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) de paraderos del
+                              sistema
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Rutas_SITM_TM_c9c6c247da.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) del sistema de
+                              rutas de Transmetro
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Puntos_de_recarga_SITM_9c0b73e7cc.rar"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Archivo geográfico (shapefile) de puntos de
+                              recarga activos
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/tablasretencion_2022_297276b3e3.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Tablas de retención documental
+                            </a>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+        </div>
       </div>
 
-      <div className="accordion accordion-total" id="accordionExample">
+      {/* <div className="accordion accordion-total" id="accordionExample">
         <div className="accordion-item">
           <div className="accordion-header" id="headingOne">
             <button
@@ -1717,7 +3177,7 @@ const Acordeon = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
