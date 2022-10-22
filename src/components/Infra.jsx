@@ -657,10 +657,6 @@ const Infra = () => (
                       <span>Gran Malecón</span>
                     </a>
                   </li>
-                  {/*  <li>
-                <span>Ventana al Mundo</span>
-                
-                </li> */}
                 </ul>
               </div>
             </div>
