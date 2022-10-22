@@ -783,7 +783,7 @@ hr {
 }
 
 .alimentadora__card .col-md-6 {
-  /* background-color: #F5F5F5; */
+  
   background: linear-gradient(to top, #F5F5F5 0%, #F5F5F5 82.5%, white 50%, white 100% );
 }
 .alimentadora__card h2 {
