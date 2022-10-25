@@ -117,41 +117,48 @@ const Info = () => {
       </div>
 
       {/* Movilizados */}
+      <video id="videoHome" autoPlay loop muted className="ratio ratio-16x9">
+        <source
+          src="https://apiwebtm.com/uploads/Video_pagina_web_Horizontal_8847bf55d3.MOV"
+          type="video/mp4"
+        />
+      </video>
+      <div className="container-xxl">
+        {/*  <video id="videoHome" autoPlay loop muted className="ratio ratio-16x9">
+          <source
+            src="https://apiwebtm.com/uploads/Video_pagina_web_Horizontal_8847bf55d3.MOV"
+            type="video/mp4"
+          />
+        </video> */}
 
-      <div className="container-xxl bg-dark text-white">
-        <div className="row align-items-end">
-          <img
+        {/* <img
             src="https://apiwebtm.com/uploads/Recurso_Movilizados_6bc73b974f.png"
             className="card-img"
             alt="foto tarjeta transmetro"
-          />
-        </div>
+          /> */}
       </div>
 
-      <div className="container">
+      <div className="container" style={{ marginBottom: '50px' }}>
         <div className="row justify-content-center ">
           <div className="card mb-3 movilizado ">
-            <div className="row g-0 ">
-              <div className="col-md-6">
-                <div className="card-body  usu-movilizados">
-                  <h2 className="card-text text-center">
-                    Usuarios
-                    <strong className="text-danger"> Movilizados</strong>
-                  </h2>
+            <div className="row g-0 align-items-center">
+              <div className="col-md-7">
+                <div className="card-body usu-movilizados ">
+                  <h2 className="card-text ">Usuarios Movilizados</h2>
+                  <p className="card-text">
+                    Desde el 01 de enero de 2022 hasta <br /> el 30 de junio de
+                    2022
+                  </p>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="card-body">
+              <div className="col-md-5 ">
+                <div className="card-body card_bus ">
                   <img
                     src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
                     alt="Bus Transmetro"
                   />
-                  <h2 className="card-title text">
-                    <strong className="text-danger">13.047.831</strong>{' '}
-                  </h2>
-                  <p className="card-text">
-                    Desde el 01 de enero de 2022 hasta el 30 de junio de 2022
-                  </p>
+                  <h1 className="card-title fw-bold">13.047.831</h1>
+                  <div className="linea-colores-movi" />
                 </div>
               </div>
             </div>
@@ -162,7 +169,7 @@ const Info = () => {
       {/* Fin Movilizados */}
 
       {/* Todos contra el Covida */}
-      <div className="container ">
+      {/*   <div className="container ">
         <div
           className="mapa__Troncal"
           style={{
@@ -235,12 +242,12 @@ const Info = () => {
                     style={{ width: '40%' }}
                   />
                   <p>Mantenga sana distancia </p>
-                </center> */}
+                </center> 
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Arriendo Locales */}
       {/* <div className="container arriendo ">
         <div className="card mb-3 border-light ">

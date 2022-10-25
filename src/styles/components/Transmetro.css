@@ -657,17 +657,21 @@ a:hover i {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease-out;
   cursor: default;
-  margin-top: -50px;
-
+  margin-top: -100px;
   width: 90%;
+  background-color: #002856;
+  border-radius: 20px;
+  width: 50rem;
+  
 }
 .movilizado h2 {
-  color: #002856;
+  color: #fff;
+  
   /* font-size: 3.5vw; */
 }
 
 .movilizado p {
-  color: #002856;
+  color: #fff;
 }
 .movilizado:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
@@ -675,15 +679,73 @@ a:hover i {
 }
 
 .usu-movilizados {
-  margin: 18px;
-}
+ /*  margin: 18px; */
+  background-color: #002856;
+  padding: 40px;
+  
 
+}
+.linea-colores-movi {
+  width: 35%;
+  height: 4px;
+  /* margin-top: 50px; */
+  
+  background-image: linear-gradient(
+    90deg,
+    #e30613 33%,
+    #ffdd00 33%,
+    #ffdd00 66.66%,
+    #00a13a 66.66%
+  );
+  /*espacio vertical */
+  /* margin-bottom: 15px; */
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+}
 .movilizado img {
-  float: right;
-  display: flex;
-  width: 26%;
+  /* float: right;
+  display: flex; */
+  width: 40%;
+}
+.movilizado .card_bus {
+  margin-top: -100px;
+  display: block;
+}
+.movilizado .card_bus h1 {
+  margin-top: 20px;
+  letter-spacing: 3px;
+  color: #fff;
 }
 
+#videoHome {
+ 
+   margin-right: 0px;
+  margin-left: 0px;
+  min-width: 100%;
+  max-height: 100%;
+  /* height: 50rem; */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .movilizado img {
+   
+    display: none;
+  }
+  .movilizado .card_bus {
+    margin-top: 10px;
+    /* display: inline-block; */
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .movilizado .card_bus h1 {
+    margin-top: -20px;
+    padding-left:25px ;
+  }
+  .linea-colores-movi {
+    margin-bottom: 20px;
+    margin-left:25px ;
+  }
+}
 /* ---- Encuesta ------ */
 
 .card__Encuesta {

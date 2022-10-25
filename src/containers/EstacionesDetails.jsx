@@ -33,7 +33,7 @@ const EstacionesDetails = () => {
             <ReactMarkdown className="card-text" escapeHtml={false}>
               {resta.content}
             </ReactMarkdown>
-            <h2 className="card-title">Rutas Alimentadoras</h2>
+            <h2 className="card-title">Rutas</h2>
             <ReactMarkdown className="card-text" escapeHtml={false}>
               {resta.rutas}
             </ReactMarkdown>

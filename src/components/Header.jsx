@@ -37,7 +37,16 @@ const Header = () => {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div
+            className="carousel-item active"
+            data-bs-interval="10000"
+            style={{ backgroundImage: `url(https://apiwebtm.com${noti1.url})` }}
+          >
+            {/*  <img
+              src={`https://apiwebtm.com${noti1.url}`}
+              className="img-fluid d-block w-100"
+              alt="..."
+            /> */}
             <div className="mask" id="carouselInterval">
               <div className="d-flex  align-items-center h-100">
                 <div className="text-white ">
@@ -49,7 +58,16 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
+          <div
+            className="carousel-item"
+            data-bs-interval="2000"
+            style={{ backgroundImage: `url(https://apiwebtm.com${noti2.url})` }}
+          >
+            {/*    <img
+              src={`https://apiwebtm.com${noti2.url}`}
+              className="img-fluid d-block w-100"
+              alt="..."
+            /> */}
             <div className="mask" id="carouselInterval">
               <div className="d-flex  align-items-center h-100">
                 <div className="text-white">
@@ -61,7 +79,15 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="carousel-item">
+          <div
+            className="carousel-item"
+            style={{ backgroundImage: `url(https://apiwebtm.com${noti3.url})` }}
+          >
+            {/*  <img
+              src={`https://apiwebtm.com${noti3.url}`}
+              className="img-fluid d-block w-100"
+              alt="..."
+            /> */}
             <div className="mask" id="carouselInterval">
               <div className="d-flex  align-items-center h-100">
                 <div className="text-white ">

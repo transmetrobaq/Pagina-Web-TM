@@ -272,6 +272,7 @@ hr {
   padding: 20px;
   margin-top: 20px; */
   display: flex;
+  margin-top: 20px;
   
 
 }
@@ -498,6 +499,7 @@ hr {
 .mapa_troncal {
   margin-top: 0px;
   background-color: #F5F5F5;
+  
   /* height: 300px; */
 }
 
