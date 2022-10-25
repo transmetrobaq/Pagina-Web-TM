@@ -123,20 +123,6 @@ const Info = () => {
           type="video/mp4"
         />
       </video>
-      <div className="container-xxl">
-        {/*  <video id="videoHome" autoPlay loop muted className="ratio ratio-16x9">
-          <source
-            src="https://apiwebtm.com/uploads/Video_pagina_web_Horizontal_8847bf55d3.MOV"
-            type="video/mp4"
-          />
-        </video> */}
-
-        {/* <img
-            src="https://apiwebtm.com/uploads/Recurso_Movilizados_6bc73b974f.png"
-            className="card-img"
-            alt="foto tarjeta transmetro"
-          /> */}
-      </div>
 
       <div className="container" style={{ marginBottom: '50px' }}>
         <div className="row justify-content-center ">
