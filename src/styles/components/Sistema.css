@@ -854,3 +854,74 @@ font-weight: bold;
     margin-top: -5px;
   }
 }
+
+
+/* Rediseño Credito */
+
+
+.card__credito {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__credito {
+ 
+  background-color: #F5F5F5;
+  cursor: pointer;
+ /*  width: 120px;
+  height: 50px;
+  margin: 50px 0 20px 0; */
+  /* padding: 20px 15px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+ /*  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out; */
+  /* border-radius: 1px;
+ font-weight: bold;
+ color:#002856;
+ font-size: 30px; */
+}
+
+.card__credito h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__credito .linea-colores-cred {
+  
+    width: 50%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__credito p{
+  color:#002856;
+}
+.card__credito li{
+  color:#002856;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.card__credito #credito_img {
+  background-image: url("https://apiwebtm.com/uploads/credito_9e6e099d6c.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+}

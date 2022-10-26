@@ -565,7 +565,8 @@
 }
 
 .preguntas-tm input:checked ~ .respuestas-content {
-  max-height: 100vh;
+  /* max-height: 100vh; */
+  max-height: 100%;
   max-width: auto;
   padding: 1em;
 }
@@ -589,4 +590,170 @@
     max-width: auto;
     padding: 1em;
   }
+}
+
+
+/* ---- Encuesta ------ */
+
+.card__Encuesta {
+  width: 45vw;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  /* display:flex;
+  align-items: center;
+  justify-content: center */
+}
+
+.card__Encuesta h2 {
+  
+  color: #002856;
+  position: relative;
+  margin-bottom: 5px;
+  
+  margin-top: 10px;
+  
+  font-weight: bold;
+  
+}
+
+.card__Encuesta button {
+  margin-bottom: 10px;
+  border: 1px solid #00a13a;
+ 
+  border-radius: 20px;
+}
+/* .card__Encuesta img {
+  width: 11vw !important;
+  margin-top: 20px;
+  
+} */
+
+#encuensta_img {
+  background-image: url("https://apiwebtm.com/uploads/Encuesta_7366385556.png");
+  background-repeat: no-repeat;
+  background-size: 160px;
+  background-position: center center;
+  
+ 
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .card__Encuesta img {
+    /* width: 20% !important;
+    margin-bottom: 25px; */
+    /* display: none; */
+  }
+  .card__Encuesta {
+    width: 300px;
+  }
+}
+
+
+/* Estimulo estudiantil  */
+
+/* .estudent__card {
+  color: #002856;
+ 
+} */
+
+.estuden__card  .card {
+  background-color: #00519E;
+ 
+}
+.estuden__card  h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 50px;
+  
+}
+.estuden__card  p {
+  padding-right: 30px;
+  font-style: oblique;
+  color: #fff
+}
+
+.estuden__card  img {
+  height: 80vh;
+  width: 25vw;
+}
+
+.estuden__card-benef{
+  margin-top: -16px;
+  
+}
+.estuden__card-benef  p {
+  
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+ 
+}
+.estuden__card-info {
+  margin-bottom: 50px;
+}
+.estuden__card-info span {
+  font-weight: bold;
+}
+.estuden__card-info  p {
+  background-color: #c00d0d;
+  color: #fff;
+  /* line-height: 1em; */ 
+}
+.estuden__card-info .card-body {
+  border-left: 1px solid #FFFFFF;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.estuden__card-info a { 
+  text-decoration: none;
+  color: #FFFF;
+  font-size: 16px;
+}
+.estuden__card-info a:hover { 
+  font-weight: bold;
+  color: #00a13a;
+  
+  
+}
+.estuden__card  .linea-colores {
+  width: 20%;
+  height: 5px;
+  background-image: linear-gradient(
+    90deg,
+    #e30613 33%,
+    #ffdd00 33%,
+    #ffdd00 66.66%,
+    #00a13a 66.66%
+  );
+   
+  
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+  
+  /*espacio vertical */
+  margin-top: -10px;
+}
+#manual_img {
+ /*  background-image: url("https://apiwebtm.com/uploads/cultura_ef186cfcf6.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+  margin-top: -10px;
+  display: block;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  #estuden_img {
+   
+   display: none;
+  }
+  #estuden_img img { width: 50vh}
+
 }

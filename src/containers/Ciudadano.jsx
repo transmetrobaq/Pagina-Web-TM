@@ -473,32 +473,498 @@ const Ciudadano = () => {
                         <span className="fa-li">
                           <i className="fas fa-check-square" />
                         </span>
-                        <span>Habeas Data:</span> El derecho de hábeas data es
-                        el derecho constitucional que tienen todas las personas
-                        a conocer, actualizar y rectificar las informaciones que
-                        se hayan recogido sobre ellas en bases de datos o
-                        archivos, y los demás derechos, libertades y garantías
-                        constitucionales a que se refiere el artículo 15 de la
-                        Constitución Política; así como el derecho a la
-                        información consagrado en el artículo 20 de la misma.
+                        <span>Canales de atención al cliente:</span> Herramienta
+                        utilizada por la entidad para establecer una relación
+                        con los usuarios, conocer sus necesidades, resolver
+                        inquietudes y ofrecer soluciones que contribuyan a
+                        mejorar el servicio. Los canales dispuestos son: línea
+                        de atención telefónica, Punto de Atención al Cliente
+                        (PAC), correo electrónico, página web y redes sociales.
                       </li>
                       <li>
                         <span className="fa-li">
                           <i className="fas fa-check-square" />
                         </span>
-                        <span>Temporalidad:</span> Tiempo de permanencia de un
-                        video en nuestro sietema.
+                        <span>
+                          Cargador Automático de Tarjetas Inteligentes (CATI):
+                        </span>{' '}
+                        Sistema de recarga ubicado en las diferentes estaciones
+                        del Sistema para uso de los usuarios.
                       </li>
                       <li>
                         <span className="fa-li">
                           <i className="fas fa-check-square" />
-                        </span>{' '}
-                        <span>Autoridad competente:</span> Hace referencia a la
-                        entidad pública o administrativa en el ejercicio de sus
-                        funciones legales o por orden Judicial. Ejemplo: cuando
-                        la Policía Nacional o la Fiscalía General solicita los
-                        videos para el desarrollo de una investigación a su
-                        cargo.
+                        </span>
+                        <span>Centro de Control y Operaciones: </span>
+                        Lugar desde donde se realiza el monitoreo de la
+                        operación del Sistema, recorrido de vehículos, novedades
+                        en las estaciones, entre otros. Está integrado por los
+                        líderes de operación, controladores y supervisores de
+                        cámaras.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Circuito cerrado de televisión: </span>
+                        Cámaras de seguridad ubicadas en puntos estratégicos de
+                        las estaciones del Sistema de Transporte Masivo a fin de
+                        vigilar las entradas y recorridos de usuarios y
+                        colaboradores de Transmetro. El archivo de videos es
+                        custodiado en el Centro de Control de Transmetro por un
+                        término no mayor a siete (7) días y solo podrán ser
+                        entregadas a la autoridad competente (Policía y
+                        Fiscalía) previa solicitud formal.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Concesionario: </span>
+                        Empresa que presta el servicio para el Sistema de
+                        Transporte Masivo. En el caso particular de Transmetro,
+                        son dos empresas, Sistur y Metrocaribe, las que prestan
+                        el servicio operativo; mientras que un tercer
+                        concesionario, Recaudo SIT, es el que presta el servicio
+                        de recaudo y lo inherente a taquillas y validadores en
+                        vehículos y estaciones.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Correo electrónico: </span>
+                        Canal de comunicación a través del cual el usuario puede
+                        presentar PQRSDF (peticiones, quejas, reclamos,
+                        solicitudes, denuncias y felicitaciones) rápidamente,
+                        suministrando fecha, lugar y hora de los hechos, ruta y
+                        número interno del vehículo y de la tarjeta inteligente.
+                        (atencionalcliente@transmetro.gov.co).
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Crédito: </span>
+                        El usuario tiene la opción de utilizar un crédito en las
+                        rutas alimentadoras de Transmetro hasta por el valor de
+                        un pasaje cuando se tenga saldo en cero (0) o esté
+                        incompleto el pasaje, nunca con saldo negativo, es
+                        decir, que ya se le haya prestado anteriormente. Para
+                        hacer transbordo en servicios troncales, el usuario
+                        deberá pagar el crédito cuando llegue a una estación del
+                        Sistema. Si el usuario no realiza transbordo a servicio
+                        troncal, en la siguiente recarga que haga, será cobrado
+                        el pasaje a crédito.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Estaciones: </span>
+                        Plataformas de ascenso y descenso de usuarios ubicadas a
+                        lo largo de las troncales Olaya Herrera y Murillo. A las
+                        mismas llegan los servicios troncales y en algunas los
+                        servicios alimentadores con las que se tiene conexión.
+                        La mayoría de estaciones intermedias cuentan con dos
+                        módulos para el abordaje de servicios corrientes y
+                        expresos.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Facilitadores: </span>
+                        Personal de apoyo ubicado en las diferentes estaciones
+                        del Sistema a fin de brindar orientación o guía a los
+                        usuarios que así lo requieran.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Flota: </span>
+                        Vehículos dispuestos para la operación del Sistema y que
+                        se programan de acuerdo a su tipología. Se encuentran
+                        los buses articulados los cuales son los más grandes del
+                        sistema y transitan por las vías troncales; los buses
+                        padrones de tamaño mediano son utilizados también para
+                        el tránsito por vías troncales y vías alimentadoras, y
+                        finalmente los vehículos tipo busetón de menor tamaño
+                        los cuales son programados para cubrir los servicios
+                        alimentadores.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Línea amarilla: </span>
+                        Señalización en piso de las plataformas en las
+                        estaciones del Sistema que previene a los usuarios del
+                        punto en que deben esperar el servicio con el fin de
+                        evitar de incidentes si se sobrepasa.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Línea de atención: </span>
+                        Canal de atención telefónico (605-3712222) en la que los
+                        usuarios pueden interponer PQRSDF. Además, se puede
+                        indagar sobre el estado de la operación y reportar
+                        objetos perdidos. En las estaciones del Sistema el
+                        usuario cuenta con un teléfono que te comunica
+                        directamente con esta línea.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Losetas podotáctiles: </span>
+                        Baldosas ubicadas en la entrada y plataforma de las
+                        diferentes estaciones del Sistema las cuales le permiten
+                        a los Usuarios con Movilidad Reducida movilizarse de
+                        manera segura y ágil.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Operador: </span>
+                        Conductor del vehículo del Sistema de Transporte Masivo.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Página web: </span>A través de la página web
+                        www.transmetro.gov.co, el Sistema de Transporte Masivo
+                        Transmetro publica toda la información inherente a su
+                        operación, noticias, horarios, novedades, detalles de
+                        rutas y estaciones. Así mismo, por medio de este canal
+                        se puede personalizar la tarjeta inteligente, conocer el
+                        manual del usuario y presentar PQRSDF.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Paradero: </span>Señal de tránsito que indica el
+                        lugar específico en que los vehículos programados para
+                        la operación alimentadora realizarán el ascenso y
+                        descenso de pasajeros.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Personal de campo: </span>Talento humano del
+                        Sistema encargado del despacho de los vehículos de
+                        acuerdo a la operación programada.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Personalización de la tarjeta: </span> Acción de
+                        registrar gratuitamente en la base de datos del Sistema
+                        los datos personales del usuario. Este procedimiento se
+                        hace a través de la línea de atención al cliente, el
+                        Punto de Atención al Ciudadano (PAC) y de la página web
+                        www.transmetro.gov.co. En caso de pérdida, daño o hurto,
+                        la personalización permite bloquear la tarjeta y
+                        recuperar el saldo existente. Solo se podrá registrar
+                        una tarjeta personalizada en el sistema por lo que, al
+                        momento de personalizar una nueva, la anterior se
+                        anulará.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Punto de Atención al Cliente (PAC): </span>
+                        Se encuentra ubicado en la estación Joe Arroyo (carrera
+                        46 con calle 74 esquina) y en este el usuario puede
+                        interponer su PQRSDF, reportar objetos perdidos,
+                        personalizar y marcar la tarjeta inteligente, entre
+                        otros trámites inherentes a la atención del cliente.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Redes Sociales: </span> A través de las redes
+                        sociales como Twitter (@transmetrobaq), Instragram
+                        (@transmetrobaq), Facebook (Transmetro Barranquilla) y
+                        Tiktok (@transmetrobaq), Transmetro informa en tiempo
+                        real sobre el estado de la operación, novedades del
+                        Sistema y noticias en general. Se orienta a los usuarios
+                        sobre las rutas que debe tomar y se recibe
+                        retroalimentación sobre el servicio.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Rutas alimentadoras: </span>
+                        Son los servicios que transitan por los diferentes
+                        barrios de Barranquilla, Soledad y parte de Puerto
+                        Colombia (Corredor Universitario). Los usuarios abordan
+                        y descienden de las mismas en los paraderos habilitados
+                        por el Sistema para tal fin.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Rutas troncales: </span>
+                        Son los servicios que transitan a través de las
+                        troncales Olaya Herrera y Murillo y movilizan a los
+                        usuarios desde el Portal de Soledad y estaciones Joe
+                        Arroyo y Parque Cultural del Caribe, a las diferentes
+                        estaciones que conforman el Sistema de Transporte
+                        Masivo.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Servicios corrientes: </span>
+                        Son las rutas troncales que realizan el ascenso y
+                        descenso de pasajeros en todas las estaciones del
+                        Sistema.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Servicios expresos: </span>
+                        Son las rutas troncales que realizan el asenso y
+                        descenso de pasajeros en estaciones especificas del
+                        Sistema a fin de brindar un recorrido rápido a los
+                        usuarios.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Sillas azules: </span>
+                        Son las sillas de los vehículos de uso preferencial para
+                        personas en condición de discapacidad, adultos mayores y
+                        mujeres embarazadas o con niños en brazos.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Sistema PQRSDF: </span>
+                        El Sistema de peticiones, quejas, reclamos, sugerencias,
+                        denuncias y felicitaciones es una herramienta que
+                        permite a la entidad conocer las inquietudes y
+                        manifestaciones que tienen los grupos de interés, en el
+                        caso particular de Transmetro los usuarios, a fin de
+                        fortalecer el servicio prestado.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Solo bus: </span>
+                        carriles en las troncales Olaya Herrera y Murillo que
+                        son para uso exclusivo del Sistema de Transporte Masivo.
+                        Los vehículos particulares deben transitar por el carril
+                        mixto ubicado contiguo al carril exclusivo. Invadirlo
+                        podría acarrear sanciones, incluso ocasionar incidentes.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Taquilla: </span>
+                        Punto físico con el que cuenta el usuario para realizar
+                        el proceso de compra y recarga de la tarjeta
+                        inteligente.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Tarjeta: </span>
+                        Es el plástico inteligente a través del cual el usuario
+                        tiene acceso al Sistema de Transporte Masivo. La misma
+                        es recargable en las taquillas y puntos autorizados,
+                        además de brindar la opción de ser personalizada por el
+                        usuario.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Transbordo: </span>
+                        Los usuarios del Sistema Transmetro tienen derecho a
+                        realizar transbordo sin costo adicional en las
+                        diferentes rutas y servicios de operación de acuerdo con
+                        las especificaciones establecidas en un tiempo no
+                        superior a los 105 minutos siguientes a la primera
+                        validación y para ellos cada usuario debe tener su
+                        tarjeta para que su transbordo no tenga costo adicional.
+                        El mismo se realiza en los paraderos o estaciones
+                        autorizadas, según la matriz de transbordo que los
+                        usuarios pueden consultar en el portal web o a través de
+                        los diferentes medios de comunicación con los que cuenta
+                        el Sistema de Transporte Masivo.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Troncales: </span>
+                        Son las avenidas principales por las cuales transitan
+                        los vehículos del Sistema de Transporte Masivo. Estas
+                        son la carrera 46 entre calle 34 y calle 74, en
+                        Barranquilla, llamada Troncal Olaya Herrera; entre tanto
+                        la Troncal Murillo comprende la Avenida Murillo entre
+                        carrera 46 en Barranquilla y carrera 14 en el municipio
+                        de Soledad.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Usuario con Movilidad Reducida (UMR): </span>
+                        Usuarios del Sistema con alguna condición de
+                        discapacidad física o visual. Cuentan con beneficios
+                        para su movilidad en el Sistema como sillas
+                        preferenciales, losetas podotáctiles, validadores
+                        especiales y tarjetas personalizadas.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Validador: </span>
+                        Herramienta tecnológica a través de la cual el usuario
+                        valida su pasaje para entrar a las diferentes estaciones
+                        del Sistema o los vehículos que cubren las rutas
+                        alimentadoras.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Derecho de petición: </span>
+                        Es la facultad que tiene todo ciudadano de presentar
+                        solicitudes respetuosas a las autoridades, verbalmente o
+                        por escrito, con el fin de requerir su intervención en
+                        un asunto de interés general y/o particular.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Petición de información: </span>
+                        Solicitud que se realiza para obtener información y
+                        orientación sobre los servicios, procesos, proyectos o
+                        planes del Sistema o en los que este participa.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Petición de Documento: </span>
+                        Solicitud que se realiza para obtener copias de
+                        documentos o archivos que reposen en la Entidad.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Queja: </span>
+                        Manifestación de protesta o inconformidad, formulada en
+                        relación al desempeño o actuar indebido de algún miembro
+                        del Sistema (funcionario, empleado, contratista, o
+                        personal de los concesionarios) en el desarrollo de sus
+                        funciones.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Reclamo: </span>
+                        Requerimiento para exigir la solución o el cumplimiento
+                        de un derecho, ante la prestación deficiente o
+                        suspensión injustificada de alguna de las
+                        características de los servicios ofrecidos.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Sugerencia: </span>
+                        Es la expresión de una idea o propuesta presentada para
+                        mejorar la atención o servicios del Sistema.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Consulta: </span>
+                        Solicitud que busca someter a consideración de la
+                        Entidad, aspectos relacionados con las materias a su
+                        cargo. La respuesta es un concepto que no es de
+                        obligatorio cumplimiento o ejecución.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Denuncia: </span>
+                        Manifestación sobre posibles delitos o actos de
+                        corrupción realizados por personal de la Entidad con el
+                        fin de que se inicie la correspondiente investigación
+                        administrativa sancionatoria, penal, disciplinaria o
+                        fiscal. (Se deben indicar las circunstancias de tiempo,
+                        modo y lugar, personas y pruebas si las hay).
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Felicitación: </span>
+                        Es la expresión de satisfacción o agradecimiento, en la
+                        que se destaca una acción o calidad del servicio y se
+                        estimula su continuidad.
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>Solicitud de acceso a información pública: </span>
+                        La Ley 1712 de 2014 definió el acceso a la información
+                        pública como el derecho fundamental que tienen todas las
+                        personas de “conocer sobre la existencia y acceder a la
+                        información pública en posesión o bajo control de los
+                        sujetos obligados”. Los siguientes son algunos ejemplos
+                        de lo que se puede solicitar u obtener con solicitudes
+                        de acceso a la información pública: Conocer cómo es la
+                        gestión de la entidad, vigilar y controlar lo público
+                        (presupuesto, plan de compras y ejecución presupuestal,
+                        derechos del usuario, procedimientos, programas,
+                        incentivos, subsidios, entre otros).
+                      </li>
+                      <li>
+                        <span className="fa-li">
+                          <i className="fas fa-check-square" />
+                        </span>
+                        <span>
+                          Solicitud de información con identificación reservada:
+                        </span>
+                        Cuando el usuario considere que la solicitud de la
+                        información pone en riesgo su integridad o la de su
+                        familia, podrá solicitar ante el Ministerio Público el
+                        procedimiento especial de solicitud con identificación
+                        reservada. Artículo 4°, Ley 1712 de 2014
+                        https://www.procuraduria.gov.co/portal/pqrsdf_Solicitud_de_informacion_con_identificacion_reservada.page
                       </li>
                     </ul>
                   </div>
@@ -508,103 +974,119 @@ const Ciudadano = () => {
           </div>
         </div>
         {/* Fin preguntas frecuentes */}
-        <div className="container linea-colores" />
+
         {/* Encuestas Ciudadano */}
-        <center className="container">
-          <div className="row card__Encuesta">
-            <div className="card">
-              <div className="card-body">
-                <h2 className="card-title">Encuesta al ciudadano</h2>
-                <figure className="col-md-12 ">
-                  <center>
-                    <img
-                      src="https://apiwebtm.com/uploads/Encuesta_7366385556.png"
-                      className="img-fluid rounded-start center-block"
-                      alt="imagen de encuesta"
-                      style={{ width: '20%' }}
-                    />
-                  </center>
-                </figure>
-                <div className="container">
-                  {/* <!-- Button trigger modal --> */}
-                  <center>
-                    <button
-                      type="button"
-                      className="btn btn-success"
-                      data-bs-toggle="modal"
-                      data-bs-target="#exampleModal"
-                      style={{
-                        marginTop: '20px',
-                        fontSize: '18px',
-                        width: '200px',
-                      }}
+        <center className="container ">
+          <div className="card mb-3 card__Encuesta">
+            <div className="row g-0">
+              <div className="col-md-7">
+                <div className="card-body">
+                  <h2 className="card-title">
+                    Encuesta de participación ciudadano
+                  </h2>
+                  <div className="container">
+                    {/* <!-- Button trigger modal --> */}
+                    <center>
+                      <button
+                        type="button"
+                        className="btn btn-success"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                        style={{
+                          marginTop: '20px',
+                          fontSize: '18px',
+                          width: '200px',
+                        }}
+                      >
+                        Ver encuesta
+                      </button>
+                    </center>
+                    {/* <!-- Modal --> */}
+                    <div
+                      className="modal fade"
+                      id="exampleModal"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
                     >
-                      Ver encuesta
-                    </button>
-                  </center>
-                  {/* <!-- Modal --> */}
-                  <div
-                    className="modal fade"
-                    id="exampleModal"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div className="modal-dialog">
-                      <div className="modal-content">
-                        <div className="modal-header">
-                          <h5 className="modal-title" id="exampleModalLabel">
-                            Encuestas Transmetro
-                          </h5>
-                          <button
-                            type="button"
-                            className="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          />
-                        </div>
-                        <div className="modal-body ">
-                          {/*  <iframe
+                      <div className="modal-dialog">
+                        <div className="modal-content">
+                          <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">
+                              Encuestas Transmetro
+                            </h5>
+                            <button
+                              type="button"
+                              className="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            />
+                          </div>
+                          <div className="modal-body ">
+                            {/*  <iframe
                   src="https://us20.list-manage.com/survey?u=82026dcd7051db356ac870607&id=305155383f&attribution=false"
                   style={{ width: '100%', height: '600px ' }}
                 />  */}
-                        </div>
-                        <div className="modal-footer">
-                          <button
-                            type="button"
-                            className="btn btn-secondary"
-                            data-bs-dismiss="modal"
-                          >
-                            Cerrar
-                          </button>
+                          </div>
+                          <div className="modal-footer">
+                            <button
+                              type="button"
+                              className="btn btn-secondary"
+                              data-bs-dismiss="modal"
+                            >
+                              Cerrar
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <div className="col-md-4 " id="encuensta_img">
+                {/*  <img
+                  src="https://apiwebtm.com/uploads/Encuesta_7366385556.png"
+                  className="img-fluid mx-auto d-block"
+                  alt="imagen de encuesta"
+                /> */}
+              </div>
             </div>
           </div>
         </center>
-        <div className="container linea-colores" />
+      </div>
 
-        {/* Estimulo Estudiantil */}
-        <div className="container ">
-          <div
-            className="card mb-3 car__cul border-white"
-            style={{ maxWidth: '100%' }}
-            id="estimulo-estudiantil"
-          >
-            <div className="row g-0">
-              <div className="col-md-8">
+      {/* Estimulo Estudiantil */}
+
+      <div
+        className="container-xxl "
+        style={{
+          backgroundColor: '#00519E',
+
+          marginTop: '50px',
+        }}
+        id="estimulo-estudiantil"
+      >
+        <div className="estuden__card ">
+          <div className="card mb-3 border border-0">
+            <div className="row g-0 justify-content-center align-items-center ">
+              <div className="col-md-4" id="estuden_img">
+                <img
+                  src="https://apiwebtm.com/uploads/image_1_1067d5605a.png"
+                  className="img-fluid "
+                  alt="Foto Aerea Buses TM "
+                />
+              </div>
+              <div className="col-md-6">
                 <div className="card-body">
-                  <h2 className="card-title">
-                    ESTÍMULO SOCIAL DE TRANSPORTE ESTUDIANTIL
-                  </h2>
-                  <p>
+                  <h2 id="acerca">Estímulo social de transporte estudiantil</h2>
+                  <div className="linea-colores" />
+                  <p
+                    className="card-text  fw-bold"
+                    style={{ marginTop: '-20px' }}
+                  >
                     * El beneficio estudiantil solo se gestiona ante el Distrito
                     de Barranquilla.
                   </p>
-                  <p className="card-text" style={{ fontWeight: 'bold' }}>
+                  <p className="card-text">
                     El Estímulo Social de Transporte es un programa de la
                     Secretaría de Gestión Social Distrital para estudiantes de
                     instituciones de educación superior, técnicas y tecnólogas
@@ -616,333 +1098,70 @@ const Ciudadano = () => {
                     educativo, reduciendo así la deserción estudiantil en las
                     instituciones de educación superior.
                   </p>
-                  <p>
-                    {' '}
-                    <span>Beneficio:</span> 40 % de descuento en el valor del
-                    pasaje. No implica la entrega de dinero material pues se
-                    hace mediante la tarjeta Transmetro.
-                  </p>
-                  <p>
-                    <span>Puntos de atención: </span>
-                    Alcaldía Distrital de Barranquilla, piso 1 - ventanillas 19,
-                    20 y 21.
-                  </p>
-                  <p>
-                    <span>Horario de atención: </span>
-                    lunes a viernes 8:00 a.m. a 12:00 m. y 1:30 p.m. a 5:00 p.m.
-                  </p>
-                  <p>
-                    <span>Teléfono: </span>
-                    605-3399438
-                  </p>
-                  <p>
-                    <span>Email: </span>
-                    estimulodetransporte@barranquilla.gov.co
-                  </p>
-                  <p className="card-text">
-                    <span>Link: </span>
-                    <a
-                      href="https://www.barranquilla.gov.co/gestionsocial/subsidios/estimulo-social-de-transporte/el-programa"
-                      alt="Estimulo Estudiantil"
-                      target="_blanck"
-                    >
-                      Estimulo Social de Transporte.
-                    </a>
-                  </p>
-                  {/*    <a
-                    href="http://bit.ly/2nQO0TD"
-                    className="btn btn-outline-success"
-                    target="_blanck"
-                    alt="Manual de Usuario"
-                    style={{
-                      height: '50px',
-                      fontSize: '18px',
-                      border: '3px solid',
-                      fontWeight: 'bold',
-                      marginTop: '10px',
-                    }}
-                  >
-                    Manual de Usuario
-                  </a> */}
                 </div>
               </div>
-              <figure className="col-md-4 ">
-                <img
-                  src="https://apiwebtm.com/uploads/Estudiante_4743d0456d.png"
-                  className="img-fluid center-block"
-                  alt="adolecente saludando"
-                />
-              </figure>
             </div>
           </div>
         </div>
-
-        {/* Objetivos */}
-        {/* <div className="container">
-          <div className="row text-center obj-ali">
-            <div className="col-sm-4 obj-ali1 ">
-              <div className="card-body ">
-                <i className="far fa-chart-bar fa-5x" />
-              </div>
-            </div>
-            <div className="col obj-ali2">
-              <div className="card-body ">
-                <ol className="list-group list-group-horizontal-md">
-                  <li>1. Optimizar el uso de los recursos disponibles</li>
-                  <li>
-                    2. Gestionar para propender por la sostenibilidad financiera
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          <div className="row text-center obj-ali">
-            <div className="col-sm-4 obj-ali1 ">
-              <div className="card-body ">
-                <i className="fas fa-users fa-5x" />
-              </div>
-            </div>
-            <div className="col obj-ali2">
-              <div className="card-body ">
-                <ul className="list-group list-group-horizontal-md">
-                  <li>
-                    1. Incrementar el nivel de satisfaccion de ususarios y
-                    ciudadanos.
-                  </li>
-                  <li>
-                    2. Trabajar bajo el principio de la responsabilidad social.
-                  </li>
-                </ul>
-                <ul className="list-group list-group-horizontal-md">
-                  <li>
-                    3. Gestionar una comunicacion adecuada con nuestro pcublico
-                    y generar valor agregado.
-                  </li>
-                  <li>
-                    4. Contribuir sustancialmente al mejoramiento en la
-                    movilidad.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className="row text-center obj_ali">
-            <div className="col-sm-4 obj-ali3 ">
-              <div className="card-body ">
-                <i className="fas fa-cogs fa-5x" />
-              </div>
-            </div>
-            <div className="col obj-ali4">
-              <div className="card-body ">
-                <ul className="list-group list-group-horizontal-md">
-                  <li>
-                    1. Optimizar los procesos internos de acuerdo a exigencias
-                    de MIPG.
-                  </li>
-                  <li>2. Mejorar en los indicadores del sistema.</li>
-                  <li>
-                    3. Gestionar la integracion del Transporte Masivo con el
-                    complementario..
-                  </li>
-                </ul>
-                <ul className="list-group list-group-horizontal-md">
-                  <li>4. Constituir Banco de Proyectos.</li>
-                  <li>5. Incrementar la demanda.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="row text-center obj_ali">
-            <div className="col-sm-4 obj-ali3 ">
-              <div className="card-body ">
-                <i className="far fa-id-badge fa-5x >" />
-              </div>
-            </div>
-            <div className="col obj-ali4">
-              <div className="card-body ">
-                <ul className="list-group list-group-horizontal-md">
-                  <li>
-                    1. Fortalecer las competecias del talento humano y el
-                    ambiente laboral.
-                  </li>
-                  <li>
-                    2. Desarrollar una cultura organizacional de trabajo en
-                    equipo y orientacion a los logros.
-                  </li>
-                </ul>
-                <ul className="list-group list-group-horizontal-md">
-                  <li>
-                    3. Propiciar ambientes laborales seguros y armoniosos que
-                    redunden en el mejoramiento de la calidad de vida de los
-                    servidores publicos.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
-      <div className="todos">
-        {/* <div className="card mb-3 cubo text-white ">
-          <div className="row g-0">
-            <div className="col-md-8">
-              <div className="card-body text-cubo">
-                <h5 className="card-title">
-                  MEJORAR LA CALIDAD DE VIDA DE LOS USUARIOS QUE USAN EL
-                  SISTEMA, CON CADA EXPERIENCIA DE VIAJE
-                </h5>
-                <p className="card-text text-justify">
-                  Qué: Hacer que la experiencia de viaje de los usuarios en
-                  Transmetro sea un diferencial positivo frente a otras opciones
-                  de transporte público Cómo: 1) Midiendo el cumplimiento de la
-                  oferta de servicio dada 2) Garantizando al usuario diferentes
-                  medios de contacto con Transmetro S.A.S. 3) midiendo la
-                  disponibilidad de la flota ofertada. Para: 1) Cautivar al
-                  usuario con elementos diferenciadores del servicio. 2) Dar al
-                  usuario la calidad de cliente 3) Para que el usuario pueda
-                  destinar mas tiempo para actividades diferentes al
-                  desplazamiento y/o para que pueda destinar mas recursos a
-                  necesidades básicas diferentes al transporte
-                </p>
-              </div>
-            </div>
 
-            <div className="col-md-4 text-center">
-              <i className="fas fa-search  fa-7x " />
+      <div className="container-xxl" style={{ backgroundColor: '#002856' }}>
+        <div className="row g-0 justify-content-center estuden__card-benef">
+          <div className="col-md-8">
+            <div className="card-body">
+              <p className="text-center">
+                Beneficio: 40 % de descuento en el valor del pasaje. No implica
+                la entrega de dinero material pues se hace mediante la tarjeta
+                Transmetro.
+              </p>
             </div>
           </div>
-        </div> */}
+        </div>
+      </div>
 
-        {/* <div className="container-fluid">
-          <div className=" row justify-content-end ">
-            <div className="card cubo-2 azul-lt ">
-              <div className="row">
-                <div className="col-md-4 text-center">
-                  <i className="fas fa-search  fa-7x " />
-                </div>
-                <div className="col-md-8">
-                  <div className="card-body text-cubo-2">
-                    <h5 className="card-title">
-                      MEJORAR LA CALIDAD DE VIDA DE LOS USUARIOS QUE USAN EL
-                      SISTEMA, CON CADA EXPERIENCIA DE VIAJE
-                    </h5>
-                    <p className="card-text text-justify">
-                      Qué: Hacer que la experiencia de viaje de los usuarios en
-                      Transmetro sea un diferencial positivo frente a otras
-                      opciones de transporte público Cómo: 1) Midiendo el
-                      cumplimiento de la oferta de servicio dada 2) Garantizando
-                      al usuario diferentes medios de contacto con Transmetro
-                      S.A.S. 3) midiendo la disponibilidad de la flota ofertada.
-                      Para: 1) Cautivar al usuario con elementos diferenciadores
-                      del servicio. 2) Dar al usuario la calidad de cliente 3)
-                      Para que el usuario pueda destinar mas tiempo para
-                      actividades diferentes al desplazamiento y/o para que
-                      pueda destinar mas recursos a necesidades básicas
-                      diferentes al transporte
-                    </p>
-                  </div>
-                </div>
-              </div>
+      <div className="container-xxl" style={{ backgroundColor: '#c00d0d' }}>
+        <div className="row g-0 justify-content-center align-items-center estuden__card-info ">
+          <div className="col-md-3">
+            <div className="card-body">
+              <p>
+                <span>Puntos de atención: </span>
+                Alcaldía Distrital de Barranquilla, piso 1 - ventanillas 19, 20
+                y 21.
+              </p>
             </div>
           </div>
-        </div> */}
-
-        {/* <div className="card mb-3 cubo-3 text-white ">
-          <div className="row g-0">
-            <div className="col-md-8">
-              <div className="card-body text-cubo">
-                <h5 className="card-title">
-                  MEJORAR LA CALIDAD DE VIDA DE LOS USUARIOS QUE USAN EL
-                  SISTEMA, CON CADA EXPERIENCIA DE VIAJE
-                </h5>
-                <p className="card-text text-justify">
-                  Qué: Hacer que la experiencia de viaje de los usuarios en
-                  Transmetro sea un diferencial positivo frente a otras opciones
-                  de transporte público Cómo: 1) Midiendo el cumplimiento de la
-                  oferta de servicio dada 2) Garantizando al usuario diferentes
-                  medios de contacto con Transmetro S.A.S. 3) midiendo la
-                  disponibilidad de la flota ofertada. Para: 1) Cautivar al
-                  usuario con elementos diferenciadores del servicio. 2) Dar al
-                  usuario la calidad de cliente 3) Para que el usuario pueda
-                  destinar mas tiempo para actividades diferentes al
-                  desplazamiento y/o para que pueda destinar mas recursos a
-                  necesidades básicas diferentes al transporte
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4 text-center">
-              <i className="fas fa-search  fa-7x " />
+          <div className="col-md-3">
+            <div className="card-body">
+              <p>
+                <span>Horario de atención: </span>
+                lunes a viernes 8:00 a.m. a 12:00 m. y 1:30 p.m. a 5:00 p.m.
+              </p>
             </div>
           </div>
-        </div> */}
-
-        {/* <!-- cubo 4 --> */}
-
-        {/* <div className="container-fluid">
-          <div className=" row justify-content-end">
-            <div className="card cubo-4 azul-lt ">
-              <div className="row">
-                <div className="col-md-4 text-center">
-                  <i className="fas fa-search  fa-7x " />
-                </div>
-                <div className="col-md-8">
-                  <div className="card-body text-cubo-2">
-                    <h5 className="card-title">
-                      MEJORAR LA CALIDAD DE VIDA DE LOS USUARIOS QUE USAN EL
-                      SISTEMA, CON CADA EXPERIENCIA DE VIAJE
-                    </h5>
-                    <p className="card-text text-justify">
-                      Qué: Hacer que la experiencia de viaje de los usuarios en
-                      Transmetro sea un diferencial positivo frente a otras
-                      opciones de transporte público Cómo: 1) Midiendo el
-                      cumplimiento de la oferta de servicio dada 2) Garantizando
-                      al usuario diferentes medios de contacto con Transmetro
-                      S.A.S. 3) midiendo la disponibilidad de la flota ofertada.
-                      Para: 1) Cautivar al usuario con elementos diferenciadores
-                      del servicio. 2) Dar al usuario la calidad de cliente 3)
-                      Para que el usuario pueda destinar mas tiempo para
-                      actividades diferentes al desplazamiento y/o para que
-                      pueda destinar mas recursos a necesidades básicas
-                      diferentes al transporte
-                    </p>
-                  </div>
-                </div>
-              </div>
+          <div className="col-md-4" style={{ lineHeight: '1em' }}>
+            <div className="card-body">
+              <p>
+                <span>Teléfono: </span>
+                605-3399438
+              </p>
+              <p>
+                <span>Email: </span>
+                estimulodetransporte@barranquilla.gov.co
+              </p>
+              <p>
+                {' '}
+                <span>Link: </span>
+                <a
+                  href="https://www.barranquilla.gov.co/gestionsocial/subsidios/estimulo-social-de-transporte/el-programa"
+                  alt="Estimulo Estudiantil"
+                  target="_blanck"
+                >
+                  Estimulo Social de Transporte.
+                </a>
+              </p>
             </div>
           </div>
-        </div> */}
-
-        {/* <div className="card mb-3 cubo-5 text-white ">
-          <div className="row g-0">
-            <div className="col-md-8">
-              <div className="card-body text-cubo">
-                <h5 className="card-title">
-                  MEJORAR LA CALIDAD DE VIDA DE LOS USUARIOS QUE USAN EL
-                  SISTEMA, CON CADA EXPERIENCIA DE VIAJE
-                </h5>
-                <p className="card-text text-justify">
-                  Qué: Hacer que la experiencia de viaje de los usuarios en
-                  Transmetro sea un diferencial positivo frente a otras opciones
-                  de transporte público Cómo: 1) Midiendo el cumplimiento de la
-                  oferta de servicio dada 2) Garantizando al usuario diferentes
-                  medios de contacto con Transmetro S.A.S. 3) midiendo la
-                  disponibilidad de la flota ofertada. Para: 1) Cautivar al
-                  usuario con elementos diferenciadores del servicio. 2) Dar al
-                  usuario la calidad de cliente 3) Para que el usuario pueda
-                  destinar mas tiempo para actividades diferentes al
-                  desplazamiento y/o para que pueda destinar mas recursos a
-                  necesidades básicas diferentes al transporte
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4 text-center">
-              <i className="fas fa-search  fa-7x " />
-            </div>
-          </div>
-        </div> */}
+        </div>
       </div>
     </>
   );

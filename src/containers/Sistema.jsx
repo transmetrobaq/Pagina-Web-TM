@@ -9,11 +9,6 @@ const Sistema = () => (
   <div>
     {/*  <!--INFO BLOQUE  Mapa---> */}
 
-    <div className="container">
-      <div className="card-body title__Datos" id="datos-sistema">
-        <h1 className="text-center">DATOS DEL SISTEMA</h1>
-      </div>
-    </div>
     <Infra />
     <div className="container linea-colores" />
     {/* Buscado de Horario */}
@@ -79,6 +74,52 @@ const Sistema = () => (
     </div>
 
     {/* Credito y Personlaizacion */}
+
+    {/* Mision -Vision */}
+    <div className="container-xxl">
+      <div className="card__credito">
+        <div className="card mb-3 border border-0">
+          <div className="row g-0 justify-content-end align-items-center ">
+            <div className="col-md-5" id="credito_img">
+              {/*  <img
+                  src="https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg"
+                  className="img-fluid rounded-start"
+                  alt="Foto Aerea Buses TM "
+                /> */}
+            </div>
+            <div className="col-md-6 ">
+              <div className="card-body" style={{ marginLeft: '50px' }}>
+                <h2>Crédito</h2>
+                <div className="linea-colores-cred" />
+                <p>
+                  Uso del crédito para ingresar al Sistema en las rutas
+                  alimentadoras:
+                </p>
+                <ul className="card-text">
+                  <li>
+                    El monto del crédito será una parte o la totalidad del
+                    pasaje.
+                  </li>
+                  <li>
+                    Al hacer transbordo a una estación debe cancelar el crédito
+                    para seguir su recorrido. En este caso no se cobrará un
+                    nuevo pasaje, se validará el transbordo.
+                  </li>
+                  <li>
+                    Si la tarjeta tiene un saldo negativo, aunque sea un valor
+                    mínimo, se tiene que cancelar el primer crédito para activar
+                    uno nuevo.
+                  </li>
+                  <li>En las rutas troncales no puede hacer uso de crédito.</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-1" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div className="container card__Credi">
       <div className="row row-cols-1 row-cols-md-2 g-4">
         <div className="col">
@@ -151,6 +192,7 @@ const Sistema = () => (
     </div>
 
     {/* <!-- Como personalizar --> */}
+
     <div className="container como-perso ">
       <div className="card-body text-center tex-como-per">
         <h2>¿Cómo personalizas?</h2>

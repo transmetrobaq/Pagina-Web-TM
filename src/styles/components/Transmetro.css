@@ -746,41 +746,5 @@ a:hover i {
     margin-left:25px ;
   }
 }
-/* ---- Encuesta ------ */
-
-.card__Encuesta {
-  width: 300px;
-  border-radius: 6px;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  transition: all 400ms ease-out;
-  cursor: default;
-  margin-top: 40px;
-  margin-bottom: 50px;
-}
-
-.card__Encuesta h2 {
-  /* font-size: 35px; */
-  color: #002856;
-  position: relative;
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: bold;
-  /* text-transform: uppercase; */
-}
-
-.card__Encuesta img {
-  width: 20% !important;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
-  .card__Encuesta img {
-    width: 30% !important;
-  }
-  .card__Encuesta {
-    max-width: 300px !important;
-  }
-}
 
 
