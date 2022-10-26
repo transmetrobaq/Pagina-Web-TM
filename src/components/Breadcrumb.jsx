@@ -30,7 +30,7 @@ function Breadcrumb() {
           </li>
         ) : (
           <li className="breadcrumb-item active" alt="Inicio">
-            <span className="fas fa-home" style={{ color: '#e30613' }}>
+            <span className="fas fa-home" style={{ color: '#fff' }}>
               {' '}
             </span>
           </li>

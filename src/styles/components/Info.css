@@ -799,23 +799,21 @@ hr {
 .alimentadora__card {
   color: #002856;
   margin-top: 50px;
- 
- 
 }
 
 .alimentadora__card .col-md-6 {
   
-  background: linear-gradient(to top, #F5F5F5 0%, #F5F5F5 82.5%, white 50%, white 100% );
+  background: linear-gradient(to top, #F5F5F5 0%, #F5F5F5 90%, white 50%, white 100% );
 }
 .alimentadora__card h2 {
   margin-left: 50px;
   margin-bottom: 10px;
   font-weight: bold;
   color: #00519E;
-  margin-top: 170px; 
+  margin-top: 14.5vw; 
 }
 .alimentadora__card p {
-  padding-right: 30px;
+  padding-right: 20px;
   margin-left: 50px;
 }
 
@@ -827,7 +825,7 @@ hr {
 .alimentadora__card .linea-colores-ali {
   width: 35%;
   height: 4px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-left: 50px;
   background-image: linear-gradient(
     90deg,
@@ -842,15 +840,60 @@ hr {
 }
 
 
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .alimentadora__card h2 {
+    margin-top: 25px;
+  }
+  .alimentadora__card .col-md-6 {
+  
+    background: linear-gradient(to top, #F5F5F5 0%, #F5F5F5 82.5%, #F5F5F5 50%, #F5F5F5 100% );
+  }
+  .alimentadora__card img {
+    height: 50vh;
+    
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1142px) {
+  .estaciones  .col-md-2 {
+    margin: auto;
+  }
+  .estaciones  .col-md-6 {
+    margin: auto;
+  }
+  .estaciones  .col-md-4  .card_personalizacion {
+    margin: auto;
+  }
+  
+  
+  
+  .estaciones_olaya  .col-md-2 {
+    margin: auto;
+  }
+  .estaciones_olaya  .col-md-6 {
+    margin: auto;
+  }
+  .estaciones_olaya  .col-md-4 .card_pqrs-olaya {
+    margin: auto;
+  }
 
 
+ /*  .rutas_alimentadoras  .col-md-2 {
+    margin: auto;
+  } */
+ /*  .rutas_alimentadoras  .col-md-6 .col-md-6 {
+    margin: auto;
+  }
+   */
 
-/* #alimentadora_img {
+}
+
+
+#alimentadora_img {
   background-image: url("https://apiwebtm.com/uploads/img_rutas_alimentadoras_c8fa5f7de0.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-} */
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   #acerca_img {
     /* width: 50vw; */

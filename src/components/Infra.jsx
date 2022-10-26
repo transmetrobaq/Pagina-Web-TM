@@ -405,17 +405,14 @@ const Infra = () => {
           <div className="card mb-3 border border-0">
             <div className="row g-0 justify-content-end ">
               <div className="col-md-6" id="alimentadora_img">
-                <img
+                {/*  <img
                   src="https://apiwebtm.com/uploads/img_rutas_alimentadoras_c8fa5f7de0.png"
-                  className="img-fluid rounded-start"
+                  className="img-fluid "
                   alt="Foto Aerea Buses TM "
-                />
+                /> */}
               </div>
               <div className="col-md-6 align-self-end">
-                <div
-                  className="card-body"
-                  style={{ width: '35rem', height: '70vh' }}
-                >
+                <div className="card-body">
                   <h2>Rutas alimentadoras</h2>
                   <div className="linea-colores-ali" />
                   <p className="card-text align-text-bottom fw-semibold">

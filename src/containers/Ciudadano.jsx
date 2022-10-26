@@ -15,6 +15,68 @@ const Ciudadano = () => {
   /* const quests = quest; */
   return (
     <>
+      {/* <!-- manual del usuario  --> */}
+
+      <div
+        className="container-xxl "
+        style={{ backgroundColor: '#F5F5F5' }}
+        id="acerca"
+      >
+        <div className="manual__card ">
+          <div className="card mb-3 border border-0">
+            <div className="row g-0 justify-content-center ">
+              <div className="col-md-6">
+                <div className="card-body">
+                  <h2 id="acerca">Manual del usuario</h2>
+                  <div className="linea-colores" />
+                  <p
+                    className="card-text  fw-bold"
+                    style={{ marginTop: '-20px' }}
+                  >
+                    El Manual de Usuarios describe objetos, generalidades,
+                    derechos y deberes del usuario, restricciones y canales de
+                    comunicación con el Sistema.
+                  </p>
+                  <p className="card-text">
+                    Esta información se debe tener en cuenta al momento de
+                    utilizar el Sistema de Transporte Masivo de la ciudad de
+                    Barranquilla y su área metropolitana, Transmetro, ya que
+                    representa para los usuarios/ciudadanos una guía sobre el
+                    buen uso y el comportamiento que se debe tener al interior
+                    de los escenarios que componen el Sistema de Transporte
+                    Masivo, Transmetro, a fin de procurar una mejor convivencia
+                    entre todos los actores del Sistema.
+                  </p>
+                  <p className="card-text">
+                    *Puede descargarlo y conocer todos los detalles de este
+                    importante documento haciendo clic en el siguiente enlace:
+                  </p>
+                  <div>
+                    <a
+                      href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
+                      className="btn btn-outline-success "
+                      target="_blanck"
+                      alt="Manual de Usuario"
+                    >
+                      Manual de Usuario
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4" id="manual_img">
+                <img
+                  src="https://apiwebtm.com/uploads/cultura_ef186cfcf6.png"
+                  className="img-fluid "
+                  alt="Foto Aerea Buses TM "
+                />
+              </div>
+              {/* <div className="col-md-1" /> */}
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div
         className="container "
         data-bs-spy="scroll"
@@ -22,51 +84,10 @@ const Ciudadano = () => {
         data-bs-offset="0"
         tabIndex="0"
       >
-        <div className="container ">
-          <div className="row cd">
-            <div className="card " id="manual-del-usuario">
-              <div className="card-body ">
-                <h2 className="card-title text-center">MANUAL DEL USUARIO</h2>
-                <h5 className="card-text">
-                  El Manual de Usuarios describe objetos, generalidades,
-                  derechos y deberes del usuario, restricciones y canales de
-                  comunicación con el Sistema.
-                </h5>
-                <p className="card-text">
-                  Esta información se debe tener en cuenta al momento de
-                  utilizar el Sistema de Transporte Masivo de la ciudad de
-                  Barranquilla y su área metropolitana, Transmetro, ya que
-                  representa para los usuarios/ciudadanos una guía sobre el buen
-                  uso y el comportamiento que se debe tener al interior de los
-                  escenarios que componen el Sistema de Transporte Masivo,
-                  Transmetro, a fin de procurar una mejor convivencia entre
-                  todos los actores del Sistema.
-                </p>
-                <p>
-                  *Puede descargarlo y conocer todos los detalles de este
-                  importante documento haciendo clic en el siguiente enlace:
-                </p>
-                <center>
-                  <a
-                    href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
-                    className="btn btn-outline-success "
-                    target="_blanck"
-                    alt="Manual de Usuario"
-                  >
-                    Manual de Usuario
-                  </a>
-                </center>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <!-- linea con colores rojo, amarillo, verde  --> */}
-        <div className="container linea-colores" />
-
         {/* Preguntas Frecuentes */}
         <div className="titulo-preguntas">
           <h2 className="text-center azul-lt" id="preguntas-frecuentes">
-            PREGUNTAS Y RESPUESTAS FRECUENTES
+            Preguntas y respuestas frecuentes
           </h2>
         </div>
         <div className="container">

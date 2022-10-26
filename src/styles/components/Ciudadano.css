@@ -377,6 +377,91 @@
   background-color: #00a13a;
 }
 
+
+
+
+/*  Rediseño */
+
+/* manual del usuario  */
+
+.manual__card {
+  color: #002856;
+  margin-top: 50px;
+ 
+ 
+}
+
+.manual__card .card {
+  background-color: #F5F5F5;
+}
+.manual__card h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+  
+}
+.manual__card p {
+  padding-right: 30px;
+  font-style: oblique;
+}
+
+.manual__card img {
+  height: 65vh;
+  width: 25vw;
+}
+.manual__card a {
+  background-color: #00a13a;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px;
+  width: 250px;
+}
+.manual__card a:hover {
+  background-color: #c00d0d;
+  color: #fff;
+ border: 1px solid #c00d0d;
+}
+
+.manual__card .linea-colores {
+  width: 20%;
+  height: 5px;
+  background-image: linear-gradient(
+    90deg,
+    #e30613 33%,
+    #ffdd00 33%,
+    #ffdd00 66.66%,
+    #00a13a 66.66%
+  );
+   
+  
+  clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+  
+  /*espacio vertical */
+  margin-top: -10px;
+}
+#manual_img {
+ /*  background-image: url("https://apiwebtm.com/uploads/cultura_ef186cfcf6.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+  margin-top: -10px;
+  display: block;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  #manual_img {
+   
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #manual_img img { width: 50vh}
+
+}
+
+/* Preguntas frecuentes */
+
 .preguntas-tm h1 {
   margin: 0;
   line-height: 2;
@@ -430,7 +515,7 @@
   cursor: pointer;
   border-radius: 15px;
   padding: 15px;
-  font-size: 20px;
+  /* font-size: 18px; */
   border-bottom: 1px solid #fff;
   /* Icon */
 }
@@ -453,7 +538,7 @@
   background: white;
   transition: all 0.35s;
   color: #004f9f;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 .preguntas-tm .respuestas-content span {
   font-weight: bold;
@@ -491,10 +576,12 @@
 
 .titulo-preguntas {
   margin: 5%;
+  margin-top: 100px;
 }
 .titulo-preguntas h2 {
+  margin-bottom: 10px;
   font-weight: bold;
-  color: #002856;
+  color: #00519E;
 }
 @media only screen and (min-width: 200px) and (max-width: 768px) {
   .preguntas-tm input:checked ~ .respuestas-content {

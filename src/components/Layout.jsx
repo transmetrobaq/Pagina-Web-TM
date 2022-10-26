@@ -13,7 +13,7 @@ const Layout = ({ children }) => (
       <Navbar />
     </div>
     {/* <Header /> */}
-    <div style={{ marginTop: '100px', marginLeft: '150px' }}>
+    <div style={{ marginTop: '100px', marginLeft: '3.5rem' }}>
       <Breadcrumb />
     </div>
 
