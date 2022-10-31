@@ -22,7 +22,7 @@
       ". .";
     background-color: #e30613;
     width: 450px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
      
   }
   
@@ -33,7 +33,7 @@
     border: 3px solid #fff;
     color: #fff;
     /* Altura */
-    height: 120px !important;
+    max-height: 140px !important;
     
   }
   .wave__card:hover {
@@ -59,28 +59,71 @@
     background-color: #004f9f;
     }
   
-    @media only screen and (min-width: 320px) and (max-width: 992px) {
-      .container__wave{
-        background-color: #fff;
+ 
+  
+    
+    @media only screen and (max-width: 992px) {
+   /*    .r2v04k_mv-widget-wrapper iframe.responsive {
+        height: 45vw;
+        max-height: 45vw !important;
+      } */
+      .r2v04k_mv-widget-wrapper {
+        width: 100% !important;
       }
+    
       .wave__card-group {
-        display: none;
+        width: 40vw !important;
+        /* margin: 0 auto;
+        display: block; */
+        margin-top: 70px;
+      }
+      
+      .wrapper {
+        width: 47vw;
+        margin-left: -70px;
       }
     }
 
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      .wave__card-group {
+        width: 75vw !important;
+        margin: 0 auto;
+        display: block;
+        margin-top: 50px;
+      }
+      
+      .wrapper {
+        width: 75vw;
+        margin-left: 0px;
+      }
+     
+      .moovit__card {
+        /* margin: 0 auto;
+        display: block; */
+        /* margin-top: 100px;
+        width: 100% !important; */
+        margin: 0 auto !important;
+        width: 75vw !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+      }
+     
+    
+
+    }
 
     /* Moovit */
     
 .moovit__card {
    /*  margin-top: 20px;
     margin-bottom: 20px; */
-    margin: -100px 0 0 170px;
+    margin: 0px 0 0 8rem;
     border-radius: 10px;
     background-color: #e30613;
     border: 3px solid #fff;
     width: 25vw;
     /* height: 70vh; */
-    display: block;
+    /* display: block; */
   }
   moovit-preview .widget-container {
     display: table-cell;
@@ -271,39 +314,8 @@
     color: #fff !important;
   }
 
-  @media screen and (max-width: 992px) {
-    .r2v04k_mv-widget-wrapper iframe.responsive {
-        
-        height: 483px;
-        
-      }
-    
-      .wave__card-group {
-        width: 100% !important;
-        
-      }
-      
-      .r2v04k_mv-widget-wrapper {
-        width: 100% !important;
-      }
-      .moovit__card {
-        margin: 23px 0 0 100px;
-        display: inline;
-      }
-  }
+ 
   /* 
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .r2v04k_mv-widget-wrapper iframe.responsive {
-      height: 45vw;
-      max-height: 45vw !important;
-    }
-    .r2v04k_mv-widget-wrapper {
-      width: 100% !important;
-    }
-    .moovit__card {
-      padding-left: 0px;
-    }
-  }
   @media only screen and (min-width: 768px) and (max-width: 1036px) {
     .r2v04k_mv-widget-wrapper iframe.responsive {
       height: 35vw;

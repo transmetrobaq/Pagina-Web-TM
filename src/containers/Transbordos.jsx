@@ -15,7 +15,7 @@ const Transbordos = () => {
           style={{ marginBottom: '20px', border: 'none', width: '70rem' }}
         >
           <div className="card-body">
-            <h1 className="card-title text-center">TRANSBORDOS</h1>
+            <h2 className="card-title text-center">Transbordos</h2>
 
             <p className="card-text">
               El Sistema de Transporte Masivo de Barranquilla y su área
@@ -39,7 +39,7 @@ const Transbordos = () => {
               <div className="card h-100 funciona-tm align-items-center">
                 <img
                   src="https://apiwebtm.com/uploads/Recurso_10_e98f84db95.png"
-                  className="card-img-top funciona-tm-img "
+                  className="card-img-top funciona-tm-img img-fluid "
                   alt="icono"
                 />
                 <div className="card-body">
@@ -55,7 +55,7 @@ const Transbordos = () => {
               <div className="card h-100 funciona-tm align-items-center">
                 <img
                   src="https://apiwebtm.com/uploads/Recurso_11_094f440548.png"
-                  className="card-img-top"
+                  className="card-img-top img-fluid"
                   alt="icono"
                 />
                 <div className="card-body">
@@ -71,7 +71,7 @@ const Transbordos = () => {
               <div className="card h-100 funciona-tm align-items-center">
                 <img
                   src="https://apiwebtm.com/uploads/Recurso_12_45e5ca814c.png"
-                  className="card-img-top"
+                  className="card-img-top img-fluid"
                   alt="icono"
                 />
                 <div className="card-body">
@@ -87,7 +87,7 @@ const Transbordos = () => {
               <div className="card h-100 funciona-tm align-items-center">
                 <img
                   src="https://apiwebtm.com/uploads/Recurso_13_1fc97b6397.png"
-                  className="card-img-top"
+                  className="card-img-top img-fluid"
                   alt="icono"
                 />
                 <div className="card-body">
@@ -114,7 +114,7 @@ const Transbordos = () => {
               />
             </div>
             <div className="col-md-8 ">
-              <h1>Ten en cuenta que </h1>
+              <h2>Ten en cuenta que </h2>
             </div>
           </div>
           <div className="card-footer bg-transparent encuentra-tm-li">
@@ -226,15 +226,15 @@ const Transbordos = () => {
       <div className="container linea-colores" />
       {/* Matrix de Transbordos */}
       <div className="titulo-plus">
-        <h1 className="text-center azul-lt">MATRIZ DE TRANSBORDOS</h1>
-        <h4 className="text-center azul-lt">
+        <h2 className="text-center ">Matriz de transbordos</h2>
+        <p className="text-center azul-lt fw-bold">
           Transbordos entre servicios Troncales y rutas Alimentadoras
-        </h4>
+        </p>
       </div>
       <div className="container">
-        <div className="row">
-          <div className="col">
-            <div className="tabs">
+        <div className="row justify-content-center">
+          <div className="col-md-10">
+            <div className="tabs mx-auto d-block" style={{ width: '90vw' }}>
               <div className="tab">
                 <input type="checkbox" id="chck1" />
                 <label className="tab-label" for="chck1">
@@ -657,15 +657,15 @@ const Transbordos = () => {
           </div>
         </div>
       </div>
-
-      <h1 className="text-center azul-lt titulo-plus">
-        TRANSBORDOS ENTRE SERVICIOS DE ALIMENTACIÓN
-      </h1>
+      <div className="container linea-colores" />
+      <h2 className="text-center  titulo-plus">
+        Transbordos entre alimentación
+      </h2>
 
       <div className="container" style={{ marginBottom: '50px' }}>
         <div className="row">
           <div className="col">
-            <div className="tabs">
+            <div className="tabs mx-auto d-block" style={{ width: '90vw' }}>
               <div className="tab">
                 <input type="checkbox" id="chck-1" />
                 <label className="tab-label" for="chck-1">

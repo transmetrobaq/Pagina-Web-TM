@@ -11,7 +11,7 @@
 }
 
 .azul-lt {
-  color: #002856;
+  color: #00519E;
 }
 
 .amarillo-uni {
@@ -24,8 +24,8 @@
 .car__transb {
   margin: 0 auto;
 }
-.car__transb h1 {
-  color: #002856;
+.car__transb h2 {
+  color: #00519E;
   margin-top: 60px;
   font-weight: bold;
 }
@@ -138,7 +138,7 @@
 .titulo-plus {
   /* margin: 4%; */
   margin-top: 50px;
-  color: #002856;
+  color: #00519E;
 }
 
 /* ---------- */
@@ -197,8 +197,8 @@
   margin: auto;
   text-align: auto;
 }
-.encuenta-tm h1 {
-  color: #c00d0d;
+.encuenta-tm h2 {
+  color: #00519E;
   font-weight: bold;
 }
 .encuenta-tm img {
@@ -229,8 +229,9 @@
 }
 
 @media only screen and (min-width: 250px) and (max-width: 768px) {
-  .encuenta-tm h1 {
+  .encuenta-tm h2 {
     margin-left: 1rem;
+    color:#00519E;
   }
 }
 .reloj {
@@ -256,10 +257,12 @@
 .reloj h2 {
   /* font-size: 2rem; */
   font-weight: bold;
+  color: #00519E
 }
 .reloj p {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 18px;
+  text-align: center;
 }
 .reloj .row {
   margin-top: 112px;

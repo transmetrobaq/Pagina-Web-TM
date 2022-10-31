@@ -9,9 +9,9 @@ const Navinfe = () => {
     <>
       {/* Nav inferior / Moovit */}
 
-      <div className="container-fluid container__wave ">
-        <div className="row ">
-          <div className="col-md-6 align-self-center ">
+      <div className="container-xxl container__wave ">
+        <div className="row justify-content-end">
+          <div className="col-md-4 align-self-center ">
             <div className="wave__card-group ">
               <div className=" wrapper ">
                 <div className="card wave__card">

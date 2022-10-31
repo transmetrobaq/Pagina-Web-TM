@@ -730,6 +730,9 @@ a:hover i {
    
     display: none;
   }
+  .movilizado {
+    margin-top: -50px;
+  }
   .movilizado .card_bus {
     margin-top: 10px;
     /* display: inline-block; */

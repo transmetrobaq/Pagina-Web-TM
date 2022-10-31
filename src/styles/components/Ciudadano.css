@@ -586,7 +586,7 @@
 }
 @media only screen and (min-width: 200px) and (max-width: 768px) {
   .preguntas-tm input:checked ~ .respuestas-content {
-    max-height: 400vh;
+    /* max-height: 400vh; */
     max-width: auto;
     padding: 1em;
   }

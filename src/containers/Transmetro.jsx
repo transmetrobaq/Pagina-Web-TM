@@ -25,7 +25,8 @@ const Transmetro = () => {
             <div className="row g-0 justify-content-end ">
               <div className="col-md-6">
                 <div className="card-body">
-                  <h2 id="acerca">Acerca de</h2>
+                  <h2 id="acerca">Reseña histórica</h2>
+                  <div className="linea-colores-movi" />
                 </div>
               </div>
               <div className="col-md-5" />

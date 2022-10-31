@@ -25,7 +25,7 @@ const EstacionesDetails = () => {
         <div className="card mb-3 " id="estacion">
           <img
             src={`https://apiwebtm.com${resta.url}`}
-            className="card-img-top mx-auto d-block nt ligth"
+            className="card-img-top mx-auto d-block nt ligth img-fluid"
             alt={resta.alt}
           />
           <div className="card-body">
@@ -38,7 +38,7 @@ const EstacionesDetails = () => {
               {resta.rutas}
             </ReactMarkdown>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated octubre 2022</small>
             </p>
           </div>
         </div>

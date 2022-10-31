@@ -51,7 +51,7 @@ const Ciudadano = () => {
                     *Puede descargarlo y conocer todos los detalles de este
                     importante documento haciendo clic en el siguiente enlace:
                   </p>
-                  <div>
+                  <div className="d-flex">
                     <a
                       href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
                       className="btn btn-outline-success "
@@ -60,6 +60,15 @@ const Ciudadano = () => {
                     >
                       Manual de Usuario
                     </a>
+                    {/*   <a
+                      href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
+                      className="btn btn-outline-success "
+                      target="_blanck"
+                      alt="Manual de Usuario"
+                      style={{ marginLeft: '20px' }}
+                    >
+                      Instructivo PQRS
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -67,7 +76,7 @@ const Ciudadano = () => {
               <div className="col-md-4" id="manual_img">
                 <img
                   src="https://apiwebtm.com/uploads/cultura_ef186cfcf6.png"
-                  className="img-fluid "
+                  className="img-fluid mx-auto d-block"
                   alt="Foto Aerea Buses TM "
                 />
               </div>
@@ -102,10 +111,13 @@ const Ciudadano = () => {
                     denuncias y felicitaciones (PQRSDF)?
                   </label>
                   <div className="respuestas-content">
-                    <p>
-                      A continuación ponemos a su disposición los siguientes
-                      canales o medios, mediante los cuales podrá comunicarse
-                      con nosotros de forma efectiva:{' '}
+                    <div>
+                      <p>
+                        A continuación ponemos a su disposición los siguientes
+                        canales o medios, mediante los cuales podrá comunicarse
+                        con nosotros de forma efectiva:{' '}
+                      </p>
+
                       <ul className="fa-ul">
                         <li>
                           <span className="fa-li">
@@ -194,7 +206,7 @@ const Ciudadano = () => {
                           </span>
                         </li>
                       </ul>
-                    </p>
+                    </div>
                   </div>
                 </div>
                 <div className="preguntas-grupo">
@@ -1077,7 +1089,7 @@ const Ciudadano = () => {
               </div>
               <div className="col-md-6">
                 <div className="card-body">
-                  <h2 id="acerca">Estímulo social de transporte estudiantil</h2>
+                  <h2 id="acerca">Estímulo Social de Transporte Estudiantil</h2>
                   <div className="linea-colores" />
                   <p
                     className="card-text  fw-bold"

@@ -121,20 +121,18 @@
 /* VIDEO */
 
 .video-contenedor {
-  border: 2px solid #002856;
-  border-radius: 50px;
-  margin-top: 65px;
+  margin-top: 150px;
   margin-bottom: 144px;
   margin: 0 auto;
   text-align: center;
-  max-width: 450px;
+  max-width: 750px;
 }
 
 .video-contenedor h2 {
-  color: #002856;
+  color: #00519E;
   position: relative;
   top: -6px;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   line-height: 1.5;
   font-weight: bold;
   
@@ -142,12 +140,14 @@
 
 .video-contenedor a { 
   text-decoration: none;
+  color:#00519E;
+ 
 }
 
 .video-contenedor iframe {
   /* width: 100%; */
   /* height: 40vw; */
-  border-radius: 0 0 50px 50px;
+  border-radius: 20px;
 }
 
 /* tarjeta transmetro */
@@ -402,9 +402,9 @@ font-weight: bold;
 }
 
 .car__info {
-  width: 300px;
+  width: 180px;
   /* margin: 20px; */
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
   background: #002856;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -419,6 +419,7 @@ font-weight: bold;
   /* width: 50%;
   height: 50%; */
   width: 100px;
+  padding:10px;
   object-fit: cover;
 }
 .car__info:hover {
@@ -482,18 +483,20 @@ font-weight: bold;
 
 /* movilizado */
 .car-movilizados {
-  border-radius: 30px;
-  overflow: hidden;
   background: #e30613;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-
   margin-top: 65px;
-  margin-bottom: 65px;
-  /* height: 10vw; */
-  max-width: 550px;
+  margin-bottom: -16px;
+}
+.car-movilizados .card {
+  background: #e30613;
+  
+}
+.car-movilizados .card img {
+  margin-top: 30px;
+  width: 200px;
 }
 .car-movilizados h2 {
-  margin-top: 5px;
+  margin-top: 10px;
   color: #fff;
   
 }
@@ -504,7 +507,8 @@ font-weight: bold;
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .car-movilizados h2 {
     /* flex-wrap: wrap; */
-    font-size: 4.5vw;
+    text-align: center;
+    /* font-size: 4.5vw; */
   }
 }
 
@@ -618,7 +622,7 @@ font-weight: bold;
 /* Sistemas 2 */
 
 .linea-accesible {
-  width: 80%;
+  width: 30%;
   height: 3px;
   background-image: linear-gradient(
     90deg,
@@ -633,10 +637,18 @@ font-weight: bold;
 /* Accesibilidad Bootstrap */
 .acce {
   background-color: #002856;
-  color: #004f9f;
-  margin-bottom: 100px;
+  
+  margin-bottom: 50px;
 }
-
+.acce .card-title  {
+  background-color: #002856;
+}
+.acce h2 {
+  margin-top: 50px;
+  margin-bottom:30px;
+  color: white;
+  font-weight: bold;
+}
 .titulo-acce {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -649,16 +661,19 @@ font-weight: bold;
 }
 
 .car__Acce {
-  border-radius: 30px;
+ /*  border-radius: 30px; */
   margin: 0 auto;
   text-align: auto;
-  padding-bottom: 154px;
+  padding-bottom: 100px;
+  /* max-width: 1100px; */
 }
 .car__Acce-card {
-  border-radius: 30px;
+  border-radius: 20px;
+  color: #004f9f
+  /* width: 300px; */
 }
 .car__Acce-card img {
-  width: 50%;
+  width: 150px;
 }
 /* Troncales */
 
@@ -892,7 +907,7 @@ font-weight: bold;
 }
 .card__credito .linea-colores-cred {
   
-    width: 50%;
+    width: 21%;
     height: 5px;
     background-image: linear-gradient(
       90deg,
@@ -918,10 +933,130 @@ font-weight: bold;
   
 }
 
+.card__credito a {
+  background-color: #00a13a;
+  border: 1px solid #00a13a;
+  border-radius: 20px;
+  width: 15rem;
+}
+
 .card__credito #credito_img {
   background-image: url("https://apiwebtm.com/uploads/credito_9e6e099d6c.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 450px;
+}
+
+
+.card__credito #personalizacion_img {
+  background-image: url("https://apiwebtm.com/uploads/personalizacion_f07a455788.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+}
+
+
+/* cultura */
+
+.card__cultura {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__cultura {
+   background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__cultura h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__cultura .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__cultura p{
+  color:#002856;
+}
+.card__cultura li{
+  color:#002856;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.card__cultura a {
+  background-color: #00a13a;
+  border: 1px solid #00a13a;
+  border-radius: 20px;
+  width: 15rem;
+}
+
+.card__cultura #cultura_img {
+  background-image: url("https://apiwebtm.com/uploads/cultura_ef186cfcf6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+}
+
+
+/* card datos de infra */
+
+.card_infra-dato {
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0 50px 50px 0;
+  padding: 15px 15px  ;
+  width: 230px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 20px #707070;
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+  /* height: 300px; */
+  
+}
+.card_infra-dato img {
+  width: 100px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .linea-colores-peque {
+    width: 35%;
+    height: 2px;
+  }
+ 
+  .card_infra-dato {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .cont-infra-dato h2 {
+    margin-bottom: 0px;
+    margin-top: -50px;
+  }
+ 
 }

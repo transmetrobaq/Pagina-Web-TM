@@ -263,7 +263,7 @@ const Infra = () => {
                           perdida, daño o hurto.
                         </p>
                         <a
-                          href="/"
+                          href="http://www.sitbarranquilla.com/index.php/personaliza-tu-tarjeta"
                           className="btn btn-primary"
                           target="_blank"
                           rel="noreferrer"
@@ -382,7 +382,7 @@ const Infra = () => {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          Realiza tu PQRS aquí
+                          Gestiona tu PQRS{' '}
                         </a>
                       </div>
                     </div>

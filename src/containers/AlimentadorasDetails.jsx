@@ -22,9 +22,9 @@ const AlimentadorasDetails = () => {
   return (
     <>
       <div className="container adetail__cards " key={rali.id}>
-        <h1 className=" azul-lt justify-content-start" id="rutas">
+        <h2 className=" azul-lt justify-content-start" id="rutas">
           {rali.name}
-        </h1>
+        </h2>
 
         <div className="map-alimentadora ">
           <iframe
@@ -44,7 +44,7 @@ const AlimentadorasDetails = () => {
               </div>
               <div className="col-md-6">
                 <div className="card-body">
-                  <h2 className="card-title azul-lt">HORARIO DE RUTAS</h2>
+                  <h2 className="card-title azul-lt">Horario de rutas</h2>
                   <ul className="list-group " style={{ listStyleType: 'none' }}>
                     <li className="azul-lt">
                       <span>Lunes a viernes:</span> {rali.horario_lv}
@@ -66,7 +66,7 @@ const AlimentadorasDetails = () => {
               </div>
               <div className="col-md-6">
                 <div className="card-body">
-                  <h2 className="card-title azul-lt">SITIOS DE INTERÉS</h2>
+                  <h2 className="card-title azul-lt">Sitios de interés</h2>
 
                   <ReactMarkdown className="card-text azul-lt">
                     {rali.sitios}
@@ -83,7 +83,7 @@ const AlimentadorasDetails = () => {
           <div className="card-group">
             <div className="card ">
               <div className="card-body ">
-                <h2 className="card-title text-center">PARADEROS</h2>
+                <h2 className="card-title text-center">Paraderos</h2>
                 <ReactMarkdown className="card-text">
                   {rali.paraderos}
                 </ReactMarkdown>
@@ -91,7 +91,7 @@ const AlimentadorasDetails = () => {
             </div>
             <div className="card ">
               <div className="card-body ">
-                <h2 className="card-title text-center">VENTA</h2>
+                <h2 className="card-title text-center">Recargas</h2>
                 <ReactMarkdown className="card-text">
                   {rali.venta}
                 </ReactMarkdown>
@@ -99,7 +99,7 @@ const AlimentadorasDetails = () => {
             </div>
             <div className="card">
               <div className="card-body ">
-                <h2 className="card-title text-center">TRANSBORDOS</h2>
+                <h2 className="card-title text-center">Transbordos</h2>
                 <ReactMarkdown className="card-text">
                   {rali.transbordos}
                 </ReactMarkdown>
