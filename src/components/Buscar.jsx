@@ -38,6 +38,8 @@ const Buscar = () => {
 
   return (
     <div className="search ">
+      {/* <!-- Button trigger modal --> */}
+
       <form className="d-flex">
         {/* <input
           className="form-control me-2"

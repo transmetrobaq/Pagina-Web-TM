@@ -47,15 +47,15 @@ const Acordeon = () => {
                 >
                   <div className="accordion-body">
                     <div className="list-group">
-                      {/*  <a
-                        href="https://apiwebtm.com/uploads/Funciones_y_Deberes_TM_S_A_S_4d82095412.pdf"
+                      <a
+                        href="https://apiwebtm.com/uploads/MISION_VISION_d441bce90a.pdf"
                         className="list-group-item list-group-item-action"
                         aria-current="true"
                         target="_blank"
                         rel="noreferrer"
                       >
                         1.1.1 Misión y visión
-                      </a> */}
+                      </a>
                       <a
                         href="https://apiwebtm.com/uploads/Funciones_y_Deberes_TM_S_A_S_4d82095412.pdf"
                         className="list-group-item list-group-item-action"
@@ -98,8 +98,8 @@ const Acordeon = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <a
-                    href="/"
-                    className="accordion-button collapsed"
+                    href="https://apiwebtm.com/uploads/Directorio_Institucional_incluyendo_oficinas_y_dependencias_1_4_9413d3cd2a.docx"
+                    className="accordion-button collapsed text-decoration-none"
                     type="button"
                     target="_blank"
                     rel="noreferrer"
@@ -111,8 +111,8 @@ const Acordeon = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <a
-                    href="/transparencia/directorio"
-                    className="accordion-button collapsed"
+                    href="https://apiwebtm.com/uploads/1_5_Directorio_de_servidores_publicos_empleados_o_contratista_1_5_fcfbeb1b04.xlsx"
+                    className="accordion-button collapsed text-decoration-none"
                     type="button"
                     target="_blank"
                     rel="noreferrer"
@@ -124,8 +124,8 @@ const Acordeon = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <a
-                    href="/"
-                    className="accordion-button collapsed"
+                    href="https://apiwebtm.com/uploads/1_6_Directorio_de_entidades_sector_Transporte_5073395581.xlsx"
+                    className="accordion-button collapsed text-decoration-none"
                     type="button"
                     target="_blank"
                     rel="noreferrer"

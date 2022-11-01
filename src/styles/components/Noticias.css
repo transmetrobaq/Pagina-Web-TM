@@ -15,9 +15,9 @@ body {
 .card__noti {
   margin-top: 25px;
 }
-.card__noti h1 {
+.card__noti h2 {
   font-weight: bold;
-  color: #002856;
+  color: #00519E;
 }
 .card__noti img {
   width: 300px;

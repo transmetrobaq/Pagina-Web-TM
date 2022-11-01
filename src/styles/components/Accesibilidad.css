@@ -1,12 +1,13 @@
 .azul-lt {
-  color: #002856;
+  color: #00519E;
 }
 
 #accesibilidad span {
   font-weight: bold;
 }
-#accesibilidad h1 {
+#accesibilidad h2 {
   font-weight: bold;
+  color: #00519E;
 }
 
 .accesibilidad-tm {
@@ -20,6 +21,10 @@
   color: #c00d0d;
 
   margin: 0 auto;
+}
+.accesibilidad-tm  p {
+  color: #002856;
+  
 }
 .accesibilidad-tm h5 {
   font-weight: bold;

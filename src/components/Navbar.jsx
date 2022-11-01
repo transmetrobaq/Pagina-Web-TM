@@ -1,19 +1,36 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable jsx-a11y/role-supports-aria-props */
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-/* import Buscar from './Buscar'; */
+import Buscar from './Buscar';
 
 import '../styles/components/Navbar.css';
 
 // eslint-disable-next-line arrow-body-style
 const Navbar = () => {
+  const [position, setPosition] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    const handleScroll = () => {
+      const moving = window.pageYOffset;
+
+      setVisible(position > moving);
+      setPosition(moving);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  });
+
+  const cls = visible ? 'visible fixed-top' : 'hidden';
+
   return (
-    <>
+    <div className={cls}>
       <nav
         id="navbar-Tm"
-        className=" container-fluid navbar__card navbar fixed-top navbar-expand-lg navbar-light bg-white"
+        className=" container-fluid navbar__card navbar  navbar-expand-lg navbar-light bg-white"
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
@@ -58,7 +75,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Acerca de
+                      Reseña historia
                     </a>
                   </li>
                   <li className="nav-item">
@@ -72,7 +89,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
-                      href="/transmetro/#asamblea-socios"
+                      href="/transmetro/#organigrama"
                       className="dropdown-item"
                       aria-current="page"
                     >
@@ -90,11 +107,20 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
+                      href="/transmetro/#que-es-tm"
+                      className="dropdown-item "
+                      aria-current="page"
+                    >
+                      Qué es Transmetro y cómo está conformado
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
                       href="/transmetro/#datos-infraestructura"
                       className="dropdown-item "
                       aria-current="page"
                     >
-                      Datos de Infraestructura
+                      Infraestructura
                     </a>
                   </li>
                 </ul>
@@ -123,9 +149,11 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
-                      href="/sistema/#personalizacion"
+                      href="http://www.sitbarranquilla.com/index.php/personaliza-tu-tarjeta"
                       className="dropdown-item"
                       aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       Personalización
                     </a>
@@ -355,7 +383,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            {/* <Buscar /> */}
+            <Buscar />
             {/*  <form className="d-flex ">
               <input
                 className="form-control me-2"
@@ -370,7 +398,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

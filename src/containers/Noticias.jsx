@@ -63,9 +63,9 @@ const Noticias = () => {
         <div className="row align-items-center ">
           <div className="col-md-6">
             <div className="card-body ">
-              <h1 className=" card-title text-center ">
-                COMUNICADOS DE PRENSA
-              </h1>
+              <h2 className=" card-title text-center ">
+                Comunicados de prensa
+              </h2>
             </div>
           </div>
           <div className="col-md-6 ">
@@ -86,7 +86,7 @@ const Noticias = () => {
               <article className="nt ligth blue" key={notis.id}>
                 <img
                   src={`https://apiwebtm.com${notis.url}`}
-                  className="nt__img"
+                  className="nt__img img-fluid"
                   alt={notis.alt}
                 />
 
@@ -295,7 +295,7 @@ const Noticias = () => {
             <div className="carousel-item active">
               <img
                 src="https://apiwebtm.com/uploads/DSC_02052_cf8d58e6d0.JPG"
-                className="d-block w-100"
+                className="d-block w-100 img-fluid"
                 alt="Imagen de Galeria"
               />
               <div className="carousel-caption d-none d-md-block text-white">

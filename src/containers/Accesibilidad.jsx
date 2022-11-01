@@ -11,12 +11,12 @@ const Accesibilidad = () => (
       <div className="col-sm-12">
         <div className="card border-0">
           <div id="accesibilidad" className="card-body">
-            <h1
+            <h2
               className="card-title text-center"
               style={{ marginBottom: '30px' }}
             >
               Accesibilidad en la página web de Transmetro{' '}
-            </h1>
+            </h2>
 
             <p className="card-text">
               La accesibilidad a personas en condición de discapacidad es otro

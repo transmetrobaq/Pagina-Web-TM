@@ -13,7 +13,7 @@ const Transmetro = () => {
   };
   return (
     <>
-      {/* <!-- acerca de  --> */}
+      {/* <!-- Reseña Historica  --> */}
 
       <div
         className="container-xxl "
@@ -25,7 +25,7 @@ const Transmetro = () => {
             <div className="row g-0 justify-content-end ">
               <div className="col-md-6">
                 <div className="card-body">
-                  <h2 id="acerca">Reseña histórica</h2>
+                  <h2>Reseña histórica</h2>
                   <div className="linea-colores-movi" />
                 </div>
               </div>
@@ -105,7 +105,7 @@ const Transmetro = () => {
         </div>
       </div>
       {/* Mision -Vision */}
-      <div className="container-xxl">
+      <div className="container-xxl" id="#mision-vision">
         <div className="card__mision">
           <div className="card mb-3 border border-0">
             <div className="row g-0 justify-content-end ">
@@ -177,7 +177,7 @@ const Transmetro = () => {
       </div>
 
       {/* Asamblea de Socios */}
-      <div id="asamblea-socios" className="container asamblea">
+      <div id="organigrama" className="container asamblea">
         <div className="card mb-3 border border-0">
           <div className="row g-0 justify-content-end ">
             <div className="col-md-6">
@@ -369,7 +369,7 @@ const Transmetro = () => {
       </div>
 
       {/* que es transmetro */}
-      <div className="container-xxl conformado">
+      <div className="container-xxl conformado" id="que-es-tm">
         <div className="card mb-3 border border-0" id="que-es-transmetro">
           <div className="row g-0 justify-content-end ">
             <div className="col-md-10">

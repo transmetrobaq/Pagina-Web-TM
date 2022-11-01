@@ -43,8 +43,20 @@ margin-left: 0.625rem;
   img {
     width: 232px;
     height: 61px;
+    
   }
  
 }
 
 
+/* css header to hide on scroll */
+.visible {
+  /* display: flex; */
+  top: 0; 
+  transition: top 0.4s ease-out;
+}
+.hidden {
+  /* display: none; */
+  top: -30px;
+  transition: top 0.4s ease-out;
+}
