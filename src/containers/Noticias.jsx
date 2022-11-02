@@ -7,7 +7,9 @@
 import React, { useState, useEffect } from 'react';
 /* import { Link } from 'react-router-dom'; */
 import axios from 'axios';
+import Gallery from '../components/Gallery';
 import '../styles/components/Noticias.css';
+import '../styles/components/Gallery.css';
 
 // eslint-disable-next-line arrow-body-style
 const Noticias = () => {
@@ -47,6 +49,20 @@ const Noticias = () => {
   const prevPage = () => {
     setStart(start - limit);
   };
+
+  /* const imageIDs = Array(30) // the maximum is currently 149
+    .fill(1)
+    .map((_, i) => i + 1); */
+  // eslint-disable-next-line arrow-body-style
+  const images = noti.map((notis) => {
+    return {
+      src: `https://apiwebtm.com${notis.url}`,
+      /* srcset: `https://placedog.net/400/240?id=${imageID} 400w, https://placedog.net/700/420?id=${imageID} 700w, https://placedog.net/1000/600?id=${imageID} 1000w`, */
+      sizes: '(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px',
+      alt: `${notis.alt}`,
+      thumbnail: `https://apiwebtm.com${notis.url}`,
+    };
+  });
 
   return (
     <>
@@ -147,7 +163,7 @@ const Noticias = () => {
         <div className="container linea-colores" />
         {/* Informativos */}
         <div className="container card__informativos" id="informativos">
-          <h2>VIDEOS</h2>
+          <h2>Videos</h2>
           <div className="row row-cols-1 row-cols-md-2 g-4">
             <div className="col">
               <div className="card ">
@@ -221,13 +237,24 @@ const Noticias = () => {
         <div className="container linea-colores" />
 
         {/* <!-- GALERIA --> */}
-        <div
+        <div className="container-xxl" style={{ backgroundColor: 'F5F5F5' }}>
+          {' '}
+          <div
+            className="card-body card__noti "
+            style={{ backgroundColor: 'F5F5F5' }}
+          >
+            <h2 className=" card-title text-center ">Galeria</h2>
+          </div>
+          <Gallery images={images} />
+        </div>
+
+        {/* <div
           className="container contianer__galeria text-center rounded-bottom"
           id="galeria-de-imagenes"
         >
           <h2 className="card-title">GALERÍA</h2>
-        </div>
-        <div
+        </div> */}
+        {/* <div
           id="carouselExampleIndicators"
           className="carousel slide mx-auto d-block card__galeria"
           data-bs-ride="carousel"
@@ -416,7 +443,7 @@ const Noticias = () => {
             ></span>
             <span className="visually-hidden">Next</span>
           </button>
-        </div>
+        </div> */}
       </div>
     </>
   );
