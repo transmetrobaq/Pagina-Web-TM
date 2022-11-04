@@ -70,17 +70,40 @@ const Acordeon = () => {
                 </div>
               </div>
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="https://apiwebtm.com/uploads/Funciones_y_Deberes_TM_S_A_S_4d82095412.pdf"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneTwo"
+                >
+                  <button
                     className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneTwo"
                   >
                     1.2 Estructura orgánica
-                  </a>
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOneTwo"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneTwo"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <a
+                        href="https://apiwebtm.com/uploads/Organigrama_TM_3c82f936b9.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        1.2.1 Organigrama
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="accordion-item">
                 <h2 className="accordion-header">
@@ -228,17 +251,65 @@ const Acordeon = () => {
                 </h2>
               </div>
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="/"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneFourteen"
+                >
+                  <button
                     className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneFourteen"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneFourteen"
                   >
                     1.14 Publicación de hojas de vida
-                  </a>
+                  </button>
                 </h2>
+
+                <div
+                  id="panelsStayOpen-collapseOneFourteen"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneFourteen"
+                >
+                  <div className="accordion-body">
+                    <div className="accordion-item">
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-heading2021"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapse2021"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapse2021"
+                          >
+                            2021
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapse2021"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-heading2021"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Control_Interno_6444c056f8.rar"
+                                className="list-group-item list-group-item-action "
+                              >
+                                Control interno
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -312,8 +383,10 @@ const Acordeon = () => {
                           2.1.4 Vínculo al Diario o Gaceta Oficial
                         </a>
                         <a
-                          href="/"
+                          href="https://apiwebtm.com/uploads/DECRETO_0151_2010_RESTRICCION_TRANSMETRO_1_9254e0b42c.pdf"
                           className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
                         >
                           2.1.5 Políticas
                         </a>
@@ -355,12 +428,16 @@ const Acordeon = () => {
                         <a
                           href="https://www.suin-juriscol.gov.co/"
                           className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
                         >
                           2.2.1 Sistema Único de Información Normativa
                         </a>
                         <a
                           href="/"
                           className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
                         >
                           2.2.2 Sistema de búsquedas de normas
                         </a>
@@ -1932,6 +2009,338 @@ const Acordeon = () => {
                       </div>
                     </div>
                   </div> */}
+                </div>
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingFourSeven"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFourSeven"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFourSeven"
+                    >
+                      4.7 Informes de gestión, evaluación y auditoria
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFourSeven"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFourSeven"
+                  >
+                    <div className="accordion-body">
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourSevenOne"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourSevenOne"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourSevenOne"
+                          >
+                            4.7.1 Informes de gestión
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourSevenOne"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourSevenOne"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_VIG_2018_3db400b623.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2018
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_vig_2020_52ac1481e9.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_VIG_2021_059baee754.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingThreeSevenTwo"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThreeSevenTwo"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThreeSevenTwo"
+                          >
+                            4.7.2 Informe de rendición de cuentas ante la
+                            Contraloría General de la República, o a los
+                            organismos de Contraloría o Control territoriales
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseThreeSevenTwo"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingThreeSevenTwo"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/REND_CTAS_CGN_VIG_2017_b177b4c477.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2018
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/REND_CTAS_CGN_VIG_2018_7018798702.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/REND_CTAS_CGN_VIG_2019_32faec516a.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/REND_CTAS_CGN_VIG_2020_46bef8eb0f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Reporte_Rend_Ctas_2021_b174d5a737.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourSevenThree"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourSevenThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourSevenThree"
+                          >
+                            4.7.3 Informe de rendición de cuentas a la
+                            ciudadanía sobre resultados, avances de la gestión y
+                            garantía de derecho de rendición de cuentas
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourSevenThree"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourSevenThree"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/RADICADO_REND_CTA_CDB_201702_341a636672.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2018
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RADICADO_REND_CTA_CDB_201802_640e4a32bc.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RADICADO_REND_CTA_CDB_201902_b4752f9a44.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RADICADO_REND_CTA_CDB_202002_8a4faf5cce.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RADICADO_REND_CTA_CDB_202102_d2c0743eb4.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourSevenFour"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourSevenFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourSevenFour"
+                          >
+                            4.7.4 DNDA{' '}
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourSevenFour"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourSevenFour"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/CUMPLIMIENTO_DNDA_VIG_2018_d7cba0336f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2018
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CUMPLIMIENTO_DNDA_VIG_2019_c56055d3e6.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_DNDA_VIG_2020_d1ac06377d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_DNDA_VIG_2021_021707f355.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourSevenFive"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourSevenFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourSevenFive"
+                          >
+                            4.7.5 Planes de mejoramiento
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourSevenFive"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourSevenFive"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2018_c1392f476d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2018
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2019_26ca60beb6.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2020_279383ab40.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2021_a0ff3e1d41.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

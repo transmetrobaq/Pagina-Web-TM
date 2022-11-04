@@ -21,10 +21,11 @@ const AlimentadorasDetails = () => {
   /* console.log(rali); */
   return (
     <>
-      <div className="container adetail__cards " key={rali.id}>
+      <div className="container alidetail__cards " key={rali.id}>
         <h2 className=" azul-lt justify-content-start" id="rutas">
           {rali.name}
         </h2>
+        <div className="linea-colores-movi" style={{ width: '150px' }} />
 
         <div className="map-alimentadora ">
           <iframe
@@ -37,40 +38,141 @@ const AlimentadorasDetails = () => {
         <div className="horario-sitio  ">
           <div className="mb-3">
             <div className="row g-0">
-              <div className="col-md-6">
+              <div className="col-md-11">
                 <div className="card-body">
-                  <p className="card-text azul-lt">{rali.content}</p>
+                  <p className="card-text azul-lt fw-bold">{rali.content}</p>
+                </div>
+              </div>
+            </div>
+            <div className="row g-4">
+              <div className="col-md-6">
+                <div className="card" style={{ backgroundColor: '#f5f5f5' }}>
+                  <div className="card-body">
+                    <i className="fa-regular fa-clock fa-5x " />
+                    <h5 className="card-title azul-lt">Horario de rutas</h5>
+                    <ul
+                      className="list-group "
+                      style={{ listStyleType: 'none' }}
+                    >
+                      <li>
+                        <span>Lunes a viernes:</span> {rali.horario_lv}
+                      </li>
+                      <li>
+                        <span>Sábados:</span> {rali.horario_sab}
+                      </li>
+                      <li>
+                        <span> Domingo y festivos:</span> {rali.horario_dom}
+                      </li>
+                    </ul>
+
+                    <p className="card-text">
+                      <small className="text-muted">
+                        Actualizado {rali.updated_at}
+                      </small>
+                    </p>
+                  </div>
+                </div>
+                <div className="card" style={{ border: '1px solid #002856' }}>
+                  <div className="card-body">
+                    <h5 className="card-title ">Sitios de interés</h5>
+
+                    <ReactMarkdown className="card-text ">
+                      {rali.sitios}
+                    </ReactMarkdown>
+                  </div>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="card-body">
-                  <h2 className="card-title azul-lt">Horario de rutas</h2>
-                  <ul className="list-group " style={{ listStyleType: 'none' }}>
-                    <li className="azul-lt">
-                      <span>Lunes a viernes:</span> {rali.horario_lv}
-                    </li>
-                    <li className="azul-lt">
-                      <span>Sábados:</span> {rali.horario_sab}
-                    </li>
-                    <li className="azul-lt">
-                      <span> Domingo y festivos:</span> {rali.horario_dom}
-                    </li>
-                  </ul>
-
-                  <p className="card-text">
-                    <small className="text-muted">
-                      Actualizado {rali.updated_at}
-                    </small>
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card-body">
-                  <h2 className="card-title azul-lt">Sitios de interés</h2>
-
-                  <ReactMarkdown className="card-text azul-lt">
-                    {rali.sitios}
-                  </ReactMarkdown>
+                <div
+                  className="accordion accordion-flush"
+                  id="accordionFlushAlimentadora"
+                >
+                  <div className="accordion-item">
+                    <h5
+                      className="accordion-header fw-bold "
+                      id="flush-headingOne"
+                    >
+                      <button
+                        className="accordion-button collapsed "
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                        style={{ border: '1px solid #002856' }}
+                      >
+                        Paraderos
+                      </button>
+                    </h5>
+                    <div
+                      id="flush-collapseOne"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushAlimentadora"
+                    >
+                      <div className="accordion-body">
+                        <ReactMarkdown className="card-text">
+                          {rali.paraderos}
+                        </ReactMarkdown>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h5 className="accordion-header" id="flush-headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                        style={{ border: '1px solid #002856' }}
+                      >
+                        Recargas
+                      </button>
+                    </h5>
+                    <div
+                      id="flush-collapseTwo"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionFlushAlimentadora"
+                    >
+                      <div className="accordion-body">
+                        <ReactMarkdown className="card-text">
+                          {rali.venta}
+                        </ReactMarkdown>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h5 className="accordion-header" id="flush-headingThree">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                        style={{
+                          border: '1px solid #002856',
+                        }}
+                      >
+                        Transbordos
+                      </button>
+                    </h5>
+                    <div
+                      id="flush-collapseThree"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                      data-bs-parent="#accordionFlushAlimentadora"
+                    >
+                      <div className="accordion-body">
+                        <ReactMarkdown className="card-text">
+                          {rali.transbordos}
+                        </ReactMarkdown>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -79,7 +181,7 @@ const AlimentadorasDetails = () => {
 
         {/* / tabla / */}
 
-        <div className="container tabla-alimentadoras">
+        {/* <div className="container tabla-alimentadoras">
           <div className="card-group">
             <div className="card ">
               <div className="card-body ">
@@ -106,7 +208,7 @@ const AlimentadorasDetails = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Boton Ir Rutas Alimentadoras */}
         <center className="backNoti">
           <a

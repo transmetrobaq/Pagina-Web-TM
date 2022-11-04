@@ -1,14 +1,34 @@
-.adetail__cards {
+.troncaldetail__cards {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
-.adetail__cards h1 {
+.troncaldetail__cards h2 {
+  font-weight: bold;
+  color: #00519E;
+  
+}
+.troncaldetail__cards h5 {
+  font-weight: bold;
+  color: #002856;
+  margin-top: 20px;
+}
+.troncaldetail__cards span {
+  color: #002856 ;
   font-weight: bold;
 }
-.adetail__cards span {
-  color: #e30613;
-  font-weight: bold;
+
+.troncaldetail__cards i {
+  
+  color: #002856;
+  margin-top: 20px;
+}
+.troncaldetail__cards p {
+  color: #002856;
+  margin-top: 20px;
+  
+}
+.troncaldetail__cards .card-body {
+  padding: 40px;
 }
 @media only screen and (min-width: 200px) and (max-width: 568px) {
   .seleccion-rutas .row {
@@ -27,7 +47,15 @@
 
 /* Horario y sitio */
 
-.horario-sitio {
+.horario-sitioTroncal {
   margin-top: 50px;
   margin-bottom: 50px;
+  
+}
+
+.horario-sitioTroncal ul {
+  margin-top: 20px;
+  color: #002856 !important;
+  
+  
 }

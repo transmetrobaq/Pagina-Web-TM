@@ -107,7 +107,7 @@ const Noticias = () => {
                 />
 
                 <div className="nt__text">
-                  <h3 className="nt__title">{notis.title}</h3>
+                  <h4 className="nt__title">{notis.title}</h4>
                   <div>
                     <time>
                       <p className="card-text">
@@ -234,216 +234,36 @@ const Noticias = () => {
             </button>
           </span>
         </div>
-        <div className="container linea-colores" />
-
-        {/* <!-- GALERIA --> */}
-        <div className="container-xxl" style={{ backgroundColor: 'F5F5F5' }}>
-          {' '}
-          <div
-            className="card-body card__noti "
-            style={{ backgroundColor: 'F5F5F5' }}
-          >
-            <h2 className=" card-title text-center ">Galeria</h2>
+      </div>
+      {/* <!-- GALERIA --> */}
+      <div
+        className="container-xxl "
+        style={{ backgroundColor: '#F5F5F5' }}
+        id="reseña-historica"
+      >
+        <div className="card_gallery ">
+          <div className="card mb-3 border border-0">
+            <div className="row g-0 justify-content-end ">
+              <div className="col-md-6">
+                <div className="card-body">
+                  <h2>Galeria</h2>
+                  <div className="linea-colores-movi" />
+                </div>
+              </div>
+              <div className="col-md-5" />
+            </div>
           </div>
-          <Gallery images={images} />
+
+          <div className="card mb-3 border border-0">
+            <div className="row g-0 justify-content-center ">
+              <div className="col-md-11">
+                <div className="card-body">
+                  <Gallery images={images} />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        {/* <div
-          className="container contianer__galeria text-center rounded-bottom"
-          id="galeria-de-imagenes"
-        >
-          <h2 className="card-title">GALERÍA</h2>
-        </div> */}
-        {/* <div
-          id="carouselExampleIndicators"
-          className="carousel slide mx-auto d-block card__galeria"
-          data-bs-ride="carousel"
-          style={{
-            border: '3px solid #002856',
-            width: '90%',
-            borderTop: 'none',
-            marginBottom: '50px',
-            marginTop: '0px',
-          }}
-        >
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="4"
-              aria-label="Slide 5"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="5"
-              aria-label="Slide 6"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="6"
-              aria-label="Slide 7"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="7"
-              aria-label="Slide 8"
-            ></button>
-          </div>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img
-                src="https://apiwebtm.com/uploads/DSC_02052_cf8d58e6d0.JPG"
-                className="d-block w-100 img-fluid"
-                alt="Imagen de Galeria"
-              />
-              <div className="carousel-caption d-none d-md-block text-white">
-                <h5 className="card-title">
-                  Usuarios esperando servicio en plataforma de estación Joe
-                  Arroyo
-                </h5>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://apiwebtm.com/uploads/DSC_02043_a7ea16c696.JPG"
-                className="d-block w-100"
-                alt="Imagen de Galeria"
-              />
-              <div className="carousel-caption d-none d-md-block text-white">
-                <h5 className="card-title">
-                  Plataforma de servicio estación Joe Arroyo
-                </h5>
-              </div>
-            </div>
-
-            <div className="carousel-item">
-              <img
-                src="https://apiwebtm.com/uploads/DSC_02028_68ff9f6288.JPG"
-                className="d-block w-100"
-                alt="Imagen de Galeria"
-              />
-              <div className="carousel-caption d-none d-md-block text-white">
-                <h5 className="card-title">
-                  Usuarios al interior de un servicio articulado
-                </h5>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://apiwebtm.com/uploads/DSC_02004_3304f2a884.JPG"
-                className="d-block w-100"
-                alt="Imagen de Galeria"
-              />
-              <div className="carousel-caption d-none d-md-block text-white">
-                <h5 className="card-title">
-                  Usuario validando su entrada a Portal de Soledad
-                </h5>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://apiwebtm.com/uploads/DSC_02001_d3c7f9f0a0.JPG"
-                className="d-block w-100"
-                alt="Imagen de Galeria"
-              />
-              <div className="carousel-caption d-none d-md-block text-white">
-                <h5 className="card-title">
-                  Usuario abordando servicio alimentador
-                </h5>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://apiwebtm.com/uploads/DSC_01984_66959cb169.JPG"
-                className="d-block w-100"
-                alt="Imagen de Galeria"
-              />
-              <div className="carousel-caption d-none d-md-block text-white">
-                <h5 className="card-title">
-                  Usuario consultando señalética informativa de ruta
-                  alimentadora
-                </h5>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://apiwebtm.com/uploads/DSC_01973_5a8b2a6204.JPG"
-                className="d-block w-100"
-                alt="Imagen de Galeria"
-              />
-              <div className="carousel-caption d-none d-md-block text-white">
-                <h5 className="card-title">
-                  Servicio alimentador en Portal de Soledad
-                </h5>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://apiwebtm.com/uploads/DSC_01952_2ceaaafec7.JPG"
-                className="d-block w-100"
-                alt="Imagen de Galeria"
-              />
-              <div className="carousel-caption d-none d-md-block text-white">
-                <h5 className="card-title">
-                  Servicio troncal en plataforma de Portal de Soledad
-                </h5>
-              </div>
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div> */}
       </div>
     </>
   );

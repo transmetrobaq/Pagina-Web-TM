@@ -111,7 +111,7 @@ body {
     flex-wrap: inherit;
   }
   .nt .nt__title {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
   .nt .nt__tagbox {
     justify-content: start;
@@ -308,4 +308,27 @@ body {
     width: 100%;
     height: 100%;
   }
+}
+
+
+/* Rediseño Galeria */
+
+/* acerca de  */
+
+.card_gallery {
+   margin-top: 50px;
+}
+
+.card_gallery .card {
+  background-color: #F5F5F5;
+}
+.card_gallery h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+  
+}
+.card_gallery p {
+  padding-right: 30px;
+  font-style: oblique;
 }

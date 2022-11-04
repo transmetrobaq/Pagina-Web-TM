@@ -20,9 +20,9 @@ const TroncalesDetails = () => {
   /* console.log(rali); */
   return (
     <>
-      <div className="container adetail__cards" id="Rtroncal">
-        <h1 className=" azul-lt justify-content-start">{rtron.name}</h1>
-
+      <div className="container troncaldetail__cards" id="Rtroncal">
+        <h2 className=" azul-lt justify-content-start">{rtron.name}</h2>
+        <div className="linea-colores-movi" style={{ width: '100px' }} />
         <div className="map-alimentadora">
           <iframe
             src={`https://www.google.com/maps/d/embed?mid=${rtron.kml}`}
@@ -31,42 +31,57 @@ const TroncalesDetails = () => {
           />
         </div>
 
-        <div className="horario-sitio  ">
+        <div className="horario-sitioTroncal  ">
           <div className="mb-3">
-            <div className="row g-0">
+            <div className="row g-4">
               <div className="col-md-6">
-                <div className="card-body">
-                  <p className="card-text azul-lt">{rtron.content}</p>
+                <div
+                  className="card h-100"
+                  style={{ border: '1px solid #002856' }}
+                >
+                  {' '}
+                  <div className="card-body">
+                    <i className="fa-solid fa-bus-simple fa-5x " />
+                    <h5 className="card-title azul-lt">Recorrido</h5>
+                    <p className="card-text azul-lt">{rtron.content}</p>
+                  </div>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="card-body">
-                  <h1 className="card-title azul-lt">HORARIO DE RUTAS</h1>
-                  <ul className="list-group " style={{ listStyleType: 'none' }}>
-                    <li className="azul-lt">
-                      <span>Lunes a viernes:</span> {rtron.horario_lv}
-                    </li>
-                    <li className="azul-lt">
-                      <span>Sábados:</span> {rtron.horario_sab}
-                    </li>
-                    <li className="azul-lt">
-                      <span> Domingo y festivos:</span> {rtron.horario_dom}
-                    </li>
-                  </ul>
+                <div
+                  className="card h-100"
+                  style={{ backgroundColor: '#F5F5F5' }}
+                >
+                  <div className="card-body">
+                    <i className="fa-regular fa-clock fa-5x " />
+                    <h5 className="card-title azul-lt">Horario de rutas</h5>
+                    <ul
+                      className="list-group "
+                      style={{ listStyleType: 'none' }}
+                    >
+                      <li>
+                        <span>Lunes a viernes:</span> {rtron.horario_lv}
+                      </li>
+                      <li>
+                        <span>Sábados:</span> {rtron.horario_sab}
+                      </li>
+                      <li>
+                        <span> Domingo y festivos:</span> {rtron.horario_dom}
+                      </li>
+                    </ul>
 
-                  <p className="card-text">
-                    <small className="text-muted">
-                      Actualizado {rtron.updated_at}
-                    </small>
-                  </p>
+                    <p className="card-text">
+                      <small>Actualizado {rtron.updated_at}</small>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              {/*  <div className="col-md-6">
                 <div className="card-body">
                   <h1 className="card-title azul-lt">SITIOS DE INTERÉS</h1>
                   <p className="card-text azul-lt">{rtron.sitios}</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

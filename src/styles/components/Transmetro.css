@@ -751,3 +751,36 @@ a:hover i {
 }
 
 
+/* Portafolio comercial */
+
+/* acerca de  */
+
+.comercial__card {
+  color: #002856;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+ 
+}
+
+.comercial__card .card {
+  background-color: #F5F5F5;
+  
+}
+.comercial__card h2 {
+  margin-bottom: -40px;
+  font-weight: bold;
+  color: #00519E;
+  
+}
+.comercial__card p {
+  padding-right: 30px;
+  /* font-style: oblique; */
+}
+
+.comercial__card li {
+  /* line-height: 4.5; */
+  margin-top: 40px;
+  color: #e30613;
+  
+}

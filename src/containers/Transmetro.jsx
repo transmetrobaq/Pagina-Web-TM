@@ -18,7 +18,7 @@ const Transmetro = () => {
       <div
         className="container-xxl "
         style={{ backgroundColor: '#F5F5F5' }}
-        id="acerca"
+        id="reseña-historica"
       >
         <div className="acerca__card ">
           <div className="card mb-3 border border-0">
@@ -678,6 +678,99 @@ const Transmetro = () => {
 
       {/* ------- */}
       <div />
+
+      {/* <!-- Portafolio Comercial  --> */}
+
+      <div
+        className="container-xxl "
+        style={{ backgroundColor: '#F5F5F5' }}
+        id="reseña-historica"
+      >
+        <div className="comercial__card ">
+          <div className="card mb-3 border border-0">
+            <div className="row g-0 justify-content-end ">
+              <div className="col-md-6">
+                <div className="card-body">
+                  <h2>Portafolio comercial</h2>
+                </div>
+              </div>
+              <div className="col-md-5" />
+            </div>
+            <div className="row g-0 justify-content-end ">
+              <div className="col-md-9">
+                <div className="card-body">
+                  <ul>
+                    <li className="card-title fw-bold ">
+                      Publicidad en infraestructura y buses de Transmetro:
+                    </li>
+                    <p className="card-text  fw-semibold">
+                      Actualmente contamos con un amplio portafolio de elementos
+                      disponibles, para ser intervenidos con brandeo comercial.
+                      Estos elementos incluyen billboards en estaciones, brandeo
+                      de buses en exterior e interior, actividades de marcar,
+                      torniquetes, entre una amplia variedad para escoger.
+                    </p>
+                    <p className="card-text fw-bold">
+                      Agencias comercializadoras
+                    </p>
+                    <div className="row g-4">
+                      <div className="col-sm-6">
+                        <div
+                          className="card"
+                          style={{
+                            backgroundColor: '#002856',
+                            color: '#FFFFFF',
+                          }}
+                        >
+                          <div className="card-body">
+                            <p className="card-title fw-bold">
+                              Publicidad Barranquilla S.A.S
+                            </p>
+                            <p className="card-text">
+                              Contacto: 3175052734 - 3002820002
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-6">
+                        <div
+                          className="card"
+                          style={{
+                            backgroundColor: '#F5F5F5',
+                            border: '1px solid #002856',
+                          }}
+                        >
+                          <div className="card-body">
+                            <p className="card-title fw-bold">
+                              Efectimedios S.A.
+                            </p>
+                            <p className="card-text">
+                              Contacto: 3166182466 - 3208558149
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <li className="card-title fw-bold ">
+                      Arriendo de locales comerciales
+                    </li>
+                    <p className="card-text">
+                      Transmetro ofrece 8 locales comerciales ubicados en el
+                      Portal de Soledad, con un área de 11.2 m² c/u. Un promedio
+                      de 94.000 usuarios transita semanalmente por este poral.
+                      Para mas información:{' '}
+                      <span className=" fw-bold ">
+                        comercial1@transmetro.gov.co
+                      </span>
+                    </p>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-md-2" />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

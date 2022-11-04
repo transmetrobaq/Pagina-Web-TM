@@ -71,7 +71,7 @@ const Navbar = () => {
                 <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
                   <li className="nav-item">
                     <a
-                      href="/transmetro/#acerca"
+                      href="/transmetro/#reseña-historica"
                       className="dropdown-item"
                       aria-current="page"
                     >
