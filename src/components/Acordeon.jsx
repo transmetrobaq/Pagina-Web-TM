@@ -2010,6 +2010,7 @@ const Acordeon = () => {
                     </div>
                   </div> */}
                 </div>
+                {/* 4.7 Informes de gestión, evaluación y auditoria */}
                 <div className="accordion-item">
                   <h2
                     className="accordion-header"
@@ -2338,6 +2339,120 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 4.8 Informes pormenorizados */}
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingFourEight"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFourEight"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFourEight"
+                    >
+                      4.8 Informes pormenorizados
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFourEight"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFourEight"
+                  >
+                    <div className="accordion-body">
+                      <div className="list-group">
+                        <a
+                          href="https://apiwebtm.com/uploads/Informe_Pormenorizado_Noviembre_Diciembre_2019_95f9fe4522.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2019
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/INFORMES_PORMENORIZADOS_2020_7166a59965.rar"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2020
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/INFORMES_PORMENORIZADOS_2021_94fb76e67d.rar"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2021
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/Informe_Pormenorizado_Conclusiones_Ene_Jun_2022_ed0781a6b3.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2022
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* 4.10 Informes  sobre acceso a información, quejas y reclamos */}
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingFourTen"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFourTen"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFourTen"
+                    >
+                      4.10 Informes sobre acceso a información, quejas y
+                      reclamos
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFourTen"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFourTen"
+                  >
+                    <div className="accordion-body">
+                      <div className="list-group">
+                        <a
+                          href="https://apiwebtm.com/uploads/INFORME_DE_AUDITORIA_SEMESTRE_2_2019_PQR_S_3856bd257a.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2019
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRS_SEMESTRE_2020_f86e9df152.rar"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2020
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRS_SEMESTRE_2021_2a662476c3.rar"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2021
+                        </a>
                       </div>
                     </div>
                   </div>
