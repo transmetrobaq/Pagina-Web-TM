@@ -17,6 +17,9 @@ const Noticias = () => {
   const [start, setStart] = useState(0);
   const [limit] = useState(3);
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
+  const [gale, setGale] = useState([]);
+  const [limitg] = useState(30);
+  const AP1 = `https://apiwebtm.com/noticias?_limit=${limitg}&_start=${start}&_sort=date:DESC`;
   /* const AP1 = `https://apiwebtm.com/galeria`; */
 
   const [totalCount, setTotalCount] = useState([]);
@@ -29,8 +32,10 @@ const Noticias = () => {
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const resnoti = await axios.get(AP);
+    const resgale = await axios.get(AP1);
     /* setNoti(resnoti.data.data.slice(start, limit)); */
     setNoti(resnoti.data);
+    setGale(resgale.data);
     /* Get Total de Arrays */
     const resCount = await axios.get(`https://apiwebtm.com/noticias/count`);
     setTotalCount(resCount.data);
@@ -54,13 +59,13 @@ const Noticias = () => {
     .fill(1)
     .map((_, i) => i + 1); */
   // eslint-disable-next-line arrow-body-style
-  const images = noti.map((notis) => {
+  const images = gale.map((gales) => {
     return {
-      src: `https://apiwebtm.com${notis.url}`,
+      src: `https://apiwebtm.com${gales.url}`,
       /* srcset: `https://placedog.net/400/240?id=${imageID} 400w, https://placedog.net/700/420?id=${imageID} 700w, https://placedog.net/1000/600?id=${imageID} 1000w`, */
       sizes: '(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px',
-      alt: `${notis.alt}`,
-      thumbnail: `https://apiwebtm.com${notis.url}`,
+      alt: `${gales.alt}`,
+      thumbnail: `https://apiwebtm.com${gales.url}`,
     };
   });
 
@@ -239,7 +244,7 @@ const Noticias = () => {
       <div
         className="container-xxl "
         style={{ backgroundColor: '#F5F5F5' }}
-        id="reseña-historica"
+        id="galeria-de-imagenes"
       >
         <div className="card_gallery ">
           <div className="card mb-3 border border-0">

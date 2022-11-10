@@ -36,41 +36,42 @@
 
  /* css rediseño */
 
- #carouselInterval h2 {
+/*  #carouselInterval h2 {
   width: 70vw;
-    margin-left: 50px;
-    margin-top: 350px;
+    margin-left: 100px;
+    margin-top: 250px;
   
-}
-#carouselInterval,
+} */
+/* #carouselInterval,
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-  height: 541px;
+  height: 500px;
   width: 100vw;
-}
-
+} */
+/* 
 .carousel-item:nth-of-type(1) {
-  /* background-image: `url(https://apiwebtm.com${noti1.url})`; */
+ 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  
 }
 .carousel-item:nth-of-type(2) {
- /*  background-image: url("https://mdbootstrap.com/img/Photos/Others/images/77.jpg"); */
+ 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .carousel-item:nth-of-type(3) {
- /*  background-image: url("https://mdbootstrap.com/img/Photos/Others/images/78.jpg"); */
+ 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-
+ */
 .linea-coloresHeader {
-  width: 70vw;
+  width: 50vw;
   height: 5px;
   background-image: linear-gradient(
     90deg,
@@ -83,19 +84,20 @@
   clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
 
   /* posición Mobile */
-  margin-left: 50px;
+  margin-left: 1px;
   margin-top: 10px;
+  margin-bottom: 50px;
 }
-#carouselInterval a{
+/* #carouselInterval a{
     
   color: #fff;
   text-decoration: none;
   
   
 
-}
+} */
 /* Height for devices larger than 992px */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #carouselInterval {
     margin-top: -58.59px;
    
@@ -106,14 +108,79 @@
       margin-top: 350px;
     
   }
-
+  #carouselInterval,
   .carousel-inner,
   .carousel-item,
   .carousel-item.active {
-    max-height: 530px;
+    height: 500px;
   }
   .linea-coloresHeader {
     width: 50vw;
     margin-left: 150px;
   }
+} */
+
+/* @media only screen and (min-width: 320px) and (max-width: 768px) {
+
+  #carouselInterval,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 320px;
+    width: 100vw;
+    margin-top: -40px;
+  }
+  #carouselInterval h2 {
+    width: 70vw;
+      margin-left: 50px;
+      margin-top: 230px;
+      font-size: 1.3em;
+    
+  }
+  .linea-coloresHeader {
+    width: 50vw;
+    margin-left: 50px;
+    margin-top: -10px;
+    
+  }
+} */
+
+
+
+/* Rediseño */
+
+#carouselExampleCaptions,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active { 
+ /*  max-height: 541px; */
+}
+.carousel h2 {
+   color: #fff;
+   text-align: start;
+   
+  }
+.carousel a {
+  text-decoration: none;
+}
+.carousel-item img {
+  max-height: 600px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+.carousel-item img {
+  min-height: 250px;
+}
+.carousel h2 {
+  /* font-size: 1.2em; */
+  
+  
+}
+
+.linea-coloresHeader {
+  width: 50vw;
+  
+  margin-top: -10px;
+  margin-bottom: 1px;
+}
 }

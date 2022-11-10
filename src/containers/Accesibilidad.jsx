@@ -19,13 +19,13 @@ const Accesibilidad = () => (
             </h2>
 
             <p className="card-text">
-              La accesibilidad a personas en condición de discapacidad es otro
+              La accesibilidad para personas que presentan discapacidad es otro
               de los factores que hacen del Sistema de Trasporte Masivo,
-              Transmetro, un servicio incluyente. El acceso al transporte
-              público es una de las maneras de garantizar la movilidad a la
-              comunidad en general, de ello da cuanta lo que tenemos ante
-              nuestra vista con la infraestructura, los autobuses y la operación
-              en general del Sistema.
+              Transmetro, un servicio incluyente. La accesibilidad en el
+              transporte público es una de las maneras de garantizar la
+              movilidad de la comunidad en general, de ello da cuanta lo que
+              tenemos ante nuestra vista con la infraestructura, los autobuses y
+              la operación en general del Sistema de Transporte Masivo.
             </p>
             <p className="card-text">
               <span>Espacio público:</span> en los andenes del Sistema la
@@ -41,17 +41,30 @@ const Accesibilidad = () => (
               podotáctiles y barreras de acceso especiales para personas cuya
               capacidad física para movilizarse le impida el paso a través de
               las barreras normales. En algunos casos, la obesidad puede ser
-              motivo para utilizar estas barreas especiales. Los buses del
-              Sistema cuentan con sillas preferenciales para personas que
-              presentan discapacidad, para adulto mayor, para mujeres
-              embarazadas y personas con niños en brazos; además de un espacio
-              para silla de rueda que cuenta con cinturones que afianza la silla
-              al bus, asegurando al usuario que la utiliza. Un porcentaje de los
-              buses Padrones y Busetones, además de las características
-              mencionadas, cuentan con un mecanismo de ascensor para usuarios
-              con movilidad reducida, quienes abordan el vehículo a la altura de
-              los andenes. El mismo es manipulado por el operador del bus para
-              facilitar el acceso del usuario.
+              motivo para utilizar estas barreas especiales.
+            </p>
+            <p className="card-text">
+              <span>Los buses </span>: cuentan con sillas preferenciales para
+              personas que presentan discapacidad, para adulto mayor, para
+              mujeres embarazadas y personas con niños en brazos; además de un
+              espacio para silla de rueda que cuenta con cinturones que afianza
+              la silla al bus y que asegura también al usuario que la utiliza.
+              Un porcentaje de los buses Padrones y Busetones, además de contar
+              con estas características, cuentan con ascensor y recogen usuarios
+              a la altura de los andenes. El mismo es manipulado por el operador
+              del bus para facilitar el acceso del usuario con discapacidad
+              física.
+            </p>
+            <p className="card-text">
+              <span>Página web</span>: De acuerdo al lineamiento LI.SIS.24
+              Accesibilidad de la Política de Gobierno Digital del Ministerio de
+              Tecnologías y Sistemas de Información, el análisis de cumplimiento
+              del Nivel A de accesibilidad se realiza con la herramienta en
+              línea Tawdis https://www.tawdis.net, que es una herramienta en
+              línea que fue creada por la Fundación CTIC en España teniendo como
+              referencia técnica las pautas de accesibilidad al contenido web
+              (WCAG 2.0) del W3C que en Colombia fue homologada con la norma NTC
+              5854 Accesibilidad a páginas web
             </p>
             <p className="card-text">
               De acuerdo al lineamiento LI.SIS.24 Accesibilidad de la Política

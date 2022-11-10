@@ -16,22 +16,30 @@ const Transbordos = () => {
         >
           <div className="card-body">
             <h2 className="card-title text-center">Transbordos</h2>
-
-            <p className="card-text">
+            <p className="card-text text-center">
               El Sistema de Transporte Masivo de Barranquilla y su área
               metropolitana Transmetro, te permite realizar transferencias entre
-              servicios, bien sea de troncal a alimentación, alimentación a
-              alimentación, alimentación a troncal{' '}
-              <span>totalmente gratis.</span>
+              servicios, bien sea de{' '}
+              <span>
+                troncal a alimentación, alimentación a alimentación,
+                alimentación a troncal
+              </span>{' '}
+              totalmente gratis. El pago del pasaje se realizará una vez el
+              usuario entre al Sistema, ya sea en estaciones sencillas,
+              portales, estación de retorno o buses alimentadores, pasando la
+              tarjeta cerca al validador (que descarga el valor del pasaje). En
+              caso de <span>transbordo</span> (máximo 3), cuando el usuario pase
+              a su segunda o tercera transferencia, aunque se deberá acercar la
+              tarjeta al validador, ya no se descontará el pasaje
             </p>
           </div>
         </div>
       </div>
-      <div className="container linea-colores" />
+      {/* <div className="container linea-colores" /> */}
       {/* Como Funciona Bootstrap */}
       <div
         className="container"
-        style={{ marginBottom: '100px', marginTop: '100px' }}
+        style={{ marginBottom: '100px', marginTop: '50px' }}
       >
         <div className="container" style={{ maxWidth: '750px' }}>
           <div className="row row-cols-1 row-cols-md-2 g-4 ">
@@ -105,7 +113,7 @@ const Transbordos = () => {
       {/* Tenga en cuenta que  */}
       <div className="container">
         <div className="card  mb-3 encuenta-tm ">
-          <div className="row align-items-center">
+          <div className="row align-items-center ">
             <div className="col-md-4">
               <img
                 src="https://apiwebtm.com/uploads/Recurso_15_c2df59272f.png"
@@ -118,7 +126,7 @@ const Transbordos = () => {
             </div>
           </div>
           <div className="card-footer bg-transparent encuentra-tm-li">
-            <div style={{ display: 'flex' }}>
+            <div className="align-self-center d-flex">
               <span>1.</span>
               <div style={{ margin: '20px' }}>
                 <p>
@@ -129,8 +137,8 @@ const Transbordos = () => {
             </div>
           </div>
 
-          <div className="card-footer bg-transparent ">
-            <div style={{ display: 'flex' }}>
+          <div className="card-footer bg-transparent  ">
+            <div className="align-self-center d-flex">
               <span>2.</span>
               <div style={{ margin: '20px' }}>
                 <p>
@@ -231,10 +239,10 @@ const Transbordos = () => {
           Transbordos entre servicios Troncales y rutas Alimentadoras
         </p>
       </div>
-      <div className="container">
+      <div className="container matriz_transbordo">
         <div className="row justify-content-center">
-          <div className="col-md-10">
-            <div className="tabs mx-auto d-block" style={{ width: '90vw' }}>
+          <div className="col-md-11">
+            <div className="tabs mx-auto d-block">
               <div className="tab">
                 <input type="checkbox" id="chck1" />
                 <label className="tab-label" for="chck1">
@@ -662,10 +670,13 @@ const Transbordos = () => {
         Transbordos entre alimentación
       </h2>
 
-      <div className="container" style={{ marginBottom: '50px' }}>
-        <div className="row">
-          <div className="col">
-            <div className="tabs mx-auto d-block" style={{ width: '90vw' }}>
+      <div
+        className="container matriz_transbordo"
+        style={{ marginBottom: '50px' }}
+      >
+        <div className="row justify-content-center">
+          <div className="col-md-11">
+            <div className="tabs mx-auto d-block">
               <div className="tab">
                 <input type="checkbox" id="chck-1" />
                 <label className="tab-label" for="chck-1">

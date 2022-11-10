@@ -576,7 +576,7 @@ const Transmetro = () => {
           <div className="row g-0 justify-content-end ">
             <div className="col-md-6">
               <div className="card-body">
-                <h2>Datos de infraestructura</h2>
+                <h2>Infraestructura del Sistema</h2>
               </div>
             </div>
             <div className="col-md-5" />
@@ -686,7 +686,7 @@ const Transmetro = () => {
         style={{ backgroundColor: '#F5F5F5' }}
         id="reseña-historica"
       >
-        <div className="comercial__card ">
+        <div className="comercial__card " id="portafolio-comercial">
           <div className="card mb-3 border border-0">
             <div className="row g-0 justify-content-end ">
               <div className="col-md-6">

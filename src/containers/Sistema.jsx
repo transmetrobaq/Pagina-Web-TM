@@ -10,7 +10,7 @@ const Sistema = () => (
     {/*  <!--INFO BLOQUE  Mapa---> */}
 
     <Infra />
-    <div className="container linea-colores" />
+
     {/* Buscado de Horario */}
     {/*  <div className="container">
       <nav className="navbar navbar-light  hora">
@@ -33,13 +33,13 @@ const Sistema = () => (
 
     {/* Tarjeta TM */}
 
-    <div className="container tarj">
+    <div className="container-xxl tarj" id="tarjeta-personalizacion">
       <div className="row">
-        <h2 className="text-center">TARJETA TRANSMETRO / FORMA DE PAGO</h2>
+        <h2 className="text-center">Tarjeta Transmetro / Forma de pago</h2>
       </div>
-      <div className="card border-white mb-3">
-        <div className="row g-0">
-          <div className="col-md-8">
+      <div className="card mb-3 border border-0">
+        <div className="row g-0 justify-content-center">
+          <div className="col-md-5 align-self-center">
             <div className="card-body">
               <p className="card-text">
                 El servicio tiene un costo de{' '}
@@ -61,16 +61,15 @@ const Sistema = () => (
               </p>
             </div>
           </div>
-          <div className="col-md-4 tarj__Img">
-            <img
+          <div className="col-md-4 " id="tarj_img">
+            {/*  <img
               src="https://apiwebtm.com/uploads/tarjeta_la_novia_de_Barranquilla_3c5f0b139c.jpg"
               className="img-fluid"
               alt="Estacion de Transmetro"
-            />
+            /> */}
           </div>
         </div>
       </div>
-      <div className="container linea-colores" />
     </div>
 
     {/* Credito y Personlaizacion */}
@@ -232,7 +231,7 @@ const Sistema = () => (
       <div className="card__cultura">
         <div className="card mb-3 border border-0">
           <div className="row g-0 justify-content-end align-items-center ">
-            <div className="col-md-6 ">
+            <div className="col-md-6 " id="cultura-transmetro">
               <div className="card-body" style={{ marginLeft: '50px' }}>
                 <h2>Cultura Transmetro</h2>
                 <div className="linea-colores-cred" />
@@ -473,7 +472,7 @@ const Sistema = () => (
         <div className="row g-0 justify-content-end ">
           <div className="col-md-11">
             <div className="card-body">
-              <h2>Accesibilidad</h2>
+              <h2>Transmetro incluyente</h2>
             </div>
           </div>
         </div>

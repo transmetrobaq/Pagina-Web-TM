@@ -166,38 +166,42 @@
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 50px;
+  color: #00519E;
 }
 .tarj p {
-  margin-top: -10px;
+  /* margin-top: -10px; */
   /* padding: auto; */
-  color: #004f9f;
-  font-size: 18px;
+  color: #002856;
+  /* font-size: 18px; */
 }
 
 .tarj span {
   font-weight: bold;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
-.tarj img {
-  border-radius: 50px;
+/* .tarj img {
+  border-radius: 20px;
   width: 30vw;
+  
+} */
+.tarj #tarj_img {
+  background-image: url("https://apiwebtm.com/uploads/tarjeta_la_novia_de_Barranquilla_3c5f0b139c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
 }
-
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .tarj {
     margin-top: 20px;
   }
-  .tarj img {
-    border-radius: 30px;
+ /*  .tarj img {
+    border-radius: 20px;
     width: 50vw;
     display: block;
     margin: auto;
-  }
-  .tarj h1 {
-    /* font-size: 5.5vw; */
-
-    margin-bottom: 5px;
-  }
+  } */
+  
   .tarj p {
     text-align: justify;
     /* font-size: 2.5vw; */
@@ -646,7 +650,7 @@ font-weight: bold;
 .acce h2 {
   margin-top: 50px;
   margin-bottom:30px;
-  color: white;
+  color: white !important;
   font-weight: bold;
 }
 .titulo-acce {

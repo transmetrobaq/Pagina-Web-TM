@@ -33,48 +33,49 @@
   color: #004f9f;
   font-weight: bold;
   margin-top: 50px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 .car__transb span {
   color: #e30613;
 }
-.tabs h1 {
+.matriz_transbordo .tabs h1 {
   margin: 0;
   line-height: 2;
   text-align: center;
 }
-.tabs h2 {
+.matriz_transbordo .tabs h2 {
   margin: 0 0 0.5em;
   font-weight: normal;
 }
-.tabs input {
+.matriz_transbordo .tabs input {
   position: absolute;
   opacity: 0;
   z-index: -1;
 }
-.tabs .row {
+.matriz_transbordo .tabs .row {
   display: flex;
 }
-.tabs .row .col {
+.matriz_transbordo .tabs .row .col {
   flex: 1;
 }
-.tabs .row .col:last-child {
+.matriz_transbordo .tabs .row .col:last-child {
   margin-left: 1em;
 }
 /* Accordion styles */
-.tabs {
+.matriz_transbordo .tabs {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.144);
   border: 3px solid #c00d0d;
   border-radius: 15px;
+  width: 100%;
 }
-.tabs .tab {
+.matriz_transbordo .tabs .tab {
   width: 100%;
   color: #e30613;
   overflow: hidden;
 }
-.tabs .tab-label {
+.matriz_transbordo .tabs .tab-label {
   display: flex;
   justify-content: space-between;
 
@@ -92,24 +93,24 @@
   /* Icon */
 }
 
-.tabs .tab-label:hover {
+.matriz_transbordo .tabs .tab-label:hover {
   background: #ffdd00;
 }
-.tabs .tab-label::after {
+.matriz_transbordo .tabs .tab-label::after {
   content: '\276F';
   width: 1em;
   height: 1em;
   text-align: center;
   transition: all 0.35s;
 }
-.tabs .tab-content {
+.matriz_transbordo .tabs .tab-content {
   max-height: 0;
   padding: 0 1em;
 
   background: white;
   transition: all 0.35s;
 }
-.tabs .tab-close {
+.matriz_transbordo .tabs .tab-close {
   display: flex;
   justify-content: flex-end;
   padding: 1em;
@@ -117,16 +118,16 @@
   background: #ffffff;
   cursor: pointer;
 }
-.tabs .tab-close:hover {
+.matriz_transbordo .tabs .tab-close:hover {
   background: #ffdd00;
 }
-.tabs input:checked + .tab-label {
+.matriz_transbordo .tabs input:checked + .tab-label {
   background: #ffdd00;
 }
-.tabs input:checked + .tab-label::after {
+.matriz_transbordo .tabs input:checked + .tab-label::after {
   transform: rotate(90deg);
 }
-.tabs input:checked ~ .tab-content {
+.matriz_transbordo .tabs input:checked ~ .tab-content {
   max-height: 100vh;
   padding: 1em;
 }
@@ -207,9 +208,11 @@
   margin-bottom: 20px;
 }
 .encuenta-tm p {
-  margin-left: 1%;
+  /* margin-left: 1%; */
   color: #002856;
-  font-size: 18px;
+  /* font-size: 18px; */
+  margin: auto;
+    display: block;
 }
 
 .encuenta-tm i {
@@ -221,6 +224,8 @@
   color: #ffdd00;
   font-weight: bold;
   font-size: 3.5em;
+  margin: auto;
+    display: block;
 }
 .encuentra-tm-li {
   border: 3px solid #e30613;
@@ -233,6 +238,13 @@
     margin-left: 1rem;
     color:#00519E;
   }
+
+  .encuenta-tm span {
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+
 }
 .reloj {
   margin-top: 10%;

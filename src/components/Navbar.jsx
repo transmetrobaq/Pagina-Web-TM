@@ -123,6 +123,15 @@ const Navbar = () => {
                       Infraestructura
                     </a>
                   </li>
+                  <li className="nav-item">
+                    <a
+                      href="/transmetro/#portafolio-comercial"
+                      className="dropdown-item "
+                      aria-current="page"
+                    >
+                      Portafolio Comercial
+                    </a>
+                  </li>
                 </ul>
               </li>
 
@@ -144,7 +153,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Datos del Sistema
+                      Mapa del Sistema
                     </a>
                   </li>
                   <li className="nav-item">
@@ -160,11 +169,11 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="/sistema/estaciones/#estaciones"
+                      href="/sistema/#estaciones"
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Estaciones
+                      Portales y Estaciones
                     </a>
                   </li>
                   <li>
@@ -183,6 +192,16 @@ const Navbar = () => {
                       aria-current="page"
                     >
                       Rutas Alimentadoras
+                    </a>
+                  </li>
+
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#tarjeta-personalizacion"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Tarjeta Transmetro/Personalización
                     </a>
                   </li>
 
@@ -219,7 +238,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Accesibilidad
+                      Transmetro incluyente
                     </a>
                   </li>
                   <li className="nav-item">
@@ -335,7 +354,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Videos
+                      Informativo y Videos
                     </a>
                   </li>
                   <li className="nav-item">
@@ -344,7 +363,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Galería
+                      Galería fotográfica
                     </a>
                   </li>
                 </ul>

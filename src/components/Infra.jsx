@@ -90,7 +90,7 @@ const Infra = () => {
         <div className="card mb-3 border border-0">
           <div className="row g-0 justify-content-end ">
             <div className="col-md-10">
-              <div className="card-body text-center ">
+              <div className="card-body text-center " id="estaciones">
                 <h2>Estaciones</h2>
               </div>
             </div>

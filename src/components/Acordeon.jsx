@@ -382,14 +382,27 @@ const Acordeon = () => {
                         >
                           2.1.4 Vínculo al Diario o Gaceta Oficial
                         </a>
-                        <a
-                          href="https://apiwebtm.com/uploads/DECRETO_0151_2010_RESTRICCION_TRANSMETRO_1_9254e0b42c.pdf"
-                          className="list-group-item list-group-item-action"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
+                        <li className="list-group-item  ">
                           2.1.5 Políticas
-                        </a>
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/DECRETO_0151_2010_RESTRICCION_TRANSMETRO_1_9254e0b42c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Decreto No. 0151 de 2010
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Conpes_ea31ee619e.zip"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Conpes
+                            </a>
+                          </div>
+                        </li>
                         <a
                           href="/"
                           className="list-group-item list-group-item-action"
