@@ -7,6 +7,7 @@ import Navinfe from './Navinfe';
 import Infra from './Infra';
 import Horario from './Horario';
 import Header from './Header';
+import Eventos from './Eventos';
 import '../styles/components/Info.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -248,6 +249,7 @@ const Info = () => {
           />
         </div>
       </div> */}
+      <Eventos />
     </>
   );
 };

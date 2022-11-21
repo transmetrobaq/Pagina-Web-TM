@@ -1,0 +1,185 @@
+#team {
+    /* background: #eee !important; */
+  /*   background-image: url('https://c8.alamy.com/compes/2dypf4g/icono-de-calendario-en-estilo-comico-agenda-dibujo-de-dibujos-animados-vector-ilustracion-sobre-fondo-blanco-aislado-planificacion-de-horarios-efecto-de-salpicaduras-concepto-de-negocio-2dypf4g.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center; */
+    
+}
+.pb-5 {
+    background-color: #002856;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #2b108d;
+    /* border-color: #1aff05; */
+    box-shadow: none;
+    outline: none;
+ 
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #bd150b;
+    border-color: #bd150b;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    
+    margin-bottom: 50px;
+    font-weight: bold;
+    /* color: #00519E; */
+    color: #fff;
+}
+
+#team .card {
+    border: none;
+    background: #fff;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+   
+    
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+   
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    border-radius: 10px;
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+
+    /* border: 2px solid #002856; */
+    border-radius: 10px;
+    
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 252px;
+   
+   
+    
+}
+
+
+ .backside .card a {
+    font-size: 18px;
+    color: #bd150b!important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #002856  !important;
+    padding-top: 15px;
+}
+
+
+
+.frontside .card .card-text,
+.backside .card .card-text {
+    color:  #00519E !important;
+}
+
+.frontside .card .card-text span {
+    color: #002856;
+    font-weight: bold  ;
+}
+
+.linea-colores-evento {
+    width: 40%;
+    height: 5px;
+    
+    margin-top: -5px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    )
+    
+}
+
+.form-select {
+    width: 300px;
+    margin: 0 auto;
+    color:#002856;
+    font-weight: bold  ;
+}

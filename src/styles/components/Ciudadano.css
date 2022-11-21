@@ -584,6 +584,18 @@
   font-weight: bold;
   color: #00519E;
 }
+#glosario {
+  font-size: 25px;
+  /* background-color: #00a13a;  */
+  
+  
+}
+
+#glosario:hover {
+  background-color: #00a13a !important; 
+  color: #fff;
+  
+}
 @media only screen and (min-width: 200px) and (max-width: 768px) {
   .preguntas-tm input:checked ~ .respuestas-content {
     /* max-height: 400vh; */

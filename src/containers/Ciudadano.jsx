@@ -476,7 +476,11 @@ const Ciudadano = () => {
                 </div>
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg15" />
-                  <label className="preguntas-label " for="preg15">
+                  <label
+                    className="preguntas-label  "
+                    id="glosario"
+                    for="preg15"
+                  >
                     Glosario
                   </label>
                   <div className="respuestas-content">
