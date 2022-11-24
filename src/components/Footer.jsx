@@ -117,7 +117,6 @@ const Footer = () => {
                       style={{
                         border: '0',
                         borderRadius: '10px',
-                        height: '50vh',
                       }}
                     />
                   </div>

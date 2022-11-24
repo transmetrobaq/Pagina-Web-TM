@@ -406,8 +406,9 @@
 }
 
 .manual__card img {
-  height: 65vh;
+  /* height: 65vh; */
   width: 25vw;
+  
 }
 .manual__card a {
   background-color: #00a13a;
@@ -441,12 +442,12 @@
 }
 #manual_img {
  /*  background-image: url("https://apiwebtm.com/uploads/cultura_ef186cfcf6.png"); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
   
   margin-top: -10px;
-  display: block;
+  /* display: block; */
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   #manual_img {
@@ -608,7 +609,7 @@
 /* ---- Encuesta ------ */
 
 .card__Encuesta {
-  width: 45vw;
+  /* width: 45vw; */
   border-radius: 20px;
   overflow: hidden;
   background: #fff;
@@ -693,7 +694,7 @@
 }
 
 .estuden__card  img {
-  height: 80vh;
+  /* height: 80vh; */
   width: 25vw;
 }
 

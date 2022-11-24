@@ -86,15 +86,15 @@
 
     @media only screen and (min-width: 320px) and (max-width: 768px) {
       .wave__card-group {
-        width: 75vw !important;
+        width: 80vw !important;
         margin: 0 auto;
         display: block;
         margin-top: 50px;
       }
       
       .wrapper {
-        width: 75vw;
-        margin-left: 0px;
+        width: 81vw;
+        margin-left: 0px !important;
       }
      
       .moovit__card {
@@ -103,7 +103,7 @@
         /* margin-top: 100px;
         width: 100% !important; */
         margin: 0 auto !important;
-        width: 75vw !important;
+        width: 80vw !important;
         margin-top: 50px !important;
         margin-bottom: 50px !important;
       }
@@ -121,7 +121,7 @@
     border-radius: 10px;
     background-color: #e30613;
     border: 3px solid #fff;
-    width: 25vw;
+    max-width: 350px;
     /* height: 70vh; */
     /* display: block; */
   }

@@ -33,7 +33,7 @@ const Header = () => {
     <>
       <div
         id="carouselExampleCaptions"
-        className="carousel slide"
+        className="carousel slide  "
         data-bs-ride="carousel"
       >
         {/* start carusel items */}

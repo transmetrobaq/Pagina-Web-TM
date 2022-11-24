@@ -15,8 +15,8 @@ const Eventos = () => {
   }; */
 
   const [evento, setEvento] = useState([]);
-  const [start, setStart] = useState();
-  const [limit, setLimit] = useState();
+  const [start, setStart] = useState('2022-01-01');
+  const [limit, setLimit] = useState('2022-01-31');
   const AP = `https://apiwebtm.com/eventos?fecha_gte=${start}&fecha_lte=${limit}`;
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
@@ -31,13 +31,19 @@ const Eventos = () => {
   }, [start, limit]);
 
   const handleSelectChange = (e) => {
+    /* setStart('2022-12-01');
+    setLimit('2022-12-31'); */
     const fch = e.target.value;
-    if (fch === 1) {
+    if (fch === '11') {
+      setStart('2022-11-01');
+      setLimit('2022-11-30');
+    }
+    if (fch === '12') {
       setStart('2022-12-01');
       setLimit('2022-12-31');
     }
-    /* console.log(e.target.value); */
-    console.log(setStart);
+    console.log(e.target.value);
+    console.log(fch);
   };
   return (
     <section className="pb-5">
@@ -50,13 +56,14 @@ const Eventos = () => {
           onChange={handleSelectChange}
         >
           <option defaultValue>Seleccionar Mes</option>
-          <option value="1">Enero</option>
+          {/* <option value="1">Enero</option>
           <option value="2">Febrero</option>
-          <option value="3">Marzo</option>
-          <option value="1">Diciembre</option>
+          <option value="3">Marzo</option> */}
+          <option value="11">Noviembre</option>
+          <option value="12">Diciembre</option>
         </select>
 
-        <div className="row" id="team">
+        <div className="row " id="team">
           {evento
             ? evento.map((event) => (
                 <div className="col-xs-12 col-sm-6 col-md-4" key={event.id}>
@@ -81,7 +88,7 @@ const Eventos = () => {
                       </div>
                       <div className="backside">
                         <div className="card">
-                          <div className="card-body text-center mt-4">
+                          <div className="card-body  ">
                             <h5 className="card-title">Desceripción</h5>
                             <p className="card-text">{event.descripcion}</p>
                             <ul className="list-inline">

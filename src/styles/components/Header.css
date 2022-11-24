@@ -146,7 +146,6 @@
 } */
 
 
-
 /* Rediseño */
 
 #carouselExampleCaptions,
@@ -155,6 +154,7 @@
 .carousel-item.active { 
   margin-top: -58px;
   max-height: 600px;
+  
 }
 .carousel h2 {
    color: #fff;
@@ -163,6 +163,7 @@
   }
 .carousel a {
   text-decoration: none;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
 }
 /* .carousel-item img {
   max-height: 600px;

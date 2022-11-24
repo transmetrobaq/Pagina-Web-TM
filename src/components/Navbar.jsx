@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className={cls}>
       <nav
         id="navbar-Tm"
-        className=" container-fluid navbar__card navbar  navbar-expand-lg navbar-light bg-white"
+        className=" container-xxl navbar__card navbar  navbar-expand-lg navbar-light bg-white"
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="/">

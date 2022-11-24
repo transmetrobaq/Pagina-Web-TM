@@ -8,10 +8,9 @@ import Publicarrusel from './Publicarrusel';
 // import '../styles/components/Layout.css';
 
 const Layout = ({ children }) => (
-  <>
-    <div className="container-xxl">
-      <Navbar />
-    </div>
+  <div className="container-xxl">
+    <Navbar />
+
     {/* <Header /> */}
     <div style={{ marginTop: '100px', marginLeft: '3.5rem' }}>
       <Breadcrumb />
@@ -22,7 +21,7 @@ const Layout = ({ children }) => (
     <Publicarrusel />
 
     <Footer />
-  </>
+  </div>
 );
 
 export default Layout;

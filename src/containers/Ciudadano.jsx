@@ -77,7 +77,7 @@ const Ciudadano = () => {
                 <img
                   src="https://apiwebtm.com/uploads/cultura_ef186cfcf6.png"
                   className="img-fluid mx-auto d-block"
-                  alt="Foto Aerea Buses TM "
+                  alt="Usuario leyendo "
                 />
               </div>
               {/* <div className="col-md-1" /> */}
@@ -85,7 +85,7 @@ const Ciudadano = () => {
           </div>
         </div>
       </div>
-
+      {/* Preguntas y respuestas */}
       <div
         className="container "
         data-bs-spy="scroll"
