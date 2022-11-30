@@ -8,7 +8,7 @@ import Publicarrusel from './Publicarrusel';
 // import '../styles/components/Layout.css';
 
 const Layout = ({ children }) => (
-  <div className="container-xxl">
+  <div>
     <Navbar />
 
     {/* <Header /> */}

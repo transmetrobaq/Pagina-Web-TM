@@ -276,9 +276,11 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="/ciudadano"
+                      href="https://transmetro.netsaia.com/ws/pqr/index.html"
                       className="dropdown-item"
                       aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       Peticiones, quejas y reclamos
                     </a>

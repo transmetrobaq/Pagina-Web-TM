@@ -393,7 +393,7 @@ const Infra = () => {
 
                       <div className="card-body">
                         <a
-                          href="/"
+                          href="https://transmetro.netsaia.com/ws/pqr/index.html"
                           className="btn btn-primary"
                           target="_blank"
                           rel="noreferrer"
