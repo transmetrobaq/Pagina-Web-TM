@@ -51,9 +51,9 @@ const Footer = () => {
                 <div className="contact__us">
                   <h5>ATENCIÓN AL CIUDADANO</h5>
                   <ul>
-                    <li>atencioalcliente@transmetro.gov.co</li>
+                    <li>atencionalcliente@transmetro.gov.co</li>
                     <li>
-                      <span>605 3712222</span> Linea de atención
+                      <span>605 3712222</span> Línea de atención
                     </li>
                   </ul>
                   <ul>
@@ -254,7 +254,7 @@ const Footer = () => {
           </div>
         </div> */}
         <div className="container text-center gobiIcon">
-          <div className="row align-items-center justify-content-evenly ">
+          <div className="row g-2 align-items-center justify-content-evenly ">
             <div className="col">
               {' '}
               <img

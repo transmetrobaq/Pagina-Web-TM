@@ -424,7 +424,7 @@ verde */
 
 .cardbox {
   background-color: #fff;
-  cursor: pointer;
+  /* cursor: pointer; */
   margin: 0 5px 50px 0;
   padding: 20px 35px;
   display: flex;
@@ -438,9 +438,12 @@ verde */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   
   #organiTM {
-    display: none;
+    /* display: none; */
   }
-
+  .cardbox {
+        margin: 0 5px 50px 0;
+    padding: 10px 10px;
+  }
 }
 
 /* --------------------- */
@@ -484,7 +487,7 @@ verde */
 
 .cardbox_infra {
   background-color: #fff;
-  cursor: pointer;
+  /* cursor: pointer; */
   margin: 0 50px 50px 0;
   padding: 15px 15px  ;
   width: 250px;

@@ -126,6 +126,7 @@
   margin: 0 auto;
   text-align: center;
   max-width: 750px;
+  border: none;
 }
 
 .video-contenedor h2 {

@@ -1,8 +1,16 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import React from 'react';
+import React, { useState } from 'react';
+import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import '../styles/components/Estaciones.css';
 
 function Estaciones() {
+  const [activeTab, setActiveTab] = useState('1');
+
+  const cambiarTab = (numeroTab) => {
+    if (activeTab !== numeroTab) {
+      setActiveTab(numeroTab);
+    }
+  };
   return (
     <>
       {/* Estaciones Transmetro Murillo */}
@@ -16,18 +24,109 @@ function Estaciones() {
             </div>
             <div className="col-md-1" />
           </div>
-          <div className="row g-0 justify-content-end ">
+          <div
+            className="row g-0 justify-content-end "
+            style={{ backgroundColor: '#F5F5F5' }}
+          >
             <div className="col-md-10">
-              <div className="card-body text-center">
-                <p>
-                  Las estaciones son los puntos de abordaje de vehículos
-                  ubicadas a lo largo de las dos troncales que componen nuestro
-                  Sistema: Troncal Murillo (calle 45) y Troncal Olaya Herrera
-                  (carrera 46). En ellas los usuarios pueden adquirir sus
-                  tarjetas, recargarlas, verificar sus saldos y validar sus
-                  pasajes para poder acceder a las rutas troncales corrientes y
-                  expresas, así como a las rutas alimentadoras.
-                </p>
+              <div className="card-body">
+                <Nav tabs style={{ border: 'none' }}>
+                  <NavItem>
+                    <NavLink
+                      className={
+                        activeTab === '1' ? 'activeTab baseTab ' : 'baseTab '
+                      }
+                      onClick={() => cambiarTab('1')}
+                    >
+                      Portal o Estación de cabecera
+                    </NavLink>
+                  </NavItem>
+
+                  <NavItem>
+                    <NavLink
+                      className={
+                        activeTab === '2' ? 'activeTab baseTab' : 'baseTab'
+                      }
+                      onClick={() => cambiarTab('2')}
+                    >
+                      Estación de pasajeros o Estación sencilla
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className={
+                        activeTab === '3' ? 'activeTab baseTab' : 'baseTab'
+                      }
+                      onClick={() => cambiarTab('3')}
+                    >
+                      Patio de Operación
+                    </NavLink>
+                  </NavItem>
+                </Nav>
+
+                <TabContent activeTab={activeTab}>
+                  <TabPane tabId="1">
+                    <br />
+                    <p>
+                      Son estaciones ubicadas en los puntos de inicio, y
+                      finalización de las rutas troncales. En estas estaciones
+                      se realizan transbordos entre rutas troncales y rutas
+                      alimentadoras e intermunicipales. Las estaciones de
+                      cabecera incluyen una estación de pasajeros con sus
+                      respectivas plataformas de abordaje, dependencias
+                      operativas y de servicio al usuario; además cuenta con un
+                      patio de operación con espacio para estacionamientos de
+                      buses, áreas de mantenimiento y de abastecimiento, vías de
+                      maniobras y edificios administrativos.
+                    </p>
+                  </TabPane>
+
+                  <TabPane tabId="2">
+                    <br />
+                    <p>
+                      Es un espacio cerrado y cubierto, con pago a la entrada,
+                      lugar de tránsito, entrada o salida del sistema para que
+                      los usuarios acedan a servicios troncales o alimentadores
+                      en algunos casos. Son 15 estaciones las que componen el
+                      Ssitema Transmetro, ubicadas a lo largo de las dos
+                      troncales: 10 en la Murillo (calle 45) y 5 sobre la
+                      Troncal Olaya Herrera (carrera 46). En ellas los usuarios
+                      pueden adquirir sus tarjetas, recargarlas, verificar sus
+                      saldos y validar sus pasajes para poder acceder a las
+                      rutas troncales corrientes y expresas, así como a las
+                      rutas alimentadoras.
+                    </p>
+                  </TabPane>
+                  <TabPane tabId="3">
+                    <br />
+                    <p>
+                      El patio de operación es el conjunto de infraestructura
+                      física de una estación de cabecera que incluye las áreas
+                      de parqueo de buses, las vías de maniobras y las áreas y
+                      edificios administrativos, de mantenimiento y de
+                      abastecimiento. No tiene pasarela de intercambio de
+                      pasajeros.
+                    </p>
+                  </TabPane>
+                </TabContent>
+              </div>
+              <div className="card-body ">
+                <p className="fw-bold">Las estaciones son de dos tipos:</p>
+                <ul>
+                  <li>
+                    Tipo A: con un solo módulo de sesenta (60) metros de
+                    longitud y acceso por uno de los costados. Estaciones Pacho
+                    Galán y Pedro Ramayá en el municipio de Soledad, sobre la
+                    troncal Murillo.
+                  </li>
+                  <li>
+                    Tipo B: con dos (2) módulos,uno para servicios corrientes de
+                    sesenta (60) metros de longitud y otro para servicios
+                    expresos de cuarenta (40) metros de largo; en total este
+                    tipo de estaciones tiene cien (100) metros de longitud y
+                    acceso por ambos costados.
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="col-md-1" />

@@ -61,7 +61,7 @@ const AlimentadorasDetails = () => {
                         <span>Sábados:</span> {rali.horario_sab}
                       </li>
                       <li>
-                        <span> Domingo y festivos:</span> {rali.horario_dom}
+                        <span> Domingos y festivos:</span> {rali.horario_dom}
                       </li>
                     </ul>
 

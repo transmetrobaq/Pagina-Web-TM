@@ -154,7 +154,7 @@ const Sistema = () => (
                     <span className="fa-li">
                       <i className="fa-solid fa-circle" />
                     </span>
-                    Línea de atención al cliente 3712222.
+                    Línea de atención al cliente 605 3712222.
                   </li>
                   <li>
                     <span className="fa-li">

@@ -98,8 +98,8 @@ const Infra = () => {
           </div>
           <div className="row g-0 justify-content-end ">
             <div className="col-md-10">
-              <div className="card-body text-center">
-                <p>
+              <div className="card-body ">
+                {/*   <p>
                   Las estaciones son los puntos de abordaje de vehículos
                   ubicadas a lo largo de las dos troncales que componen nuestro
                   Sistema: Troncal Murillo (calle 45) y Troncal Olaya Herrera
@@ -107,7 +107,23 @@ const Infra = () => {
                   tarjetas, recargarlas, verificar sus saldos y validar sus
                   pasajes para poder acceder a las rutas troncales corrientes y
                   expresas, así como a las rutas alimentadoras.
-                </p>
+                </p> */}
+                <p className="fw-bold">Las estaciones son de dos tipos:</p>
+                <ul>
+                  <li>
+                    Tipo A: con un solo módulo de sesenta (60) metros de
+                    longitud y acceso por uno de los costados. Estaciones Pacho
+                    Galán y Pedro Ramayá en el municipio de Soledad, sobre la
+                    troncal Murillo.
+                  </li>
+                  <li>
+                    Tipo B: con dos (2) módulos,uno para servicios corrientes de
+                    sesenta (60) metros de longitud y otro para servicios
+                    expresos de cuarenta (40) metros de largo; en total este
+                    tipo de estaciones tiene cien (100) metros de longitud y
+                    acceso por ambos costados.
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="col-md-1" />
@@ -144,7 +160,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion pedro ramaya"
                           >
-                            Estación <span>Pedro Ramayá Beltrán</span> - Entre
+                            Estación <span>Pedro Ramayá Beltrán</span> - Entré
                             carreras 23 y Av. Circunvalar (Soledad, Atl.).
                           </a>
                         </li>
@@ -154,7 +170,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion pacho galan"
                           >
-                            Estación <span>Pacho Galán</span> - Entre carreras
+                            Estación <span>Pacho Galán</span> - Entré carreras
                             16 y 17 (Soledad, Atl.).
                           </a>
                         </li>
@@ -164,7 +180,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion joaquin barrios polo"
                           >
-                            Estación <span>Joaquín Barrios Polo</span> - Entre
+                            Estación <span>Joaquín Barrios Polo</span> - Entré
                             carreras 1G y 2A.
                           </a>
                         </li>
@@ -174,7 +190,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion buenos aires"
                           >
-                            Estación <span>Buenos Aires</span> - Entres carrera
+                            Estación <span>Buenos Aires</span> - Entrés carrera
                             7 y 7G.
                           </a>
                         </li>
@@ -184,7 +200,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la ocho"
                           >
-                            Estación <span>La Ocho</span> - Entre carreras 8 y
+                            Estación <span>La Ocho</span> - Entré carreras 8 y
                             8C.
                           </a>
                         </li>
@@ -194,7 +210,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la catorce"
                           >
-                            Estación <span>La Catorce</span> - Entre carreras 14
+                            Estación <span>La Catorce</span> - Entré carreras 14
                             y 17.
                           </a>
                         </li>
@@ -204,7 +220,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la veintiuna"
                           >
-                            Estación <span>La Veintiuna</span> - Entre carreras
+                            Estación <span>La Veintiuna</span> - Entré carreras
                             20 y 21.
                           </a>
                         </li>
@@ -214,7 +230,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion atlantico"
                           >
-                            Estación <span>Atlántico</span> - Entre carreras 26
+                            Estación <span>Atlántico</span> - Entré carreras 26
                             y 27.
                           </a>
                         </li>
@@ -224,7 +240,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion chiquinquira"
                           >
-                            Estación <span>Chiquinquirá</span> - Entre carreras
+                            Estación <span>Chiquinquirá</span> - Entré carreras
                             33 y 36.
                           </a>
                         </li>
@@ -234,7 +250,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la arenosa"
                           >
-                            Estación <span>La Arenosa</span> - Entre carreras 41
+                            Estación <span>La Arenosa</span> - Entré carreras 41
                             y 43.
                           </a>
                         </li>
@@ -316,7 +332,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion esthercita forero"
                           >
-                            Estación <span>Esthercita Forero</span> - Entre
+                            Estación <span>Esthercita Forero</span> - Entré
                             calles 69 y 70.
                           </a>
                         </li>
@@ -327,7 +343,7 @@ const Infra = () => {
                             alt="estacion alfredo correa de andreis"
                           >
                             Estación <span>Alfredo Correa De Andréis</span> -
-                            Entre calles 60 y 62.
+                            Entré calles 60 y 62.
                           </a>
                         </li>
                         <li>
@@ -336,7 +352,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la catedral"
                           >
-                            Estación <span>La Catedral</span> - Entre calles 50
+                            Estación <span>La Catedral</span> - Entré calles 50
                             y 53.
                           </a>
                         </li>
@@ -346,7 +362,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion barrio abajo"
                           >
-                            Estación <span>Barrio Abajo</span> - Entre calles 43
+                            Estación <span>Barrio Abajo</span> - Entré calles 43
                             y 45.
                           </a>
                         </li>
@@ -356,7 +372,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion parque cultural del caribe"
                           >
-                            Estación <span>Parque Cultural</span> - Entre calles
+                            Estación <span>Parque Cultural</span> - Entré calles
                             36 y 39.
                           </a>
                         </li>

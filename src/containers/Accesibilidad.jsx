@@ -41,7 +41,7 @@ const Accesibilidad = () => (
               podotáctiles y barreras de acceso especiales para personas cuya
               capacidad física para movilizarse le impida el paso a través de
               las barreras normales. En algunos casos, la obesidad puede ser
-              motivo para utilizar estas barreas especiales.
+              motivo para utilizar estas barreras especiales.
             </p>
             <p className="card-text">
               <span>Los buses </span>: cuentan con sillas preferenciales para

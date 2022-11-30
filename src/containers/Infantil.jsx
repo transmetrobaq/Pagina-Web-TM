@@ -13,13 +13,11 @@ const Infantil = () => (
 
       <div className="card border-light" id="infantil">
         <div className="card-body">
-          <h1 className="card-title text-center" style={{ color: '#002856' }}>
-            SECCION INFANTIL
-          </h1>
+          <h2 className="card-title text-center">Sección infantil</h2>
         </div>
         <img
           src="https://apiwebtm.com/uploads/Nino_leyendo_ba623016f5.PNG"
-          className="card-img-bottom"
+          className="card-img-bottom img-fluid"
           alt="niño leyendo"
         />
       </div>
@@ -27,9 +25,9 @@ const Infantil = () => (
       <div className="container">
         <div className="card video-contenedor">
           <div className="card-body">
-            <h3 id="transbordos" className="card-text">
-              COMO FUNCIONA
-            </h3>
+            <h2 id="transbordos" className="card-text">
+              Cómo funciona
+            </h2>
             {/* <hr className="dropdown-divider" /> */}
           </div>
           <div className="ratio ratio-16x9">
@@ -45,7 +43,7 @@ const Infantil = () => (
       <div className="container linea-colores" />
       {/* Actividades Infantiles */}
       <div className="card-body" style={{ marginBottom: '50px' }}>
-        <h3 className="card-title text-center">ACTIVIDADES</h3>
+        <h3 className="card-title text-center">Actividades</h3>
         <h6 className="card-text text-center">
           Ejercita tu mente con estos entretenidos pasatiempos
         </h6>

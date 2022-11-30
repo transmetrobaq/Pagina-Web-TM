@@ -6,7 +6,7 @@ const Transparecia = () => (
   <div className="container transp">
     <div className="row">
       <h2 id="transparencia" className="text-center">
-        Transparecia
+        Transparencia
       </h2>
       <h3 className="text-center">Acceso a la información pública</h3>
       <Acordeon />

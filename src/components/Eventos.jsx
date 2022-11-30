@@ -89,7 +89,7 @@ const Eventos = () => {
                       <div className="backside">
                         <div className="card">
                           <div className="card-body  ">
-                            <h5 className="card-title">Desceripción</h5>
+                            <h5 className="card-title">Descripción</h5>
                             <p className="card-text">{event.descripcion}</p>
                             <ul className="list-inline">
                               <li className="list-inline-item">

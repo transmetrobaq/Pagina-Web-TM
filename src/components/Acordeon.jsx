@@ -394,39 +394,122 @@ const Acordeon = () => {
                         >
                           2.1.2 Decreto Único Reglamentario
                         </a>
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action"
-                        >
-                          2.1.3 Normativa aplicable
-                        </a>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTwoOneThree"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTwoOneThree"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTwoOneThree"
+                            >
+                              2.1.3 Normativa aplicable
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTwoOneThree"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwoOneThree"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/Resolucion_257_por_la_cual_se_modifica_la_Resolucion_119_2006_parametros_y_proc_para_liquidar_reconocimientos_economicos_a9354518b5.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2016
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Resolusiones_2017_e98915b8db.rar"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2017
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Resolusiones_2019_8c865a2646.rar"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2019
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Resolusiones_2020_45600bfc40.rar"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2020
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Resolusiones_2021_e8bea9ed83.rar"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2021
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         <a
                           href="/"
                           className="list-group-item list-group-item-action"
                         >
                           2.1.4 Vínculo al Diario o Gaceta Oficial
                         </a>
-                        <li className="list-group-item  ">
-                          2.1.5 Políticas
-                          <div className="list-group">
-                            <a
-                              href="https://apiwebtm.com/uploads/DECRETO_0151_2010_RESTRICCION_TRANSMETRO_1_9254e0b42c.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTwoOneFive"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTwoOneFive"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTwoOneFive"
                             >
-                              Decreto No. 0151 de 2010
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/Conpes_ea31ee619e.zip"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Conpes
-                            </a>
+                              2.1.5 Políticas
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTwoOneFive"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwoOneFive"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/DECRETO_0151_2010_RESTRICCION_TRANSMETRO_1_9254e0b42c.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Políticas
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Conpes_31c97a5272.rar"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONPES
+                                </a>{' '}
+                              </div>
+                            </div>
                           </div>
-                        </li>
+                        </div>
                         <a
                           href="/"
                           className="list-group-item list-group-item-action"

@@ -75,7 +75,7 @@ const Navbar = () => {
                       className="dropdown-item"
                       aria-current="page"
                     >
-                      Reseña historia
+                      Reseña histórica
                     </a>
                   </li>
                   <li className="nav-item">

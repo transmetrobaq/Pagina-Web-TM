@@ -80,6 +80,7 @@ const Transmetro = () => {
                   <p className="card-text  text">
                     Después de realizados los estudios de transporte público y
                     <span className="fw-bold">
+                      {' '}
                       el diseño conceptual de Transmetro llevados a cabo por el
                       consorcio colombo-español Bocarejo-ETT, mediante acuerdo
                       Nº 003 de febrero 14 de 2003
@@ -635,7 +636,7 @@ const Transmetro = () => {
                     className="img-fluid"
                   />
 
-                  <p>85.000 mil m2 de área en Portal de Soledad</p>
+                  <p>85.000 m2 de área en Portal de Soledad</p>
                   <div
                     className="container linea-colores-peque"
                     style={{ marginTop: '75px' }}
@@ -757,7 +758,7 @@ const Transmetro = () => {
                     <p className="card-text">
                       Transmetro ofrece 8 locales comerciales ubicados en el
                       Portal de Soledad, con un área de 11.2 m² c/u. Un promedio
-                      de 94.000 usuarios transita semanalmente por este poral.
+                      de 94.000 usuarios transita semanalmente por este portal.
                       Para mas información:{' '}
                       <span className=" fw-bold ">
                         comercial1@transmetro.gov.co

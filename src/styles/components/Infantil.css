@@ -14,9 +14,11 @@
   
    }
 
-.container__infantil h1 {
-      color: #002856;
-    font-weight: bold;  }
+.container__infantil h2 {
+  /* margin-bottom: -40px; */
+  font-weight: bold;
+  color: #00519E;
+   }
 .container__infantil h3 {
         color: #002856;
       font-weight: bold;  }

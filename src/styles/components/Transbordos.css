@@ -86,7 +86,7 @@
 
   padding: 15px;
 
-  font-size: 20px;
+  font-size: 18px;
 
   border-bottom: 1px solid #fff;
 
@@ -105,7 +105,6 @@
 }
 .matriz_transbordo .tabs .tab-content {
   max-height: 0;
-  padding: 0 1em;
 
   background: white;
   transition: all 0.35s;
@@ -140,6 +139,12 @@
   /* margin: 4%; */
   margin-top: 50px;
   color: #00519E;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  .matriz_transbordo .tabs .tab-content {
+    font-size: 13px;
+  }
 }
 
 /* ---------- */
@@ -194,7 +199,7 @@
 .encuenta-tm {
   border: 3px solid #e30613;
   border-radius: 15px;
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
   text-align: auto;
 }
