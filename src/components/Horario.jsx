@@ -35,7 +35,7 @@ const Horario = () => {
                         }
                         onClick={() => cambiarTab('1')}
                       >
-                        L-V
+                        Lunes a Viernes
                       </NavLink>
                     </NavItem>
 
