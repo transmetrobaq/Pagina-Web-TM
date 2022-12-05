@@ -96,7 +96,8 @@ const Eventos = () => {
                                 <a
                                   className="social-icon text-xs-center"
                                   target="_blank"
-                                  href="/"
+                                  href="https://www.facebook.com/transmetrobaq/"
+                                  rel="noreferrer"
                                 >
                                   <i className="fa fa-facebook" />
                                 </a>
@@ -105,7 +106,8 @@ const Eventos = () => {
                                 <a
                                   className="social-icon text-xs-center"
                                   target="_blank"
-                                  href="/"
+                                  href="https://twitter.com/transmetrobaq"
+                                  rel="noreferrer"
                                 >
                                   <i className="fa fa-twitter" />
                                 </a>
@@ -114,12 +116,13 @@ const Eventos = () => {
                                 <a
                                   className="social-icon text-xs-center"
                                   target="_blank"
-                                  href="/"
+                                  href="https://www.instagram.com/transmetrobaq/?hl=es"
+                                  rel="noreferrer"
                                 >
                                   <i className="fa fa-instagram" />
                                 </a>
                               </li>
-                              <li className="list-inline-item">
+                              {/* <li className="list-inline-item">
                                 <a
                                   className="social-icon text-xs-center"
                                   target="_blank"
@@ -127,7 +130,7 @@ const Eventos = () => {
                                 >
                                   <i className="fab fa-tiktok" />
                                 </a>
-                              </li>
+                              </li> */}
                             </ul>
                           </div>
                         </div>
