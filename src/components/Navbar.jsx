@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
-              src="https://apiwebtm.com/uploads/logo_TM_018f113446.svg"
+              src="https://apiwebtm.com/uploads/logo_TM_018f113446_8703fce509.png"
               alt="Logo Transmetro"
               className="img-fluid"
             />
