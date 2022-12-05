@@ -160,7 +160,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion pedro ramaya"
                           >
-                            Estación <span>Pedro Ramayá Beltrán</span> - Entré
+                            Estación <span>Pedro Ramayá Beltrán</span> - entre
                             carreras 23 y Av. Circunvalar (Soledad, Atl.).
                           </a>
                         </li>
@@ -170,7 +170,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion pacho galan"
                           >
-                            Estación <span>Pacho Galán</span> - Entré carreras
+                            Estación <span>Pacho Galán</span> - entre carreras
                             16 y 17 (Soledad, Atl.).
                           </a>
                         </li>
@@ -180,7 +180,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion joaquin barrios polo"
                           >
-                            Estación <span>Joaquín Barrios Polo</span> - Entré
+                            Estación <span>Joaquín Barrios Polo</span> - entre
                             carreras 1G y 2A.
                           </a>
                         </li>
@@ -190,8 +190,8 @@ const Infra = () => {
                             role="button"
                             alt="estacion buenos aires"
                           >
-                            Estación <span>Buenos Aires</span> - Entrés carrera
-                            7 y 7G.
+                            Estación <span>Buenos Aires</span> - entre carrera 7
+                            y 7G.
                           </a>
                         </li>
                         <li>
@@ -200,7 +200,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la ocho"
                           >
-                            Estación <span>La Ocho</span> - Entré carreras 8 y
+                            Estación <span>La Ocho</span> - entre carreras 8 y
                             8C.
                           </a>
                         </li>
@@ -210,7 +210,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la catorce"
                           >
-                            Estación <span>La Catorce</span> - Entré carreras 14
+                            Estación <span>La Catorce</span> - entre carreras 14
                             y 17.
                           </a>
                         </li>
@@ -220,7 +220,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la veintiuna"
                           >
-                            Estación <span>La Veintiuna</span> - Entré carreras
+                            Estación <span>La Veintiuna</span> - entre carreras
                             20 y 21.
                           </a>
                         </li>
@@ -230,7 +230,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion atlantico"
                           >
-                            Estación <span>Atlántico</span> - Entré carreras 26
+                            Estación <span>Atlántico</span> - entre carreras 26
                             y 27.
                           </a>
                         </li>
@@ -240,7 +240,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion chiquinquira"
                           >
-                            Estación <span>Chiquinquirá</span> - Entré carreras
+                            Estación <span>Chiquinquirá</span> - entre carreras
                             33 y 36.
                           </a>
                         </li>
@@ -250,7 +250,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la arenosa"
                           >
-                            Estación <span>La Arenosa</span> - Entré carreras 41
+                            Estación <span>La Arenosa</span> - entre carreras 41
                             y 43.
                           </a>
                         </li>
@@ -332,7 +332,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion esthercita forero"
                           >
-                            Estación <span>Esthercita Forero</span> - Entré
+                            Estación <span>Esthercita Forero</span> - entre
                             calles 69 y 70.
                           </a>
                         </li>
@@ -343,7 +343,7 @@ const Infra = () => {
                             alt="estacion alfredo correa de andreis"
                           >
                             Estación <span>Alfredo Correa De Andréis</span> -
-                            Entré calles 60 y 62.
+                            entre calles 60 y 62.
                           </a>
                         </li>
                         <li>
@@ -352,7 +352,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion la catedral"
                           >
-                            Estación <span>La Catedral</span> - Entré calles 50
+                            Estación <span>La Catedral</span> - entre calles 50
                             y 53.
                           </a>
                         </li>
@@ -362,7 +362,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion barrio abajo"
                           >
-                            Estación <span>Barrio Abajo</span> - Entré calles 43
+                            Estación <span>Barrio Abajo</span> - entre calles 43
                             y 45.
                           </a>
                         </li>
@@ -372,7 +372,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion parque cultural del caribe"
                           >
-                            Estación <span>Parque Cultural</span> - Entré calles
+                            Estación <span>Parque Cultural</span> - entre calles
                             36 y 39.
                           </a>
                         </li>
@@ -567,7 +567,7 @@ const Infra = () => {
                         role="button"
                         alt="estacion portal de soledad"
                       >
-                        A5-1 <span>Los Robles</span>
+                        A5-1 <span>Los Robles / Los Almendros</span>
                       </a>
                     </li>
                     <li>
