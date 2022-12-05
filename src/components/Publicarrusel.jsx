@@ -18,7 +18,7 @@ const Publicarrusel = () => (
       </div>
       <div className="slide">
         <img
-          src="https://apiwebtm.com/uploads/Blanco_y_Azul_Bokeh_Pagina_Web_Banner_2_1_a2170ec9d5.png"
+          src="https://apiwebtm.com/uploads/IMG_20220510_WA_0018_8a478394fa.jpg"
           alt="Personaliza tu tarjeta transmetro"
         />
       </div>

@@ -121,7 +121,7 @@ const Acordeon = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <a
-                    href="https://apiwebtm.com/uploads/Directorio_Institucional_incluyendo_oficinas_y_dependencias_1_4_9413d3cd2a.docx"
+                    href="https://apiwebtm.com/uploads/Directorio_Institucional_incluyendo_oficinas_y_dependencias_V2_468ec75208.pdf"
                     className="accordion-button collapsed text-decoration-none"
                     type="button"
                     target="_blank"
@@ -134,7 +134,7 @@ const Acordeon = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <a
-                    href="https://apiwebtm.com/uploads/1_5_Directorio_de_servidores_publicos_empleados_o_contratista_1_5_fcfbeb1b04.xlsx"
+                    href="https://apiwebtm.com/uploads/1_5_Directorio_de_servidores_publicos_empleados_o_contratistas_94655713ad.xlsx"
                     className="accordion-button collapsed text-decoration-none"
                     type="button"
                     target="_blank"
@@ -382,18 +382,76 @@ const Acordeon = () => {
                   >
                     <div className="accordion-body">
                       <div className="list-group">
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action "
-                        >
-                          2.1.1 Leyes
-                        </a>
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action"
-                        >
-                          2.1.2 Decreto Único Reglamentario
-                        </a>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTwoOneOne"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTwoOneOne"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTwoOneOne"
+                            >
+                              2.1.1 Leyes
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTwoOneOne"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwoOneOne"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/2_1_1_Normograma_2022_ff3fb5732a.doc"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Normograma
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTwoOneTwo"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTwoOneTwo"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTwoOneTwo"
+                            >
+                              2.1.2 Decreto Único Reglamentario
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTwoOneTwo"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwoOneTwo"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/2_1_2_Decreto_Unico_reglamentario_c8438889c5.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Decreto Único Reglamentario
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         <div className="accordion-item">
                           <h2
                             className="accordion-header"
@@ -461,12 +519,57 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action"
-                        >
-                          2.1.4 Vínculo al Diario o Gaceta Oficial
-                        </a>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTwoOneThree"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTwoOneFour"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTwoOneFour"
+                            >
+                              2.1.4 Vínculo al Diario o Gaceta Oficial
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTwoOneFour"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwoOneFour"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href=" https://www.barranquilla.gov.co/transparencia/normatividad/gaceta-distrital"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2.1.4.1 Gaceta distrital
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/gaceta_15_0e38beccc8.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2.1.4.2 Gaseta
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Gaceta_fondo_de_estabilizacion_a2aad75035.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2.1.4.3 Gaceta fondo de estabilizacion
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         <div className="accordion-item">
                           <h2
                             className="accordion-header"
@@ -506,6 +609,31 @@ const Acordeon = () => {
                                 >
                                   CONPES
                                 </a>{' '}
+                                <a
+                                  href="https://apiwebtm.com/uploads/Manual_de_supervision_3ac138faa2.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Manual de supervisión
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/POLITICAS_Y_ESTANDARES_DE_SEGURIDAD_INFORMATICA_V2_e6a3914e4d.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Politicas y estandares de seguridad
+                                  informatica V2
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_1_bdba5f9c08.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Manual del Usuario Vigente
+                                </a>
                               </div>
                             </div>
                           </div>

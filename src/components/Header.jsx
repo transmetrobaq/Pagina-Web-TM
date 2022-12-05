@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+
 import '../styles/components/Header.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -41,7 +42,7 @@ const Header = () => {
           <div className="carousel-item active" data-bs-interval="10000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
-              className="img-fluid d-block w-100"
+              className="w-100 img-fluid"
               alt="..."
             />
             <div className="carousel-caption  d-block">
@@ -54,7 +55,7 @@ const Header = () => {
           <div className="carousel-item" data-bs-interval="2000">
             <img
               src={`https://apiwebtm.com${noti2.url}`}
-              className="img-fluid d-block w-100"
+              className="w-100 img-fluid"
               alt="..."
             />
             <div className="carousel-caption  d-block">
@@ -67,7 +68,7 @@ const Header = () => {
           <div className="carousel-item">
             <img
               src={`https://apiwebtm.com${noti3.url}`}
-              className="img-fluid d-block w-100"
+              className="w-100 img-fluid "
               alt="..."
             />
             <div className="carousel-caption  d-block">

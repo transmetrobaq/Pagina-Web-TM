@@ -15,7 +15,7 @@ const Accesibilidad = () => (
               className="card-title text-center"
               style={{ marginBottom: '30px' }}
             >
-              Accesibilidad en la página web de Transmetro{' '}
+              Accesibilidad en Transmetro{' '}
             </h2>
 
             <p className="card-text">

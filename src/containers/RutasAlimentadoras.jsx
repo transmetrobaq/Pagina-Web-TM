@@ -13,7 +13,7 @@ import '../styles/components/RutasAlimentadoras.css';
 const RutasAlimentadoras = () => {
   const [rali, setRali] = useState([]);
 
-  const AP = `https://apiwebtm.com/rutas-alimentadoras`;
+  const AP = `https://apiwebtm.com/rutas-alimentadoras?_sort=name`;
 
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */

@@ -59,7 +59,11 @@
     background-color: #004f9f;
     }
   
- 
+    @media only screen and (min-width: 320px) and (max-width: 400px) {
+      .wave__card .card-title {
+        font-size: 15px;
+      }
+    }
   
     
     @media only screen and (max-width: 992px) {
@@ -108,7 +112,6 @@
         margin-bottom: 50px !important;
       }
      
-    
 
     }
 
