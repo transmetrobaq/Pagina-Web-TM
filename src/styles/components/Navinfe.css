@@ -30,7 +30,7 @@
     
     border-radius: 10px;
     background-color: #e30613;
-    border: 3px solid #fff;
+    border: 3px solid #fff !important;
     color: #fff;
     /* Altura */
     max-height: 140px !important;

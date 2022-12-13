@@ -293,7 +293,10 @@ display: flex;
 .preguntas li:nth-child(1){
   padding-left: 0px;
 }
-
+.preguntas a {
+  text-decoration: none;
+  color: #fff;
+}
 #cardBlue{
   height: 544px;
 }

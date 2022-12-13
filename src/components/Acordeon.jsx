@@ -212,17 +212,55 @@ const Acordeon = () => {
                 </h2>
               </div>
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="/"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneEleven"
+                >
+                  <button
                     className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneEleven"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneEleven"
                   >
                     1.11 Calendario de actividades y eventos
-                  </a>
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOneEleven"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneEleven"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <li className="list-group-item list-group-item-action ">
+                        <strong>Fechas conmemorativas o festivas:</strong>
+                        <div className="list-group">
+                          <i className="list-group-item list-group-item-action ">
+                            3 Día Internacional de las Personas en Condición de
+                            Discapacidad
+                          </i>
+                          <i className="list-group-item list-group-item-action ">
+                            7 Fiesta de Velitas
+                          </i>
+                          <i className="list-group-item list-group-item-action ">
+                            10 Día Nacional de Esthercita Forero
+                          </i>
+                          <i className="list-group-item list-group-item-action ">
+                            24 Nochebuena
+                          </i>
+                          <i className="list-group-item list-group-item-action ">
+                            25 Navidad
+                          </i>
+                          <i className="list-group-item list-group-item-action ">
+                            31 Fin de Año
+                          </i>
+                        </div>
+                      </li>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="accordion-item">
                 <h2 className="accordion-header">

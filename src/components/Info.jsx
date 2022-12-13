@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Navinfe from './Navinfe';
 import Infra from './Infra';
-import Horario from './Horario';
+/* import Horario from './Horario'; */
 import Header from './Header';
 import Eventos from './Eventos';
 import '../styles/components/Info.css';
@@ -49,7 +49,7 @@ const Info = () => {
       {/* Datos de Infraestructura */}
       <Infra />
       {/* Horario */}
-      <Horario />
+      {/* <Horario /> */}
 
       {/* Noticias */}
 

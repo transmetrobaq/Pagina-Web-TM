@@ -1031,7 +1031,7 @@ font-weight: bold;
 
 .card_infra-dato {
   background-color: #fff;
-  cursor: pointer;
+  /* cursor: pointer; */
   margin: 0 50px 50px 0;
   padding: 15px 15px  ;
   width: 230px;
@@ -1065,3 +1065,279 @@ font-weight: bold;
   }
  
 }
+
+/* ----rediseño info datos */
+.seisTM{
+  border: 1;
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  left: 12px;
+  background-color:#052756;
+  }
+  
+  .tm .seisTM1{
+      border: 1;
+      border-radius: 0px 20px 20px 0;
+      background-color: #0358a8;
+      padding: 0 0 0 42px ;
+      color: white;
+      min-width: 50px
+    
+      
+  
+  }
+  .corrientesTM{
+  padding: 24px 0 0 0 ;
+  }
+  
+  .tm1 {
+    margin-bottom: 50px;
+  }
+  .tm1 .DosCuatroTex1{
+      border: 1;
+      border-radius: 0px 20px 20px 0;
+      background-color: #0358a8;
+     
+      color: white;
+      min-width: 50px
+      /* background-color:#0358a8;
+      padding: 0 0 0 42px ;  */
+      
+  
+  }
+  
+  .tm1 h2{
+     
+  font-size: 50px;
+  margin-top: 18px;
+  }
+  
+  .tm h2{
+     
+      font-size: 50px;
+      margin-top: 28px;
+      }
+  
+  .tm1 card-body {
+      min-width: 130px;
+  }
+  
+   .card{
+      border: none;
+  
+   }
+  
+   .tm1 .DosCuatroTM1{
+     border: 1;
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  left: 12px;
+  background-color:#052756;
+  } 
+  
+  
+  
+  p{
+      padding: 5px;
+  }
+  .tm1 .SoleBarran{
+      padding: 0px 0px 0px 42px ;
+  }
+  .tm1 .RutasAlimenTex{
+      padding: 20px 0 0 42px ;
+  
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 250px) and (max-width: 768px) {
+       p {
+       font-size: 12px;
+    }
+  
+   h2{
+   font-size: 35px;
+    }
+  
+    hr{
+      width: 150px;
+    }
+  }
+
+
+  /* Flota */
+  /* cultura */
+
+.card__flota {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__flota {
+   background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__flota h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__flota .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__flota p{
+  color:#002856;
+}
+.card__flota li{
+  color:#002856;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+
+
+.card__flota #flota_img {
+  background-image: url("https://apiwebtm.com/uploads/Comunicado_No_080_20_c4176a2583.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+
+/* Centro de Control */
+
+
+.card__control {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__control {
+ 
+  background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__control h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__control .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__control p{
+  color:#002856;
+}
+.card__control li{
+  color:#002856;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+
+
+.card__control #control_img {
+  background-image: url("https://apiwebtm.com/uploads/IMG_6952_ce2bd2be4b.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+/* Beneficios y Ventajas */
+
+
+.card__beneficios {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__beneficios {
+ 
+  background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__beneficios h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__beneficios .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 10px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__beneficios p{
+  color:#002856;
+  font-weight: bold;
+}
+.card__beneficios li{
+  color:#002856;
+  
+  /* margin-bottom: 10px; */
+  
+}
+
+
+

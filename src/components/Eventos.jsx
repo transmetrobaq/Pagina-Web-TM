@@ -83,6 +83,9 @@ const Eventos = () => {
                             <p className="card-text">
                               <span>Hora:</span> {event.hora}
                             </p>
+                            <p className="card-text">
+                              <span>Ruta/Ajuste:</span> {event.ruta}
+                            </p>
                           </div>
                         </div>
                       </div>

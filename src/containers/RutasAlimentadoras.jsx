@@ -27,15 +27,54 @@ const RutasAlimentadoras = () => {
       {/* Droptown RutasAlimentadoras */}
       <div className="row">
         <h1 id="rutas-alimentadoras" className="text-center azul-lt">
-          RUTAS ALIMENTADORAS
+          Rutas Alimentadoras
         </h1>
         <p className="text-center azul-lt">
-          Las rutas alimentadoras operan con buses tipo padrón y busetón. Estos
-          servicios se integran a las rutas troncales a través de las estaciones
-          del Sistema o de paraderos cercanos a estas, llevando a los ciudadanos
-          desde los barrios más lejanos para que hagan el transbordo a los
-          servicios troncales sin ningún costo.
+          La gran mayoría de los servicios alimentadores recorren vías
+          diferentes a las troncales para integrar al Sistema a usuarios que
+          tienen el comienzo de su viaje o su destino en sectores alejadas de
+          ellas.{' '}
+          <a
+            className="fw-bold text-decoration-none"
+            style={{ color: '#e30613' }}
+            data-bs-toggle="collapse"
+            href="#collapseAliment"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseAliment"
+          >
+            leer mas..
+          </a>
         </p>
+        <div
+          className="collapse"
+          id="collapseAliment"
+          style={{ backgroundColor: '#f5f5f5' }}
+        >
+          <p className="card-text  text">
+            Servicios que transitan por las Troncales:
+          </p>
+          <p className="card-text  text">
+            Transmetro realizó el mejoramiento integral de las vías de zonas de
+            precarga por donde transitan nuestras rutas alimentadoras. Este
+            proceso permitió la intervención aproximada de 246.762 m² en el
+            Distrito de Barranquilla y 131.280 m² de construcción de pavimento
+            en el municipio de Soledad para un total de 378.042 m².
+          </p>
+          <p className="card-text  text">
+            Los paraderos para las rutas alimentadoras están debidamente
+            demarcados, ubicados cada 200 metros aproximadamente y son los
+            únicos lugares donde los autobuses, tipo padrón y busetón, pueden
+            recoger o dejar usuarios.
+          </p>
+          <p className="card-text  text">
+            Estos servicios se integran a las rutas troncales a través de las
+            estaciones del Sistema o de paraderos cercanos a estas, llevando a
+            los ciudadanos desde los barrios más lejanos para que hagan el
+            transbordo a los servicios troncales sin ningún costo.
+          </p>
+          <div className="col-md-1" />
+        </div>
       </div>
 
       {/* <div className="row justify-content-center mx-auto d-block width-Troncal">

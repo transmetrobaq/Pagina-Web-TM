@@ -6,7 +6,7 @@ import '../styles/components/Transbordos.css';
 // eslint-disable-next-line arrow-body-style
 const Transbordos = () => {
   return (
-    <div className="container" id="transbordos">
+    <div className="container" id="info_transbordos">
       {/* Transbordo */}
 
       <div className="row car__transb justify-content-center">
@@ -125,8 +125,8 @@ const Transbordos = () => {
               <h2>Ten en cuenta que </h2>
             </div>
           </div>
-          <div className="card-footer bg-transparent encuentra-tm-li">
-            <div className="align-self-center d-flex">
+          <div className=" bg-transparent encuentra-tm-li">
+            <div style={{ display: 'flex', marginLeft: '10px' }}>
               <span>1.</span>
               <div style={{ margin: '20px' }}>
                 <p>
@@ -137,20 +137,29 @@ const Transbordos = () => {
             </div>
           </div>
 
-          <div className="card-footer bg-transparent  ">
-            <div className="align-self-center d-flex">
+          <div className=" bg-transparent  ">
+            <div style={{ display: 'flex', marginLeft: '10px' }}>
               <span>2.</span>
               <div style={{ margin: '20px' }}>
                 <p>
                   Sólo puedes realizar transbordo en los paraderos o estaciones
-                  autorizados en la Matriz de Transbordo.{' '}
+                  autorizados en la{' '}
+                  <a
+                    href="https://apiwebtm.com/uploads/Matriz_Transbordo_6c71ececb7.pdf"
+                    className="text-decoration-none fs-6 fw-bold"
+                    style={{ color: '#002856' }}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Matriz de Transbordo.
+                  </a>
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="card-footer bg-transparent encuentra-tm-li">
-            <div style={{ display: 'flex' }}>
+          <div className=" bg-transparent encuentra-tm-li">
+            <div style={{ display: 'flex', marginLeft: '10px' }}>
               <span>3.</span>
               <div style={{ margin: '20px' }}>
                 <p>
@@ -162,8 +171,8 @@ const Transbordos = () => {
             </div>
           </div>
 
-          <div className="card-footer bg-transparent ">
-            <div style={{ display: 'flex' }}>
+          <div className=" bg-transparent ">
+            <div style={{ display: 'flex', marginLeft: '10px' }}>
               <span>4.</span>
               <div style={{ margin: '20px' }}>
                 <p>
@@ -174,8 +183,8 @@ const Transbordos = () => {
               </div>
             </div>
           </div>
-          <div className="card-footer bg-transparent encuentra-tm-li">
-            <div style={{ display: 'flex' }}>
+          <div className=" bg-transparent encuentra-tm-li">
+            <div style={{ display: 'flex', marginLeft: '10px' }}>
               <span>5.</span>
               <div style={{ margin: '20px' }}>
                 <p>
@@ -187,8 +196,8 @@ const Transbordos = () => {
             </div>
           </div>
 
-          <div className="card-footer bg-transparent ">
-            <div style={{ display: 'flex' }}>
+          <div className=" bg-transparent ">
+            <div style={{ display: 'flex', marginLeft: '10px' }}>
               <span>6.</span>
               <div style={{ margin: '20px' }}>
                 <p>

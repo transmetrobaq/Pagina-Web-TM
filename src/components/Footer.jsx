@@ -74,15 +74,42 @@ const Footer = () => {
                   </ul>
 
                   <ul className="preguntas">
-                    <li>Preguntas frecuentes</li>
+                    <li>
+                      <a
+                        href="/ciudadano/#preguntas-frecuentes"
+                        role="button"
+                        alt="Preguntas frecuentes"
+                      >
+                        Preguntas frecuentes
+                      </a>
+                    </li>
+
                     <li>
                       <p>-</p>
                     </li>
-                    <li>Términos y condiciones</li>
+                    <li>
+                      <a
+                        href="https://apiwebtm.com/uploads/Terminos_condiciones_6837969eeb.pdf"
+                        alt=" Términos y condiciones"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Términos y condiciones
+                      </a>
+                    </li>
                     <li>
                       <p>-</p>
                     </li>
-                    <li>Política de privacidad</li>
+                    <li>
+                      <a
+                        href="https://apiwebtm.com/uploads/Politica_de_Proteccion_de_Datos_Personales_Transmetro_ok_2_bfccd2b09a.pdf"
+                        alt="Política de privacidad"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Política de privacidad
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>

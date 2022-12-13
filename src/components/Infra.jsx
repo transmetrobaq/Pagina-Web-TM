@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
+import Horario from './Horario';
 
 const Infra = () => {
   const [activeTab, setActiveTab] = useState('1');
@@ -86,6 +87,94 @@ const Infra = () => {
         </div>
       </div>
       {/* Estaciones Transmetro Murillo */}
+      {/* Troncales */}
+      <div className="container-xxl estaciones">
+        <div className="card mb-3 border border-0">
+          <div className="row g-0 justify-content-end ">
+            <div className="col-md-10">
+              <div className="card-body  ">
+                <h2>Troncales</h2>
+                <div className="mapa_troncal-linea" />
+                <p>
+                  De acuerdo al artículo 2° del Código Nacional de Tránsito Ley
+                  769 del 2002 las vías troncales son de dos (2) calzadas con
+                  ocho (8) o más carriles y con destinación exclusiva de las
+                  calzadas interiores para el tránsito de servicio público
+                  masivo.{' '}
+                  <a
+                    className="fw-bold text-decoration-none"
+                    style={{ color: '#e30613' }}
+                    data-bs-toggle="collapse"
+                    href="#collapseTroncales"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseTroncales"
+                  >
+                    leer mas..
+                  </a>
+                </p>
+                <div className="collapse" id="collapseTroncales">
+                  <p>
+                    Los servicios Troncales agilizan los traslados pues estos
+                    transitan por carriles exclusivos (Solo Bus) de las
+                    troncales Murillo y Olaya Herrera para llevar a los usuarios
+                    a las estaciones del Sistema Masivo, ubicadas cada 500
+                    metros, en promedio. Estas vías están debidamente demarcadas
+                    con señales reglamentarias y semaforización. En su
+                    adecuación también fueron intervenidos los andenes de estas
+                    vías, con lo que se ha rescatado el espacio público
+                    contribuyendo a una mejor movilidad del peatón regular,
+                    personas con discapacidad, de tercera edad y personas con
+                    coches de bebé.
+                  </p>
+                  <p>
+                    Son dos troncales las que hacen parte del Sistema de
+                    Transporte Masivo para Barranquilla y su área metropolitana,
+                    Transmetro:
+                  </p>
+                  <ul>
+                    <li>Troncal Olaya Herrera:</li>
+                    <p>
+                      Localizada en el Distrito de Barranquilla, tiene una
+                      longitud de 4,5 kilómetros y se extiende desde la estación
+                      de retorno Joe Arroyo, en la calle 74, hasta el Portal de
+                      Barranquillita, en la calle 6. Esta Troncal atraviesa una
+                      parte del Distrito de Barranquilla de occidente a oriente
+                      e inversamente. Cambió su naturaleza en gran parte de su
+                      trayecto con dos carriles, en ambos sentidos, solo para
+                      autobuses de Transmetro, y otros dos, en ambos sentidos,
+                      con carriles para tránsito mixto. Esto convirtió a la
+                      avenida Olaya Herrera en una vía auxiliar de tráfico mixto
+                      y una vía principal por alojar el Sistema de Transporte
+                      Masivo.
+                    </p>
+                    <li>Troncal Murillo</li>
+                    <p>
+                      {' '}
+                      Tiene una extensión de 9.5 kilómetros. Va desde el Portal
+                      de Soledad, ubicado en la calle 65 con la carrera 13,
+                      cerca al Terminal de Transporte, en el municipio de
+                      Soledad, hasta la intersección con la Troncal Olaya
+                      Herrera en Barranquilla. Esta vía, dividida por un
+                      separador central, está conformada por 2 calzadas en dos
+                      sentidos, cada una de tres carriles, dos de tráfico mixto
+                      y 1 de uso exclusivo para el Sistema Integrado de
+                      Transporte Masivo, Transmetro: Carril Solo Bus. En las
+                      zonas en que se localizan las estaciones se encuentra un
+                      carril adicional para el tráfico mixto y puede ser
+                      utilizado por los vehículos del Sistema Masivo en tar el
+                      sobrepaso de otros autobuses cuando sea necesario.
+                    </p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-1" />
+          </div>
+        </div>
+      </div>
+      {/* Horario */}
+      <Horario />
       <div className="container-xxl estaciones">
         <div className="card mb-3 border border-0">
           <div className="row g-0 justify-content-end ">
@@ -99,15 +188,61 @@ const Infra = () => {
           <div className="row g-0 justify-content-end ">
             <div className="col-md-10">
               <div className="card-body ">
-                {/*   <p>
-                  Las estaciones son los puntos de abordaje de vehículos
-                  ubicadas a lo largo de las dos troncales que componen nuestro
-                  Sistema: Troncal Murillo (calle 45) y Troncal Olaya Herrera
-                  (carrera 46). En ellas los usuarios pueden adquirir sus
-                  tarjetas, recargarlas, verificar sus saldos y validar sus
-                  pasajes para poder acceder a las rutas troncales corrientes y
-                  expresas, así como a las rutas alimentadoras.
-                </p> */}
+                <p>
+                  Transmetro tiene quince (15) estaciones intermedias, diez (10)
+                  en la Troncal Murillo y cinco (5) en la Troncal Olaya Herrera,
+                  ubicadas a 500 metros en promedio{' '}
+                  <a
+                    className="fw-bold"
+                    style={{ color: '#e30613' }}
+                    data-bs-toggle="collapse"
+                    href="#collapseExample"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    leer mas..
+                  </a>
+                </p>
+                <div className="collapse" id="collapseExample">
+                  <p>
+                    Su diseño fue determinado a través de un concurso nacional
+                    que llevó a cabo la Sociedad Colombiana de Arquitectos. Para
+                    determinar los materiales se tuvo en cuenta las condiciones
+                    del medio ambiente, su calidad, proyección de mantenimiento
+                    y experiencias previas en Barranquilla y otras ciudades. Los
+                    materiales utilizados son acero con sistema de protección
+                    anticorrosiva especializado, aluminio, madera teka y
+                    baldosas de granito pulido, fabricadas con altas
+                    especificaciones técnicas. Estas plataformas son las únicas
+                    paradas para los buses que se movilizan en las troncales.
+                    Cada módulo de la estación está dotado de:
+                  </p>
+                  <ul>
+                    <li>
+                      Rampa de acceso, único espacio dispuesto para ingreso de
+                      los usuarios a la estación.
+                    </li>
+                    <li>
+                      Taquilla para comprar y recargar la tarjeta sin contacto
+                      (única forma de pago del sistema).
+                    </li>
+                    <li>
+                      Validadores o dispositivos que descuentan el valor del
+                      pasaje y que permiten activar la barrera para el acceso
+                      del usuario.
+                    </li>
+                    <li>
+                      Barreras para el ingreso y salida de usuarios con
+                      movilidad reducida.{' '}
+                    </li>
+                    <li>
+                      Pantallas informativas que suministran datos de la
+                      operación como frecuencia de los servicios y horarios.{' '}
+                    </li>
+                    <li>Señaletica para guiar claramente a los usuarios </li>
+                  </ul>
+                </div>
                 <p className="fw-bold">Las estaciones son de dos tipos:</p>
                 <ul>
                   <li>

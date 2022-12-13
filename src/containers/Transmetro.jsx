@@ -98,6 +98,132 @@ const Transmetro = () => {
                     entidades públicas de la especie de Sociedad Anónima
                     Simplificada.
                   </p>
+
+                  <p>
+                    Transmetro es el sistema de transporte masivo que cambió la
+                    forma de movernos por Barranquilla y parte del área
+                    metropolitana, que marca un antes y un después en el
+                    transporte público local y que inserta la capital del
+                    Atlántico en escenarios de modernidad, competitividad y
+                    sostenibilidad.{' '}
+                    <a
+                      className="fw-bold text-decoration-none"
+                      style={{ color: '#002856' }}
+                      data-bs-toggle="collapse"
+                      href="#collapseExample"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      leer mas..
+                    </a>
+                  </p>
+                  <div className="collapse" id="collapseExample">
+                    <p>
+                      Desde su puesta en funcionamiento, Transmetro ha sido un
+                      escenario incluyente y un nivelador social que trabaja
+                      bajo principios éticos y que hace equipo con otros
+                      sistemas de transporte para traer calidad de vida a sus
+                      usuarios.
+                    </p>{' '}
+                    <p>
+                      Su sistema de pago mediante tarjetas inteligentes, sus
+                      buses climatizados, su carril exclusivo, su red de
+                      estaciones y paraderos y su centro de control de
+                      operaciones, entre otros aspectos, garantizan a sus
+                      usuarios una movilización segura, ordenada, económica,
+                      ágil y confortable.{' '}
+                    </p>
+                    <p>
+                      Con un solo pasaje es posible recorrer buena parte del
+                      área metropolitana, saliendo de Soledad, atravesando
+                      Barranquilla y llegando al Corredor Universitario de
+                      Puerto Colombia. Además, los fines de semana Transmetro
+                      nos lleva a la nueva Barranquilla, la que le da la cara al
+                      río Magdalena, a través de ese bello escenario turístico
+                      que es el Gran Malecón.
+                    </p>
+                    <p>
+                      El Sistema cuenta con 284 buses vinculados a la flota, los
+                      cuales recorren 14 kilómetros de rutas troncales (Murillo
+                      y Olaya Herrera) y 198 kilómetros de rutas alimentadoras.
+                    </p>
+                    <p>
+                      Tiene dos portales: Soledad y Barranquillita; una estación
+                      de retorno (Joe Arroyo) y 15 estaciones intermedias, de
+                      las cuales 13 están en Barranquilla y 2 en Soledad. Además
+                      cuenta con más de 600 paraderos y 116 puntos autorizados
+                      de recarga.
+                    </p>
+                    <p>
+                      En un año atípico como lo fue 2020, el Sistema de
+                      Transporte Masivo de Barranquilla y su área metropolitana,
+                      Transmetro, movilizó a 19,324.483 usuarios, la cifra más
+                      baja en los últimos cinco años, causada por la pandemia y
+                      las restricciones derivadas de la emergencia sanitaria por
+                      el Covid19.{' '}
+                    </p>
+                    <p>
+                      Cabe recordar que, por disposición del Gobierno nacional
+                      (Ministerios de Salud y del Interior), a partir del mes de
+                      abril de ese año en los Sistemas Masivos se fijó en un 35
+                      % la ocupación en los buses, lo que implicó una
+                      disminución de la capacidad transportadora, que unida a
+                      las medidas sanitarias incidió en la demanda y pasajeros
+                      transportados. La empresa intervino de forma eficaz y
+                      responsable con el fin de que el servicio fuera prestado
+                      en las condiciones de seguridad y continuidad establecidos
+                      por el Gobierno Nacional para mitigar la emergencia
+                      sanitaria y evitar la propagación del virus.
+                    </p>
+                    <p>
+                      Transmetro, que en temporada normal movilizaba a más de 3
+                      millones 400 mil usuarios, llegó a transportar a un poco
+                      más de 600.000 usuarios durante los meses de abril y mayo
+                      de 2020.
+                    </p>
+                    <p>
+                      Un vez el Ministerio de Salud autorizó un aumento del 50 %
+                      en la ocupación de los buses y en Barranquilla se fijaron
+                      medidas acordes a los nuevos lineamientos para la
+                      movilidad y el distanciamiento social, Transmetro inició
+                      un repunte en el número de validaciones que, al día de
+                      hoy, continúa en ascenso registrando un promedio diario de
+                      92.000 validaciones.{' '}
+                    </p>
+                    <p>
+                      Transmetro es un sistema de transporte incluyente en la
+                      medida en que tanto su infraestructura como su flota
+                      brindan facilidades para que usuarios con movilidad
+                      reducida puedan acceder al servicio. Tiene 75 buses con
+                      ascensor; tarjetas inteligentes y accesos especiales y
+                      ofrece la posibilidad de programar los viajes llamando a
+                      la línea de atención al cliente (605-3712222).{' '}
+                    </p>
+                    <p>
+                      Además, cuenta con 88,24 km de espacio peatonal y 242,340
+                      m2 de espacio público con rampas y baldosas podotáctiles
+                      para facilitar los desplazamientos en andenes y
+                      estaciones, esto último pensando en usuarios con
+                      limitación visual.
+                    </p>
+                    <p>
+                      Otra característica del SITM es que un centenar de
+                      facilitadores acompañan la operación en todas las
+                      estaciones, para orientar a los usuarios, fomentar el buen
+                      uso del Sistema y controlar la evasión de pasajeros, entre
+                      otros aspectos.
+                    </p>
+                    <p>
+                      Desde el año 2010, el Sistema ha logrado implementar un
+                      programa de cultura ciudadana conocido como ‘Cultura
+                      Transmetro’, que se basa en el respeto al otro y en el
+                      cuidado del sistema de transporte masivo. Transmetro se
+                      mueve para mejorar la calidad de vida de sus usuarios, al
+                      tiempo que aporta para que Barranquilla sea una ciudad
+                      mejor conectada, moderna, eficiente y competitiva.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="col-md-1" />
@@ -341,7 +467,7 @@ const Transmetro = () => {
                           </li>
                           <li>
                             Desarrollar una cultura organizacional de trabajo en
-                            equipo y orientacion a los logros.
+                            equipo y orientación a los logros.
                           </li>
                           <li>
                             Proporcionar ambientes laborales seguros y
@@ -549,10 +675,10 @@ const Transmetro = () => {
                           LP-Tm300-001-09, adjudicó la operación del Sistema de
                           Transporte Masivo para Barranquilla y su área
                           Metropolitana.{' '}
-                          <span> La Unión Temporal Sistur-Transurbanos</span>
-                          obtuvo el 60 % de la operación del Sistema y el{' '}
-                          <span> Grupo Empresarial Metrocaribe S.A.</span> el 40
-                          %. Estas empresas son las encargadas de prestar el
+                          <span> La Unión Temporal Sistur-Transurbanos </span>
+                          obtuvo el 60% de la operación del Sistema y el{' '}
+                          <span> Grupo Empresarial Metrocaribe S.A.</span> el
+                          40%. Estas empresas son las encargadas de prestar el
                           servicio de transporte masivo, suministrar la flota de
                           autobuses, máquinas y equipos necesarios para dotar
                           los talleres y parqueos, así como el mantenimiento de
@@ -708,7 +834,7 @@ const Transmetro = () => {
                       Actualmente contamos con un amplio portafolio de elementos
                       disponibles, para ser intervenidos con brandeo comercial.
                       Estos elementos incluyen billboards en estaciones, brandeo
-                      de buses en exterior e interior, actividades de marcar,
+                      de buses en exterior e interior, actividades de marca,
                       torniquetes, entre una amplia variedad para escoger.
                     </p>
                     <p className="card-text fw-bold">
@@ -758,7 +884,7 @@ const Transmetro = () => {
                     <p className="card-text">
                       Transmetro ofrece 8 locales comerciales ubicados en el
                       Portal de Soledad, con un área de 11.2 m² c/u. Un promedio
-                      de 94.000 usuarios transita semanalmente por este portal.
+                      de 94.000 usuarios transita diariamente por este portal.
                       Para mas información:{' '}
                       <span className=" fw-bold ">
                         comercial1@transmetro.gov.co

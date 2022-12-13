@@ -29,6 +29,78 @@ function Estaciones() {
             style={{ backgroundColor: '#F5F5F5' }}
           >
             <div className="col-md-10">
+              <div className="card-body ">
+                <p>
+                  Transmetro tiene quince (15) estaciones intermedias, diez (10)
+                  en la Troncal Murillo y cinco (5) en la Troncal Olaya Herrera,
+                  ubicadas a 500 metros en promedio{' '}
+                  <a
+                    className="fw-bold"
+                    data-bs-toggle="collapse"
+                    href="#collapseExample"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    leer mas..
+                  </a>
+                </p>
+                <div className="collapse" id="collapseExample">
+                  <p>
+                    Su diseño fue determinado a través de un concurso nacional
+                    que llevó a cabo la Sociedad Colombiana de Arquitectos. Para
+                    determinar los materiales se tuvo en cuenta las condiciones
+                    del medio ambiente, su calidad, proyección de mantenimiento
+                    y experiencias previas en Barranquilla y otras ciudades. Los
+                    materiales utilizados son acero con sistema de protección
+                    anticorrosiva especializado, aluminio, madera teka y
+                    baldosas de granito pulido, fabricadas con altas
+                    especificaciones técnicas. Estas plataformas son las únicas
+                    paradas para los buses que se movilizan en las troncales.
+                    Cada módulo de la estación está dotado de:
+                  </p>
+                  <ul>
+                    <li>
+                      Rampa de acceso, único espacio dispuesto para ingreso de
+                      los usuarios a la estación.
+                    </li>
+                    <li>
+                      Taquilla para comprar y recargar la tarjeta sin contacto
+                      (única forma de pago del sistema).
+                    </li>
+                    <li>
+                      Validadores o dispositivos que descuentan el valor del
+                      pasaje y que permiten activar la barrera para el acceso
+                      del usuario.
+                    </li>
+                    <li>
+                      Barreras para el ingreso y salida de usuarios con
+                      movilidad reducida.{' '}
+                    </li>
+                    <li>
+                      Pantallas informativas que suministran datos de la
+                      operación como frecuencia de los servicios y horarios.{' '}
+                    </li>
+                    <li>Señaletica para guiar claramente a los usuarios </li>
+                  </ul>
+                </div>
+                <p className="fw-bold">Las estaciones son de dos tipos:</p>
+                <ul>
+                  <li>
+                    Tipo A: con un solo módulo de sesenta (60) metros de
+                    longitud y acceso por uno de los costados. Estaciones Pacho
+                    Galán y Pedro Ramayá en el municipio de Soledad, sobre la
+                    troncal Murillo.
+                  </li>
+                  <li>
+                    Tipo B: con dos (2) módulos,uno para servicios corrientes de
+                    sesenta (60) metros de longitud y otro para servicios
+                    expresos de cuarenta (40) metros de largo; en total este
+                    tipo de estaciones tiene cien (100) metros de longitud y
+                    acceso por ambos costados.
+                  </li>
+                </ul>
+              </div>
               <div className="card-body">
                 <Nav tabs style={{ border: 'none' }}>
                   <NavItem>
@@ -109,24 +181,6 @@ function Estaciones() {
                     </p>
                   </TabPane>
                 </TabContent>
-              </div>
-              <div className="card-body ">
-                <p className="fw-bold">Las estaciones son de dos tipos:</p>
-                <ul>
-                  <li>
-                    Tipo A: con un solo módulo de sesenta (60) metros de
-                    longitud y acceso por uno de los costados. Estaciones Pacho
-                    Galán y Pedro Ramayá en el municipio de Soledad, sobre la
-                    troncal Murillo.
-                  </li>
-                  <li>
-                    Tipo B: con dos (2) módulos,uno para servicios corrientes de
-                    sesenta (60) metros de longitud y otro para servicios
-                    expresos de cuarenta (40) metros de largo; en total este
-                    tipo de estaciones tiene cien (100) metros de longitud y
-                    acceso por ambos costados.
-                  </li>
-                </ul>
               </div>
             </div>
             <div className="col-md-1" />

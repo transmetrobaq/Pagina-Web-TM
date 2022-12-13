@@ -64,7 +64,7 @@ const Noticias = () => {
       src: `https://apiwebtm.com${gales.url}`,
       /* srcset: `https://placedog.net/400/240?id=${imageID} 400w, https://placedog.net/700/420?id=${imageID} 700w, https://placedog.net/1000/600?id=${imageID} 1000w`, */
       sizes: '(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px',
-      alt: `${gales.alt}`,
+      alt: `Dogs are domesticated mammals.`,
       thumbnail: `https://apiwebtm.com${gales.url}`,
     };
   });
@@ -175,9 +175,9 @@ const Noticias = () => {
                 <iframe
                   src="https://www.youtube.com/embed/PpC6SUgMpvQ"
                   title="YouTube video player"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>
@@ -186,9 +186,9 @@ const Noticias = () => {
                 <iframe
                   src="https://www.youtube.com/embed/tR09Vs0LLto"
                   title="YouTube video player"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>
@@ -197,9 +197,9 @@ const Noticias = () => {
                 <iframe
                   src="https://www.youtube.com/embed/yascGQLLaZ0"
                   title="YouTube video player"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>
@@ -208,9 +208,9 @@ const Noticias = () => {
                 <iframe
                   src="https://www.youtube.com/embed/_aG_248QY24"
                   title="YouTube video player"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>
@@ -251,7 +251,7 @@ const Noticias = () => {
             <div className="row g-0 justify-content-end ">
               <div className="col-md-6">
                 <div className="card-body">
-                  <h2>Galeriá</h2>
+                  <h2>Galería</h2>
                   <div className="linea-colores-movi" />
                 </div>
               </div>
