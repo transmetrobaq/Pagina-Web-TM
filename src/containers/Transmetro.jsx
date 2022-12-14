@@ -724,7 +724,7 @@ const Transmetro = () => {
                   <p>14 kilómetros lineales en rutas troncales </p>
                   <div
                     className="container linea-colores-peque"
-                    style={{ marginTop: '75px' }}
+                    style={{ marginTop: '65px' }}
                   />
                 </div>
                 <div className="col-md-4 text-center cardbox_infra ">
@@ -737,7 +737,7 @@ const Transmetro = () => {
                   <p>204 mil kilómetros cuadrados de espacio público</p>
                   <div
                     className="container linea-colores-peque"
-                    style={{ marginTop: '51px' }}
+                    style={{ marginTop: '41px' }}
                   />
                 </div>
                 <div className="col-md-4  text-center cardbox_infra ">
@@ -750,7 +750,7 @@ const Transmetro = () => {
                   <p>198 kilómetros en rutas alimentadoras</p>
                   <div
                     className="container linea-colores-peque"
-                    style={{ marginTop: '75px' }}
+                    style={{ marginTop: '65px' }}
                   />
                 </div>
               </div>
@@ -765,7 +765,7 @@ const Transmetro = () => {
                   <p>85.000 m2 de área en Portal de Soledad</p>
                   <div
                     className="container linea-colores-peque"
-                    style={{ marginTop: '75px' }}
+                    style={{ marginTop: '65px' }}
                   />
                 </div>
                 <div className="col-md-4  text-center cardbox_infra ">
@@ -781,7 +781,7 @@ const Transmetro = () => {
                   </p>
                   <div
                     className="container linea-colores-peque"
-                    style={{ marginTop: '51px' }}
+                    style={{ marginTop: '41px' }}
                   />
                 </div>
                 <div className="col-md-4  text-center cardbox_infra ">
@@ -794,7 +794,7 @@ const Transmetro = () => {
                   <p>Par Vial: 2 km de vía de andenes</p>
                   <div
                     className="container linea-colores-peque d-block"
-                    style={{ marginTop: '75px' }}
+                    style={{ marginTop: '65px' }}
                   />
                 </div>
               </div>

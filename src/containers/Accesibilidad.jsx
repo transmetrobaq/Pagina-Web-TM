@@ -55,6 +55,20 @@ const Accesibilidad = () => (
               del bus para facilitar el acceso del usuario con discapacidad
               física.
             </p>
+
+            <video
+              id="videoHome"
+              autoPlay
+              loop
+              muted
+              className="ratio ratio-4x3"
+            >
+              <source
+                src="https://apiwebtm.com/uploads/Transmetro_Incluyente_3295c22383.MOV"
+                type="video/mp4"
+              />
+            </video>
+
             <p className="card-text">
               <span>Página web</span>: De acuerdo al lineamiento LI.SIS.24
               Accesibilidad de la Política de Gobierno Digital del Ministerio de
@@ -219,7 +233,7 @@ const Accesibilidad = () => (
 
     <div className="container accesibilidad-tm">
       <div className="row">
-        <div className="col-sm-8">
+        <div className="col-md-8">
           <div className="card border-0">
             <div className="card-body">
               <h5 className="card-title azul-lt">
