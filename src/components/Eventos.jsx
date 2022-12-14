@@ -27,7 +27,7 @@ const Eventos = () => {
     setNoti2(resnoti.data.data[1].attributes);
     setNoti3(resnoti.data.data[2].attributes); */
 
-    console.log(reseve.data);
+    /* console.log(reseve.data); */
   }, [start, limit]);
 
   const handleSelectChange = (e) => {
@@ -42,8 +42,8 @@ const Eventos = () => {
       setStart('2022-12-01');
       setLimit('2022-12-31');
     }
-    console.log(e.target.value);
-    console.log(fch);
+    /* console.log(e.target.value);
+    console.log(fch); */
   };
   return (
     <section className="pb-5">
