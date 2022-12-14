@@ -155,7 +155,9 @@ section .section-title {
 .backside .card .card-text {
     color:  #00519E !important;
 }
-
+.frontside  .card .card-text {
+    margin-bottom: -5px;
+}
 .frontside .card .card-text span {
     color: #002856;
     font-weight: bold  ;
