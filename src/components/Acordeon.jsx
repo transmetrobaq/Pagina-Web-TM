@@ -3529,144 +3529,90 @@ const Acordeon = () => {
         </div>
         {/* 6. Participa */}
         <div className="accordion-item">
-          <h2 className="accordion-header" id="panelsStayOpen-headingFive">
+          <h2 className="accordion-header" id="panelsStayOpen-headingSeven">
             <button
               className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseFive"
+              data-bs-target="#panelsStayOpen-collapseSeven"
               aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseFive"
+              aria-controls="panelsStayOpen-collapseSeven"
             >
               6. Participa
             </button>
           </h2>
-          {/* <div
-            id="panelsStayOpen-collapseEigth"
+          <div
+            id="panelsStayOpen-collapseSeven"
             className="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingEigth"
+            aria-labelledby="panelsStayOpen-headingSeven"
           >
-            <div className="accordion-body">
-              <div className="accordion-item">
-                <div className="accordion-item">
-                  <h2
-                    className="accordion-header"
-                    id="panelsStayOpen-headingSevenOne"
+            <div className="accordion-item">
+              <div className="accordion-body">
+                <div className="list-group">
+                  {/* <!-- Button trigger modal --> */}
+
+                  <button
+                    type="button"
+                    className="btn text-start"
+                    data-bs-toggle="modal"
+                    data-bs-target="#participaModal"
                   >
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseSevenOne"
-                      aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseSevenOne"
-                    >
-                      7.1 Instrumentos de gestión de la información
-                    </button>
-                  </h2>
-                </div>
-                <div className="accordion-item">
-                  <h2
-                    className="accordion-header"
-                    id="panelsStayOpen-headingSevenTwo"
-                  >
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseSevenTwo"
-                      aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseSevenTwo"
-                    >
-                      7.2 Sección de Datos Abiertos
-                    </button>
-                  </h2>
+                    6.1 Encuesta de participación ciudadana
+                  </button>
+
+                  {/* <!-- Modal --> */}
                   <div
-                    id="panelsStayOpen-collapseSevenTwo"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingSevenTwo"
+                    className="modal fade"
+                    id="participaModal"
+                    aria-labelledby="participaModalLabel"
+                    aria-hidden="true"
                   >
-                    <div className="accordion-body">
-                      <div className="list-group">
-                        <a
-                          href="https://datos.gov.co/"
-                          className="list-group-item list-group-item-action "
-                          target="_blank"
-                          rel="noreferrer"
+                    <div className="modal-dialog modal-dialog-centered">
+                      <div className="modal-content">
+                        <div className="modal-header">
+                          <h5 className="modal-title" id="participaModalLabel">
+                            Encuestas Transmetro
+                          </h5>
+                          <button
+                            type="button"
+                            className="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          />
+                        </div>
+                        <div
+                          className="modal-body "
+                          style={{ width: '150wh', height: '3518px' }}
                         >
-                          Link Datos abiertos (datos.gov.co)
-                        </a>
-                        <li className="list-group-item list-group-item-action ">
-                          2022
-                          <div className="list-group">
-                            <a
-                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre01_2022_b2f70343a1.xlsx"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Demanda diaria Trimestre I
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre02_2022_1a9b31c43f.xlsx"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Demanda diaria Trimestre II
-                            </a>{' '}
-                            <a
-                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre03_2022_ebf5f58f57.xlsx"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Demanda diaria Trimestre III
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/Paraderos_SITM_TM_aea4b7d958.zip"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Archivo geográfico (shapefile) de paraderos del
-                              sistema
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/Rutas_SITM_TM_c9c6c247da.zip"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Archivo geográfico (shapefile) del sistema de
-                              rutas de Transmetro
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/Puntos_de_recarga_SITM_9c0b73e7cc.rar"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Archivo geográfico (shapefile) de puntos de
-                              recarga activos
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/tablasretencion_2022_297276b3e3.zip"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Tablas de retención documental
-                            </a>
-                          </div>
-                        </li>
+                          <iframe
+                            title="Encuesta Participa "
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSf09BqWz8VMWtDk9bbDc-XMe3IUFznefwpXUmmq4pDRgJv5xg/viewform?embedded=true"
+                            style={{
+                              width: '100%',
+                              height: '3518px',
+                            }}
+                            frameBorder="0"
+                            marginHeight="0"
+                            marginWidth="0"
+                          />
+                        </div>
+                        <div className="modal-footer">
+                          <button
+                            type="button"
+                            className="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                            style={{ color: 'white' }}
+                          >
+                            Cerrar
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
         {/* 7. Datos Abiertos */}
         <div className="accordion-item">

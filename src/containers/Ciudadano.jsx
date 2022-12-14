@@ -105,7 +105,7 @@ const Ciudadano = () => {
               <div className="preguntas-tm">
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg1" />
-                  <label className="preguntas-label" for="preg1">
+                  <label className="preguntas-label" htmlFor="preg1">
                     ¿Cuáles son los canales de atención que existen para
                     interponer peticiones, quejas, reclamos, sugerencias,
                     denuncias y felicitaciones (PQRSDF)?
@@ -211,7 +211,7 @@ const Ciudadano = () => {
                 </div>
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg2" />
-                  <label className="preguntas-label " for="preg2">
+                  <label className="preguntas-label " htmlFor="preg2">
                     ¿Qué debo hacer en caso de accidentes en las estaciones, con
                     o en buses de Transmetro?
                   </label>
@@ -245,7 +245,7 @@ const Ciudadano = () => {
                 </div>
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg5" />
-                  <label className="preguntas-label " for="preg5">
+                  <label className="preguntas-label " htmlFor="preg5">
                     ¿Cómo puedo presentar una queja sobre un operador
                     (conductor) de bus o personal de Transmetro?
                   </label>
@@ -262,7 +262,7 @@ const Ciudadano = () => {
                 </div>
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg8" />
-                  <label className="preguntas-label " for="preg8">
+                  <label className="preguntas-label " htmlFor="preg8">
                     ¿Cómo puedo acceder al Estímulo Social de Transporte
                     Estudiantil (ESTE) ?
                   </label>
@@ -296,7 +296,7 @@ const Ciudadano = () => {
 
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg9" />
-                  <label className="preguntas-label " for="preg9">
+                  <label className="preguntas-label " htmlFor="preg9">
                     ¿Qué debo hacer en caso de tener conflictos con la tarjeta,
                     problemas con el saldo o transbordo?
                   </label>
@@ -316,7 +316,7 @@ const Ciudadano = () => {
 
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg10" />
-                  <label className="preguntas-label " for="preg10">
+                  <label className="preguntas-label " htmlFor="preg10">
                     ¿Cómo puedo personalizar mi tarjeta del Sistema?
                   </label>
                   <div className="respuestas-content">
@@ -339,7 +339,7 @@ const Ciudadano = () => {
 
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg11" />
-                  <label className="preguntas-label " for="preg11">
+                  <label className="preguntas-label " htmlFor="preg11">
                     ¿Cómo puedo solicitar la entrega de un video grabado por las
                     cámaras del Sistema?
                   </label>
@@ -373,7 +373,7 @@ const Ciudadano = () => {
                 </div>
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg12" />
-                  <label className="preguntas-label " for="preg12">
+                  <label className="preguntas-label " htmlFor="preg12">
                     ¿Cuál es el término de vigencia del saldo en mi tarjeta?
                   </label>
                   <div className="respuestas-content">
@@ -391,7 +391,7 @@ const Ciudadano = () => {
 
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg13" />
-                  <label className="preguntas-label " for="preg13">
+                  <label className="preguntas-label " htmlFor="preg13">
                     ¿Por qué los videos solicitados solo pueden ser entregados a
                     la autoridad competente?
                   </label>
@@ -406,7 +406,7 @@ const Ciudadano = () => {
 
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg14" />
-                  <label className="preguntas-label " for="preg14">
+                  <label className="preguntas-label " htmlFor="preg14">
                     ¿Tengo derecho a hacer transbordo sin que me cobren
                     nuevamente?
                   </label>
@@ -440,7 +440,7 @@ const Ciudadano = () => {
 
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg16" />
-                  <label className="preguntas-label " for="preg16">
+                  <label className="preguntas-label " htmlFor="preg16">
                     ¿Puedo ingresar mascotas en el Sistema?
                   </label>
                   <div className="respuestas-content">
@@ -457,7 +457,7 @@ const Ciudadano = () => {
 
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg17" />
-                  <label className="preguntas-label " for="preg17">
+                  <label className="preguntas-label " htmlFor="preg17">
                     {' '}
                     ¿Puedo viajar sin saldo en mi tarjeta?
                   </label>
@@ -479,7 +479,7 @@ const Ciudadano = () => {
                   <label
                     className="preguntas-label  "
                     id="glosario"
-                    for="preg15"
+                    htmlFor="preg15"
                   >
                     Glosario
                   </label>
@@ -1024,7 +1024,7 @@ const Ciudadano = () => {
                       aria-labelledby="exampleModalLabel"
                       aria-hidden="true"
                     >
-                      <div className="modal-dialog">
+                      <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                           <div className="modal-header">
                             <h5 className="modal-title" id="exampleModalLabel">
@@ -1037,11 +1037,18 @@ const Ciudadano = () => {
                               aria-label="Close"
                             />
                           </div>
-                          <div className="modal-body ">
-                            {/*  <iframe
-                  src="https://us20.list-manage.com/survey?u=82026dcd7051db356ac870607&id=305155383f&attribution=false"
-                  style={{ width: '100%', height: '600px ' }}
-                />  */}
+                          <div
+                            className="modal-body "
+                            style={{ width: '150wh', height: '3209px' }}
+                          >
+                            <iframe
+                              title="Encuesta Participa "
+                              src="https://docs.google.com/forms/d/e/1FAIpQLSdMUfd6rLLjP4KIMxZFQIM__PvadwEy4YsMUHPt2ctocc0xfg/viewform?embedded=true"
+                              style={{ width: '100%', height: '3209px' }}
+                              frameBorder="0"
+                              marginHeight="0"
+                              marginWidth="0"
+                            />
                           </div>
                           <div className="modal-footer">
                             <button
