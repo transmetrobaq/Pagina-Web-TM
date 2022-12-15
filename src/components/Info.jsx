@@ -121,13 +121,14 @@ const Info = () => {
       </div>
 
       {/* Movilizados */}
-
-      <video id="videoHome" autoPlay loop muted className="ratio ratio-16x9">
-        <source
-          src="https://apiwebtm.com/uploads/Video_pagina_web_Horizontal_8847bf55d3.MOV"
-          type="video/mp4"
-        />
-      </video>
+      <div className="container-xxl">
+        <video id="videoHome" autoPlay loop muted className=" ratio ratio-16x9">
+          <source
+            src="https://apiwebtm.com/uploads/Video_pagina_web_Horizontal_8847bf55d3.MOV"
+            type="video/mp4"
+          />
+        </video>
+      </div>
 
       <div className="container" style={{ marginBottom: '50px' }}>
         <div className="row justify-content-center ">

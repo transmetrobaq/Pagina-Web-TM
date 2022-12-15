@@ -669,7 +669,7 @@ const Sistema = () => (
       </center>
     </div>
 
-    <div className="container-fluid car-movilizados">
+    <div className="container-xxl car-movilizados">
       <div className="card mb-3 border border-0 ">
         <div className="row g-0 justify-content-center align-items-center">
           <div className="col-md-2 " />
@@ -897,7 +897,7 @@ const Sistema = () => (
     </div>
 
     {/* SIstemas 2 */}
-    <div className="container-fluid acce ">
+    <div className="container-xxl acce ">
       <div className="card mb-3 border border-0 card-title" id="accesibilidad">
         <div className="row g-0 justify-content-end ">
           <div className="col-md-11">
