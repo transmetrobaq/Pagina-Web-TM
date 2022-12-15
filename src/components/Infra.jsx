@@ -16,7 +16,7 @@ const Infra = () => {
       {/* Card Bloque Troncales  */}
       <div className="container-xxl mapa_troncal">
         <div className="card mb-3 border border-0">
-          <div className="row g-0 justify-content-end ">
+          <div className="row g-0 justify-content-end " id="mapa-troncal">
             <div className="col-md-10">
               <div className="card-body">
                 <h2>Mapa Troncal</h2>
@@ -36,7 +36,7 @@ const Infra = () => {
 
                   <TabPane tabId="2">
                     <br />
-                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1NB-58nOUp3atTHm_6PfEiK2Vz52LDi8&ehbc=2E312F" />
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1NB-58nOUp3atTHm_6PfEiK2Vz52LDi8&ll=10.989236452512538%2C-74.79015595575626&z=14" />
                   </TabPane>
                 </TabContent>
               </div>
@@ -242,23 +242,23 @@ const Infra = () => {
                     </li>
                     <li>Señaletica para guiar claramente a los usuarios </li>
                   </ul>
+                  <p className="fw-bold">Las estaciones son de dos tipos:</p>
+                  <ul>
+                    <li>
+                      Tipo A: con un solo módulo de sesenta (60) metros de
+                      longitud y acceso por uno de los costados. Estaciones
+                      Pacho Galán y Pedro Ramayá en el municipio de Soledad,
+                      sobre la troncal Murillo.
+                    </li>
+                    <li>
+                      Tipo B: con dos (2) módulos,uno para servicios corrientes
+                      de sesenta (60) metros de longitud y otro para servicios
+                      expresos de cuarenta (40) metros de largo; en total este
+                      tipo de estaciones tiene cien (100) metros de longitud y
+                      acceso por ambos costados.
+                    </li>
+                  </ul>
                 </div>
-                <p className="fw-bold">Las estaciones son de dos tipos:</p>
-                <ul>
-                  <li>
-                    Tipo A: con un solo módulo de sesenta (60) metros de
-                    longitud y acceso por uno de los costados. Estaciones Pacho
-                    Galán y Pedro Ramayá en el municipio de Soledad, sobre la
-                    troncal Murillo.
-                  </li>
-                  <li>
-                    Tipo B: con dos (2) módulos,uno para servicios corrientes de
-                    sesenta (60) metros de longitud y otro para servicios
-                    expresos de cuarenta (40) metros de largo; en total este
-                    tipo de estaciones tiene cien (100) metros de longitud y
-                    acceso por ambos costados.
-                  </li>
-                </ul>
               </div>
             </div>
             <div className="col-md-1" />

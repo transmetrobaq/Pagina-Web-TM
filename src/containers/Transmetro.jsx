@@ -98,7 +98,9 @@ const Transmetro = () => {
                     entidades públicas de la especie de Sociedad Anónima
                     Simplificada.
                   </p>
-
+                  <p className="card-text fw-bold text" id="transmetro-hoy">
+                    Transmetro hoy:
+                  </p>
                   <p>
                     Transmetro es el sistema de transporte masivo que cambió la
                     forma de movernos por Barranquilla y parte del área
@@ -108,7 +110,7 @@ const Transmetro = () => {
                     sostenibilidad.{' '}
                     <a
                       className="fw-bold text-decoration-none"
-                      style={{ color: '#002856' }}
+                      style={{ color: '#c00d0d' }}
                       data-bs-toggle="collapse"
                       href="#collapseExample"
                       role="button"
@@ -232,7 +234,7 @@ const Transmetro = () => {
         </div>
       </div>
       {/* Mision -Vision */}
-      <div className="container-xxl" id="#mision-vision">
+      <div className="container-xxl" id="mision-vision">
         <div className="card__mision">
           <div className="card mb-3 border border-0">
             <div className="row g-0 justify-content-end ">

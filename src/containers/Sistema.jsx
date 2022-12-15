@@ -335,7 +335,10 @@ const Sistema = () => (
     <div className="container-xxl">
       <div className="card__control">
         <div className="card mb-3 border border-0">
-          <div className="row g-0 justify-content-end align-items-center ">
+          <div
+            className="row g-0 justify-content-end align-items-center "
+            id="centro-control"
+          >
             <div className="col-md-5" id="control_img">
               {/*  <img
                   src="https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg"
@@ -369,8 +372,11 @@ const Sistema = () => (
     <div className="container-xxl">
       <div className="card__flota">
         <div className="card mb-3 border border-0">
-          <div className="row g-0 justify-content-end align-items-center ">
-            <div className="col-md-6 " id="cultura-transmetro">
+          <div
+            className="row g-0 justify-content-end align-items-center "
+            id="flota"
+          >
+            <div className="col-md-6 ">
               <div className="card-body" style={{ marginLeft: '50px' }}>
                 <h2>Flota</h2>
                 <div className="linea-colores-cred" />
@@ -749,7 +755,10 @@ const Sistema = () => (
     <div className="container-xxl">
       <div className="card__beneficios">
         <div className="card mb-3 border border-0">
-          <div className="row g-0 justify-content-end align-items-center ">
+          <div
+            className="row g-0 justify-content-end align-items-center "
+            id="beneficio-ventajas"
+          >
             <div className="col-md-1" />
             <div className="col-md-5">
               <div className="card-body">

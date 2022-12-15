@@ -12,8 +12,8 @@ const Horario = () => {
   };
   return (
     <div>
-      {/* Mision -Vision */}
-      <div className="container-xxl" id="#mision-vision">
+      {/* Horario */}
+      <div className="container-xxl" id="horarios">
         <div className="card__horario">
           <div className="card mb-3 border border-0">
             <div className="row g-0 justify-content-end ">

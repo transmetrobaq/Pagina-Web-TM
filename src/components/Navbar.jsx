@@ -80,6 +80,15 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
+                      href="/transmetro/#transmetro-hoy"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Transmetro hoy
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
                       href="/transmetro/#mision-vision"
                       className="dropdown-item"
                       aria-current="page"
@@ -149,11 +158,20 @@ const Navbar = () => {
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li className="nav-item">
                     <a
-                      href="/sistema/#datos-sistema"
+                      href="/sistema/#mapa-troncal"
                       className="dropdown-item"
                       aria-current="page"
                     >
                       Mapa del Sistema
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#horarios"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Horario
                     </a>
                   </li>
                   <li className="nav-item">
@@ -216,11 +234,38 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
+                      href="/sistema/#centro-control"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Centro de Control
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#flota"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Flota
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
                       href="/sistema/#cultura-transmetro"
                       className="dropdown-item"
                       aria-current="page"
                     >
                       Cultura Transmetro
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="/sistema/#beneficio-ventajas"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Beneficios y Ventajas del Sistema
                     </a>
                   </li>
                   <li className="nav-item">
