@@ -119,44 +119,115 @@ const Acordeon = () => {
                 </h2>
               </div>
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="https://apiwebtm.com/uploads/Directorio_Institucional_incluyendo_oficinas_y_dependencias_V2_468ec75208.pdf"
-                    className="accordion-button collapsed text-decoration-none"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneFour"
+                >
+                  <button
+                    className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneFour"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneFour"
                   >
                     1.4 Directorio institucional incluyendo sedes
-                  </a>
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOneFour"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneFour"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <a
+                        href="https://apiwebtm.com/uploads/Directorio_Institucional_incluyendo_oficinas_y_dependencias_V2_468ec75208.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Directorio institucional incluyendo sedes
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
+
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="https://apiwebtm.com/uploads/1_5_Directorio_de_servidores_publicos_empleados_o_contratistas_94655713ad.xlsx"
-                    className="accordion-button collapsed text-decoration-none"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOnefive"
+                >
+                  <button
+                    className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOnefive"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOnefive"
                   >
                     1.5 Directorio de servidores públicos, empleados y
                     contratistas
-                  </a>
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOnefive"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOnefive"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <a
+                        href="https://apiwebtm.com/uploads/1_5_Directorio_de_servidores_publicos_empleados_o_contratistas_94655713ad.xlsx"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Directorio de servidores públicos, empleados y
+                        contratistas
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="https://apiwebtm.com/uploads/1_6_Directorio_de_entidades_sector_Transporte_5073395581.xlsx"
-                    className="accordion-button collapsed text-decoration-none"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneSix"
+                >
+                  <button
+                    className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneSix"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneSix"
                   >
                     1.6 Directorio de entidades
-                  </a>
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOneSix"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneSix"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <a
+                        href="https://apiwebtm.com/uploads/1_6_Directorio_de_entidades_sector_Transporte_5073395581.xlsx"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Directorio de entidades
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="accordion-item">
                 <h2 className="accordion-header">

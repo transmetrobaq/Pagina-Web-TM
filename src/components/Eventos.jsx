@@ -46,7 +46,7 @@ const Eventos = () => {
     console.log(fch); */
   };
   return (
-    <section className="pb-5">
+    <section className="container-xxl pb-5">
       <div className="container">
         <h2 className="section-title h1">Eventos</h2>
         <select

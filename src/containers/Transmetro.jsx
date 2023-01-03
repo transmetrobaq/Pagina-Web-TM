@@ -795,7 +795,7 @@ const Transmetro = () => {
 
                   <p>Par Vial: 2 km de vía de andenes</p>
                   <div
-                    className="container linea-colores-peque d-block"
+                    className="container linea-colores-peque "
                     style={{ marginTop: '65px' }}
                   />
                 </div>
@@ -804,6 +804,72 @@ const Transmetro = () => {
           </div>
         </div>
       </div>
+      {/* Infra card */}
+      {/*  <div className="container">
+        <div className="row row-cols-2 row-cols-md-3 g-4">
+          <div className="col ">
+            <div className="card h-100 shadow p-3 mb-5 bg-body-tertiary rounded-4">
+              <img
+                src="https://apiwebtm.com/uploads/icosn_46_e433788e52.png"
+                alt="icono"
+                className="img-fluid card-img-top mx-auto"
+                style={{ width: '50%' }}
+              />
+              <div className="card-body">
+                <p className="card-text text-center">
+                  85.000 m2 de área en Portal de Soledad
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <img
+                src="https://apiwebtm.com/uploads/icosn_48_7194edb295.png"
+                alt="icono"
+                className="img-fluid card-img-top mx-auto"
+                style={{ width: '50%' }}
+              />
+              <div className="card-body">
+                <p className="card-text text-center">
+                  85.000 m2 de área en Portal de Soledad
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <img
+                src="https://apiwebtm.com/uploads/icosn_44_d03171c121.png"
+                alt="icono"
+                className="img-fluid card-img-top mx-auto"
+                style={{ width: '50%' }}
+              />
+              <div className="card-body">
+                <p className="card-text text-center">
+                  45.000 mil m2 de área en Barranquillita: capacidad para 120
+                  vehículos
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <img
+                src="https://apiwebtm.com/uploads/icosn_47_7b564c98a2.png"
+                alt="icono"
+                className="img-fluid card-img-top mx-auto"
+                style={{ width: '50%' }}
+              />
+              <div className="card-body">
+                <p className="card-text text-center">
+                  Par Vial: 2 km de vía de andenes
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
 
       {/* ------- */}
       <div />

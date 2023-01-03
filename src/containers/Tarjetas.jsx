@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import ReactMarkdown from 'react-markdown';
 import '../styles/components/Tarjetas.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -12,7 +13,7 @@ const Tarjetas = () => {
     const restarj = await axios.get(AP);
     /* setNoti(resnoti.data.data.slice(start, limit)); */
     setTarj(restarj.data);
-    console.log(restarj.data[0]);
+    /*  console.log(restarj.data[0]); */
 
     /* console.log(restarj.data.img[0]);  */
   }, []);
@@ -70,7 +71,12 @@ const Tarjetas = () => {
                       <p className="card-title fw-bold">
                         Tarjeta con diseño artístico.
                       </p>
-                      <p className="card-text">{tarjs.descripcion}</p>
+
+                      <p className="card-text">
+                        <ReactMarkdown escapeHtml={false}>
+                          {tarjs.descripcion}
+                        </ReactMarkdown>
+                      </p>
                     </div>
                   </div>
                 </div>
