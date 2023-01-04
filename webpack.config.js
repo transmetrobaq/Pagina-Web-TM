@@ -54,7 +54,7 @@ module.exports = {
     static: path.join(__dirname, 'dist'),
     compress: true,
     historyApiFallback: true,
-    disableHostCheck: true,
+    allowedHosts: ['.transmetro.gov.co', 'transmetro.gov.co'],
     port: 8000,
   },
 };
