@@ -743,6 +743,14 @@ const Acordeon = () => {
                                 >
                                   Manual del Usuario Vigente
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Manual_de_Funciones_f47c606dcd.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Manual de funciones
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -3600,22 +3608,22 @@ const Acordeon = () => {
         </div>
         {/* 6. Participa */}
         <div className="accordion-item">
-          <h2 className="accordion-header" id="panelsStayOpen-headingSeven">
+          <h2 className="accordion-header" id="panelsStayOpen-headingSix">
             <button
               className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseSeven"
+              data-bs-target="#panelsStayOpen-collapseSix"
               aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseSeven"
+              aria-controls="panelsStayOpen-collapseSix"
             >
               6. Participa
             </button>
           </h2>
           <div
-            id="panelsStayOpen-collapseSeven"
+            id="panelsStayOpen-collapseSix"
             className="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingSeven"
+            aria-labelledby="panelsStayOpen-headingSix"
           >
             <div className="accordion-item">
               <div className="accordion-body">
