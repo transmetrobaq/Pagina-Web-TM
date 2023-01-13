@@ -269,18 +269,42 @@ const Acordeon = () => {
                   </a>
                 </h2>
               </div>
+
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="/"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneOneThree"
+                >
+                  <button
                     className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneOneThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneOneThree"
                   >
                     1.10 Mecanismo de presentación directa de solicitudes
-                  </a>
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOneOneThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneOneThree"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <a
+                        href="https://transmetro.netsaia.com/ws/pqr/index.html"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Crear o Consultar PQRSDF
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="accordion-item">
                 <h2
@@ -1296,6 +1320,27 @@ const Acordeon = () => {
                           <div className="list-group">
                             <a
                               href="https://apiwebtm.com/uploads/Ppto_vigencia_2022_b1eaf21bfe.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Presupuesto
+                            </a>
+                            {/*    <a
+                              href="https://apiwebtm.com/uploads/Estado_Financiero_2021_658497eaa2.7z"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Estados financieros
+                            </a> */}
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2023
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Presupuesto_Ingresos_y_Gastos_2023_1_e6146ecd5e.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
