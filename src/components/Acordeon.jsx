@@ -1143,7 +1143,7 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseFour"
             >
-              4. Planeación
+              4. Planeación, Presupuesto e Informes
             </button>
           </h2>
           <div
@@ -3471,7 +3471,39 @@ const Acordeon = () => {
                     <div className="accordion-body">
                       <div className="list-group">
                         <a
-                          href="https://apiwebtm.com/uploads/INFORME_DE_AUDITORIA_SEMESTRE_2_2019_PQR_S_3856bd257a.pdf"
+                          href="https://apiwebtm.com/uploads/2015_Informes_PQRS_e863121f7b.zip"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2015
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/2016_Informes_PQRS_f71c1afdcf.zip"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2016
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/2017_Informes_PQRS_6a127e6313.zip"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2017
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/2018_Informes_PQRS_fbc199818d.zip"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2018
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/2019_Informes_PQRS_32906b55dd.zip"
                           className="list-group-item list-group-item-action "
                           target="_blank"
                           rel="noreferrer"
@@ -3479,15 +3511,15 @@ const Acordeon = () => {
                           2019
                         </a>
                         <a
-                          href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRS_SEMESTRE_2020_f86e9df152.rar"
-                          className="list-group-item list-group-item-action "
+                          href="https://apiwebtm.com/uploads/2020_Informes_PQRS_aab05e1872.zip"
+                          className="list-group-item list-group-item-action"
                           target="_blank"
                           rel="noreferrer"
                         >
                           2020
                         </a>
                         <a
-                          href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRS_SEMESTRE_2021_2a662476c3.rar"
+                          href="https://apiwebtm.com/uploads/2021_Informes_PQRS_e5a190ca0e.zip"
                           className="list-group-item list-group-item-action "
                           target="_blank"
                           rel="noreferrer"
@@ -3495,7 +3527,7 @@ const Acordeon = () => {
                           2021
                         </a>
                         <a
-                          href="https://apiwebtm.com/uploads/Informe_pqrsdf_trimestre_2022_0d176784be.rar"
+                          href="https://apiwebtm.com/uploads/2022_Informes_PQRS_bab9c03fc9.zip"
                           className="list-group-item list-group-item-action "
                           target="_blank"
                           rel="noreferrer"
