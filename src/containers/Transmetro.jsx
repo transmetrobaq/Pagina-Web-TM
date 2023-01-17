@@ -919,10 +919,10 @@ const Transmetro = () => {
                         >
                           <div className="card-body">
                             <p className="card-title fw-bold">
-                              Publicidad Barranquilla S.A.S
+                              iCo Medios S.A.S.
                             </p>
                             <p className="card-text">
-                              Contacto: 3175052734 - 3002820002
+                              Contacto: 3013344039 - 3003072179
                             </p>
                           </div>
                         </div>
@@ -937,7 +937,7 @@ const Transmetro = () => {
                         >
                           <div className="card-body">
                             <p className="card-title fw-bold">
-                              Efectimedios S.A.
+                              Efectimedios S.A.S.
                             </p>
                             <p className="card-text">
                               Contacto: 3166182466 - 3208558149
