@@ -38,6 +38,10 @@ const Eventos = () => {
       setStart('2023-01-01');
       setLimit('2023-01-31');
     }
+    if (fch === '2') {
+      setStart('2023-02-01');
+      setLimit('2023-02-28');
+    }
     if (fch === '11') {
       setStart('2022-11-01');
       setLimit('2022-11-30');
@@ -64,6 +68,7 @@ const Eventos = () => {
           <option value="2">Febrero</option>
           <option value="3">Marzo</option> */}
           <option value="1">Enero</option>
+          <option value="2">Febrero</option>
           {/* <option value="11">Noviembre</option>
           <option value="12">Diciembre</option> */}
         </select>
@@ -85,9 +90,9 @@ const Eventos = () => {
                             <p className="card-text">
                               <span>Fecha:</span> {event.fecha}
                             </p>
-                            <p className="card-text">
+                            {/* <p className="card-text">
                               <span>Hora:</span> {event.hora}
-                            </p>
+                            </p> */}
                             <p className="card-text">
                               <span>Ruta/Ajuste:</span> {event.ruta}
                             </p>
