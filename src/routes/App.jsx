@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import Home from '../containers/Home';
 import Transmetro from '../containers/Transmetro';
@@ -25,6 +26,10 @@ import Directorio from '../containers/Directorio';
 import Infantil from '../containers/Infantil';
 import Construccion from '../containers/Construccion';
 // eslint-disable-next-line arrow-body-style
+
+const TRACKING_ID = 'UA-152399968-1';
+ReactGA.initialize(TRACKING_ID); // Aqui pones tu identificador de cuenta de Google Analytics
+
 const App = () => {
   const initialState = useFetch();
   /* const isEmpty = Object.keys(initialState.preguntas); */

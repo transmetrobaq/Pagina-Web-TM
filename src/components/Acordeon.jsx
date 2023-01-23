@@ -3894,12 +3894,20 @@ const Acordeon = () => {
                               recarga activos
                             </a>
                             <a
-                              href="https://apiwebtm.com/uploads/tablasretencion_2022_297276b3e3.zip"
+                              href="https://apiwebtm.com/uploads/TABLAS_DE_RETENCION_DOCUMENTAL_5d2e28cc01.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
                             >
                               Tablas de retención documental
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/REGISTRO_DE_ACTIVOS_DE_INFORMACION_TRANSMETRO_SAS_a466fdfb36.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Registro de Activos de Información
                             </a>
                           </div>
                         </li>
