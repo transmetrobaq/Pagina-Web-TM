@@ -141,6 +141,17 @@ const Navbar = () => {
                       Portafolio Comercial
                     </a>
                   </li>
+                  <li className="nav-item">
+                    <a
+                      href="https://apiwebtm.com/uploads/Formato_Informe_Control_Interno_Parametrizado_final_2do_Sem_2022_Conclusiones_c66a4f5b5d.pdf"
+                      className="dropdown-item"
+                      aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Control Interno
+                    </a>
+                  </li>
                 </ul>
               </li>
 
