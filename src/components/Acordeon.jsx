@@ -2079,7 +2079,7 @@ const Acordeon = () => {
                                 2022
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/PIC_Plan_Institucional_de_Capacitacion_2022_1_dd4a7cd852.pdf"
+                                href="https://apiwebtm.com/uploads/PIC_Plan_Institucional_de_Capacitacion_2023_ca4a765400.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
