@@ -101,6 +101,15 @@ const Acordeon = () => {
                       >
                         1.2.1 Organigrama
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/LISTADO_DE_DIRECTIVOS_2_6c8da5b5e2.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        1.2.2 Listado de directivos
+                      </a>
                     </div>
                   </div>
                 </div>
