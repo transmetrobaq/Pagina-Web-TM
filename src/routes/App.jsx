@@ -14,6 +14,7 @@ import AlimentadorasDetails from '../containers/AlimentadorasDetails';
 import EstacionesDetails from '../containers/EstacionesDetails';
 import Tarjetas from '../containers/Tarjetas';
 import Ciudadano from '../containers/Ciudadano';
+import Anonimos from '../containers/Anonimos';
 import NoticiasDetails from '../containers/NoticiasDetails';
 import Layout from '../components/Layout';
 import NotFound from '../containers/NotFound';
@@ -79,6 +80,7 @@ const App = () => {
             />
             <Route exact path="/sistema/tarjetas" component={Tarjetas} />
             <Route exact path="/ciudadano" component={Ciudadano} />
+            <Route exact path="/ciudadano/pqrs_anonimos" component={Anonimos} />
             <Route exact path="/noticias" component={Noticias} />
             <Route
               exact
