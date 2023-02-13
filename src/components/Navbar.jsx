@@ -341,6 +341,16 @@ const Navbar = () => {
                       Peticiones, quejas y reclamos
                     </a>
                   </li>
+
+                  <li>
+                    <a
+                      href="/ciudadano/pqrs_anonimos"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                      Respuestas a peticiones anónimas
+                    </a>
+                  </li>
                   <li>
                     <a
                       href="http://www.sitbarranquilla.com/index.php/personaliza-tu-tarjeta"

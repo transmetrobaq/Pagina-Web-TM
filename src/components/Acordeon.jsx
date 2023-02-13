@@ -2570,7 +2570,32 @@ const Acordeon = () => {
                           <div className="accordion-body">
                             <div className="list-group">
                               <a
-                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_VIG_2018_3db400b623.pdf"
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_2015_f5837babb9.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2015
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_2016_88dd0b2396.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2016
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_2017_f619524e75.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2017
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_2018_74b4fda66a.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -2578,7 +2603,16 @@ const Acordeon = () => {
                                 2018
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_vig_2020_52ac1481e9.pdf"
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_2019_8e2e40b1a1.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_2020_c2c7aae2e2.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -2586,7 +2620,7 @@ const Acordeon = () => {
                                 2020
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_VIG_2021_059baee754.pdf"
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_2021_1a1bb95542.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -3457,16 +3491,15 @@ const Acordeon = () => {
                           <div className="accordion-body">
                             <div className="list-group">
                               <a
-                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_VIG_2018_98b8518991.pdf"
+                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_VIG_2018_3db400b623.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2018
                               </a>
-
                               <a
-                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_vig_2020_db6eb2a338.pdf"
+                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_vig_2020_52ac1481e9.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -3474,7 +3507,7 @@ const Acordeon = () => {
                                 2020
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_VIG_2021_bd80ba7855.pdf"
+                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_VIG_2021_059baee754.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"

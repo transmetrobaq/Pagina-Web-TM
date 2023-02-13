@@ -11,11 +11,10 @@ const Funcionario = () => {
   const [start, setStart] = useState(0);
   const [limit] = useState(10);
 
-  const [filterData, setFilterData] = useState([]);
-  const [wordEnter, setWordEnter] = useState('');
-
+  const [profileData, setprofileData] = useState([]);
   /* const AP = `https://apiwebtm.com/directorio-funcionarios?_limit=${limit}&_start=${start}&_sort=date:DESC`; */
-  const AP = `https://apiwebtm.com/directorio-funcionarios?_limit=${limit}&_start=${start}`;
+  /* const AP = `https://apiwebtm.com/directorio-funcionarios?_limit=${limit}&_start=${start}`; */
+  const AP = `https://apiwebtm.com/pqrs-anonimas?_limit=${limit}&_start=${start}`;
   const [totalCount, setTotalCount] = useState([]);
 
   useEffect(async () => {
@@ -23,7 +22,9 @@ const Funcionario = () => {
     const resdirect = await axios.get(AP);
     /* setNoti(resnoti.data.data.slice(start, limit)); */
     setDirect(resdirect.data);
+    setprofileData(resdirect.data);
     /* console.log(resdirect.data); */
+
     /* Get Total de Arrays */
     const resCount = await axios.get(
       `https://apiwebtm.com/directorio-funcionarios/count`
@@ -43,18 +44,37 @@ const Funcionario = () => {
 
   /* Busqueda */
 
-  const handleFilter = (event) => {
-    const searchWord = event.target.value;
-    setWordEnter(searchWord);
-    /* const newFilter = direct.filter((value) =>
-      value.title.toLowerCase().includes(searchWord.toLowerCase())
-    ); */
-    console.log(searchWord);
-    if (searchWord === '') {
-      setFilterData([]);
-    } else {
-      setFilterData(newFilter);
-    }
+  /*  const [profileData, setprofileData] = useState([
+    {
+      name: 'Brian Kernighan',
+      email: 'brian@test.com',
+      password: 'password1',
+      skills: ['AWK', 'AMPL', 'Unix'],
+    },
+    {
+      name: 'Max Kanat-Alexander',
+      email: 'max@test.com',
+      password: 'password1',
+      skills: ['Java', 'Perl', 'Apache', 'Python'],
+    },
+    {
+      name: 'Spruce Emmanuel',
+      email: 'new@test.com',
+      password: 'password1',
+      skills: ['JavaScript', 'Perl', 'Apache', 'Node.js'],
+    },
+  ]); */
+  const [q, setQ] = useState('');
+  const [searchTerm] = useState(['radicado', 'asunto']);
+
+  const search = (items) => {
+    return items.filter((item) => {
+      return searchTerm.some((newItem) => {
+        return (
+          item[newItem].toString().toLowerCase().indexOf(q.toLowerCase()) > -1
+        );
+      });
+    });
   };
 
   /* Fin de busqueda */
@@ -62,42 +82,75 @@ const Funcionario = () => {
   return (
     <>
       {/* Buscador */}
-      <div className="mb-3" style={{ width: '50%', marginLeft: '100px' }}>
-        <label htmlFor="formGroupExampleInput" className="form-label">
-          No. Radicado
-        </label>
-        <input
-          type="text"
-          className="form-control"
-          id="formGroupExampleInput"
-          placeholder="Ejemplo TM-20230210"
-          value={wordEnter}
-          onChange={handleFilter}
-        />
-      </div>
-      {filterData.length === 0 && (
-        <div className="dataResult">
-          {filterData.slice(0, 15).map((value) => (
-            <a
-              className="dataItem"
-              href={`/noticias/${value.slug}/#noti`}
-              target="_blank"
-              rel="noreferrer"
-              key={direct.id}
-            >
-              <p>{value.name}... </p>
-            </a>
-          ))}
+      <div className="container directorio_Fun">
+        <div>
+          <h2 className="text-center">Respuestas a peticiones anónimas</h2>
+          <div className="card border-light">
+            <div className="mb-3" style={{ width: '50%', color: '#002856' }}>
+              <label className="form-label fw-bold">No. Radicado</label>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Example 20230101-001-PQ"
+                value={q}
+                onChange={(e) => setQ(e.target.value)}
+              />
+            </div>
+            <table className="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">
+                    <h5>No. Radicado</h5>
+                  </th>
+                  <th scope="col">
+                    <h5>Fecha de Radicación</h5>
+                  </th>
+                  <th scope="col">
+                    <h5>Asunto</h5>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {search(profileData).map((val) => (
+                  <tr key={val.id}>
+                    <th>
+                      {val.documento.map((documento) => (
+                        <a
+                          href={`https://apiwebtm.com${documento.url}`}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-hidden
+                          key={documento.id}
+                        >
+                          <p>{val.radicado}</p>
+                        </a>
+                      ))}
+                      {/*   <a
+                        href={`https://apiwebtm.com/${val.documento.url}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <p> {val.radicado}</p>
+                      </a> */}
+                    </th>
+                    <td>
+                      <p>{val.fecha}</p>
+                    </td>
+                    <td>
+                      <p>{val.asunto}</p>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
-      )}
+      </div>
 
       {/* Directorio */}
-      <div className="container directorio_Fun">
+      {/*   <div className="container directorio_Fun">
         <h2 className="text-center">Respuestas a peticiones anónimas</h2>
-        <div
-          className="card border-light
-        "
-        >
+        <div className="card border-light">
           <table className="table table-hover">
             <thead>
               <tr>
@@ -110,9 +163,7 @@ const Funcionario = () => {
                 <th scope="col">
                   <h5>Asunto</h5>
                 </th>
-                {/* <th scope="col">
-                  <h5>H.V</h5>
-                </th> */}
+                
               </tr>
             </thead>
             <tbody>
@@ -130,11 +181,7 @@ const Funcionario = () => {
                       <td>
                         <p>{directs.dependencia}</p>
                       </td>
-                      {/*  <th>
-                        <a href="#segunda-seccion">
-                          <p>H.V</p>
-                        </a>
-                      </th> */}
+                      
                     </tr>
                   ))
                 : 'Loading...'(
@@ -145,7 +192,7 @@ const Funcionario = () => {
             </tbody>
           </table>
         </div>
-      </div>
+      </div> */}
 
       {/* Buttom prev - Next */}
       <div className="navPage">
