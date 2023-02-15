@@ -2496,7 +2496,7 @@ const Acordeon = () => {
                       4.5 Informes de empalme
                     </button>
                   </h2>
-                  {/* <div
+                  <div
                     id="panelsStayOpen-collapseFourFive"
                     className="accordion-collapse collapse"
                     aria-labelledby="panelsStayOpen-headingFourFive"
@@ -2504,24 +2504,32 @@ const Acordeon = () => {
                     <div className="accordion-body">
                       <div className="list-group">
                         <a
-                          href="https://apiwebtm.com/uploads/BASE_DE_DATOS_PROVEEDORES_e0f2d2e788.xls"
+                          href="https://apiwebtm.com/uploads/Informe_de_empalme_AOC_deb4a92393.pdf"
                           className="list-group-item list-group-item-action "
                           target="_blank"
                           rel="noreferrer"
                         >
-                          Base de datos de proveedores
+                          Agosto 10 de 2010
                         </a>
                         <a
-                          href="https://apiwebtm.com/uploads/FORMATO_REGISTRO_DE_PROVEEDORES_VERSION_3_2_4d6e186961.doc"
+                          href="https://apiwebtm.com/uploads/Informe_de_Emplame_MFA_2d3b5f3375.pdf"
                           className="list-group-item list-group-item-action "
                           target="_blank"
                           rel="noreferrer"
                         >
-                          Formato registro de proveedores
+                          Noviembre 25 de 2015
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/Informe_de_Empalme_R_R_R_03fe81362b.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Febrero 17 de 2020
                         </a>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
                 {/* 4.7 Informes de gestión, evaluación y auditoria */}
                 <div className="accordion-item">
@@ -2923,17 +2931,17 @@ const Acordeon = () => {
                             className="accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourSevenOne"
+                            data-bs-target="#panelsStayOpen-collapseFourEightOne"
                             aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourSevenOne"
+                            aria-controls="panelsStayOpen-collapseFourEightOne"
                           >
                             4.8.1 Auditoria Derechos de Autor
                           </button>
                         </h2>
                         <div
-                          id="panelsStayOpen-collapseFourSevenOne"
+                          id="panelsStayOpen-collapseFourEightOne"
                           className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourSevenOne"
+                          aria-labelledby="panelsStayOpen-headingFourEightOne"
                         >
                           <div className="accordion-body">
                             <div className="list-group">
