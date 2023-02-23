@@ -59,7 +59,7 @@ const Horario = () => {
                         Domingo
                       </NavLink>
                     </NavItem>
-                    <NavItem>
+                    {/*  <NavItem>
                       <NavLink
                         className={
                           activeTab === '4' ? 'activeTab baseTab' : 'baseTab'
@@ -68,7 +68,7 @@ const Horario = () => {
                       >
                         Carnaval
                       </NavLink>
-                    </NavItem>
+                    </NavItem> */}
                   </Nav>
 
                   <TabContent activeTab={activeTab}>
@@ -147,7 +147,8 @@ const Horario = () => {
                         </a>
                       </div>
                     </TabPane>
-                    <TabPane tabId="4">
+                    {/* Carnaval */}
+                    {/* <TabPane tabId="4">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
                         <p>Sábado</p>
@@ -211,7 +212,7 @@ const Horario = () => {
                           Alimentadoras
                         </a>
                       </div>
-                    </TabPane>
+                    </TabPane> */}
                   </TabContent>
                 </div>
               </div>
