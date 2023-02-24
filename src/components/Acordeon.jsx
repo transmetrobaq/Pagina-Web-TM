@@ -2765,6 +2765,14 @@ const Acordeon = () => {
                               >
                                 2021
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Redincion_de_cuenta_2022_463a33ad75.rar"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3782,6 +3790,77 @@ const Acordeon = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="panelsStayOpen-headingSixTwo"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSixTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSixTwo"
+                >
+                  6.2 Rendición de cuentas
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseSixTwo"
+                className="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingSixTwo"
+              >
+                <div className="accordion-body">
+                  <div className="list-group">
+                    <a
+                      href="https://apiwebtm.com/uploads/Redincion_de_cuenta_2022_463a33ad75.rar"
+                      className="list-group-item list-group-item-action "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      2022
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="panelsStayOpen-headingSixThree"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSixThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSixThree"
+                >
+                  6.3 Medición de Satisfacción
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseSixThree"
+                className="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingSixThree"
+              >
+                <div className="accordion-body">
+                  <div className="list-group">
+                    <a
+                      href="https://apiwebtm.com/uploads/Medicion_de_Satisfaccion_3056ae121c.rar"
+                      className="list-group-item list-group-item-action "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Medición de Satisfacción
+                    </a>
                   </div>
                 </div>
               </div>
