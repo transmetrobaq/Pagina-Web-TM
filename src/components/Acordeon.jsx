@@ -830,6 +830,14 @@ const Acordeon = () => {
                                 >
                                   Manual de funciones
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CA_PO_002_PROTOCOLO_DE_ATENCION_Y_SERVICIO_AL_CIUDADANO_816b1abd5f.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Políticas, lineamientos y manuales
+                                </a>
                               </div>
                             </div>
                           </div>

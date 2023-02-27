@@ -84,7 +84,9 @@ const Funcionario = () => {
       {/* Buscador */}
       <div className="container directorio_Fun">
         <div>
-          <h2 className="text-center">Respuestas a peticiones anónimas</h2>
+          <h2 className="text-center">
+            Respuestas a peticiones anónimas o sin dirección
+          </h2>
           <div className="card border-light">
             <div className="mb-3" style={{ width: '50%', color: '#002856' }}>
               <label className="form-label fw-bold">No. Radicado</label>

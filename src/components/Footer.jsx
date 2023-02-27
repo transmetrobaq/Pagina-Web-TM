@@ -27,6 +27,7 @@ const Footer = () => {
                       <i className="fa-regular fa-building" />
                       OFICINAS
                     </li>
+                    <li>Lunes a viernes:</li>
                     <li>8:00 - 12:00</li>
                     <li>13:00-17:00</li>
                   </ul>
