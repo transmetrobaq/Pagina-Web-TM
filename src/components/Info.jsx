@@ -138,8 +138,8 @@ const Info = () => {
                 <div className="card-body usu-movilizados ">
                   <h2 className="card-text ">Usuarios Movilizados</h2>
                   <p className="card-text">
-                    Desde el 10 de julio de 2010 hasta <br /> el 31 de diciembre
-                    de 2022
+                    Desde el 10 de julio de 2010 hasta <br /> el 19 de febrero
+                    de 2023
                   </p>
                 </div>
               </div>
