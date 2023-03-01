@@ -149,7 +149,7 @@ const Info = () => {
                     src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
                     alt="Bus Transmetro"
                   />
-                  <h1 className="card-title fw-bold">377.517.973</h1>
+                  <h1 className="card-title fw-bold">380.473.282</h1>
                   <div className="linea-colores-movi" />
                 </div>
               </div>
