@@ -139,7 +139,15 @@ const Info = () => {
                   <h2 className="card-text ">Usuarios Movilizados</h2>
                   <p className="card-text">
                     Desde el 10 de julio de 2010 hasta <br /> el 19 de febrero
-                    de 2023
+                    de 2023{' '}
+                    <button
+                      type="button"
+                      className="btn text-white "
+                      data-bs-toggle="modal"
+                      data-bs-target="#participaModal"
+                    >
+                      Ver más...
+                    </button>
                   </p>
                 </div>
               </div>
@@ -153,6 +161,68 @@ const Info = () => {
                   <div className="linea-colores-movi" />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* MODAL DE NUMEROS MOVILIZADOS  */}
+
+      <div
+        className="modal fade azul-lt"
+        id="participaModal"
+        aria-labelledby="participaModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title fw-bold " id="participaModalLabel">
+                Número de movilizados por periodos
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              />
+            </div>
+            <div
+              className="modal-body "
+              // style={{ width: '150wh', height: '3518px' }}
+            >
+              <table className="table table-bordered azul-lt ">
+                <thead>
+                  <tr>
+                    <th scope="col">Periodos</th>
+                    <th scope="col">Número de movilizados</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>ENERO 2023</td>
+                    <td>25.000</td>
+                  </tr>
+                  <tr>
+                    <td>FEBRERO 2023</td>
+                    <td>30.000</td>
+                  </tr>
+                  <tr>
+                    <td>MARZO 2023</td>
+                    <td>35.000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-bs-dismiss="modal"
+                style={{ color: 'white' }}
+              >
+                Cerrar
+              </button>
             </div>
           </div>
         </div>

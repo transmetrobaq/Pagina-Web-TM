@@ -14,7 +14,7 @@ const Funcionario = () => {
   const [profileData, setprofileData] = useState([]);
   /* const AP = `https://apiwebtm.com/directorio-funcionarios?_limit=${limit}&_start=${start}&_sort=date:DESC`; */
   /* const AP = `https://apiwebtm.com/directorio-funcionarios?_limit=${limit}&_start=${start}`; */
-  const AP = `https://apiwebtm.com/pqrs-anonimas?_limit=${limit}&_start=${start}`;
+  const AP = `https://apiwebtm.com/pqrs-anonimas?_limit=${limit}&_start=${start}&_sort=id:DESC`;
   const [totalCount, setTotalCount] = useState([]);
 
   useEffect(async () => {
