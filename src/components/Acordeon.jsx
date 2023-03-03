@@ -146,6 +146,27 @@ const Acordeon = () => {
                       >
                         1.3.1. Mapa de procesos de Transmetro
                       </a>
+                        <li className="list-group-item list-group-item-action ">
+                          1.3.2 Procesos y procedimientos
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/CA_PO_002_PROTOCOLO_DE_ATENCION_Y_SERVICIO_AL_CIUDADANO_1_7c8aef5832.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Protocolo de Atención y Servicio al ciudadano
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                               Manual del usuario
+                            </a>{' '}
+                          </div>
+                        </li>
                     </div>
                   </div>
                 </div>

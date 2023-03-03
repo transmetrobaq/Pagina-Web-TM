@@ -201,16 +201,16 @@ const Info = () => {
                 <tbody>
                   <tr>
                     <td>ENERO 2023</td>
-                    <td>25.000</td>
+                    <td>1.715.202</td>
                   </tr>
                   <tr>
                     <td>FEBRERO 2023</td>
-                    <td>30.000</td>
+                    <td>1.757.041</td>
                   </tr>
-                  <tr>
+                  {/* <tr>
                     <td>MARZO 2023</td>
                     <td>35.000</td>
-                  </tr>
+                  </tr> */}
                 </tbody>
               </table>
             </div>
