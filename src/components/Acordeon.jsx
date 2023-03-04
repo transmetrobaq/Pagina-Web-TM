@@ -65,6 +65,15 @@ const Acordeon = () => {
                       >
                         1.1.2 Funciones y deberes
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Resolucion_031_2023_Compensacion_Laboral_Semana_Santa_8cd0fe54b7.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        1.1.3  Resoluciones
+                      </a>
                     </div>
                   </div>
                 </div>
