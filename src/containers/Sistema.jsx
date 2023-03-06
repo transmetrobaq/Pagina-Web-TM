@@ -44,8 +44,8 @@ const Sistema = () => (
               <p className="card-text">
                 El servicio tiene un costo de{' '}
                 <span>
-                  $2.700 en días hábiles (lunes a sábado) y $2.800 para los días
-                  domingos y festivos (vigente desde 1 de agosto de 2022)
+                $2.900 en días hábiles (lunes a sábado) y $3.000 para los días
+                  domingos y festivos (vigente desde 1° de marzo de 2023)
                 </span>
                 . El mismo es descontado de la tarjeta inteligente al pasar por
                 los validadores en los portales, estaciones o servicios
