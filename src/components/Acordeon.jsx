@@ -3471,7 +3471,7 @@ const Acordeon = () => {
                                   aria-expanded="false"
                                   aria-controls="panelsStayOpen-collapseFourEightFourSix"
                                 >
-                                  4.8.4.6 AUDITORIAS TESORERIA
+                                   4.8.4.6 AUDITORIAS TESORERIA
                                 </button>
                               </h2>
                               <div
