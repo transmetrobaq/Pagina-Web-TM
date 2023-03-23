@@ -173,7 +173,7 @@ const Noticias = () => {
             <div className="col">
               <div className="card ">
                 <iframe
-                  src="https://www.youtube.com/embed/PpC6SUgMpvQ"
+                  src="https://www.youtube.com/embed/wHlOm5iYhas"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
