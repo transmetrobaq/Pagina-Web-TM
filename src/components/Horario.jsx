@@ -59,16 +59,16 @@ const Horario = () => {
                         Domingo
                       </NavLink>
                     </NavItem>
-                    {/*  <NavItem>
+                     <NavItem>
                       <NavLink
                         className={
                           activeTab === '4' ? 'activeTab baseTab' : 'baseTab'
                         }
                         onClick={() => cambiarTab('4')}
                       >
-                        Carnaval
+                        Semana santa
                       </NavLink>
-                    </NavItem> */}
+                    </NavItem>
                   </Nav>
 
                   <TabContent activeTab={activeTab}>
@@ -147,13 +147,33 @@ const Horario = () => {
                         </a>
                       </div>
                     </TabPane>
-                    {/* Carnaval */}
-                    {/* <TabPane tabId="4">
+                    {/* Semana santa */}
+                    <TabPane tabId="4">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
+                        <p>Lunes a Miércoles</p>
+                        <a
+                          href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_HABILES_03_DE_ABR_SEMANA_SANTA_2023_6d86b5bce3.pdf"
+                          className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{ color: '#e30613' }}
+                        >
+                          <i className="fa-regular fa-file" /> Rutas Troncales
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_ALIMENTADORAS_HABILES_03_DE_ABR_SEMANA_SANTA_2023_7c0aa9e200.pdf"
+                          className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{ color: '#e30613' }}
+                        >
+                          <i className="fa-regular fa-file" /> Rutas
+                          Alimentadoras
+                        </a>
                         <p>Sábado</p>
                         <a
-                          href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_SAB_CARNAVAL_18_DE_FEB_2023_UNICO_DIA_ptx_bfed149008.pdf  "
+                          href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_SABADO_SANTO_08_DE_ABR_2023_ptx_08ffccae22.pdf"
                           className="list-group-item list-group-item-action"
                           target="_blank"
                           rel="noreferrer"
@@ -162,7 +182,7 @@ const Horario = () => {
                           <i className="fa-regular fa-file" /> Rutas Troncales
                         </a>
                         <a
-                          href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_ALIMENTADORAS_SAB_CARNAVAL_18_DE_FEB_2023_UNICO_DIA_3d0634eb2a.pdf"
+                          href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_ALIMENTADORAS_SABADO_SANTO_08_DE_ABR_2023_14bfa6f7c0.pdf"
                           className="list-group-item list-group-item-action"
                           target="_blank"
                           rel="noreferrer"
@@ -171,27 +191,7 @@ const Horario = () => {
                           <i className="fa-regular fa-file" /> Rutas
                           Alimentadoras
                         </a>
-                        <p>Domingo y Lunes</p>
-                        <a
-                          href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_DOM_Y_LUN_CARNAVAL_19_DE_FEB_2023_52e58621d2.pdf"
-                          className="list-group-item list-group-item-action"
-                          target="_blank"
-                          rel="noreferrer"
-                          style={{ color: '#e30613' }}
-                        >
-                          <i className="fa-regular fa-file" /> Rutas Troncales
-                        </a>
-                        <a
-                          href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_ALIMENTADORAS_DOM_Y_LUN_CARNAVAL_19_DE_FEB_2023_76ceb0ee87.pdf"
-                          className="list-group-item list-group-item-action"
-                          target="_blank"
-                          rel="noreferrer"
-                          style={{ color: '#e30613' }}
-                        >
-                          <i className="fa-regular fa-file" /> Rutas
-                          Alimentadoras
-                        </a>
-                        <p>Martes</p>
+                        {/* <p>Martes</p>
                         <a
                           href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_MARTES_CARNAVAL_21_DE_FEB_2023_UNICO_DIA_b936797789.pdf"
                           className="list-group-item list-group-item-action"
@@ -210,9 +210,9 @@ const Horario = () => {
                         >
                           <i className="fa-regular fa-file" /> Rutas
                           Alimentadoras
-                        </a>
+                        </a> */}
                       </div>
-                    </TabPane> */}
+                    </TabPane>
                   </TabContent>
                 </div>
               </div>
