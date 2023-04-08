@@ -170,10 +170,10 @@ const Noticias = () => {
         <div className="container card__informativos" id="informativos">
           <h2>Videos</h2>
           <div className="row row-cols-1 row-cols-md-2 g-4">
-            <div className="col">
-              <div className="card ">
+          <div className="col">
+              <div className="card">
                 <iframe
-                  src="https://www.youtube.com/embed/wHlOm5iYhas"
+                  src="https://www.youtube.com/embed/w20sDo2IiMY"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -182,9 +182,9 @@ const Noticias = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className="card ">
                 <iframe
-                  src="https://www.youtube.com/embed/tR09Vs0LLto"
+                  src="https://www.youtube.com/embed/wHlOm5iYhas"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
