@@ -3218,6 +3218,14 @@ const Acordeon = () => {
                                     >
                                       2021
                                     </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/AUSTERIDAD_2022_bb514db0b6.rar"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2022
+                                    </a>
                                   </div>
                                 </div>
                               </div>
@@ -3336,6 +3344,14 @@ const Acordeon = () => {
                                     >
                                       2020
                                     </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDIT_NOM_Y_P_SOC_2021_a96210ead7.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2021
+                                    </a>
                                   </div>
                                 </div>
                               </div>
@@ -3394,6 +3410,14 @@ const Acordeon = () => {
                                       rel="noreferrer"
                                     >
                                       2020
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/INFORME_FINAL_PRESUPUESTO_VIG_2021_1ff53cec0c.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2021
                                     </a>
                                   </div>
                                 </div>
@@ -3454,6 +3478,14 @@ const Acordeon = () => {
                                     >
                                       2020
                                     </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/INF_FINAL_AUDIT_CONTABILIDAD_VIG_2021_2_3094f252ef.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2021
+                                    </a>
                                   </div>
                                 </div>
                               </div>
@@ -3512,6 +3544,14 @@ const Acordeon = () => {
                                       rel="noreferrer"
                                     >
                                       2020
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDIT_TESORERIA_VIG_2021_0536257757.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2021
                                     </a>
                                   </div>
                                 </div>

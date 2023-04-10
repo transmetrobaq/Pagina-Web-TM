@@ -59,7 +59,7 @@ const Horario = () => {
                         Domingo
                       </NavLink>
                     </NavItem>
-                     <NavItem>
+                     {/* <NavItem>
                       <NavLink
                         className={
                           activeTab === '4' ? 'activeTab baseTab' : 'baseTab'
@@ -68,7 +68,7 @@ const Horario = () => {
                       >
                         Semana santa
                       </NavLink>
-                    </NavItem>
+                    </NavItem> */}
                   </Nav>
 
                   <TabContent activeTab={activeTab}>
@@ -148,7 +148,7 @@ const Horario = () => {
                       </div>
                     </TabPane>
                     {/* Semana santa */}
-                    <TabPane tabId="4">
+                    {/* <TabPane tabId="4">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
                         <p>Lunes a Miércoles</p>
@@ -191,7 +191,7 @@ const Horario = () => {
                           <i className="fa-regular fa-file" /> Rutas
                           Alimentadoras
                         </a>
-                        {/* <p>Martes</p>
+                         <p>Martes</p>
                         <a
                           href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_MARTES_CARNAVAL_21_DE_FEB_2023_UNICO_DIA_b936797789.pdf"
                           className="list-group-item list-group-item-action"
@@ -210,9 +210,9 @@ const Horario = () => {
                         >
                           <i className="fa-regular fa-file" /> Rutas
                           Alimentadoras
-                        </a> */}
+                        </a>
                       </div>
-                    </TabPane>
+                    </TabPane> */}
                   </TabContent>
                 </div>
               </div>
