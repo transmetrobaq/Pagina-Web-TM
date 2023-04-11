@@ -138,8 +138,7 @@ const Info = () => {
                 <div className="card-body usu-movilizados ">
                   <h2 className="card-text ">Usuarios Movilizados</h2>
                   <p className="card-text">
-                    Desde el 10 de julio de 2010 hasta <br /> el 19 de febrero
-                    de 2023{' '}
+                    Desde el 10 de julio de 2010 hasta <br />2 de abril de 2023
                     <button
                       type="button"
                       className="btn text-white "
@@ -157,7 +156,7 @@ const Info = () => {
                     src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
                     alt="Bus Transmetro"
                   />
-                  <h1 className="card-title fw-bold">380.473.282</h1>
+                  <h1 className="card-title fw-bold">383.123.204</h1>
                   <div className="linea-colores-movi" />
                 </div>
               </div>
@@ -207,10 +206,10 @@ const Info = () => {
                     <td>FEBRERO 2023</td>
                     <td>1.757.041</td>
                   </tr>
-                  {/* <tr>
+                  <tr>
                     <td>MARZO 2023</td>
-                    <td>35.000</td>
-                  </tr> */}
+                    <td>2.038.823</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
