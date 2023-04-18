@@ -14,9 +14,11 @@ import '../styles/components/Gallery.css';
 // eslint-disable-next-line arrow-body-style
 const Noticias = () => {
   const [noti, setNoti] = useState([]);
+  const [ vide , setvide] = useState([]);
   const [start, setStart] = useState(0);
-  const [limit] = useState(3);
+  const [limit] = useState(4);
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
+  const AP2 = `https://apiwebtm.com/informativos?_limit=${limit}&_start=${start}&_sort=id:DESC`;
   const [gale, setGale] = useState([]);
   const [limitg] = useState(30);
   const AP1 = `https://apiwebtm.com/noticias?_limit=${limitg}&_start=${start}&_sort=date:DESC`;
@@ -33,12 +35,16 @@ const Noticias = () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const resnoti = await axios.get(AP);
     const resgale = await axios.get(AP1);
+    const resvide = await axios.get(AP2);
     /* setNoti(resnoti.data.data.slice(start, limit)); */
     setNoti(resnoti.data);
     setGale(resgale.data);
+    setvide(resvide.data);
     /* Get Total de Arrays */
     const resCount = await axios.get(`https://apiwebtm.com/noticias/count`);
+    const resCountVideo = await axios.get(`https://apiwebtm.com/informativos/count`);
     setTotalCount(resCount.data);
+    setTotalCount(resCountVideo.data);
     /* console.log(resCount.data); */
 
     /* const resgal = await axios.get(AP1);
@@ -167,7 +173,54 @@ const Noticias = () => {
 
         <div className="container linea-colores" />
         {/* Informativos */}
-        <div className="container card__informativos" id="informativos">
+
+        <div className="container card__informativos">
+          <h2>Videos</h2>
+          <div className="row row-cols-1 row-cols-md-2 g-4">
+            {vide
+              ? vide.map((infor) => (
+                  <div className="col" key={infor.id}>
+                    <div className="card">
+                      <iframe
+                        src={infor.url}
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  </div>
+                ))
+              : 'Loading...'}
+          </div>
+        </div>
+
+        <div className="navPage">
+          <span>
+            <button
+              className="btn btn-outline-primary"
+              disabled={limit > start}
+              onClick={prevPage}
+              alt="Anterior Informativo"
+            >
+              Anterior
+            </button>
+          </span>
+          <span>
+            <button
+              className="btn btn-outline-primary"
+              role="button"
+              disabled={totalCount && start + limit >= totalCount}
+              onClick={nextPage}
+              alt="Siguiente Informativo"
+            >
+              Siguiente
+            </button>
+          </span>
+        </div>
+      </div>
+
+      {/* <div className="container card__informativos" id="informativos">
           <h2>Videos</h2>
           <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
@@ -239,7 +292,7 @@ const Noticias = () => {
             </button>
           </span>
         </div>
-      </div>
+      </div> */}
       {/* <!-- GALERIA --> */}
       <div
         className="container-xxl "
