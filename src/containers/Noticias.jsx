@@ -18,7 +18,7 @@ const Noticias = () => {
   const [start, setStart] = useState(0);
   const [limit] = useState(4);
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
-  const AP2 = `https://apiwebtm.com/informativos?_limit=${limit}&_start=${start}&_sort=id:DESC`;
+  const AP2 = `https://apiwebtm.com/informativos?_limit=${limit}&_start=${start}&_sort=fecha:DESC`;
   const [gale, setGale] = useState([]);
   const [limitg] = useState(30);
   const AP1 = `https://apiwebtm.com/noticias?_limit=${limitg}&_start=${start}&_sort=date:DESC`;
