@@ -3912,14 +3912,129 @@ const Acordeon = () => {
                     >
                       2021
                     </a>
-                    <a
-                      href="https://apiwebtm.com/uploads/decreto_0014_de_2023_rendicion_de_cuenta_db64ee93d0.pdf"
-                      className="list-group-item list-group-item-action "
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      2022
-                    </a>
+                    <div className="accordion-item">
+                      <h2
+                        className="accordion-header"
+                        id="panelsStayOpen-headingSixTwoOne"
+                      >
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseSixTwoOne"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseSixTwoOne"
+                        >
+                          2022
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseSixTwoOne"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSixTwoOne"
+                      >
+                        <div className="accordion-body">
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/decreto_0014_de_2023_rendicion_de_cuenta_db64ee93d0.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Decreto
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_2022_d0f3fdda11.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                               Informe de Gestión de Transmetro 2022
+                            </a>
+                            <div className="accordion-item">
+                              <h2
+                                className="accordion-header"
+                                id="panelsStayOpen-headingSixTwoTwo"
+                              >
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#panelsStayOpen-collapseSixTwoTwo"
+                                  aria-expanded="false"
+                                  aria-controls="panelsStayOpen-collapseSixTwoTwo"
+                                >
+                                  Formularios de Participación
+                                </button>
+                              </h2>
+                              <div
+                                id="panelsStayOpen-collapseSixTwoTwo"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingSixTwoTwo"
+                              >
+                                <div className="accordion-body">
+                                  <div className="list-group">
+                                    <li className="list-group-item list-group-item-action ">
+                                    <strong> Rendición de Cuentas Alcaldía de
+                                      Barranquilla 2022.
+                                      </strong>
+                                      <div className="list-group">
+                                        Haz preguntas relacionadas con el
+                                        cumplimiento de las metas del plan de
+                                        desarrollo de la Alcaldía de
+                                        Barranquilla durante la vigencia 2022.
+                                        <a href="https://survey123.arcgis.com/share/e773483303bb406da1abbfbd852b687d">
+                                          <button
+                                            type="button"
+                                            className="btn text-primary "
+                                          >
+                                            Formulario aquí
+                                          </button>
+                                        </a>
+                                      </div>
+                                    </li>
+
+                                    <li className="list-group-item list-group-item-action ">
+                                    <strong> Rendición de Cuentas Transmetro 2022.</strong>
+                                      <div className="list-group">
+                                        Haz preguntas relacionadas con el
+                                        cumplimiento de las metas del plan de
+                                        desarrollo de Transmetro durante la
+                                        vigencia 2022.
+                                      </div>
+                                       <div className="list-group">
+                                        <a href="https://forms.gle/aCLUNzQ371orjjXM6">
+                                          <button
+                                            type="button"
+                                            className="btn text-primary "
+                                          >
+                                            Formulario aquí
+                                          </button>
+                                        </a>{' '}
+                                      </div>
+                                    </li>
+                                    <li className="list-group-item list-group-item-action ">
+                                      Informe consolidado Rendición de Cuentas
+                                      Alcaldía de Barranquilla 2022.
+                                      <div className="list-group">
+                                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNzA4OTAwMTAtNjU1Yi00YzcwLWIyMmQtZmFhNzQxNWFiM2FhIiwidCI6IjQwMDNhNWU2LTljYmEtNDQzNS1hOGIyLWM3YjVjYjkwYTUzNiIsImMiOjR9">
+                                          <button
+                                            type="button"
+                                            className="btn text-primary "
+                                          >
+                                            Informe aquí
+                                          </button>
+                                        </a>{' '}
+                                      </div>
+                                    </li>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
