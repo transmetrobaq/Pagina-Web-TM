@@ -3943,15 +3943,7 @@ const Acordeon = () => {
                             >
                               Decreto
                             </a>
-                             <a
-                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_2022_d0f3fdda11.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                               Informe de Gestión de Transmetro 2022
-                            </a>
-                            <div className="accordion-item">
+                             <div className="accordion-item">
                               <h2
                                 className="accordion-header"
                                 id="panelsStayOpen-headingSixTwoTwo"
@@ -3964,7 +3956,7 @@ const Acordeon = () => {
                                   aria-expanded="false"
                                   aria-controls="panelsStayOpen-collapseSixTwoTwo"
                                 >
-                                  Formularios de Participación
+                                  Informes de Gestión
                                 </button>
                               </h2>
                               <div
@@ -3974,9 +3966,55 @@ const Acordeon = () => {
                               >
                                 <div className="accordion-body">
                                   <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Informe_de_Gestion_2022_d0f3fdda11.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Informe de Gestión 2022.
+                                    </a>
+                                    <a
+                                      href="https://app.powerbi.com/view?r=eyJrIjoiNzA4OTAwMTAtNjU1Yi00YzcwLWIyMmQtZmFhNzQxNWFiM2FhIiwidCI6IjQwMDNhNWU2LTljYmEtNDQzNS1hOGIyLWM3YjVjYjkwYTUzNiIsImMiOjR9"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Informe consolidado Rendición de Cuentas
+                                      Alcaldía de Barranquilla 2022.
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="accordion-item">
+                              <h2
+                                className="accordion-header"
+                                id="panelsStayOpen-headingSixTwoTwo"
+                              >
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#panelsStayOpen-collapseSixTwoThree"
+                                  aria-expanded="false"
+                                  aria-controls="panelsStayOpen-collapseSixTwoThree"
+                                >
+                                  Formularios de Participación
+                                </button>
+                              </h2>
+                              <div
+                                id="panelsStayOpen-collapseSixTwoThree"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingSixTwoThree"
+                              >
+                                <div className="accordion-body">
+                                  <div className="list-group">
                                     <li className="list-group-item list-group-item-action ">
-                                    <strong> Rendición de Cuentas Alcaldía de
-                                      Barranquilla 2022.
+                                      <strong>
+                                        {' '}
+                                        Rendición de Cuentas Alcaldía de
+                                        Barranquilla 2022.
                                       </strong>
                                       <div className="list-group">
                                         Haz preguntas relacionadas con el
@@ -3995,14 +4033,17 @@ const Acordeon = () => {
                                     </li>
 
                                     <li className="list-group-item list-group-item-action ">
-                                    <strong> Rendición de Cuentas Transmetro 2022.</strong>
+                                      <strong>
+                                        {' '}
+                                        Rendición de Cuentas Transmetro 2022.
+                                      </strong>
                                       <div className="list-group">
                                         Haz preguntas relacionadas con el
                                         cumplimiento de las metas del plan de
                                         desarrollo de Transmetro durante la
                                         vigencia 2022.
                                       </div>
-                                       <div className="list-group">
+                                      <div className="list-group">
                                         <a href="https://forms.gle/aCLUNzQ371orjjXM6">
                                           <button
                                             type="button"
@@ -4013,7 +4054,7 @@ const Acordeon = () => {
                                         </a>{' '}
                                       </div>
                                     </li>
-                                    <li className="list-group-item list-group-item-action ">
+                                    {/* <li className="list-group-item list-group-item-action ">
                                       Informe consolidado Rendición de Cuentas
                                       Alcaldía de Barranquilla 2022.
                                       <div className="list-group">
@@ -4026,7 +4067,7 @@ const Acordeon = () => {
                                           </button>
                                         </a>{' '}
                                       </div>
-                                    </li>
+                                    </li> */}
                                   </div>
                                 </div>
                               </div>
