@@ -415,27 +415,15 @@ const Acordeon = () => {
                   <div className="accordion-body">
                     <div className="list-group">
                       <li className="list-group-item list-group-item-action ">
-                        <strong>Fechas conmemorativas o festivas:</strong>
                         <div className="list-group">
-                          <i className="list-group-item list-group-item-action ">
-                            3 Día Internacional de las Personas en Condición de
-                            Discapacidad
-                          </i>
-                          <i className="list-group-item list-group-item-action ">
-                            7 Fiesta de Velitas
-                          </i>
-                          <i className="list-group-item list-group-item-action ">
-                            10 Día Nacional de Esthercita Forero
-                          </i>
-                          <i className="list-group-item list-group-item-action ">
-                            24 Nochebuena
-                          </i>
-                          <i className="list-group-item list-group-item-action ">
-                            25 Navidad
-                          </i>
-                          <i className="list-group-item list-group-item-action ">
-                            31 Fin de Año
-                          </i>
+                          <a
+                            href="/#Eventos"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            rel="noreferrer"
+                          >
+                            Eventos
+                          </a>
                         </div>
                       </li>
                     </div>
@@ -4288,6 +4276,23 @@ const Acordeon = () => {
               8. Información específica
             </button>
           </h2>
+          <div
+            id="panelsStayOpen-collapseEigth"
+            className="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingEigth"
+          >
+            <div className="accordion-body">
+              <div className="list-group">
+                <a
+                  href="/infantil"
+                  className="list-group-item list-group-item-action "
+                  rel="noreferrer"
+                >
+                   8.1 Información para población infantil y adolescente 
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         {/* 9. Obligación de reportes */}
         <div className="accordion-item">

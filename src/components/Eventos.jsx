@@ -74,7 +74,7 @@ const Eventos = () => {
   return (
     <section className="container-xxl pb-5">
       <div className="container">
-        <h2 className="section-title h1">Eventos</h2>
+        <h2 className="section-title h1" id='Eventos'>Eventos</h2>
         <select
           className="form-select"
           aria-label="Default select example"
