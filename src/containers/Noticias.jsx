@@ -14,37 +14,43 @@ import '../styles/components/Gallery.css';
 // eslint-disable-next-line arrow-body-style
 const Noticias = () => {
   const [noti, setNoti] = useState([]);
-  const [ vide , setvide] = useState([]);
+  const [vide, setvide] = useState([]);
   const [start, setStart] = useState(0);
+  const [start1, setStart1] = useState(0);
   const [limit] = useState(4);
+  const [limit1] = useState(4);
   const AP = `https://apiwebtm.com/noticias?_limit=${limit}&_start=${start}&_sort=date:DESC`;
-  const AP2 = `https://apiwebtm.com/informativos?_limit=${limit}&_start=${start}&_sort=fecha:DESC`;
+  const AP2 = `https://apiwebtm.com/informativos?_limit=${limit1}&_start=${start1}&_sort=fecha:desc`;
   const [gale, setGale] = useState([]);
   const [limitg] = useState(30);
   const AP1 = `https://apiwebtm.com/noticias?_limit=${limitg}&_start=${start}&_sort=date:DESC`;
+
   /* const AP1 = `https://apiwebtm.com/galeria`; */
 
   const [totalCount, setTotalCount] = useState([]);
+  const [totalCount1, setTotalCountVideo] = useState([]);
 
   /* s */
   /* const [mQuery, setMQuery] = useState({
     matches: window.innerWidth > 768,
+    .....
+    +......................................................................
   }); */
 
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const resnoti = await axios.get(AP);
     const resgale = await axios.get(AP1);
-    const resvide = await axios.get(AP2);
+
     /* setNoti(resnoti.data.data.slice(start, limit)); */
     setNoti(resnoti.data);
     setGale(resgale.data);
-    setvide(resvide.data);
+
     /* Get Total de Arrays */
     const resCount = await axios.get(`https://apiwebtm.com/noticias/count`);
-    const resCountVideo = await axios.get(`https://apiwebtm.com/informativos/count`);
+
     setTotalCount(resCount.data);
-    setTotalCount(resCountVideo.data);
+
     /* console.log(resCount.data); */
 
     /* const resgal = await axios.get(AP1);
@@ -59,6 +65,36 @@ const Noticias = () => {
 
   const prevPage = () => {
     setStart(start - limit);
+  };
+
+  useEffect(async () => {
+    /* Get Api Filtrada inicio-limite-Descendente */
+
+    const resvide = await axios.get(AP2);
+    /* setNoti(resnoti.data.data.slice(start, limit)); */
+
+    setvide(resvide.data);
+    /* Get Total de Arrays */
+
+    const resCountVideo = await axios.get(
+      `https://apiwebtm.com/informativos/count`
+    );
+
+    setTotalCountVideo(resCountVideo.data);
+    /* console.log(resCount.data); */
+
+    /* const resgal = await axios.get(AP1);
+    setGaleria(resgal.data);
+    console.log(resgal.data.img[0]); */
+  }, [start1, limit1]);
+  /* console.log(totalCount); */
+
+  const nextPage1 = () => {
+    setStart1(limit1 + start1);
+  };
+
+  const prevPage1 = () => {
+    setStart1(start1 - limit1);
   };
 
   /* const imageIDs = Array(30) // the maximum is currently 149
@@ -153,9 +189,9 @@ const Noticias = () => {
               className="btn btn-outline-primary"
               disabled={limit > start}
               onClick={prevPage}
-              alt="Anterior Noticia"
+              alt="Siguiente  Noticia"
             >
-              Anterior noticia
+              Siguiente noticia
             </button>
           </span>
           <span>
@@ -164,9 +200,9 @@ const Noticias = () => {
               role="button"
               disabled={totalCount && start + limit >= totalCount}
               onClick={nextPage}
-              alt="Siguiente Noticia"
+              alt="Anterior Noticia"
             >
-              Siguiente noticia
+              Anterior noticia
             </button>
           </span>
         </div>
@@ -199,22 +235,22 @@ const Noticias = () => {
           <span>
             <button
               className="btn btn-outline-primary"
-              disabled={limit > start}
-              onClick={prevPage}
-              alt="Anterior Informativo"
+              disabled={limit1 > start1}
+              onClick={prevPage1}
+              alt="Siguiente Informativo"
             >
-              Anterior
+              Siguiente
             </button>
           </span>
           <span>
             <button
               className="btn btn-outline-primary"
               role="button"
-              disabled={totalCount && start + limit >= totalCount}
-              onClick={nextPage}
-              alt="Siguiente Informativo"
+              disabled={totalCount1 && start1 + limit1 >= totalCount1}
+              onClick={nextPage1}
+              alt="Anterior Informativo"
             >
-              Siguiente
+              Anterior
             </button>
           </span>
         </div>
