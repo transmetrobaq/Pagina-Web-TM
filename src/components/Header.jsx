@@ -40,14 +40,14 @@ const Header = () => {
       >
         {/* start carusel items */}
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="2000">
+          {/* <div className="carousel-item active" data-bs-interval="2000">
             <img
               src="https://apiwebtm.com/uploads/BANNER_47ebdb744c.png"
               className="w-100 img-fluid"
               alt="..."
             />
-          </div>
-          <div className="carousel-item" data-bs-interval="10000">
+          </div> */}
+          <div className="carousel-item active" data-bs-interval="10000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
