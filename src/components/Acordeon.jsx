@@ -721,6 +721,14 @@ const Acordeon = () => {
                                 >
                                   2021
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Resolucion_Creacion_Comite_de_Contratacion_1_d8c37d11f7.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                   2023
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -1169,6 +1177,15 @@ const Acordeon = () => {
                           rel="noreferrer"
                         >
                           Manual de contratación
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/Resolucion_Creacion_Comite_de_Contratacion_1_d8c37d11f7.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Resolución-Creación Comité de Contratación
+
                         </a>
                       </div>
                     </div>
