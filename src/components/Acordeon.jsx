@@ -66,7 +66,7 @@ const Acordeon = () => {
                         1.1.2 Funciones y deberes
                       </a>
                       <a
-                        href="https://apiwebtm.com/uploads/Resolucion_031_2023_Compensacion_Laboral_Semana_Santa_8cd0fe54b7.pdf"
+                        href="https://apiwebtm.com/uploads/Reglamento_Interno_a98b9d5de0.pdf"
                         className="list-group-item list-group-item-action"
                         aria-current="true"
                         target="_blank"
@@ -722,7 +722,7 @@ const Acordeon = () => {
                                   2021
                                 </a>
                                 <a
-                                  href="https://apiwebtm.com/uploads/Resolucion_Creacion_Comite_de_Contratacion_1_d8c37d11f7.pdf"
+                                  href="https://apiwebtm.com/uploads/Reglamento_Interno_a98b9d5de0.pdf"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
