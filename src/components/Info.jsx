@@ -216,7 +216,7 @@ const Info = () => {
                   </tr>
                   <tr>
                     <td>MAYO 2023</td>
-                    <td>2.030.323</td>
+                     <td>2.030.323</td>
                   </tr>
                 </tbody>
               </table>
