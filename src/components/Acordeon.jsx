@@ -66,26 +66,26 @@ const Acordeon = () => {
                         1.1.2 Funciones y deberes
                       </a>
                       <li className="list-group-item list-group-item-action ">
-                      1.1.3 Resoluciones
-                          <div className="list-group">
-                            <a
-                              href="https://apiwebtm.com/uploads/Resolucion_031_2023_Compensacion_Laboral_Semana_Santa_8cd0fe54b7_23e56610a4.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Resolucion Laboral Semana Santa
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/Reglamento_Interno_a98b9d5de0.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                             Reglamento Interno de Trabajo 
-                            </a>{' '}
-                          </div>
-                        </li>
+                        1.1.3 Resoluciones
+                        <div className="list-group">
+                          <a
+                            href="https://apiwebtm.com/uploads/Resolucion_031_2023_Compensacion_Laboral_Semana_Santa_8cd0fe54b7_23e56610a4.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Resolucion Laboral Semana Santa
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Reglamento_Interno_a98b9d5de0.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Reglamento Interno de Trabajo
+                          </a>{' '}
+                        </div>
+                      </li>
                     </div>
                   </div>
                 </div>
@@ -167,27 +167,27 @@ const Acordeon = () => {
                       >
                         1.3.1. Mapa de procesos de Transmetro
                       </a>
-                        <li className="list-group-item list-group-item-action ">
-                          1.3.2 Procesos y procedimientos
-                          <div className="list-group">
-                            <a
-                              href="https://apiwebtm.com/uploads/CA_PO_002_PROTOCOLO_DE_ATENCION_Y_SERVICIO_AL_CIUDADANO_1_7c8aef5832.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Protocolo de Atención y Servicio al ciudadano
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                               Manual del usuario
-                            </a>{' '}
-                          </div>
-                        </li>
+                      <li className="list-group-item list-group-item-action ">
+                        1.3.2 Procesos y procedimientos
+                        <div className="list-group">
+                          <a
+                            href="https://apiwebtm.com/uploads/CA_PO_002_PROTOCOLO_DE_ATENCION_Y_SERVICIO_AL_CIUDADANO_1_7c8aef5832.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Protocolo de Atención y Servicio al ciudadano
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Manual del usuario
+                          </a>{' '}
+                        </div>
+                      </li>
                     </div>
                   </div>
                 </div>
@@ -734,26 +734,26 @@ const Acordeon = () => {
                                   2021
                                 </a>
                                 <li className="list-group-item list-group-item-action ">
-                                2023
-                          <div className="list-group">
-                            <a
-                              href="https://apiwebtm.com/uploads/Resolucion_Creacion_Comite_de_Contratacion_1_d8c37d11f7.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              Resolución-Creación Comité de Contratación
-                            </a>
-                            <a
-                              href="https://apiwebtm.com/uploads/Reglamento_Interno_a98b9d5de0.pdf"
-                              className="list-group-item list-group-item-action "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                             Reglamento Interno de Trabajo
-                            </a>{' '}
-                          </div>
-                        </li>
+                                  2023
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Resolucion_Creacion_Comite_de_Contratacion_1_d8c37d11f7.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Resolución-Creación Comité de Contratación
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Reglamento_Interno_a98b9d5de0.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Reglamento Interno de Trabajo
+                                    </a>{' '}
+                                  </div>
+                                </li>
                               </div>
                             </div>
                           </div>
@@ -1210,7 +1210,6 @@ const Acordeon = () => {
                           rel="noreferrer"
                         >
                           Resolución-Creación Comité de Contratación
-
                         </a>
                       </div>
                     </div>
@@ -1472,7 +1471,7 @@ const Acordeon = () => {
                               rel="noreferrer"
                             >
                               Estados financieros
-                            </a> 
+                            </a>
                           </div>
                         </li>
                         <li className="list-group-item list-group-item-action ">
@@ -3549,7 +3548,7 @@ const Acordeon = () => {
                                   aria-expanded="false"
                                   aria-controls="panelsStayOpen-collapseFourEightFourSix"
                                 >
-                                   4.8.4.6 AUDITORIAS TESORERIA
+                                  4.8.4.6 AUDITORIAS TESORERIA
                                 </button>
                               </h2>
                               <div
@@ -3981,7 +3980,7 @@ const Acordeon = () => {
                             >
                               Decreto
                             </a>
-                             <div className="accordion-item">
+                            <div className="accordion-item">
                               <h2
                                 className="accordion-header"
                                 id="panelsStayOpen-headingSixTwoTwo"
@@ -4338,7 +4337,7 @@ const Acordeon = () => {
                   className="list-group-item list-group-item-action "
                   rel="noreferrer"
                 >
-                   8.1 Información para población infantil y adolescente 
+                  8.1 Información para población infantil y adolescente
                 </a>
               </div>
             </div>
