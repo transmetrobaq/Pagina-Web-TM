@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Navinfe from './Navinfe';
 import Infra from './Infra';
@@ -61,8 +61,8 @@ const Info = () => {
               <div className="card-body">
                 <div className="title-noti justify-content-between">
                   <h2>Noticias</h2>{' '}
-                  <Link
-                    to="/noticias"
+                  <a
+                    href="noticias/#comunicados-prensa"
                     alt="Ver Noticias"
                     style={{ textDecoration: 'none' }}
                   >
@@ -70,7 +70,7 @@ const Info = () => {
                       Ver todas las noticias{' '}
                       <i className="fa-solid fa-arrow-right" />
                     </p>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

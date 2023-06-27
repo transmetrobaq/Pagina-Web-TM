@@ -443,18 +443,43 @@ const Acordeon = () => {
                 </div>
               </div>
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="/"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneTwelve"
+                >
+                  <button
                     className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneTwelve"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneTwelve"
                   >
-                    1.12 Información sobre decisiones que puede afectar al
-                    público
-                  </a>
+                    1.12 Información sobre decisiones que puedan afectar al público
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOneTwelve"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneTwelve"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <li className="list-group-item list-group-item-action ">
+                        <div className="list-group">
+                          <a
+                            href="/noticias/#comunicados-prensa"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            rel="noreferrer"
+                          >
+                           Comunicados de prensa
+                          </a>
+                        </div>
+                      </li>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="accordion-item">
                 <h2
