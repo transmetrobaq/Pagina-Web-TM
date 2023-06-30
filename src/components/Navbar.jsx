@@ -341,6 +341,17 @@ const Navbar = () => {
                       Peticiones, quejas y reclamos
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="https://apiwebtm.com/uploads/Resolucion_Costos_de_reproduccion_TM_1_d8c08f17db.pdf"
+                      className="dropdown-item"
+                      aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                     Costos de Reproducción
+                    </a>
+                  </li>
 
                   <li>
                     <a

@@ -399,6 +399,15 @@ const Acordeon = () => {
                       >
                         Crear o Consultar PQRSDF
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Resolucion_Costos_de_reproduccion_TM_1_d8c08f17db.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                      Costos de Reproducción
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -3085,6 +3094,14 @@ const Acordeon = () => {
                               >
                                 2021
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_DNDA_VIG_2022_b7d1675297.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3198,7 +3215,7 @@ const Acordeon = () => {
                                 2021
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRS_SEMESTRE_2022_75c42523ef.zip"
+                                href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRS_SEMESTRE_2022_425ecff008.rar"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -3663,6 +3680,14 @@ const Acordeon = () => {
                                 2018
                               </a>
                               <a
+                                href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OFICINA_DE_CONTROL_INTERNO_VIG_2019_8d557eb1e6.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
                                 href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_OCI_vig_2020_52ac1481e9.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
@@ -3677,6 +3702,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_Oficina_Control_Interno_vig_2022_ffe99ae73d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               2022
                               </a>
                             </div>
                           </div>
