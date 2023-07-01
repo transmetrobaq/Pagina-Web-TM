@@ -124,7 +124,7 @@ const Info = () => {
       <div className="container-xxl" style={{ padding: '0px' }}>
         <video id="videoHome" autoPlay loop muted className=" ratio ratio-16x9">
           <source
-            src="https://apiwebtm.com/uploads/Video_pagina_web_Horizontal_8847bf55d3.MOV"
+            src="https://apiwebtm.com/uploads/Transmetro_baad68f747.mp4"
             type="video/mp4"
           />
         </video>
