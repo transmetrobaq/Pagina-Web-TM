@@ -330,6 +330,17 @@ const Navbar = () => {
                       Manual del Usuario
                     </a>
                   </li>
+               <li>
+                    <a
+                      href="https://apiwebtm.com/uploads/Instructivo_para_diligenciar_formulario_virtual_de_PQRSDF_3bf97cd9d2.pdf"
+                      className="dropdown-item"
+                      aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      ¿Cómo registrar y consultar PQRSDF?
+                    </a>
+                  </li>
                   <li>
                     <a
                       href="https://transmetro.netsaia.com/ws/pqr/index.html"
