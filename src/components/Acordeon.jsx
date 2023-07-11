@@ -1163,6 +1163,189 @@ const Acordeon = () => {
                         >
                           SECOP
                         </a>
+                        <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingTreeTwoOne"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTreeTwoOne"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTreeTwoOne"
+                          >
+                             Apertura  Proceso lista  corta   TM-LC--001-2023
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTreeTwoOne"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTreeTwoOne"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <ol >
+                                <span>Objeto:</span>
+                                Proceso de contratación bajo la modalidad de Invitación con Lista Corta,
+                                 cuyo objeto es Contratar las pólizas de seguros Todo Riesgo Daños Materiales,
+                                 Responsabilidad Civil Extracontractual y Manejo Global Entidades Estatales,
+                                  requeridas para la adecuada protección de los bienes e intereses patrimoniales 
+                                  de Transmetro S.A.S, así como aquellos por los que sea o fuere legalmente responsable o le corresponda 
+                                asegurar en virtud de disposición legal o contractual.
+                                   </ol>
+                              <a
+                                href="https://apiwebtm.com/uploads/1_ANEXO_CARTA_DE_PRESENTACION_DE_LA_OFERTA_e52d503001.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               1 ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_2_CRONOGRAMA_DEL_PROCESO_b2b2ccbbfe.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                ANEXO 2. CRONOGRAMA DEL PROCESO
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/BIENES_Y_VALORES_TRANSMETRO_2023_09701de0fb.xls"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                BIENES Y VALORES TRANSMETRO 2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CARTA_DE_DE_INVITACION_PARA_PRESENTAR_PROPUESTA_123b12aefb.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CARTA  DE   DE INVITACION  PARA PRESENTAR PROPUESTA
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/CDP_8d38956f41.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CDP
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_DE_SINIESTRALIDAD_AXA_TRANSMETRO_7ad8faa73e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               CERTIFICADO  DE  SINIESTRALIDAD AXA TRANSMETRO
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_DE_SINIESTRALIDAD_EQUIDAD_ab7ae36839.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CERTIFICADO DE SINIESTRALIDAD EQUIDAD 
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_NO_INHABILIDADES_E_INCOMPATIBILIDADES_1_8a7a040fae.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CERTIFICADO NO INHABILIDADES E INCOMPATIBILIDADES
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_NO_MULTAS_ef66767578.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CERTIFICADO NO MULTAS
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_SINIESTRALIDAD_CHUBB_2919206eab.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CERTIFICADO SINIESTRALIDAD CHUBB
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_62922a12cd.xlsx"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CONDICIONES BASICAS OBLIGATORIAS  2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_2023_e18e4afa7e.xlsx"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CONDICIONES COMPLEMENTARIAS  2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONVOCATORIA_PROCESO_TM_LC_001_2023_429165d629.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CONVOCATORIA  PROCESO   TM -LC 001 -2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/DESCRIPCION_DE_LA_INFRAESTRUCTURA_DE_LA_ESTACIONES_DEL_SITM_4de2fb87f9.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               DESCRIPCIÓN DE LA INFRAESTRUCTURA DE LA ESTACIONES DEL SITM
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ESTUDIOS_PREVIOS_TMLC_001_202302288720230710150741_e7c9bd51bf.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                ESTUDIOS PREVIOS TMLC 001 202302288720230710150741
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/MANUAL_DE_CONTRATACION_74b4761067.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                MANUAL DE CONTRATACION
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/MINUTA_CONTRACTUAL_94e3860fe1.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                MINUTA CONTRACTUAL
+                              </a>
+                              
+                              <a
+                                href="https://apiwebtm.com/uploads/RUT_TRANSMETRO_S_A_S_fa896da6a1.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                RUT TRANSMETRO S.A.S.
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       </div>
                     </div>
                   </div>
