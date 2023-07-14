@@ -475,6 +475,23 @@ const Ciudadano = () => {
                   </div>
                 </div>
                 <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg18" />
+                  <label className="preguntas-label " htmlFor="preg18">
+                    {' '}
+                    ¿Qué debo hacer si deseo recuperar y trasladar el saldo de una tarjeta, cuyo titular falleció, a un nuevo plástico inteligente? 
+                  </label>
+                  <div className="respuestas-content">
+                  El usuario puede solicitar el traslado
+                   de saldo de manera presencial acercándose al Punto de Atención al Cliente PAC,
+                    ubicado en la estación Joe Arroyo, o comunicarse de manera virtual a
+                     través del correo electrónico correo@sitbarranquilla.com, aportando 
+                     copia del certificado de defunción del anterior dueño de la tarjeta
+                      y fotocopia de la cédula de quien solicita el traslado, así como
+                       una comunicación con sus datos en la que detalle, además, el 
+                       vínculo familiar, para así poder realizarle la transferencia de saldo.
+                  </div>
+                </div>
+                <div className="preguntas-grupo">
                   <input type="checkbox" id="preg15" />
                   <label
                     className="preguntas-label  "
