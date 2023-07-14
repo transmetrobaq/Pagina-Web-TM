@@ -484,7 +484,7 @@ const Ciudadano = () => {
                   El usuario puede solicitar el traslado
                    de saldo de manera presencial acercándose al Punto de Atención al Cliente PAC,
                     ubicado en la estación Joe Arroyo, o comunicarse de manera virtual a
-                     través del correo electrónico correo@sitbarranquilla.com, aportando 
+                     través del correo electrónico <span> correo@sitbarranquilla.com </span>, aportando 
                      copia del certificado de defunción del anterior dueño de la tarjeta
                       y fotocopia de la cédula de quien solicita el traslado, así como
                        una comunicación con sus datos en la que detalle, además, el 
