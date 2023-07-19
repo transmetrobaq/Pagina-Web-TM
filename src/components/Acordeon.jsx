@@ -170,13 +170,14 @@ const Acordeon = () => {
                       <li className="list-group-item list-group-item-action ">
                         1.3.2 Procesos y procedimientos
                         <div className="list-group">
-                          <a
-                            href="https://apiwebtm.com/uploads/CA_PO_002_PROTOCOLO_DE_ATENCION_Y_SERVICIO_AL_CIUDADANO_1_7c8aef5832.pdf"
+                        <a
+                           
+                            href="https://apiwebtm.com/uploads/CA_MA_001_MANUAL_DE_ATENCION_AL_CIUDADANO_76533f9592.pdf"
                             className="list-group-item list-group-item-action "
                             target="_blank"
                             rel="noreferrer"
                           >
-                            Protocolo de Atención y Servicio al ciudadano
+                            Manual de Atención al Ciudadano
                           </a>
                           <a
                             href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
@@ -1121,7 +1122,8 @@ const Acordeon = () => {
                           2021
                         </a>
                         <a
-                          href="https://apiwebtm.com/uploads/PAA_2023_37b44b385a.pdf"
+                         
+                          href="https://apiwebtm.com/uploads/Planes_anuales_de_adquisiciones_2023_3dcb6450cd.zip"
                           className="list-group-item list-group-item-action"
                           target="_blank"
                           rel="noreferrer"

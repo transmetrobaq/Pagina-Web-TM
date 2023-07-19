@@ -330,6 +330,18 @@ const Navbar = () => {
                       Manual del Usuario
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="https://apiwebtm.com/uploads/CA_MA_001_MANUAL_DE_ATENCION_AL_CIUDADANO_76533f9592.pdf"
+                      className="dropdown-item"
+                      aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                     Manual de Atención al Ciudadano
+
+                    </a>
+                  </li>
                <li>
                     <a
                       href="https://apiwebtm.com/uploads/Instructivo_para_diligenciar_formulario_virtual_de_PQRSDF_3bf97cd9d2.pdf"
