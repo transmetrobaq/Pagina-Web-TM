@@ -69,6 +69,16 @@ const Sistema = () => (
                     leer mas..
                   </a>
                 </span>
+                <div className="card-body  card__credito " style={{ backgroundColor : '#ffffff' }}>
+                  <a
+                    href="https://apiwebtm.com/uploads/PVE_20230719_dc346d7f43.pdf"
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                     Puntos de Recarga
+                  </a>
+                </div>
               </p>
             </div>
           </div>
