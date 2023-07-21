@@ -1360,6 +1360,54 @@ const Acordeon = () => {
                               >
                                 ADENDA No 02
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/OBSERVACIONES_PRESENTADAS_POR_SOLIDARIA_Y_EQUIDAD_c508412fd9.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               OBSERVACIONES PRESENTADAS POR SOLIDARIA Y EQUIDAD
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RESPUESTAS_A_LAS_OBSERVACIONES_ff53d59678.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               RESPUESTAS A LAS OBSERVACIONES
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/DESCRIPCION_DE_LAS_INFRAESTRUCTURA_DE_LAS_ESTACIONES_c6ad214b4a.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               DESCRIPCION DE LAS  INFRAESTRUCTURA  DE LAS  ESTACIONES
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_6b279f66fe.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                             CONDICIONES  COMPLEMENTARIAS
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONVOCATOIRIA_EDITABLE_028d323f40.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                             CONVOCATOIRIA  EDITABLE
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_VF_2023_1_26a3ed40c4.xlsx"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                          CONDICIONES BASICAS OBLIGATORIAS VF 2023 - 1
+                              </a>
                             </div>
                           </div>
                         </div>
