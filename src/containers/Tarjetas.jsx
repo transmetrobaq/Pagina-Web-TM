@@ -36,7 +36,7 @@ const Tarjetas = () => {
           <div className="row g-0 justify-content-end ">
             <div className="col-md-4">
               <img
-                src="https://apiwebtm.com/uploads/Juegos_Pana_0ccfbf1562.svg"
+                src="https://apiwebtm.com/uploads/BAQANA_TM_7c5d8f34d7.jpg"
                 className="card-img-top img-fluid"
                 alt="Tarjeta Transmetro"
               />
@@ -47,8 +47,7 @@ const Tarjetas = () => {
                   className="card-text fs-5 fw-semibold"
                   style={{ marginTop: '-20px' }}
                 >
-                  Tarjeta con fondo negro conmemorativa a los Juegos
-                  Panamericanos en Barranquilla 2027
+                   Tarjeta conmemorativa a los 210 años de " Barranquilla, Ciudad Baqana " 
                 </p>
               </div>
             </div>
