@@ -1412,6 +1412,115 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
+
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingTreeTwoTwo"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTreeTwoTwo"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTreeTwoTwo"
+                          >
+                             Apertura  Proceso lista  corta   TM-LC--002-2023
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTreeTwoTwo"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTreeTwoTwo"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <ol >
+                                <span> Objeto: </span>
+                                Adquisición de insumos de ferretería y repuestos, para el mantenimiento de la infraestructura del sistema integrado de transporte masivo de Barranquilla y su área metropolitana, transmetro     
+                                       </ol>
+                              <a
+                                href="https://apiwebtm.com/uploads/CDP_d173942db5.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              CDP
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ESTUDIOS_PREVIOS_2e6bac61c2.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               ESTUDIOS PREVIOS
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/CARTA_INVITACION_1677b58f0d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                             CARTA  INVITACION
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CRONOGRAMA_4ea33df50f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               CRONOGRAMA
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/CONVOCATORIA_TM_LC_002_2023_de3b1b12cf.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               CONVOCATORIA  TM-LC-002-2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_1_aa5b38d832.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               ANEXO 1
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_2_42fc323c88.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                ANEXO 2
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICACION_DE_NO_MULTA_96fc9c3338.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CERTIFICACION   DE NO MULTA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_DE_INHABILIDADES_d656af0f0a.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               CERTIFICADO DE INHABILIDADES
+                              </a>
+                             
+                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
                       </div>
                     </div>
                   </div>
