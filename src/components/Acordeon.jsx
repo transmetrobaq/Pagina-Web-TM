@@ -1438,7 +1438,7 @@ const Acordeon = () => {
                             <div className="list-group">
                               <ol >
                                 <span> Objeto: </span>
-                                Adquisición de insumos de ferretería y repuestos, para el mantenimiento de la infraestructura del sistema integrado de transporte masivo de Barranquilla y su área metropolitana, transmetro     
+                                Adquisición de insumos de ferretería y repuestos, para el mantenimiento de la infraestructura del sistema integrado de transporte masivo de Barranquilla y su área metropolitana, Transmetro     
                                        </ol>
                               <a
                                 href="https://apiwebtm.com/uploads/CDP_d173942db5.pdf"
@@ -1520,7 +1520,7 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
-                      
+
                       </div>
                     </div>
                   </div>
