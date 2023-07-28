@@ -1408,6 +1408,24 @@ const Acordeon = () => {
                               >
                           CONDICIONES BASICAS OBLIGATORIAS VF 2023 - 1
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RESOLUCION_DE_COMITE_EVALUADOR_PROCESO_TM_LC_001_2022_15309405e8.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              
+                              RESOLUCION    DE  COMITE    EVALUADOR  PROCESO  TM-LC-001-2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ACTA_PRESENTA_DE_OFERTA_159e95ce15.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ACTA  PRESENTA  DE OFERTA
+
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -1538,6 +1556,7 @@ const Acordeon = () => {
                               >
                                RUT TRANSMETRO S.A.S
                               </a>
+                             
                             </div>
                           </div>
                         </div>
