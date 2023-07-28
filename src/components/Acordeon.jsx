@@ -1426,6 +1426,52 @@ const Acordeon = () => {
                               ACTA  PRESENTA  DE OFERTA
 
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/informe_de_evaluacion_c1ff44f4b6.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              INFORME DE EVALUACIÓN
+
+                              </a>
+                              
+                              <a
+                                href="https://apiwebtm.com/uploads/evaluacion_financiera03085620230728164009_280ec6ccfa.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              EVALUACIÓN FINANCIERA
+
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/evaluacion_tecnica03085720230728164046_8c4105e8e0.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              EVALUACIÓN TÉCNICA
+
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/EVALUACION_DE_EXPERIENCIA_8593163986.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              EVALUACIÓN DE EXPERIENCIA
+
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/evaluacion_juridica03084520230728144220_c7ba6352c9.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              EVALUACIÓN JURÍDICA
+
+                              </a>
                             </div>
                           </div>
                         </div>
