@@ -1514,8 +1514,30 @@ const Acordeon = () => {
                               >
                                CERTIFICADO DE INHABILIDADES
                               </a>
-                             
-                             
+                              <a
+                                href="https://apiwebtm.com/uploads/PROYECTO_MINUTA_CONTRACTUAL_5efe96e6ea.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               PROYECTO MINUTA  CONTRACTUAL
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/MANUAL_DE_CONTRATACION_TRANSMETRO_651c54ae72.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               MANUAL DE CONTRATACIÓN TRANSMETRO
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RUT_TRANSMETRO_S_A_S_3edc13612e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               RUT TRANSMETRO S.A.S
+                              </a>
                             </div>
                           </div>
                         </div>
