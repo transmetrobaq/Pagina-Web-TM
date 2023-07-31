@@ -4216,6 +4216,14 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_pormenorizado_Ene_Jun_2023_fe5d53ca65.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2023
+                              </a>
                             </div>
                           </div>
                         </div>
