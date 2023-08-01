@@ -1630,6 +1630,30 @@ const Acordeon = () => {
                               >
                                ACTA DE VISITA
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Invesakk_1_f5f2b08769.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               INVESAKK
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Ferreteria_La_roca_19d363cfb8.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               FERRETERIA LA ROCA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Respuesta_Observaciones_TM_LC_002_2023_84c4f03181.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RESPUESTA OBSERVACIONES TM-LC-002-2023
+                              </a>
                              
                             </div>
                           </div>
