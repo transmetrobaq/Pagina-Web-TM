@@ -1472,6 +1472,26 @@ const Acordeon = () => {
                               EVALUACIÓN JURÍDICA
 
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_DEFINITIVO_COMITE_EVALUA_03109420230801134737_4257eb7da1.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              
+                                  INFORME DEFINITIVO DEL COMITÉ EVALUADOR
+                        
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADJUDICATM_LC_OO_103109620230801135024_45498ca425.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              
+                              ACTA DE ADJUDICACIÓN  TM-LC-001-2023 
+                        
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -1601,6 +1621,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                RUT TRANSMETRO S.A.S
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ACTA_DE_VISITA_03109320230801134626_2dd3ccfd31.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               ACTA DE VISITA
                               </a>
                              
                             </div>
