@@ -1492,6 +1492,15 @@ const Acordeon = () => {
                               ACTA DE ADJUDICACIÓN  TM-LC-001-2023 
                         
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PROPUESTA_ECONOMICA_LA_EQUIDAD_SEGUROS_GENERALES_OC_da9ef42f94.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              PROPUESTA ECONÓMICA LA EQUIDAD SEGUROS
+
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -1654,7 +1663,14 @@ const Acordeon = () => {
                               >
                               RESPUESTA OBSERVACIONES TM-LC-002-2023
                               </a>
-                             
+                              <a
+                                href="https://apiwebtm.com/uploads/ACLARATORIA_ANEXO_CARTA_DE_PRESENTACION_DE_LA_OFERTA_6890002ae7.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               ACLARATORIA ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
+                              </a>
                             </div>
                           </div>
                         </div>
