@@ -35,10 +35,13 @@ const Tarjetas = () => {
         <div className="card mb-3 border border-0">
           <div className="row g-0 justify-content-end ">
             <div className="col-md-4">
-              <img
-                src="https://apiwebtm.com/uploads/BAQANA_TM_7c5d8f34d7.jpg"
+            <img
+                
+                src="https://apiwebtm.com/uploads/BAQANA_copia_1_144e8aec3b.png"
                 className="card-img-top img-fluid"
                 alt="Tarjeta Transmetro"
+                style={{ width: '278px', height: '400px' }}   //  quitar estilo cuando sea horoznatal  
+              
               />
             </div>
             <div className="col-md-6 align-self-center">
