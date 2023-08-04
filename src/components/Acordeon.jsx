@@ -1671,6 +1671,14 @@ const Acordeon = () => {
                               >
                                ACLARATORIA ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ADENDA_1_2_dc5687a03c.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               ADENDA 1
+                              </a>
                             </div>
                           </div>
                         </div>
