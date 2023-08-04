@@ -1501,6 +1501,15 @@ const Acordeon = () => {
                               PROPUESTA ECONÓMICA LA EQUIDAD SEGUROS
 
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONTRATO_POLIZAS_2023_EQUIDAD_SEGUROS_bb032f0c79.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              CONTRATO PÓLIZAS 2023 EQUIDAD SEGUROS
+
+                              </a>
                             </div>
                           </div>
                         </div>
