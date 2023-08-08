@@ -1688,6 +1688,14 @@ const Acordeon = () => {
                               >
                                ADENDA 1
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ACTA_PRESENTACION_DE_OFERTAS_00203178920230808170040_cc2e10a95e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               ACTA PRESENTACIÓN DE OFERTAS
+                              </a>
                             </div>
                           </div>
                         </div>
