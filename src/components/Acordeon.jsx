@@ -1704,6 +1704,30 @@ const Acordeon = () => {
                               >
                               RESOLUCIÓN DESIGNACIÓN COMITÉ EVALUADOR
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/EVALUACION_TECNICA_e0d62c9863.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              EVALUACIÓN TÉCNICA Y EXPERIENCIA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/EVALUACION_JURIDICA_TM_LC_00203194120230809165625_5a34e7d821.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              EVALUACIÓN JURÍDICA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Evaluacion_Financiera_del_Proceso_de_Contratacion_TM_LC_002_2023_a8eae5a027.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              Evaluación Financiera
+                              </a>
                             </div>
                           </div>
                         </div>
