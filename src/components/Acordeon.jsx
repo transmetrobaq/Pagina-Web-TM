@@ -1696,6 +1696,14 @@ const Acordeon = () => {
                               >
                                ACTA PRESENTACIÓN DE OFERTAS
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/resolucion_10902570620230809101506_9870d851b3.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RESOLUCIÓN DESIGNACIÓN COMITÉ EVALUADOR
+                              </a>
                             </div>
                           </div>
                         </div>
