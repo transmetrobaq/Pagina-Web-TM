@@ -1178,7 +1178,7 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTreeTwoOne"
                           >
-                             Apertura  Proceso lista  corta   TM-LC--001-2023
+                             Apertura  proceso lista  corta   TM-LC--001-2023
                           </button>
                         </h2>
                         <div
@@ -1528,7 +1528,7 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTreeTwoTwo"
                           >
-                             Apertura  Proceso lista  corta   TM-LC--002-2023
+                             Apertura  proceso lista  corta   TM-LC--002-2023
                           </button>
                         </h2>
                         <div
@@ -1727,6 +1727,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                               Evaluación Financiera
+                              </a>
+                               <a
+                                href="https://apiwebtm.com/uploads/Informe_de_Evaluacion_Consolidado_4275cc89f0.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              INFORME DE EVALUACIÓN CONSOLIDADO
                               </a>
                             </div>
                           </div>
