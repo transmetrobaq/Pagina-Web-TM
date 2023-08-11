@@ -163,7 +163,7 @@ const Eventos = () => {
                                   href="https://twitter.com/transmetrobaq"
                                   rel="noreferrer"
                                 >
-                                  <i className="fa fa-twitter" />
+                                  <i className="fa-brands fa-x-twitter" />
                                 </a>
                               </li>
                               <li className="list-inline-item">

@@ -28,7 +28,7 @@ const Home = () => {
           <div id="twitter">
             <a
               href="https://twitter.com/transmetrobaq"
-              className="fab fa-twitter"
+              className="fa-brands fa-x-twitter"
               alt="Twitter"
               target="_blank"
             />

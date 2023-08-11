@@ -26,7 +26,7 @@ const NotFound = () => {
               <i className="fa fa-facebook" aria-hidden="true" />
             </a>
             <a href="https://twitter.com/transmetrobaq" target="_blanck">
-              <i className="fab fa-twitter" aria-hidden="true" />
+              <i className="fa-brands fa-x-twitter" aria-hidden="true" />
             </a>
             <a
               href="https://www.youtube.com/user/transmetrotv"
