@@ -1744,6 +1744,14 @@ const Acordeon = () => {
                               >
                               INFORME FINAL DE EVALUACIÓN
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_COMITE_EVALUADOR_7998faf3d1.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               INFORME COMITÉ EVALUADOR
+                              </a>
                             </div>
                           </div>
                         </div>
