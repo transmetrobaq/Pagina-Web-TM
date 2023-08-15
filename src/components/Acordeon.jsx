@@ -1752,6 +1752,14 @@ const Acordeon = () => {
                               >
                                INFORME COMITÉ EVALUADOR
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADJUDICA_EL_PROCESO_LISTA_CORTA_TM_LC_002_2023_fdd98f5695.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              POR LA CUAL SE ADJUDICA  EL PROCESO    LISTA  CORTA TM-LC-002-2023
+                              </a>
                             </div>
                           </div>
                         </div>
