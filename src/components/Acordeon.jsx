@@ -1760,6 +1760,30 @@ const Acordeon = () => {
                               >
                               POR LA CUAL SE ADJUDICA  EL PROCESO    LISTA  CORTA TM-LC-002-2023
                               </a>
+                               <a
+                                href="https://apiwebtm.com/uploads/CONTRATO_TRANSMETRO_TM_LC_002_2023_752284df02.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              CONTRATO TRANSMETRO TM-LC-002-2023.
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/F_RP_INVERSIONES_LA_ROCA_296474700b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              F.RP- INVERSIONES LA ROCA
+                              </a>
+                              <a
+                                href="https://sastransmetro-my.sharepoint.com/:b:/g/personal/scahuana_transmetro_gov_co/EUB-Y1TWqf5IkrNdP5dc62wBnktD6c48o1rejfIUfV6vxw"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                             CONTRATO TM-LC-002-2023
+                              </a>
                             </div>
                           </div>
                         </div>
