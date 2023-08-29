@@ -68,10 +68,11 @@ const Navinfe = () => {
 
                 <div className="card wave__card">
                   <a
-                    href="/infantil/#infantil"
+                    href="https://apiwebtm.com/uploads/PVE_20230719_dc346d7f43.pdf"
                     role="button"
                     className="btn btn-link"
-                    alt="ir a rutas alimentadoras"
+                    target="_blank"
+                    alt="Puntos de Recarga"
                   >
                     <picture>
                       <img
@@ -80,7 +81,7 @@ const Navinfe = () => {
                         alt="Icono Transmetro"
                       />
                     </picture>
-                    <p className="card-title">Sección Infantil</p>
+                    <p className="card-title">Puntos de Recarga</p>
                   </a>
                 </div>
               </div>

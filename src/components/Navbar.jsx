@@ -233,6 +233,17 @@ const Navbar = () => {
                       Tarjeta Transmetro/Personalización
                     </a>
                   </li>
+                  <li className="nav-item">
+                    <a
+                      href="https://apiwebtm.com/uploads/PVE_20230719_dc346d7f43.pdf"
+                      className="dropdown-item"
+                      aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Puntos de Recarga
+                    </a>
+                  </li>
 
                   <li className="nav-item">
                     <a
@@ -362,6 +373,16 @@ const Navbar = () => {
                       rel="noreferrer"
                     >
                       Peticiones, quejas y reclamos
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                       href="/infantil/#infantil"
+                      className="dropdown-item"
+                      aria-current="page"
+                      
+                    >
+                      Sección Infantil
                     </a>
                   </li>
                   <li>
