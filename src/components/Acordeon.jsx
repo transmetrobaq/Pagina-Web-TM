@@ -5039,6 +5039,14 @@ const Acordeon = () => {
                 >
                   8.1 Información para población infantil y adolescente
                 </a>
+                <a 
+                    href="https://apiwebtm.com/uploads/ALCALDIA_DE_779819a9ac.pdf"
+                    className="list-group-item list-group-item-action "
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                      8.2 Certificado cumplimiento ITA 2023
+                    </a>
               </div>
             </div>
           </div>
