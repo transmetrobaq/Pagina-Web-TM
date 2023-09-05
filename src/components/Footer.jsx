@@ -67,6 +67,7 @@ const Footer = () => {
                   <h5 style={{ marginTop: '40px' }}>CONTACTO</h5>
                   <ul>
                     <li>Cra. 57 No. 99A - 65 Ed. Torres del Atlántico</li>
+                    <li>Barranquilla, Atlántico</li>
                     <li>- Torre Sur Piso 15</li>
                     <li>350 2849625 Ofic. Adm.</li>
                     <li>

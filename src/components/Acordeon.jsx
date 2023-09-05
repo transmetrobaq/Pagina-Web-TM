@@ -170,8 +170,7 @@ const Acordeon = () => {
                       <li className="list-group-item list-group-item-action ">
                         1.3.2 Procesos y procedimientos
                         <div className="list-group">
-                        <a
-                           
+                          <a
                             href="https://apiwebtm.com/uploads/CA_MA_001_MANUAL_DE_ATENCION_AL_CIUDADANO_76533f9592.pdf"
                             className="list-group-item list-group-item-action "
                             target="_blank"
@@ -407,7 +406,7 @@ const Acordeon = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                      Costos de Reproducción
+                        Costos de Reproducción
                       </a>
                     </div>
                   </div>
@@ -465,7 +464,8 @@ const Acordeon = () => {
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseOneTwelve"
                   >
-                    1.12 Información sobre decisiones que puedan afectar al público
+                    1.12 Información sobre decisiones que puedan afectar al
+                    público
                   </button>
                 </h2>
                 <div
@@ -483,7 +483,7 @@ const Acordeon = () => {
                             aria-current="true"
                             rel="noreferrer"
                           >
-                           Comunicados de prensa
+                            Comunicados de prensa
                           </a>
                         </div>
                       </li>
@@ -983,45 +983,6 @@ const Acordeon = () => {
                     </div>
                   </div>
                 </div>
-                <div className="accordion-item">
-                  <h2
-                    className="accordion-header"
-                    id="panelsStayOpen-headingOneOne"
-                  >
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseTwoThree"
-                      aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseTwoThree"
-                    >
-                      2.3 Proyectos de normas para comentarios
-                    </button>
-                  </h2>
-                  <div
-                    id="panelsStayOpen-collapseTwoThree"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingTwoThree"
-                  >
-                    <div className="accordion-body">
-                      <div className="list-group">
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action "
-                        >
-                          2.3.1 Comentarios y documento de respuesta
-                        </a>
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action"
-                        >
-                          2.3.2 Participación ciudadana
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -1122,7 +1083,6 @@ const Acordeon = () => {
                           2021
                         </a>
                         <a
-                         
                           href="https://apiwebtm.com/uploads/Planes_anuales_de_adquisiciones_2023_3dcb6450cd.zip"
                           className="list-group-item list-group-item-action"
                           target="_blank"
@@ -1166,629 +1126,633 @@ const Acordeon = () => {
                           SECOP
                         </a>
                         <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingTreeTwoOne"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseTreeTwoOne"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseTreeTwoOne"
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoOne"
                           >
-                             Apertura  proceso lista  corta   TM-LC--001-2023
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseTreeTwoOne"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingTreeTwoOne"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <ol >
-                                <span>Objeto:</span>
-                                Proceso de contratación bajo la modalidad de Invitación con Lista Corta,
-                                 cuyo objeto es Contratar las pólizas de seguros Todo Riesgo Daños Materiales,
-                                 Responsabilidad Civil Extracontractual y Manejo Global Entidades Estatales,
-                                  requeridas para la adecuada protección de los bienes e intereses patrimoniales 
-                                  de Transmetro S.A.S, así como aquellos por los que sea o fuere legalmente responsable o le corresponda 
-                                asegurar en virtud de disposición legal o contractual.
-                                   </ol>
-                              <a
-                                href="https://apiwebtm.com/uploads/1_ANEXO_CARTA_DE_PRESENTACION_DE_LA_OFERTA_e52d503001.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               1 ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ANEXO_2_CRONOGRAMA_DEL_PROCESO_b2b2ccbbfe.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                ANEXO 2. CRONOGRAMA DEL PROCESO
-                              </a>
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoOne"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoOne"
+                            >
+                              Apertura proceso lista corta TM-LC--001-2023
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoOne"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoOne"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <ol>
+                                  <span>Objeto:</span>
+                                  Proceso de contratación bajo la modalidad de
+                                  Invitación con Lista Corta, cuyo objeto es
+                                  Contratar las pólizas de seguros Todo Riesgo
+                                  Daños Materiales, Responsabilidad Civil
+                                  Extracontractual y Manejo Global Entidades
+                                  Estatales, requeridas para la adecuada
+                                  protección de los bienes e intereses
+                                  patrimoniales de Transmetro S.A.S, así como
+                                  aquellos por los que sea o fuere legalmente
+                                  responsable o le corresponda asegurar en
+                                  virtud de disposición legal o contractual.
+                                </ol>
+                                <a
+                                  href="https://apiwebtm.com/uploads/1_ANEXO_CARTA_DE_PRESENTACION_DE_LA_OFERTA_e52d503001.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  1 ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ANEXO_2_CRONOGRAMA_DEL_PROCESO_b2b2ccbbfe.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ANEXO 2. CRONOGRAMA DEL PROCESO
+                                </a>
 
-                              <a
-                                href="https://apiwebtm.com/uploads/BIENES_Y_VALORES_TRANSMETRO_2023_09701de0fb.xls"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                BIENES Y VALORES TRANSMETRO 2023
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CARTA_DE_DE_INVITACION_PARA_PRESENTAR_PROPUESTA_123b12aefb.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CARTA  DE   DE INVITACION  PARA PRESENTAR PROPUESTA
-                              </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/BIENES_Y_VALORES_TRANSMETRO_2023_09701de0fb.xls"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  BIENES Y VALORES TRANSMETRO 2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CARTA_DE_DE_INVITACION_PARA_PRESENTAR_PROPUESTA_123b12aefb.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CARTA DE DE INVITACION PARA PRESENTAR
+                                  PROPUESTA
+                                </a>
 
-                              <a
-                                href="https://apiwebtm.com/uploads/CDP_8d38956f41.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CDP
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CERTIFICADO_DE_SINIESTRALIDAD_AXA_TRANSMETRO_7ad8faa73e.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               CERTIFICADO  DE  SINIESTRALIDAD AXA TRANSMETRO
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CERTIFICADO_DE_SINIESTRALIDAD_EQUIDAD_ab7ae36839.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CERTIFICADO DE SINIESTRALIDAD EQUIDAD 
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CERTIFICADO_NO_INHABILIDADES_E_INCOMPATIBILIDADES_1_8a7a040fae.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CERTIFICADO NO INHABILIDADES E INCOMPATIBILIDADES
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CERTIFICADO_NO_MULTAS_ef66767578.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CERTIFICADO NO MULTAS
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CERTIFICADO_SINIESTRALIDAD_CHUBB_2919206eab.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CERTIFICADO SINIESTRALIDAD CHUBB
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_62922a12cd.xlsx"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CONDICIONES BASICAS OBLIGATORIAS  2023
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_2023_e18e4afa7e.xlsx"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CONDICIONES COMPLEMENTARIAS  2023
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CONVOCATORIA_PROCESO_TM_LC_001_2023_429165d629.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CONVOCATORIA  PROCESO   TM -LC 001 -2023
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/DESCRIPCION_DE_LA_INFRAESTRUCTURA_DE_LA_ESTACIONES_DEL_SITM_4de2fb87f9.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               DESCRIPCIÓN DE LA INFRAESTRUCTURA DE LA ESTACIONES DEL SITM
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ESTUDIOS_PREVIOS_TMLC_001_202302288720230710150741_e7c9bd51bf.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                ESTUDIOS PREVIOS TMLC 001 202302288720230710150741
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/MANUAL_DE_CONTRATACION_74b4761067.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                MANUAL DE CONTRATACION
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/MINUTA_CONTRACTUAL_94e3860fe1.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                MINUTA CONTRACTUAL
-                              </a>
-                              
-                              <a
-                                href="https://apiwebtm.com/uploads/RUT_TRANSMETRO_S_A_S_fa896da6a1.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                RUT TRANSMETRO S.A.S.
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ADENDA_1_6ac1e4e908.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                ADENDA No 01
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ADENDA_No_2_be8b53f7dd.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                ADENDA No 02
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/OBSERVACIONES_PRESENTADAS_POR_SOLIDARIA_Y_EQUIDAD_c508412fd9.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               OBSERVACIONES PRESENTADAS POR SOLIDARIA Y EQUIDAD
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/RESPUESTAS_A_LAS_OBSERVACIONES_ff53d59678.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               RESPUESTAS A LAS OBSERVACIONES
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/DESCRIPCION_DE_LAS_INFRAESTRUCTURA_DE_LAS_ESTACIONES_c6ad214b4a.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               DESCRIPCION DE LAS  INFRAESTRUCTURA  DE LAS  ESTACIONES
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_6b279f66fe.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                             CONDICIONES  COMPLEMENTARIAS
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CONVOCATOIRIA_EDITABLE_028d323f40.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                             CONVOCATOIRIA  EDITABLE
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_VF_2023_1_26a3ed40c4.xlsx"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                          CONDICIONES BASICAS OBLIGATORIAS VF 2023 - 1
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/RESOLUCION_DE_COMITE_EVALUADOR_PROCESO_TM_LC_001_2022_15309405e8.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              
-                              RESOLUCION    DE  COMITE    EVALUADOR  PROCESO  TM-LC-001-2022
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ACTA_PRESENTA_DE_OFERTA_159e95ce15.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              ACTA  PRESENTA  DE OFERTA
+                                <a
+                                  href="https://apiwebtm.com/uploads/CDP_8d38956f41.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CDP
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CERTIFICADO_DE_SINIESTRALIDAD_AXA_TRANSMETRO_7ad8faa73e.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CERTIFICADO DE SINIESTRALIDAD AXA TRANSMETRO
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CERTIFICADO_DE_SINIESTRALIDAD_EQUIDAD_ab7ae36839.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CERTIFICADO DE SINIESTRALIDAD EQUIDAD
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CERTIFICADO_NO_INHABILIDADES_E_INCOMPATIBILIDADES_1_8a7a040fae.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CERTIFICADO NO INHABILIDADES E
+                                  INCOMPATIBILIDADES
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CERTIFICADO_NO_MULTAS_ef66767578.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CERTIFICADO NO MULTAS
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CERTIFICADO_SINIESTRALIDAD_CHUBB_2919206eab.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CERTIFICADO SINIESTRALIDAD CHUBB
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_62922a12cd.xlsx"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONDICIONES BASICAS OBLIGATORIAS 2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_2023_e18e4afa7e.xlsx"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONDICIONES COMPLEMENTARIAS 2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONVOCATORIA_PROCESO_TM_LC_001_2023_429165d629.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONVOCATORIA PROCESO TM -LC 001 -2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/DESCRIPCION_DE_LA_INFRAESTRUCTURA_DE_LA_ESTACIONES_DEL_SITM_4de2fb87f9.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  DESCRIPCIÓN DE LA INFRAESTRUCTURA DE LA
+                                  ESTACIONES DEL SITM
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ESTUDIOS_PREVIOS_TMLC_001_202302288720230710150741_e7c9bd51bf.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ESTUDIOS PREVIOS TMLC 001
+                                  202302288720230710150741
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/MANUAL_DE_CONTRATACION_74b4761067.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  MANUAL DE CONTRATACION
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/MINUTA_CONTRACTUAL_94e3860fe1.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  MINUTA CONTRACTUAL
+                                </a>
 
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/informe_de_evaluacion_c1ff44f4b6.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              INFORME DE EVALUACIÓN
+                                <a
+                                  href="https://apiwebtm.com/uploads/RUT_TRANSMETRO_S_A_S_fa896da6a1.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RUT TRANSMETRO S.A.S.
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ADENDA_1_6ac1e4e908.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ADENDA No 01
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ADENDA_No_2_be8b53f7dd.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ADENDA No 02
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/OBSERVACIONES_PRESENTADAS_POR_SOLIDARIA_Y_EQUIDAD_c508412fd9.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  OBSERVACIONES PRESENTADAS POR SOLIDARIA Y
+                                  EQUIDAD
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/RESPUESTAS_A_LAS_OBSERVACIONES_ff53d59678.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RESPUESTAS A LAS OBSERVACIONES
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/DESCRIPCION_DE_LAS_INFRAESTRUCTURA_DE_LAS_ESTACIONES_c6ad214b4a.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  DESCRIPCION DE LAS INFRAESTRUCTURA DE LAS
+                                  ESTACIONES
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_6b279f66fe.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONDICIONES COMPLEMENTARIAS
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONVOCATOIRIA_EDITABLE_028d323f40.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONVOCATOIRIA EDITABLE
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_VF_2023_1_26a3ed40c4.xlsx"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONDICIONES BASICAS OBLIGATORIAS VF 2023 - 1
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/RESOLUCION_DE_COMITE_EVALUADOR_PROCESO_TM_LC_001_2022_15309405e8.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RESOLUCION DE COMITE EVALUADOR PROCESO
+                                  TM-LC-001-2022
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ACTA_PRESENTA_DE_OFERTA_159e95ce15.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACTA PRESENTA DE OFERTA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/informe_de_evaluacion_c1ff44f4b6.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INFORME DE EVALUACIÓN
+                                </a>
 
-                              </a>
-                              
-                              <a
-                                href="https://apiwebtm.com/uploads/evaluacion_financiera03085620230728164009_280ec6ccfa.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              EVALUACIÓN FINANCIERA
-
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/evaluacion_tecnica03085720230728164046_8c4105e8e0.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              EVALUACIÓN TÉCNICA
-
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/EVALUACION_DE_EXPERIENCIA_8593163986.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              EVALUACIÓN DE EXPERIENCIA
-
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/evaluacion_juridica03084520230728144220_c7ba6352c9.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              EVALUACIÓN JURÍDICA
-
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/INFORME_DEFINITIVO_COMITE_EVALUA_03109420230801134737_4257eb7da1.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              
+                                <a
+                                  href="https://apiwebtm.com/uploads/evaluacion_financiera03085620230728164009_280ec6ccfa.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACIÓN FINANCIERA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/evaluacion_tecnica03085720230728164046_8c4105e8e0.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACIÓN TÉCNICA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_DE_EXPERIENCIA_8593163986.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACIÓN DE EXPERIENCIA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/evaluacion_juridica03084520230728144220_c7ba6352c9.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACIÓN JURÍDICA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/INFORME_DEFINITIVO_COMITE_EVALUA_03109420230801134737_4257eb7da1.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
                                   INFORME DEFINITIVO DEL COMITÉ EVALUADOR
-                        
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADJUDICATM_LC_OO_103109620230801135024_45498ca425.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              
-                              ACTA DE ADJUDICACIÓN  TM-LC-001-2023 
-                        
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PROPUESTA_ECONOMICA_LA_EQUIDAD_SEGUROS_GENERALES_OC_da9ef42f94.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              PROPUESTA ECONÓMICA LA EQUIDAD SEGUROS
-
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CONTRATO_POLIZAS_2023_EQUIDAD_SEGUROS_bb032f0c79.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              CONTRATO PÓLIZAS 2023 EQUIDAD SEGUROS
-
-                              </a>
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADJUDICATM_LC_OO_103109620230801135024_45498ca425.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACTA DE ADJUDICACIÓN TM-LC-001-2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/PROPUESTA_ECONOMICA_LA_EQUIDAD_SEGUROS_GENERALES_OC_da9ef42f94.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  PROPUESTA ECONÓMICA LA EQUIDAD SEGUROS
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONTRATO_POLIZAS_2023_EQUIDAD_SEGUROS_bb032f0c79.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONTRATO PÓLIZAS 2023 EQUIDAD SEGUROS
+                                </a>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
 
-                      <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingTreeTwoTwo"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseTreeTwoTwo"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseTreeTwoTwo"
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoTwo"
                           >
-                             Apertura  proceso lista  corta   TM-LC--002-2023
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseTreeTwoTwo"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingTreeTwoTwo"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <ol >
-                                <span> Objeto: </span>
-                                Adquisición de insumos de ferretería y repuestos, para el mantenimiento de la infraestructura del sistema integrado de transporte masivo de Barranquilla y su área metropolitana, Transmetro     
-                                       </ol>
-                              <a
-                                href="https://apiwebtm.com/uploads/CDP_d173942db5.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              CDP
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ESTUDIOS_PREVIOS_2e6bac61c2.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               ESTUDIOS PREVIOS
-                              </a>
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoTwo"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoTwo"
+                            >
+                              Apertura proceso lista corta TM-LC--002-2023
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoTwo"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoTwo"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <ol>
+                                  <span> Objeto: </span>
+                                  Adquisición de insumos de ferretería y
+                                  repuestos, para el mantenimiento de la
+                                  infraestructura del sistema integrado de
+                                  transporte masivo de Barranquilla y su área
+                                  metropolitana, Transmetro
+                                </ol>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CDP_d173942db5.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CDP
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ESTUDIOS_PREVIOS_2e6bac61c2.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ESTUDIOS PREVIOS
+                                </a>
 
-                              <a
-                                href="https://apiwebtm.com/uploads/CARTA_INVITACION_1677b58f0d.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                             CARTA  INVITACION
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CRONOGRAMA_4ea33df50f.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               CRONOGRAMA
-                              </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CARTA_INVITACION_1677b58f0d.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CARTA INVITACION
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CRONOGRAMA_4ea33df50f.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CRONOGRAMA
+                                </a>
 
-                              <a
-                                href="https://apiwebtm.com/uploads/CONVOCATORIA_TM_LC_002_2023_de3b1b12cf.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               CONVOCATORIA  TM-LC-002-2023
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ANEXO_1_aa5b38d832.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               ANEXO 1
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ANEXO_2_42fc323c88.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                ANEXO 2
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CERTIFICACION_DE_NO_MULTA_96fc9c3338.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                CERTIFICACION   DE NO MULTA
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/CERTIFICADO_DE_INHABILIDADES_d656af0f0a.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               CERTIFICADO DE INHABILIDADES
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PROYECTO_MINUTA_CONTRACTUAL_5efe96e6ea.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               PROYECTO MINUTA  CONTRACTUAL
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/MANUAL_DE_CONTRATACION_TRANSMETRO_651c54ae72.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               MANUAL DE CONTRATACIÓN TRANSMETRO
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/RUT_TRANSMETRO_S_A_S_3edc13612e.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               RUT TRANSMETRO S.A.S
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ACTA_DE_VISITA_03109320230801134626_2dd3ccfd31.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               ACTA DE VISITA
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/Invesakk_1_f5f2b08769.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               INVESAKK
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/Ferreteria_La_roca_19d363cfb8.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               FERRETERIA LA ROCA
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/Respuesta_Observaciones_TM_LC_002_2023_84c4f03181.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              RESPUESTA OBSERVACIONES TM-LC-002-2023
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ACLARATORIA_ANEXO_CARTA_DE_PRESENTACION_DE_LA_OFERTA_6890002ae7.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               ACLARATORIA ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ADENDA_1_2_dc5687a03c.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               ADENDA 1
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/ACTA_PRESENTACION_DE_OFERTAS_00203178920230808170040_cc2e10a95e.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               ACTA PRESENTACIÓN DE OFERTAS
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/resolucion_10902570620230809101506_9870d851b3.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              RESOLUCIÓN DESIGNACIÓN COMITÉ EVALUADOR
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/EVALUACION_TECNICA_e0d62c9863.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              EVALUACIÓN TÉCNICA Y EXPERIENCIA
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/EVALUACION_JURIDICA_TM_LC_00203194120230809165625_5a34e7d821.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              EVALUACIÓN JURÍDICA
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/Evaluacion_Financiera_del_Proceso_de_Contratacion_TM_LC_002_2023_a8eae5a027.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              Evaluación Financiera
-                              </a>
-                               <a
-                                href="https://apiwebtm.com/uploads/Informe_de_Evaluacion_Consolidado_4275cc89f0.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              INFORME DE EVALUACIÓN CONSOLIDADO
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/INFORME_FINAL_DE_EVALUACION_5568cbba42.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              INFORME FINAL DE EVALUACIÓN
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/INFORME_COMITE_EVALUADOR_7998faf3d1.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                               INFORME COMITÉ EVALUADOR
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADJUDICA_EL_PROCESO_LISTA_CORTA_TM_LC_002_2023_fdd98f5695.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              POR LA CUAL SE ADJUDICA  EL PROCESO    LISTA  CORTA TM-LC-002-2023
-                              </a>
-                               <a
-                                href="https://apiwebtm.com/uploads/CONTRATO_TRANSMETRO_TM_LC_002_2023_752284df02.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              CONTRATO TRANSMETRO TM-LC-002-2023.
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/F_RP_INVERSIONES_LA_ROCA_296474700b.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                              F.RP- INVERSIONES LA ROCA
-                              </a>
-                              <a
-                                href="https://sastransmetro-my.sharepoint.com/:b:/g/personal/scahuana_transmetro_gov_co/EUB-Y1TWqf5IkrNdP5dc62wBnktD6c48o1rejfIUfV6vxw"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                             CONTRATO TM-LC-002-2023
-                              </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONVOCATORIA_TM_LC_002_2023_de3b1b12cf.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONVOCATORIA TM-LC-002-2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ANEXO_1_aa5b38d832.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ANEXO 1
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ANEXO_2_42fc323c88.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ANEXO 2
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CERTIFICACION_DE_NO_MULTA_96fc9c3338.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CERTIFICACION DE NO MULTA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CERTIFICADO_DE_INHABILIDADES_d656af0f0a.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CERTIFICADO DE INHABILIDADES
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/PROYECTO_MINUTA_CONTRACTUAL_5efe96e6ea.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  PROYECTO MINUTA CONTRACTUAL
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/MANUAL_DE_CONTRATACION_TRANSMETRO_651c54ae72.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  MANUAL DE CONTRATACIÓN TRANSMETRO
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/RUT_TRANSMETRO_S_A_S_3edc13612e.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RUT TRANSMETRO S.A.S
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ACTA_DE_VISITA_03109320230801134626_2dd3ccfd31.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACTA DE VISITA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Invesakk_1_f5f2b08769.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INVESAKK
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Ferreteria_La_roca_19d363cfb8.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  FERRETERIA LA ROCA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Respuesta_Observaciones_TM_LC_002_2023_84c4f03181.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RESPUESTA OBSERVACIONES TM-LC-002-2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ACLARATORIA_ANEXO_CARTA_DE_PRESENTACION_DE_LA_OFERTA_6890002ae7.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACLARATORIA ANEXO CARTA DE PRESENTACIÓN DE LA
+                                  OFERTA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ADENDA_1_2_dc5687a03c.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ADENDA 1
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ACTA_PRESENTACION_DE_OFERTAS_00203178920230808170040_cc2e10a95e.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACTA PRESENTACIÓN DE OFERTAS
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/resolucion_10902570620230809101506_9870d851b3.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RESOLUCIÓN DESIGNACIÓN COMITÉ EVALUADOR
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_TECNICA_e0d62c9863.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACIÓN TÉCNICA Y EXPERIENCIA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_JURIDICA_TM_LC_00203194120230809165625_5a34e7d821.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACIÓN JURÍDICA
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Evaluacion_Financiera_del_Proceso_de_Contratacion_TM_LC_002_2023_a8eae5a027.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Evaluación Financiera
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Informe_de_Evaluacion_Consolidado_4275cc89f0.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INFORME DE EVALUACIÓN CONSOLIDADO
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/INFORME_FINAL_DE_EVALUACION_5568cbba42.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INFORME FINAL DE EVALUACIÓN
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/INFORME_COMITE_EVALUADOR_7998faf3d1.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INFORME COMITÉ EVALUADOR
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADJUDICA_EL_PROCESO_LISTA_CORTA_TM_LC_002_2023_fdd98f5695.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  POR LA CUAL SE ADJUDICA EL PROCESO LISTA CORTA
+                                  TM-LC-002-2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/CONTRATO_TRANSMETRO_TM_LC_002_2023_752284df02.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONTRATO TRANSMETRO TM-LC-002-2023.
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/F_RP_INVERSIONES_LA_ROCA_296474700b.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  F.RP- INVERSIONES LA ROCA
+                                </a>
+                                <a
+                                  href="https://sastransmetro-my.sharepoint.com/:b:/g/personal/scahuana_transmetro_gov_co/EUB-Y1TWqf5IkrNdP5dc62wBnktD6c48o1rejfIUfV6vxw"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  CONTRATO TM-LC-002-2023
+                                </a>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-
                       </div>
                     </div>
                   </div>
@@ -2986,7 +2950,7 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourThreeTen"
                           >
-                            Programa de gestión doumental
+                            Programa de gestión documental
                           </button>
                         </h2>
                         <div
@@ -3002,7 +2966,7 @@ const Acordeon = () => {
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                Programa de gestión doumental
+                                Programa de gestión documental
                               </a>
                             </div>
                           </div>
@@ -4335,7 +4299,7 @@ const Acordeon = () => {
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                               2022
+                                2022
                               </a>
                             </div>
                           </div>
@@ -4501,7 +4465,7 @@ const Acordeon = () => {
                         >
                           2022
                         </a>
-                         <a
+                        <a
                           href="https://apiwebtm.com/uploads/Informe_pqrsdf_trimestre_2023_64ef5b74b8.rar"
                           className="list-group-item list-group-item-action "
                           target="_blank"
@@ -4891,6 +4855,220 @@ const Acordeon = () => {
                       7.1 Instrumentos de gestión de la información
                     </button>
                   </h2>
+                  <div
+                    id="panelsStayOpen-collapseSevenOne"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSevenOne"
+                  >
+                    <div className="accordion-body">
+                      <div className="list-group">
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingSevenOneOne"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseSevenOneOne"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseSevenOneOne"
+                            >
+                              Programa de gestión documental
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseSevenOneOne"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSevenOneOne"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/Programa_de_Gestion_Documental_0787f86fdf.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Programa de gestión documental
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Tablas de retención doumental */}
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingSevenOneTwo"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseSevenOneTwo"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseSevenOneTwo"
+                            >
+                              Tablas de retención documental
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseSevenOneTwo"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSevenOneTwo"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/Tablas_de_Retencion_Documental_Transmetro_SAS_2021_8f64676cc8.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2021
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/TABLAS_DE_RETENCION_TRANSMETRO_SAS_2022_b1f3ef5950.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2022
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Cuadro de clasificación documental */}
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingSevenOneThree"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseSevenOneThree"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseSevenOneThree"
+                            >
+                              Cuadro de clasificación documental
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseSevenOneThree"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSevenOneThree"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/CUADRO_DE_CLASIFICACION_DOCUMENTAL_TRANSMETRO_S_A_S_1_2b319c4ec3.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Cuadro de clasificación documental
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Plan institucional de archivos - PINAR */}
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingSevenOneFour"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseSevenOneFour"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseSevenOneFour"
+                            >
+                              Plan institucional de archivos - PINAR
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseSevenOneFour"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSevenOneFour"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/Plan_Institucional_de_Archivos_PINAR_2020_5d8a9606a3.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2020
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Plan_Institucional_de_Archivos_PINAR_2021_34cbe32ec3.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2021
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Pinar_2022_1_compressed_2ffe5c77fa.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2022
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/*  */}
+
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingSevenOnefive"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseSevenOnefive"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseSevenOnefive"
+                            >
+                              Sistema integrado de conservacion
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseSevenOnefive"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSevenOnefive"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/SISTEMA_INTEGRADO_DE_CONSERVACION_TRANSMETRO_1_40c02fcdca.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Sistema integrado de conservación
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div className="accordion-item">
                   <h2
@@ -5039,14 +5217,14 @@ const Acordeon = () => {
                 >
                   8.1 Información para población infantil y adolescente
                 </a>
-                <a 
-                    href="https://apiwebtm.com/uploads/ALCALDIA_DE_779819a9ac.pdf"
-                    className="list-group-item list-group-item-action "
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                      8.2 Certificado cumplimiento ITA 2023
-                    </a>
+                <a
+                  href="https://apiwebtm.com/uploads/ALCALDIA_DE_779819a9ac.pdf"
+                  className="list-group-item list-group-item-action "
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  8.2 Certificado cumplimiento ITA 2023
+                </a>
               </div>
             </div>
           </div>
