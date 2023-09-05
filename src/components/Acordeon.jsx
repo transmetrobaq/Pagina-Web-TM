@@ -255,7 +255,7 @@ const Acordeon = () => {
                   <div className="accordion-body">
                     <div className="list-group">
                       <a
-                        href="https://apiwebtm.com/uploads/1_5_Directorio_de_servidores_publicos_empleados_o_contratistas_94655713ad.xlsx"
+                        href="https://apiwebtm.com/uploads/1_5_Directorio_de_servidores_publicos_empleados_o_contratistas_94655713ad_ad48fc1467.pdf"
                         className="list-group-item list-group-item-action"
                         aria-current="true"
                         target="_blank"
@@ -292,7 +292,7 @@ const Acordeon = () => {
                   <div className="accordion-body">
                     <div className="list-group">
                       <a
-                        href="https://apiwebtm.com/uploads/1_6_Directorio_de_entidades_sector_Transporte_5073395581.xlsx"
+                        href="https://apiwebtm.com/uploads/1_6_Directorio_de_entidades_sector_Transporte_caf22c39f6.pdf"
                         className="list-group-item list-group-item-action"
                         aria-current="true"
                         target="_blank"
@@ -659,7 +659,7 @@ const Acordeon = () => {
                             <div className="accordion-body">
                               <div className="list-group">
                                 <a
-                                  href="https://apiwebtm.com/uploads/2_1_1_Normograma_2022_ff3fb5732a.doc"
+                                  href="https://apiwebtm.com/uploads/2_1_1_Normograma_2022_ff3fb5732a_9259c2f3dd.pdf"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
@@ -830,7 +830,7 @@ const Acordeon = () => {
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  2.1.4.2 Gaseta
+                                  2.1.4.2 Gaceta
                                 </a>
                                 <a
                                   href="https://apiwebtm.com/uploads/Gaceta_fondo_de_estabilizacion_a2aad75035.pdf"
@@ -1899,7 +1899,7 @@ const Acordeon = () => {
                     <div className="accordion-body">
                       <div className="list-group">
                         <a
-                          href="https://apiwebtm.com/uploads/BASE_DE_DATOS_PROVEEDORES_e0f2d2e788.xls"
+                          href="https://apiwebtm.com/uploads/BASE_DE_DATOS_PROVEEDORES_43ee0d81b7.pdf"
                           className="list-group-item list-group-item-action "
                           target="_blank"
                           rel="noreferrer"
@@ -1907,7 +1907,7 @@ const Acordeon = () => {
                           Base de datos de proveedores
                         </a>
                         <a
-                          href="https://apiwebtm.com/uploads/FORMATO_REGISTRO_DE_PROVEEDORES_VERSION_3_2_4d6e186961.doc"
+                          href="https://apiwebtm.com/uploads/FORMATO_REGISTRO_DE_PROVEEDORES_VERSION_3_2_4_c19285be69.pdf"
                           className="list-group-item list-group-item-action "
                           target="_blank"
                           rel="noreferrer"
@@ -2601,7 +2601,7 @@ const Acordeon = () => {
                                 2015
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/Plan_de_accion_Transmetro_2017_bc01dc64c1.XLS"
+                                href="https://apiwebtm.com/uploads/Plan_de_accion_Transmetro_2017_80860e606f.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -2837,7 +2837,7 @@ const Acordeon = () => {
                                 2018
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/PIC_2019_ceb13beda0.doc"
+                                href="https://apiwebtm.com/uploads/PIC_2019_ceb13beda0_84b9058d53.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -4927,7 +4927,7 @@ const Acordeon = () => {
                           2022
                           <div className="list-group">
                             <a
-                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre01_2022_b2f70343a1.xlsx"
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre01_2022_4e7e5af744.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
@@ -4935,7 +4935,7 @@ const Acordeon = () => {
                               Demanda diaria Trimestre I
                             </a>
                             <a
-                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre02_2022_1a9b31c43f.xlsx"
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre02_2022_c33858964a.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
@@ -4943,7 +4943,7 @@ const Acordeon = () => {
                               Demanda diaria Trimestre II
                             </a>{' '}
                             <a
-                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre03_2022_ebf5f58f57.xlsx"
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre03_2022_56f143c7c3.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
@@ -4951,7 +4951,7 @@ const Acordeon = () => {
                               Demanda diaria Trimestre III
                             </a>
                             <a
-                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre04_2022_27a5f38892.xlsx"
+                              href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre04_2022_da46ad8672.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
@@ -4994,7 +4994,7 @@ const Acordeon = () => {
                               Tablas de retención documental
                             </a>
                             <a
-                              href="https://apiwebtm.com/uploads/REGISTRO_DE_ACTIVOS_DE_INFORMACION_TRANSMETRO_SAS_a466fdfb36.xlsx"
+                              href="https://apiwebtm.com/uploads/REGISTRO_DE_ACTIVOS_DE_INFORMACION_TRANSMETRO_SAS_9fa7f4b625.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
