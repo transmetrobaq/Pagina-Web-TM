@@ -304,17 +304,49 @@ const Acordeon = () => {
                 </div>
               </div>
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="/"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneSeven"
+                >
+                  <button
                     className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneSeven"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneSeven"
                   >
                     1.7 Directorio de agremiaciones
-                  </a>
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOneSeven"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneSeven"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <a
+                        href="https://www.camarabaq.org.co/"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                      <picture>
+                      <img
+                        src="https://apiwebtm.com/uploads/camara_3d81c2a1d0.png"
+                        className="gobiIcon_Pres "
+                        alt="Icono Transmetro"
+                        style={{ marginBottom: '30px' }}
+                      />
+                    </picture>
+                        
+               
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="accordion-item">
                 <h2
