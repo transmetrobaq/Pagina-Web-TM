@@ -42,21 +42,21 @@ const Sistema = () => (
           <div className="col-md-5 align-self-center">
             <div className="card-body">
               <p className="card-text">
-                El servicio tiene un costo de{' '}
-                <span>
-                $2.900 en días hábiles (lunes a sábado) y $3.000 para los días
-                  domingos y festivos (vigente desde 1° de marzo de 2023)
-                </span>
-                . El mismo es descontado de la tarjeta inteligente al pasar por
-                los validadores en los portales, estaciones o servicios
-                alimentadores. El costo de la{' '}
-                <span>Tarjeta Inteligente Sin Contacto es de $4.000</span> y se
-                puede personalizar a través del sitio web y en el Punto de
-                Atención al Cliente de la estación Joe Arroyo.{' '}
-                <span>
-                  Con el valor de un pasaje se puede utilizar el servicio
-                  cuantas veces se requiera siempre y cuando el usuario
-                  permanezca en las estaciones.{' '}
+              El servicio tiene un costo de 
+              <span> $2.900 en días hábiles (lunes a sábado) 
+              y $3.000 para los días domingos y festivos (vigente desde 1° de marzo de 2023)</span>
+              
+              .El mismo es descontado de la tarjeta inteligente al pasar por los validadores en los portales, 
+               estaciones o servicios alimentadores. El costo de la 
+               <span>Tarjeta Inteligente Sin Contacto es de $4.000</span>, 
+               se puede adquirir en las 
+               <span>taquillas de las estaciones del Sistema
+               </span> y en los puntos autorizados de
+                venta <span>Olímpica, Súper Efectivo y E. Jiménez</span>. Además, se puede personalizar a través del sitio web
+                 y en el Punto de Atención al Cliente de la estación Joe Arroyo. 
+                 <span>Con el valor de un pasaje
+                  se puede utilizar el servicio cuantas veces se requiera siempre y cuando el usuario permanezca 
+                  en las estaciones.
                   <a
                     className="fw-bold text-decoration-none"
                     style={{ color: '#e30613' }}
@@ -69,16 +69,17 @@ const Sistema = () => (
                     leer mas..
                   </a>
                 </span>
-                <div className="card-body  card__credito " style={{ backgroundColor : '#ffffff' }}>
+                <div className="card-body  Btn-Precarga " style={{ backgroundColor : '#ffffff' }}>
                   <a
                     href="https://apiwebtm.com/uploads/PVE_20230719_dc346d7f43.pdf"
                     className="btn btn-primary"
                     target="_blank"
                     rel="noreferrer"
-                  >
-                     Puntos de Recarga
+                   >
+                     Puntos de Venta y Recarga (venta en Olímpica, Súper Efectivo y E. Jiménez)
                   </a>
-                </div>
+                  
+                 </div>
               </p>
             </div>
           </div>

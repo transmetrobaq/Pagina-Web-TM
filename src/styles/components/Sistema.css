@@ -944,6 +944,14 @@ font-weight: bold;
   border-radius: 20px;
   width: 15rem;
 }
+.Btn-Precarga a {
+  background-color: #00a13a;
+  border: 1px solid #00a13a;
+  border-radius: 20px;
+  width: 90%;
+ 
+  margin-top: 50px;
+}
 
 .card__credito #credito_img {
   background-image: url("https://apiwebtm.com/uploads/credito_9e6e099d6c.png");

@@ -386,18 +386,49 @@ const Acordeon = () => {
                 </div>
               </div>
               <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <a
-                    href="/"
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneNine"
+                >
+                  <button
                     className="accordion-button collapsed"
                     type="button"
-                    target="_blank"
-                    rel="noreferrer"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOneNine"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOneNine"
                   >
-                    1.9 Procedimientos que se siguen para tomar decisiones
-                  </a>
+                   1.9 Procedimientos que se siguen para tomar decisiones
+                  </button>
                 </h2>
+                <div
+                  id="panelsStayOpen-collapseOneNine"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOneNine"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                   <a
+                            href="https://apiwebtm.com/uploads/CA_MA_001_MANUAL_DE_ATENCION_AL_CIUDADANO_76533f9592.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                           1.9.1 Manual de Atención al Ciudadano
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Manual_del_Usuario_Vigente_Diciembre_23_2016_bc7d9a1965.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                           1.9.2 Manual del usuario
+                          </a>{' '}
+                     </div>
+                  </div>
+                </div>
               </div>
+              
 
               <div className="accordion-item">
                 <h2

@@ -241,7 +241,7 @@ const Navbar = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Puntos de Recarga
+                      Puntos de Venta y Recarga
                     </a>
                   </li>
 

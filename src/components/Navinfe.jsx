@@ -72,7 +72,7 @@ const Navinfe = () => {
                     role="button"
                     className="btn btn-link"
                     target="_blank"
-                    alt="Puntos de Recarga"
+                    alt=" Puntos de Venta y Recarga"
                   >
                     <picture>
                       <img
@@ -81,7 +81,7 @@ const Navinfe = () => {
                         alt="Icono Transmetro"
                       />
                     </picture>
-                    <p className="card-title">Puntos de Recarga</p>
+                    <p className="card-title"> Puntos de Venta y Recarga</p>
                   </a>
                 </div>
               </div>
