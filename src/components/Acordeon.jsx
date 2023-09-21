@@ -1836,28 +1836,25 @@ const Acordeon = () => {
                       3.3 Publicación de la ejecución de los contratos
                     </button>
                   </h2>
-                  {/*  <div
-                    id="panelsStayOpen-collapseTwoThree"
+                    <div
+                    id="panelsStayOpen-collapseThreeThree"
                     className="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingTwoThree"
+                    aria-labelledby="panelsStayOpen-headingThreeThree"
                   >
                     <div className="accordion-body">
                       <div className="list-group">
                         <a
-                          href="/"
+                          href="https://apiwebtm.com/uploads/Relacion_de_Contratos_2023_aff34af580.pdf"
                           className="list-group-item list-group-item-action "
+                           target="_blank"
+                           rel="noreferrer"
                         >
-                          2.3.1 Comentarios y documento de respuesta
+                         2023
                         </a>
-                        <a
-                          href="/"
-                          className="list-group-item list-group-item-action"
-                        >
-                          2.3.2 Participación ciudadana
-                        </a>
+                        
                       </div>
                     </div>
-                  </div> */}
+                  </div> 
                 </div>
                 <div className="accordion-item">
                   <h2
