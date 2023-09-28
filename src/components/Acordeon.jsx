@@ -263,6 +263,33 @@ const Acordeon = () => {
                         Directorio de servidores públicos, empleados y
                         contratistas
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Directorio_de_funcionarios_Transmetro_2023_e8b7102319.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                      Directorio de funcionarios - Transmetro 2023
+                      </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Directorio_de_contratista_Transmetro_2023_7ebb5adfb3.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                      Directorio de contratista - Transmetro 2023
+                      </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2023_e0775769dd.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                      Escala salarial - Transmetro 2023
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -637,12 +664,35 @@ const Acordeon = () => {
                         >
                           <div className="accordion-body">
                             <div className="list-group">
-                              <a
-                                href="https://apiwebtm.com/uploads/Control_Interno_6444c056f8.rar"
-                                className="list-group-item list-group-item-action "
-                              >
-                                Control interno
-                              </a>
+                            <li className="list-group-item list-group-item-action ">
+                              Control interno
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/ACTA_DE_PRESENTACION_DE_OFERTA_970910983b.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Acta de Presentación de Oferta
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Resolucion_No_162_de_2021_6fffd04e5f.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Resolucion No 162 de 2021
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/VERIFICACION_HOJAS_DE_VIDA_9773b983a7.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Verificación de hojas de vida 
+                            </a>{' '}
+                          </div>
+                        </li>
                             </div>
                           </div>
                         </div>
