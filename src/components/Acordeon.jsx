@@ -253,16 +253,7 @@ const Acordeon = () => {
                 >
                   <div className="accordion-body">
                     <div className="list-group">
-                      <a
-                        href="https://apiwebtm.com/uploads/1_5_Directorio_de_servidores_publicos_empleados_o_contratistas_94655713ad_ad48fc1467.pdf"
-                        className="list-group-item list-group-item-action"
-                        aria-current="true"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Directorio de servidores públicos, empleados y
-                        contratistas
-                      </a>
+                      
                       <a
                         href="https://apiwebtm.com/uploads/Directorio_de_funcionarios_Transmetro_2023_e8b7102319.pdf"
                         className="list-group-item list-group-item-action"
