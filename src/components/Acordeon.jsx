@@ -167,7 +167,7 @@ const Acordeon = () => {
                       >
                         1.3.1. Mapa de procesos de Transmetro
                       </a>
-                      <li className="list-group-item list-group-item-action ">
+                      {/* <li className="list-group-item list-group-item-action ">
                         1.3.2 Procesos y procedimientos
                         <div className="list-group">
                           <a
@@ -187,7 +187,7 @@ const Acordeon = () => {
                             Manual del usuario
                           </a>{' '}
                         </div>
-                      </li>
+                      </li> */}
                     </div>
                   </div>
                 </div>
