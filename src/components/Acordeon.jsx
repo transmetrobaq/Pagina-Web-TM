@@ -840,22 +840,97 @@ const Acordeon = () => {
                                 >
                                   2016
                                 </a>
-                                <a
-                                  href="https://apiwebtm.com/uploads/Resolusiones_2017_e98915b8db.rar"
-                                  className="list-group-item list-group-item-action "
-                                  target="_blank"
-                                  rel="noreferrer"
-                                >
-                                  2017
-                                </a>
-                                <a
-                                  href="https://apiwebtm.com/uploads/Resolusiones_2019_8c865a2646.rar"
-                                  className="list-group-item list-group-item-action "
-                                  target="_blank"
-                                  rel="noreferrer"
-                                >
-                                  2019
-                                </a>
+                                <li className="list-group-item list-group-item-action ">
+                              2017
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/RES_043_MANUAL_USUARIO_202211091225_1d4805e462.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Res 043 manual usuario
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/RES_107_2017_polit_prot_datos_trab_of_conprov_202211091224_349c6f82eb.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Res 107 2017 polit prot datos trab of conprov
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/RES_195_APRUEBAN_TABLAS_DE_RETENCION_DTMTL_202211091227_2bfdd783c0.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Res 195 aprueban tablas de retención DTMTL
+                            </a>{' '}
+                            <a
+                              href="https://apiwebtm.com/uploads/RESOLUCION_058_2017_crea_el_comite_archivo_202211091629_74cc8a03f3.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Resolución 058 -2017 crea el comite archivo
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/RESOLUCION_017_pago_concepto_dano_emergente_lucro_c_202211091222_e8113e5212.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Resolución 017 pago concepto dano emergente lucro
+                            </a>
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                              2019
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_IMPLEMENTA_Y_SE_REGLAMENTAEL_FUNCIONAMIENTO_ELCOMITE_INSTITUCIONAL_DE_GESTION_Y_DESEMPENO_de_193_2019_202210241650_a4466a776b.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Reglamento del Comité de Gestión y Desempeño Institucional
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_EL_CUAL_SE_IMPLEMENTA_EL_PROGRAMA_DE_GESTION_DOCUMENTAL_d71193b13f.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           Por el cual se implementa el programa de gestión documental
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_MODIFICA_EL_COMITE_DE_CONCILIACION_DE_TRANSMETRO_RES_33_2019_202210241629_bf53f6ef39.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                      Por la cual se modifica el comité de conciliación de Transmetro
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADOPTA_EL_CODIGO_DE_INTEGRIDAD_DE_TRANSMETRO_RES_105_2019_202210241635_6af95ca1cc.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Adopción del Código de Integridad de Transmetro
+                            </a>{' '}
+                            <a
+                              href="https://apiwebtm.com/uploads/Por_la_cual_se_crea_el_comite_de_Investigacion_de_accidentes_de_trabajo_Res_25_2019_202210241628_35efe2a992.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           Creación del Comité de Investigación de Accidentes de Trabajo
+                            </a>
+                           
+                          </div>
+                        </li>
                                 <a
                                   href="https://apiwebtm.com/uploads/Resolusiones_2020_45600bfc40.rar"
                                   className="list-group-item list-group-item-action "
@@ -5010,6 +5085,22 @@ const Acordeon = () => {
                                 >
                                   Programa de gestión documental
                                 </a>
+                                <a
+                              href="https://apiwebtm.com/uploads/Resolucion_PGD_7e76c42fa8.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           Resolución PGD
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Resolucion_Actualizacion_TRD_2022_b9f8222034.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Resolución Actualización TRD 2023 
+                            </a>
                               </div>
                             </div>
                           </div>
