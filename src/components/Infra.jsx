@@ -862,6 +862,15 @@ const Infra = () => {
                         <span>Gran Malecón</span>
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href="/sistema/rutas_alimentadoras/ruta-mallorquin/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        <span> Ruta Mallorquín</span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>

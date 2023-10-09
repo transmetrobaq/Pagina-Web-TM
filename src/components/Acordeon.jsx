@@ -931,22 +931,104 @@ const Acordeon = () => {
                            
                           </div>
                         </li>
-                                <a
+                                {/* <a
                                   href="https://apiwebtm.com/uploads/Resolusiones_2020_45600bfc40.rar"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
                                 >
                                   2020
-                                </a>
-                                <a
+                                </a> */}
+                                <li className="list-group-item list-group-item-action ">
+                                2020
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADOPTA_EL_MANUAL_DE_SEGURIDA_Y_SALUD_EN_EL_TRABAJO_278_2020_fe782fd94d.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Adopción del Manual de Seguridad y Salud en el Trabajo 278-2020
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_DA_ALCANCE_A_LA_RESOLUCION_138_DE_20_POR_LA_CUAL_SE_ADOPTAN_MEDIDAS_SANITARIASS_TRANSITORIAS_EN_TRANS_SAS_142_2020_6097a58fdb.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Alcance a la Resolución 138 de 2020 - Medidas Sanitarias  142-2020
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Por_medio_la_cual_seadopta_el_Manual_y_seguridad_en_el_trabajo_res_278_2020_4acb8be9da.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Adopción del Manual de Seguridad en el Trabajo Resolución 278-2020
+                            </a>{' '}
+                          </div>
+                        </li>
+                                {/* <a
                                   href="https://apiwebtm.com/uploads/Resolusiones_2021_e8bea9ed83.rar"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
                                 >
                                   2021
-                                </a>
+                                </a> */}
+                                <li className="list-group-item list-group-item-action ">
+                                2021
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADOPTA_UNA_METODOLOGIA_PARA_LA_VALORACION_DEL_RIESGO_PROCESAL_167_2021_598f9ab3d8.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Adopción de Metodología para Valoración del Riesgo Procesal 167-2021
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_DE_ADOPTAN_E_IMPLEMENTA_LAS_TABLAS_DE_CONTROL_DE_ACCESO_DE_TRANSMETRO_SAS_141_2021_5e1c486066.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Adopción e Implementación de Tablas de Control de Acceso  141-2021
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_DE_ADOPTAN_E_IMPLEMENTA_LAS_TABLAS_DE_CONTROL_DE_ACCESO_DE_TRANSMETRO_SAS_141_2021_1_91ab4ee980.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           Adopción e implementación de Tablas de Control de Acceso  141-2021_1
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADOPTA_Y_SE_IMPLEMENTA_EL_SISTEMA_INTEGRADO_DE_CONSERVACION_SIC_DE_TRANSMETRO_SAS_144_2021_02483f43c7.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Sistema Integrado de Conservación SIC Transmetro SAS 144-2021
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ADOPTA_EL_BANCO_TERMINOLOGIA_DE_SERIES_Y_SUBSERIES_099_2021_413466ccb5.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Banco de Terminología de Series y Subseries 099-2021
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_APRIEBA_EL_INDICE_DE_INFORMACION_CLASIFICADA_Y_RESERVADA_DE_TRANSMETRO_100_21_eacfb7e996.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Índice de Información Clasificada y Reservada Transmetro 100-21
+                            </a>{' '}
+                          </div>
+                        </li>
                                 <li className="list-group-item list-group-item-action ">
                                   2023
                                   <div className="list-group">
