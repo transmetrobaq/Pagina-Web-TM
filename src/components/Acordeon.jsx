@@ -1048,6 +1048,14 @@ const Acordeon = () => {
                                     >
                                       Reglamento Interno de Trabajo
                                     </a>{' '}
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Resolucion_No_134_DE_2023_c8a1ed2b7c.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                     Resol. 134 de 2023 da cumplimiento al dec. 201 de 2023 que declara la tarde cívica del día 12 de octubre de 2023 en Barranquilla
+                                    </a>
                                   </div>
                                 </li>
                               </div>
