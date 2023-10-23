@@ -4100,37 +4100,130 @@ const Acordeon = () => {
                         >
                           <div className="accordion-body">
                             <div className="list-group">
-                              <a
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/4_8_INFORME_AUDITORIA_CDB_VIG_Y_PLAN_DE_MEJORA_2018_f218470682.rar"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2018
-                              </a>
-                              <a
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                                2018
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/4_8_INFORME_AUDITORIA_CDB_VIG_2018_f9bcf6bad9.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Informe Auditoría CDB Vig 2018
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2018_1330f13b39.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Plan de Mejora CDB vig 2018
+                            </a>
+                            
+                          </div>
+                        </li>
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/4_8_2_INFORME_AUDITORIA_CDB_VIG_2019_Y_PLAN_DE_MEJORA_673d35330a.rar"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2019
-                              </a>
-                              <a
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                                2019
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/4_8_INFORME_AUDITORIA_CDB_VIG_2019_7dcba6b1eb.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe auditoría CDB vig 2019
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2019_3fd30a1537.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Plan de mejora CDB vig 2019
+                            </a>
+                          </div>
+                            </li>
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/4_8_2_INFORME_AUDITORIA_CDB_VIG_2020_Y_PLAN_DE_MEJORA_a62b0ddbcb.rar"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2020
-                              </a>
-                              <a
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                                2020
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/4_8_INFORME_AUDITORIA_CDB_VIG_2020_4f19d5ede0.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe auditoría CDB vig 2020
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2020_4e74acb7b8.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Plan de mejora CDB vig 2020
+                            </a>
+                          </div>
+                            </li>
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/4_8_2_INFORME_AUDITORIA_VIG_2021_Y_PLAN_DE_MEJORA_b78b3e1f31.rar"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2021
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                                2021
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/4_8_INFORME_AUDITORIA_VIG_2021_b76e99e23a.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe auditoría CDB vig 2021
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2021_dfddce5cc8.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Plan de mejora CDB vig 2021
+                            </a>
+                          </div>
+                            </li>
+                            <a
+                                href="https://apiwebtm.com/uploads/TRANSMETRO_INFORME_FINAL_CONTRALORIA_2022_d2e03e5e79.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
                               </a>
                             </div>
                           </div>
@@ -4409,6 +4502,14 @@ const Acordeon = () => {
                                     >
                                       2021
                                     </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDIT_NOM_Y_P_SOC_2022_1b90973800.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2022
+                                    </a>
                                   </div>
                                 </div>
                               </div>
@@ -4475,6 +4576,14 @@ const Acordeon = () => {
                                       rel="noreferrer"
                                     >
                                       2021
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Informe_preli_Auditoria_Presupuesto_vig_2022_36e0bba79f.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2022
                                     </a>
                                   </div>
                                 </div>
