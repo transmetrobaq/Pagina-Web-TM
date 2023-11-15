@@ -2431,14 +2431,52 @@ const Acordeon = () => {
                             >
                               Presupuesto
                             </a>
-                            <a
+                            {/* <a
                               href="https://apiwebtm.com/uploads/Estado_Financiero_2021_658497eaa2.7z"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
                             >
                               Estados financieros
+                            </a> */}
+                            <li className="list-group-item list-group-item-action ">
+                            Estados financieros
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/ESTADO_DE_CAMBIO_EN_EL_PATRIMONIO_1_606d8a6924.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Estado de cambio en el patrimonio
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/ESTADO_DE_FLUJO_DE_EFECTIVO_6dbf659500.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Estado de flujo de efectivo
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/ESTADO_DE_RESULTADOS_Y_ESTADO_DE_RESULTADO_INTEGRAL_1_b9c59745e7.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Estado de resultados y estado de resultado integral
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/ESTADO_DE_SITUACION_FINANCIERA_f530513659.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Estado de situación financiera
+                            </a>
+
+                          </div>
+                        </li>
                           </div>
                         </li>
                         <li className="list-group-item list-group-item-action ">
@@ -4217,14 +4255,35 @@ const Acordeon = () => {
                             </a>
                           </div>
                             </li>
-                            <a
+                            {/* <a
                                 href="https://apiwebtm.com/uploads/TRANSMETRO_INFORME_FINAL_CONTRALORIA_2022_d2e03e5e79.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2022
-                              </a>
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                                2022
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/TRANSMETRO_INFORME_FINAL_CONTRALORIA_2022_d2e03e5e79.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           Informe final Contraloría 2022.
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/1er_SEGUIMIENTO_Plan_Mejoramiento_2022_5840a5fdf9.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Plan de mejora CDB vig 2022
+                            </a>
+                          </div>
+                            </li>
                             </div>
                           </div>
                         </div>
