@@ -2898,24 +2898,85 @@ const Acordeon = () => {
                         >
                           <div className="accordion-body">
                             <div className="list-group">
-                              <a
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/Plan_Anticorrupcion_2019_51b41126c7.7z"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2019
-                              </a>
-                              <a
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                               2019
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/MAPA_DE_RIESGOS_ANTICORRUPCION_2019_9c810c5e01.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Mapa de riesgos anticorrupción
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Plan_Anticorrupcion_2019_3f9bb126f7.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Plan anticorrupción 
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/Seguimiento_al_Plan_Anticorrupcion_2019_a2380ae82b.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Seguimiento al plan anticorrupción
+                            </a>
+
+                          </div>
+                        </li>
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/Plan_Anticorrupcion_2020_c3219a628f.7z"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2020
-                              </a>
-                              <a
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                               2020
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/MAPA_DE_RIESGOS_2020_01a3713282.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Mapa de riesgos 
+                            </a>
+                            
+                             <a
+                              href="https://apiwebtm.com/uploads/Seguimiento_al_Plan_Anticorrupcion_2020_c90d74c627.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Seguimiento al plan anticorrupción
+                            </a>
+
+                          </div>
+                        </li>
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/Plan_Anticorrupcion_2021_674c09de45.7z"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a> */}
+                              <a
+                                href="https://apiwebtm.com/uploads/MATRIZ_DE_RIESGO_COMPILADA_d26703eae4.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
