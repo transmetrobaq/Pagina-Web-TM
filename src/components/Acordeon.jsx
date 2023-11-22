@@ -2120,6 +2120,129 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingTreeTwoThree"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTreeTwoThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTreeTwoThree"
+                          >
+                             Apertura  Proceso lista  corta   TM-LC--003-2023
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTreeTwoThree"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTreeTwoThree"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <ol >
+                                <span> Objeto: </span>
+                                Contratar las pólizas de seguros Responsabilidad Civil de Servidores Públicos, infidelidad de Riesgos Financieros, requeridas para la adecuada protección de los bienes e intereses patrimoniales de Transmetro S.A.S., así como aquellos por los que sea o fuere legalmente responsable o le corresponda asegurar en virtud de disposición legal o contractual”.
+                                       </ol>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_CARTA_DE_PRESENTACION_DE_LA_OFERTA_e7f0a480a4.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                             ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_2024_RCSP_Y_IRF_38eeec7ace.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               CONDICIONES BÁSICAS OBLIGATORIAS 2023-2024 RCSP Y IRF
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_RCSP_Y_IRF_2023_2024_2ab87542a6.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                             CONDICIONES COMPLEMENTARIAS RCSP Y IRF 2023-2024
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONVOCATORIA_5ca1ce6f31.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              CONVOCATORIA
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/CRONOGRAMA_DEL_PROCESO_b5a82f7202.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                          CRONOGRAMA DEL PROCESO
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Estados_Financieros_Transmetro_2022_2021_1_53ee12f1a8_0ae14487db.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               ESTADOS FINANCIEROS TRANSMETRO 
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ESTUDIOS_PREVIOS_1b0e7b635f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ESTUDIOS PREVIOS
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/F_CDP_POLIZAS_0c93c3a78b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               F.CDP- PÓLIZAS
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/FORMULARIO_IRF_6ae6c4f882.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               FORMULARIO IRF
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/FORMULARIO_RESP_C_SERV_PUB_9ec600cbde.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               FORMULARIO RESP C. SERV. PUB
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INVITACION_PARA_PRESENTAR_PROPUESTA_54a5900a53.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              INVITACIÓN PARA PRESENTAR PROPUESTA
+                              </a>
+                             
+                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       </div>
                     </div>
                   </div>
