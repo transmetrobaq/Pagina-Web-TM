@@ -2156,7 +2156,7 @@ const Acordeon = () => {
                              ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_2024_RCSP_Y_IRF_38eeec7ace.pdf"
+                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_2024_RCSP_Y_IRF_450f1c5265.xlsx"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -2165,7 +2165,7 @@ const Acordeon = () => {
                               </a>
 
                               <a
-                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_RCSP_Y_IRF_2023_2024_2ab87542a6.pdf"
+                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_RCSP_Y_IRF_2023_2024_e4a9f1adc6.xlsx"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
