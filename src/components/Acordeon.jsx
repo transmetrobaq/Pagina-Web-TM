@@ -2237,7 +2237,104 @@ const Acordeon = () => {
                               >
                               INVITACIÓN PARA PRESENTAR PROPUESTA
                               </a>
-                             
+                              <a
+                                href="https://apiwebtm.com/uploads/OBSERVACION_PRESENTADA_AXA_COLPATRIA_5a667ffe05.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              OBSERVACIÓN PRESENTADA AXA COLPATRIA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/OBSERVACION_EXTEMPORANEA_EQUIDAD_SEGUROS_9b1ab8adc5.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              OBSERVACIÓN EXTEMPORÁNEA EQUIDAD SEGUROS
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RESPUESTA_OBSERVACIONES_6530108f3d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RESPUESTA OBSERVACIONES
+
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_7_CERTIFICADO_SINIESTRALIDAD_AXA_COLPATRIA_e123cab065.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ANEXO 7 - CERTIFICADO DE SINIESTRALIDAD AXA COLPATRIA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_7_CERTIFICADO_SINIESTRALIDAD_CHUBB_DE_COLOMBIA_cdd7052907.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ANEXO 7 CERTIFICADO  SINIESTRALIDAD  CHUBB DE COLOMBIA
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_8_CERTIFICADO_DE_MULTAS_Y_SANCIONES_af895303c6.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ANEXO  8 CERTIFICADO  DE MULTAS  Y SANCIONES
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_9_CERTIFICADO_NO_INHABILIDADES_E_INCOMPATIBILIDADES_e61ad0f24f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ANEXO 9 - CERTIFICADO DE NO INHABILIDADES E INCOMPATIBILIDADES
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_10_MINUTA_DEL_CONTRATO_2976c97952.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ANEXO 10 - MINUTA DEL CONTRATO
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ANEXO_11_MANUAL_DE_CONTRATACION_TRANSMETRO_b40341b265.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ANEXO 11 - MANUAL DE CONTRATACIÓN TRANSMETRO
+                              </a>
+
+                              <a
+                                href="https://apiwebtm.com/uploads/FORMULARIIO_RESPONSABILIDAD_CIVIL_ACTUALIZADOS_5621272d77.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              FORMULARIO RESPONSABILIDAD CIVIL ACTUALIZADO
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/FORMULARIO_IRF_ACTUALIZADOS_4d7ada17e7.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              FORMULARIO IRF ACTUALIZADO
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONVOCATORIA_EDITABLE_56ebb97b02.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              CONVOCATORIA  EDITABLE
+                              </a>
                              
                             </div>
                           </div>
