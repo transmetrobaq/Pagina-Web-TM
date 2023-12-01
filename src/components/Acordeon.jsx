@@ -2335,7 +2335,14 @@ const Acordeon = () => {
                               >
                               CONVOCATORIA  EDITABLE
                               </a>
-                             
+                              <a
+                                href="https://apiwebtm.com/uploads/ACTA_ACLARATORIA_RESPUESTA_OBSERVACIONES_bf4cc14799.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              CTA ACLARATORIA RESPUESTA OBSERVACIONES
+                              </a>
                             </div>
                           </div>
                         </div>
