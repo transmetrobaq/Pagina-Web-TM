@@ -2343,6 +2343,30 @@ const Acordeon = () => {
                               >
                               CTA ACLARATORIA RESPUESTA OBSERVACIONES
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_DE_EVALUACIO_Ndocx_07341c4480.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                            INFORME DE EVALUACIÓN
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/EVALUACION_RCSP_b9387fd3b8.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                            EVALUACIÓN RCSP
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/EVALUACION_IRF_fe5893d5b3.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                            EVALUACIÓN IRF
+                              </a>
                             </div>
                           </div>
                         </div>
