@@ -2367,6 +2367,23 @@ const Acordeon = () => {
                               >
                             EVALUACIÓN IRF
                               </a>
+                               <a
+                                href="https://apiwebtm.com/uploads/informe_final04298920231213145116_66c5fbca1b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                            INFORME FINAL DE EVALUACIÓN
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/resolucion04299120231213145145_f6233eae5d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ADJUDICACIÓN TM-LC003-2023
+                            
+                              </a>
                             </div>
                           </div>
                         </div>
