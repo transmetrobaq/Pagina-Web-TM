@@ -1056,6 +1056,14 @@ const Acordeon = () => {
                                     >
                                      Resol. 134 de 2023 da cumplimiento al dec. 201 de 2023 que declara la tarde cívica del día 12 de octubre de 2023 en Barranquilla
                                     </a>
+                                     <a
+                                      href="https://apiwebtm.com/uploads/RESOL_DIA_CIVICO_14_12_2023_00ce36a11b.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                     Resolución Día Civico 14-12-2023
+                                    </a>
                                   </div>
                                 </li>
                               </div>
