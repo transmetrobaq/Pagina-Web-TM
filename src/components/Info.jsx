@@ -242,6 +242,10 @@ const Info = () => {
                     <td> NOVIEMBRE 2023 </td>
                      <td>1.724.582</td>
                   </tr>
+                  <tr>
+                    <td> DICIEMBRE 2023 </td>
+                     <td>1.593.214</td>
+                  </tr>
 
                 </tbody>
               </table>
