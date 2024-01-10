@@ -4764,14 +4764,104 @@ const Acordeon = () => {
                                     >
                                       2021
                                     </a>
-                                    <a
+                                    {/* <a
                                       href="https://apiwebtm.com/uploads/AUSTERIDAD_2022_bb514db0b6.rar"
                                       className="list-group-item list-group-item-action "
                                       target="_blank"
                                       rel="noreferrer"
                                     >
                                       2022
-                                    </a>
+                                    </a> */}
+                                    <li className="list-group-item list-group-item-action ">
+                              2022
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_1er_TRIM_2021_2022_7b696f5c88.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe Austeridad 1er. TRIM 2021-2022
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_2_DO_TRIM_ABRIL_JUN_2021_2022_d59aadba55.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            
+                            Informe Austeridad 2do. Trim Abril - Jun 2021-2022
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_CUARTO_TRIMESTRE_2020_2021_5854d0dff3.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe Austeridad Cuarto Trimestre 2020-2021
+                            </a>{' '}
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_TERCER_TRIMESTRE_2021_2022_5ff9d590bb.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           
+                            Informe Auditoria Tercer Trimestre  2021-2022
+                            </a>
+                            
+                             <a
+                              href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_CUARTO_TRIMESTRE_2021_2022_3e6d234d18.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe Austeridad cuarto trimestre 2021-2022
+                            </a> 
+                           
+                            
+                          </div>
+                        </li>
+
+                        <li className="list-group-item list-group-item-action ">
+                              2023
+                          <div className="list-group">
+                          <a
+                              href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_PRIMER_TRIM_2022_2023_6288992185.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe Austeridad primer trim 2022-2023
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_2_DO_TRIM_ABRIL_JUN_2022_2023_95bba043cf.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe Austeridad 2do. trim abril-jun 2022-2023
+                            
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_TERCER_TRIMESTRE_2022_2023_a90e490629.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe Austeridad tercer trimestre 2022-2023
+                            </a>
+                          
+                         
+                         
+                           
+                            
+                           
+                            
+                          </div>
+                        </li>
+
+
                                   </div>
                                 </div>
                               </div>
@@ -5047,6 +5137,14 @@ const Acordeon = () => {
                                       rel="noreferrer"
                                     >
                                       2021
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/INF_FINAL_CONTABILIDAD_VIG_2022_dc437593bd.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2022
                                     </a>
                                   </div>
                                 </div>
