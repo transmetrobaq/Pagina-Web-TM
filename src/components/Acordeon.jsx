@@ -3981,6 +3981,14 @@ const Acordeon = () => {
                         >
                           Febrero 17 de 2020
                         </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/26_de_enero_de_2024_ad21729686.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          26 de enero de 2024
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -4096,6 +4104,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_2020_2023_973fb94112.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2023
                               </a>
                             </div>
                           </div>
