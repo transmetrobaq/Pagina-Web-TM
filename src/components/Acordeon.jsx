@@ -281,6 +281,15 @@ const Acordeon = () => {
                       >
                       Escala salarial - Transmetro 2023
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Directorio_funcionarios_2024_1_3d49cd4c19.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                      Directorio de funcionarios 2024
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -3087,6 +3096,14 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Tratamiento_de_riesgos_de_seguridad_y_privacidad_de_la_informacion_TM_V3_2032fc4a8c.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3145,6 +3162,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Seguridad_y_Privacidad_de_la_Informacion_V3_50ce0e8790.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
                               </a>
                             </div>
                           </div>
@@ -3275,6 +3300,14 @@ const Acordeon = () => {
                               >
                                 2023
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Anticorrupcion_2024_045806a27e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3367,6 +3400,15 @@ const Acordeon = () => {
                               >
                                 2023
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Accion_2024_compilado_49121c8a8a.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
+
                             </div>
                           </div>
                         </div>
@@ -3434,6 +3476,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_ESTRATEGICO_DE_TALENTO_HUMANO_2024_a9e4c40f74.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
                               </a>
                             </div>
                           </div>
@@ -3595,6 +3645,14 @@ const Acordeon = () => {
                               >
                                 2023
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_Plan_Institucional_de_Capacitacion_2024_340b1a1d2d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3686,6 +3744,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Bienestar_Laboral_Social_y_de_Incentivos_2024_4cf2953165.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
                               </a>
                             </div>
                           </div>
