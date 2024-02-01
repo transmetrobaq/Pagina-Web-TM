@@ -1472,8 +1472,17 @@ const Acordeon = () => {
                             >
                             PAA_2023_v1
                             </a>
+                           
                           </div>
                         </li>
+                        <a
+                          href="https://apiwebtm.com/uploads/PAA_AACTUALIZADO_31_ENERO_2024_7cf360bd51.xlsx"
+                          className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2024
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -3036,6 +3045,14 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PETI_TM_2024_Nuevo_adc71891e5.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3920,6 +3937,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2022
+                              </a>
+                               <a
+                                href="https://apiwebtm.com/uploads/PINAR_2024_2028_bb99ed9290.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
                               </a>
                             </div>
                           </div>
@@ -5426,14 +5451,36 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
-                              <a
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/Informe_pormenorizado_Ene_Jun_2023_fe5d53ca65.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2023
+                              </a> */}
+                               <li className="list-group-item list-group-item-action ">
+                                2023
+                          <div className="list-group">
+                            <a
+                                href="https://apiwebtm.com/uploads/Informe_pormenorizado_Ene_Jun_2023_fe5d53ca65.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Informe pormenorizado Ene-Jun 
                               </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_pormenorizado_Jul_Dic_2023_f5d68cb5f2.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe pormenorizado Jul-Dic
+                            </a>
+                            
+                          </div>
+                        </li>
                             </div>
                           </div>
                         </div>
