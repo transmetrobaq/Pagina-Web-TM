@@ -1075,6 +1075,14 @@ const Acordeon = () => {
                                     </a>
                                   </div>
                                 </li>
+                                <a
+                                      href="https://apiwebtm.com/uploads/Resolucion_021_2024_Tarde_civica_2_y_9_de_febrero_e501906ccf.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                    2024
+                                    </a>
                               </div>
                             </div>
                           </div>
