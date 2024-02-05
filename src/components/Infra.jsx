@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
-import Horario from './Horario';
+// import Horario from './Horario'; habilitarlo cunado se suba los horario en pdf
 
 const Infra = () => {
   const [activeTab, setActiveTab] = useState('1');
@@ -173,8 +173,10 @@ const Infra = () => {
           </div>
         </div>
       </div>
+
       {/* Horario */}
-      <Horario />
+      {/* <Horario /> HABILITARLO CUANDO SE SUBA LOS HORARIO EN PDF */}
+
       <div className="container-xxl estaciones">
         <div className="card mb-3 border border-0">
           <div className="row g-0 justify-content-end ">
