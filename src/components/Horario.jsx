@@ -76,7 +76,17 @@ const Horario = () => {
                     <TabPane tabId="1">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
-                        <a
+                      <a
+                          href="https://apiwebtm.com/uploads/HORARIO_DIAS_HABILES_9d41cf8642.pdf"
+                          className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{ color: '#002856' }}
+                        >
+                          <i className="fa-regular fa-file" /> Horario días hábiles
+
+                        </a>
+                        {/* <a
                           href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_HABILES_10_DE_ENE_2023_d3c9bc5343.pdf"
                           className="list-group-item list-group-item-action"
                           target="_blank"
@@ -94,14 +104,23 @@ const Horario = () => {
                         >
                           <i className="fa-regular fa-file" /> Rutas
                           Alimentadoras
-                        </a>
+                        </a> */}
                       </div>
                     </TabPane>
                     {/* Sabados */}
                     <TabPane tabId="2">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
-                        <a
+                      <a
+                          href="https://apiwebtm.com/uploads/HORARIO_SABADOS_ab6f770aca.pdf"
+                          className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{ color: '#00a13a' }}
+                        >
+                          <i className="fa-regular fa-file" /> Horario sábados
+                        </a>
+                        {/* <a
                           href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_SABADO_14_DE_ENE_2023pptx_1bc812fb75.pdf  "
                           className="list-group-item list-group-item-action"
                           target="_blank"
@@ -119,14 +138,23 @@ const Horario = () => {
                         >
                           <i className="fa-regular fa-file" /> Rutas
                           Alimentadoras
-                        </a>
+                        </a> */}
                       </div>
                     </TabPane>
                     {/* Domingos */}
                     <TabPane tabId="3">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
-                        <a
+                      <a
+                          href="https://apiwebtm.com/uploads/HORARIOS_DOMINGOS_Y_FESTIVOS_6ccaa04dc0.pdf"
+                          className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{ color: '#e30613' }}
+                        >
+                          <i className="fa-regular fa-file" /> Horario domingos
+                        </a>
+                        {/* <a
                           href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_DOM_Y_FES_15_DE_ENE_2023_613ca9c764.pdf  "
                           className="list-group-item list-group-item-action"
                           target="_blank"
@@ -144,7 +172,7 @@ const Horario = () => {
                         >
                           <i className="fa-regular fa-file" /> Rutas
                           Alimentadoras
-                        </a>
+                        </a> */}
                       </div>
                     </TabPane>
                     {/* Semana santa */}
