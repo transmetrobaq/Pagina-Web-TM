@@ -43,18 +43,18 @@ const Sistema = () => (
             <div className="card-body">
               <p className="card-text">
               El servicio tiene un costo de 
-              <span> $2.900 en días hábiles (lunes a sábado) 
-              y $3.000 para los días domingos y festivos (vigente desde 1° de marzo de 2023)</span>
+              <span> $3.100 en días hábiles (lunes a sábado) 
+              y $3.200 para los días domingos y festivos (vigente desde 15 de febrero de 2024)</span>
               
               .El mismo es descontado de la tarjeta inteligente al pasar por los validadores en los portales, 
                estaciones o servicios alimentadores. El costo de la 
-               <span>Tarjeta Inteligente Sin Contacto es de $4.000</span>, 
+               <span> Tarjeta Inteligente Sin Contacto es de $4.000</span>, 
                se puede adquirir en las 
-               <span>taquillas de las estaciones del Sistema
+               <span> taquillas de las estaciones del Sistema
                </span> y en los puntos autorizados de
                 venta <span>Olímpica, Súper Efectivo y E. Jiménez</span>. Además, se puede personalizar a través del sitio web
                  y en el Punto de Atención al Cliente de la estación Joe Arroyo. 
-                 <span>Con el valor de un pasaje
+                 <span> Con el valor de un pasaje
                   se puede utilizar el servicio cuantas veces se requiera siempre y cuando el usuario permanezca 
                   en las estaciones.
                   <a
