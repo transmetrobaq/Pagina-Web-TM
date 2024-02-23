@@ -282,13 +282,22 @@ const Acordeon = () => {
                       Escala salarial - Transmetro 2023
                       </a>
                       <a
-                        href="https://apiwebtm.com/uploads/Directorio_funcionarios_2024_1_3d49cd4c19.pdf"
+                        href="https://apiwebtm.com/uploads/Directorio_funcionarios_Transmetro_2024_c5125e9b58.xls"
                         className="list-group-item list-group-item-action"
                         aria-current="true"
                         target="_blank"
                         rel="noreferrer"
                       >
-                      Directorio de funcionarios 2024
+                      Directorio funcionarios - Transmetro 2024
+                      </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Directorio_Contratistas_Transmetro_2024_8130ce9a0d.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                      Directorio Contratistas - Transmetro 2024
                       </a>
                     </div>
                   </div>
