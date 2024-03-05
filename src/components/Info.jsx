@@ -138,7 +138,7 @@ const Info = () => {
                 <div className="card-body usu-movilizados ">
                   <h2 className="card-text ">Usuarios Movilizados</h2>
                   <p className="card-text">
-                    Desde el 10 de julio de 2010 hasta <br /> 28 de enero de 2024
+                    Desde el 10 de julio de 2010 hasta <br /> 25 de febrero de 2024
                     <button
                       type="button"
                       className="btn text-white "
@@ -156,7 +156,7 @@ const Info = () => {
                     src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
                     alt="Bus Transmetro"
                   />
-                  <h1 className="card-title fw-bold">401.057.690</h1>
+                  <h1 className="card-title fw-bold">402.654.185</h1>
                   <div className="linea-colores-movi" />
                 </div>
               </div>
@@ -191,6 +191,43 @@ const Info = () => {
               // style={{ width: '150wh', height: '3518px' }}
             >
               <table className="table table-bordered azul-lt ">
+                <thead>
+                  <tr>
+                    <th scope="col">Periodos</th>
+                    <th scope="col">Número de movilizados</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>ENERO 2024</td>
+                    <td>1.450.725</td>
+                  </tr>
+                  </tbody>
+              </table>
+              <div className="accordion-item">
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOneTwo"
+                >
+                  <button 
+                    className="accordion-button collapsed azul-lt"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseperiodo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseperiodo"
+                  >
+                    Año 2023
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseperiodo"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingperiodo"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                    <table className="table table-bordered azul-lt ">
                 <thead>
                   <tr>
                     <th scope="col">Periodos</th>
@@ -249,6 +286,10 @@ const Info = () => {
 
                 </tbody>
               </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="modal-footer">
               <button

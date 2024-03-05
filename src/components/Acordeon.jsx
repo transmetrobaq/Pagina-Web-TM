@@ -2510,6 +2510,14 @@ const Acordeon = () => {
                         >
                           Resolución-Creación Comité de Contratación
                         </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/Manual_de_Contratacion_Resolucion_No_037_2024_0e17bc1692.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Manual de contratación - Resolucion No.037-2024
+                        </a>
                       </div>
                     </div>
                   </div>
