@@ -4599,6 +4599,14 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_DERECHOS_AUTOR_2023_TM_3f148e4e2b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2023
+                              </a>
                             </div>
                           </div>
                         </div>
