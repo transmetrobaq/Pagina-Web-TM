@@ -32,7 +32,7 @@ const Infantil = () => (
           </div>
           <div className="ratio ratio-16x9">
             <iframe
-              src="https://www.youtube.com/embed/R0sOgE-oc8k"
+              src="https://www.youtube.com/embed/gk7icVZnuT8?si=6xdn1HkR7o3NUAWa"
               title="Transmetro paso a paso"
               alt="YouTube video como funciona"
             />
