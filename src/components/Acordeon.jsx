@@ -4105,24 +4105,15 @@ const Acordeon = () => {
                       4.4 Proyectos de Inversión
                     </button>
                   </h2>
-                  {/* <div
+                   <div
                     id="panelsStayOpen-collapseFourFour"
                     className="accordion-collapse collapse"
                     aria-labelledby="panelsStayOpen-headingFourFour"
                   >
                     <div className="accordion-body">
-                      <div className="list-group">
-                        <a
-                          href="https://apiwebtm.com/uploads/MANUAL_DE_CONTRATACION_acdfa53af4.pdf"
-                          className="list-group-item list-group-item-action "
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Manual de contratación
-                        </a>
-                      </div>
+                      <p> Transmetro no está obligado a publicar por ser entidad Industrial y Comercial del Estado </p>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
                 <div className="accordion-item">
                   <h2
