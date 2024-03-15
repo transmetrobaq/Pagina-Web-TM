@@ -786,7 +786,23 @@ const Acordeon = () => {
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  Normograma
+                                  Normograma 2022
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/NORMOGRAMA_TRANSMETRO_2023_2_4fd37cc31c.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Normograma 2023
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/NORMOGRAMA_TRANSMETRO_2024_9d7a6f912e.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Normograma 2024
                                 </a>
                               </div>
                             </div>
@@ -1300,12 +1316,43 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
-                        <a
+                        {/* <a
                           href="/"
                           className="list-group-item list-group-item-action"
                         >
                           2.1.6 Agenda Regulatoria
-                        </a>
+                        </a> */}
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTwoOnesix"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTwoOnesix"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTwoOnesix"
+                            >
+                               2.1.6 Agenda Regulatoria
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTwoOnesix"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwoOnesix"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <p>
+                                  Transmetro no expide actos administrativos de carácter general, solo se regulan el funcionamiento interno.
+                                </p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -2466,7 +2513,14 @@ const Acordeon = () => {
                         >
                          2023
                         </a>
-                        
+                        <a
+                          href="https://apiwebtm.com/uploads/RELACION_DE_CONTRATOS_2024_1_2c1f7d96fa.xlsx"
+                          className="list-group-item list-group-item-action "
+                           target="_blank"
+                           rel="noreferrer"
+                        >
+                         2024
+                        </a>
                       </div>
                     </div>
                   </div> 
@@ -4129,6 +4183,37 @@ const Acordeon = () => {
                     </div>
                   </div>
                 </div>
+                <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingFourSix"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseFourSix"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseFourSix"
+                            >
+                               4.6 Información pública y/o relevante
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseFourSix"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFourSix"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <p>
+                                Transmetro No está obligado a rendir informes ante la Superintendencia Financiera ni la Superintendencia de Sociedades.
+                                </p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                 {/* 4.7 Informes de gestión, evaluación y auditoria */}
                 <div className="accordion-item">
                   <h2
@@ -5660,6 +5745,15 @@ const Acordeon = () => {
               5. Trámites
             </button>
           </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            className="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFive"
+          >
+            <div className="accordion-body">
+              <p>Transmetro, por su naturaleza no realiza Trámites.</p>
+            </div>
+          </div>
         </div>
         {/* 6. Participa */}
         <div className="accordion-item">
@@ -6039,7 +6133,7 @@ const Acordeon = () => {
                 aria-labelledby="panelsStayOpen-headingSixThree"
               >
                 <div className="accordion-body">
-                  <div className="list-group">
+                  {/* <div className="list-group">
                     <a
                       href="https://apiwebtm.com/uploads/Medicion_de_Satisfaccion_3056ae121c.rar"
                       className="list-group-item list-group-item-action "
@@ -6048,7 +6142,80 @@ const Acordeon = () => {
                     >
                       Medición de Satisfacción
                     </a>
-                  </div>
+                  </div> */}
+                  <li className="list-group-item list-group-item-action ">
+                              2022
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Medicion_de_satisfaccion_Graficos_Primer_trimestre_2022_97440b7c44.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Medición de satisfacción - Graficos Primer trimestre 2022
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Medicion_de_satisfaccion_Graficos_Segundo_trimestre_2022_fd5850aee1.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Medición de satisfacción - Gráficos Segundo trimestre 2022
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Medicion_de_satisfaccion_Graficos_tercer_trimestre_2022_0c82789201.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Medición de satisfacción - Gráficos tercer trimestre 2022
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Medicion_de_satisfaccion_Graficos_Cuarto_trimestre_2022_4d42e1fa1c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           Medición de satisfacción - Gráficos Cuarto trimestre 2022 
+                            </a>
+                            {' '}
+                           
+                           
+                          </div>
+                        </li>
+                        <li className="list-group-item list-group-item-action ">
+                              2023
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Medicion_de_satisfaccion_1era_2023_3a4b9f2eed.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           Medición de satisfacción - 1era  2023
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Medicion_de_satisfaccion_2do_2023_0c769da22e.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                          Medición de satisfacción - 2do 2023
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Medicion_de_satisfaccion_3era_2023_4d4f666011.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           Medición de satisfacción - 3era  2023
+                            </a>
+                          
+                            {' '}
+                           
+                           
+                          </div>
+                        </li>
                 </div>
               </div>
             </div>
