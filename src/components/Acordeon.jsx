@@ -1100,14 +1100,36 @@ const Acordeon = () => {
                                     </a>
                                   </div>
                                 </li>
-                                <a
+                                {/* <a
                                       href="https://apiwebtm.com/uploads/Resolucion_021_2024_Tarde_civica_2_y_9_de_febrero_e501906ccf.pdf"
                                       className="list-group-item list-group-item-action "
                                       target="_blank"
                                       rel="noreferrer"
                                     >
                                     2024
+                                    </a> */}
+                                     <li className="list-group-item list-group-item-action ">
+                                  2024
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Resolucion_021_2024_Tarde_civica_2_y_9_de_febrero_e501906ccf.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Resolución 021 2024 Tarde cívica 2 y 9 de febrero
                                     </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RESOLUCION_N_052_DE_2024_22995c7c6c.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Resolución N° 052 de 2024
+                                    </a>{' '}
+                                   
+                                  </div>
+                                </li>
                               </div>
                             </div>
                           </div>
