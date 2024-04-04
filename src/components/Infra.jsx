@@ -31,7 +31,7 @@ const Infra = () => {
                 <TabContent activeTab={activeTab}>
                   <TabPane tabId="1">
                     <br />
-                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cXmz-2S99X07oSGEdMj3ZP5E6D2c5yw&ehbc=2E312F" />
+                    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1Pw7-TTcqZ0G-bpEPpVQYxvMm-be5ISc&ehbc=2E312F" />
                   </TabPane>
 
                   <TabPane tabId="2">
