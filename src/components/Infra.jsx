@@ -31,12 +31,12 @@ const Infra = () => {
                 <TabContent activeTab={activeTab}>
                   <TabPane tabId="1">
                     <br />
-                    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1Pw7-TTcqZ0G-bpEPpVQYxvMm-be5ISc&ehbc=2E312F" />
+                    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1StjvhJclznzOuHK1xKuh-t4EWYMjOw8&ehbc=2E312F&noprof=1" />
                   </TabPane>
 
                   <TabPane tabId="2">
                     <br />
-                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1NB-58nOUp3atTHm_6PfEiK2Vz52LDi8&ll=10.989236452512538%2C-74.79015595575626&z=14" />
+                    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1dANo26U0nx_87GOERKPPhBUb5cE64Aw&ehbc=2E312F.989236452512538%2C-74.79015595575626&z=14" />
                   </TabPane>
                 </TabContent>
               </div>
