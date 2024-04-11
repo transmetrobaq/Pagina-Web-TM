@@ -96,6 +96,7 @@ const App = () => {
             />
             <Route exact path="/infantil" component={Infantil} />
             <Route exact path="/participa" component={Construccion} />
+            <Route exact path="/Participacion" component={Construccion} />
             <Route component={NotFound} />
           </Switch>
         </Layout>

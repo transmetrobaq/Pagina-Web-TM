@@ -450,6 +450,16 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link "
+                  href="/Participacion/#Construccion"
+                  tabIndex="-1"
+                  aria-disabled="true"
+                >
+                 Participación
+                </a>
+              </li>
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle "

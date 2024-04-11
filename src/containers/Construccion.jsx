@@ -11,7 +11,7 @@ const NotFound = () => {
           <div className="notfound-404">
             <h1 style={{ fontSize: '5vw' }}>Sitio en Construcción</h1>
           </div>
-          <h2>Linko sentimos, disculpe las molestias</h2>
+          <h2>Lo sentimos, disculpe las molestias</h2>
           <a href="/" className="home-btn">
             Inicio
           </a>

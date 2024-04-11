@@ -2906,6 +2906,14 @@ const Acordeon = () => {
                             >
                               Presupuesto
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Estados_Financieros_2023_2022_10efd08429.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Estados Financieros 2023-2022
+                            </a>
                             {/*    <a
                               href="https://apiwebtm.com/uploads/Estado_Financiero_2021_658497eaa2.7z"
                               className="list-group-item list-group-item-action "
@@ -6657,11 +6665,247 @@ const Acordeon = () => {
                 >
                   8.2 Certificado cumplimiento ITA 2023
                 </a>
+                <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingEighthree"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEighthree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEighthree"
+                          >
+                           8.3 Furag-meci
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEighthree"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEighthree"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_DE_CUMPLIMIENTO_DNDA_c7df5f3139.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Certificado de cumplimiento dnda
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_Diligenciamiento_FURAG_VIG_2022_JUN_26_2023_2_4c7308ac7c.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Certificado Diligenciamiento FURAG VIG 2022 (JUN 26 2023) 
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/certificado_furag_mipg_vig_2020_483cce16b2.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Certificado furag mipg vig 2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_Diligenciamiento_FURAG_VIG_2021_MARZ_2022_RDM_11_2861249524848059163_63ecac678e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CertificadoDiligenciamiento FURAG VIG. 2021(MARZ 2022) RDM11_2861249524848059163
+                              </a>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingEightFour"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEightFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEightFour"
+                          >
+                           8.4 Furag-mipg
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEightFour"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEightFour"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_de_Cumplimiento_FURAG_II_065c2bdcc4.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Certificado de Cumplimiento FURAG II
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_diligenciamiento_2020_7cdcba792d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               Certificado diligenciamiento 2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_Diligenciamiento_RDM_11_3429718201682133808_c4d8886805.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                CertificadoDiligenciamientoRDM11_3429718201682133808
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_Diligenciamiento_RDM_11_4865492343856390832_2a45e5ec76.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               CertificadoDiligenciamientoRDM11_4865492343856390832
+                              </a>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingEightFive"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEightFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEightFive"
+                          >
+                           8.5 Ita
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEightFive"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEightFive"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/ITA_2019_e9431d8e6b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                ITA 2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ITA_2020_d29fe87895.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               ITA 2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ITA_2022_b768af10cb.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                ITA 2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/ITA_2023_251a0d61fa.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              ITA 2023
+                              </a>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingEightFive"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEightySix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEightySix"
+                          >
+                           8.6 Software legal
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEightySix"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEightySix"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_CUMPLIMIENTO_DERECHOS_DE_AUTOR_VIG_2023_4d46b51834.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              Certificado cumplimiento derechos de autor vig 2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_DNDA_VIG_2021_7e4e7507f5.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               Certificado DNDA VIG 2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_DNDA_VIG_2022_2456de53b4.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               Certificado dnda vig 2022
+                              </a>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
               </div>
             </div>
           </div>
         </div>
-        {/* 9. Obligación de reportes */}
+
+
+ {/* 9. Obligación de reportes */}
+
         <div className="accordion-item">
           <h2 className="accordion-header" id="panelsStayOpen-headingNine">
             <button
@@ -6672,10 +6916,133 @@ const Acordeon = () => {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseNine"
             >
-              9. Obligación de reporte de información
+             9. Obligación de reporte de información
             </button>
           </h2>
+          <div
+            id="panelsStayOpen-collapseNine"
+            className="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingNine"
+          >
+            <div className="accordion-body">
+              <div className="list-group">
+               <li className="list-group-item list-group-item-action ">
+                                 2020
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CTA_CDB_201902_ae6ae401e4.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                     RAD. REND CTA. CDB 201902
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CTA_CGN_2019_8430c5ee70.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      RAD. REND CTA. CGN 2019
+                                    </a>{' '}
+                                   
+                                  </div>
+                                </li>
+                                
+                                     <li className="list-group-item list-group-item-action ">
+                                     2021
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CTA_CDB_2020_08205a77fd.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                    RAD. REND CTA CDB 2020
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CTA_CGN_2020_1875bb272c.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      RAD. REND CTA CGN 2020
+                                    </a>{' '}
+                                   
+                                  </div>
+                                </li>
+                                <li className="list-group-item list-group-item-action ">
+                                     2022
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CTA_CDB_2021_658fab8dc3.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                  RAD. REND CTA CDB 2021
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CTA_CGN_2021_f8b32fb951.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      RAD. REND CTA CGN 2021
+                                    </a>{' '}
+                                   
+                                  </div>
+                                </li>
+                                <li className="list-group-item list-group-item-action ">
+                                     2023
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CTA_CGN_2022_ebe2c1754a.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                  RAD REND CTA CGN 2022
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CTA_CDB_2022_cf978d170a.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      RAD. REND CTA CDB 2022
+                                    </a>{' '}
+                                   
+                                  </div>
+                                </li>
+                                <li className="list-group-item list-group-item-action ">
+                                     2024
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CUENTA_CDB_2023_6ea8596de5.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                  RAD. REND CUENTA CDB 2023
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RAD_REND_CUENTA_CGN_2023_b4075f9887.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      RAD. REND CUENTA CGN 2023
+                                    </a>{' '}
+                                   
+                                  </div>
+                                </li>
+
+              </div>
+            </div>
+          </div>
         </div>
+   
       </div>
     </div>
   );
