@@ -6898,6 +6898,144 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingEightSeven"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEightSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEightSeven"
+                          >
+                           8.7 RC contaduría general de la nación
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEightSeven"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEightSeven"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTADURIA_GENERAL_DE_LA_NACION_2019_f0030fc6bc.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                             RC CONTADURIA GENERAL DE LA NACION 2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTADURIA_GENERAL_DE_LA_NACION_2020_a2ad516af4.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               RC CONTADURIA GENERAL DE LA NACION 2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTADURIA_GENERAL_DE_LA_NACION_2021_f4f7aad0ae.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RC CONTADURIA GENERAL DE LA NACION 2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTADURIA_GENERAL_DE_LA_NACION_2022_5de841f11e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RC CONTADURIA GENERAL DE LA NACION 2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTADURIA_GENERAL_DE_LA_NACION_2023_7b2fd50488.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RC CONTADURIA GENERAL DE LA NACION 2023
+                              </a>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingEightEight"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEightEight"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEightEight"
+                          >
+                           8.8 RC CONTRALORIA DISTRITAL DE BARRANQUILLA
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEightEight"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEightEight"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTRALORIA_DISTRITAL_DE_BARRANQUILLA_2019_623d1e6b1d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                             RC CONTRALORIA DISTRITAL DE BARRANQUILLA 2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTRALORIA_DISTRITAL_DE_BARRANQUILLA_2020_61ee510849.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                            RC CONTRALORIA DISTRITAL DE BARRANQUILLA 2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTRALORIA_DISTRITAL_DE_BARRANQUILLA_2021_8c6f968ebe.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RC CONTRALORIA DISTRITAL DE BARRANQUILLA 2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTRALORIA_DISTRITAL_DE_BARRANQUILLA_2022_dbae379785.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RC CONTRALORIA DISTRITAL DE BARRANQUILLA 2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/RC_CONTRALORIA_DISTRITAL_DE_BARRANQUILLA_2023_9ced576de8.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              RC CONTRALORIA DISTRITAL DE BARRANQUILLA 2023
+                              </a>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
               </div>
             </div>
           </div>
