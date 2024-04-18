@@ -103,6 +103,145 @@ const Ciudadano = () => {
           <div className="row">
             <div className="col">
               <div className="preguntas-tm">
+
+              <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg16" />
+                  <label className="preguntas-label " htmlFor="preg16">
+                  ¿Debo comprar una tarjeta nueva?
+                  </label>
+                  <div className="respuestas-content">
+                  No es necesario. La actualización de la información se realiza con la
+                  tarjeta que el  usuario esté utilizando.
+                  </div>
+                </div>
+
+                
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg17" />
+                  <label className="preguntas-label " htmlFor="preg17">
+                  ¿Todas las tarjetas de Transmetro funcionarán con la actualización?
+                  </label>
+                  <div className="respuestas-content">
+                  Sí, todas las Tarjetas Transmetro se podrán seguir usando de manera habitual, siempre y cuando
+                   estén activas y se haga el proceso de actualización de 
+                  información en los nuevos validadores. No importa el diseño ni el tiempo que tenga la tarjeta.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg17" />
+                  <label className="preguntas-label " htmlFor="preg17">
+                  ¿Todas las tarjetas de Transmetro funcionarán con la actualización?
+                  </label>
+                  <div className="respuestas-content">
+                  Sí, todas las Tarjetas Transmetro se podrán seguir usando de manera habitual, siempre y cuando
+                   estén activas y se haga el proceso de actualización de 
+                  información en los nuevos validadores. No importa el diseño ni el tiempo que tenga la tarjeta.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg18" />
+                  <label className="preguntas-label " htmlFor="preg18">
+                  ¿Se pierde el saldo a hacer el proceso de migración?
+                  </label>
+                  <div className="respuestas-content">
+                  El saldo no se pierde. Si hay algún inconveniente,
+                   el usuario puede interponer una PQR por los canales dispuestos por Transmetro.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg19" />
+                  <label className="preguntas-label " htmlFor="preg19">
+                  ¿Si tengo saldo en la tarjeta, debo acercarme a la taquilla para hacer la actualización?
+                  </label>
+                  <div className="respuestas-content">
+                  No, la actualización se realiza en los validadores nuevos, ubicados en las barreras de acceso de las estaciones.
+                  ¡Importante!: Si tiene saldo, al hacer la actualización se le dará acceso al Sistema enseguida
+                   y por lo tanto se le descontará el respectivo pasaje. Por lo anterior, si el usuario no va a
+                    usar el servicio, no debe migrar la información.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg20" />
+                  <label className="preguntas-label " htmlFor="preg20">
+                  ¿Cada vez que vaya a recargar debo acercarme al validador para migrar la información
+                  </label>
+                  <div className="respuestas-content">
+                  No. La migración se hace una única vez. 
+                  Es decir, solo la primera vez que el usuario acerque la Tarjeta Transmetro al nuevo validador.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg21" />
+                  <label className="preguntas-label " htmlFor="preg21">
+                  ¿Se está cambiando la Tarjeta Transmetro por tarjeta del SIBUS?
+                  </label>
+                  <div className="respuestas-content">
+                  No, la actualización no está relacionada con el sistema de SIBUS.
+                   La Tarjeta Transmetro sigue siendo el medio de pago oficial del Sistema.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg22" />
+                  <label className="preguntas-label " htmlFor="preg22">
+                  ¿Debo hacer el mismo proceso para la tarjeta de Bancolombia, Banco de Bogotá o Banco AV Villas?
+                  </label>
+                  <div className="respuestas-content">
+                  Sí, las tarjetas de los bancos aliados también deben hacer el proceso de actualización de datos en 
+                  los nuevos validadores.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg23" />
+                  <label className="preguntas-label " htmlFor="preg23">
+                  ¿En las rutas alimentadoras, el proceso es el mismo que en las estaciones?
+                  </label>
+                  <div className="respuestas-content">
+                  El proceso de actualización de información es igual que en las estaciones. 
+                  Se realiza al validar el pasaje cuando hay saldo.
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg24" />
+                  <label className="preguntas-label " htmlFor="preg24">
+                  ¿Si no tengo saldo, puedo hacer uso del viaje a crédito en los servicios alimentadores?
+                  </label>
+                  <div className="respuestas-content">
+                  Sí, al acercar la tarjeta al nuevo validador se aplica el crédito y se hace la actualización simultáneamente.
+                   Cuando el usuario llegue a la estación debe hacer su recarga normal para seguir el viaje
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg25" />
+                  <label className="preguntas-label " htmlFor="preg25">
+                  ¿Se está cambiando la Tarjeta Transmetro por la tarjeta del SIBUS
+                  </label>
+                  <div className="respuestas-content">
+                  No, no hay tal cambio. La Tarjeta Transmetro sigue siendo el medio de pago oficial del Sistema
+                  </div>
+                </div>
+
+                <div className="preguntas-grupo">
+                  <input type="checkbox" id="preg26" />
+                  <label className="preguntas-label " htmlFor="preg26">
+                  ¿Con la tarjeta del SIBUS puedo ingresar al sistema?
+                  </label>
+                  <div className="respuestas-content">
+                  No por ahora. Solo se puede acceder a las estaciones y buses con la 
+                  Tarjeta Transmetro y la de los bancos aliados (Bancolombia, Banco de Bogotá y Banco AV Villas).
+                  </div>
+                </div>
+
+
+                
                 <div className="preguntas-grupo">
                   <input type="checkbox" id="preg1" />
                   <label className="preguntas-label" htmlFor="preg1">
@@ -124,7 +263,7 @@ const Ciudadano = () => {
                             <i className="fas fa-check-square" />
                           </span>
                           <span>Línea de atención</span>{' '}
-                          <span style={{ color: '#e30613' }}>6053712222:</span>{' '}
+                          <span style={{ color: '#e30613' }}>3206359257:</span>{' '}
                           En la línea de atención al cliente se puede interponer
                           PQRSDF de manera sencilla. Aquí también se puede
                           indagar sobre el estado de la operación y reportar

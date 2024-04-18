@@ -47,7 +47,25 @@ const Header = () => {
               alt="..."
             />
           </div> */}
-          <div className="carousel-item active" data-bs-interval="10000">
+
+          <div className="carousel-item active" data-bs-interval="2000">
+            <img
+              src="https://apiwebtm.com/uploads/IMG_9512_76b844202b.JPG"
+              className="w-100 img-fluid"
+              alt="..."
+            />
+            <div className="carousel-caption  d-block">
+               <a
+                    href="ciudadano/#preguntas-frecuentes">
+                <h2 className="mb-3">Lo que debes saber sobre la migración de información para ingresar al Sistema.
+                </h2>
+                </a>
+              <div className="linea-coloresHeader" />
+            </div>
+          </div>
+{/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abajo */}
+
+          <div className="carousel-item" data-bs-interval="10000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
