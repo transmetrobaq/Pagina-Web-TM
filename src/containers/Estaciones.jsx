@@ -213,16 +213,6 @@ function Estaciones() {
                         </li>
                         <li>
                           <a
-                            href="/sistema/estaciones/estacion-pedro-ramaya/#estacion"
-                            role="button"
-                            alt="estacion pedro ramaya"
-                          >
-                            Estación <span>Pedro Ramayá Beltrán</span> - entre
-                            carreras 23 y Av. Circunvalar (Soledad, Atl.).
-                          </a>
-                        </li>
-                        <li>
-                          <a
                             href="/sistema/estaciones/estacion-pacho-galan/#estacion"
                             role="button"
                             alt="estacion pacho galan"
@@ -231,6 +221,17 @@ function Estaciones() {
                             16 y 17 (Soledad, Atl.).
                           </a>
                         </li>
+                        <li>
+                          <a
+                            href="/sistema/estaciones/estacion-pedro-ramaya/#estacion"
+                            role="button"
+                            alt="estacion pedro ramaya"
+                          >
+                            Estación <span>Pedro Ramayá Beltrán</span> - entre
+                            carreras 23 y Av. Circunvalar (Soledad, Atl.).
+                          </a>
+                        </li>
+                       
                         <li>
                           <a
                             href="/sistema/estaciones/estacion-joaquin-barrios-polo/#estacion"

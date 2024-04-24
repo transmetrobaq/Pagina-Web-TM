@@ -66,7 +66,7 @@ const Navinfe = () => {
                   </a>
                 </div>
 
-                <div className="card wave__card">
+                {/* <div className="card wave__card">
                   <a
                     href="https://apiwebtm.com/uploads/PVE_20230719_dc346d7f43.pdf"
                     role="button"
@@ -83,7 +83,7 @@ const Navinfe = () => {
                     </picture>
                     <p className="card-title"> Puntos de Venta y Recarga</p>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

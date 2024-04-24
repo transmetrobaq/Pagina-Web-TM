@@ -3402,15 +3402,23 @@ const Acordeon = () => {
                             >
                             Mapa de riesgos 
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Seguimiento_al_Plan_Anticorrupcion_2020_1_ca1c8a21ff.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Seguimiento al Plan Anticorrupción 2020
+                            </a>
                             
-                             <a
+                             {/* <a
                               href="https://apiwebtm.com/uploads/Seguimiento_al_Plan_Anticorrupcion_2020_c90d74c627.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
                             >
                             Seguimiento al plan anticorrupción
-                            </a>
+                            </a> */}
 
                           </div>
                         </li>

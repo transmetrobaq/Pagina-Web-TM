@@ -293,16 +293,6 @@ const Infra = () => {
                         </li>
                         <li>
                           <a
-                            href="/sistema/estaciones/estacion-pedro-ramaya/#estacion"
-                            role="button"
-                            alt="estacion pedro ramaya"
-                          >
-                            Estación <span>Pedro Ramayá Beltrán</span> - entre
-                            carreras 23 y Av. Circunvalar (Soledad, Atl.).
-                          </a>
-                        </li>
-                        <li>
-                          <a
                             href="/sistema/estaciones/estacion-pacho-galan/#estacion"
                             role="button"
                             alt="estacion pacho galan"
@@ -311,6 +301,17 @@ const Infra = () => {
                             16 y 17 (Soledad, Atl.).
                           </a>
                         </li>
+                        <li>
+                          <a
+                            href="/sistema/estaciones/estacion-pedro-ramaya/#estacion"
+                            role="button"
+                            alt="estacion pedro ramaya"
+                          >
+                            Estación <span>Pedro Ramayá Beltrán</span> - entre
+                            carreras 23 y Av. Circunvalar (Soledad, Atl.).
+                          </a>
+                        </li>
+                        
                         <li>
                           <a
                             href="/sistema/estaciones/estacion-joaquin-barrios-polo/#estacion"
@@ -667,7 +668,7 @@ const Infra = () => {
                         role="button"
                         alt="estacion portal de soledad"
                       >
-                        A3-40 <span>Villa Sol</span>
+                        A3-4 <span>Villa Sol</span>
                       </a>
                     </li>
                     <li>
@@ -689,7 +690,7 @@ const Infra = () => {
                       </a>
                       A3-4 <span>Villa Sol </span>
                     </li> */}
-                    <li>
+                    {/* <li>
                       <a
                         href="/sistema/rutas_alimentadoras/a3-5-ciudadela-metropolitana-suspendida/#rutas"
                         role="button"
@@ -697,7 +698,7 @@ const Infra = () => {
                       >
                         A3-5 <span>Ciudadela Metropolitana (SUSPENDIDA)</span>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="/sistema/rutas_alimentadoras/a5-1-los-robles/#rutas"
@@ -864,7 +865,7 @@ const Infra = () => {
                         <span>Gran Malecón</span>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="/sistema/rutas_alimentadoras/ruta-mallorquin/#rutas"
                         role="button"
@@ -872,7 +873,7 @@ const Infra = () => {
                       >
                         <span> Ruta Mallorquín</span>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
