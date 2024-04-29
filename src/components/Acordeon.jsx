@@ -3495,7 +3495,7 @@ const Acordeon = () => {
                               target="_blank"
                               rel="noreferrer"
                             >
-                            Seguimiento dic 31 plan anticorrupción 2023 
+                            Seguimiento Plan Anticorrupción 2023
 
                             </a>
                            </div>
