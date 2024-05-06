@@ -396,7 +396,7 @@ const Infra = () => {
                     </div>
                   </div>
                   {/* Card Personaliza */}
-                  <div className="col-md-4">
+                  {/* <div className="col-md-4">
                     <div
                       className="card card_personalizacion"
                       style={{ width: '19rem' }}
@@ -426,7 +426,7 @@ const Infra = () => {
                         </a>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* ------------- */}
                 </div>
               </div>

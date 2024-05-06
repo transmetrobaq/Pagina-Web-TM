@@ -200,7 +200,7 @@ const Transmetro = () => {
                       reducida puedan acceder al servicio. Tiene 75 buses con
                       ascensor; tarjetas inteligentes y accesos especiales y
                       ofrece la posibilidad de programar los viajes llamando a
-                      la línea de atención al cliente (605-3712222).{' '}
+                      la línea de atención al cliente.{' '}
                     </p>
                     <p>
                       Además, cuenta con 88,24 km de espacio peatonal y 242,340
@@ -613,17 +613,13 @@ const Transmetro = () => {
                             marginLeft: '20px',
                           }}
                         >
-                          El Sistema emplea un método de recaudo único a cargo
-                          de la empresa <span>Recaudos SIT Barranquilla</span>,
-                          concesionario encargado de proveer y distribuir las
-                          tarjetas inteligentes y suministro de la comunicación
-                          y tecnología que permite la utilización de validadores
-                          y barreras de acceso electrónicos. Asimismo, es la
-                          empresa encargada de proveer al personal idóneo para
-                          taquillas y mantenimiento de los equipos
-                          correspondientes al recaudo del Sistema, que incluye
-                          la alianza con otras organizaciones para ubicar una
-                          red de recarga en Barranquilla y Soledad.
+                         Hasta abril de 2024 la empresa <span>Recaudos SIT Barranquilla</span>,
+                         fue la encargada del recaudo del Sistema. Tras su liquidación, Transmetro asumió la 
+                         operación de recaudo del Sistema de Transporte Masivo: proveer y distribuir las
+                         tarjetas inteligentes, suministro de la comunicación y tecnología que permite
+                          la utilización de validadores y barreras de acceso electrónicos. Así 
+                         como la disposición del recurso humano necesario para llevar a cabo las 
+                         actividades diarias de la gestión de recaudo.
                         </p>
                       </div>
                     </div>

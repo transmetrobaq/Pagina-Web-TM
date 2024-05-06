@@ -185,7 +185,7 @@ const Navbar = () => {
                       Horario
                     </a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       href="http://www.sitbarranquilla.com/index.php/personaliza-tu-tarjeta"
                       className="dropdown-item"
@@ -195,7 +195,7 @@ const Navbar = () => {
                     >
                       Personalización
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="/sistema/#estaciones"

@@ -54,7 +54,7 @@ const Footer = () => {
                   <ul>
                     <li>atencionalcliente@transmetro.gov.co</li>
                     <li>
-                      <span>605 3712222</span> Línea de atención
+                      <span>3206359257</span> Línea de atención
                     </li>
                   </ul>
                   <ul>
