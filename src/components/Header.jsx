@@ -63,7 +63,7 @@ const Header = () => {
               <div className="linea-coloresHeader" />
             </div>
           </div>
-{/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abajo */}
+{/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abaj */}
 
           <div className="carousel-item active" data-bs-interval="10000">
             <img
