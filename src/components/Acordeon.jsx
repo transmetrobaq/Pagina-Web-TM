@@ -7147,6 +7147,14 @@ const Acordeon = () => {
                               >
                                CertificadoDiligenciamientoRDM11_4865492343856390832
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_Diligenciamiento_FURAG_2023_9618973077.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              Certificado Diligenciamiento FURAG 2023
+                              </a>
 
                             </div>
                           </div>
