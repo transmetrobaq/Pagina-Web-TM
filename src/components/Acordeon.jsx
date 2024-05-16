@@ -299,6 +299,15 @@ const Acordeon = () => {
                       >
                       Directorio Contratistas - Transmetro 2024
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2024_dade60d07c.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                     Escala salarial - Transmetro 2024
+                      </a>
                     </div>
                   </div>
                 </div>
