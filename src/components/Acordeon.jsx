@@ -1591,6 +1591,14 @@ const Acordeon = () => {
                             >
                             Modificación 1 PAA
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/PAA_17052024_pdf_e1642836cd.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Modificación 2 PAA
+                            </a>
                            
                            
                           </div>
