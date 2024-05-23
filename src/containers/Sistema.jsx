@@ -142,23 +142,8 @@ const Sistema = () => (
                         de Transmetro en el punto 2.3 Término de Vigencia del
                         Saldo.
                       </p>
-                      <p className="card-text  text">
-                        <span className="fw-bold">
-                          Terminal de Consulta de Saldo :{' '}
-                        </span>{' '}
-                        El usuario del SITM consulta su saldo en el, este
-                        dispositivo se encuentra a un costado de la taquilla en
-                        las estaciones y portales. Cuando el usuario paga su
-                        pasaje al pasar la tarjeta por el tablero en buses y
-                        estaciones, la lectora le muestra el saldo.
-                      </p>
-                      <p className="card-text  text">
-                        <span className="fw-bold">CATI: </span> Es el Cargador
-                        Automático de Tarjetas Inteligentes sin asistencia de
-                        personal que se encuentra a disposición de los usuarios
-                        del Sistema en la entrada de las estaciones, anterior a
-                        las barreras de acceso.
-                      </p>
+                     
+                     
                       <p className="card-text  text">
                         <i className="fa-solid fa-link" />
                         <span className="fw-bold">
@@ -265,12 +250,7 @@ const Sistema = () => (
                     </span>
                     Línea de atención al cliente 320 635 9257
                   </li>
-                  <li>
-                    <span className="fa-li">
-                      <i className="fa-solid fa-circle" />
-                    </span>
-                    En www.transmetro.gov.co.
-                  </li>
+                  
                   <li>
                     <span className="fa-li">
                       <i className="fa-solid fa-circle" />
