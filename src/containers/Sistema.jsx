@@ -42,21 +42,16 @@ const Sistema = () => (
           <div className="col-md-5 align-self-center">
             <div className="card-body">
               <p className="card-text">
-              El servicio tiene un costo de 
-              <span> $3.100 en días hábiles (lunes a sábado) 
-              y $3.200 para los días domingos y festivos (vigente desde 15 de febrero de 2024)</span>
-              
-              .El mismo es descontado de la tarjeta inteligente al pasar por los validadores en los portales, 
-               estaciones o servicios alimentadores. El costo de la 
-               <span> Tarjeta Inteligente Sin Contacto es de $4.000</span>, 
-               se puede adquirir en las 
-               <span> taquillas de las estaciones del Sistema
-               </span> y en los puntos autorizados de
-                venta <span>Olímpica, Súper Efectivo y E. Jiménez</span>. Además, se puede personalizar a través del sitio web
-                 y en el Punto de Atención al Cliente de la estación Joe Arroyo. 
-                 <span> Con el valor de un pasaje
-                  se puede utilizar el servicio cuantas veces se requiera siempre y cuando el usuario permanezca 
-                  en las estaciones.
+             
+
+              El servicio tiene un costo de <span> $3.100 en días hábiles (lunes a sábado) 
+              y $3.200 para los días domingos y festivos (vigente desde 15 de febrero de 2024). </span>
+               El mismo es descontado de la tarjeta inteligente al pasar por los validadores en 
+               los portales, estaciones o servicios alimentadores. <span> El costo de la Tarjeta Inteligente 
+               Sin Contacto es de $4.000 </span>, se puede adquirir en las taquillas de las estaciones del Sistema.
+                Además, <span> se puede personalizar en el Punto de Atención al Cliente de la estación Joe Arroyo. </span> 
+                Con el valor de un pasaje se puede utilizar el servicio cuantas veces se requiera siempre y
+                 cuando el usuario permanezca en las estaciones. <span>
                   <a
                     className="fw-bold text-decoration-none"
                     style={{ color: '#e30613' }}
@@ -69,7 +64,7 @@ const Sistema = () => (
                     leer mas..
                   </a>
                 </span>
-                <div className="card-body  Btn-Precarga " style={{ backgroundColor : '#ffffff' }}>
+                {/* <div className="card-body  Btn-Precarga " style={{ backgroundColor : '#ffffff' }}>
                   <a
                     href="https://apiwebtm.com/uploads/PVE_20230719_dc346d7f43.pdf"
                     className="btn btn-primary"
@@ -79,7 +74,7 @@ const Sistema = () => (
                      Puntos de Venta y Recarga (venta en Olímpica, Súper Efectivo y E. Jiménez)
                   </a>
                   
-                 </div>
+                 </div> */}
               </p>
             </div>
           </div>
@@ -133,14 +128,11 @@ const Sistema = () => (
                         </ul>
                       </p>
                       <p className="card-text  text">
-                        <span className="fw-bold">Compra y recarga: </span> El
-                        usuario puede comprar la tarjeta en las estaciones del
-                        Sistema y en puntos de venta externos: Olímpicas,
-                        Almacenes de Compra y Venta Súperfectivo, Megamás,
-                        Brasilia y E. Jiménez y Asociados. Las tarjetas en
-                        convenio con entidades bancarias las entregan, previa
-                        solicitud del cliente, en la sucursal donde tenga la
-                        cuenta.
+                        <span className="fw-bold">Compra y recarga: </span> 
+                        El usuario puede comprar y recargar la tarjeta de acceso en las taquillas
+                         de las estaciones del Sistema. Las tarjetas en convenio con entidades
+                          bancarias las entregan, previa solicitud del cliente, en la sucursal 
+                          donde tenga la cuenta.
                       </p>
                       <p className="card-text  text">
                         <span className="fw-bold">Recarga de saldo: </span> Se
@@ -258,14 +250,12 @@ const Sistema = () => (
                 <h2>Personalización</h2>
                 <div className="linea-colores-cred" />
                 <p>
-                  Personalizar es vincular los datos personales del usuario con
-                  el número de la Tarjeta Transmetro. El Sistema recomienda
-                  personalizar la tarjeta para asegurar el saldo; en caso de
-                  pérdida o robo se pueda bloquear su uso y posteriormente
-                  recobrar el saldo y recargarla en una nueva tarjeta que deberá
-                  adquirir el usuario. En caso de no personalizar la tarjeta,
-                  este proceso no se podrá realizar porque no se pueden
-                  verificar los datos de su propietario.
+                Personalizar es vincular los datos personales del usuario con el número de la Tarjeta Transmetro. 
+                El Sistema recomienda personalizar la tarjeta para asegurar el saldo; en caso de pérdida o
+                 robo se pueda bloquear su uso y posteriormente recobrar el saldo y recargarla en una nueva 
+                 tarjeta que deberá adquirir el usuario. En caso de no personalizar la tarjeta, este proceso no 
+                 se podrá realizar porque no se pueden verificar los datos de su propietario.
+                 ¿Cómo personalizas?
                 </p>
                 <p className="fw-bold">¿Cómo personalizas?</p>
                 <ul className="card-text fa-ul">
@@ -273,7 +263,7 @@ const Sistema = () => (
                     <span className="fa-li">
                       <i className="fa-solid fa-circle" />
                     </span>
-                    Línea de atención al cliente 605 3712222.
+                    Línea de atención al cliente 320 635 9257
                   </li>
                   <li>
                     <span className="fa-li">
@@ -285,11 +275,11 @@ const Sistema = () => (
                     <span className="fa-li">
                       <i className="fa-solid fa-circle" />
                     </span>
-                    Punto de Atención al Cliente / Estación Joe Arroyo.
+                    Punto de Atención al Cliente / Estación Joe Arroyo
                   </li>
                 </ul>
                 <p>*A través de estos medios también se puede bloquear.</p>
-                <div className="card-body">
+                {/* <div className="card-body">
                   <a
                     href="http://www.sitbarranquilla.com/index.php/personaliza-tu-tarjeta"
                     className="btn btn-primary"
@@ -298,7 +288,7 @@ const Sistema = () => (
                   >
                     Ir a personalización
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-md-5" id="personalizacion_img">
@@ -625,7 +615,7 @@ const Sistema = () => (
             </div>
           </div>
         </div>
-        <div className="col">
+        {/* <div className="col">
           <div className="card h-100 car__info">
             <img
               src="https://apiwebtm.com/uploads/icosn_31_5f13bb7208.png"
@@ -637,7 +627,7 @@ const Sistema = () => (
               <p>Contamos con 118 puntos de recarga disponibles</p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col">
           <div className="card h-100 car__info">
             <img
@@ -664,7 +654,7 @@ const Sistema = () => (
             </div>
           </div>
         </div>
-        <div className="col">
+        {/* <div className="col">
           <div className="card h-100 car__info">
             <img
               src="https://apiwebtm.com/uploads/icosn_32_e85865ae5d.png"
@@ -676,7 +666,7 @@ const Sistema = () => (
               <p>Contamos con 33 CATIS</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </center>
     </div>
 
@@ -995,10 +985,9 @@ const Sistema = () => (
               />
               <div className="card-body">
                 <p className="card-text text-center">
-                  Los usuarios con movilidad reducida pueden informarse sobre
-                  los vehículos que tienen ascensor para programar sus
-                  desplazamientos. Se puede coordinar el servicio en la línea de
-                  atención al cliente: 605-3712222.
+                Los usuarios con movilidad reducida pueden informarse sobre los vehículos
+                 que tienen ascensor para programar sus desplazamientos. Se puede coordinar 
+                 el servicio en la línea de atención al cliente: 3206359257
                 </p>
               </div>
               <div
