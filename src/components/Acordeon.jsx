@@ -7572,7 +7572,6 @@ const Acordeon = () => {
                                     >
                                     ADMISIÓN DE ACCIÓN POPULAR - TRANSMETRO
                                     </a>
-                                   
                                   </div>
                                 </li>
 
