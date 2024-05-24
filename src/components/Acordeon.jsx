@@ -7564,6 +7564,14 @@ const Acordeon = () => {
                                     >
                                       RAD. REND CUENTA CGN 2023
                                     </a>{' '}
+                                    <a
+                                      href="https://apiwebtm.com/uploads/ADMISION_DE_ACCION_POPULAR_TRANSMETRO_51d1d1356c.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                    ADMISIÓN DE ACCIÓN POPULAR - TRANSMETRO
+                                    </a>
                                    
                                   </div>
                                 </li>
