@@ -48,7 +48,7 @@ const Header = () => {
             />
           </div> */}
 
-          <div className="carousel-item " data-bs-interval="2000">
+          {/* <div className="carousel-item " data-bs-interval="2000">
             <img
               src="https://apiwebtm.com/uploads/IMG_9512_76b844202b.JPG"
               className="w-100 img-fluid"
@@ -62,7 +62,7 @@ const Header = () => {
                 </a>
               <div className="linea-coloresHeader" />
             </div>
-          </div>
+          </div> */}
 {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abaj */}
 
           <div className="carousel-item active" data-bs-interval="10000">
