@@ -406,7 +406,7 @@ const Navbar = () => {
                       Respuestas a peticiones anónimas
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="http://www.sitbarranquilla.com/index.php/personaliza-tu-tarjeta"
                       className="dropdown-item"
@@ -416,7 +416,7 @@ const Navbar = () => {
                     >
                       Personaliza tu tarjeta
                     </a>
-                  </li>
+                  </li> */}
 
                   <li>
                     <a
