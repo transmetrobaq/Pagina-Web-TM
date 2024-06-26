@@ -483,7 +483,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
-                      href="/noticias/#informativos"
+                      href="/noticias/#Videos"
                       className="dropdown-item"
                       aria-current="page"
                     >

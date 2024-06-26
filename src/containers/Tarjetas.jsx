@@ -37,10 +37,10 @@ const Tarjetas = () => {
             <div className="col-md-4">
             <img
                 
-                src="https://apiwebtm.com/uploads/BAQANA_copia_1_144e8aec3b.png"
+                src="https://apiwebtm.com/uploads/TARJETA_TRANSMETRO_7eb64b10a3.png"
                 className="card-img-top img-fluid"
                 alt="Tarjeta Transmetro"
-                style={{ width: '278px', height: '400px' }}   //  quitar estilo cuando sea horoznatal  
+                // style={{ width: '278px', height: '400px' }}   //  quitar estilo cuando sea horoznatal  
               
               />
             </div>
@@ -50,7 +50,7 @@ const Tarjetas = () => {
                   className="card-text fs-5 fw-semibold"
                   style={{ marginTop: '-20px' }}
                 >
-                   Tarjeta conmemorativa a los 210 años de " Barranquilla, Ciudad Baqana " 
+                  'Barranquilla es Chévere', tarjeta que resalta a la mujer barranquillera y al río Magdalena
                 </p>
               </div>
             </div>

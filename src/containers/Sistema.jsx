@@ -235,12 +235,10 @@ const Sistema = () => (
                 <h2>Personalización</h2>
                 <div className="linea-colores-cred" />
                 <p>
-                Personalizar es vincular los datos personales del usuario con el número de la Tarjeta Transmetro. 
-                El Sistema recomienda personalizar la tarjeta para asegurar el saldo; en caso de pérdida o
-                 robo se pueda bloquear su uso y posteriormente recobrar el saldo y recargarla en una nueva 
-                 tarjeta que deberá adquirir el usuario. En caso de no personalizar la tarjeta, este proceso no 
-                 se podrá realizar porque no se pueden verificar los datos de su propietario.
-                 ¿Cómo personalizas?
+                Personalizar la Tarjeta Transmetro es vincular los datos personales del usuario con el número del plástico inteligente. 
+                El Sistema recomienda personalizar la tarjeta para que en caso de daño, pérdida o hurto se pueda bloquear su uso y posteriormente
+                 recobrar el saldo trasladándolo a una nueva tarjeta que deberá adquirir el usuario. Si la tarjeta no se encuentra personalizada, 
+                 este proceso no se podrá realizar ya que no se pueden verificar los datos de su propietario. 
                 </p>
                 <p className="fw-bold">¿Cómo personalizas?</p>
                 <ul className="card-text fa-ul">
