@@ -233,9 +233,9 @@ const Navbar = () => {
                       Tarjeta Transmetro/Personalización
                     </a>
                   </li>
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <a
-                      href="https://apiwebtm.com/uploads/PVE_20230719_dc346d7f43.pdf"
+                      href="https://apiwebtm.com/uploads/Puntos_de_recarga_Tarjeta_Transmetro_65b577c9b2.pdf"
                       className="dropdown-item"
                       aria-current="page"
                       target="_blank"
@@ -243,7 +243,7 @@ const Navbar = () => {
                     >
                       Puntos de Venta y Recarga
                     </a>
-                  </li> */}
+                  </li>
 
                   <li className="nav-item">
                     <a
