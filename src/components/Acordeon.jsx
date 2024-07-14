@@ -1136,7 +1136,14 @@ const Acordeon = () => {
                                     >
                                       Resolución N° 052 de 2024
                                     </a>{' '}
-                                   
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RESOLUCION_DIA_CIVICO_15_DE_JULIO_DE_2024_b1faf3ad68.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                     Resolución para el Día Cívico del 15 de Julio de 2024
+                                    </a>
                                   </div>
                                 </li>
                               </div>
