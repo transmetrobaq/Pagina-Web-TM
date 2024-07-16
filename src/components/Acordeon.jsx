@@ -1142,7 +1142,7 @@ const Acordeon = () => {
                                       target="_blank"
                                       rel="noreferrer"
                                     >
-                                     Resolución para el Día Cívico del 15 de Julio de 2024
+                                     Resolución para el Día Cívico del 15 de Julio de 2024 
                                     </a>
                                   </div>
                                 </li>
