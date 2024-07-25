@@ -593,7 +593,7 @@ const Transmetro = () => {
                     </div>
                   </div>
                 </div>
-                <div className="card mb-3">
+                {/* <div className="card mb-3">
                   <div className="row g-0 cardbox">
                     <div className="col-md-2">
                       <img
@@ -624,7 +624,7 @@ const Transmetro = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="card mb-3">
                   <div className="row g-0 cardbox">

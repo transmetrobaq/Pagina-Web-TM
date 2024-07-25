@@ -748,7 +748,7 @@ const Infra = () => {
                         A5-5 <span>Manantial</span>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="/sistema/rutas_alimentadoras/a5-6-desde-granabastos/#rutas"
                         role="button"
@@ -756,7 +756,7 @@ const Infra = () => {
                       >
                         A5-6 <span>Granabastos</span>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="/sistema/rutas_alimentadoras/a6-5-carrizal/#rutas"
@@ -840,12 +840,21 @@ const Infra = () => {
                     </li>
                     <li>
                       <a
+                        href="sistema/rutas_alimentadoras/u30-universidades-fines-de-semana/#rutas"
+                        role="button"
+                        alt="estacion portal de soledad"
+                      >
+                        A9-4<span> Carrera 46 / fines de semana</span>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a
                         href="/sistema/rutas_alimentadoras/a9-4-carrera-46/#rutas"
                         role="button"
                         alt="estacion portal de soledad"
                       >
                         A9-4 <span>Carrera 46</span>
-                      </a>
+                      </a> */}
                     </li>
                     <li>
                       <a
