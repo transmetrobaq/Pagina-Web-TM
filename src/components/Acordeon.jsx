@@ -1581,7 +1581,7 @@ const Acordeon = () => {
                                 2024
                           <div className="list-group">
                           <a
-                          href="https://apiwebtm.com/uploads/PAA_AACTUALIZADO_31_ENERO_2024_7cf360bd51.xlsx"
+                          href="https://apiwebtm.com/uploads/PAA_2024_9de66f6bbc.pdf"
                           className="list-group-item list-group-item-action"
                           target="_blank"
                           rel="noreferrer"
@@ -1701,7 +1701,7 @@ const Acordeon = () => {
                                 </a>
 
                                 <a
-                                  href="https://apiwebtm.com/uploads/BIENES_Y_VALORES_TRANSMETRO_2023_09701de0fb.xls"
+                                  href="https://apiwebtm.com/uploads/BIENES_Y_VALORES_TRANSMETRO_2023_788c4cf885.pdf"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
@@ -1768,7 +1768,7 @@ const Acordeon = () => {
                                   CERTIFICADO SINIESTRALIDAD CHUBB
                                 </a>
                                 <a
-                                  href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_62922a12cd.xlsx"
+                                  href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_3d84eae8a7.pdf"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
@@ -1776,7 +1776,7 @@ const Acordeon = () => {
                                   CONDICIONES BASICAS OBLIGATORIAS 2023
                                 </a>
                                 <a
-                                  href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_2023_e18e4afa7e.xlsx"
+                                  href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_2023_9caf8e4769.pdf"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
@@ -1893,7 +1893,7 @@ const Acordeon = () => {
                                   CONVOCATOIRIA EDITABLE
                                 </a>
                                 <a
-                                  href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_VF_2023_1_26a3ed40c4.xlsx"
+                                  href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_VF_2023_1_75df6f77ca.pdf"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
@@ -2310,7 +2310,7 @@ const Acordeon = () => {
                              ANEXO CARTA DE PRESENTACIÓN DE LA OFERTA
                               </a>
                               <a
-                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_2024_RCSP_Y_IRF_450f1c5265.xlsx"
+                                href="https://apiwebtm.com/uploads/CONDICIONES_BASICAS_OBLIGATORIAS_2023_2024_RCSP_Y_IRF_5aac68b852.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -2319,7 +2319,7 @@ const Acordeon = () => {
                               </a>
 
                               <a
-                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_RCSP_Y_IRF_2023_2024_e4a9f1adc6.xlsx"
+                                href="https://apiwebtm.com/uploads/CONDICIONES_COMPLEMENTARIAS_RCSP_Y_IRF_2023_2024_99d14babc7.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -2577,14 +2577,28 @@ const Acordeon = () => {
                         >
                          2023
                         </a>
-                        <a
-                          href="https://apiwebtm.com/uploads/RELACION_DE_CONTRATOS_2024_1_2c1f7d96fa.xlsx"
-                          className="list-group-item list-group-item-action "
-                           target="_blank"
-                           rel="noreferrer"
-                        >
-                         2024
-                        </a>
+                     
+                        <li className="list-group-item list-group-item-action ">
+                          2024
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/RELACION_DE_CONTRATOS_2024_1_10be7ca86c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Relacion de contratos 2024 1
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/RELACION_DE_CONTRATOS_2024_1496944e10.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Relacion de contratos 2024
+                            </a>{' '}
+                          </div>
+                        </li>
                       </div>
                     </div>
                   </div> 
