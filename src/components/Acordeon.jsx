@@ -1144,6 +1144,14 @@ const Acordeon = () => {
                                     >
                                      Resolución para el Día Cívico del 15 de Julio de 2024 
                                     </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Resolucion_167_99892e08d8.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                     Resolucion 167
+                                    </a>
                                   </div>
                                 </li>
                               </div>
