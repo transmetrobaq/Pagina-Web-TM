@@ -25,7 +25,8 @@ import Transparencia from '../containers/Transparencia';
 import Accesibilidad from '../containers/Accesibilidad';
 import Directorio from '../containers/Directorio';
 import Infantil from '../containers/Infantil';
-import Construccion from '../containers/Construccion';
+// import Construccion from '../containers/Construccion';
+import Participacion from '../containers/Participacion';
 // eslint-disable-next-line arrow-body-style
 
 const TRACKING_ID = 'UA-152399968-1';
@@ -95,8 +96,8 @@ const App = () => {
               component={Directorio}
             />
             <Route exact path="/infantil" component={Infantil} />
-            <Route exact path="/participa" component={Construccion} />
-            <Route exact path="/Participacion" component={Construccion} />
+            {/* <Route exact path="/participa" component={Construccion} /> */}
+            <Route exact path="/Participacion" component={Participacion} />
             <Route component={NotFound} />
           </Switch>
         </Layout>

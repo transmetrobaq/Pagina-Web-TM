@@ -1,0 +1,1398 @@
+/*Mapa Troncal Bootstap */
+.title__Datos h1 {
+  color: #002856;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.mapa__Troncal {
+  width: 100%;
+  text-align: auto;
+  margin-top: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.mapa__Troncal h2 {
+  text-align: center;
+  /* font-size: 45px; */
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  overflow-wrap: normal !important;
+}
+.mapa__Troncal h3 {
+  text-align: center;
+  /* font-size: 35px; */
+  font-weight: bold;
+  color: #002856;
+  padding-top: 25px;
+  overflow-wrap: normal !important;
+}
+.mapa__Troncal li {
+  font-size: 18px;
+  color: #004f9f;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.mapa__Troncal p {
+  /* font-size: 20px; */
+  color: #004f9f;
+  padding-top: 20px;
+  /* font-weight: bold; */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  /*   .mapa__Troncal h1 {
+    font-size: 20px;
+  } */
+  .mapa__Troncal img {
+    width: 60%;
+  }
+  .mapa__Troncal h3 {
+    font-size: 20px;
+  }
+  .mapa__Troncal li {
+    font-size: 18px;
+  }
+}
+
+/*ICONOS Mapa Rutas*/
+.icono-map1 {
+  color: #e30613;
+  opacity: 0.8;
+}
+.icono-map2 {
+  color: #00a13a;
+  opacity: 0.8;
+}
+
+.mapa__Troncal-bord span {
+  font-size: 1.8vw;
+  padding: 20px;
+  color: #002856;
+  vertical-align: middle;
+}
+
+.terminal {
+  padding: 20px;
+}
+
+.sist {
+  margin-bottom: 100px;
+  margin-top: 65px;
+}
+
+.sist h1 {
+  margin-bottom: 60px;
+  color: #002856;
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.hora {
+  border-radius: 20px;
+  background-color: #004f9f;
+  /* max-width: 540px; */
+  content-visibility: center;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+  height: 100px;
+}
+
+.hora p {
+  margin: 0 0 0 20px;
+}
+
+/* .bordo {
+  border-radius: 100px;
+} */
+
+/* VIDEO */
+
+.video-contenedor {
+  margin-top: 150px;
+  margin-bottom: 144px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 750px;
+  border: none;
+}
+
+.video-contenedor h2 {
+  color: #00519E;
+  position: relative;
+  top: -6px;
+  /* letter-spacing: 2px; */
+  line-height: 1.5;
+  font-weight: bold;
+  
+}
+
+.video-contenedor a { 
+  text-decoration: none;
+  color:#00519E;
+ 
+}
+
+.video-contenedor iframe {
+  /* width: 100%; */
+  /* height: 40vw; */
+  border-radius: 20px;
+}
+
+/* tarjeta transmetro */
+
+/* texto credito */
+
+.tarj {
+  color: #002856;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.tarj h2 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  color: #00519E;
+}
+.tarj p {
+  /* margin-top: -10px; */
+  /* padding: auto; */
+  color: #002856;
+  /* font-size: 18px; */
+}
+
+.tarj span {
+  font-weight: bold;
+  /* font-size: 18px; */
+}
+/* .tarj img {
+  border-radius: 20px;
+  width: 30vw;
+  
+} */
+.tarj #participacion_img {
+  background-image: url("https://apiwebtm.com/uploads/Participacion_a4850eb537.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .tarj {
+    margin-top: 20px;
+  }
+ /*  .tarj img {
+    border-radius: 20px;
+    width: 50vw;
+    display: block;
+    margin: auto;
+  } */
+  
+  .tarj p {
+    text-align: justify;
+    /* font-size: 2.5vw; */
+  }
+  .tarj__Img {
+    margin: 0 auto;
+  }
+}
+
+/*Como personalizar */
+
+.como-perso {
+  border-radius: 20px;
+  margin-bottom: 60px;
+  /*espacio vertical */
+  max-width: 720px;
+}
+.como-perso h2 {
+  font-weight: bold;
+}
+.tex-como-per {
+  color: rgb(246, 246, 248);
+  position: relative;
+  top: -6px;
+  background-color: #c00d0d;
+  border-radius: 50px 50px 0 0;
+  padding: 40px;
+  margin-bottom: -3px;
+}
+
+.como-perso-text {
+  color: white;
+  background-color: #c00d0d;
+  border-radius: 0 0 50px 50px;
+  padding: 40px;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.como-perso-text span {
+  font-weight: bold;
+}
+
+/* Cultura Transmetro */
+.car__cul {
+  border-radius: 20px;
+  margin: 0 auto;
+  line-height: 1;
+  margin-top: 65px;
+}
+.car__cul h2 {
+  color: #e30613;
+  margin-bottom: 50px;
+  font-weight: bold;
+  /* font-size: 3.5vw; */
+}
+.car__cul p {
+  color: #004f9f;
+  text-align: left;
+  line-height: 1.5;
+  /* font-size: 18px; */
+}
+
+.car__cul a {
+  text-decoration: none;
+  color: #004f9f;
+}
+
+.car__cul a:hover {
+color: #00a13a;
+font-weight: bold;
+}
+.car__cul span {
+  font-weight: bold;
+}
+.car__cul img {
+  width: 250px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+   .car__cul h2 {
+    /* font-size: 5.5vw; */
+    margin-bottom: 10px;
+  }
+ 
+  .car__cul img {
+    width: 50vw;
+    display: block;
+    margin: auto;
+  }
+}
+/* OPERACION */
+
+
+.car__opera h1 {
+  color: #e30613;
+  margin-bottom: 20px;
+  font-weight: bold;
+  /* font-size: 3.5vw; */
+}
+#title-operacion {
+  color: #002856;
+  font-weight: bold;
+}
+.car__opera h3 {
+  color: #c00d0d;
+  /* font-size: 40px; */
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.car__opera p {
+  margin-bottom: 65px;
+  color: #002856;
+  text-align: center;
+  font-size: 18px;
+}
+
+.car__opera h2 {
+  color: #002856;
+}
+.car__opera img {
+  width: 50%;
+  /* margin-bottom: 50px; */
+}
+.car__opera-img {
+  width: 84% !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .car__opera h1 {
+    /* font-size: 5.5vw; */
+    margin-bottom: 1px;
+  }
+  #title-operacion {
+    /* font-size: 5.5vw; */
+    margin-bottom: 1px;
+  }
+  .car__opera h3 {
+    /* font-size: 5.5vw; */
+    margin-bottom: 1px;
+  }
+  .car__opera p {
+    font-size: 2.5vw;
+  }
+  .car__opera img {
+    width: 30vw;
+    display: block;
+    margin: auto;
+  }
+  .car__opera-img {
+    width: 54% !important;
+  }
+  .car__opera-icon {
+    margin-top: -70px;
+  }
+}
+
+/* TARJETA No. 6 */
+
+.card__opera-tarj {
+  background-color: #e30613;
+  color: white;
+  border-radius: 30px;
+  width: 80%;
+  /* max-width: 500px; */
+  margin-top: 25px;
+  margin-bottom: 50px;
+  
+}
+
+.card__opera-tarj h1 {
+  font-size: 90px;
+  margin-left: 20px;
+}
+
+.card__opera-tarj p {
+  /* margin-top: 18px; */
+  font-weight: bold;
+}
+.card__opera-tarj hr {
+  background-color: #fff;
+  opacity: 1;
+  height: 5px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .card__opera-tarj h1 {
+    margin-left: 1px;
+    position: block;
+    margin-top: 20px;
+  }
+}
+/*Cards 4*/
+
+.container-card {
+  width: 50%;
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.car__Archivo {
+  width: 180px;
+  /* margin: 20px; */
+  border-radius: 20px;
+  overflow: hidden;
+  background: #002856;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+  /* el div se ajusta automaticamente al contenido del div */
+  /* height: 20%;
+  min-height: 70%; */
+  /* el div se ajusta automaticamente al contenido del div */
+}
+.car__Archivo img {
+  /* width: 50%;
+  height: 50%; */
+  width: 100px;
+  padding:10px;
+  object-fit: cover;
+}
+.car__Archivo:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.hr-card {
+  background-color: #002856;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  height: 20px;
+  border-style: none none solid none;
+}
+
+.car__Archivo .contenido-card {
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+}
+
+.car__Archivo .contenido-card p {
+  line-height: 1.8;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.car__Archivo .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #002856;
+  border: 1px solid #00a13a;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+}
+.car__Archivo i {
+  margin: 0 auto;
+  text-align: auto;
+}
+.car__Archivo .contenido-card a:hover {
+  background:#00a13a;
+  color: #f7f7f7;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-card {
+    flex-wrap: wrap;
+    width: 80%;
+  }
+ /*  .car__info {
+    margin: 15px;
+  } */
+  /* .card-ali {
+    margin-right: 30px;
+  } */
+}
+
+/* movilizado */
+.car-movilizados {
+  background: #e30613;
+  margin-top: 65px;
+  margin-bottom: -16px;
+}
+.car-movilizados .card {
+  background: #e30613;
+  
+}
+.car-movilizados .card img {
+  margin-top: 30px;
+  width: 200px;
+}
+.car-movilizados h2 {
+  margin-top: 10px;
+  color: #fff;
+  
+}
+.car-movilizados span {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .car-movilizados h2 {
+    /* flex-wrap: wrap; */
+    text-align: center;
+    /* font-size: 4.5vw; */
+  }
+}
+
+/* RUTA */
+.rutas-ali {
+  border: 3px solid #002856;
+  border-radius: 30px;
+  margin-bottom: 70px;
+  width: 90%;
+}
+.rutas-ali1 {
+  border: 3px solid #002856;
+  border-radius: 30px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+
+  
+  
+  /* padding: 10px; */
+}
+.rutas-ali1 h2 {
+  color: #002856;
+  /* font-size: 2.5vw; */
+  font-weight: bold;
+  margin-top: 25px;
+}
+.rutas-ali1 p {
+  color: #002856;
+  font-size: 80px;
+  font-weight: bold;
+  
+
+}
+.rutas-ali2 {
+  border: 3px solid #002856;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  color: #dc3545;
+  text-align: center;
+}
+.rutas-ali2 h2 {
+  color: #e30613;
+  /* font-size: 2.5vw; */
+  font-weight: bold;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.rutas-ali2 img {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+.rutas-ali3 {
+  border: 3px solid #002856;
+  border-radius: 30px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  color: #002856;
+  /* padding: 10px; */ 
+  text-align: center;
+}
+.rutas-ali3 h2 {
+  color: #002856;
+  /* font-size: 2.2vw; */
+  font-weight: bold;
+  margin-top: 25px;
+  
+}
+.rutas-ali3 p {
+  color: #002856;
+  font-size: 80px;
+  font-weight: bold;
+}
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+.rutas-ali3 h2 {
+  font-size: 26px;
+}
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .rutas-ali1 {
+    border: 3px solid #002856;
+    border-radius: 12px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+       
+  }
+    
+  .rutas-ali2 img {
+    width: 20vw;
+  }
+  .rutas-ali3 {
+    border: 3px solid #002856;
+    border-radius: 12px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+ 
+  .rutas-ali3 h3 {
+    font-size: 20vw;
+  } 
+}
+
+/* Sistemas 2 */
+
+.linea-accesible {
+  width: 30%;
+  height: 3px;
+  background-image: linear-gradient(
+    90deg,
+    red 33%,
+    yellow 33%,
+    yellow 66.66%,
+    green 66.66%
+  );
+  /*espacio vertical */
+  margin-bottom: 15px;
+}
+/* Accesibilidad Bootstrap */
+.acce {
+  background-color: #002856;
+  
+  margin-bottom: 50px;
+}
+.acce .card-title  {
+  background-color: #002856;
+}
+.acce h2 {
+  margin-top: 50px;
+  margin-bottom:30px;
+  color: white !important;
+  font-weight: bold;
+}
+.titulo-acce {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.space {
+  padding-bottom: 65px;
+}
+
+.car__Acce {
+ /*  border-radius: 30px; */
+  margin: 0 auto;
+  text-align: auto;
+  padding-bottom: 100px;
+  /* max-width: 1100px; */
+}
+.car__Acce-card {
+  border-radius: 20px;
+  color: #004f9f
+  /* width: 300px; */
+}
+.car__Acce-card img {
+  width: 150px;
+}
+/* Troncales */
+
+.containerr {
+  width: 100%;
+  text-align: auto;
+  margin-top: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.containerr h2 {
+  font-weight: bold;
+  color: #002856;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.containerr h3 {
+  font-weight: bold;
+  color: #002856;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.containerr h5 {
+  font-weight: bold;
+  color: #002856 !important;
+  
+}
+
+.containerr a {
+  text-decoration: none;
+   font-size: 18px;
+  color: #004f9f !important;
+}
+.containerr a:hover {
+  
+  color: #e30613 !important;
+}
+
+.containerr p {
+  font-size: 18px;
+  
+  color: #004f9f;
+  margin: 20px;
+}
+/* .containerr img {
+  width: 10vw;
+  color: #e30613;
+} */
+.containerr li {
+  color: #004f9f;
+  font-size: 18px;
+}
+.containerr span {
+  font-weight: bold !important;; 
+}
+.containerr ol {
+  margin-top: 40px;
+}
+.containerr ul {
+  margin-top: 40px;
+}
+.cars-ico {
+  background-color: #e30613;
+  width: 10vw;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.ico__Bus-rojo  {
+  width: 150px;
+  background-color: #e30613;
+  border-radius: 10px;
+}
+.ico__Bus-verde  {
+  width: 150px;
+  background-color: green;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .icobus {
+    margin-top: 20px;
+  }
+  .ico__Bus-rojo  {
+    width: 100px;
+  }
+  .ico__Bus-verde  {
+    width: 100px;
+  }
+  .cars-ico img {
+    width: 20vw;
+  }
+  .containerr h3 {
+    margin-left: 20px;
+  }
+  .cars-ico {
+    width: 20vw;
+    margin-left: 30vw;
+  }
+  .cars-ico-1 {
+    width: 20vw;
+    margin-left: 30vw;
+  }
+  .containerr h5 {
+    text-align: center;
+    margin-left: 0;
+  }
+  .containerr ul {
+    margin-top: 40px;
+  }
+  #ali ul {
+    margin-top: -15px;
+  }
+}
+
+/* Credito y Personalizacion */
+.card__Credi {
+  margin-bottom: 100px;
+}
+.card__Credi img {
+  border-radius: 50px;
+  border-color: #fff;
+  border: 5px solid #fff;
+}
+.card__Credi h2 {
+  color: #fff;
+  font-weight: bold;
+  /* font-size: 3.5vw; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+.card__Credi p {
+  color: #fff;
+  font-size: 18px;
+  /* padding: 40px; */
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.card__Credi li {
+  color: #fff;
+  font-size: 18px;
+}
+.card__Credi ul {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+.card__Credi-credito {
+  border-radius: 50px;
+  border-color: #fff;
+  border: none;
+}
+.card__Credi-Personaliza {
+  border-radius: 50px 50px 0px 0px;
+  border-color: #fff;
+  border: none;
+  margin-top: 320px;
+  /* margin-left: 50px; */
+}
+
+.per-tarjeta {
+  margin-bottom: 65px;
+}
+.per-tarjeta p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #002856;
+}
+.per-tarjeta a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #e30613;
+  text-decoration: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .card__Credi h5 {
+    font-size: 7.5vw;
+  }
+  .card__Credi p {
+    font-size: 18px;
+  }
+
+  .card__Credi li {
+    font-size: 18px;
+  }
+  .card__Credi-Personaliza {
+    margin-top: -5px;
+  }
+}
+
+
+/* Rediseño Credito */
+
+
+.card__credito {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__credito {
+ 
+  background-color: #F5F5F5;
+  cursor: pointer;
+ /*  width: 120px;
+  height: 50px;
+  margin: 50px 0 20px 0; */
+  /* padding: 20px 15px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+ /*  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out; */
+  /* border-radius: 1px;
+ font-weight: bold;
+ color:#002856;
+ font-size: 30px; */
+}
+
+.card__credito h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__credito .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__credito p{
+  color:#002856;
+}
+.card__credito li{
+  color:#002856;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.card__credito a {
+  background-color: #00a13a;
+  border: 1px solid #00a13a;
+  border-radius: 20px;
+  width: 15rem;
+}
+
+.card__credito #credito_img {
+  background-image: url("https://apiwebtm.com/uploads/credito_9e6e099d6c.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+}
+
+
+.card__credito #personalizacion_img {
+  background-image: url("https://apiwebtm.com/uploads/personalizacion_f07a455788.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+}
+
+
+/* cultura */
+
+.card__cultura {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__cultura {
+   background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__cultura h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__cultura .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__cultura p{
+  color:#002856;
+}
+.card__cultura li{
+  color:#002856;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.card__cultura a {
+  background-color: #00a13a;
+  border: 1px solid #00a13a;
+  border-radius: 20px;
+  width: 15rem;
+}
+
+.card__cultura #cultura_img {
+  background-image: url("https://apiwebtm.com/uploads/cultura_ef186cfcf6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+}
+
+
+/* card datos de infra */
+
+.card_infra-dato {
+  background-color: #fff;
+  /* cursor: pointer; */
+  margin: 0 50px 50px 0;
+  padding: 15px 15px  ;
+  width: 230px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 20px #707070;
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+  /* height: 300px; */
+  
+}
+.card_infra-dato img {
+  width: 100px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .linea-colores-peque {
+    width: 35%;
+    height: 2px;
+  }
+ 
+  .card_infra-dato {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .cont-infra-dato h2 {
+    margin-bottom: 0px;
+    margin-top: -50px;
+  }
+ 
+}
+
+/* ----rediseño info datos */
+.seisTM{
+  border: 1;
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  left: 12px;
+  background-color:#052756;
+  }
+  
+  .tm .seisTM1{
+      border: 1;
+      border-radius: 0px 20px 20px 0;
+      background-color: #0358a8;
+      padding: 0 0 0 42px ;
+      color: white;
+      min-width: 50px
+    
+      
+  
+  }
+  .corrientesTM{
+  padding: 24px 0 0 0 ;
+  }
+  
+  .tm1 {
+    margin-bottom: 50px;
+  }
+  .tm1 .DosCuatroTex1{
+      border: 1;
+      border-radius: 0px 20px 20px 0;
+      background-color: #0358a8;
+     
+      color: white;
+      min-width: 50px
+      /* background-color:#0358a8;
+      padding: 0 0 0 42px ;  */
+      
+  
+  }
+  
+  .tm1 h2{
+     
+  font-size: 50px;
+  margin-top: 18px;
+  }
+  
+  .tm h2{
+     
+      font-size: 50px;
+      margin-top: 28px;
+      }
+  
+  .tm1 card-body {
+      min-width: 130px;
+  }
+  
+   .card{
+      border: none;
+  
+   }
+  
+   .tm1 .DosCuatroTM1{
+     border: 1;
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  left: 12px;
+  background-color:#052756;
+  } 
+  
+  
+  
+  p{
+      padding: 5px;
+  }
+  .tm1 .SoleBarran{
+      padding: 0px 0px 0px 42px ;
+  }
+  .tm1 .RutasAlimenTex{
+      padding: 20px 0 0 42px ;
+  
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 250px) and (max-width: 768px) {
+       p {
+       font-size: 12px;
+    }
+  
+   h2{
+   font-size: 35px;
+    }
+  
+    hr{
+      width: 150px;
+    }
+  }
+
+
+  /* Flota */
+  /* cultura */
+
+.card__flota {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__flota {
+   background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__flota h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__flota .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__flota p{
+  color:#002856;
+}
+.card__flota li{
+  color:#002856;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+
+
+.card__flota #violencia_img{
+  background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/stop-sexual-harassment-design-template-d74a0aabe920ce1790aae66efd288f92_screen.jpg?ts=1637015126");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+
+/* OTRAS FORMAS DE VIOLENCIA BASADAS EN GÉNERO*/
+
+
+.card__otrasformas {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__otrasformas {
+ 
+  background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__otrasformas h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__otrasformas .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__otrasformas p{
+  color:#002856;
+}
+ .card__otrasformas li{
+  color:#002856;
+  /* font-weight: bold; */
+  margin-bottom: 20px;
+  
+} 
+
+
+
+.card__otrasformas #otrasformas_img {
+  background-image: url("https://www.bucaramanga.gov.co/wp-content/uploads/2023/02/NO-Violencia-de-Genero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 390px;
+}
+
+.card__acoso {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__acoso {
+ 
+  background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__acoso h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__acoso .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 60px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__acoso p{
+  color:#002856;
+}
+.card__acoso li{
+  color:#002856;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.card__acoso #acoso_img {
+  background-image: url("https://apiwebtm.com/uploads/acoso_sexual_1dd00b5e1e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+/* Beneficios y Ventajas */
+
+
+.card__beneficios {
+  margin-left: -12px;
+  margin-top: 50px;
+  
+}
+
+
+.card__beneficios {
+ 
+  background-color: #F5F5F5;
+  cursor: pointer;
+ 
+}
+
+.card__beneficios h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00519E;
+}
+.card__beneficios .linea-colores-cred {
+  
+    width: 21%;
+    height: 5px;
+    background-image: linear-gradient(
+      90deg,
+      #e30613 33%,
+      #ffdd00 33%,
+      #ffdd00 66.66%,
+      #00a13a 66.66%
+    );
+    margin-bottom: 10px;
+    /*espacio vertical */
+    margin-top: -5px;
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+   
+  
+}
+.card__beneficios p{
+  color:#002856;
+  font-weight: bold;
+}
+.card__beneficios li{
+  color:#002856;
+  
+  /* margin-bottom: 10px; */
+  
+}
+
+
+

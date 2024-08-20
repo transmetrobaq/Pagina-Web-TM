@@ -453,7 +453,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link "
-                  href="/Participacion/#Construccion"
+                  href="/Participacion/#Participacion"
                   tabIndex="-1"
                   aria-disabled="true"
                 >
