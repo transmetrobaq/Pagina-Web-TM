@@ -6003,7 +6003,7 @@ const Acordeon = () => {
                             </a>
 
                             <a
-                              href="https://apiwebtm.com//uploads/INFORME_PQRSDF_TRIMESTRE_ABRIL_JUNIO_2024_1_697c68ae1d.pdf"
+                              href="https://apiwebtm.com/uploads/INFORME_PQRSDF_TRIMESTRE_ABRIL_JUNIO_2024_1_697c68ae1d.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
