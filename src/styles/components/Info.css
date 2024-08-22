@@ -483,6 +483,36 @@ hr {
   margin-left: -45px;
 }
 
+#tiktok a {
+  background: #0b0c0c;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  width: 55px;
+  transition: all 0.4s ease;
+}
+#tiktok a:hover {
+  /* 
+   */
+  padding: 10px 50px;
+  margin-left: -45px;
+}
+
+#whatsapp a {
+  background: #1ba149;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  width: 55px;
+  transition: all 0.4s ease;
+}
+#whatsapp a:hover {
+  /* 
+   */
+  padding: 10px 50px;
+  margin-left: -45px;
+}
+
 .arriendo img {
   width: 50%;
 

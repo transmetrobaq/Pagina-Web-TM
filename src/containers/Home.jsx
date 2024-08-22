@@ -17,14 +17,6 @@ const Home = () => {
               target="_blank"
             />
           </div>
-          <div id="youtube">
-            <a
-              href="https://www.youtube.com/user/transmetrotv"
-              className="fab fa-youtube"
-              alt="YouTube"
-              target="_blank"
-            />
-          </div>
           <div id="twitter">
             <a
               href="https://twitter.com/transmetrobaq"
@@ -33,6 +25,32 @@ const Home = () => {
               target="_blank"
             />
           </div>
+          <div id="youtube">
+            <a
+              href="https://www.youtube.com/user/transmetrotv"
+              className="fab fa-youtube"
+              alt="YouTube"
+              target="_blank"
+            />
+          </div>
+          <div id="whatsapp">
+            <a
+              href="https://whatsapp.com/channel/0029VaZZyGw3rZZlXECryC0b"
+              className="fa-brands fa-whatsapp"
+              alt="Whatsapp"
+              target="_blank"
+            />
+          </div>
+         
+          <div id="tiktok">
+            <a
+              href="https://www.tiktok.com/@transmetrobaq?_t=8oeLaV8iPiw&_r=1"
+              className="fa-brands fa-tiktok"
+              alt="TikTo"
+              target="_blank"
+            />
+          </div>
+         
 
           <div id="instagram">
             <a
@@ -42,6 +60,7 @@ const Home = () => {
               target="_blank"
             />
           </div>
+          
         </div>
       </div>
     </div>
