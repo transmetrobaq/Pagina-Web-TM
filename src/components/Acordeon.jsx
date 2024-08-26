@@ -5858,7 +5858,7 @@ const Acordeon = () => {
                                     rel="noreferrer"
                                   >
  
-                                    Informe pormenorizado ene-jun 2024
+                                    Informe pormenorizado Ene-jun 2024
                                   </a>
    </div>
                               </li>
