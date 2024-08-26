@@ -5848,6 +5848,21 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
+                              <li className="list-group-item list-group-item-action ">
+                                2024
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_PORMENORIZADO_ENE_JUN_2024_f4c889ec78.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+ 
+                                    Informe pormenorizado ene-jun 2024
+                                  </a>
+  
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
