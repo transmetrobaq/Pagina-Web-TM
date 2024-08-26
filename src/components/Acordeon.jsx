@@ -5860,8 +5860,7 @@ const Acordeon = () => {
  
                                     Informe pormenorizado ene-jun 2024
                                   </a>
-  
-                                </div>
+   </div>
                               </li>
                             </div>
                           </div>
