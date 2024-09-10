@@ -5874,6 +5874,51 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourEightSeven"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourEightSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourEightSeven"
+                          >
+                            4.8.7 Reportes Ley de cuotas
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourEightSeven"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourEightSeven"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+
+                              <a
+                                href="https://apiwebtm.com/uploads/IN_FORME_LEY_DE_CUOTA_TRANSMETRO_VIGERNCIA_2024_148d47ad7b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Informe sobre la Ley de Cuota - Transmisión Vigencia 2024
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Reporte_de_Cumplimiento_Ley_de_Cuotas_2024_b278d56b09.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Reporte de Cumplimiento - Ley de Cuotas 2024
+                              </a>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
