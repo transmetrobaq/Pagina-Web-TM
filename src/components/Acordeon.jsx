@@ -3719,14 +3719,35 @@ const Acordeon = () => {
                               >
                                 2023
                               </a>
-                              <a
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/Plan_de_Accion_2024_compilado_49121c8a8a.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2024
-                              </a>
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                                2024
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Plan_de_Accion_2024_compilado_49121c8a8a.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Plan de Acción 2024 Compilado
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/1er_sgto_2024_Compilado_ca76338cf5.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Primer seguimiento Compilado
+                                  </a>
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
@@ -5341,7 +5362,8 @@ const Acordeon = () => {
                                           target="_blank"
                                           rel="noreferrer"
                                         >
-                                          Informe Austeridad Cuarto Trimestre 2022-2023
+                                          Informe Austeridad Cuarto Trimestre
+                                          2022-2023
                                         </a>
                                       </div>
                                     </li>
@@ -5865,10 +5887,9 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
- 
                                     Informe pormenorizado Ene-jun 2024
                                   </a>
-   </div>
+                                </div>
                               </li>
                             </div>
                           </div>
@@ -5897,14 +5918,14 @@ const Acordeon = () => {
                         >
                           <div className="accordion-body">
                             <div className="list-group">
-
                               <a
                                 href="https://apiwebtm.com/uploads/IN_FORME_LEY_DE_CUOTA_TRANSMETRO_VIGERNCIA_2024_148d47ad7b.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                Informe sobre la Ley de Cuota - Transmisión Vigencia 2024
+                                Informe sobre la Ley de Cuota - Transmisión
+                                Vigencia 2024
                               </a>
                               <a
                                 href="https://apiwebtm.com/uploads/Reporte_de_Cumplimiento_Ley_de_Cuotas_2024_b278d56b09.pdf"
@@ -5914,7 +5935,6 @@ const Acordeon = () => {
                               >
                                 Reporte de Cumplimiento - Ley de Cuotas 2024
                               </a>
-
                             </div>
                           </div>
                         </div>
