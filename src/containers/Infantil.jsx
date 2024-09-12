@@ -54,30 +54,34 @@ const Infantil = () => (
           <div className="row g-0">
             <div className="col-md-10">
               <div className="card-body text-cubo">
-                <h4 className="card-title">SOPA DE LETRAS</h4>
+                <h4 className="card-title">LIBROS DE JUEGOS</h4>
 
                 <p className="card-text">
-                  Encuentra las palabras que corresponden a temas como:
-                  estaciones, ubicaciones, y mucho más.
+                  Disfruta variedad de juegos divertidos y fáciles de seguir.
+                  Perfecto para cualquier ocasión. ¡Empieza a jugar!
                 </p>
               </div>
             </div>
 
             <div className="col-md-2 align-self-center">
               <a
-                href="https://drive.google.com/file/d/1oN2wGV5koWQgFDcOoNELDcvghY47OMz-/view?usp=sharing"
+                href="https://apiwebtm.com/uploads/Transmetro_infantil_3233d520e1.pdf"
                 alt="Descargar"
                 style={{ color: 'white' }}
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-download fa-4x " aria-hidden="true" />
+                <img
+                  src="https://apiwebtm.com/uploads/descarga_fed0331b2f.png"
+                  alt="Descargar"
+                  style={{ width: '100px', height: '75px' }} // Ajusta el tamaño según tus necesidades
+                />
               </a>
             </div>
           </div>
         </div>
 
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className=" row justify-content-end ">
             <div className="card cubo__Infantil-2 azul-lt ">
               <div className="row">
@@ -110,9 +114,9 @@ const Infantil = () => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="card mb-3 cubo-3 text-white ">
+        {/* <div className="card mb-3 cubo-3 text-white ">
           <div className="row g-0">
             <div className="col-md-10">
               <div className="card-body text-cubo">
@@ -136,11 +140,11 @@ const Infantil = () => (
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- cubo 4 --> */}
 
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className=" row justify-content-end">
             <div className="card cubo-4 azul-lt ">
               <div className="row">
@@ -170,9 +174,9 @@ const Infantil = () => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="card mb-3 cubo-5 text-white ">
+        {/* <div className="card mb-3 cubo-5 text-white ">
           <div className="row g-0">
             <div className="col-md-10">
               <div className="card-body text-cubo">
@@ -198,7 +202,7 @@ const Infantil = () => (
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </>
