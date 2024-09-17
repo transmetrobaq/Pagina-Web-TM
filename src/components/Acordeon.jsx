@@ -3711,14 +3711,14 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
-                              <a
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/Plan_de_accion_consolidado_de_Gestion_y_MIPG_1cc7758aa3.rar"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 2023
-                              </a>
+                              </a> */}
                               {/* <a
                                 href="https://apiwebtm.com/uploads/Plan_de_Accion_2024_compilado_49121c8a8a.pdf"
                                 className="list-group-item list-group-item-action "
@@ -3727,6 +3727,45 @@ const Acordeon = () => {
                               >
                                 2024
                               </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                                2023
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Plan_de_Accion_2023_Consolidado_MIPG_42ef0bb7a7.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Plan de Acción 2023 Consolidado MIPG
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/plan_de_accion_2023_consolidado_de_gestion_bae7775d65.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Plan de acción 2023 consolidado de gestión
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/2do_sgto_Consolidado_6dbace937d.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   2do sgto Consolidado
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Sgto_final_Plan_de_Accion_2023_72f57b83f7.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Sgto final Plan de Acción 2023
+                                  </a>
+                                </div>
+                              </li>
+                              
+                              
                               <li className="list-group-item list-group-item-action ">
                                 2024
                                 <div className="list-group">
@@ -5367,6 +5406,29 @@ const Acordeon = () => {
                                         </a>
                                       </div>
                                     </li>
+
+                                    <li className="list-group-item list-group-item-action ">
+                                      2024
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_PRIMER_TRIM_2023_2024_933d781ef3.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe de Austeridad - Primer Trimestre 2023-2024
+                                        </a>
+                                      
+                                        <a
+                                          href="https://apiwebtm.com/uploads/INFORME_AUSTERIDAD_ULTIMO_TRIM_2022_2023_e562593315.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe de Austeridad - Último Trimestre 2022-2023
+                                        </a>
+                                      </div>
+                                    </li>
                                   </div>
                                 </div>
                               </div>
@@ -5576,6 +5638,14 @@ const Acordeon = () => {
                                     >
                                       2022
                                     </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PRESUPUESTO_2023_b9a3b2afb8.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2023
+                                    </a>
                                   </div>
                                 </div>
                               </div>
@@ -5717,6 +5787,14 @@ const Acordeon = () => {
                                       rel="noreferrer"
                                     >
                                       2021
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_TESORERIA_VIGENCIA_2023_16bd055911.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                    2023
                                     </a>
                                   </div>
                                 </div>
