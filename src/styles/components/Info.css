@@ -420,7 +420,8 @@ hr {
 
 #facebook a {
   background: #3b5998;
-  padding: 10px 25px;
+  /* padding: 10px 25px; */
+  padding: 7px 29px;
   color: #fff;
   text-decoration: none;
   width: 55px;
@@ -434,7 +435,8 @@ hr {
 }
 #youtube a {
   background: #bb0000;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+  padding: 4px 24px;
   color: #fff;
   text-decoration: none;
   width: 55px;
@@ -446,8 +448,10 @@ hr {
   margin-left: -45px;
 }
 #twitter a {
-  background: #191a1b;
-  padding: 10px 20px;
+  background: #1d1d1b;
+  /* padding: 10px 20px; */
+  padding: 0px 24px;
+  padding-bottom: 12px;
   color: #fff;
   text-decoration: none;
   width: 55px;
@@ -469,7 +473,8 @@ hr {
     #e1306c,
     #fd1d1d
   );
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+  padding: 5px 24px;
   color: #fff;
   text-decoration: none;
   width: 55px;
@@ -483,24 +488,37 @@ hr {
   margin-left: -45px;
 }
 
-#tiktok a {
+/* #tiktok a {
   background: #0b0c0c;
-  padding: 10px 20px;
+  padding: 10px 24px;
   color: #fff;
   text-decoration: none;
   width: 55px;
   transition: all 0.4s ease;
 }
 #tiktok a:hover {
-  /* 
-   */
+  padding: 10px 50px;
+  margin-left: -45px;
+} */
+
+#tiktok a {
+  background: #0b0c0c;
+  /* padding: 10px 20px; */
+  padding: 5px 24px;
+  color: #fff;
+  text-decoration: none;
+  width: 55px;
+  transition: all 0.4s ease;
+}
+#tiktok a:hover {
+  /* background: #000; */
   padding: 10px 50px;
   margin-left: -45px;
 }
 
 #whatsapp a {
   background: #1ba149;
-  padding: 10px 20px;
+  padding: 5px 24px;
   color: #fff;
   text-decoration: none;
   width: 55px;

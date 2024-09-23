@@ -10,57 +10,68 @@ const Home = () => {
       <div className="container">
         <div className="red">
           <div id="facebook">
-            <a
-              href="https://es-la.facebook.com/transmetrobaq/"
-              className="fab fa-facebook-f"
-              alt="Facebook"
-              target="_blank"
-            />
+            <a href="https://es-la.facebook.com/transmetrobaq/" target="_blank">
+              <img
+                src="https://apiwebtm.com/uploads/facebook_logo_png_794ddb4157.png"
+                alt="Facebook"
+                style={{ width: '20px', height: '22px' }}
+              />
+            </a>
           </div>
           <div id="twitter">
             <a
-              href="https://twitter.com/transmetrobaq"
-              className="fa-brands fa-x-twitter"
-              alt="Twitter"
-              target="_blank"
-            />
+              href="https://twitter.com/transmetrobaq" target="_blank" >
+              <img
+                src="https://apiwebtm.com/uploads/tw_c5845c0468.png"
+                alt="Twitter"
+                style={{ width: '30px', height: '20px' }}
+              />
+              </a>
           </div>
           <div id="youtube">
+            <a href="https://www.youtube.com/user/transmetrotv" target="_blank">
+             <img
+                src="https://apiwebtm.com/uploads/YU_a56ea60f82.png"
+                alt="Youtube"
+                style={{ width: '30px', height: '29px' }}
+              />
+            </a>
+          </div>
+          
+          
+          <div id="tiktok">
             <a
-              href="https://www.youtube.com/user/transmetrotv"
-              className="fab fa-youtube"
-              alt="YouTube"
-              target="_blank"
-            />
+              href="https://www.tiktok.com/@transmetrobaq?_t=8oeLaV8iPiw&_r=1" target="_blank">
+          <img
+                src="https://apiwebtm.com/uploads/tiktok_fc55ee1a28.png"
+                alt="tiktok"
+                style={{ width: '30px', height: '29px' }}
+                 />
+             </a>
+          
           </div>
           <div id="whatsapp">
             <a
-              href="https://whatsapp.com/channel/0029VaZZyGw3rZZlXECryC0b"
-              className="fa-brands fa-whatsapp"
-              alt="Whatsapp"
-              target="_blank"
-            />
+              href="https://whatsapp.com/channel/0029VaZZyGw3rZZlXECryC0b" target="_blank">
+              <img
+                src="https://apiwebtm.com/uploads/WASA_e48162ff17.png"
+                alt="Whatsapp"
+                style={{ width: '30px', height: '27px' }}
+
+             />
+             </a>
           </div>
-         
-          <div id="tiktok">
-            <a
-              href="https://www.tiktok.com/@transmetrobaq?_t=8oeLaV8iPiw&_r=1"
-              className="fa-brands fa-tiktok"
-              alt="TikTo"
-              target="_blank"
-            />
-          </div>
-         
 
           <div id="instagram">
             <a
-              href="https://www.instagram.com/transmetrobaq/?hl=es"
-              className="fab fa-instagram"
-              alt="Instagram"
-              target="_blank"
-            />
+              href="https://www.instagram.com/transmetrobaq/?hl=es" target="_blank">
+              <img
+                src="https://apiwebtm.com/uploads/INST_acd0f8c309.png"
+                alt="Instagram"
+                style={{ width: '30px', height: '30px' }}
+              />
+              </a>
           </div>
-          
         </div>
       </div>
     </div>
