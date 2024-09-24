@@ -105,8 +105,8 @@ const Ciudadano = () => {
               <div className="preguntas-tm">
 
               <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg16" />
-                  <label className="preguntas-label " htmlFor="preg16">
+                  <input type="checkbox" id="preg18" />
+                  <label className="preguntas-label " htmlFor="preg18">
                   ¿Debo comprar una tarjeta nueva?
                   </label>
                   <div className="respuestas-content">
@@ -117,8 +117,8 @@ const Ciudadano = () => {
 
                 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg17" />
-                  <label className="preguntas-label " htmlFor="preg17">
+                  <input type="checkbox" id="preg19" />
+                  <label className="preguntas-label " htmlFor="preg19">
                   ¿Todas las tarjetas de Transmetro funcionarán con la actualización?
                   </label>
                   <div className="respuestas-content">
@@ -129,8 +129,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg17" />
-                  <label className="preguntas-label " htmlFor="preg17">
+                  <input type="checkbox" id="preg20" />
+                  <label className="preguntas-label " htmlFor="preg20">
                   ¿Todas las tarjetas de Transmetro funcionarán con la actualización?
                   </label>
                   <div className="respuestas-content">
@@ -141,8 +141,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg18" />
-                  <label className="preguntas-label " htmlFor="preg18">
+                  <input type="checkbox" id="preg21" />
+                  <label className="preguntas-label " htmlFor="preg21">
                   ¿Se pierde el saldo a hacer el proceso de migración?
                   </label>
                   <div className="respuestas-content">
@@ -152,8 +152,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg19" />
-                  <label className="preguntas-label " htmlFor="preg19">
+                  <input type="checkbox" id="preg22" />
+                  <label className="preguntas-label " htmlFor="preg22">
                   ¿Si tengo saldo en la tarjeta, debo acercarme a la taquilla para hacer la actualización?
                   </label>
                   <div className="respuestas-content">
@@ -165,8 +165,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg20" />
-                  <label className="preguntas-label " htmlFor="preg20">
+                  <input type="checkbox" id="preg23" />
+                  <label className="preguntas-label " htmlFor="preg23">
                   ¿Cada vez que vaya a recargar debo acercarme al validador para migrar la información
                   </label>
                   <div className="respuestas-content">
@@ -176,8 +176,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg21" />
-                  <label className="preguntas-label " htmlFor="preg21">
+                  <input type="checkbox" id="preg24" />
+                  <label className="preguntas-label " htmlFor="preg24">
                   ¿Se está cambiando la Tarjeta Transmetro por tarjeta del SIBUS?
                   </label>
                   <div className="respuestas-content">
@@ -187,8 +187,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg22" />
-                  <label className="preguntas-label " htmlFor="preg22">
+                  <input type="checkbox" id="preg25" />
+                  <label className="preguntas-label " htmlFor="preg25">
                   ¿Debo hacer el mismo proceso para la tarjeta de Bancolombia, Banco de Bogotá o Banco AV Villas?
                   </label>
                   <div className="respuestas-content">
@@ -198,8 +198,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg23" />
-                  <label className="preguntas-label " htmlFor="preg23">
+                  <input type="checkbox" id="preg26" />
+                  <label className="preguntas-label " htmlFor="preg26">
                   ¿En las rutas alimentadoras, el proceso es el mismo que en las estaciones?
                   </label>
                   <div className="respuestas-content">
@@ -209,8 +209,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg24" />
-                  <label className="preguntas-label " htmlFor="preg24">
+                  <input type="checkbox" id="preg27" />
+                  <label className="preguntas-label " htmlFor="preg27">
                   ¿Si no tengo saldo, puedo hacer uso del viaje a crédito en los servicios alimentadores?
                   </label>
                   <div className="respuestas-content">
@@ -220,8 +220,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg25" />
-                  <label className="preguntas-label " htmlFor="preg25">
+                  <input type="checkbox" id="preg28" />
+                  <label className="preguntas-label " htmlFor="preg28">
                   ¿Se está cambiando la Tarjeta Transmetro por la tarjeta del SIBUS
                   </label>
                   <div className="respuestas-content">
@@ -230,8 +230,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg26" />
-                  <label className="preguntas-label " htmlFor="preg26">
+                  <input type="checkbox" id="preg29" />
+                  <label className="preguntas-label " htmlFor="preg29">
                   ¿Con la tarjeta del SIBUS puedo ingresar al sistema?
                   </label>
                   <div className="respuestas-content">
@@ -578,8 +578,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg16" />
-                  <label className="preguntas-label " htmlFor="preg16">
+                  <input type="checkbox" id="preg15" />
+                  <label className="preguntas-label " htmlFor="preg15">
                     ¿Puedo ingresar mascotas en el Sistema?
                   </label>
                   <div className="respuestas-content">
@@ -595,8 +595,8 @@ const Ciudadano = () => {
                 </div>
 
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg17" />
-                  <label className="preguntas-label " htmlFor="preg17">
+                  <input type="checkbox" id="preg16" />
+                  <label className="preguntas-label " htmlFor="preg16">
                     {' '}
                     ¿Puedo viajar sin saldo en mi tarjeta?
                   </label>
@@ -614,8 +614,8 @@ const Ciudadano = () => {
                   </div>
                 </div>
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg18" />
-                  <label className="preguntas-label " htmlFor="preg18">
+                  <input type="checkbox" id="preg00" />
+                  <label className="preguntas-label " htmlFor="preg00">
                     {' '}
                     ¿Qué debo hacer si deseo recuperar y trasladar el saldo de una tarjeta, cuyo titular falleció, a un nuevo plástico inteligente? 
                   </label>
@@ -631,11 +631,11 @@ const Ciudadano = () => {
                   </div>
                 </div>
                 <div className="preguntas-grupo">
-                  <input type="checkbox" id="preg15" />
+                  <input type="checkbox" id="preg17" />
                   <label
                     className="preguntas-label  "
                     id="glosario"
-                    htmlFor="preg15"
+                    htmlFor="preg17"
                   >
                     Glosario
                   </label>
