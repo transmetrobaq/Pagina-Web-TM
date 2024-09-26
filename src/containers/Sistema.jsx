@@ -118,12 +118,10 @@ const Sistema = () => (
                             <span className="fw-bold">
                               Tarjetas de entidades financieras:
                             </span>{' '}
-                            el Sistema tiene alianzas con varios bancos que
-                            facilitan al usuario el pago de hasta 4 pasajes
-                            diarios para ser debitado al final de cada día. Para
-                            activar esta posibiliad el usuario deberá
-                            solicitarlo a la entidad bancaria: Banco de Bogotá,
-                            Bancolombia y AV Villas.{' '}
+                            el Sistema tiene alianza con Bancolombia, la cual facilita al usuario el pago de hasta 4
+                            pasajes diarios para ser debitado al final de cada día. 
+                            Para activar esta posibilidad, el usuario deberá solicitarlo a 
+                            la entidad bancaria.{' '}
                           </li>
                         </ul>
                       </p>
