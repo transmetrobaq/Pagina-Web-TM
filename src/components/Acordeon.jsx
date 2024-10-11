@@ -3634,6 +3634,15 @@ const Acordeon = () => {
 
                                         Segundo Seguimiento institucional plan anticorrupción agosto 2024
                                   </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_DE_MEDICION_DEL_PLAN_ANTICORRUPCION_AGOSTO_2024_69f3956407.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+
+                                         Informe de Medición del Plan Anticorrupción
+                                  </a>
                                 </div>
                               </li>
                             </div>
