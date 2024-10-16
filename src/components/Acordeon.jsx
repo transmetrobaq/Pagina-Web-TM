@@ -1167,7 +1167,15 @@ const Acordeon = () => {
                                       target="_blank"
                                       rel="noreferrer"
                                     >
-                                      Resolucion 167
+                                      Resolución 167
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Resolucion_242_compressed_1_1e4da1c49b.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Resolución 242
                                     </a>
                                   </div>
                                 </li>
