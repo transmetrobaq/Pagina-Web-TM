@@ -6039,6 +6039,30 @@ const Acordeon = () => {
                               >
                                 Reporte de Cumplimiento - Ley de Cuotas 2024
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_LEY_DE_CUOTAS_CORTE_31_AGOSTO_2024_1732354cc1.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              Informe ley de cuotas corte 31 agosto 2024
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/FORMULARIO_REPORTE_LEY_DE_CUOTAS_PARTICIPACION_EFECTIVA_DE_LA_MUJER_EN_LOS_CARGOS_DE_NIVEL_DIRECTIVO_EN_EL_ESTADO_COLOMBIANO_VIGENCIA_2024_corregido_4f129fd123.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               Formulario ley de cuotas participación mujer directivos 2024
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Reporte_Ley_de_Cuotas_corte_agosto_2024_ultimo_1_042f1df39f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                               Reporte Ley de Cuotas - corte agosto 2024 ultimo
+                              </a>
                             </div>
                           </div>
                         </div>
