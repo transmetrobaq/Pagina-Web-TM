@@ -5250,6 +5250,35 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
+                              <li className="list-group-item list-group-item-action ">
+                                2023
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_DEFINITIVO_AUDITORIA_PQRSDF_I_SEMESTRE_2023_772c3e9ab3.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe definitivo auditoria PQRSDf I semestre 2023
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_DEFINITIVO_AUDITORIA_PQRSDF_II_SEM_2023_b591a00edd.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Informe definitivo auditoria PQRSDf II semestre 2023
+                                  </a>
+                                </div>
+                              </li>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDITORIA_PQR_1_SEMESTRE_2024_8180bc49a9.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -5892,6 +5921,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_de_Gestion_Oficina_Control_Interno_vig_2023_d6cff5762c.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2023
                               </a>
                             </div>
                           </div>
