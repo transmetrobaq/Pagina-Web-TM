@@ -874,6 +874,15 @@ const Infra = () => {
                         <span>Gran Malecón</span>
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href="/sistema/rutas_alimentadoras/ruta-navidena/#rutas"
+                        role="button"
+                        alt="Ruta Navideña"
+                      >
+                        <span> Ruta Navideña </span>
+                      </a>
+                    </li>
                     {/* <li>
                       <a
                         href="/sistema/rutas_alimentadoras/ruta-mallorquin/#rutas"
