@@ -6846,7 +6846,15 @@ const Acordeon = () => {
                         rel="noreferrer"
                       >
                         2da Medición de satisfacción - Transmetro agosto 2024
-                      </a>{' '}
+                      </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/3era_Medicion_de_satisfaccion_noviembre_2024_76d1c75600.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        3era Medición de satisfacción - noviembre 2024
+                      </a>
                     </div>
                   </li>
                 </div>
