@@ -3663,6 +3663,15 @@ const Acordeon = () => {
                                   >
                                     Informe de Medición del Plan Anticorrupción
                                   </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/SEGUIMIENTO_PLAN_ANTICORRUPCION_DICIEMBRE_2024_0eb1e30e16.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    
+                                     Seguimiento plan anticorrupción diciembre 2024
+                                  </a>
                                 </div>
                               </li>
                             </div>
