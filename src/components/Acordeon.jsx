@@ -6315,6 +6315,23 @@ const Acordeon = () => {
                             >
                               Informe pqrsdf trimestre Abril - Junio 2024
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_PQRSDF_Tercer_trimestre_1_de_julio_a_30_de_septiembre_del_2024_DEFINITIVO_f60ca6c382.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe de gestión pqrsdf
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_PQRSDF_Tercer_trimestre_1_de_julio_a_30_de_septiembre_del_2024_DEFINITIVO_f60ca6c382.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              
+                               Informe de gestión pqrsdf - 1 octubre a 31 de diciembre
+                            </a>
                           </div>
                         </li>
                       </div>
@@ -6701,7 +6718,7 @@ const Acordeon = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item">
+                    {/* <div className="accordion-item">
                       <h2
                         className="accordion-header"
                         id="panelsStayOpen-headingSixTwoOneTwo"
@@ -6735,7 +6752,7 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
