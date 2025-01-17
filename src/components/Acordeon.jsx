@@ -3831,6 +3831,22 @@ const Acordeon = () => {
                                   >
                                     Primer seguimiento Compilado
                                   </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/2do_sgto_Planes_de_Accion_2024_Compilado_70a4f5d506.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     2do seguimiento compilado Gestión
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/2do_sgto_Planes_de_Accion_2024_Compilado_MIPG_f049df89b1.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     2do seguimiento compilado MIPG
+                                  </a>
                                 </div>
                               </li>
                             </div>
