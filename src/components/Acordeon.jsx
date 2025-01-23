@@ -3847,6 +3847,22 @@ const Acordeon = () => {
                                   >
                                      2do seguimiento compilado MIPG
                                   </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/SEGUIMIENTO_PLAN_DE_ACCION_GESTION_VIG_2024_CONTROL_INTERNO_6768e76839.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     Seguimiento plan de acción gestión Vig 2024 
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/SEGUIMIENTO_PLAN_DE_ACCION_MIPG_VIG_2024_CONTROL_INTERNO_814501cc42.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     Seguimiento plan de acción MIPG vig 2024
+                                  </a>
                                 </div>
                               </li>
                             </div>
