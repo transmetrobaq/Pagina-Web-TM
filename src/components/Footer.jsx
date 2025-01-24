@@ -285,28 +285,31 @@ const Footer = () => {
         <div className="container text-center gobiIcon">
           <div className="row g-2 align-items-center justify-content-evenly ">
             <div className="col">
-              {' '}
+            <a href="https://www.gov.co/" target="_blank" rel="noopener noreferrer">
               <img
                 className="gobiIcon_Pres img-fluid"
                 src="https://apiwebtm.com/uploads/icosn_20_8b497e7f22.png"
                 alt="Logo Presidencia"
               />
+              </a>
             </div>
             <div className="col">
-              {' '}
+            <a href="https://www.barranquilla.gov.co/" target="_blank" rel="noopener noreferrer">
               <img
                 className="gobiIcon_Alcal img-fluid"
                 src="https://apiwebtm.com/uploads/logo_alcaldia_c6054f4065.svg"
                 alt="Logo Alcaldia de Barranquilla"
               />
+              </a>
             </div>
             <div className="col-md-2">
-              {' '}
+            <a href="https://mintransporte.gov.co/" target="_blank" rel="noopener noreferrer">
               <img
                 className="gobiIcon_MinTrans img-fluid"
                 src="https://apiwebtm.com/uploads/Mintransporte_39c7a45771.png"
                 alt="Logo Mintransporte"
               />
+              </a>
             </div>
             <div className="col">
               {' '}
@@ -317,11 +320,13 @@ const Footer = () => {
               />
             </div>
             <div className="col">
+            <a href="https://www.ambq.gov.co/" target="_blank" rel="noopener noreferrer">
               <img
                 className="gobiIcon_AreaMetro img-fluid"
                 src="https://apiwebtm.com/uploads/AREA_METROPOLITANA_BARRANQUILLA_LOGO_ab49e2fe6d.png"
                 alt="Logo Area Metropolitana de Barranquilla"
               />
+              </a>
             </div>
           </div>
           <div className="col-md-12">
