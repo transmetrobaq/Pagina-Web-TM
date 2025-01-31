@@ -3046,6 +3046,14 @@ const Acordeon = () => {
                             </a>
                           </div>
                         </li>
+                        <a
+                          href="https://apiwebtm.com/uploads/PROYECTO_DE_PRESUPUESTO_VIGENCIA_2025_801b4c3a41.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2025
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -3289,6 +3297,14 @@ const Acordeon = () => {
                               >
                                 2024
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PETI_2024_2027_3e4443b63b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3357,6 +3373,14 @@ const Acordeon = () => {
                               >
                                 2024
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_TRATAMIENTO_DE_RIESGOS_DE_SEGURIDAD_Y_PRIVACIDAD_DE_LA_INFORMACION_ea4f3d75b1.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3424,6 +3448,14 @@ const Acordeon = () => {
                               >
                                 2024
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_SEGURIDAD_Y_PRIVACIDAD_DE_LA_INFORMACION_caae962cb7.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3442,7 +3474,8 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourThreeFour"
                           >
-                            Plan Anticorrupción y de Atención al Ciudadano
+                            Plan Anticorrupción y de Atención al Ciudadano /
+                            Programa de Transparencia y Ética Pública
                           </button>
                         </h2>
                         <div
@@ -3674,6 +3707,14 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
+                              <a
+                                href="https://apiwebtm.com/uploads/Programa_de_Transp_y_Etica_Publica_PTEP_5f46e77912.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -3837,7 +3878,7 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                     2do seguimiento compilado Gestión
+                                    2do seguimiento compilado Gestión
                                   </a>
                                   <a
                                     href="https://apiwebtm.com/uploads/2do_sgto_Planes_de_Accion_2024_Compilado_MIPG_f049df89b1.pdf"
@@ -3845,7 +3886,7 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                     2do seguimiento compilado MIPG
+                                    2do seguimiento compilado MIPG
                                   </a>
                                   <a
                                     href="https://apiwebtm.com/uploads/SEGUIMIENTO_PLAN_DE_ACCION_GESTION_VIG_2024_CONTROL_INTERNO_6768e76839.pdf"
@@ -3853,7 +3894,7 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                     Seguimiento plan de acción gestión Vig 2024 
+                                    Seguimiento plan de acción gestión Vig 2024
                                   </a>
                                   <a
                                     href="https://apiwebtm.com/uploads/SEGUIMIENTO_PLAN_DE_ACCION_MIPG_VIG_2024_CONTROL_INTERNO_814501cc42.pdf"
@@ -3861,7 +3902,28 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                     Seguimiento plan de acción MIPG vig 2024
+                                    Seguimiento plan de acción MIPG vig 2024
+                                  </a>
+                                </div>
+                              </li>
+                              <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Plan_de_Accion_2025_Compilado_a2c545d41a.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Plan de Acción 2025 Compilado
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Plan_de_Accion_2025_Compilado_Gestion_b46db0138c.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Plan de Acción 2025 Compilado Gestión
                                   </a>
                                 </div>
                               </li>
@@ -3941,6 +4003,14 @@ const Acordeon = () => {
                               >
                                 2024
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_ESTRATEGICO_DE_TALENTO_HUMANO_2025_b49e6260e4.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -4008,6 +4078,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2023
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_TRABAJO_SGSST_2025_TRANSMETRO_a98d7367ec.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
                               </a>
                             </div>
                           </div>
@@ -4109,6 +4187,14 @@ const Acordeon = () => {
                               >
                                 2024
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_Plan_Institucional_de_Capacitacion_2025_cbde8a2fe6.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -4208,6 +4294,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2024
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Bienestar_Laboral_Social_y_de_Incentivos_2025_3a52bd89fd.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
                               </a>
                             </div>
                           </div>
@@ -4384,6 +4478,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2024
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PINAR_TRANSMETRO_2025_ACTUALIZACION_1eed493f6b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
                               </a>
                             </div>
                           </div>
@@ -6088,6 +6190,14 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
+                              <a
+                                href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PARAMETRIZADO_DEL_SCI_JUL_DIC_2024_fb759b8450.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
                             </div>
                           </div>
                         </div>
