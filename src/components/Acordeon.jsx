@@ -307,6 +307,14 @@ const Acordeon = () => {
                       >
                         Escala salarial - Transmetro 2024
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Directorio_funcionarios_TM_2025_a06266bd81.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Directorio de funcionarios - Transmetro 2025
+                      </a>
                     </div>
                   </div>
                 </div>
