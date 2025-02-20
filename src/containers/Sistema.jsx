@@ -44,14 +44,14 @@ const Sistema = () => (
               <p className="card-text">
              
 
-              El servicio tiene un costo de <span> $3.100 en días hábiles (lunes a sábado) 
-              y $3.200 para los días domingos y festivos (vigente desde 15 de febrero de 2024). </span>
-               El mismo es descontado de la tarjeta inteligente al pasar por los validadores en 
-               los portales, estaciones o servicios alimentadores. <span> El costo de la Tarjeta Inteligente 
-               Sin Contacto es de $4.000 </span>, se puede adquirir en las taquillas de las estaciones del Sistema.
-                Además, <span> se puede personalizar en el Punto de Atención al Cliente de la estación Joe Arroyo. </span> 
-                Con el valor de un pasaje se puede utilizar el servicio cuantas veces se requiera siempre y
-                 cuando el usuario permanezca en las estaciones. <span>
+      El servicio tiene un costo de <span>  $3.300 en días hábiles (lunes a sábado)
+     y $3.400 para los días domingos y festivos (vigente desde 1 de enero de 2025) </span>
+     El mismo es descontado de la tarjeta inteligente al pasar por los validadores en 
+     los portales, estaciones o servicios alimentadores. <span> El costo de la Tarjeta Inteligente
+     Sin Contacto es de $4.000  </span>, se puede adquirir en las taquillas de las estaciones del Sistema.
+      Además, <span> se puede personalizar en el Punto de Atención al Cliente de la estación Joe Arroyo. </span> 
+      Con el valor de un pasaje se puede utilizar el servicio cuantas veces se requiera siempre y
+       cuando el usuario permanezca en las estaciones. <span>
                   <a
                     className="fw-bold text-decoration-none"
                     style={{ color: '#e30613' }}
