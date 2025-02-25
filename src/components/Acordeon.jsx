@@ -1187,6 +1187,21 @@ const Acordeon = () => {
                                     </a>
                                   </div>
                                 </li>
+                                <li className="list-group-item list-group-item-action ">
+                                  2025
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Resolucion_Compensacion_laboral_Semana_Santa_7e7616697b.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                     Resolución para Semana Santa
+                                    </a>
+                                    
+                                   
+                                  </div>
+                                </li>
                               </div>
                             </div>
                           </div>
