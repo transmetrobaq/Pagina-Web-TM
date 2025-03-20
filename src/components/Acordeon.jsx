@@ -5194,6 +5194,14 @@ const Acordeon = () => {
                               >
                                 2023
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_SOFTWARE_LEGAL_vig_2024_87e5774526.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
                             </div>
                           </div>
                         </div>
