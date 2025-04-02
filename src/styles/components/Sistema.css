@@ -515,6 +515,12 @@ font-weight: bold;
     text-align: center;
     /* font-size: 4.5vw; */
   }
+  .car-movilizados P {
+    /* flex-wrap: wrap; */
+    text-align: center;
+    /* font-size: 4.5vw; */
+  }
+
 }
 
 /* RUTA */

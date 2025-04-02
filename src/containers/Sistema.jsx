@@ -662,6 +662,7 @@ const Sistema = () => (
               <h2>
                 <span>65.000 Usuarios Movilizados</span> diariamente en promedio
               </h2>
+              <p className="text-white">Última actualización 11 de marzo de 2025</p>
             </div>
           </div>
         </div>
