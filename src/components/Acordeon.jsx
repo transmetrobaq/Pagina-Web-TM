@@ -1196,10 +1196,8 @@ const Acordeon = () => {
                                       target="_blank"
                                       rel="noreferrer"
                                     >
-                                     Resolución para Semana Santa
+                                      Resolución para Semana Santa
                                     </a>
-                                    
-                                   
                                   </div>
                                 </li>
                               </div>
@@ -8076,6 +8074,43 @@ const Acordeon = () => {
                         >
                           RC CONTADURIA GENERAL DE LA NACION 2023
                         </a>
+                        <li className="list-group-item list-group-item-action ">
+                          2024
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINANCIERO_enero_marzo_2024_0799d40fca.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              INFORME FINANCIERO enero-marzo-2024
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINANCIERO_abril_junio_2024_3b06464979.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              INFORME FINANCIERO abril-junio-2024
+                            </a>{' '}
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINANCIERO_julio_sep_2024_a476c6d6d4.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              INFORME FINANCIERO julio-sep-2024
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINANCIERO_oct_dic_2024_87945cc701.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              INFORME FINANCIERO oct-dic-2024
+                            </a>
+                          </div>
+                        </li>
                       </div>
                     </div>
                   </div>
