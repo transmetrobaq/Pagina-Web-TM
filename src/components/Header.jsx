@@ -40,14 +40,13 @@ const Header = () => {
       >
         {/* start carusel items */}
         <div className="carousel-inner">
-          {/* <div className="carousel-item active" data-bs-interval="2000">
+           <div className="carousel-item active" data-bs-interval="2000">
             <img
-              src="https://apiwebtm.com/uploads/BANNER_47ebdb744c.png"
-              className="w-100 img-fluid"
+               src="https://apiwebtm.com/uploads/Banner_Cumpleanos_de_Barranquilla_OK_662d3ffb27.jpg"
+               className="w-100 img-fluid"
               alt="..."
             />
-          </div> */}
-
+          </div> 
           {/* <div className="carousel-item " data-bs-interval="2000">
             <img
               src="https://apiwebtm.com/uploads/IMG_9512_76b844202b.JPG"
@@ -65,7 +64,7 @@ const Header = () => {
           </div> */}
 {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abaj */}
 
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item " data-bs-interval="10000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
