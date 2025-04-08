@@ -17,7 +17,8 @@ const Eventos = () => {
   const [evento, setEvento] = useState([]);
   const [start, setStart] = useState('2022-01-01');
   const [limit, setLimit] = useState('2022-01-31');
-  const AP = `https://apiwebtm.com/eventos?fecha_gte=${start}&fecha_lte=${limit}`;
+  // const AP = `https://apiwebtm.com/eventos?fecha_gte=${start}&fecha_lte=${limit}`;
+  const AP = `https://apiwebtm.com/eventos?fecha_gte=${start}&fecha_lte=${limit}&_sort=fecha:ASC`;
   useEffect(async () => {
     /* Get Api Filtrada inicio-limite-Descendente */
     const reseve = await axios.get(AP);
