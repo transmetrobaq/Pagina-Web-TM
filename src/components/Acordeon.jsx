@@ -4101,6 +4101,14 @@ const Acordeon = () => {
                                 2023
                               </a>
                               <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO_2024_TRANSMETRO_V6_2_ef55e1716b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
+                              <a
                                 href="https://apiwebtm.com/uploads/PLAN_DE_TRABAJO_SGSST_2025_TRANSMETRO_a98d7367ec.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
