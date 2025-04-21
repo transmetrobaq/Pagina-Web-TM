@@ -3065,6 +3065,15 @@ const Acordeon = () => {
                             >
                               Presupuesto de Ingresos y Gastos 2024
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/EEFF_FINACIEROS_2024_2023_06b077dd73.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             
+                             EEFF Financieros 2024-2023
+                            </a>
                           </div>
                         </li>
                         <a
