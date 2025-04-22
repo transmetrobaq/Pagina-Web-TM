@@ -2671,8 +2671,16 @@ const Acordeon = () => {
                             >
                               Relacion de contratos 2024
                             </a>{' '}
-                          </div>
+                            </div>
                         </li>
+                        <a
+                          href="https://apiwebtm.com/uploads/Contratos_Primer_Trimestre_de_2025_63900465b3.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2025
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -3071,7 +3079,7 @@ const Acordeon = () => {
                               target="_blank"
                               rel="noreferrer"
                             >
-                             
+ 
                              EEFF Financieros 2024-2023
                             </a>
                           </div>
