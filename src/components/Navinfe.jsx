@@ -23,7 +23,7 @@ const Navinfe = () => {
                   >
                     <picture>
                       <img
-                        src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                        src="https://apiwebtm.com/uploads/ICON_TMO_27a8e45897.png"
                         className="card-img-top "
                         alt="Icono Transmetro"
                       />
@@ -40,7 +40,7 @@ const Navinfe = () => {
                   >
                     <picture>
                       <img
-                        src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                        src="https://apiwebtm.com/uploads/ICON_TMO_27a8e45897.png"
                         className="card-img-top "
                         alt="Icono Transmetro"
                       />
@@ -57,7 +57,7 @@ const Navinfe = () => {
                   >
                     <picture>
                       <img
-                        src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                        src="https://apiwebtm.com/uploads/ICON_TMO_27a8e45897.png"
                         className="card-img-top "
                         alt="Icono Transmetro"
                       />
@@ -76,7 +76,7 @@ const Navinfe = () => {
                   >
                     <picture>
                       <img
-                        src="https://apiwebtm.com/uploads/icosn_41_00e5906fea.png"
+                        src="https://apiwebtm.com/uploads/ICON_TMO_27a8e45897.png"
                         className="card-img-top "
                         alt="Icono Transmetro"
                       />

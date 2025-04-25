@@ -11,7 +11,7 @@ margin-left: 0.625rem;
 .navbar__card a {
   color: #004f9f !important;
   text-decoration: none;
-   
+
 }
 
 .navbar__card a:hover {
@@ -41,9 +41,10 @@ margin-left: 0.625rem;
 /* @media sreem */
 @media screen and (max-width: 992px) {
   img {
-    width: 232px;
-    height: 61px;
+    max-width: 232px; /* Ajusta el ancho máximo */
+    height: auto; /* Mantiene la proporción de la imagen */
     
+    margin: 0 auto; /* Centra la imagen horizontalmente */
   }
  
 }

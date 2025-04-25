@@ -557,7 +557,7 @@ const Transmetro = () => {
                   <div className="row g-0 cardbox">
                     <div className="col-md-2">
                       <img
-                        src="https://apiwebtm.com/uploads/icosn_42_28bca68ce7.png"
+                        src="https://apiwebtm.com/uploads/TMO_eb4f4b7277.png"
                         className="img-fluid rounded-start"
                         alt="logo transmetro"
                         style={{
