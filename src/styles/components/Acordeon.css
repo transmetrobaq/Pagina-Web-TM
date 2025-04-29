@@ -90,3 +90,12 @@
   margin-top: 10px;
   margin-bottom: 40px;
 }
+
+.btn-transparencia {
+  transition: transform 0.3s ease,
+   box-shadow 0.3s ease;
+}
+.btn-transparencia:hover {
+  transform: scale(1.02); /* Aumenta ligeramente el tamaño */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
