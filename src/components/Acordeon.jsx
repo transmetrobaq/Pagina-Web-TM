@@ -6577,8 +6577,22 @@ const Acordeon = () => {
                               Informe de gestión pqrsdf - 1 octubre a 31 de
                               diciembre
                             </a>
+                            
                           </div>
                         </li>
+                        <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Informe_de_gestion_PQRSDF_1_DE_ENERO_A_31_DE_MARZO_DE_2025_pdf_cd1bf7f825.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     Informe PQRSDF primer trimestre 2025
+                                  </a>
+                                </div>
+                              </li>
                       </div>
                     </div>
                   </div>
