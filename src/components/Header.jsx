@@ -40,13 +40,7 @@ const Header = () => {
       >
         {/* start carusel items */}
         <div className="carousel-inner">
-           <div className="carousel-item" data-bs-interval="2000">
-            <img
-               src="https://apiwebtm.com/uploads/Banner_Cumpleanos_de_Barranquilla_OK_662d3ffb27.jpg"
-               className="w-100 img-fluid"
-              alt="..."
-            />
-          </div> 
+           
           {/* <div className="carousel-item " data-bs-interval="2000">
             <img
               src="https://apiwebtm.com/uploads/IMG_9512_76b844202b.JPG"
@@ -77,7 +71,7 @@ const Header = () => {
               <div className="linea-coloresHeader" />
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
+          <div className="carousel-item" data-bs-interval="3000">
             <img
               src={`https://apiwebtm.com${noti2.url}`}
               className="w-100 img-fluid"
