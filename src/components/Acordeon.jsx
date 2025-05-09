@@ -315,6 +315,14 @@ const Acordeon = () => {
                       >
                         Directorio de funcionarios - Transmetro 2025
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/Directorio_de_contratistas_Transmetro_05_2025_858ce66267.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Directorio de contratistas - Transmetro 05-2025
+                      </a>
                     </div>
                   </div>
                 </div>
