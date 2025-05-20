@@ -120,14 +120,52 @@ const Info = () => {
         </div>
       </div>
 
-      {/* Movilizados */}
-      <div className="container-xxl" style={{ padding: '0px' }}>
+      {/* VIDEO MONTADO EN  DE STRAPPI  */}
+      {/* <div className="container-xxl" style={{ padding: '0px' }}>
         <video id="videoHome" autoPlay loop muted className=" ratio ratio-16x9">
           <source
             src="https://apiwebtm.com/uploads/Transmetro_baad68f747.mp4"
             type="video/mp4"
           />
         </video>
+      </div> */}
+
+      {/* Movilizados */}
+      <div
+        className="video-container"
+        style={{
+          position: 'relative',
+          width: '100%',
+          paddingTop: '56.25%',
+          backgroundColor: 'white',
+        }}
+      >
+        <iframe
+          id="videoHome"
+          src="https://www.youtube.com/embed/lP_YVKwBCls?autoplay=1&loop=1&mute=1&playlist=lP_YVKwBCls&controls=0&showinfo=0&modestbranding=1&vq=hd1080"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          title="Video Home"
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+          }}
+        />
+        {/* Superposición para bloquear interacción */}
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            zIndex: 1,
+          }}
+        />
       </div>
 
       <div className="container" style={{ marginBottom: '50px' }}>
@@ -138,7 +176,7 @@ const Info = () => {
                 <div className="card-body usu-movilizados ">
                   <h2 className="card-text ">Usuarios Movilizados</h2>
                   <p className="card-text">
-                  Desde  el 10 de julio de 2010 hasta <br />4 de mayo de 2025
+                    Desde el 10 de julio de 2010 hasta <br />4 de mayo de 2025
                     <button
                       type="button"
                       className="btn text-white "
@@ -198,31 +236,30 @@ const Info = () => {
                   </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                  <tr>
                     <td>ENERO 2025</td>
                     <td>1.391.341</td>
-                    </tr>
-                    <tr>
+                  </tr>
+                  <tr>
                     <td>FEBRERO 2025</td>
-                     <td>1.649.161</td>
-                    </tr>
-                    <tr>
+                    <td>1.649.161</td>
+                  </tr>
+                  <tr>
                     <td>MARZO 2025</td>
-                     <td>1.626.816</td>
-                    </tr>
-                    <tr>
+                    <td>1.626.816</td>
+                  </tr>
+                  <tr>
                     <td>ABRIL 2025</td>
-                     <td>1.518.109</td>
-                    </tr>
-                  
-                  </tbody>
+                    <td>1.518.109</td>
+                  </tr>
+                </tbody>
               </table>
               <div className="accordion-item">
                 <h2
                   className="accordion-header"
                   id="panelsStayOpen-headingtwentyfour"
                 >
-                  <button 
+                  <button
                     className="accordion-button collapsed azul-lt"
                     type="button"
                     data-bs-toggle="collapse"
@@ -240,64 +277,64 @@ const Info = () => {
                 >
                   <div className="accordion-body">
                     <div className="list-group">
-                    <table className="table table-bordered azul-lt ">
-                <thead>
-                  <tr>
-                    <th scope="col">Periodos</th>
-                    <th scope="col">Número de movilizados</th>
-                  </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td>ENERO 2024</td>
-                    <td>1.450.725</td>
-                    </tr>
-                    <tr>
-                    <td>FEBRERO 2024</td>
-                     <td>1.689.716 </td>
-                    </tr>
-                    <tr>
-                    <td>MARZO 2024</td>
-                   <td>1.652.162 </td>
-                   </tr>
-                   <tr>
-                    <td>ABRIL 2024</td>
-                   <td>1.817.671</td>
-                   </tr>
-                   <tr>
-                    <td>MAYO 2024</td>
-                   <td>1.050.529</td>
-                   </tr>
-                   <tr>
-                    <td>JUNIO 2024</td>
-                   <td>1.586.763</td>
-                   </tr>
-                   <tr>
-                    <td>JULIO 2024</td>
-                   <td>1.721.825</td>
-                   </tr>
-                   <tr>
-                    <td>AGOSTO 2024</td>
-                   <td>1.920.985</td>
-                   </tr>
-                   <tr>
-                    <td>SEPTIEMBRE 2024</td>
-                   <td>1.793.217</td>
-                   </tr>
-                   <tr>
-                    <td>OCTUBRE 2024</td>
-                   <td>1.936.322</td>
-                   </tr>
-                   <tr>
-                    <td>NOVIEMBRE 2024</td>
-                   <td>1.776.987</td>
-                   </tr>
-                   <tr>
-                    <td>DICIEMBRE 2024</td>
-                   <td> 1.236.406</td>
-                   </tr>
-                  </tbody>
-              </table>
+                      <table className="table table-bordered azul-lt ">
+                        <thead>
+                          <tr>
+                            <th scope="col">Periodos</th>
+                            <th scope="col">Número de movilizados</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>ENERO 2024</td>
+                            <td>1.450.725</td>
+                          </tr>
+                          <tr>
+                            <td>FEBRERO 2024</td>
+                            <td>1.689.716 </td>
+                          </tr>
+                          <tr>
+                            <td>MARZO 2024</td>
+                            <td>1.652.162 </td>
+                          </tr>
+                          <tr>
+                            <td>ABRIL 2024</td>
+                            <td>1.817.671</td>
+                          </tr>
+                          <tr>
+                            <td>MAYO 2024</td>
+                            <td>1.050.529</td>
+                          </tr>
+                          <tr>
+                            <td>JUNIO 2024</td>
+                            <td>1.586.763</td>
+                          </tr>
+                          <tr>
+                            <td>JULIO 2024</td>
+                            <td>1.721.825</td>
+                          </tr>
+                          <tr>
+                            <td>AGOSTO 2024</td>
+                            <td>1.920.985</td>
+                          </tr>
+                          <tr>
+                            <td>SEPTIEMBRE 2024</td>
+                            <td>1.793.217</td>
+                          </tr>
+                          <tr>
+                            <td>OCTUBRE 2024</td>
+                            <td>1.936.322</td>
+                          </tr>
+                          <tr>
+                            <td>NOVIEMBRE 2024</td>
+                            <td>1.776.987</td>
+                          </tr>
+                          <tr>
+                            <td>DICIEMBRE 2024</td>
+                            <td> 1.236.406</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>
@@ -307,7 +344,7 @@ const Info = () => {
                   className="accordion-header"
                   id="panelsStayOpen-headingOneTwo"
                 >
-                  <button 
+                  <button
                     className="accordion-button collapsed azul-lt"
                     type="button"
                     data-bs-toggle="collapse"
@@ -325,65 +362,64 @@ const Info = () => {
                 >
                   <div className="accordion-body">
                     <div className="list-group">
-                    <table className="table table-bordered azul-lt ">
-                <thead>
-                  <tr>
-                    <th scope="col">Periodos</th>
-                    <th scope="col">Número de movilizados</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>ENERO 2023</td>
-                    <td>1.715.024</td>
-                  </tr>
-                  <tr>
-                    <td>FEBRERO 2023</td>
-                    <td>1.762.217</td>
-                  </tr>
-                  <tr>
-                    <td>MARZO 2023</td>
-                    <td>2.038.823</td>
-                  </tr>
-                  <tr>
-                    <td>ABRIL 2023</td>
-                    <td>1.865.807</td>
-                  </tr>
-                  <tr>
-                    <td>MAYO 2023</td>
-                     <td>2.030.323</td>
-                  </tr>
-                  <tr>
-                    <td>JUNIO 2023</td>
-                     <td>1.801.871</td>
-                  </tr>
-                  <tr>
-                    <td>JULIO 2023</td>
-                     <td>1.827.832</td>
-                  </tr>
-                  <tr>
-                    <td>AGOSTO 2023</td>
-                     <td>2.047.876</td>
-                  </tr>
-                  <tr>
-                    <td>SEPTIEMBRE 2023 </td>
-                     <td>2.023.041</td>
-                  </tr>
-                  <tr>
-                    <td>OCTUBRE 2023 </td>
-                     <td>1.850.642</td>
-                  </tr>
-                  <tr>
-                    <td> NOVIEMBRE 2023 </td>
-                     <td>1.724.582</td>
-                  </tr>
-                  <tr>
-                    <td> DICIEMBRE 2023 </td>
-                     <td>1.593.214</td>
-                  </tr>
-
-                </tbody>
-              </table>
+                      <table className="table table-bordered azul-lt ">
+                        <thead>
+                          <tr>
+                            <th scope="col">Periodos</th>
+                            <th scope="col">Número de movilizados</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>ENERO 2023</td>
+                            <td>1.715.024</td>
+                          </tr>
+                          <tr>
+                            <td>FEBRERO 2023</td>
+                            <td>1.762.217</td>
+                          </tr>
+                          <tr>
+                            <td>MARZO 2023</td>
+                            <td>2.038.823</td>
+                          </tr>
+                          <tr>
+                            <td>ABRIL 2023</td>
+                            <td>1.865.807</td>
+                          </tr>
+                          <tr>
+                            <td>MAYO 2023</td>
+                            <td>2.030.323</td>
+                          </tr>
+                          <tr>
+                            <td>JUNIO 2023</td>
+                            <td>1.801.871</td>
+                          </tr>
+                          <tr>
+                            <td>JULIO 2023</td>
+                            <td>1.827.832</td>
+                          </tr>
+                          <tr>
+                            <td>AGOSTO 2023</td>
+                            <td>2.047.876</td>
+                          </tr>
+                          <tr>
+                            <td>SEPTIEMBRE 2023 </td>
+                            <td>2.023.041</td>
+                          </tr>
+                          <tr>
+                            <td>OCTUBRE 2023 </td>
+                            <td>1.850.642</td>
+                          </tr>
+                          <tr>
+                            <td> NOVIEMBRE 2023 </td>
+                            <td>1.724.582</td>
+                          </tr>
+                          <tr>
+                            <td> DICIEMBRE 2023 </td>
+                            <td>1.593.214</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>
