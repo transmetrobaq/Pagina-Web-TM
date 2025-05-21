@@ -5417,6 +5417,14 @@ const Acordeon = () => {
                                   >
                                     Plan de mejora CDB vig 2022
                                   </a>
+                                   <a
+                                    href="https://apiwebtm.com/uploads/ULTIMO_SEGUIMIENTO_PLAN_DE_MEJORA_VIG_2022_663d2fd6df.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Último seguimiento-Plan de mejora CDB vig. 2022
+                                  </a>
                                 </div>
                               </li>
                             </div>
