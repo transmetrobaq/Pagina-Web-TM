@@ -6425,6 +6425,14 @@ const Acordeon = () => {
                                   >
                                     Evaluación por dependencia (OCI)
                                   </a>
+                                     <a
+                                    href="https://apiwebtm.com/uploads/EVALUACION_FINAL_POR_DEPENDENCIA_VIGENCIA_2024_compressed_6270701d33.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     Evaluación final por dependencia (OCI)
+                                  </a>
                                 </div>
                               </li>
                             </div>
