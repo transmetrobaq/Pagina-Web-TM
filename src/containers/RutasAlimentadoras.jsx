@@ -171,7 +171,7 @@ const RutasAlimentadoras = () => {
       </center>
 
       <img
-        src="https://apiwebtm.com/uploads/Buspadron_d3d3bafa33.jpg"
+        src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
         className="card-img-top mx-auto d-block"
         alt="icono"
       />

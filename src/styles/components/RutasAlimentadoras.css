@@ -33,6 +33,11 @@
   color: #002856;
   margin-bottom: 5px;
 }
+.rutali__cards img {
+  width: 254px;
+  margin-top: 50px;
+}
+
 .tabs h1 {
   margin: 0;
   line-height: 2;

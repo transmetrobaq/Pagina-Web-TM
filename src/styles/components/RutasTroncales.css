@@ -22,18 +22,18 @@
   background-color: #00a13a;
 }
 
-.rutali__cards {
+.rutatron__cards {
   margin-top: 50px;
   margin-bottom: 100px;
 }
-.rutali__cards p {
+.rutatron__cards p {
   margin-top: 10px;
   font-size: 18px;
   line-height: 1.8;
   color: #002856;
   margin-bottom: 5px;
 }
-.rutali__cards img {
+.rutatron__cards img {
   width: 300px;
   margin-top: 50px;
 }

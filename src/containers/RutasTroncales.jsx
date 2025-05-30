@@ -25,7 +25,7 @@ const RutasTroncales = () => {
 
   return (
     <div
-      className="container rutali__cards "
+      className="container rutatron__cards "
       data-bs-spy="scroll"
       data-bs-target="#navbar-Tm"
       data-bs-offset="0"
