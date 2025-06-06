@@ -258,6 +258,7 @@ const Eventos = () => {
                                   target="_blank"
                                   href="https://www.facebook.com/transmetrobaq/"
                                   rel="noreferrer"
+                                  aria-label="Facebook Transmetro"
                                 >
                                   <i className="fa fa-facebook" />
                                 </a>
@@ -268,6 +269,7 @@ const Eventos = () => {
                                   target="_blank"
                                   href="https://twitter.com/transmetrobaq"
                                   rel="noreferrer"
+                                  aria-label="X Twitter Transmetro"
                                 >
                                   <i className="fa-brands fa-x-twitter" />
                                 </a>
@@ -278,6 +280,7 @@ const Eventos = () => {
                                   target="_blank"
                                   href="https://www.instagram.com/transmetrobaq/?hl=es"
                                   rel="noreferrer"
+                                  aria-label="Instagram Transmetro"
                                 >
                                   <i className="fa fa-instagram" />
                                 </a>
