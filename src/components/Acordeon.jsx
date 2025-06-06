@@ -1206,6 +1206,14 @@ const Acordeon = () => {
                                     >
                                       Resolución para Semana Santa
                                     </a>
+                                     <a
+                                      href="https://apiwebtm.com/uploads/RESOLUCION_TARDE_CIVICA_6_DE_JUNIO_DE_2025_1_fe3bb87356.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Resolución tarde cívica 6 de junio
+                                    </a>
                                   </div>
                                 </li>
                               </div>
