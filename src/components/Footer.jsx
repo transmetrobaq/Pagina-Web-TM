@@ -141,7 +141,7 @@ const Footer = () => {
                 <div className="google__Maps">
                   <div className="card">
                     <iframe
-                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4949322696375!2d-74.81869815119148!3d11.00144401647615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42da9d4583d01%3A0xcdb3799b860f9336!2sHotel%20Standford%2C%20Cra.%2046%20%23%2082-225%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1743695197008!5m2!1ses!2sco"
+                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4988639267003!2d-74.81873370000001!3d11.00114815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d006e9f4e01%3A0x1c2bd20660cd0be0!2sTransmetro%20S.A.S.!5e0!3m2!1ses!2sco!4v1750260845748!5m2!1ses!2sco"
                       loading="lazy"
                       style={{
                         border: '0',
