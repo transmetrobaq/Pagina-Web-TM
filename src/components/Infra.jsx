@@ -735,10 +735,6 @@ const Infra = () => {
                         A5-4 <span>San Antonio</span>
                       </a>
                     </li>
-                  </ul>
-                </div>
-                <div className="col-md-6" id="ali">
-                  <ul>
                     <li>
                       <a
                         href="/sistema/rutas_alimentadoras/a5-5-manantial/#rutas"
@@ -748,6 +744,11 @@ const Infra = () => {
                         A5-5 <span>Manantial</span>
                       </a>
                     </li>
+                  </ul>
+                </div>
+                <div className="col-md-6" id="ali">
+                  <ul>
+                    
                     {/* <li>
                       <a
                         href="/sistema/rutas_alimentadoras/a5-6-desde-granabastos/#rutas"
@@ -881,6 +882,15 @@ const Infra = () => {
                         alt="Ruta Navideña"
                       >
                         <span> Ruta Navideña </span>
+                      </a>
+                    </li>
+                      <li>
+                      <a
+                        href="/sistema/rutas_alimentadoras/ruta-chevere/#rutas"
+                        role="button"
+                        alt="Nueva"
+                      >
+                        <span>Ruta Chévere</span>
                       </a>
                     </li>
                     {/* <li>
