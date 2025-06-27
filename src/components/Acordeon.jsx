@@ -323,6 +323,22 @@ const Acordeon = () => {
                       >
                         Directorio de contratistas - Transmetro 05-2025
                       </a>
+                       <a
+                        href="https://apiwebtm.com/uploads/Directorio_funcionarios_Transmetro_2025_actualizacion_17f00506d9.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Directorio funcionarios -Transmetro 2025 (Actualización)
+                      </a>
+                       <a
+                        href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2025_b8fafcc336.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Escala salarial- Transmetro 2025
+                      </a>
                     </div>
                   </div>
                 </div>
