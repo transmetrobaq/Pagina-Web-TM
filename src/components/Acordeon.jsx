@@ -6295,6 +6295,14 @@ const Acordeon = () => {
                                   >
                                     Informe pormenorizado Ene-jun 2024
                                   </a>
+                                   <a
+                                    href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PARAMETRIZADO_DEL_SCI_JUL_DIC_2024_8e006be531.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Conclusiones Informe Parametrizado Del SCI Jul-Dic 2024
+                                  </a>
                                 </div>
                               </li>
                               <a
