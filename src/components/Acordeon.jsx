@@ -3790,14 +3790,7 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              <a
-                                href="https://apiwebtm.com/uploads/Programa_de_Transp_y_Etica_Publica_PTEP_5f46e77912.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2025
-                              </a>
+                              
                               <li className="list-group-item list-group-item-action ">
                                 2025
                                 <div className="list-group">
