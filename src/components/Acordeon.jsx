@@ -3798,6 +3798,29 @@ const Acordeon = () => {
                               >
                                 2025
                               </a>
+                              <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                 <a
+                                href="https://apiwebtm.com/uploads/Programa_de_Transp_y_Etica_Publica_PTEP_5f46e77912.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Programa De Transparencia Y Ética Pública
+                              </a>
+
+                                  <a
+                                    href="https://apiwebtm.com/uploads/1_Monitoreo_Programa_de_Transparencia_y_etica_publica_37d82b7299.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    1° Monitoreo Programa de Transparencia y etica pública
+                                  </a>
+                                </div>
+                              </li>
+
                             </div>
                           </div>
                         </div>

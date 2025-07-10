@@ -66,10 +66,23 @@ margin: 0 auto;
 @media only screen and (min-width: 320px) and (max-width: 768px) { 
   .newsviewbody {
     padding: 0 10%;
+     font-size: 1em;
   }
   .newsview img {
-    
+
     width: 80vw;
-    
+
     }
+
+ .newsviewbody ul,
+  .newsviewbody ol {
+    font-size: 0.76em;
+    padding-left: 1.1em ;
+    margin-bottom: 1em ;
+  }
+  .newsviewbody li {
+    font-size: 0.95em ;
+    margin-bottom: 0.5em ;
+    line-height: 1.5 ;
+  }
 }
