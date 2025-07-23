@@ -129,7 +129,16 @@ const Acordeon = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        1.2.2 Listado de directivos
+                        1.2.2 Listado de Directivos 2024
+                      </a>
+                        <a
+                        href="https://apiwebtm.com/uploads/Directivos_TMO_2025_3da6109876.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        1.2.3 Listado de Directivos 2025
                       </a>
                     </div>
                   </div>
