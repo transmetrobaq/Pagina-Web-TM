@@ -6365,14 +6365,29 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              <a
-                                href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PARAMETRIZADO_DEL_SCI_JUL_DIC_2024_fb759b8450.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
+
+                              <li className="list-group-item list-group-item-action ">
                                 2025
-                              </a>
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PARAMETRIZADO_DEL_SCI_JUL_DIC_2024_fb759b8450.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Conclusiones informe  parametrizado
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PORMENORIZADO_En_Jun_2025_4f6f71b98f.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Conclusiones informe pormenorizado en-jun
+                                    2025
+                                  </a>
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
