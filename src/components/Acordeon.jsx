@@ -131,7 +131,7 @@ const Acordeon = () => {
                       >
                         1.2.2 Listado de Directivos 2024
                       </a>
-                        <a
+                      <a
                         href="https://apiwebtm.com/uploads/Directivos_TMO_2025_3da6109876.pdf"
                         className="list-group-item list-group-item-action"
                         aria-current="true"
@@ -262,92 +262,118 @@ const Acordeon = () => {
                 >
                   <div className="accordion-body">
                     <div className="list-group">
-                      <a
-                        href="https://apiwebtm.com/uploads/Directorio_de_funcionarios_Transmetro_2023_e8b7102319.pdf"
-                        className="list-group-item list-group-item-action"
-                        aria-current="true"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Directorio de funcionarios - Transmetro 2023
-                      </a>
-                      <a
-                        href="https://apiwebtm.com/uploads/Directorio_de_contratista_Transmetro_2023_7ebb5adfb3.pdf"
-                        className="list-group-item list-group-item-action"
-                        aria-current="true"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Directorio de contratista - Transmetro 2023
-                      </a>
-                      <a
-                        href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2023_e0775769dd.pdf"
-                        className="list-group-item list-group-item-action"
-                        aria-current="true"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Escala salarial - Transmetro 2023
-                      </a>
-                      <a
-                        href="https://apiwebtm.com/uploads/Directorio_Funcionarios_5aa46b8bb9.pdf"
-                        className="list-group-item list-group-item-action"
-                        aria-current="true"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Directorio funcionarios - Transmetro 2024
-                      </a>
-                      <a
-                        href="https://apiwebtm.com/uploads/Directorio_Contratistas_Transmetro_2024_8130ce9a0d.pdf"
-                        className="list-group-item list-group-item-action"
-                        aria-current="true"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Directorio Contratistas - Transmetro 2024
-                      </a>
-                      <a
-                        href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2024_dade60d07c.pdf"
-                        className="list-group-item list-group-item-action"
-                        aria-current="true"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Escala salarial - Transmetro 2024
-                      </a>
-                      <a
-                        href="https://apiwebtm.com/uploads/Directorio_funcionarios_TM_2025_a06266bd81.pdf"
-                        className="list-group-item list-group-item-action "
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Directorio de funcionarios - Transmetro 2025
-                      </a>
-                      <a
-                        href="https://apiwebtm.com/uploads/Directorio_de_contratistas_Transmetro_05_2025_858ce66267.pdf"
-                        className="list-group-item list-group-item-action "
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Directorio de contratistas - Transmetro 05-2025
-                      </a>
-                       <a
-                        href="https://apiwebtm.com/uploads/Directorio_funcionarios_Transmetro_2025_actualizacion_17f00506d9.pdf"
-                        className="list-group-item list-group-item-action "
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Directorio funcionarios -Transmetro 2025 (Actualización)
-                      </a>
-                       <a
-                        href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2025_b8fafcc336.pdf"
-                        className="list-group-item list-group-item-action "
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Escala salarial- Transmetro 2025
-                      </a>
+                      <li className="list-group-item list-group-item-action ">
+                        2023
+                        <div className="list-group">
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_de_funcionarios_Transmetro_2023_e8b7102319.pdf"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio de funcionarios - Transmetro 2023
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_de_contratista_Transmetro_2023_7ebb5adfb3.pdf"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio de contratista - Transmetro 2023
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2023_e0775769dd.pdf"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Escala salarial - Transmetro 2023
+                          </a>
+                        </div>
+                      </li>
+
+                      <li className="list-group-item list-group-item-action ">
+                        2024
+                        <div className="list-group">
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_Funcionarios_5aa46b8bb9.pdf"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio funcionarios - Transmetro 2024
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_Contratistas_Transmetro_2024_8130ce9a0d.pdf"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio Contratistas - Transmetro 2024
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2024_dade60d07c.pdf"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Escala salarial - Transmetro 2024
+                          </a>
+                        </div>
+                      </li>
+
+                      <li className="list-group-item list-group-item-action ">
+                        2025
+                        <div className="list-group">
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_funcionarios_TM_2025_a06266bd81.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio de funcionarios - Transmetro 2025
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_de_contratistas_Transmetro_05_2025_858ce66267.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio de contratistas - Transmetro 05-2025
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_funcionarios_Transmetro_2025_actualizacion_17f00506d9.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio funcionarios -Transmetro 2025
+                            (Actualización)
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Escala_salarial_Transmetro_2025_b8fafcc336.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Escala salarial- Transmetro 2025
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_funcionarios_2_TMO_2025_4a49f24b98.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio funcionarios 2 -TMO 2025
+                          </a>
+                        </div>
+                      </li>
                     </div>
                   </div>
                 </div>
@@ -1231,7 +1257,7 @@ const Acordeon = () => {
                                     >
                                       Resolución para Semana Santa
                                     </a>
-                                     <a
+                                    <a
                                       href="https://apiwebtm.com/uploads/RESOLUCION_TARDE_CIVICA_6_DE_JUNIO_DE_2025_1_fe3bb87356.pdf"
                                       className="list-group-item list-group-item-action "
                                       target="_blank"
@@ -2712,7 +2738,7 @@ const Acordeon = () => {
                             >
                               Relacion de contratos 2024
                             </a>{' '}
-                            </div>
+                          </div>
                         </li>
                         <a
                           href="https://apiwebtm.com/uploads/Contratos_Primer_Trimestre_de_2025_63900465b3.pdf"
@@ -3120,8 +3146,7 @@ const Acordeon = () => {
                               target="_blank"
                               rel="noreferrer"
                             >
- 
-                             EEFF Financieros 2024-2023
+                              EEFF Financieros 2024-2023
                             </a>
                           </div>
                         </li>
@@ -3279,7 +3304,7 @@ const Acordeon = () => {
                             </a>
                           </div>
                         </li>
-                         <li className="list-group-item list-group-item-action ">
+                        <li className="list-group-item list-group-item-action ">
                           2024
                           <div className="list-group">
                             <a
@@ -3799,18 +3824,18 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              
+
                               <li className="list-group-item list-group-item-action ">
                                 2025
                                 <div className="list-group">
-                                 <a
-                                href="https://apiwebtm.com/uploads/Programa_de_Transp_y_Etica_Publica_PTEP_5f46e77912.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Programa De Transparencia Y Ética Pública
-                              </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Programa_de_Transp_y_Etica_Publica_PTEP_5f46e77912.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Programa De Transparencia Y Ética Pública
+                                  </a>
 
                                   <a
                                     href="https://apiwebtm.com/uploads/1_Monitoreo_Programa_de_Transparencia_y_etica_publica_37d82b7299.pdf"
@@ -3818,11 +3843,11 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                    1° Monitoreo Programa de Transparencia y etica pública
+                                    1° Monitoreo Programa de Transparencia y
+                                    etica pública
                                   </a>
                                 </div>
                               </li>
-
                             </div>
                           </div>
                         </div>
@@ -4039,7 +4064,7 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                   Formato de seguimiento al plan de acción 1
+                                    Formato de seguimiento al plan de acción 1
                                   </a>
                                 </div>
                               </li>
@@ -5474,13 +5499,14 @@ const Acordeon = () => {
                                   >
                                     Plan de mejora CDB vig 2022
                                   </a>
-                                   <a
+                                  <a
                                     href="https://apiwebtm.com/uploads/ULTIMO_SEGUIMIENTO_PLAN_DE_MEJORA_VIG_2022_663d2fd6df.pdf"
                                     className="list-group-item list-group-item-action "
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                    Último seguimiento-Plan de mejora CDB vig. 2022
+                                    Último seguimiento-Plan de mejora CDB vig.
+                                    2022
                                   </a>
                                 </div>
                               </li>
@@ -6328,13 +6354,14 @@ const Acordeon = () => {
                                   >
                                     Informe pormenorizado Ene-jun 2024
                                   </a>
-                                   <a
+                                  <a
                                     href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PARAMETRIZADO_DEL_SCI_JUL_DIC_2024_8e006be531.pdf"
                                     className="list-group-item list-group-item-action "
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                   Conclusiones Informe Parametrizado Del SCI Jul-Dic 2024
+                                    Conclusiones Informe Parametrizado Del SCI
+                                    Jul-Dic 2024
                                   </a>
                                 </div>
                               </li>
@@ -6490,13 +6517,13 @@ const Acordeon = () => {
                                   >
                                     Evaluación por dependencia (OCI)
                                   </a>
-                                     <a
+                                  <a
                                     href="https://apiwebtm.com/uploads/EVALUACION_FINAL_POR_DEPENDENCIA_VIGENCIA_2024_compressed_6270701d33.pdf"
                                     className="list-group-item list-group-item-action "
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                     Evaluación final por dependencia (OCI)
+                                    Evaluación final por dependencia (OCI)
                                   </a>
                                 </div>
                               </li>
@@ -6679,22 +6706,21 @@ const Acordeon = () => {
                               Informe de gestión pqrsdf - 1 octubre a 31 de
                               diciembre
                             </a>
-                            
                           </div>
                         </li>
                         <li className="list-group-item list-group-item-action ">
-                                2025
-                                <div className="list-group">
-                                  <a
-                                    href="https://apiwebtm.com/uploads/Informe_de_gestion_PQRSDF_1_DE_ENERO_A_31_DE_MARZO_DE_2025_pdf_cd1bf7f825.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                     Informe PQRSDF primer trimestre 2025
-                                  </a>
-                                </div>
-                              </li>
+                          2025
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_gestion_PQRSDF_1_DE_ENERO_A_31_DE_MARZO_DE_2025_pdf_cd1bf7f825.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe PQRSDF primer trimestre 2025
+                            </a>
+                          </div>
+                        </li>
                       </div>
                     </div>
                   </div>
