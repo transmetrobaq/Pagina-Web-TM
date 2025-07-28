@@ -3,9 +3,9 @@ import React, { useEffect, useRef } from 'react';
 import '../styles/components/Publicarrusel.css';
 
 const IMAGENES = [
-  { id: 'img-1', alt: 'Promoción comercial 1', src: 'https://apiwebtm.com/uploads/Tira_comercial_1_990_KB_6fb8bd7fdc.jpg' },
-  { id: 'img-2', alt: 'Promoción comercial 2', src: 'https://apiwebtm.com/uploads/Tira_comercial_2_e8eebe2135.png' },
-  { id: 'img-3', alt: 'Promoción comercial 3', src: 'https://apiwebtm.com/uploads/Tira_comercial_3_14bf4112d2.png' },
+  { id: 'img-1', alt: 'Valla publicitaria en la estación Joe Arroyo ', src: 'https://apiwebtm.com/uploads/Tira_comercial_1_990_KB_6fb8bd7fdc.jpg' },
+  { id: 'img-2', alt: 'Alquiler de locales comerciales del Portal de Soledad', src: 'https://apiwebtm.com/uploads/Tira_comercial_2_e8eebe2135.png' },
+  { id: 'img-3', alt: 'Pantallas publicitarias en la estación Joe Arroyo', src: 'https://apiwebtm.com/uploads/Tira_comercial_3_14bf4112d2.png' },
 //   { id: 'img-4', src: 'https://apiwebtm.com/uploads/Blanco_y_Azul_Bokeh_Pagina_Web_Banner_3_a04bc3618a.png' },
 //  { id: 'img-5', src: 'https://apiwebtm.com/uploads/Blanco_y_Azul_Bokeh_Pagina_Web_Banner_3_a04bc3618a.png' },
 // { id: 'img-6', src: 'https://apiwebtm.com/uploads/Blanco_y_Azul_Bokeh_Pagina_Web_Banner_3_a04bc3618a.png' },
