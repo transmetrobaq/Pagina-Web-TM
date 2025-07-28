@@ -7917,7 +7917,7 @@ const Acordeon = () => {
                                   Demanda Diaraia_Trimestre01_2024
                                 </a>
                                  <a
-                                  href="https://apiwebtm.com/uploads/uploads/Demanda_Diaria_Trimestre02_2024_94739070a8.xlsx"
+                                  href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre02_2024_94739070a8.xlsx"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
@@ -7925,7 +7925,7 @@ const Acordeon = () => {
                                  DemandaDiaria_Trimestre02_2024
                                 </a>
                                   <a
-                                  href="https://apiwebtm.com/uploads/uploads/Demanda_Diaria_Trimestre03_2024_63e83fe412.xlsx"
+                                  href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre03_2024_63e83fe412.xlsx"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
@@ -7933,7 +7933,7 @@ const Acordeon = () => {
                                  DemandaDiaria_Trimestre03_2024
                                 </a>
                                   <a
-                                  href="https://apiwebtm.com/uploads/uploads/Demanda_Diaria_Trimestre04_2024_f426f2b738.xlsx"
+                                  href="https://apiwebtm.com/uploads/Demanda_Diaria_Trimestre04_2024_f426f2b738.xlsx"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
