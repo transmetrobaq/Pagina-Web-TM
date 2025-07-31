@@ -4488,6 +4488,14 @@ const Acordeon = () => {
                               >
                                 Programa de gestión documental
                               </a>
+                               <a
+                                href="https://apiwebtm.com/uploads/MOREQ_2025_b94c5f457b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                MOREQ 2025
+                              </a>
                             </div>
                           </div>
                         </div>
