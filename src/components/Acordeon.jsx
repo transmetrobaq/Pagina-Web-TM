@@ -2799,6 +2799,14 @@ const Acordeon = () => {
                         >
                           Manual de contratación - Resolucion No.037-2024
                         </a>
+                         <a
+                          href="https://apiwebtm.com/uploads/MODIFICACION_MANUAL_DE_CONTRATACION_RESOL_160_2025_1_772c497abe.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Modificacion manual de contratación resol 160 2025
+                        </a>
                       </div>
                     </div>
                   </div>
