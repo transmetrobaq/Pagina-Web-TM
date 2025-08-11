@@ -1265,6 +1265,14 @@ const Acordeon = () => {
                                     >
                                       Resolución tarde cívica 6 de junio
                                     </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RESOLUCION_074_DE_2025_f80ee5151f.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Resolución 074
+                                    </a>
                                   </div>
                                 </li>
                               </div>
