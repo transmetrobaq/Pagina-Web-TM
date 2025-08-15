@@ -49,7 +49,7 @@ const Sistema = () => (
      El mismo es descontado de la tarjeta inteligente al pasar por los validadores en 
      los portales, estaciones o servicios alimentadores. <span> El costo de la Tarjeta Inteligente
      Sin Contacto es de $4.000  </span>, se puede adquirir en las taquillas de las estaciones del Sistema.
-      Además, <span> se puede personalizar en el Punto de Atención al Cliente de la estación Joe Arroyo. </span> 
+      Además, <span>  se puede personalizar en los Puntos de Atención al Cliente ubicados en la estación Joe Arroyo y el Portal de Soledad. </span> 
       Con el valor de un pasaje se puede utilizar el servicio cuantas veces se requiera siempre y
        cuando el usuario permanezca en las estaciones. <span>
                   <a
@@ -214,6 +214,12 @@ const Sistema = () => (
                     </span>
                     En las rutas troncales no puede hacer uso de crédito.
                   </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fa-solid fa-circle" />
+                    </span>
+                   Para acceder al crédito, la Tarjeta Transmetro debe estar personalizada. 
+                  </li>
                 </ul>
               </div>
             </div>
@@ -251,7 +257,7 @@ const Sistema = () => (
                     <span className="fa-li">
                       <i className="fa-solid fa-circle" />
                     </span>
-                    Punto de Atención al Cliente / Estación Joe Arroyo
+                    Puntos de Atención al Cliente / Estación Joe Arroyo y Portal de Soledad
                   </li>
                 </ul>
                 <p>*A través de estos medios también se puede bloquear.</p>
