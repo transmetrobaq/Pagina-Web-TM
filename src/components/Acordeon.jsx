@@ -56,15 +56,29 @@ const Acordeon = () => {
                       >
                         1.1.1 Misión y visión
                       </a>
-                      <a
+                     
+                      <li className="list-group-item list-group-item-action ">
+                        1.1.2 Funciones y deberes
+                        <div className="list-group">
+                           <a
                         href="https://apiwebtm.com/uploads/Funciones_y_Deberes_TM_S_A_S_4d82095412.pdf"
                         className="list-group-item list-group-item-action"
                         aria-current="true"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        1.1.2 Funciones y deberes
+                        Funciones y deberes
                       </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/MANUAL_DE_FUNCIONES_TRANSMETRO_V9_1_1_10d6f220ee.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Manual de Funciones V9 - Res. 168-2025
+                          </a>{' '}
+                        </div>
+                      </li>
                       <li className="list-group-item list-group-item-action ">
                         1.1.3 Resoluciones
                         <div className="list-group">
