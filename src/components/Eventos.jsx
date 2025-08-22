@@ -271,7 +271,7 @@ const Eventos = () => {
                                   rel="noreferrer"
                                   aria-label="Facebook Transmetro"
                                 >
-                                  <i className="fa fa-facebook" />
+                                  <i className="fa-brands fa-facebook-f" />
                                 </a>
                               </li>
                               <li className="list-inline-item">
@@ -293,7 +293,7 @@ const Eventos = () => {
                                   rel="noreferrer"
                                   aria-label="Instagram Transmetro"
                                 >
-                                  <i className="fa fa-instagram" />
+                                  <i className="fa-brands fa-instagram" />
                                 </a>
                               </li>
                               {/* <li className="list-inline-item">
