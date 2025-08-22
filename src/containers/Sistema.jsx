@@ -48,7 +48,7 @@ const Sistema = () => (
      y $3.400 para los días domingos y festivos (vigente desde 1 de enero de 2025) </span>
      El mismo es descontado de la tarjeta inteligente al pasar por los validadores en 
      los portales, estaciones o servicios alimentadores. <span> El costo de la Tarjeta Inteligente
-     Sin Contacto es de $4.000  </span>, se puede adquirir en las taquillas de las estaciones del Sistema.
+     Sin Contacto es de $7.000  </span>, se puede adquirir en las taquillas de las estaciones del Sistema.
       Además, <span>  se puede personalizar en los Puntos de Atención al Cliente ubicados en la estación Joe Arroyo y el Portal de Soledad. </span> 
       Con el valor de un pasaje se puede utilizar el servicio cuantas veces se requiera siempre y
        cuando el usuario permanezca en las estaciones. <span>
