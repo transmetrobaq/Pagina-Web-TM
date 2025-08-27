@@ -71,7 +71,11 @@ const Eventos = () => {
 
          if (fch === '8') {
           setStart('2025-08-01');
-          setLimit('2025-08-30');
+          setLimit('2025-08-31');
+        }
+        if (fch === '9') {
+          setStart('2025-09-01');
+          setLimit('2025-09-30');
         }
         
     // 2024
@@ -217,6 +221,7 @@ const Eventos = () => {
           <option value="6">Junio</option>
           <option value="7">Julio</option>
           <option value="8">Agosto</option>
+          <option value="9">Septiembre</option>
           {/* <option value="2">Febrero</option>
           <option value="3">Marzo</option>
           <option value="4">Abril</option>
