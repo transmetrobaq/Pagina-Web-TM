@@ -2705,6 +2705,120 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoFour"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoFour"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoFour"
+                            >
+                              PROCESO LISTA CORTA TM-LC-001-2025
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoFour"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoFour"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <ol>
+                                  <span> Objeto: </span>
+                                  La ejecución integral de las obras civiles requeridas para la implementación 
+                                  del proyecto de acceso único al Portal de Soledad del SITM de Barranquilla y su Área Metropolitana,
+                                   Transmetro, conforme a los diseños y especificaciones técnicas establecidas.
+                                </ol>
+                                <a
+                                  href="https://apiwebtm.com/uploads/1_CARTA_DE_INVITACION_VF_PROCESO_TM_LC_001_2025_0a8234d6cb.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  1 CARTA DE INVITACIÓN VF PROCESO TM-LC-001-2025
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/2_CONVOCATORIA_VF_PROCESO_TM_LC_001_2025_46ac78aa1f.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2 CONVOCATORIA VF PROCESO TM-LC-001-2025
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/3_ANEXO_13_ANEXO_TENICO_ba20eef241.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  3 ANEXO 13 - ANEXO TENICO_
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/4_ANEXO_12_PRESUPUESTO_OFICIAL_APU_pdf_2f9c003bed.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  4 ANEXO 12 PRESUPUESTO OFICIAL - APU pdf
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/5_ANEXO_11_OFRECIMIENTO_ECONOMICO_PDF_2_21770d432e.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  5 ANEXO 11, OFRECIMIENTO ECONOMICO.PDF2
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/5_ANEXO_11_OFRECIMIENTO_ECONOMICO_d6442b985f.xlsx"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                 5 ANEXO 11, OFRECIMIENTO ECONOMICO_ 
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/6_MANUAL_DE_CONTRATACION_MODIFICACION_RESOLUCION_NO_160_2025_33c06e8973.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  6 MANUAL DE CONTRATACION - MODIFICACION  RESOLUCION NO. 160- 2025
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/7_Analisis_Sector_y_Estudio_Previo_VF_48387c2b92.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  7 Analisis Sector y Estudio Previo VF
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/8_CDP_NO_1170_2de7629798.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  8 CDP NO 1170
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/9_ANEXO_MINUTA_DEL_CONTRATO_bb04ed3e77.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  9 ANEXO MINUTA DEL CONTRATO
+                                </a>
+                               
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -7349,6 +7463,19 @@ const Acordeon = () => {
                         rel="noreferrer"
                       >
                         4era Medición de satisfacción - diciembre 2024
+                      </a>
+                    </div>
+                  </li>
+                  <li className="list-group-item list-group-item-action ">
+                    2025
+                    <div className="list-group">
+                     <a
+                        href="https://apiwebtm.com/uploads/Medicion_de_satisfaccion_julio_2025_1e1618a4b2.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Medición de satisfacción - julio 2025
                       </a>
                     </div>
                   </li>
