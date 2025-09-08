@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navinfe from './Navinfe';
 import Infra from './Infra';
+import Siu from './Siu';
 /* import Horario from './Horario'; */
 import Header from './Header';
 import Eventos from './Eventos';
@@ -50,7 +51,7 @@ const Info = () => {
       <Infra />
       {/* Horario */}
       {/* <Horario /> */}
-
+      <Siu />
       {/* Noticias */}
 
       {/* Bloque Noticias Home */}

@@ -1,0 +1,90 @@
+.cardSiu {
+
+  background-image: radial-gradient(#1e528d, #142334);
+  
+  text-shadow: 0 2px 3px hsla(0deg, 0%, 0%, 0.25);
+  /* cursor: pointer; */
+  color: white;
+  margin: 0 5px 50px 0;
+  padding: 20px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   /* box-shadow: 0 0 15px hsla(0deg, 0%, 0%, 0.5);
+  transition: 0.3s ease-in-out; */
+  border-radius: 20px;
+  /* height: 300px; */
+}
+
+
+.Text-Siu{
+    text-align: center;
+}
+.siu-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-Siu{
+ border-radius: 23px;
+  color: #ffffff;
+  border-color: #ffea00;
+  transition: background 0.3s;
+  text-align: center;
+  padding: 10px;
+  max-width: 220px;
+  width: 48%;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+
+}
+.btn-Siu:hover {
+  background-color: #ffea00; /* Cambia este color por el que prefieras */
+  color: #142334;            /* Opcional: color del texto en hover */
+  border-color: #142334;     /* Opcional: color del borde en hover */
+  transition: background 0.3s;
+}
+.img-Siu {
+  
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  
+ 
+  .cardSiu {
+    margin: 0 5px 50px 0;
+    padding: 10px 10px;
+  }
+
+  .img-Siu{
+    width: 150px;
+    height: auto;
+  }
+
+    .btn-Siu {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1rem;
+    margin-right: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
