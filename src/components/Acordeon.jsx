@@ -2822,6 +2822,14 @@ const Acordeon = () => {
                                 >
                                   9 ANEXO MINUTA DEL CONTRATO
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ADENDA_No_1_TM_LC_001_202520250910150827132771_99889bc802.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ADENDA No.1 TM-LC-001-2025
+                                </a>
                                
                               </div>
                             </div>
@@ -3997,6 +4005,14 @@ const Acordeon = () => {
                                   >
                                     1° Monitoreo Programa de Transparencia y
                                     etica pública
+                                  </a>
+                                     <a
+                                    href="https://apiwebtm.com/uploads/2do_Monitoreo_Programa_de_Transparencia_y_etica_publica_7291531e6d.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    2do Monitoreo Programa de Transparencia y ética pública
                                   </a>
                                 </div>
                               </li>
@@ -5259,6 +5275,46 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
+                              <li className="list-group-item list-group-item-action ">
+                          2020 - 2023
+                          <div className="list-group">
+                           <a
+                              href="https://apiwebtm.com/uploads/Alcaldia_balance_de_resultados_2020_2023_06d5966c7c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Alcaldía balance de resultados 2020-2023
+                            </a>
+                            <a
+                              href="https://www.barranquilla.gov.co/transparencia/planeacion/informes-de-gestion-evaluacion-y-auditoria/informe-de-rendicion-de-cuentas-a-los-ciudadanos/rendicion-de-cuentas-2020-2023"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Rendición de Cuentas 2020 – 2023
+                              (barranquilla.gov.co).
+                            </a>
+                            <a
+                              href="https://survey123.arcgis.com/share/cd7691b04eaa4ad288d9b7bed907cf67"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Formulario de Participación Rendición de Cuentas
+                              2020-2023 (arcgis.com).
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Rendicion_de_Cuentas_Informe_preliminar_de_Transmetro_78ccbc4124.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Rendición de Cuentas - Informe preliminar de
+                              Transmetro
+                            </a>
+                          </div>
+                        </li>
                             </div>
                           </div>
                         </div>
