@@ -235,6 +235,17 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <a
+                      href="https://forms.office.com/pages/responsepage.aspx?id=SEG3lKY8wUejpoDbLhALDim3VBlIiyROn5TANJAFNDxUNEQ3U1ZEVFNWTURGSkJQTjYyTktTNURWVi4u&origin=lprLink&route=shorturl"
+                      className="dropdown-item"
+                      aria-current="page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Personaliza tu Tarjeta Transmetro
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
                       href="https://apiwebtm.com/uploads/Puntos_de_recarga_Tarjeta_Transmetro_65b577c9b2.pdf"
                       className="dropdown-item"
                       aria-current="page"

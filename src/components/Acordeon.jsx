@@ -386,6 +386,14 @@ const Acordeon = () => {
                           >
                             Directorio funcionarios 2 -TMO 2025
                           </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_funcionarios_3_TMO_sept_2025_fbe8e2b566.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio funcionarios 3 TMO sept 2025
+                          </a>
                         </div>
                       </li>
                     </div>
@@ -4647,6 +4655,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 MOREQ 2025
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PROGRAMA_DE_GESTION_DOCUMENTAL_PGD_b1e3a6ccaa.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Programa de gestión documental 2024 - 2027
                               </a>
                             </div>
                           </div>
