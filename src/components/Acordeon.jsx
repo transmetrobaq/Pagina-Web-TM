@@ -7368,6 +7368,67 @@ const Acordeon = () => {
                         </div>
                       </div>
                     </div>
+                    <div className="accordion-item">
+                      <h2
+                        className="accordion-header"
+                        id="panelsStayOpen-headingSixTwoOneOne"
+                      >
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseSixTwoOneTwo"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseSixTwoOneTwo"
+                        >
+                          2024
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseSixTwoOneTwo"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSixTwoOneTwo"
+                      >
+                        <div className="accordion-body">
+                          <div className="list-group">
+                            <a
+                              href="https://barranquilla.gov.co/transparencia/participa/rendicion-de-cuentas"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Espacio para que la ciudadanía postule temáticas
+                            </a>
+                            
+                            <a
+                              href="https://barranquilla.gov.co/wp-content/uploads/2025/08/estrategia-comunicacion-rendicion-cuentas.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Estrategia de comunicación para la rendición de cuentas
+                            </a>
+                            <a
+                              href="https://barranquilla.gov.co/transparencia/planeacion/informes-de-gestion-evaluacion-y-auditoria/informe-de-rendicion-de-cuentas-a-los-ciudadanos"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe de gestión 2024 a los ciudadanos – Alcaldía de Barranquilla, Distrito Especial, Industrial y Portuario
+                            </a>
+
+                            {/* <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_2022_d0f3fdda11.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                               Informes de Gestión
+                            </a> */}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     {/* <div className="accordion-item">
                       <h2
                         className="accordion-header"
