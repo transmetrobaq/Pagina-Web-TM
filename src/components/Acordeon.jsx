@@ -2830,6 +2830,14 @@ const Acordeon = () => {
                                 >
                                   ADENDA No.1 TM-LC-001-2025
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ACTA_DE_AUDIENCIA_DE_PRESNTACION_DE_OFERTA_2b1968a45e.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACTA DE AUDIENCIA DE PRESNTACION DE OFERTA
+                                </a>
                                
                               </div>
                             </div>
