@@ -2838,6 +2838,14 @@ const Acordeon = () => {
                                 >
                                   ACTA DE AUDIENCIA DE PRESNTACION DE OFERTA
                                 </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/ACTO_ADMON_POR_LA_CUAL_SE_DESIGNA_EL_COMITE_EVALUADOR_DEL_PROCESO_TM_LC_001_2025_0a1046e585.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACTO  ADMON POR LA CUAL SE DESIGNA EL COMITE EVALUADOR   DEL PROCESO TM LC 001-2025
+                                </a>
                                
                               </div>
                             </div>
