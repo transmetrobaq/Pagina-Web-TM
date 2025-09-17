@@ -2846,7 +2846,31 @@ const Acordeon = () => {
                                 >
                                   ACTO  ADMON POR LA CUAL SE DESIGNA EL COMITE EVALUADOR   DEL PROCESO TM LC 001-2025
                                 </a>
-                               
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_JURIDICA_PROCESO_TM_LC_001_2025_f1f4c955f4.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACION JURIDICA  PROCESO TM-LC-001-2025
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_TECNICA_PROCESO_TM_LC_001_2025_f3b8247b64.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACION TECNICA  PROCESO TM-LC-001-2025
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/INFORME_EVALUACION_FINACIERA_PROCESO_TM_LC_001_2025_2325be0bf9.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INFORME  EVALUACION  FINACIERA PROCESO TM-LC-001-2025
+                                </a>
+                                
                               </div>
                             </div>
                           </div>
