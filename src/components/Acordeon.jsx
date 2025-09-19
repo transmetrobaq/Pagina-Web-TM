@@ -2957,7 +2957,7 @@ const Acordeon = () => {
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  ESUDIO PREVIO
+                                  ESTUDIO PREVIO
                                 </a>
                                  <a
                                   href="https://apiwebtm.com/uploads/8_F_CDP_1219_ECUCION_INTEGRAL_DE_OBRAS_DE_MANTENIMIENTO_10_09_2025_dd9e88d86e.pdf"
@@ -7553,6 +7553,22 @@ const Acordeon = () => {
                             >
                               Informe de gestión 2024 a los ciudadanos – Alcaldía de Barranquilla, Distrito Especial, Industrial y Portuario
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_Transmetro_2024_1_4d409ec85c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            > Informe de Gestion Transmetro 2024
+
+                              </a>
+                              <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_2024_TMO_1_1_de3c1f2d27.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            > Informe de Gestión 2024 TMO
+
+                              </a>
 
                             {/* <a
                               href="https://apiwebtm.com/uploads/Informe_de_Gestion_2022_d0f3fdda11.pdf"
