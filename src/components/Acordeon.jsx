@@ -2870,6 +2870,14 @@ const Acordeon = () => {
                                 >
                                   INFORME  EVALUACION  FINACIERA PROCESO TM-LC-001-2025
                                 </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/INFORME_DE_EVALUACION_DEFINITIVO_20250919152000134191_rotated_8fc7f65ef2.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INFORME DE EVALUACION DEFINITIVO 2025
+                                </a>
                                 
                               </div>
                             </div>
