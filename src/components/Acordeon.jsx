@@ -2983,6 +2983,14 @@ const Acordeon = () => {
                                 >
                                   9 ANEXO 16 MINUTA DEL CONTRATO (3)
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/acta_de_ofertas20250922155204134342_bfe42fe530.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                 Acta de Ofertas
+                                </a>
                                  
                               </div>
                             </div>
