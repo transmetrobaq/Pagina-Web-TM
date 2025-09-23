@@ -2878,7 +2878,14 @@ const Acordeon = () => {
                                 >
                                   INFORME DE EVALUACION DEFINITIVO 2025
                                 </a>
-                                
+                                <a
+                                  href="https://apiwebtm.com/uploads/Resolucion_No_204_2025_Adjudicacion_Proceso_TM_LC_001_2025_4c1bdb9708.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Resolución No.204-2025
+                                </a>
                               </div>
                             </div>
                           </div>
