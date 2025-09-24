@@ -4,11 +4,12 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import Breadcrumb from './Breadcrumb';
 import Publicarrusel from './Publicarrusel';
-
+import BarraGovco from './BarraGovco';
 // import '../styles/components/Layout.css';
 
 const Layout = ({ children }) => (
   <div>
+    <BarraGovco />
     <Navbar />
 
     {/* <Header /> */}

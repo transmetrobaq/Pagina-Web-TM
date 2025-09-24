@@ -1,9 +1,10 @@
 .navbar__card {
   background-color: #fff;
+   margin-top: 40px; /* Ajusta este valor al alto real de la barra GOVCO */
 }
 .navbar__card li {
   color: #004f9f;
- 
+
  
   
 margin-left: 0.625rem;
@@ -40,8 +41,8 @@ margin-left: 0.625rem;
 
 /* @media sreem */
 @media screen and (max-width: 992px) {
-  img {
-    max-width: 232px; /* Ajusta el ancho máximo */
+  .navbar__card img {
+    max-width: 80px !important;/* Ajusta el ancho máximo */
     height: auto; /* Mantiene la proporción de la imagen */
     
     margin: 0 auto; /* Centra la imagen horizontalmente */

@@ -35,7 +35,7 @@ const Header = () => {
       <div
         id="carouselExampleCaptions"
         className="carousel slide container-xxl "
-        style={{ padding: '0px' }}
+        style={{ padding: '0px'  }}
         data-bs-ride="carousel"
       >
         {/* start carusel items */}
