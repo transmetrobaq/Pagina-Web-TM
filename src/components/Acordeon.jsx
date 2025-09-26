@@ -2998,6 +2998,46 @@ const Acordeon = () => {
                                 >
                                  Acta de Ofertas
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/RESOLUCION_POR_LA_CUAL_SE_DESIGNA_EL_COMITE_EVALUADOR_272471acd8.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               RESOLUCION POR LA CUAL SE DESIGNA EL COMITE EVALUADOR
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_FINAL_rotated_6930fa57b1.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               EVALUACION FINAL_rotated
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_TECNICA_df3499255a.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               EVALUACION TECNICA
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_FINANCIERA_rotated_b2388e7845.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               EVALUACION FINANCIERA_rotated
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_JURIDICA_1_e736e5063f.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               EVALUACION JURIDICA
+                                </a>
                                  
                               </div>
                             </div>
