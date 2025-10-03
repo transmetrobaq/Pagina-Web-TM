@@ -2886,6 +2886,22 @@ const Acordeon = () => {
                                 >
                                   Resolución No.204-2025
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_FINAL_rotated_1_2_109782cc74.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               EVALUACION FINAL
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/PROPUESTA_ANTARE_COMPLETA_1_a082932ddc.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               PROPUESTA ANTARE COMPLETA
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -3038,7 +3054,22 @@ const Acordeon = () => {
                                 >
                                EVALUACION JURIDICA
                                 </a>
-                                 
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_FINAL_rotated_1_3_26ed8b7c06.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               EVALUACION FINAL
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/contrato_el_encanto20251003112527136587_558b823829.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               CONTRATO
+                                </a>
                               </div>
                             </div>
                           </div>
