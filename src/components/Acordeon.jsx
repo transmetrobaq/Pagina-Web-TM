@@ -3054,14 +3054,7 @@ const Acordeon = () => {
                                 >
                                EVALUACION JURIDICA
                                 </a>
-                                <a
-                                  href="https://apiwebtm.com/uploads/EVALUACION_FINAL_rotated_1_3_26ed8b7c06.pdf"
-                                  className="list-group-item list-group-item-action "
-                                  target="_blank"
-                                  rel="noreferrer"
-                                >
-                               EVALUACION FINAL
-                                </a>
+                                
                                  <a
                                   href="https://apiwebtm.com/uploads/contrato_el_encanto20251003112527136587_558b823829.pdf"
                                   className="list-group-item list-group-item-action "
@@ -3070,6 +3063,16 @@ const Acordeon = () => {
                                 >
                                CONTRATO
                                 </a>
+                                
+                                 <a
+                                  href="https://apiwebtm.com/uploads/RESOLUCION_POR_LA_CUAL_SE_DESIGNA_EL_COMITE_EVALUADOR_1_f8f736f18f.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               RESOLUCION POR LA CUAL SE DESIGNA EL COMITE EVALUADOR 
+                                </a>
+                                
                               </div>
                             </div>
                           </div>
