@@ -7216,6 +7216,14 @@ const Acordeon = () => {
                             >
                               Informe PQRSDF primer trimestre 2025
                             </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/INFORME_DE_GESTION_PQRSDF_1_DE_ABRIL_A_30_DE_JUNIO_DE_2025_72cb244f1d.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe PQRSDF segundo trimestre de 2025
+                            </a>
                           </div>
                         </li>
                       </div>
