@@ -3072,6 +3072,14 @@ const Acordeon = () => {
                                 >
                                RESOLUCION POR LA CUAL SE DESIGNA EL COMITE EVALUADOR 
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/PROPUESTA_PROCESO_TM_LC_002_2025_1_1_6a8c22a9e6.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                               PROPUESTA PROCESO TM LC 002-2025
+                                </a>
                                 
                               </div>
                             </div>
