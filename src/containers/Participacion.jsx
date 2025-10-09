@@ -62,6 +62,49 @@ const Participacion = () => (
             aria-labelledby="panelsStayOpen-headingPar"
           >
             <div className="accordion-body">
+            <div className="accordion-item">
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingCero"
+                >
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseCero"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseCero"
+                  >
+                     Participa/Consulta Ciudadana
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseCero"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingCero"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <li className="list-group-item list-group-item-action ">
+                        2025
+                        <div className="list-group">
+                          <a
+                            href="https://x.com/transmetrobaq/status/1976052998091559352?s=46"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                             Convocatoria: Validación Ruta de Atención Acoso Sexual Callejero en Transmetro, inscríbete aquí
+                          </a>
+                         
+                          
+                        </div>
+                      </li>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="accordion-item">
                 <h2
                   className="accordion-header"
@@ -231,6 +274,37 @@ const Participacion = () => (
                           >
                             Seguimiento Plan Anticorrupción 2024
                           </a>
+                          <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Programa_de_Transp_y_Etica_Publica_PTEP_5f46e77912.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Programa De Transparencia Y Ética Pública
+                                  </a>
+
+                                  <a
+                                    href="https://apiwebtm.com/uploads/1_Monitoreo_Programa_de_Transparencia_y_etica_publica_37d82b7299.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    1° Monitoreo Programa de Transparencia y
+                                    etica pública
+                                  </a>
+                                     <a
+                                    href="https://apiwebtm.com/uploads/2do_Monitoreo_Programa_de_Transparencia_y_etica_publica_7291531e6d.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    2do Monitoreo Programa de Transparencia y ética pública
+                                  </a>
+                                </div>
+                              </li>
                         </div>
                       </li>
                     </div>
