@@ -62,7 +62,7 @@ const Participacion = () => (
             aria-labelledby="panelsStayOpen-headingPar"
           >
             <div className="accordion-body">
-            <div className="accordion-item">
+              <div className="accordion-item">
                 <h2
                   className="accordion-header"
                   id="panelsStayOpen-headingCero"
@@ -75,7 +75,7 @@ const Participacion = () => (
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseCero"
                   >
-                     Participa/Consulta Ciudadana
+                    Participa/Consulta Ciudadana
                   </button>
                 </h2>
                 <div
@@ -85,22 +85,56 @@ const Participacion = () => (
                 >
                   <div className="accordion-body">
                     <div className="list-group">
-                      <li className="list-group-item list-group-item-action ">
+                      <li className="list-group-item ">
                         2025
+                        {/* Título */}
+                        <div className="text-center mt-2">
+                          <h5 className="fw-bold">
+                            Convocatoria: Validación Ruta Acoso Callejero
+                          </h5>
+                        </div>
+                        <div className="text-center">
+                          <div className="text-center">
+                            <a
+                              href="https://x.com/transmetrobaq/status/1976052998091559352?s=46"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <img
+                                src="https://apiwebtm.com/uploads/ROSADO_8656f7c137.jpg" // 🔸 Cambia por la URL de tu imagen
+                                alt="Afiche de Transmetro invitando a participar en la construcción del protocolo contra el acoso sexual. Evento: viernes 10 de octubre, 2:00 p. m., C.C. Los Ángeles, Auditorio Bonga. Cupos limitados. Logos de Transmetro, Alcaldía de Barranquilla y ONU Mujeres."
+                                className="img-fluid my-2"
+                                style={{
+                                  maxWidth: '300px',
+                                  borderRadius: '8px',
+                                }}
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        {/* Descripción */}
+                        <p className="mb-2" style={{ fontSize: '14px' }}>
+                          Este viernes, 10 de octubre de 2025 te invitamos a ser
+                          parte de la validación de la ruta de Prevención y
+                          Atención del Acoso en Transmetro, una iniciativa
+                          respaldada por @alcaldiabquilla y el programa
+                          #CiudadesSeguras de @ONUMujeres . Juntos construimos y
+                          preservamos un Sistema seguro para todos. Participa y
+                          suma tu voz para proteger los derechos de todas.
+                          Inscríbete aquí: ⬇️
+                        </p>
+                        {/* Lista de enlaces */}
                         <div className="list-group">
                           <a
-                            href="https://x.com/transmetrobaq/status/1976052998091559352?s=46"
-                            className="list-group-item list-group-item-action "
+                            href="https://t.co/KEA4bGjpwt"
+                            className="list-group-item list-group-item-action"
                             target="_blank"
                             rel="noreferrer"
                           >
-                             Convocatoria: Validación Ruta de Atención Acoso Sexual Callejero en Transmetro, inscríbete aquí
+                            Link de inscripción
                           </a>
-                         
-                          
                         </div>
                       </li>
-
                     </div>
                   </div>
                 </div>
@@ -275,36 +309,37 @@ const Participacion = () => (
                             Seguimiento Plan Anticorrupción 2024
                           </a>
                           <li className="list-group-item list-group-item-action ">
-                                2025
-                                <div className="list-group">
-                                  <a
-                                    href="https://apiwebtm.com/uploads/Programa_de_Transp_y_Etica_Publica_PTEP_5f46e77912.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    Programa De Transparencia Y Ética Pública
-                                  </a>
+                            2025
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Programa_de_Transp_y_Etica_Publica_PTEP_5f46e77912.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Programa De Transparencia Y Ética Pública
+                              </a>
 
-                                  <a
-                                    href="https://apiwebtm.com/uploads/1_Monitoreo_Programa_de_Transparencia_y_etica_publica_37d82b7299.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    1° Monitoreo Programa de Transparencia y
-                                    etica pública
-                                  </a>
-                                     <a
-                                    href="https://apiwebtm.com/uploads/2do_Monitoreo_Programa_de_Transparencia_y_etica_publica_7291531e6d.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    2do Monitoreo Programa de Transparencia y ética pública
-                                  </a>
-                                </div>
-                              </li>
+                              <a
+                                href="https://apiwebtm.com/uploads/1_Monitoreo_Programa_de_Transparencia_y_etica_publica_37d82b7299.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                1° Monitoreo Programa de Transparencia y etica
+                                pública
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/2do_Monitoreo_Programa_de_Transparencia_y_etica_publica_7291531e6d.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2do Monitoreo Programa de Transparencia y ética
+                                pública
+                              </a>
+                            </div>
+                          </li>
                         </div>
                       </li>
                     </div>
@@ -326,7 +361,6 @@ const Participacion = () => (
                   >
                     Manual de Atención al Ciudadano
                   </button>
-
                 </h2>
                 <div
                   id="panelsStayOpen-collapseDos"
@@ -348,10 +382,7 @@ const Participacion = () => (
                 </div>
               </div>
               <div className="accordion-item">
-                <h2
-                  className="accordion-header"
-                  id="panelsStayOpen-headingDos"
-                >
+                <h2 className="accordion-header" id="panelsStayOpen-headingDos">
                   <button
                     className="accordion-button collapsed"
                     type="button"
@@ -395,14 +426,14 @@ const Participacion = () => (
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseCuatro"
                   >
-                   Encuesta
+                    Encuesta
                   </button>
                 </h2>
                 <div
                   id="panelsStayOpen-collapseCuatro"
                   className="accordion-collapse collapse"
                   aria-labelledby="panelsStayOpen-headingCuatro"
-                 >
+                >
                   <div className="accordion-body">
                     <div className="list-group">
                       <a
@@ -417,7 +448,70 @@ const Participacion = () => (
                   </div>
                 </div>
               </div>
-
+              <div className="accordion-item">
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingParCinco"
+                >
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseParCinco"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseParCinco"
+                  >
+                    Consulta Ciudadana
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseParCinco"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingParCinco"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                      <li className="list-group-item ">
+                        2025
+                        {/* Título */}
+                        <div className="text-center mt-2">
+                          <h5 className="fw-bold">
+                            Intervención en estaciones y Portal de Soledad
+                          </h5>
+                        </div>
+                        {/* Descripción */}
+                        <p className="mb-2" style={{ fontSize: '14px' }}>
+                          Transmetro invita a la ciudadanía de Barranquilla y su
+                          área metropolitana a participar en esta encuesta sobre
+                          la infraestructura del Sistema de Transporte Masivo
+                          para Barranquilla y su Área Metropolitana. Este
+                          ejercicio de participación ciudadana se enmarca en el
+                          principio de democracia participativa consagrado en la
+                          Constitución Política de Colombia y en la Ley 1757 de
+                          2015, que promueve la incidencia de la comunidad en la
+                          formulación, seguimiento y evaluación de políticas
+                          públicas. Su experiencia como usuario es fundamental
+                          para identificar oportunidades de mejora en las
+                          estaciones del Sistema. La información recolectada
+                          será insumo clave para fortalecer la infraestructura y
+                          avanzar hacia una movilidad más sostenible.
+                        </p>
+                        {/* Lista de enlaces */}
+                        <div className="list-group">
+                          <a
+                            href=" https://forms.office.com/r/QDhyECbZuE?origin=lprLink"
+                            className="list-group-item list-group-item-action"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Link de inscripción
+                          </a>
+                        </div>
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
