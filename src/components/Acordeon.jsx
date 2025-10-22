@@ -3217,6 +3217,14 @@ const Acordeon = () => {
                                 >
                                   11. ANEXO OFERTA ECONOMICA
                                 </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/ADENDA_No_120251021155246138765_1c0aaf2c20.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ADENDA
+                                </a>
 
                                 
                               </div>
