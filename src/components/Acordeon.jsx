@@ -3225,6 +3225,14 @@ const Acordeon = () => {
                                 >
                                   ADENDA
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ADENDA_No_2_Proceso_TM_LC_003_2025_f307a8400c.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ADENDA No.2
+                                </a>
 
                                 
                               </div>
@@ -6147,6 +6155,20 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
+                              {/* <li className="list-group-item list-group-item-action ">
+                                2023
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe final auditoria CDB
+                                  </a>
+
+                                </div>
+                              </li> */}
                             </div>
                           </div>
                         </div>
