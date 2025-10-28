@@ -3125,9 +3125,11 @@ const Acordeon = () => {
                               <div className="list-group">
                                 <ol>
                                   <span> Objeto: </span>
-                                  SUMINISTRO, INSTALACIÓN, PUESTA EN MARCHA Y CONFIGURACIÓN DE EQUIPOS ELECTRÓNICOS, DE 
+                                  SUMINISTRO, INSTALACIÓN, PUESTA EN MARCHA Y
+                                  CONFIGURACIÓN DE EQUIPOS ELECTRÓNICOS, DE
                                   TECNOLOGÍA Y SOFTWARE PARA LA MODERNIZACIÓN
-                                  TECNOLÓGICA DEL SISTEMA INTEGRADO DE TRANSPORTE MASIVO DE BARRANQUILLA, TRANSMETRO
+                                  TECNOLÓGICA DEL SISTEMA INTEGRADO DE
+                                  TRANSPORTE MASIVO DE BARRANQUILLA, TRANSMETRO
                                 </ol>
                                 <a
                                   href="https://apiwebtm.com/uploads/1_CARTA_DE_INVITACION_10186f9645.pdf"
@@ -3159,7 +3161,9 @@ const Acordeon = () => {
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  4. F.CDP-1267 - MODERNIZACIÓN TECNOLÓGICA DEL SISTEMA INTEGRADO DE TRANSPORTE MASIVO DE BARRANQUILLA
+                                  4. F.CDP-1267 - MODERNIZACIÓN TECNOLÓGICA DEL
+                                  SISTEMA INTEGRADO DE TRANSPORTE MASIVO DE
+                                  BARRANQUILLA
                                 </a>
                                 <a
                                   href="https://apiwebtm.com/uploads/5_ANEXO_10_TECNICO_ESPECIFICACIONES_c99f7ea0a4.pdf"
@@ -3175,7 +3179,8 @@ const Acordeon = () => {
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  6. MANUAL DE CONTRATACION - MODIFICACION  RESOLUCION NO. 160- 2025
+                                  6. MANUAL DE CONTRATACION - MODIFICACION
+                                  RESOLUCION NO. 160- 2025
                                 </a>
                                 <a
                                   href="https://apiwebtm.com/uploads/7_ANEXO_PRESUPUESTO_OFICIAL_ad3ab72442.pdf"
@@ -3201,15 +3206,16 @@ const Acordeon = () => {
                                 >
                                   9. ANEXO MINUTA CONTRACTUAL
                                 </a>
-                                 <a
+                                <a
                                   href="https://apiwebtm.com/uploads/10_ANEXO_CERTIFICACION_DE_CUMPLIMIENTO_DE_ESPECIFICACIONES_TECNICAS_d188537234.pdf"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  10. ANEXO CERTIFICACIÓN DE CUMPLIMIENTO DE ESPECIFICACIONES TECNICAS
+                                  10. ANEXO CERTIFICACIÓN DE CUMPLIMIENTO DE
+                                  ESPECIFICACIONES TECNICAS
                                 </a>
-                                 <a
+                                <a
                                   href="https://apiwebtm.com/uploads/11_ANEXO_OFERTA_ECONOMICA_160452c906.xlsx"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
@@ -3217,7 +3223,7 @@ const Acordeon = () => {
                                 >
                                   11. ANEXO OFERTA ECONOMICA
                                 </a>
-                                 <a
+                                <a
                                   href="https://apiwebtm.com/uploads/ADENDA_No_120251021155246138765_1c0aaf2c20.pdf"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
@@ -3234,7 +3240,15 @@ const Acordeon = () => {
                                   ADENDA No.2
                                 </a>
 
-                                
+                                <a
+                                  href="https://apiwebtm.com/uploads/RESPUESTAS_A_LAS_OBSERVACIONES_PLIEGOS_CONDICIONES_TM_LC_003_2025_72bdceddfd.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RESPUESTAS A LAS OBSERVACIONES PLIEGOS
+                                  CONDICIONES
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -6252,14 +6266,41 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              <a
-                                href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDITORIA_PQR_1_SEMESTRE_2024_8180bc49a9.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
+                              <li className="list-group-item list-group-item-action ">
                                 2024
-                              </a>
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDITORIA_PQR_1_SEMESTRE_2024_8180bc49a9.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe final auditoria pqr 1 semestre
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDITORIA_PQRSDF_SEMESTRE_2_2024_d39e584044.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe auditoria PQRSD 2 semestre
+                                  </a>
+                                </div>
+                              </li>
+
+                              <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRSDF_1_SEMESTRE_2025_a4a87052d0.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe auditoria PQRSD I semestre
+                                  </a>
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
@@ -6464,6 +6505,53 @@ const Acordeon = () => {
                                         >
                                           Informe de Austeridad - Último
                                           Trimestre 2022-2023
+                                        </a>
+                                        <a
+                                          href="https://apiwebtm.com/uploads/Informe_Austeridad_2do_Trim_2023_2024_a7b95594d6.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe Austeridad 2do.Trim.2023-2024
+                                        </a>
+                                        <a
+                                          href="https://apiwebtm.com/uploads/Informe_Austeridad_3er_Trim_2023_2024_f22fe9a83b.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe Austeridad 3er.Trim.2023-2024
+                                        </a>
+                                      </div>
+                                    </li>
+
+                                    <li className="list-group-item list-group-item-action ">
+                                      2025
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/Informe_Final_Austeridad_1_Trim_2024_2025_d36c43bf15.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe Final Austeridad 1° Trim
+                                        </a>
+
+                                        <a
+                                          href="https://apiwebtm.com/uploads/Informe_Final_Austeridad_2_Trim_2024_2025_4645b6ec0a.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe Final Austeridad 2° Trim
+                                        </a>
+                                        <a
+                                          href="https://apiwebtm.com/uploads/Informe_Austeridad_4to_Trim_2023_2024_860597dceb.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe Austeridad 4to.Trim
                                         </a>
                                       </div>
                                     </li>
@@ -6833,6 +6921,14 @@ const Acordeon = () => {
                                       rel="noreferrer"
                                     >
                                       2023
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/Informe_final_Tesoreria_Vig_2023_385d0942d3.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      2024
                                     </a>
                                   </div>
                                 </div>
