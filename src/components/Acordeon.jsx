@@ -3253,6 +3253,113 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoSeven"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoSeven"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoSeven"
+                            >
+                              PROCESO LISTA CORTA TM-LC-004-2025
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoSeven"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoSeven"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <ol>
+                                  <span> Objeto: </span>
+                                  SUMINISTRO E INSTALACIÓN DE LAS ESTRUCTURAS DE CERRAMIENTO PERIMETRAL Y
+                                   PUERTAS DE ACCESO PARA LAS ESTACIONES DEL SISTEMA INTEGRADO DE TRANSPORTE 
+                                   MASIVO DE BARRANQUILLA, TRANSMETRO
+                                </ol>
+
+                               <a
+                              href="https://apiwebtm.com/uploads/1_Carta_de_Invitacion_Para_presentar_Propuesta_Proceso_No_41eb7c815b.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           1 Carta de Invitación Para presentar Propuesta
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/2_CONVOCATORIA_PROCESO_TM_LC_004_2025_1_8457d4c82e.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            2 CONVOCATORIA PROCESO TM-LC-004-2025 
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/3_ANEXO_10_TECNICO_CERRAMIENTO_1_b9db9bcea5.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            3 ANEXO 10 TECNICO CERRAMIENTO
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/4_Anexo_12_PRESUPUESTO_OFICIAL_43d415314c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            4 Anexo 12 PRESUPUESTO OFICIAL
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/5_ANEXO_9_OFRECIMIENTO_ECONOMICO_8d719e3679.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            5 ANEXO 9 OFRECIMIENTO ECONOMICO
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/6_ESTUDIOS_PREVIOS_20251031173840140172_compressed_832418b3ea.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            6 ESTUDIOS PREVIOS
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/7_vf_TM_LC_004_2025_Anexo_Matriz_de_riesgos_53afb7edc6.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            7  Anexo Matriz de riesgos
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/8_F_CDP_1326_CERRAMIENTO_PERIMETRAL_OCTUBRE_CONVENIO_DISTRITO_d27b65d494.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            8 F.CDP 1326 - CERRAMIENTO PERIMETRAL OCTUBRE CONVENIO DISTRITO
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/9_MANUAL_DE_CONTRATACION_MODIFICACION_RESOLUCION_NO_160_2025_compressed_2788945a7e.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            9. MANUAL DE CONTRATACION - MODIFICACION  RESOLUCION NO. 160- 2025
+                            </a>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
