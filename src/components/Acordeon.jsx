@@ -804,6 +804,77 @@ const Acordeon = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="accordion-item">
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingOnefifteen"
+                >
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOnefifteen"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOnefifteen"
+                  >
+                    1.15 Convocatoria
+                  </button>
+                </h2>
+
+                <div
+                  id="panelsStayOpen-collapseOnefifteen"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOnefifteen"
+                >
+                  <div className="accordion-body">
+                    <div className="accordion-item">
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingfifteen2025"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapsefifteen2025"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapsefifteen2025"
+                          >
+                            2025
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapsefifteen2025"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingfifteen2025"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <li className="list-group-item list-group-item-action ">
+                                Control interno
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Convotaria_e756eb1a21.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Convocatoria
+                                  </a>
+                                 
+                                 
+                                </div>
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
