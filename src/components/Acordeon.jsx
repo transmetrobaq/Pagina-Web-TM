@@ -863,8 +863,7 @@ const Acordeon = () => {
                                   >
                                     Convocatoria
                                   </a>
-                                 
-                                 
+    
                                 </div>
                               </li>
                             </div>
@@ -9670,6 +9669,28 @@ const Acordeon = () => {
                       rel="noreferrer"
                     >
                       ADMISIÓN DE ACCIÓN POPULAR - TRANSMETRO
+                    </a>
+                  </div>
+                </li>
+                <li className="list-group-item list-group-item-action ">
+                  2025
+                  <div className="list-group">
+                    <a
+                      href="https://apiwebtm.com/uploads/RADICADO_REND_CUENTA_CDB_2024_ad0d2a6c90.pdf"
+                      className="list-group-item list-group-item-action "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      RADICADO REND. CUENTA CDB 2024
+                    </a>
+                   
+                    <a
+                      href="https://apiwebtm.com/uploads/RAD_REND_CUENTA_CGN_2024_0e487bec04.pdf"
+                      className="list-group-item list-group-item-action "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      RAD. REND. CUENTA CGN 2024
                     </a>
                   </div>
                 </li>
