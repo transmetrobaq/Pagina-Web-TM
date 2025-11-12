@@ -863,6 +863,14 @@ const Acordeon = () => {
                                   >
                                     Convocatoria
                                   </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/ACTA_DEL_COMITE_EVALUADOR_CONVOCATORIA_CONTROL_INTERNO_780107af73.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Acta del comité evaluador convocatoria control interno
+                                  </a>
     
                                 </div>
                               </li>
