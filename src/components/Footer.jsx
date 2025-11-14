@@ -43,7 +43,7 @@ const Footer = () => {
                     <li>Sábados</li>
                     <li>5:00 - 21:30</li>
                     <li>Domingos y festivos:</li>
-                    <li>05:30 - 21:00</li>
+                    <li>05:30 - 20:30</li>
                     <li>* Sujeto a modificación</li>
                   </ul>
                 </div>
