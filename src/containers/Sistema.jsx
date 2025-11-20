@@ -666,9 +666,9 @@ const Sistema = () => (
           <div className="col-md-6 align-self-center">
             <div className="card-body ">
               <h2>
-                <span>69.000 Usuarios Movilizados</span> diariamente en promedio
+                <span>67.000  Usuarios Movilizados</span> diariamente en promedio
               </h2>
-              <p className="text-white">última actualización 17 de agosto de 2025</p>
+              <p className="text-white">última actualización 18 de noviembre de 2025</p>
             </div>
           </div>
         </div>
