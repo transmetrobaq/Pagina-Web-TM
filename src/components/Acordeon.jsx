@@ -880,6 +880,15 @@ const Acordeon = () => {
                                     Acta de Comité Evaluador  - Control Interno - Evaluación
 
                                   </a>
+                                   <a
+                                    href="https://apiwebtm.com/uploads/RESOLUCION_POR_MEDIO_DE_LA_CUAL_SE_INFORMA_LOS_3_ASPIRANTES_PARA_EL_CARGO_DE_CONTROL_INTERNO_48fe70c262.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     Resolución: Terna de aspirantes - Control Interno de Transmetro
+
+                                  </a>
     
                                 </div>
                               </li>
