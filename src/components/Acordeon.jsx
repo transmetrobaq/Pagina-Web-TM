@@ -3456,6 +3456,105 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoEight"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoEight"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoEight"
+                            >
+                              PROCESO LISTA CORTA TM-LC-005-2025
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoEight"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoEight"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <ol>
+                                  <span> Objeto: </span>
+                                  SUMINISTRO, INSTALACIÓN, PUESTA EN MARCHA Y CONFIGURACIÓN DE EQUIPOS ELECTRÓNICOS, DE TECNOLOGÍA Y SOFTWARE
+                                  PARA LA MODERNIZACIÓN TECNOLÓGICA DEL SISTEMA INTEGRADO DE TRANSPORTE MASIVO DE BARRANQUILLA, TRANSMETRO
+                                </ol>
+
+                               <a
+                              href="https://apiwebtm.com/uploads/1_CART_DE_INVITACION_8917280dd6.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           1. CARTA DE INVITACION
+                            </a>
+                              <a
+                              href="https://apiwebtm.com/uploads/2_CONVOCATORIA_PROCESO_TM_LC_004_2025_6351321344.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           2. CONVOCATORIA PROCESO 
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/3_ESTUDIOS_PREVIOS_20251031173840140172_18626fca23.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           3. ESTUDIOS PREVIOS
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/4_F_CDP_1267_MODERNIZACION_TECNOLOGICA_DEL_SISTEMA_INTEGRADO_DE_TRANSPORTE_MASIVO_DE_BARRANQUILLA_04820d70ab.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           4. F.CDP-1267 - MODERNIZACIÓN TECNOLÓGICA DEL SISTEMA INTEGRADO DE TRANSPORTE MASIVO DE BARRANQUILLA
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/5_ANEXO_10_TECNICO_ESPECIFICACIONES_V14112025_7dafb383ea.docx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           5. ANEXO 10 TECNICO - ESPECIFICACIONES
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/6_MANUAL_DE_CONTRATACION_MODIFICACION_RESOLUCION_NO_160_2025_dce848f6a6.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           6. MANUAL DE CONTRATACION - MODIFICACION  RESOLUCION NO. 160- 2025
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/7_ANEXO_12_PRESUPUESTO_OFICIAL_24276d104d.xlsx"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                          7. ANEXO 12 PRESUPUESTO OFICIAL
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/8_ANEXO_15_MATRIZ_DE_RIESGOS_b67a37f8f6.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                         8. ANEXO 15 MATRIZ DE RIESGOS
+                            </a>
+                           
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
