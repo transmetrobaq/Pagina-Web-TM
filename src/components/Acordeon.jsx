@@ -7649,6 +7649,20 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
+                              <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/EVALUACION_POR_DEPENDENCIA_1er_SEM_VIGENCIA_2025_1_7936d9f4e3.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Evaluación por dependencias 1er semestre 2025
+                                  </a>
+                                  
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
@@ -8505,6 +8519,14 @@ const Acordeon = () => {
                         rel="noreferrer"
                       >
                         Medición de satisfacción - julio 2025
+                      </a>
+                       <a
+                        href="https://apiwebtm.com/uploads/2da_Medicion_de_satisfaccion_septiembre_2025_4f83c0ddcb.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        2da Medición de satisfacción 2025
                       </a>
                     </div>
                   </li>
