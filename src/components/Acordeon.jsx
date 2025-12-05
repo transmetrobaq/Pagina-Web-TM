@@ -7017,6 +7017,20 @@ const Acordeon = () => {
                                     >
                                       2022
                                     </a>
+                                    <li className="list-group-item list-group-item-action ">
+                                2023
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Informe_definitivo_Gestion_Humana_Nomina_y_Prest_Sociales_2023_d8d966a8b4.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe definitivo, Gestión Humana, Nómina y Pres. Sociales.
+                                  </a>
+                                  
+                                </div>
+                              </li>
                                   </div>
                                 </div>
                               </div>
@@ -7563,6 +7577,23 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 Reporte Ley de Cuotas - corte agosto 2024 ultimo
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_LEY_DE_CUOTAS_CORTE_SEP_15_2025_a18aa531f9.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Informe ley de cuotas corte sep. 15 2025
+                              </a>
+                               <a
+                                href="https://apiwebtm.com/uploads/INFORME_LEY_DE_CUOTAS_CORTE_SEP_15_2025_ad8bb158aa.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                              Segundo Reporte Ley de Cuota Mujer
+
                               </a>
                             </div>
                           </div>
@@ -9569,6 +9600,14 @@ const Acordeon = () => {
                           rel="noreferrer"
                         >
                           RC CONTADURIA GENERAL DE LA NACION 2023
+                        </a>
+                         <a
+                          href="https://apiwebtm.com/uploads/RAD_REND_CUENTA_CGN_2024_ab411fe6c5.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Rad. Rend. de cuentas CGN 2024.
                         </a>
                         <li className="list-group-item list-group-item-action ">
                           2024
