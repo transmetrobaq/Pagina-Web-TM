@@ -501,6 +501,7 @@ const Navbar = () => {
                       Informativo y Videos
                     </a>
                   </li>
+                  
                   <li className="nav-item">
                     <a
                       href="/noticias/#galeria-de-imagenes"
@@ -509,6 +510,15 @@ const Navbar = () => {
                     >
                       Galería fotográfica
                     </a>
+                     <li className="nav-item">
+                    <a
+                      href="/#Eventos"
+                      className="dropdown-item"
+                      aria-current="page"
+                    >
+                    Eventos
+                    </a>
+                  </li>
                   </li>
                 </ul>
               </li>
