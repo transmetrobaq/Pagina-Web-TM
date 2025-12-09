@@ -6281,14 +6281,28 @@ const Acordeon = () => {
                               >
                                 2023
                               </a>
-                              <a
+
+                              <li className="list-group-item list-group-item-action ">
+                                2024
+                                <div className="list-group">
+                                   <a
                                 href="https://apiwebtm.com/uploads/INFORME_SOFTWARE_LEGAL_vig_2024_87e5774526.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                2024
+                                Informe Software Legal vig 2024
                               </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Certificado_cumplimiento_Software_legal_vig_2024_9e30ff5ebf.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Certificado de cumplimiento softwere vig.2024
+                                  </a>
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
@@ -9534,6 +9548,27 @@ const Acordeon = () => {
                         >
                           Certificado dnda vig 2022
                         </a>
+                         <li className="list-group-item list-group-item-action ">
+                                2024
+                                <div className="list-group">
+                                   <a
+                                href="https://apiwebtm.com/uploads/INFORME_SOFTWARE_LEGAL_vig_2024_87e5774526.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Informe Software Legal vig 2024
+                              </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Certificado_cumplimiento_Software_legal_vig_2024_9e30ff5ebf.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Certificado de cumplimiento softwere vig.2024
+                                  </a>
+                                </div>
+                              </li>
                       </div>
                     </div>
                   </div>
