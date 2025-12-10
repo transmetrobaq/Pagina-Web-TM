@@ -3555,6 +3555,43 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoNine"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoNine"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoNine"
+                            >
+                              CONVOCATORIA SERVICIO DE AVALUO URBANO- No. 1 de 2025
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoNine"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoNine"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+
+                               <a
+                              href="https://apiwebtm.com/uploads/CONVOCATORIA_AVALUO_PREDIOS_BARRANQUILLITA_1_1d63ac8741.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                           CONVOCATORIA - AVALUO PREDIOS BARRANQUILLITA
+                            </a>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
