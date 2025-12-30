@@ -35,12 +35,27 @@ const Header = () => {
       <div
         id="carouselExampleCaptions"
         className="carousel slide container-xxl "
-        style={{ padding: '0px'  }}
+        style={{ padding: '0px' }}
         data-bs-ride="carousel"
       >
         {/* start carusel items */}
         <div className="carousel-inner">
-           
+          <div className="carousel-item active" data-bs-interval="7000">
+            <a
+              href="https://forms.office.com/pages/responsepage.aspx?id=SEG3lKY8wUejpoDbLhALDim3VBlIiyROn5TANJAFNDxUNEQ3U1ZEVFNWTURGSkJQTjYyTktTNURWVi4u&origin=lprLink&route=shorturl"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <img
+                src="https://apiwebtm.com/uploads/Personaliza_tu_Tarjeta_Transmetro_1_4d9ce4bcad.jpeg"
+                className="w-100 img-fluid"
+                alt="Ir a otra web"
+                style={{ cursor: 'pointer' }}
+              />
+            </a>
+          </div>
+
           {/* <div className="carousel-item " data-bs-interval="2000">
             <img
               src="https://apiwebtm.com/uploads/IMG_9512_76b844202b.JPG"
@@ -56,9 +71,9 @@ const Header = () => {
               <div className="linea-coloresHeader" />
             </div>
           </div> */}
-{/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abaj */}
+          {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abaj */}
 
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item" data-bs-interval="10000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
