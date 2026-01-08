@@ -8610,6 +8610,14 @@ const Acordeon = () => {
                       >
                         2da Medición de satisfacción 2025
                       </a>
+                      <a
+                        href="https://apiwebtm.com/uploads/3era_Medicion_de_satisfaccion_noviembre_2025_1dee42b4ad.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        3era Medición de satisfacción - noviembre 2025
+                      </a>
                     </div>
                   </li>
                 </div>
