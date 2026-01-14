@@ -7945,6 +7945,14 @@ const Acordeon = () => {
                             >
                               Informe PQRSDF segundo trimestre de 2025
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_gestion_PQRSDF_1_DE_JULIO_A_30_DE_SEPTIEMBRE_DE_2025_8229f586dc.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             Informe de gestión PQRSDF - 1 de julio a 30 de septiembre de 2025
+                            </a>
                           </div>
                         </li>
                       </div>
@@ -9356,6 +9364,14 @@ const Acordeon = () => {
                       rel="noreferrer"
                     >
                       Certificado de accesibilidad web 2025
+                    </a>
+                    <a
+                      href="https://apiwebtm.com/uploads/Certificado_de_Accesibilidad_web_2026_34d101e1c0.pdf"
+                      className="list-group-item list-group-item-action "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Certificado de Accesibilidad web 2026
                     </a>{' '}
                   </div>
                 </li>
