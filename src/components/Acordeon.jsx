@@ -5879,6 +5879,29 @@ const Acordeon = () => {
                               >
                                 2023
                               </a>
+                               <li className="list-group-item list-group-item-action ">
+                                2024
+                                <div className="list-group">
+                                   <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_Transmetro_2024_1_4d409ec85c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {' '}
+                              Informe de Gestion Transmetro 2024
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_2024_TMO_1_1_de3c1f2d27.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {' '}
+                              Informe de Gestión 2024 TMO
+                            </a>
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
@@ -6071,6 +6094,58 @@ const Acordeon = () => {
                                     Rendición de Cuentas - Informe preliminar de
                                     Transmetro
                                   </a>
+                                </div>
+                              </li>
+                              <li className="list-group-item list-group-item-action ">
+                                2024
+                                <div className="list-group">
+                                <a
+                              href="https://barranquilla.gov.co/transparencia/participa/rendicion-de-cuentas"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Espacio para que la ciudadanía postule temáticas
+                            </a>
+
+                            <a
+                              href="https://barranquilla.gov.co/wp-content/uploads/2025/08/estrategia-comunicacion-rendicion-cuentas.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Estrategia de comunicación para la rendición de
+                              cuentas
+                            </a>
+                            <a
+                              href="https://barranquilla.gov.co/transparencia/planeacion/informes-de-gestion-evaluacion-y-auditoria/informe-de-rendicion-de-cuentas-a-los-ciudadanos"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe de gestión 2024 a los ciudadanos –
+                              Alcaldía de Barranquilla, Distrito Especial,
+                              Industrial y Portuario
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_Transmetro_2024_1_4d409ec85c.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {' '}
+                              Informe de Gestion Transmetro 2024
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_2024_TMO_1_1_de3c1f2d27.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {' '}
+                              Informe de Gestión 2024 TMO
+                            </a>
+
                                 </div>
                               </li>
                             </div>
