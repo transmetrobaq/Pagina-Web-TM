@@ -44,8 +44,8 @@ const Sistema = () => (
               <p className="card-text">
              
 
-      El servicio tiene un costo de <span>  $3.300 en días hábiles (lunes a sábado)
-     y $3.400 para los días domingos y festivos (vigente desde 1 de enero de 2025) </span>
+      El servicio tiene un costo de <span>  $3.700 en días hábiles (lunes a sábado)
+     y $3.800 para los días domingos y festivos (vigente desde 19 de enero de 2026) </span>
      El mismo es descontado de la tarjeta inteligente al pasar por los validadores en 
      los portales, estaciones o servicios alimentadores. <span> El costo de la Tarjeta Inteligente
      Sin Contacto es de $7.000  </span>, se puede adquirir en las taquillas de las estaciones del Sistema.
