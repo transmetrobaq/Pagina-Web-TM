@@ -1867,6 +1867,14 @@ const Acordeon = () => {
                             </a>
                           </div>
                         </li>
+                         <a
+                          href="https://apiwebtm.com/uploads/PAA_2026_VI_PUBLICADO_bd1d7d1e56.pdf"
+                          className="list-group-item list-group-item-action"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2026
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -4339,6 +4347,14 @@ const Acordeon = () => {
                               >
                                 2025
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PETI_TM_V3_5e71c37127.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -4415,6 +4431,14 @@ const Acordeon = () => {
                               >
                                 2025
                               </a>
+                               <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Tratamiento_de_riesgos_de_seguridad_y_privacidad_de_la_informacion_TM_V3_3a39b3d2b6.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -4489,6 +4513,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2025
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Seguridad_y_Privacidad_de_la_Informacion_V3_e735655604.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
                               </a>
                             </div>
                           </div>
@@ -5086,6 +5118,14 @@ const Acordeon = () => {
                               >
                                 2025
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_ESTRATEGICO_DE_TALENTO_HUMANO_2026_82ad945ee1.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -5169,6 +5209,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2025
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PLAN_DE_TRABAJO_SGSST_2026_TRANSMETRO_a043253935.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
                               </a>
                             </div>
                           </div>
@@ -5278,6 +5326,14 @@ const Acordeon = () => {
                               >
                                 2025
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PIC_Plan_Institucional_de_Capacitacion_2026_1_7aa877d02f.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -5385,6 +5441,14 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 2025
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_de_Bienestar_Laboral_Social_2026_bea3de30ad.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
                               </a>
                             </div>
                           </div>
@@ -5586,6 +5650,14 @@ const Acordeon = () => {
                               >
                                 2025
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PINAR_TRANSMETRO_2026_f9bb290578.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -5622,6 +5694,41 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 Sistema integrado de conservación
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourThreefifteen"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourThreefifteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourThreefifteen"
+                          >
+                            Plan Anual de Auditoría
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourThreefifteen"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourThreefifteen"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/DAFP_Matriz_plan_Anual_de_Auditoria_2026_TRANSMETRO_c3a658ddc9.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
                               </a>
                             </div>
                           </div>
