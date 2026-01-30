@@ -4083,6 +4083,14 @@ const Acordeon = () => {
                         >
                           2025
                         </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/PRESUPUESTO_VIGENCIA_2026_f2e752b67d.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          2026
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -5034,6 +5042,14 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
+                              <a
+                                    href="https://apiwebtm.com/uploads/Plan_de_Accion_2026_compilado_9de9cca390.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    2026
+                                  </a>
                             </div>
                           </div>
                         </div>
