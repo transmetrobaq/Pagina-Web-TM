@@ -7128,7 +7128,7 @@ const Acordeon = () => {
                                           target="_blank"
                                           rel="noreferrer"
                                         >
-                                          Informe Austeridad 4to.Trim
+                                          Informe Austeridad 4to Trim
                                         </a>
                                       </div>
                                     </li>
