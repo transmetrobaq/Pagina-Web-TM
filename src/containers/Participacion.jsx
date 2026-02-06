@@ -84,6 +84,29 @@ const Participacion = () => (
                   aria-labelledby="panelsStayOpen-headingCero"
                 >
                   <div className="accordion-body">
+
+<div className="accordion-item">
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingCeroUno"
+                >
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseCeroUno"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseCeroUno"
+                  >
+                    2025
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseCeroUno"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingCeroUno"
+                >
+                  <div className="accordion-body">
                     <div className="list-group">
                       <li className="list-group-item ">
                         2025
@@ -102,11 +125,16 @@ const Participacion = () => (
                             >
                               <img
                                 src="https://apiwebtm.com/uploads/ROSADO_8656f7c137.jpg" // 🔸 Cambia por la URL de tu imagen
-                                alt="Afiche de Transmetro invitando a participar en la construcción del protocolo contra el acoso sexual. Evento: viernes 10 de octubre, 2:00 p. m., C.C. Los Ángeles, Auditorio Bonga. Cupos limitados. Logos de Transmetro, Alcaldía de Barranquilla y ONU Mujeres."
+                                alt="Afiche verde de Transmetro que invita a participar en la encuesta ciudadana “Ruta Carnavalera”, con personaje de carnaval y código QR."
                                 className="img-fluid my-2"
                                 style={{
-                                  maxWidth: '300px',
+                                  maxWidth: '75%',
+                                  width: '75%',
+                                  height: 'auto',
                                   borderRadius: '8px',
+                                  display: 'block',
+                                  margin: 'auto',
+  
                                 }}
                               />
                             </a>
@@ -136,6 +164,45 @@ const Participacion = () => (
                         </div>
                       </li>
                     </div>
+                    {/* AQUI */}
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+                    <div className="list-group">
+                      <li className="list-group-item ">
+                        2026
+ 
+                        <div className="text-center">
+                          <div className="text-center">
+                            <a
+                              href="https://forms.office.com/r/KSRgsVVsLg?origin=lprLink"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <img
+                                src="https://apiwebtm.com/uploads/Banner_con_codigo_QR_d314273b10.png" // 🔸 Cambia por la URL de tu imagen
+                                alt="Afiche de Transmetro invitando a participar en la construcción del protocolo contra el acoso sexual. Evento: viernes 10 de octubre, 2:00 p. m., C.C. Los Ángeles, Auditorio Bonga. Cupos limitados. Logos de Transmetro, Alcaldía de Barranquilla y ONU Mujeres."
+                                className="img-fluid my-2"
+                                style={{
+                                  maxWidth: '100%',
+                                  width: '100%',
+                                  height: 'auto',
+                                  borderRadius: '8px',
+                                  display: 'block',
+                                }}
+                              />
+                            </a>
+                          </div>
+                        </div>
+
+                      </li>
+                    </div>
+                    {/* AQUI */}
                   </div>
                 </div>
               </div>

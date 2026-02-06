@@ -6451,7 +6451,7 @@ const Acordeon = () => {
                   >
                     <div className="accordion-body">
                       <li className="list-group-item ">
-                        
+
                         <div className="list-group">
                           <a
                             href="https://apiwebtm.com/uploads/PLAN_DE_ACCION_DIRECCION_CIG_TMO_2026_91d09b9b78.pdf "
@@ -7784,6 +7784,23 @@ const Acordeon = () => {
                                   >
                                     Conclusiones informe pormenorizado en-jun
                                     2025
+                                  </a>
+                                   <a
+                                    href="https://apiwebtm.com/uploads/INFORME_PORMENORIZADO_JUL_DIC_2025_6cba0ede52.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe Pormenorizado del Estado del Sistema de Control Interno Jul - Dic 2025
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Informe_PQRDSF_JUL_A_DIC_2025_1cf84e0d94.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     Informe del comportamiento en La atención de las PQRDSF Jul - Dic 2025
+
                                   </a>
                                 </div>
                               </li>

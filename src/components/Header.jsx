@@ -59,7 +59,7 @@ const Header = () => {
           </div> */}
           {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abaj */}
 
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item " data-bs-interval="10000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
@@ -73,7 +73,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="carousel-item " data-bs-interval="7000">
+          <div className="carousel-item active " data-bs-interval="7000">
             <a
               href="https://forms.office.com/pages/responsepage.aspx?id=SEG3lKY8wUejpoDbLhALDim3VBlIiyROn5TANJAFNDxUNEQ3U1ZEVFNWTURGSkJQTjYyTktTNURWVi4u&origin=lprLink&route=shorturl"
               target="_blank"
@@ -81,7 +81,7 @@ const Header = () => {
               onClick={(e) => e.stopPropagation()}
             >
               <img
-                src="https://apiwebtm.com/uploads/Personaliza_tu_Tarjeta_Transmetro_1_4d9ce4bcad.jpeg"
+                src="https://apiwebtm.com/uploads/Banner_con_codigo_QR_d314273b10.png"
                 className="w-100 img-fluid"
                 alt="Ir a otra web"
                 style={{ cursor: 'pointer' }}
@@ -114,6 +114,21 @@ const Header = () => {
               </Link>
               <div className="linea-coloresHeader" />
             </div>
+          </div>
+           <div className="carousel-item " data-bs-interval="7000">
+            <a
+              href="https://forms.office.com/pages/responsepage.aspx?id=SEG3lKY8wUejpoDbLhALDim3VBlIiyROn5TANJAFNDxUNEQ3U1ZEVFNWTURGSkJQTjYyTktTNURWVi4u&origin=lprLink&route=shorturl"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <img
+                src="https://apiwebtm.com/uploads/Personaliza_tu_Tarjeta_Transmetro_1_4d9ce4bcad.jpeg"
+                className="w-100 img-fluid"
+                alt="Ir a otra web"
+                style={{ cursor: 'pointer' }}
+              />
+            </a>
           </div>
         </div>
         <button
