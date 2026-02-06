@@ -84,99 +84,93 @@ const Participacion = () => (
                   aria-labelledby="panelsStayOpen-headingCero"
                 >
                   <div className="accordion-body">
-
-<div className="accordion-item">
-                <h2
-                  className="accordion-header"
-                  id="panelsStayOpen-headingCeroUno"
-                >
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseCeroUno"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseCeroUno"
-                  >
-                    2025
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseCeroUno"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingCeroUno"
-                >
-                  <div className="accordion-body">
-                    <div className="list-group">
-                      <li className="list-group-item ">
-                        2025
-                        {/* Título */}
-                        <div className="text-center mt-2">
-                          <h5 className="fw-bold">
-                            Convocatoria: Validación Ruta Acoso Callejero
-                          </h5>
-                        </div>
-                        <div className="text-center">
-                          <div className="text-center">
-                            <a
-                              href="https://x.com/transmetrobaq/status/1976052998091559352?s=46"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <img
-                                src="https://apiwebtm.com/uploads/ROSADO_8656f7c137.jpg" // 🔸 Cambia por la URL de tu imagen
-                                alt="Afiche verde de Transmetro que invita a participar en la encuesta ciudadana “Ruta Carnavalera”, con personaje de carnaval y código QR."
-                                className="img-fluid my-2"
-                                style={{
-                                  maxWidth: '75%',
-                                  width: '75%',
-                                  height: 'auto',
-                                  borderRadius: '8px',
-                                  display: 'block',
-                                  margin: 'auto',
-  
-                                }}
-                              />
-                            </a>
+                    <div className="accordion-item">
+                      <h2
+                        className="accordion-header"
+                        id="panelsStayOpen-headingCeroUno"
+                      >
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseCeroUno"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseCeroUno"
+                        >
+                          2025
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseCeroUno"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingCeroUno"
+                      >
+                        <div className="accordion-body">
+                          <div className="list-group">
+                            <li className="list-group-item ">
+                              2025
+                              {/* Título */}
+                              <div className="text-center mt-2">
+                                <h5 className="fw-bold">
+                                  Convocatoria: Validación Ruta Acoso Callejero
+                                </h5>
+                              </div>
+                              <div className="text-center">
+                                <div className="text-center">
+                                  <a
+                                    href="https://x.com/transmetrobaq/status/1976052998091559352?s=46"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    <img
+                                      src="https://apiwebtm.com/uploads/ROSADO_8656f7c137.jpg" // 🔸 Cambia por la URL de tu imagen
+                                      alt="Afiche verde de Transmetro que invita a participar en la encuesta ciudadana “Ruta Carnavalera”, con personaje de carnaval y código QR."
+                                      className="img-fluid my-2"
+                                      style={{
+                                        maxWidth: '75%',
+                                        width: '75%',
+                                        height: 'auto',
+                                        borderRadius: '8px',
+                                        display: 'block',
+                                        margin: 'auto',
+                                      }}
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              {/* Descripción */}
+                              <p className="mb-2" style={{ fontSize: '14px' }}>
+                                Este viernes, 10 de octubre de 2025 te invitamos
+                                a ser parte de la validación de la ruta de
+                                Prevención y Atención del Acoso en Transmetro,
+                                una iniciativa respaldada por @alcaldiabquilla y
+                                el programa #CiudadesSeguras de @ONUMujeres .
+                                Juntos construimos y preservamos un Sistema
+                                seguro para todos. Participa y suma tu voz para
+                                proteger los derechos de todas. Inscríbete aquí:
+                                ⬇️
+                              </p>
+                              {/* Lista de enlaces */}
+                              <div className="list-group">
+                                <a
+                                  href="https://t.co/KEA4bGjpwt"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Link de inscripción
+                                </a>
+                              </div>
+                            </li>
                           </div>
+                          {/* AQUI */}
                         </div>
-                        {/* Descripción */}
-                        <p className="mb-2" style={{ fontSize: '14px' }}>
-                          Este viernes, 10 de octubre de 2025 te invitamos a ser
-                          parte de la validación de la ruta de Prevención y
-                          Atención del Acoso en Transmetro, una iniciativa
-                          respaldada por @alcaldiabquilla y el programa
-                          #CiudadesSeguras de @ONUMujeres . Juntos construimos y
-                          preservamos un Sistema seguro para todos. Participa y
-                          suma tu voz para proteger los derechos de todas.
-                          Inscríbete aquí: ⬇️
-                        </p>
-                        {/* Lista de enlaces */}
-                        <div className="list-group">
-                          <a
-                            href="https://t.co/KEA4bGjpwt"
-                            className="list-group-item list-group-item-action"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Link de inscripción
-                          </a>
-                        </div>
-                      </li>
+                      </div>
                     </div>
-                    {/* AQUI */}
-                  </div>
-                </div>
-              </div>
-
-
-
-
 
                     <div className="list-group">
                       <li className="list-group-item ">
                         2026
- 
                         <div className="text-center">
                           <div className="text-center">
                             <a
@@ -199,10 +193,9 @@ const Participacion = () => (
                             </a>
                           </div>
                         </div>
-
                       </li>
                     </div>
-                    {/* AQUI */}
+
                   </div>
                 </div>
               </div>
