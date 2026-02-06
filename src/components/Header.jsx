@@ -75,7 +75,7 @@ const Header = () => {
 
           <div className="carousel-item active " data-bs-interval="7000">
             <a
-              href="https://forms.office.com/pages/responsepage.aspx?id=SEG3lKY8wUejpoDbLhALDim3VBlIiyROn5TANJAFNDxUNEQ3U1ZEVFNWTURGSkJQTjYyTktTNURWVi4u&origin=lprLink&route=shorturl"
+              href="https://forms.office.com/r/KSRgsVVsLg?origin=lprLink"
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
