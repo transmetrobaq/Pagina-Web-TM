@@ -59,7 +59,7 @@ const Header = () => {
           </div> */}
           {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abaj */}
 
-          <div className="carousel-item " data-bs-interval="10000">
+          <div className="carousel-item active " data-bs-interval="10000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
@@ -73,7 +73,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="carousel-item active " data-bs-interval="7000">
+          <div className="carousel-item  " data-bs-interval="7000">
             <a
               href="https://forms.office.com/r/KSRgsVVsLg?origin=lprLink"
               target="_blank"

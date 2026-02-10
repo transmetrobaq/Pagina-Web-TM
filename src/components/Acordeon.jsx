@@ -5045,6 +5045,14 @@ const Acordeon = () => {
                                   >
                                     Formato de seguimiento al plan de acción 1.1
                                   </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/2do_sgto_compilado_f1e9524c06.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     2do seguimiento al Plan de Acción 2025
+                                  </a>
                                 </div>
                               </li>
                               <a

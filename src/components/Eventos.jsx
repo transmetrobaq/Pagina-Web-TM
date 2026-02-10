@@ -40,110 +40,63 @@ const Eventos = () => {
         setStart('2022-01-01');
          setLimit('2022-01-31');
      }
-       if (fch === '1') {
-       setStart('2025-01-01');
-       setLimit('2025-01-31');
-       }
-       if (fch === '2') {
-         setStart('2025-02-01');
-         setLimit('2025-02-28');
-              }
-        if (fch === '3') {
-        setStart('2025-03-01');
-        setLimit('2025-03-31');
-        }
-        if (fch === '4') {
-          setStart('2025-04-01');
-          setLimit('2025-04-30');
-        }
-        if (fch === '5') {
-          setStart('2025-05-01');
-          setLimit('2025-05-31');
-        }
-        if (fch === '6') {
-          setStart('2025-06-01');
-          setLimit('2025-06-30');
-        }
-          if (fch === '7') {
-          setStart('2025-07-01');
-          setLimit('2025-07-31');
-        }
+          if (fch === '1') {
+          setStart('2026-01-01');
+          setLimit('2026-01-31');
+          }
 
-         if (fch === '8') {
-          setStart('2025-08-01');
-          setLimit('2025-08-31');
-        }
-        if (fch === '9') {
-          setStart('2025-09-01');
-          setLimit('2025-09-30');
-        }
-        if (fch === '10') {
-           setStart('2025-10-01');
-           setLimit('2025-10-31');
-         }
-         if (fch === '11') {
-           setStart('2025-11-01');
-          setLimit('2025-11-30');
-         }
-          if (fch === '12') {
-           setStart('2025-12-01');
-          setLimit('2025-12-31');
-         }
+          // 2025
+      //  if (fch === '1') {
+      //  setStart('2025-01-01');
+      //  setLimit('2025-01-31');
+      //  }
+      //  if (fch === '2') {
+      //    setStart('2025-02-01');
+      //    setLimit('2025-02-28');
+      //         }
+      //   if (fch === '3') {
+      //   setStart('2025-03-01');
+      //   setLimit('2025-03-31');
+      //   }
+      //   if (fch === '4') {
+      //     setStart('2025-04-01');
+      //     setLimit('2025-04-30');
+      //   }
+      //   if (fch === '5') {
+      //     setStart('2025-05-01');
+      //     setLimit('2025-05-31');
+      //   }
+      //   if (fch === '6') {
+      //     setStart('2025-06-01');
+      //     setLimit('2025-06-30');
+      //   }
+      //     if (fch === '7') {
+      //     setStart('2025-07-01');
+      //     setLimit('2025-07-31');
+      //   }
 
-    // 2024
-    // {
-    //     setStart('2022-01-01');
-    //      setLimit('2022-01-31');
-    //  }
-    //    if (fch === '1') {
-    //    setStart('2024-01-01');
-    //    setLimit('2024-01-31');
-    //    }
-    //    if (fch === '2') {
-    //        setStart('2024-02-01');
-    //       setLimit('2024-02-29');
-    //      }
-    //      if (fch === '3') {
-    //       setStart('2024-03-01');
-    //      setLimit('2024-03-31');
-    //     }
-    //     if (fch === '4') {
-    //       setStart('2024-04-01');
-    //      setLimit('2024-04-30');
-    //     }
-    //     if (fch === '5') {
-    //       setStart('2024-05-01');
-    //      setLimit('2024-05-31');
-    //     }
-    //     if (fch === '6') {
-    //       setStart('2024-06-01');
-    //      setLimit('2024-06-30');
-    //     }
-    //     if (fch === '7') {
-    //       setStart('2024-07-01');
-    //      setLimit('2024-07-31');
-    //     }
-    //     if (fch === '8') {
-    //       setStart('2024-08-01');
-    //      setLimit('2024-08-31');
-    //     }
-    //     if (fch === '9') {
-    //       setStart('2024-09-01');
-    //      setLimit('2024-09-30');
-    //     }
-    //     if (fch === '10') {
-    //       setStart('2024-10-01');
-    //      setLimit('2024-10-31');
-    //     }
-    //     if (fch === '11') {
-    //       setStart('2024-11-01');
-    //      setLimit('2024-11-30');
-    //     }
-    //     if (fch === '12') {
-    //       setStart('2024-12-01');
-    //      setLimit('2024-12-31');
-    //     }
-        
+      //    if (fch === '8') {
+      //     setStart('2025-08-01');
+      //     setLimit('2025-08-31');
+      //   }
+      //   if (fch === '9') {
+      //     setStart('2025-09-01');
+      //     setLimit('2025-09-30');
+      //   }
+      //   if (fch === '10') {
+      //      setStart('2025-10-01');
+      //      setLimit('2025-10-31');
+      //    }
+      //    if (fch === '11') {
+      //      setStart('2025-11-01');
+      //     setLimit('2025-11-30');
+      //    }
+      //     if (fch === '12') {
+      //      setStart('2025-12-01');
+      //     setLimit('2025-12-31');
+      //    }
+
+    
    // 2023
     // if (fch === '0') {
     //   setStart('2022-01-01');
@@ -226,7 +179,7 @@ const Eventos = () => {
           <option value="2">Febrero</option>
           <option value="3">Marzo</option> */}
           <option value="1">Enero</option>
-          <option value="2">Febrero</option>
+          {/* <option value="2">Febrero</option>
           <option value="3">Marzo</option>
           <option value="4">Abril</option>
           <option value="5">Mayo</option>
@@ -236,7 +189,8 @@ const Eventos = () => {
           <option value="9">Septiembre</option>
           <option value="10">Octubre</option>
           <option value="11">Noviembre</option>
-          <option value="12">Diciembre</option>
+          <option value="12">Diciembre</option> */}
+
           {/* <option value="2">Febrero</option>
           <option value="3">Marzo</option>
           <option value="4">Abril</option>
