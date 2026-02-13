@@ -55,8 +55,8 @@ const Transparecia = () => (
               >
                 <iframe
                   title="Encuesta Participa "
-                  src="https://forms.office.com/r/5xLFhJRrch?origin=lprLink"
-                  style={{ width: '100%', height: '3209px' }}
+                  src="https://forms.office.com/Pages/ResponsePage.aspx?id=SEG3lKY8wUejpoDbLhALDmQwLKvtewBHvOhR_nZZZxFURUhTRllNRUZJNTdZR1FRSlJJU0NJQkFaUy4u&embed=true"
+                  style={{ width: '100%', height: '100%' }}
                   
                 />
               </div>
