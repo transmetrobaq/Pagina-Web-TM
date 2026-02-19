@@ -8034,6 +8034,49 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourEighteleven"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourEighteleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourEighteleven"
+                          >
+                            4.8.11 Informes de Control Interno Contable
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourEighteleven"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourEighteleven"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              
+                              
+                                
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_CONTRL_INTERNO_CONTABLE_2025_54f399c74e.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     Informe de Control Interno Contable 2025
+
+                                  </a>
+                                  
+                                </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
