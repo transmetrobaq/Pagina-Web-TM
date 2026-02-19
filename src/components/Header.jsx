@@ -73,7 +73,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="carousel-item  " data-bs-interval="7000">
+          {/* <div className="carousel-item  " data-bs-interval="7000">
             <a
               href="https://forms.office.com/r/KSRgsVVsLg?origin=lprLink"
               target="_blank"
@@ -87,7 +87,7 @@ const Header = () => {
                 style={{ cursor: 'pointer' }}
               />
             </a>
-          </div>
+          </div> */}
           
           <div className="carousel-item" data-bs-interval="3000">
             <img
