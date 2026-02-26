@@ -3605,6 +3605,101 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoTem"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoTem"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoTem"
+                            >
+                              CONVOCATORIA  INVITACION ABIERTA  : IA-TM-001-2026
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoTem"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoTem"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <ol>
+                                  <span> OBJETO: </span>
+                                  ADQUISICIÓN DE OCHO (8) VEHÍCULOS TIPOLOGÍA BUSETÓN, CON MOTORES A GNV, TECNOLOGÍA EURO VI, EQUIPADOS CON MOTOR DE COMBUSTIÓN INTERNA DE CUATRO (4) CILINDROS, CON UN CILINDRAJE APROXIMADO DE 4.300 CM³, PARA LA OPERACIÓN DE TRANSMETRO S.A.S.
+                                </ol>
+                                <a
+                                  href="https://apiwebtm.com/uploads/vf_VF_EP_Y_ANALISIS_IA_TM_001_2026_f153f9fb4e.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF EP Y ANALISIS IA-TM-001-2026
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/F_CDP_BUSES_eaa3805c8b.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  F.CDP - BUSES
+                                </a>
+
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/vf_VF_PREPLIEGO_DE_CONDICIONES_IA_TM_001_2026_final_b3001f3bc5.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  (vf.)VF PREPLIEGO DE CONDICIONES
+                                  IA-TM-001-2026 final
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/vf_VF_ANEXO_10_TECNICO_ESPECIFICACIONES_IA_TM_001_2026_1_final_ec9364d078.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  (vf.)VF ANEXO 10 TECNICO - ESPECIFICACIONES
+                                  IA-TM-001-2026 1 final
+                                </a>
+                                
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_09_OFRECIMIENTO_ECONOMICO_IA_TM_001_2026_538d193b34.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 09 - OFRECIMIENTO ECONOMICO-
+                                  IA-TM-001-2026
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_12_PRESUPUESTO_OFICIAL_IA_TM_001_2026_6d98ea0450.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 12 PRESUPUESTO OFICIAL IA-TM-001-2026
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/Anexo_No_13_MATRIZ_DE_RIESGOS_efa6896257.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Anexo_No._13._MATRIZ_DE_RIESGOS
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -6377,7 +6472,8 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourSevenFive"
                           >
-                            4.7.5 Planes de mejoramiento internos o externos o de rendicion de cuentas
+                            4.7.5 Planes de mejoramiento internos o externos o
+                            de rendicion de cuentas
                           </button>
                         </h2>
                         <div
@@ -6442,7 +6538,6 @@ const Acordeon = () => {
                                 >
                                   2026
                                 </a>
-                               
                               </div>
                             </li>
                           </div>
@@ -6595,10 +6690,9 @@ const Acordeon = () => {
                                     Certificado de cumplimiento softwere
                                     vig.2024
                                   </a>
-                                   
                                 </div>
                               </li>
-                               <li className="list-group-item list-group-item-action ">
+                              <li className="list-group-item list-group-item-action ">
                                 2025
                                 <div className="list-group">
                                   <a
@@ -6607,9 +6701,8 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                     Informe software legal vigencia 2025
+                                    Informe software legal vigencia 2025
                                   </a>
-                                 
                                 </div>
                               </li>
                             </div>
