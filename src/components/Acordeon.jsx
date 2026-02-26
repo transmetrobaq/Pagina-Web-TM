@@ -5051,7 +5051,7 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                     2do seguimiento al Plan de Acción 2025
+                                    2do seguimiento al Plan de Acción 2025
                                   </a>
                                 </div>
                               </li>
@@ -6055,9 +6055,8 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThreeSevenTwo"
                           >
-                            4.7.2 Informe de rendición de cuentas ante la
-                            Contraloría General de la República, o a los
-                            organismos de Contraloría o Control territoriales
+                            4.7.2 Informes de rendicion de cuentas ante
+                            contraloria
                           </button>
                         </h2>
                         <div
@@ -6140,9 +6139,8 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourSevenThree"
                           >
-                            4.7.3 Informe de rendición de cuentas a la
-                            ciudadanía sobre resultados, avances de la gestión y
-                            garantía de derecho de rendición de cuentas
+                            4.7.3 informe de rendicion de cuentas a la
+                            ciudadania
                           </button>
                         </h2>
                         <div
@@ -6301,7 +6299,9 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourSevenFour"
                           >
-                            4.7.4 Informe a Organismos de Inspección
+                            4.7.4 informes a organismos de inspeccion,
+                            vigilancia y control supersociedades,
+                            supertransporte
                           </button>
                         </h2>
                         <div
@@ -6377,7 +6377,7 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourSevenFive"
                           >
-                            4.7.5 Planes de mejoramiento
+                            4.7.5 Planes de mejoramiento internos o externos o de rendicion de cuentas
                           </button>
                         </h2>
                         <div
@@ -6386,48 +6386,65 @@ const Acordeon = () => {
                           aria-labelledby="panelsStayOpen-headingFourSevenFive"
                         >
                           <div className="accordion-body">
-                            <div className="list-group">
-                              <a
-                                href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2018_c1392f476d.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2018
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2019_26ca60beb6.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2019
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2020_279383ab40.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2020
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2021_a0ff3e1d41.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2021
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/1er_SEGUIMIENTO_Plan_Mejoramiento_2022_5840a5fdf9.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2022
-                              </a>
-                            </div>
+                            <li className="list-group-item list-group-item-action ">
+                              Contraloría Distrital de Barranquilla
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2018_c1392f476d.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2018
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2019_26ca60beb6.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2019
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2020_279383ab40.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2020
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/PLAN_DE_MEJORA_CDB_vig_2021_a0ff3e1d41.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2021
+                                </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/1er_SEGUIMIENTO_Plan_Mejoramiento_2022_5840a5fdf9.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2022
+                                </a>
+                              </div>
+                            </li>
+                            <li className="list-group-item list-group-item-action ">
+                              Oficina de CIG-TMO
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  2026
+                                </a>
+                               
+                              </div>
+                            </li>
                           </div>
                         </div>
                       </div>
@@ -6459,7 +6476,6 @@ const Acordeon = () => {
                   >
                     <div className="accordion-body">
                       <li className="list-group-item ">
-
                         <div className="list-group">
                           <a
                             href="https://apiwebtm.com/uploads/PLAN_DE_ACCION_DIRECCION_CIG_TMO_2026_91d09b9b78.pdf "
@@ -6579,6 +6595,21 @@ const Acordeon = () => {
                                     Certificado de cumplimiento softwere
                                     vig.2024
                                   </a>
+                                   
+                                </div>
+                              </li>
+                               <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INF_DERECHOS_DE_AUTOR_VIG_2025_a_PUBLICAR_4f200f8132.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                     Informe software legal vigencia 2025
+                                  </a>
+                                 
                                 </div>
                               </li>
                             </div>
@@ -7793,15 +7824,15 @@ const Acordeon = () => {
                                     Conclusiones informe pormenorizado en-jun
                                     2025
                                   </a>
-                                   <a
+                                  <a
                                     href="https://apiwebtm.com/uploads/INFORME_PORMENORIZADO_JUL_DIC_2025_6cba0ede52.pdf"
                                     className="list-group-item list-group-item-action "
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                    Informe Pormenorizado del Estado del Sistema de Control Interno Jul - Dic 2025
+                                    Informe Pormenorizado del Estado del Sistema
+                                    de Control Interno Jul - Dic 2025
                                   </a>
-                                  
                                 </div>
                               </li>
                             </div>
@@ -8005,7 +8036,8 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourEightTen"
                           >
-                            4.8.10 Informes del comportamiento en la atención de las PQRDSF
+                            4.8.10 Informes del comportamiento en la atención de
+                            las PQRDSF
                           </button>
                         </h2>
                         <div
@@ -8015,7 +8047,6 @@ const Acordeon = () => {
                         >
                           <div className="accordion-body">
                             <div className="list-group">
-                              
                               <li className="list-group-item list-group-item-action ">
                                 2025
                                 <div className="list-group">
@@ -8025,8 +8056,8 @@ const Acordeon = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                     Informe del comportamiento en La atención de las PQRDSF Jul - Dic 2025
-
+                                    Informe del comportamiento en La atención de
+                                    las PQRDSF Jul - Dic 2025
                                   </a>
                                 </div>
                               </li>
@@ -8057,22 +8088,16 @@ const Acordeon = () => {
                         >
                           <div className="accordion-body">
                             <div className="list-group">
-                              
-                              
-                                
-                                <div className="list-group">
-                                  <a
-                                    href="https://apiwebtm.com/uploads/INFORME_CONTRL_INTERNO_CONTABLE_2025_54f399c74e.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                     Informe de Control Interno Contable 2025
-
-                                  </a>
-                                  
-                                </div>
-                              
+                              <div className="list-group">
+                                <a
+                                  href="https://apiwebtm.com/uploads/INFORME_CONTRL_INTERNO_CONTABLE_2025_54f399c74e.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Informe de Control Interno Contable 2025
+                                </a>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -8955,7 +8980,7 @@ const Acordeon = () => {
                       >
                         3era Medición de satisfacción - noviembre 2025
                       </a>
-                       <a
+                      <a
                         href="https://apiwebtm.com/uploads/4ta_Medicion_de_satisfaccion_diciembre_2025_1_cb0e8851a0.pdf"
                         className="list-group-item list-group-item-action "
                         target="_blank"
