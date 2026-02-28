@@ -3630,7 +3630,12 @@ const Acordeon = () => {
                               <div className="list-group">
                                 <ol>
                                   <span> OBJETO: </span>
-                                  ADQUISICIÓN DE OCHO (8) VEHÍCULOS TIPOLOGÍA BUSETÓN, CON MOTORES A GNV, TECNOLOGÍA EURO VI, EQUIPADOS CON MOTOR DE COMBUSTIÓN INTERNA DE CUATRO (4) CILINDROS, CON UN CILINDRAJE APROXIMADO DE 4.300 CM³, PARA LA OPERACIÓN DE TRANSMETRO S.A.S.
+                                  ADQUISICIÓN DE OCHO (8) VEHÍCULOS TIPOLOGÍA
+                                  BUSETÓN, CON MOTORES A GNV, TECNOLOGÍA EURO
+                                  VI, EQUIPADOS CON MOTOR DE COMBUSTIÓN INTERNA
+                                  DE CUATRO (4) CILINDROS, CON UN CILINDRAJE
+                                  APROXIMADO DE 4.300 CM³, PARA LA OPERACIÓN DE
+                                  TRANSMETRO S.A.S.
                                 </ol>
                                 <a
                                   href="https://apiwebtm.com/uploads/vf_VF_EP_Y_ANALISIS_IA_TM_001_2026_f153f9fb4e.pdf"
@@ -3640,7 +3645,7 @@ const Acordeon = () => {
                                 >
                                   VF EP Y ANALISIS IA-TM-001-2026
                                 </a>
-                                 <a
+                                <a
                                   href="https://apiwebtm.com/uploads/F_CDP_BUSES_eaa3805c8b.pdf"
                                   className="list-group-item list-group-item-action"
                                   target="_blank"
@@ -3648,7 +3653,6 @@ const Acordeon = () => {
                                 >
                                   F.CDP - BUSES
                                 </a>
-
 
                                 <a
                                   href="https://apiwebtm.com/uploads/vf_VF_PREPLIEGO_DE_CONDICIONES_IA_TM_001_2026_final_b3001f3bc5.pdf"
@@ -3669,7 +3673,7 @@ const Acordeon = () => {
                                   (vf.)VF ANEXO 10 TECNICO - ESPECIFICACIONES
                                   IA-TM-001-2026 1 final
                                 </a>
-                                
+
                                 <a
                                   href="https://apiwebtm.com/uploads/VF_ANEXO_09_OFRECIMIENTO_ECONOMICO_IA_TM_001_2026_538d193b34.xlsx"
                                   className="list-group-item list-group-item-action"
@@ -3714,7 +3718,6 @@ const Acordeon = () => {
                               aria-controls="panelsStayOpen-collapseTreeTwoEleven"
                             >
                               INVITACIÓN LISTA CORTA TM LC 001 2026
-                              
                             </button>
                           </h2>
                           <div
@@ -3726,57 +3729,73 @@ const Acordeon = () => {
                               <div className="list-group">
                                 <ol>
                                   <span> OBJETO: </span>
-                                  
                                 </ol>
-                                <a href="https://apiwebtm.com/uploads/VF_rv_EP_Y_ANALISIS_PERSONAL_EN_MISION_E_INSUMOS_2806772ec5.pdf" 
-   className="list-group-item list-group-item-action" 
-   target="_blank" 
-   rel="noreferrer">
-   VF(rv) EP Y ANALISIS PERSONAL EN MISION E INSUMOS
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_rv_EP_Y_ANALISIS_PERSONAL_EN_MISION_E_INSUMOS_2806772ec5.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF(rv) EP Y ANALISIS PERSONAL EN MISION E
+                                  INSUMOS
+                                </a>
 
-<a href="https://apiwebtm.com/uploads/INVITACION_2_6e7f7a3f3f.pdf" 
-   className="list-group-item list-group-item-action" 
-   target="_blank" 
-   rel="noreferrer">
-   INVITACION
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/INVITACION_2_6e7f7a3f3f.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INVITACION
+                                </a>
 
-<a href="https://apiwebtm.com/uploads/VF_rv_CONVOCATORIA_TM_LC_001_2026_PERSONAL_TEMPORAL_E_INSUMOS_ee36003b78.pdf" 
-   className="list-group-item list-group-item-action" 
-   target="_blank" 
-   rel="noreferrer">
-   VF(rv) CONVOCATORIA TM-LC-001-2026 PERSONAL TEMPORAL E INSUMOS
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_rv_CONVOCATORIA_TM_LC_001_2026_PERSONAL_TEMPORAL_E_INSUMOS_ee36003b78.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF(rv) CONVOCATORIA TM-LC-001-2026 PERSONAL
+                                  TEMPORAL E INSUMOS
+                                </a>
 
-<a href="https://apiwebtm.com/uploads/ANEXO_10_TECNICO_ESPECIFICACIONES_LC_TM_001_2026_b1f73b912c.pdf" 
-   className="list-group-item list-group-item-action" 
-   target="_blank" 
-   rel="noreferrer">
-   ANEXO 10 TECNICO - ESPECIFICACIONES LC-TM-001-2026
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ANEXO_10_TECNICO_ESPECIFICACIONES_LC_TM_001_2026_b1f73b912c.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ANEXO 10 TECNICO - ESPECIFICACIONES
+                                  LC-TM-001-2026
+                                </a>
 
-<a href="https://apiwebtm.com/uploads/F_CDP_188_SUMINISTRO_PERSONAL_2aba989818.pdf" 
-   className="list-group-item list-group-item-action" 
-   target="_blank" 
-   rel="noreferrer">
-   F.CDP 188 - SUMINISTRO PERSONAL
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/F_CDP_188_SUMINISTRO_PERSONAL_2aba989818.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  F.CDP 188 - SUMINISTRO PERSONAL
+                                </a>
 
-<a href="https://apiwebtm.com/uploads/VF_ANEXO_09_OFERECIMIENTO_ECONOMICO_LC_TM_001_2026_bb934329d7.xlsx" 
-   className="list-group-item list-group-item-action" 
-   target="_blank" 
-   rel="noreferrer">
-   VF ANEXO 09 OFERECIMIENTO ECONOMICO LC-TM-001-2026
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_09_OFERECIMIENTO_ECONOMICO_LC_TM_001_2026_bb934329d7.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 09 OFERECIMIENTO ECONOMICO
+                                  LC-TM-001-2026
+                                </a>
 
-<a href="https://apiwebtm.com/uploads/VF_ANEXO_12_PRESUPUESTO_OFICIAL_LC_TM_001_2026_44ed39f1cc.xlsx" 
-   className="list-group-item list-group-item-action" 
-   target="_blank" 
-   rel="noreferrer">
-   VF ANEXO 12 PRESUPUESTO OFICIAL LC-TM-001-2026
-</a>
-                                 
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_12_PRESUPUESTO_OFICIAL_LC_TM_001_2026_44ed39f1cc.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 12 PRESUPUESTO OFICIAL LC-TM-001-2026
+                                </a>
                               </div>
                             </div>
                           </div>
