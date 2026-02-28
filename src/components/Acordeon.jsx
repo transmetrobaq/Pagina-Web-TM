@@ -3700,6 +3700,87 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoEleven"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoEleven"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoEleven"
+                            >
+                              INVITACIÓN LISTA CORTA TM LC 001 2026
+                              
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoEleven"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoEleven"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <ol>
+                                  <span> OBJETO: </span>
+                                  
+                                </ol>
+                                <a href="https://apiwebtm.com/uploads/VF_rv_EP_Y_ANALISIS_PERSONAL_EN_MISION_E_INSUMOS_2806772ec5.pdf" 
+   className="list-group-item list-group-item-action" 
+   target="_blank" 
+   rel="noreferrer">
+   VF(rv) EP Y ANALISIS PERSONAL EN MISION E INSUMOS
+</a>
+
+<a href="https://apiwebtm.com/uploads/INVITACION_2_6e7f7a3f3f.pdf" 
+   className="list-group-item list-group-item-action" 
+   target="_blank" 
+   rel="noreferrer">
+   INVITACION
+</a>
+
+<a href="https://apiwebtm.com/uploads/VF_rv_CONVOCATORIA_TM_LC_001_2026_PERSONAL_TEMPORAL_E_INSUMOS_ee36003b78.pdf" 
+   className="list-group-item list-group-item-action" 
+   target="_blank" 
+   rel="noreferrer">
+   VF(rv) CONVOCATORIA TM-LC-001-2026 PERSONAL TEMPORAL E INSUMOS
+</a>
+
+<a href="https://apiwebtm.com/uploads/ANEXO_10_TECNICO_ESPECIFICACIONES_LC_TM_001_2026_b1f73b912c.pdf" 
+   className="list-group-item list-group-item-action" 
+   target="_blank" 
+   rel="noreferrer">
+   ANEXO 10 TECNICO - ESPECIFICACIONES LC-TM-001-2026
+</a>
+
+<a href="https://apiwebtm.com/uploads/F_CDP_188_SUMINISTRO_PERSONAL_2aba989818.pdf" 
+   className="list-group-item list-group-item-action" 
+   target="_blank" 
+   rel="noreferrer">
+   F.CDP 188 - SUMINISTRO PERSONAL
+</a>
+
+<a href="https://apiwebtm.com/uploads/VF_ANEXO_09_OFERECIMIENTO_ECONOMICO_LC_TM_001_2026_bb934329d7.xlsx" 
+   className="list-group-item list-group-item-action" 
+   target="_blank" 
+   rel="noreferrer">
+   VF ANEXO 09 OFERECIMIENTO ECONOMICO LC-TM-001-2026
+</a>
+
+<a href="https://apiwebtm.com/uploads/VF_ANEXO_12_PRESUPUESTO_OFICIAL_LC_TM_001_2026_44ed39f1cc.xlsx" 
+   className="list-group-item list-group-item-action" 
+   target="_blank" 
+   rel="noreferrer">
+   VF ANEXO 12 PRESUPUESTO OFICIAL LC-TM-001-2026
+</a>
+                                 
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
