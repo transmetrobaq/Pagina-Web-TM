@@ -177,7 +177,7 @@ const Info = () => {
                 <div className="card-body usu-movilizados ">
                   <h2 className="card-text ">Usuarios Movilizados</h2>
                   <p className="card-text">
-                    Desde el 10 de julio de 2010 hasta <br />18 de noviembre de 2025
+                    Desde el 10 de julio de 2010 hasta <br />15 de febrero de 2026
                     <button
                       type="button"
                       className="btn text-white "
@@ -195,7 +195,7 @@ const Info = () => {
                     src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
                     alt="Bus Transmetro"
                   />
-                  <h1 className="card-title fw-bold">437.187.328</h1>
+                  <h1 className="card-title fw-bold">441.899.810 </h1>
                   <div className="linea-colores-movi" />
                 </div>
               </div>
@@ -230,6 +230,44 @@ const Info = () => {
               // style={{ width: '150wh', height: '3518px' }}
             >
               <table className="table table-bordered azul-lt ">
+                <thead>
+                  <tr>
+                    <th scope="col">Periodos</th>
+                    <th scope="col">Número de movilizados</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>ENERO 2026</td>
+                    <td>1.287.481</td>
+                  </tr>
+                 
+                </tbody>
+              </table>
+              <div className="accordion-item">
+                <h2
+                  className="accordion-header"
+                  id="panelsStayOpen-headingMvThree"
+                >
+                  <button
+                    className="accordion-button collapsed azul-lt"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseMvThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseMvThree"
+                  >
+                    Año 2025
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseMvThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingMvThree"
+                >
+                  <div className="accordion-body">
+                    <div className="list-group">
+                     <table className="table table-bordered azul-lt ">
                 <thead>
                   <tr>
                     <th scope="col">Periodos</th>
@@ -277,28 +315,40 @@ const Info = () => {
                     <td>OCTUBRE 2025</td>
                     <td>1.686.814</td>
                   </tr>
+                   <tr>
+                    <td>NOVIEMBRE 2025</td>
+                    <td>1.578.886</td>
+                  </tr>
+                  <tr>
+                    <td>DICIEMBRE 2025</td>
+                    <td>1.522.960</td>
+                  </tr>
                 </tbody>
               </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="accordion-item">
                 <h2
                   className="accordion-header"
-                  id="panelsStayOpen-headingtwentyfour"
+                  id="panelsStayOpen-headingMvTwo"
                 >
                   <button
                     className="accordion-button collapsed azul-lt"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapsetwentyfour"
+                    data-bs-target="#panelsStayOpen-collapseMvTwo"
                     aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapstwentyfour"
+                    aria-controls="panelsStayOpen-collapseMvTwo"
                   >
                     Año 2024
                   </button>
                 </h2>
                 <div
-                  id="panelsStayOpen-collapsetwentyfour"
+                  id="panelsStayOpen-collapseMvTwo"
                   className="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingtwentyfour"
+                  aria-labelledby="panelsStayOpen-headingMvTwo"
                 >
                   <div className="accordion-body">
                     <div className="list-group">
@@ -367,23 +417,23 @@ const Info = () => {
               <div className="accordion-item">
                 <h2
                   className="accordion-header"
-                  id="panelsStayOpen-headingOneTwo"
+                  id="panelsStayOpen-headingMvOne"
                 >
                   <button
                     className="accordion-button collapsed azul-lt"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseperiodo"
+                    data-bs-target="#panelsStayOpen-collapseMvOne"
                     aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseperiodo"
+                    aria-controls="panelsStayOpen-collapMvOne"
                   >
                     Año 2023
                   </button>
                 </h2>
                 <div
-                  id="panelsStayOpen-collapseperiodo"
+                  id="panelsStayOpen-collapseMvOne"
                   className="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingperiodo"
+                  aria-labelledby="panelsStayOpen-headingMvOne"
                 >
                   <div className="accordion-body">
                     <div className="list-group">
