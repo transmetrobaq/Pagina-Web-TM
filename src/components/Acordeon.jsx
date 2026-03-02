@@ -3729,6 +3729,20 @@ const Acordeon = () => {
                               <div className="list-group">
                                 <ol>
                                   <span> OBJETO: </span>
+                                  CONTRATAR LA PRESTACIÓN DE SERVICIOS INTEGRAL
+                                  DE SUMINISTRO DE PERSONAL OPERATIVO, LOGÍSTICO
+                                  Y PROFESIONAL, ASÍ COMO LA PROVISIÓN DE
+                                  INSUMOS, MATERIAL PEDAGÓGICO Y ELEMENTOS
+                                  NECESARIOS, PARA LA PLANIFICACIÓN, EJECUCIÓN,
+                                  ACOMPAÑAMIENTO Y EVALUACIÓN DE CAMPAÑAS DE
+                                  SOCIALIZACIÓN EN CULTURA CIUDADANA DIRIGIDAS A
+                                  LOS DISTINTOS ACTORES VIALES EN LAS ESTACIONES
+                                  DEL SISTEMA DE TRANSPORTE MASIVO TRANSMETRO
+                                  S.A.S., CON EL FIN DE FOMENTAR COMPORTAMIENTOS
+                                  SEGUROS, BUEN USO DE LA INFRAESTRUCTURA,
+                                  APROPIACIÓN DEL SISTEMA Y PROMOCIÓN DE
+                                  PRÁCTICAS QUE CONTRIBUYAN A LA MOVILIDAD
+                                  SOSTENIBLE Y A LA CONVIVENCIA CIUDADANA
                                 </ol>
                                 <a
                                   href="https://apiwebtm.com/uploads/VF_rv_EP_Y_ANALISIS_PERSONAL_EN_MISION_E_INSUMOS_2806772ec5.pdf"
