@@ -3810,6 +3810,14 @@ const Acordeon = () => {
                                 >
                                   VF ANEXO 12 PRESUPUESTO OFICIAL LC-TM-001-2026
                                 </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/Resolucion_063_2026_Desierto_de_proceso_TM_LC_001_2026_fe324ccb76.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Resolucion 063-2026 - Desierto de proceso TM-LC-001-2026
+                                </a>
                               </div>
                             </div>
                           </div>
