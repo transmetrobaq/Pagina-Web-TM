@@ -6684,34 +6684,85 @@ const Acordeon = () => {
                     aria-labelledby="panelsStayOpen-headingFourEight"
                   >
                     <div className="accordion-body">
-                      <li className="list-group-item ">
-                        <div className="list-group">
-                          <a
-                            href="https://apiwebtm.com/uploads/PLAN_DE_ACCION_DIRECCION_CIG_TMO_2026_91d09b9b78.pdf "
-                            className="list-group-item list-group-item-action "
-                            target="_blank"
-                            rel="noreferrer"
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourCero"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourEightCero"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourEightCero"
                           >
-                            Plan de Acción Dirección CIG-TMO 2026
-                          </a>
-                          <a
-                            href="https://apiwebtm.com/uploads/Plan_Anual_de_Auditorias_CIG_TMO_2026_1a42d6f03e.pdf"
-                            className="list-group-item list-group-item-action "
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Plan de Auditorías CIG-TMO 2026
-                          </a>
-                          {/* <a
-                            href="https://apiwebtm.com"
-                            className="list-group-item list-group-item-action "
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Certificado de Accesibilidad web 2026
-                          </a>{' '} */}
+                            Institucionalidad Oficina De Control Interno
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourEightCero"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourEightCero"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Estatuto de auditoria
+                              </a>
+                              <a
+                                href="https://apiwebtm.com"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Codigo de ética de Auditor
+                              </a>
+                              <a
+                                href="https://apiwebtm.com"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Resolucion Comité Coordinador de CIG-TMO
+                              </a>
+
+                              <li className="list-group-item list-group-item-action ">
+                                Planes de Auditorias
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Plan_Anual_de_Auditorias_CIG_TMO_2026_1a42d6f03e.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Plan de Auditorías CIG-TMO 2026
+                                  </a>
+                                </div>
+                              </li>
+                              <li className="list-group-item list-group-item-action ">
+                                Planes de Acción
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/PLAN_DE_ACCION_DIRECCION_CIG_TMO_2026_91d09b9b78.pdf "
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Plan de Acción Dirección CIG-TMO 2026
+                                  </a>
+                                </div>
+                              </li>
+                            </div>
+                          </div>
                         </div>
-                      </li>
+                      </div>
+
                       <div className="accordion-item">
                         <h2
                           className="accordion-header"
