@@ -3810,13 +3810,118 @@ const Acordeon = () => {
                                 >
                                   VF ANEXO 12 PRESUPUESTO OFICIAL LC-TM-001-2026
                                 </a>
-                                 <a
+                                <a
                                   href="https://apiwebtm.com/uploads/Resolucion_063_2026_Desierto_de_proceso_TM_LC_001_2026_fe324ccb76.pdf"
                                   className="list-group-item list-group-item-action"
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  Resolucion 063-2026 - Desierto de proceso TM-LC-001-2026
+                                  Resolucion 063-2026 - Desierto de proceso
+                                  TM-LC-001-2026
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="accordion-item">
+                          <h2
+                            className="accordion-header"
+                            id="panelsStayOpen-headingTreeTwoDoce"
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#panelsStayOpen-collapseTreeTwoDoce"
+                              aria-expanded="false"
+                              aria-controls="panelsStayOpen-collapseTreeTwoDoce"
+                            >
+                              PROCESO LISTA  CORTA TM-LC-002-2026
+                            </button>
+                          </h2>
+                          <div
+                            id="panelsStayOpen-collapseTreeTwoDoce"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTreeTwoDoce"
+                          >
+                            <div className="accordion-body">
+                              <div className="list-group">
+                                <ol>
+                                  <span> OBJETO: </span>
+                                  PRESTACIÓN INTEGRAL DE OPERACIÓN LOGÍSTICA Y
+                                  SUMINISTRO DE BIENES Y RECURSOS NECESARIOS
+                                  PARA EL ADECUADO CUMPLIMIENTO DE LAS
+                                  OBLIGACIONES A CARGO DE TRANSMETRO S.A.S. EN
+                                  EL MARCO DEL CONTRATO INTERADMINISTRATIVO N.º
+                                  AMB -CI-001- 2026, ORIENTADO A LA GERENCIA
+                                  INTEGRAL DE LAS ESTRATEGIAS Y ACTIVIDADES
+                                  REQUERIDAS POR EL ÁREA METROPOLITANA DE
+                                  BARRANQUILLA COMO AUTORIDAD DE TRANSPORTE Y
+                                  GESTOR CATASTRAL.
+                                </ol>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_09_OFRECIMIENTO_ECONOMICO_LC_TM_002_2026_03f4aef13a.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 09 OFRECIMIENTO ECONOMICO
+                                  LC-TM-002-2026
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/F_CDP_186_OPERACION_LOGISTICA_1_7198709d31.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  F.CDP 186 - OPERACION LOGISTICA
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_10_TECNICO_ESPECIFICACIONES_LC_TM_002_2026_bbd3c070fe.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 10 TECNICO - ESPECIFICACIONES
+                                  LC-TM-002-2026
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_12_PRESUPUESTO_OFICIAL_LC_TM_002_2026_b1b23600c9.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 12 PRESUPUESTO OFICIAL LC-TM-002-2026
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_CONVOCATORIA_TM_LC_002_2026_OPERADOR_AMB_2c8fe14cb7.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF CONVOCATORIA TM-LC-002-2026 OPERADOR AMB
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_EP_Y_ANALIS_DEL_SECTOR_1_c9c7720e0d.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF EP Y ANALIS DEL SECTOR
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/Invitacion_TM_LC_002_2026_dbc18e4550.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Invitación TM-LC -002-2026
                                 </a>
                               </div>
                             </div>
