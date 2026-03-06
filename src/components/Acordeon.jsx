@@ -3836,7 +3836,7 @@ const Acordeon = () => {
                               aria-expanded="false"
                               aria-controls="panelsStayOpen-collapseTreeTwoDoce"
                             >
-                              PROCESO LISTA  CORTA TM-LC-002-2026
+                              PROCESO LISTA CORTA TM-LC-002-2026
                             </button>
                           </h2>
                           <div
@@ -3940,7 +3940,7 @@ const Acordeon = () => {
                               aria-expanded="false"
                               aria-controls="panelsStayOpen-collapseTreeTwoTHIRTEEN"
                             >
-                              Proceso Lista Corta TM-LC-003 2026 
+                              Proceso Lista Corta TM-LC-003 2026
                             </button>
                           </h2>
                           <div
@@ -3952,71 +3952,87 @@ const Acordeon = () => {
                               <div className="list-group">
                                 <ol>
                                   <span> OBJETO: </span>
-                                  CONTRATAR LA PRESTACIÓN DE SERVICIOS INTEGRAL DE SUMINISTRO DE PERSONAL OPERATIVO, LOGÍSTICO Y PROFESIONAL, ASÍ COMO LA PROVISIÓN DE INSUMOS, MATERIAL PEDAGÓGICO Y ELEMENTOS NECESARIOS, PARA LA PLANIFICACIÓN, EJECUCIÓN, ACOMPAÑAMIENTO Y EVALUACIÓN DE CAMPAÑAS DE SOCIALIZACIÓN EN CULTURA CIUDADANA DIRIGIDAS A LOS DISTINTOS ACTORES VIALES EN LAS ESTACIONES DEL SISTEMA DE TRANSPORTE MASIVO TRANSMETRO S.A.S., CON EL FIN DE FOMENTAR COMPORTAMIENTOS SEGUROS,
-                                   BUEN USO DE LA INFRAESTRUCTURA, APROPIACIÓN DEL SISTEMA Y PROMOCIÓN DE PRÁCTICAS QUE CONTRIBUYAN A LA MOVILIDAD SOSTENIBLE Y A LA CONVIVENCIA CIUDADANA
+                                  CONTRATAR LA PRESTACIÓN DE SERVICIOS INTEGRAL
+                                  DE SUMINISTRO DE PERSONAL OPERATIVO, LOGÍSTICO
+                                  Y PROFESIONAL, ASÍ COMO LA PROVISIÓN DE
+                                  INSUMOS, MATERIAL PEDAGÓGICO Y ELEMENTOS
+                                  NECESARIOS, PARA LA PLANIFICACIÓN, EJECUCIÓN,
+                                  ACOMPAÑAMIENTO Y EVALUACIÓN DE CAMPAÑAS DE
+                                  SOCIALIZACIÓN EN CULTURA CIUDADANA DIRIGIDAS A
+                                  LOS DISTINTOS ACTORES VIALES EN LAS ESTACIONES
+                                  DEL SISTEMA DE TRANSPORTE MASIVO TRANSMETRO
+                                  S.A.S., CON EL FIN DE FOMENTAR COMPORTAMIENTOS
+                                  SEGUROS, BUEN USO DE LA INFRAESTRUCTURA,
+                                  APROPIACIÓN DEL SISTEMA Y PROMOCIÓN DE
+                                  PRÁCTICAS QUE CONTRIBUYAN A LA MOVILIDAD
+                                  SOSTENIBLE Y A LA CONVIVENCIA CIUDADANA
                                 </ol>
-                               <a 
-  href="https://apiwebtm.com/uploads/F_CDP_200_20d9431323.pdf"
-  className="list-group-item list-group-item-action"
-  target="_blank"
-  rel="noreferrer"
->
-  F.CDP 200
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/F_CDP_200_20d9431323.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  F.CDP 200
+                                </a>
 
-<a 
-  href="https://apiwebtm.com/uploads/INVITACION_LISTA_CORTA_TM_LC_00320260305165231159382_c3ce825e6a.pdf"
-  className="list-group-item list-group-item-action"
-  target="_blank"
-  rel="noreferrer"
->
-  INVITACION LISTA CORTA TM LC 00320260305165231159382
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/INVITACION_LISTA_CORTA_TM_LC_00320260305165231159382_c3ce825e6a.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  INVITACION LISTA CORTA TM LC
+                                  00320260305165231159382
+                                </a>
 
-<a 
-  href="https://apiwebtm.com/uploads/VF_ANEXO_12_PRESUPUESTO_OFICIAL_LC_TM_003_2026_1_e1abccbaa7.xlsx"
-  className="list-group-item list-group-item-action"
-  target="_blank"
-  rel="noreferrer"
->
-  VF ANEXO 12 PRESUPUESTO OFICIAL LC-TM-003-2026
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_12_PRESUPUESTO_OFICIAL_LC_TM_003_2026_1_e1abccbaa7.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 12 PRESUPUESTO OFICIAL LC-TM-003-2026
+                                </a>
 
-<a 
-  href="https://apiwebtm.com/uploads/VF_ANEXO_09_OFERECIMIENTO_ECONOMICO_LC_TM_003_2026_a8c0cdc242.xlsx"
-  className="list-group-item list-group-item-action"
-  target="_blank"
-  rel="noreferrer"
->
-  VF ANEXO 09 OFERECIMIENTO ECONOMICO LC-TM-003-2026
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_09_OFERECIMIENTO_ECONOMICO_LC_TM_003_2026_a8c0cdc242.xlsx"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 09 OFERECIMIENTO ECONOMICO
+                                  LC-TM-003-2026
+                                </a>
 
-<a 
-  href="https://apiwebtm.com/uploads/VF_ANEXO_10_ESPECIFICACIONES_TECNICASLC_TM_003_2026_1_3f1f147ae8.pdf"
-  className="list-group-item list-group-item-action"
-  target="_blank"
-  rel="noreferrer"
->
-  VF ANEXO 10 ESPECIFICACIONES TECNICASLC-TM-003-2026
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_ANEXO_10_ESPECIFICACIONES_TECNICASLC_TM_003_2026_1_3f1f147ae8.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF ANEXO 10 ESPECIFICACIONES
+                                  TECNICASLC-TM-003-2026
+                                </a>
 
-<a 
-  href="https://apiwebtm.com/uploads/VF_CONVOCATORIA_TM_LC_003_2026_PERSONAL_TEMPORAL_E_INSUMOS_1_a301b6b36e.pdf"
-  className="list-group-item list-group-item-action"
-  target="_blank"
-  rel="noreferrer"
->
-  VF CONVOCATORIA TM-LC-003-2026 PERSONAL TEMPORAL E INSUMOS
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_CONVOCATORIA_TM_LC_003_2026_PERSONAL_TEMPORAL_E_INSUMOS_1_a301b6b36e.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF CONVOCATORIA TM-LC-003-2026 PERSONAL
+                                  TEMPORAL E INSUMOS
+                                </a>
 
-<a 
-  href="https://apiwebtm.com/uploads/VF_EP_Y_ANALISIS_TM_LC_003_2026_d31d86d279.pdf"
-  className="list-group-item list-group-item-action"
-  target="_blank"
-  rel="noreferrer"
->
-  VF EP Y ANALISIS TM-LC-003-2026
-</a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/VF_EP_Y_ANALISIS_TM_LC_003_2026_d31d86d279.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF EP Y ANALISIS TM-LC-003-2026
+                                </a>
                               </div>
                             </div>
                           </div>
