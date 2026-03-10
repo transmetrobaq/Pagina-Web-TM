@@ -7313,7 +7313,7 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="accordion-item">
+                      {/* <div className="accordion-item">
                         <h2
                           className="accordion-header"
                           id="panelsStayOpen-headingFourSevenThree"
@@ -7424,6 +7424,149 @@ const Acordeon = () => {
                                     rel="noreferrer"
                                   >
                                     Informe auditoria PQRSD I semestre
+                                  </a>
+                                </div>
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                      </div> */}
+
+                       <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourSevenThree"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourSevenThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourSevenThree"
+                          >
+                            4.8.3 INFORMES PORMENORIZADO DEL ESTADO DEL SISTEMA DE CONTROL INTERNO
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourSevenThree"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourSevenThree"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Informe_Pormenorizado_Noviembre_Diciembre_2019_95f9fe4522.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORMES_PORMENORIZADOS_2020_7166a59965.rar"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORMES_PORMENORIZADOS_2021_94fb76e67d.rar"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORMES_PORMENORIZADOS_2022_a86149cf51.7z"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                              {/* <a
+                                href="https://apiwebtm.com/uploads/Informe_pormenorizado_Ene_Jun_2023_fe5d53ca65.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2023
+                              </a> */}
+                              <li className="list-group-item list-group-item-action ">
+                                2023
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Informe_pormenorizado_Ene_Jun_2023_fe5d53ca65.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe pormenorizado Ene-Jun
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Informe_pormenorizado_Jul_Dic_2023_f5d68cb5f2.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe pormenorizado Jul-Dic
+                                  </a>
+                                </div>
+                              </li>
+                              <li className="list-group-item list-group-item-action ">
+                                2024
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_PORMENORIZADO_ENE_JUN_2024_f4c889ec78.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe pormenorizado Ene-jun 2024
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PARAMETRIZADO_DEL_SCI_JUL_DIC_2024_8e006be531.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Conclusiones Informe Parametrizado Del SCI
+                                    Jul-Dic 2024
+                                  </a>
+                                </div>
+                              </li>
+
+                              <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PARAMETRIZADO_DEL_SCI_JUL_DIC_2024_fb759b8450.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Conclusiones informe parametrizado
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/CONCLUSIONES_INFORME_PORMENORIZADO_En_Jun_2025_4f6f71b98f.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Conclusiones informe pormenorizado en-jun
+                                    2025
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_PORMENORIZADO_JUL_DIC_2025_6cba0ede52.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe Pormenorizado del Estado del Sistema
+                                    de Control Interno Jul - Dic 2025
                                   </a>
                                 </div>
                               </li>
