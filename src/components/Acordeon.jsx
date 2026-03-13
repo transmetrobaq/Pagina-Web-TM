@@ -6868,7 +6868,7 @@ const Acordeon = () => {
                               Oficina de CIG-TMO
                               <div className="list-group">
                                 <a
-                                  href="https://apiwebtm.com"
+                                  href="aaa"
                                   className="list-group-item list-group-item-action "
                                   target="_blank"
                                   rel="noreferrer"
@@ -7821,6 +7821,14 @@ const Acordeon = () => {
                                           rel="noreferrer"
                                         >
                                           Informe Austeridad 4to Trim
+                                        </a>
+                                         <a
+                                          href="https://apiwebtm.com/uploads/Inf_Austeridad_del_GASTO_TRANSMETRO_ENE_DIC_2024_VS_2025_c97dec9938.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Inf Austeridad del GASTO TRANSMETRO ENE-DIC 2024 VS 2025
                                         </a>
                                       </div>
                                     </li>
@@ -8920,7 +8928,7 @@ const Acordeon = () => {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              Informe PQRSDF segundo trimestre de 2025
+                              Informe PQRSDF segundo trimestre 2025
                             </a>
                             <a
                               href="https://apiwebtm.com/uploads/Informe_de_gestion_PQRSDF_1_DE_JULIO_A_30_DE_SEPTIEMBRE_DE_2025_8229f586dc.pdf"
@@ -8928,8 +8936,15 @@ const Acordeon = () => {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              Informe de gestión PQRSDF - 1 de julio a 30 de
-                              septiembre de 2025
+                              Informe PQRSDF tercer trimestre 2025
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_gestion_PQRSDF_1_DE_OCTUBRE_A_31_DE_DICIEMBRE_DE_2025_1_95ddc4718d.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe PQRSDF cuarto trimestre 2025
                             </a>
                           </div>
                         </li>
@@ -10794,6 +10809,14 @@ const Acordeon = () => {
                           rel="noreferrer"
                         >
                           RC CONTRALORIA DISTRITAL DE BARRANQUILLA 2023
+                        </a>
+                        <a
+                          href="https://apiwebtm.com/uploads/RC_CONTRALORIA_DISTRITAL_DE_BARRANQUILLA_2025_a60402fb12.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          RC CONTRALORIA DISTRITAL DE BARRANQUILLA 2025
                         </a>
                       </div>
                     </div>
