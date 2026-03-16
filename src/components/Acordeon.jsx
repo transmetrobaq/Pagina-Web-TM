@@ -4033,6 +4033,51 @@ const Acordeon = () => {
                                 >
                                   VF EP Y ANALISIS TM-LC-003-2026
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/ACTA_CIERRE_788021858a.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACTA CIERRE
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/ADENDA_No_1_PROCESO_LISTA_CORTA_TM_LC_001_2026_2_f038aeaa23.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ADENDA No. 1 PROCESO LISTA CORTA
+                                  TM-LC-001-2026
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_DEFINITIVA_20260316163745242461_1627346fa0.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACION DEFINITIVA
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_PRELIMINAR_TECN_JURID_20260316163633242460_f2765c9f02.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACION PRELIMINAR TECN JURID
+                                </a>
+
+                                <a
+                                  href="https://apiwebtm.com/uploads/RESOLUCION_ADJUDICACION_TM_LC_003_2026_28c3415918.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RESOLUCIÓN ADJUDICACIÓN TM-LC-003-2026
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -7432,7 +7477,7 @@ const Acordeon = () => {
                         </div>
                       </div> */}
 
-                       <div className="accordion-item">
+                      <div className="accordion-item">
                         <h2
                           className="accordion-header"
                           id="panelsStayOpen-headingFourSevenThree"
@@ -7445,7 +7490,8 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourSevenThree"
                           >
-                            4.8.3 INFORMES PORMENORIZADO DEL ESTADO DEL SISTEMA DE CONTROL INTERNO
+                            4.8.3 INFORMES PORMENORIZADO DEL ESTADO DEL SISTEMA
+                            DE CONTROL INTERNO
                           </button>
                         </h2>
                         <div
@@ -7822,13 +7868,14 @@ const Acordeon = () => {
                                         >
                                           Informe Austeridad 4to Trim
                                         </a>
-                                         <a
+                                        <a
                                           href="https://apiwebtm.com/uploads/Inf_Austeridad_del_GASTO_TRANSMETRO_ENE_DIC_2024_VS_2025_c97dec9938.pdf"
                                           className="list-group-item list-group-item-action "
                                           target="_blank"
                                           rel="noreferrer"
                                         >
-                                          Inf Austeridad del GASTO TRANSMETRO ENE-DIC 2024 VS 2025
+                                          Inf Austeridad del GASTO TRANSMETRO
+                                          ENE-DIC 2024 VS 2025
                                         </a>
                                       </div>
                                     </li>
