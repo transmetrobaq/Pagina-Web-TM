@@ -9448,6 +9448,24 @@ const Acordeon = () => {
                               {' '}
                               Informe de Gestión 2024 TMO
                             </a>
+                            <a
+                              href="https://barranquilla.gov.co/6-6-7-memorias-de-cada-evento"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {' '}
+                              6.6.7 Memorias de cada evento – Alcaldía de Barranquilla, Distrito Especial, Industrial y Portuario
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/acta_de_rendicion_ciudad_dinamica_1_8d51c05637.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Acta de rendicion ciudad dinamica
+                            </a>
+
 
                             {/* <a
                               href="https://apiwebtm.com/uploads/Informe_de_Gestion_2022_d0f3fdda11.pdf"
