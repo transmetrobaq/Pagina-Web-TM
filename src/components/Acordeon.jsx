@@ -5294,6 +5294,14 @@ const Acordeon = () => {
                                     2do Monitoreo Programa de Transparencia y
                                     ética pública
                                   </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/TERCER_INFORME_MONITOREO_PTEP_A_DIC_2025_df9d34a2b8.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Tercer Informe Monitoreo PTEP a dic 2025
+                                  </a>
                                 </div>
                               </li>
                             </div>
