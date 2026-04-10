@@ -4848,6 +4848,20 @@ const Acordeon = () => {
                             </a>
                           </div>
                         </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2025
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/Ejecucion_Ingresos_y_Gastos_2025_96dc334764.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Ejecución Presupuestal
+
+                            </a>
+                          </div>
+                        </li>
                         {/* <a
                           href="https://apiwebtm.com/uploads/PAA_Y_MOD_PAA_2021_3ca1e7e657.pdf"
                           className="list-group-item list-group-item-action"
