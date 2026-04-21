@@ -4681,14 +4681,30 @@ const Acordeon = () => {
                             </a>
                           </div>
                         </li>
-                        <a
+                         <li className="list-group-item list-group-item-action ">
+                          2025
+                          <div className="list-group">
+                          <a
                           href="https://apiwebtm.com/uploads/PROYECTO_DE_PRESUPUESTO_VIGENCIA_2025_801b4c3a41.pdf"
                           className="list-group-item list-group-item-action "
                           target="_blank"
                           rel="noreferrer"
                         >
-                          2025
+                         
+                          Proyecto de Presupuesto Vigencia 2025
                         </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Estados_Financieros_Transmetro_2025_2024_be6531f63a.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Estados Financieros Transmetro 2025-2024
+                            </a>
+                           
+                          </div>
+                        </li>
+                        
                         <a
                           href="https://apiwebtm.com/uploads/PRESUPUESTO_VIGENCIA_2026_f2e752b67d.pdf"
                           className="list-group-item list-group-item-action "
@@ -6659,6 +6675,21 @@ const Acordeon = () => {
                                     {' '}
                                     Informe de Gestión 2024 TMO
                                   </a>
+                                </div>
+                              </li>
+                              <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Informe_de_Gestion_Transmetro_2025_c59e401a92.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    {' '}
+                                   Informe de Gestión Transmetro 2025
+                                  </a>
+                                 
                                 </div>
                               </li>
                             </div>
