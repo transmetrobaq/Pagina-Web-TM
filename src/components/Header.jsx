@@ -115,7 +115,7 @@ const Header = () => {
               <div className="linea-coloresHeader" />
             </div>
           </div>
-           <div className="carousel-item " data-bs-interval="7000">
+           {/* <div className="carousel-item " data-bs-interval="7000">
             <a
               href="https://forms.office.com/pages/responsepage.aspx?id=SEG3lKY8wUejpoDbLhALDim3VBlIiyROn5TANJAFNDxUNEQ3U1ZEVFNWTURGSkJQTjYyTktTNURWVi4u&origin=lprLink&route=shorturl"
               target="_blank"
@@ -129,7 +129,7 @@ const Header = () => {
                 style={{ cursor: 'pointer' }}
               />
             </a>
-          </div>
+          </div> */}
         </div>
         <button
           className="carousel-control-prev"

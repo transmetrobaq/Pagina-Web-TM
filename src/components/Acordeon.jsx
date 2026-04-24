@@ -3935,6 +3935,79 @@ const Acordeon = () => {
                                   Resolucion 063-2026 - Desierto de proceso
                                   TM-LC-001-2026
                                 </a>
+                                <a 
+  href="https://apiwebtm.com/uploads/ACTA_DE_AUDIENCIA_CIERRE_20260331150432162242_2_6a96d411fc.pdf"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  ACTA DE AUDIENCIA CIERRE 20260331150432162242
+</a>
+<a 
+  href="https://apiwebtm.com/uploads/vf_RESPUESTAS_OBSERVACIONES_IA_TM_001_2026_f1b38c2d09.pdf"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  vf RESPUESTAS OBSERVACIONES IA-TM-001-2026
+</a>
+<a 
+  href="https://apiwebtm.com/uploads/CONTRATO_PROCESO_IA_TM_001_202620260422160026165296_1_cee8d1859a.pdf"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  CONTRATO PROCESO IA TM 001 202620260422160026165296
+</a>
+<a 
+  href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_CREA_EL_COMITE_DE_20260409095116163006_2_d6e32d4fc2.pdf"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  POR LA CUAL SE CREA EL COMITE DE 20260409095116163006
+</a>
+<a 
+  href="https://apiwebtm.com/uploads/vf_ANEXO_10_Especificaciones_Tecnicas_1_a50fd5c0aa.pdf"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  vf ANEXO 10 Especificaciones Tecnicas
+</a>
+<a 
+  href="https://apiwebtm.com/uploads/vf_vf_PLIEGO_DEFINITIVO_IA_TM_001_2026_final_1_945b32ba41.pdf"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  vf PLIEGO DEFINITIVO IA-TM-001-2026 final 1
+</a>
+<a 
+  href="https://apiwebtm.com/uploads/ACTA_APERTURA_SOBRE_ECONOMICO_1_d26a0386bd.pdf"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  ACTA APERTURA SOBRE ECONOMICO
+</a>
+<a 
+  href="https://apiwebtm.com/uploads/OFRECIMIENTO_ECONOMICO_1_032518c206.pdf"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  OFRECIMIENTO ECONOMICO
+</a>
+<a 
+  href="https://apiwebtm.com/uploads/VF_ANEXO_12_PRESUPUESTO_OFICIAL_IA_TM_001_2026_1_e00259a501.xlsx"
+  className="list-group-item list-group-item-action"
+  target="_blank"
+  rel="noreferrer"
+>
+  (.)VF ANEXO 12 PRESUPUESTO OFICIAL IA-TM-001-2026
+</a>
+
                               </div>
                             </div>
                           </div>
