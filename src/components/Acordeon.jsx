@@ -7301,7 +7301,7 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourEightOne"
                           >
-                            4.8.1 AUDITORIAS INTERNAS DE GESTIÓN
+                            4.8.1 Auditorías Internas de Gestión
                           </button>
                         </h2>
                         <div
@@ -7877,8 +7877,7 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThreeSevenTwo"
                           >
-                            4.8.2 Informes Auditoría Contraloría Distrital de
-                            Barranquilla
+                            4.8.2 Auditorias De Entes De Control
                           </button>
                         </h2>
                         <div
@@ -8212,8 +8211,8 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourSevenThree"
                           >
-                            4.8.3 INFORMES PORMENORIZADO DEL ESTADO DEL SISTEMA
-                            DE CONTROL INTERNO
+                            4.8.3 Informes Pormenorizado Del Estado Del Sistema
+                            De Control Interno
                           </button>
                         </h2>
                         <div
