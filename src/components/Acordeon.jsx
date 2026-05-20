@@ -7887,14 +7887,7 @@ const Acordeon = () => {
                         >
                           <div className="accordion-body">
                             <div className="list-group">
-                              {/* <a
-                                href="https://apiwebtm.com/uploads/4_8_INFORME_AUDITORIA_CDB_VIG_Y_PLAN_DE_MEJORA_2018_f218470682.rar"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2018
-                              </a> */}
+                              
                               <li className="list-group-item list-group-item-action ">
                                 2018
                                 <div className="list-group">
@@ -7916,14 +7909,7 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              {/* <a
-                                href="https://apiwebtm.com/uploads/4_8_2_INFORME_AUDITORIA_CDB_VIG_2019_Y_PLAN_DE_MEJORA_673d35330a.rar"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2019
-                              </a> */}
+                              
                               <li className="list-group-item list-group-item-action ">
                                 2019
                                 <div className="list-group">
@@ -7945,14 +7931,7 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              {/* <a
-                                href="https://apiwebtm.com/uploads/4_8_2_INFORME_AUDITORIA_CDB_VIG_2020_Y_PLAN_DE_MEJORA_a62b0ddbcb.rar"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2020
-                              </a> */}
+                              
                               <li className="list-group-item list-group-item-action ">
                                 2020
                                 <div className="list-group">
@@ -7974,14 +7953,7 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              {/* <a
-                                href="https://apiwebtm.com/uploads/4_8_2_INFORME_AUDITORIA_VIG_2021_Y_PLAN_DE_MEJORA_b78b3e1f31.rar"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2021
-                              </a> */}
+                              
                               <li className="list-group-item list-group-item-action ">
                                 2021
                                 <div className="list-group">
@@ -8003,14 +7975,7 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              {/* <a
-                                href="https://apiwebtm.com/uploads/TRANSMETRO_INFORME_FINAL_CONTRALORIA_2022_d2e03e5e79.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2022
-                              </a> */}
+                             
                               <li className="list-group-item list-group-item-action ">
                                 2022
                                 <div className="list-group">
@@ -8079,124 +8044,7 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
-                      {/* <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingFourSevenThree"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourSevenThree"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourSevenThree"
-                          >
-                            4.8.3 Informes Auditorías PQR
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseFourSevenThree"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourSevenThree"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <a
-                                href="https://apiwebtm.com/uploads/4_8_3_INFORME_DE_AUDITORIA_SEMESTRE_2_2019_PQR_S_aece24038f.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2019
-                              </a>
-
-                              <a
-                                href="https://apiwebtm.com/uploads/4_8_3_INFORME_AUDITORIA_PQRS_SEMESTRE_2020_fac539fcc8.rar"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2020
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/4_8_3_INFORME_AUDITORIA_PQRS_SEMESTRE_2021_9418f139c9.rar"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2021
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRS_SEMESTRE_2022_425ecff008.rar"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2022
-                              </a>
-                              <li className="list-group-item list-group-item-action ">
-                                2023
-                                <div className="list-group">
-                                  <a
-                                    href="https://apiwebtm.com/uploads/INFORME_DEFINITIVO_AUDITORIA_PQRSDF_I_SEMESTRE_2023_772c3e9ab3.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    Informe definitivo auditoria PQRSDf I
-                                    semestre 2023
-                                  </a>
-                                  <a
-                                    href="https://apiwebtm.com/uploads/INFORME_DEFINITIVO_AUDITORIA_PQRSDF_II_SEM_2023_b591a00edd.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    Informe definitivo auditoria PQRSDf II
-                                    semestre 2023
-                                  </a>
-                                </div>
-                              </li>
-                              <li className="list-group-item list-group-item-action ">
-                                2024
-                                <div className="list-group">
-                                  <a
-                                    href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDITORIA_PQR_1_SEMESTRE_2024_8180bc49a9.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    Informe final auditoria pqr 1 semestre
-                                  </a>
-                                  <a
-                                    href="https://apiwebtm.com/uploads/INFORME_FINAL_AUDITORIA_PQRSDF_SEMESTRE_2_2024_d39e584044.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    Informe auditoria PQRSD 2 semestre
-                                  </a>
-                                </div>
-                              </li>
-
-                              <li className="list-group-item list-group-item-action ">
-                                2025
-                                <div className="list-group">
-                                  <a
-                                    href="https://apiwebtm.com/uploads/INFORME_AUDITORIA_PQRSDF_1_SEMESTRE_2025_a4a87052d0.pdf"
-                                    className="list-group-item list-group-item-action "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    Informe auditoria PQRSD I semestre
-                                  </a>
-                                </div>
-                              </li>
-                            </div>
-                          </div>
-                        </div>
-                      </div> */}
+                     
 
                       <div className="accordion-item">
                         <h2
@@ -8254,14 +8102,7 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
-                              {/* <a
-                                href="https://apiwebtm.com/uploads/Informe_pormenorizado_Ene_Jun_2023_fe5d53ca65.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2023
-                              </a> */}
+                             
                               <li className="list-group-item list-group-item-action ">
                                 2023
                                 <div className="list-group">
@@ -8355,8 +8196,7 @@ const Acordeon = () => {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFourEightFour"
                           >
-                            4.8.4 Informes de Auditoría de Gestión de la Oficina
-                            de Control Interno
+                            4.8.4 Otros Informes Y/O Consultas
                           </button>
                         </h2>
                         <div
@@ -8365,7 +8205,146 @@ const Acordeon = () => {
                           aria-labelledby="panelsStayOpen-headingFourEightFour"
                         >
                           <div className="accordion-body">
+                          
+                                    <div className="accordion-item">
+                              <h2
+                                className="accordion-header"
+                                id="panelsStayOpen-headingFourEightFourOne"
+                              >
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#panelsStayOpen-collapseFourEightFourOne"
+                                  aria-expanded="false"
+                                  aria-controls="panelsStayOpen-collapseFourEightFourOne"
+                                >
+                                  4.8.4.1 Informes Control Interno Contable
+                                </button>
+                              </h2>
+                              <div
+                                id="panelsStayOpen-collapseFourEightFourOne"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFourEightFourOne"
+                              >
+                                <div className="accordion-body">
+                                  <div className="list-group">
+                                    <li className="list-group-item list-group-item-action ">
+                                      2023
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/INFORME_CONTROL_INTERNO_CONTABLE_2023_82935e9538.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe Control Interno Contable
+                                        </a>
+
+                                      </div>
+                                    </li>
+                                     <li className="list-group-item list-group-item-action ">
+                                      2024
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/INFORME_CONTROL_INTERNO_CONTABLE_2024_1d81014e3e.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                        Informe Control Interno Contable
+                                        </a>
+                                         </div>
+                                    </li>
+                                    <li className="list-group-item list-group-item-action ">
+                                      2025
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/INFORME_CONTROL_INTERNO_CONTABLE_2025_8e2580f919.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Informe Control Interno Contable
+                                        </a>
+
+                                      </div>
+                                    </li>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                             <div className="accordion-item">
+                              <h2
+                                className="accordion-header"
+                                id="panelsStayOpen-headingFourEightFourTwo"
+                              >
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#panelsStayOpen-collapseFourEightFourTwo"
+                                  aria-expanded="false"
+                                  aria-controls="panelsStayOpen-collapseFourEightFourTwo"
+                                >
+                                  4.8.4.2 Informes Furag
+                                </button>
+                              </h2>
+                              <div
+                                id="panelsStayOpen-collapseFourEightFourTwo"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFourEightFourTwo"
+                              >
+                                <div className="accordion-body">
+                                  <div className="list-group">
+                                      <li className="list-group-item list-group-item-action ">
+                                      2023
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/RESULTADOS_FURAG_VIG_2023_dc704ae6b0.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Resultados Furag 2023
+                                        </a>
+
+                                      </div>
+                                    </li>
+                                   <li className="list-group-item list-group-item-action ">
+                                      2024
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/RESULTADOS_FURAG_VIG_2024_78509b24cb.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Resultados Furag 2024
+                                        </a>
+
+                                      </div>
+                                    </li>
+                                    <li className="list-group-item list-group-item-action ">
+                                      2025
+                                      <div className="list-group">
+                                        <a
+                                          href="vacio"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                          Resultados Furag 2025
+                                        </a>
+
+                                      </div>
+                                    </li>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            {/* <div className="accordion-item">
                               <h2
                                 className="accordion-header"
                                 id="panelsStayOpen-headingFourEightFourOne"
@@ -8420,14 +8399,7 @@ const Acordeon = () => {
                                     >
                                       2021
                                     </a>
-                                    {/* <a
-                                      href="https://apiwebtm.com/uploads/AUSTERIDAD_2022_bb514db0b6.rar"
-                                      className="list-group-item list-group-item-action "
-                                      target="_blank"
-                                      rel="noreferrer"
-                                    >
-                                      2022
-                                    </a> */}
+                                    
                                     <li className="list-group-item list-group-item-action ">
                                       2022
                                       <div className="list-group">
@@ -9008,7 +8980,7 @@ const Acordeon = () => {
                                   </div>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>
@@ -9097,7 +9069,7 @@ const Acordeon = () => {
                         </div>
                       </div>
 
-                      <div className="accordion-item">
+                      {/* <div className="accordion-item">
                         <h2
                           className="accordion-header"
                           id="panelsStayOpen-headingFourEightSix"
@@ -9152,14 +9124,7 @@ const Acordeon = () => {
                               >
                                 2022
                               </a>
-                              {/* <a
-                                href="https://apiwebtm.com/uploads/Informe_pormenorizado_Ene_Jun_2023_fe5d53ca65.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2023
-                              </a> */}
+                              
                               <li className="list-group-item list-group-item-action ">
                                 2023
                                 <div className="list-group">
@@ -9238,27 +9203,27 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="accordion-item">
                         <h2
                           className="accordion-header"
-                          id="panelsStayOpen-headingFourEightSeven"
+                          id="panelsStayOpen-headingFourEightSix"
                         >
                           <button
                             className="accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourEightSeven"
+                            data-bs-target="#panelsStayOpen-collapseFourEightSix"
                             aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourEightSeven"
+                            aria-controls="panelsStayOpen-collapseFourEightSix"
                           >
-                            4.8.7 Reportes Ley de cuotas
+                            4.8.6 Reportes Ley de cuotas
                           </button>
                         </h2>
                         <div
-                          id="panelsStayOpen-collapseFourEightSeven"
+                          id="panelsStayOpen-collapseFourEightSix"
                           className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourEightSeven"
+                          aria-labelledby="panelsStayOpen-headingFourEightSix"
                         >
                           <div className="accordion-body">
                             <div className="list-group">
@@ -9333,18 +9298,18 @@ const Acordeon = () => {
                             className="accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourEightEight"
+                            data-bs-target="#panelsStayOpen-collapseFourEightSeven"
                             aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourEightEight"
+                            aria-controls="panelsStayOpen-collapseFourEightSeven"
                           >
-                            4.8.8 Informes de seguimiento a las matrices de
+                            4.8.7 Informes de seguimiento a las matrices de
                             riesgos institucional
                           </button>
                         </h2>
                         <div
-                          id="panelsStayOpen-collapseFourEightEight"
+                          id="panelsStayOpen-collapseFourEightSeven"
                           className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourEightEight"
+                          aria-labelledby="panelsStayOpen-headingFourEightSeven"
                         >
                           <div className="accordion-body">
                             <div className="list-group">
@@ -9364,23 +9329,23 @@ const Acordeon = () => {
                       <div className="accordion-item">
                         <h2
                           className="accordion-header"
-                          id="panelsStayOpen-headingFourEightNine"
+                          id="panelsStayOpen-headingFourEightEight"
                         >
                           <button
                             className="accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourEightNine"
+                            data-bs-target="#panelsStayOpen-collapseFourEightEight"
                             aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourEightNine"
+                            aria-controls="panelsStayOpen-collapseFourEightEight"
                           >
-                            4.8.9 Informes por Dependencia
+                            4.8.8 Informes por Dependencia
                           </button>
                         </h2>
                         <div
-                          id="panelsStayOpen-collapseFourEightNine"
+                          id="panelsStayOpen-collapseFourEightEight"
                           className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourEightNine"
+                          aria-labelledby="panelsStayOpen-headingFourEightEight"
                         >
                           <div className="accordion-body">
                             <div className="list-group">
@@ -9432,18 +9397,18 @@ const Acordeon = () => {
                             className="accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourEightTen"
+                            data-bs-target="#panelsStayOpen-collapseFourEightNine"
                             aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourEightTen"
+                            aria-controls="panelsStayOpen-collapseFourEightNine"
                           >
-                            4.8.10 Informes del comportamiento en la atención de
+                            4.8.9 Informes del comportamiento en la atención de
                             las PQRDSF
                           </button>
                         </h2>
                         <div
-                          id="panelsStayOpen-collapseFourEightTen"
+                          id="panelsStayOpen-collapseFourEightNine"
                           className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourEightTen"
+                          aria-labelledby="panelsStayOpen-headingFourEightNine"
                         >
                           <div className="accordion-body">
                             <div className="list-group">
@@ -9468,23 +9433,23 @@ const Acordeon = () => {
                       <div className="accordion-item">
                         <h2
                           className="accordion-header"
-                          id="panelsStayOpen-headingFourEighteleven"
+                          id="panelsStayOpen-headingFourEightTen"
                         >
                           <button
                             className="accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourEighteleven"
+                            data-bs-target="#panelsStayOpen-collapseFourEightTen"
                             aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourEighteleven"
+                            aria-controls="panelsStayOpen-collapseFourEightTen"
                           >
-                            4.8.11 Informes de Control Interno Contable
+                            4.8.10 Informes de Control Interno Contable
                           </button>
                         </h2>
                         <div
-                          id="panelsStayOpen-collapseFourEighteleven"
+                          id="panelsStayOpen-collapseFourEightTen"
                           className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourEighteleven"
+                          aria-labelledby="panelsStayOpen-headingFourEightTen"
                         >
                           <div className="accordion-body">
                             <div className="list-group">
