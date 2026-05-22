@@ -8344,6 +8344,63 @@ const Acordeon = () => {
                                 </div>
                               </div>
                             </div>
+                            <div className="accordion-item">
+                              <h2
+                                className="accordion-header"
+                                id="panelsStayOpen-headingFourEightFourThree"
+                              >
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#panelsStayOpen-collapseFourEightFourThree"
+                                  aria-expanded="false"
+                                  aria-controls="panelsStayOpen-collapseFourEightFourThree"
+                                >
+                                  4.8.4.3  Informes de Austeridad del Gasto
+                                </button>
+                              </h2>
+                              <div
+                                id="panelsStayOpen-collapseFourEightFourThree"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFourEightFourThree"
+                              >
+                                <div className="accordion-body">
+                                  <div className="list-group">
+                                      <li className="list-group-item list-group-item-action ">
+                                     2025
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/Inf_Austeridad_del_GASTO_TRANSMETRO_ENE_DIC_2024_VS_2025_6a261529c5.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                        Informe Austeridad del GASTO TRANSMETRO ENE-DIC 2024 VS 2025
+                                        </a>
+
+                                      </div>
+                                    </li>
+                                   <li className="list-group-item list-group-item-action ">
+                                      2026
+                                      <div className="list-group">
+                                        <a
+                                          href="https://apiwebtm.com/uploads/Inf_Austeridad_del_GASTO_TRANSMETRO_ENE_MAR_2025_VS_2026_2934cfaa94.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                           Informe Austeridad del GASTO TRANSMETRO ENE-MAR 2025 VS 2026
+                                        </a>
+
+                                      </div>
+                                    </li>
+                                    
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                             {/* <div className="accordion-item">
                               <h2
                                 className="accordion-header"
