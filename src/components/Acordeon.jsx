@@ -6196,250 +6196,7 @@ const Acordeon = () => {
                         </div>
                       </div>
                       {/* Programa de gestión doumental */}
-                      <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingFourThreeTen"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourThreeTen"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourThreeTen"
-                          >
-                            Programa de gestión documental
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseFourThreeTen"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourThreeTen"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <a
-                                href="https://apiwebtm.com/uploads/Programa_de_Gestion_Documental_0787f86fdf.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Programa de gestión documental
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/MOREQ_2025_b94c5f457b.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                MOREQ 2025
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PROGRAMA_DE_GESTION_DOCUMENTAL_PGD_b1e3a6ccaa.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Programa de gestión documental 2024 - 2027
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Tablas de retención doumental */}
-                      <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingFourThreeEleven"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourThreeEleven"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourThreeEleven"
-                          >
-                            Tablas de retención documental
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseFourThreeEleven"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourThreeEleven"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <a
-                                href="https://apiwebtm.com/uploads/Tablas_de_Retencion_Documental_Transmetro_SAS_2021_8f64676cc8.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2021
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/TABLAS_DE_RETENCION_TRANSMETRO_SAS_2022_b1f3ef5950.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2022
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Cuadro de clasificación documental */}
-                      <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingFourThreeTwelve"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourThreeTwelve"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourThreeTwelve"
-                          >
-                            Cuadro de clasificación documental
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseFourThreeTwelve"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourThreeTwelve"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <a
-                                href="https://apiwebtm.com/uploads/CUADRO_DE_CLASIFICACION_DOCUMENTAL_TRANSMETRO_S_A_S_1_2b319c4ec3.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Cuadro de clasificación documental
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Plan institucional de archivos - PINAR */}
-                      <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingFourThreeThirteen"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourThreeThirteen"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourThreeThirteen"
-                          >
-                            Plan institucional de archivos - PINAR
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseFourThreeThirteen"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourThreeThirteen"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <a
-                                href="https://apiwebtm.com/uploads/Plan_Institucional_de_Archivos_PINAR_2020_5d8a9606a3.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2020
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/Plan_Institucional_de_Archivos_PINAR_2021_34cbe32ec3.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2021
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/Pinar_2022_1_compressed_2ffe5c77fa.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2022
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PINAR_2024_2028_bb99ed9290.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2024
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PINAR_TRANSMETRO_2025_ACTUALIZACION_1eed493f6b.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2025
-                              </a>
-                              <a
-                                href="https://apiwebtm.com/uploads/PINAR_TRANSMETRO_2026_f9bb290578.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                2026
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/*  */}
-
-                      <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingFourThreeFourteen"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourThreeFourteen"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourThreeFourteen"
-                          >
-                            Sistema integrado de conservacion
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseFourThreeFourteen"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourThreeFourteen"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <a
-                                href="https://apiwebtm.com/uploads/SISTEMA_INTEGRADO_DE_CONSERVACION_TRANSMETRO_1_40c02fcdca.pdf"
-                                className="list-group-item list-group-item-action "
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Sistema integrado de conservación
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                     
                       <div className="accordion-item">
                         <h2
                           className="accordion-header"
@@ -9524,6 +9281,365 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingFourNine"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFourNine"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFourNine"
+                    >
+                      4.9 Gestión Documental
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFourNine"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFourNine"
+                  >
+                    <div className="accordion-body">
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourNineOne"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourNineOne"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourNineOne"
+                          >
+                            4.9.1 Lineamientos y Políticas de Gestión Documental
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourNineOne"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourNineOne"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              
+                              
+                              {/* <a
+                                href="https://apiwebtm.com/"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2017
+                              </a> */}
+
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourNineTwo"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourNineTwo"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourNineTwo"
+                          >
+                            4.9.2 Instrumentos de Gestión Documental
+                          </button>
+                        </h2>
+                        <div  id="panelsStayOpen-collapseFourNineTwo"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourNineTwo"
+                        >
+                          <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourNineTwoOne"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourNineTwoOne"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourNineTwoOne"
+                          >
+                            4.9.2.1  Programa de gestión documental - PGD
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourNineTwoOne"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourNineTwoOne"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Programa_de_Gestion_Documental_0787f86fdf.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019 - 2023
+                              </a>
+                            
+                              <a
+                                href="https://apiwebtm.com/uploads/PROGRAMA_DE_GESTION_DOCUMENTAL_PGD_b1e3a6ccaa.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024 - 2027
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Tablas de retención doumental */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourNineTwoTwo"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourNineTwoTwo"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourNineTwoTwo"
+                          >
+                            4.9.2.2  Tablas de retención documental - TRD
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourNineTwoTwo"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourNineTwoTwo"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Tablas_de_Retencion_Documental_Transmetro_SAS_2021_8f64676cc8.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/TABLAS_DE_RETENCION_TRANSMETRO_SAS_2022_b1f3ef5950.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Cuadro de clasificación documental */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourNineTwoThree"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourNineTwoThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourNineTwoThree"
+                          >
+                            4.9.2.3  Cuadro de clasificación documental - CCD
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourNineTwoThree"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourNineTwoThree"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/CUADRO_DE_CLASIFICACION_DOCUMENTAL_TRANSMETRO_S_A_S_1_2b319c4ec3.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Plan institucional de archivos - PINAR */}
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourNineTwoFour"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourNineTwoFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourNineTwoFour"
+                          >
+                            4.9.2.4  Plan institucional de archivos - PINAR
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourNineTwoFour"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourNineTwoFour"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Institucional_de_Archivos_PINAR_2020_5d8a9606a3.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Plan_Institucional_de_Archivos_PINAR_2021_34cbe32ec3.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Pinar_2022_1_compressed_2ffe5c77fa.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PINAR_2024_2028_bb99ed9290.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2024
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PINAR_TRANSMETRO_2025_ACTUALIZACION_1eed493f6b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/PINAR_TRANSMETRO_2026_f9bb290578.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2026
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/*  */}
+
+                      <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourNineTwoFive"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourNineTwoFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourNineTwoFive"
+                          >
+                            4.9.2.5  Sistema integrado de conservacion - SIC
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourNineTwoFive"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourNineTwoFive"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <a
+                                href="https://apiwebtm.com/uploads/SISTEMA_INTEGRADO_DE_CONSERVACION_TRANSMETRO_1_40c02fcdca.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                       <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourNineTwoSix"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourNineTwoSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourNineTwoSix"
+                          >
+                            4.9.2.6 Modelo de requisitos para la gestion de documentos
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourNineTwoSix"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourNineTwoSix"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                               <a
+                                href="https://apiwebtm.com/uploads/MOREQ_2025_b94c5f457b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                        </div>
+                      </div>
+                     
                     </div>
                   </div>
                 </div>
