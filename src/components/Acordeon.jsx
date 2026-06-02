@@ -7004,7 +7004,7 @@ const Acordeon = () => {
                           <div className="accordion-body">
                             <div className="list-group">
                               <a
-                                href="https://apiwebtm.com"
+                                href="###"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -7012,7 +7012,7 @@ const Acordeon = () => {
                                 Estatuto de auditoria
                               </a>
                               <a
-                                href="https://apiwebtm.com"
+                                href="###"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
@@ -7020,7 +7020,7 @@ const Acordeon = () => {
                                 Codigo de ética de Auditor
                               </a>
                               <a
-                                href="https://apiwebtm.com"
+                                href="###"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
