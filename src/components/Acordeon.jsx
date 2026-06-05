@@ -7523,7 +7523,7 @@ const Acordeon = () => {
                         </div>
                       </div>
 
-                      <div className="accordion-item">
+                      {/* <div className="accordion-item">
                         <h2
                           className="accordion-header"
                           id="panelsStayOpen-headingFourEight"
@@ -7633,7 +7633,7 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="accordion-item">
                         <h2
                           className="accordion-header"
@@ -8171,6 +8171,160 @@ const Acordeon = () => {
                                 </div>
                               </div>
                             </div>
+                             <div className="accordion-item">
+                              <h2
+                                className="accordion-header"
+                                id="panelsStayOpen-headingFourEightFourFour"
+                              >
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#panelsStayOpen-collapseFourEightFourFour"
+                                  aria-expanded="false"
+                                  aria-controls="panelsStayOpen-collapseFourEightFourFour"
+                                >
+                                  4.8.4.4 Informes Derechos De Autor-Software Legal 
+                                </button>
+                              </h2>
+                              <div
+                                id="panelsStayOpen-collapseFourEightFourFour"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFourEightFourFour"
+                              >
+                                <div className="accordion-body">
+                                  <div className="list-group">
+   
+                              <a
+                                href="https://apiwebtm.com/uploads/CUMPLIMIENTO_DNDA_VIG_2018_526bb9b744.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2018
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CUMPLIMIENTO_DNDA_VIG_2019_60532cff54.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2019
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_DNDA_VIG_2020_9a870fad8e.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2020
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/Certificado_DNDA_VIG_2021_731c483d99.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2021
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/CERTIFICADO_DNDA_VIG_2022_b7d1675297.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2022
+                              </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/INFORME_DERECHOS_AUTOR_2023_TM_3f148e4e2b.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2023
+                              </a>
+
+                              <li className="list-group-item list-group-item-action ">
+                                2024
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_SOFTWARE_LEGAL_vig_2024_87e5774526.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe Software Legal vig 2024
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Certificado_cumplimiento_Software_legal_vig_2024_9e30ff5ebf.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Certificado de cumplimiento softwere
+                                    vig.2024
+                                  </a>
+                                </div>
+                              </li>
+                              <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INF_DERECHOS_DE_AUTOR_VIG_2025_a_PUBLICAR_4f200f8132.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe software legal vigencia 2025
+                                  </a>
+                                </div>
+                              </li>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourEightFourFive"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourEightFourFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourEightFourFive"
+                          >
+                            4.8.4.5 Informes del comportamiento en la atención de
+                            las PQRDSF
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourEightFourFive"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourEightFourFive"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+                              <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Informe_PQRDSF_JUL_A_DIC_2025_1cf84e0d94.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe del comportamiento en La atención de
+                                    las PQRDSF Jul - Dic 2025
+                                  </a>
+                                </div>
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
                             {/* <div className="accordion-item">
                               <h2
                                 className="accordion-header"
@@ -9215,7 +9369,7 @@ const Acordeon = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="accordion-item">
+                      {/* <div className="accordion-item">
                         <h2
                           className="accordion-header"
                           id="panelsStayOpen-headingFourEightNine"
@@ -9256,44 +9410,8 @@ const Acordeon = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div className="accordion-item">
-                        <h2
-                          className="accordion-header"
-                          id="panelsStayOpen-headingFourEightTen"
-                        >
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFourEightTen"
-                            aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFourEightTen"
-                          >
-                            4.8.10 Informes de Control Interno Contable
-                          </button>
-                        </h2>
-                        <div
-                          id="panelsStayOpen-collapseFourEightTen"
-                          className="accordion-collapse collapse"
-                          aria-labelledby="panelsStayOpen-headingFourEightTen"
-                        >
-                          <div className="accordion-body">
-                            <div className="list-group">
-                              <div className="list-group">
-                                <a
-                                  href="https://apiwebtm.com/uploads/INFORME_CONTRL_INTERNO_CONTABLE_2025_54f399c74e.pdf"
-                                  className="list-group-item list-group-item-action "
-                                  target="_blank"
-                                  rel="noreferrer"
-                                >
-                                  Informe de Control Interno Contable 2025
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      </div> */}
+
                     </div>
                   </div>
                 </div>
