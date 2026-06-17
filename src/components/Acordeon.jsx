@@ -8325,6 +8325,43 @@ const Acordeon = () => {
                           </div>
                         </div>
                         </div>
+                        <div className="accordion-item">
+                        <h2
+                          className="accordion-header"
+                          id="panelsStayOpen-headingFourEightFourSix"
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourEightFourSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourEightFourSix"
+                          >
+                            4.8.4.6  Informe De Seguimiento  ITA
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFourEightFourSix"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFourEightFourSix"
+                        >
+                          <div className="accordion-body">
+                            <div className="list-group">
+
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_SEGUIMIENTO_ITA_A_MAYO_2026_2d40f909cf.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Informe De Seguimiento  ITA
+                                  </a>
+
+                            </div>
+                          </div>
+                        </div>
+                        </div>
                             {/* <div className="accordion-item">
                               <h2
                                 className="accordion-header"
