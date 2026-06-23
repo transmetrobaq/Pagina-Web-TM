@@ -4401,7 +4401,7 @@ const Acordeon = () => {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          Modificacion manual de contratación resol 160 2025
+                          Modificacion manual de contratación resol 280 2025
                         </a>
                       </div>
                     </div>
