@@ -154,6 +154,15 @@ const Acordeon = () => {
                       >
                         1.2.3 Listado de Directivos 2025
                       </a>
+                       <a
+                        href="https://apiwebtm.com/uploads/Directorio_Directivos_2026_1_599d99a7a0.pdf"
+                        className="list-group-item list-group-item-action"
+                        aria-current="true"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        1.2.4 Listado de Directivos 2026
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -394,6 +403,22 @@ const Acordeon = () => {
                           >
                             Directorio funcionarios 3 TMO sept 2025
                           </a>
+                        </div>
+                      </li>
+                      <li className="list-group-item list-group-item-action ">
+                        2026
+                        <div className="list-group">
+                          <a
+                            href="https://apiwebtm.com/uploads/Directorio_funcionarios_y_escala_salarial_2026_1_ca8579ae25.pdf"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio funcionarios y escala salarial 2026
+
+                          </a>
+                         
                         </div>
                       </li>
                     </div>
