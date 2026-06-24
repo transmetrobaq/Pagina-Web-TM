@@ -418,7 +418,7 @@ const Acordeon = () => {
                             Directorio funcionarios y escala salarial 2026
 
                           </a>
-                         
+
                         </div>
                       </li>
                     </div>
