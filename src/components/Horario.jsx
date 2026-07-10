@@ -18,11 +18,12 @@ const Horario = () => {
           <div className="card mb-3 border border-0">
             <div className="row g-0 justify-content-end ">
               <div className="col-md-5" id="horario_img">
-                {/*  <img
-                  src="https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg"
-                  className="img-fluid rounded-start"
-                  alt="Foto Aerea Buses TM "
-                /> */}
+                <img
+                  src="https://apiwebtm.com/uploads/tm21_ff23f112d8.PNG"
+                  className="img-fluid"
+                  alt="Bus del sistema de transporte masivo Transmetro frente del banco de la república en Barranquilla"
+                   title="Bus del sistema de transporte masivo Transmetro frente del banco de la república en Barranquilla"
+                />
               </div>
               <div className="col-md-6 ">
                 <div className="card-body" style={{ marginLeft: '50px' }}>
@@ -59,7 +60,7 @@ const Horario = () => {
                         Domingo
                       </NavLink>
                     </NavItem>
-                     {/* <NavItem>
+                    {/* <NavItem>
                       <NavLink
                         className={
                           activeTab === '4' ? 'activeTab baseTab' : 'baseTab'
@@ -76,15 +77,15 @@ const Horario = () => {
                     <TabPane tabId="1">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
-                      <a
+                        <a
                           href="https://apiwebtm.com/uploads/HORARIO_DIAS_HABILES_9d41cf8642.pdf"
                           className="list-group-item list-group-item-action"
                           target="_blank"
                           rel="noreferrer"
                           style={{ color: '#002856' }}
                         >
-                          <i className="fa-regular fa-file" /> Horario días hábiles
-
+                          <i className="fa-regular fa-file" /> Horario días
+                          hábiles
                         </a>
                         {/* <a
                           href="https://apiwebtm.com/uploads/HORARIO_FUNCIONAMIENTO_TRONCAL_HABILES_10_DE_ENE_2023_d3c9bc5343.pdf"
@@ -111,7 +112,7 @@ const Horario = () => {
                     <TabPane tabId="2">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
-                      <a
+                        <a
                           href="https://apiwebtm.com/uploads/HORARIO_SABADOS_ab6f770aca.pdf"
                           className="list-group-item list-group-item-action"
                           target="_blank"
@@ -145,7 +146,7 @@ const Horario = () => {
                     <TabPane tabId="3">
                       <br />
                       <div className="list-group list-group-flush fw-bold">
-                      <a
+                        <a
                           href="https://apiwebtm.com/uploads/HORARIOS_DOMINGOS_Y_FESTIVOS_6ccaa04dc0.pdf"
                           className="list-group-item list-group-item-action"
                           target="_blank"

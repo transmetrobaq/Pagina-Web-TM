@@ -57,12 +57,14 @@ const Transmetro = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-5" id="acerca_img">
-                {/*  <img
+              <div className="col-md-5">
+                <img
+                  id="acerca_img"
                   src="https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg"
-                  className="img-fluid rounded-start"
-                  alt="Foto Aerea Buses TM "
-                /> */}
+                  className="img-fluid"
+                  alt="Buses de Transmetro en el Puente Pumarejo de Barranquilla"
+                  title="Buses de Transmetro en el Puente Pumarejo de Barranquilla"
+                />
               </div>
             </div>
           </div>
@@ -238,12 +240,13 @@ const Transmetro = () => {
         <div className="card__mision">
           <div className="card mb-3 border border-0">
             <div className="row g-0 justify-content-end ">
-              <div className="col-md-5" id="mision_img">
-                {/*  <img
-                  src="https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg"
-                  className="img-fluid rounded-start"
-                  alt="Foto Aerea Buses TM "
-                /> */}
+              <div className="col-md-5 overflow-hidden">
+                <img
+                  id="mision_img"
+                  src="https://apiwebtm.com/uploads/Mision_9b60965b6a.JPG"
+                  alt="Bus del sistema de transporte masivo Transmetro frente del banco de la república en Barranquilla"
+                  title="Bus del sistema de transporte masivo Transmetro frente del banco de la república en Barranquilla"
+                />
               </div>
               <div className="col-md-6 ">
                 <div className="card-body" style={{ marginLeft: '50px' }}>
@@ -321,7 +324,8 @@ const Transmetro = () => {
           <figure>
             <img
               src="https://apiwebtm.com/uploads/Asamblea_V2_30a7029fd8.png"
-              alt="Asamblea"
+              alt="Organigrama"
+              title="Organigrama"
               className="card-img"
             />
           </figure>
@@ -541,7 +545,15 @@ const Transmetro = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-5" id="queTm_img" />
+            <div className="col-md-5">
+  <img
+    id="queTm_img"
+    src="https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg"
+    className="img-fluid"
+    alt="Buses de Transmetro en Barranquilla"
+    title="Buses de Transmetro en Barranquilla"
+  />
+</div>
           </div>
         </div>
 
@@ -560,6 +572,7 @@ const Transmetro = () => {
                         src="https://apiwebtm.com/uploads/TMO_eb4f4b7277.png"
                         className="img-fluid rounded-start"
                         alt="logo transmetro"
+                        title='logo transmetro'
                         style={{
                           width: '150px',
                         }}
@@ -643,6 +656,7 @@ const Transmetro = () => {
                               src="https://apiwebtm.com/uploads/icosn_40_a4f85ba55c.png"
                               className="img-fluid rounded-start  "
                               alt="logo sistur"
+                              title="logo sistur"
                               style={{
                                 width: '120px',
                                 marginBottom: '15px',
@@ -655,6 +669,7 @@ const Transmetro = () => {
                                 width: '200px',
                               }}
                               alt="logo metrocaribe"
+                              title="logo metrocaribe"
                             />
                           </li>
                         </ul>

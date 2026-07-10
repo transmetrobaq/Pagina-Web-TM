@@ -14,7 +14,8 @@ const Siu = () => (
                 <img
                   src="https://apiwebtm.com/uploads/SIU_para_pagina_web_732f3dd6ec.png"
                   className=" img-Siu img-fluid rounded-start"
-                  alt="logo transmetro"
+                  alt="Telefono celular con la aplicación del Sistema de Información al Usuario – SIU"
+                  title="Telefono celular con la aplicación del Sistema de Información al Usuario – SIU"
                 />
               </div>
               <div className="col-md-8">

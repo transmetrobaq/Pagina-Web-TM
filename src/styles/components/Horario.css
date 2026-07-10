@@ -49,13 +49,11 @@
     font-weight: bold;
   }
   
-  .card__horario #horario_img {
-    background-image: url("https://apiwebtm.com/uploads/tm21_ff23f112d8.PNG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 300px;
-  }
+  .card__horario #horario_img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
   @media only screen and (min-width: 320px) and (max-width: 768px) {
     .card__horario .baseTab{ 

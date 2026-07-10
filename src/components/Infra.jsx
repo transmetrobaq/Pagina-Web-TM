@@ -175,7 +175,7 @@ const Infra = () => {
       </div>
 
       {/* Horario */}
-      <Horario /> 
+      <Horario />
 
       <div className="container-xxl estaciones">
         <div className="card mb-3 border border-0">
@@ -311,7 +311,7 @@ const Infra = () => {
                             carreras 23 y Av. Circunvalar (Soledad, Atl.).
                           </a>
                         </li>
-                        
+
                         <li>
                           <a
                             href="/sistema/estaciones/estacion-joaquin-barrios-polo/#estacion"
@@ -558,12 +558,14 @@ const Infra = () => {
         <div className="alimentadora__card ">
           <div className="card mb-3 border border-0">
             <div className="row g-0 justify-content-end ">
-              <div className="col-md-6" id="alimentadora_img">
-                {/*  <img
+              <div className="col-md-6">
+                <img
+                  id="alimentadora_img"
                   src="https://apiwebtm.com/uploads/img_rutas_alimentadoras_c8fa5f7de0.png"
-                  className="img-fluid "
-                  alt="Foto Aerea Buses TM "
-                /> */}
+                  className="img-fluid"
+                  alt="Autobús estacionado en la estacion del joe, esperando a los pasajeros para continuar su ruta."
+                  title="Autobús estacionado en la estacion del joe, esperando a los pasajeros para continuar su ruta."
+                />
               </div>
               <div className="col-md-6 align-self-end">
                 <div className="card-body">
@@ -748,7 +750,6 @@ const Infra = () => {
                 </div>
                 <div className="col-md-6" id="ali">
                   <ul>
-                    
                     {/* <li>
                       <a
                         href="/sistema/rutas_alimentadoras/a5-6-desde-granabastos/#rutas"
@@ -884,7 +885,7 @@ const Infra = () => {
                         <span> Ruta Navideña </span>
                       </a>
                     </li>
-                      <li>
+                    <li>
                       <a
                         href="/sistema/rutas_alimentadoras/ruta-chevere/#rutas"
                         role="button"

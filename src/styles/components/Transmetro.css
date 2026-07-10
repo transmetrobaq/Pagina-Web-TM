@@ -145,10 +145,11 @@ verde */
 }
 
 #acerca_img {
-  background-image: url("https://apiwebtm.com/uploads/Acerca_de_4f7942ad24.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:bottom;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+  display: block;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   #acerca_img {
@@ -208,13 +209,12 @@ verde */
 }
 
 .card__mision #mision_img {
-  background-image: url("https://apiwebtm.com/uploads/Mision_9b60965b6a.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  width: 100%;
   height: 300px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
-
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
 /*   .acerca__card img {
@@ -412,15 +412,13 @@ verde */
   padding: 0px;
    }
 
-#queTm_img{
-     background-image: url("https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg");
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center center;
-     /* height: 350px; */
-     
-     
-       }
+#queTm_img {
+  width: 100%;
+  height: 350px; /* o la altura que desees */
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
 
 .cardbox {
   background-color: #fff;
