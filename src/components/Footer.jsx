@@ -54,7 +54,7 @@ const Footer = () => {
                   <ul>
                     <li>atencionalcliente@transmetro.gov.co</li>
                     <li>
-                      <span>3206359257</span> Línea de atención
+                      <span>+57 320 6359257</span> Línea de atención
                     </li>
                   </ul>
                   <ul>
@@ -69,7 +69,7 @@ const Footer = () => {
                     <li>Cra. 46 No. 82 - 225 piso 3</li>
                     <li>Barranquilla, Atlántico</li>
                     {/* <li>- Torre Sur Piso 15</li> */}
-                    <li>350 2849625 Ofic. Adm.</li>
+                    <li>+57 350 2849625 Ofic. Adm.</li>
                     <li>
                       <span>info@transmetro.gov.co</span>
                     </li>
