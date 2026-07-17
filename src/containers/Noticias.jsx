@@ -150,7 +150,8 @@ const Noticias = () => {
                 <img
                   src={`https://apiwebtm.com${notis.url}`}
                   className="nt__img img-fluid"
-                  alt={notis.alt}
+                  alt={notis.atl}
+                  title={notis.atl}
                 />
 
                 <div className="nt__text">

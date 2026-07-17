@@ -63,7 +63,8 @@ const Header = () => {
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
-              alt="..."
+              alt={noti1.atl}
+              title={noti1.atl}
             />
             <div className="carousel-caption  d-block">
               <Link to={`/noticias/${noti1.slug}`}>
@@ -93,7 +94,8 @@ const Header = () => {
             <img
               src={`https://apiwebtm.com${noti2.url}`}
               className="w-100 img-fluid"
-              alt="..."
+              alt={noti2.atl}
+              title={noti2.atl}
             />
             <div className="carousel-caption  d-block">
               <Link to={`/noticias/${noti2.slug}`}>
@@ -106,7 +108,8 @@ const Header = () => {
             <img
               src={`https://apiwebtm.com${noti3.url}`}
               className="w-100 img-fluid "
-              alt="..."
+              alt={noti3.atl}
+              title={noti3.atl}
             />
             <div className="carousel-caption  d-block">
               <Link to={`/noticias/${noti3.slug}`}>

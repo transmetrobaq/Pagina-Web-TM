@@ -88,7 +88,8 @@ const Info = () => {
                       <figure>
                         <img
                           src={`https://apiwebtm.com${notis.url}`}
-                          alt={notis.alt}
+                          alt={notis.atl}
+                          title={notis.atl}
                           className="card-img-top img-fluid"
                         />
                         <div className="linea-colores1" />

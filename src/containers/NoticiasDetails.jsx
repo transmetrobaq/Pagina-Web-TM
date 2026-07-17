@@ -42,7 +42,8 @@ const NoticiasDetails = () => {
           <img
             src={`https://apiwebtm.com${notic.url}`}
             className="card-img-top img-fluid"
-            alt={notic.alt}
+            alt={notic.atl}
+            title={notic.atl}
           />
           <div className="card-body">
             <ReactMarkdown className="newsviewbody" escapeHtml={false}>
