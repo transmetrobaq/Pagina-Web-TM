@@ -12046,6 +12046,43 @@ const Acordeon = () => {
                     </div>
                   </div>
                 </div>
+                <div className="accordion-item">
+                  <h2
+                    className="accordion-header"
+                    id="panelsStayOpen-headingEightNine"
+                  >
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseEightNine"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseEightNine"
+                    >
+                      8.9  Política de Tratamiento y Autorización de Datos Personales y de Participación Ciudadana de los Usuarios del Sistema Transmetro S.A.S.
+
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseEightNine"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingEightNine"
+                  >
+                    <div className="accordion-body">
+                      <div className="list-group">
+                        <a
+                          href="https://apiwebtm.com/uploads/Politica_Tratamiento_Datos_y_Participacion_Ciudadana_Transmetro_c4780e781a.pdf"
+                          className="list-group-item list-group-item-action "
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Politica Tratamiento Datos y Participacion Ciudadana Transmetro
+                        </a>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
