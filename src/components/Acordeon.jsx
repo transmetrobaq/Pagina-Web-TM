@@ -10553,6 +10553,52 @@ const Acordeon = () => {
                         </div>
                       </div>
                     </div>
+                    <div className="accordion-item">
+                      <h2
+                        className="accordion-header"
+                        id="panelsStayOpen-headingSixTwoOneTree"
+                      >
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseSixTwoOneTree"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseSixTwoOneTree"
+                        >
+                          2025
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseSixTwoOneTree"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSixTwoOneTree"
+                      >
+                        <div className="accordion-body">
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/ESTRATEGIA_DE_RENDICION_DE_CUENTAS_2025_342e7def43.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              ESTRATEGIA DE RENDICIÓN DE CUENTAS 2025
+                            </a>
+                             <a
+                              href="https://apiwebtm.com/uploads/COMITE_DE_RENDICION_DE_CUENTAS_c33a55daf5.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              COMITÉ DE RENDICIÓN DE CUENTAS
+                            </a>
+                            
+
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     {/* <div className="accordion-item">
                       <h2
                         className="accordion-header"
