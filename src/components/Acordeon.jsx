@@ -10582,7 +10582,8 @@ const Acordeon = () => {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              ESTRATEGIA DE RENDICIÓN DE CUENTAS 2025
+                              
+                              Estrategia De Rendición De Cuentas 2025
                             </a>
                              <a
                               href="https://apiwebtm.com/uploads/COMITE_DE_RENDICION_DE_CUENTAS_c33a55daf5.pdf"
@@ -10590,9 +10591,16 @@ const Acordeon = () => {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              COMITÉ DE RENDICIÓN DE CUENTAS
+                              Comité De Rendición De Cuentas
                             </a>
-                            
+                             <a
+                              href="https://apiwebtm.com/uploads/estrategia_comunicacion_rendicion_cuentas_a2f9421831.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Estrategia De Comunicación De Rendición De Cuentas
+                            </a>
 
                             
                           </div>

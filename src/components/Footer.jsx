@@ -308,6 +308,7 @@ const Footer = () => {
                 className="gobiIcon_MinTrans img-fluid"
                 src="https://apiwebtm.com/uploads/Mintransporte_39c7a45771.png"
                 alt="Logo Mintransporte"
+                // style={{ width: '100px', height: '50px' }}
               />
               </a>
             </div>

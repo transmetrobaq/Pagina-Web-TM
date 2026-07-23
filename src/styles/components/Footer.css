@@ -356,6 +356,9 @@ display: flex;
 width: 8rem;
 margin: 0 auto;
 display: block;
+border: 1px solid #ffffff;
+border-radius: 5px;
+
 
 }
 .gobiIcon_Alcal  {
@@ -365,7 +368,8 @@ display: block;
   display: block;
 }
 .gobiIcon_MinTrans  {
-  width: 9rem;
+  
+  Width-max: 100%;
   margin-top: 1px;
   margin: 0 auto;
   display: block;

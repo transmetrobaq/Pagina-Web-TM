@@ -14,9 +14,9 @@ const BarraGovco = () => (
       style={{ marginRight: 'auto', display: 'block' }}
     >
       <img
-        src="https://cdn.www.gov.co/assets/images/logo.svg"
+        src="https://cdn.www.gov.co/assets/images/logoGovCO.png"
         alt="Logo GOVCO"
-        style={{ height: '1.875rem', width: '8.5rem', display: 'block' }}
+        style={{ height: '1.995rem', width: '7.2rem', display: 'block' }}
       />
     </a>
     {/* Botón de idioma eliminado */}
