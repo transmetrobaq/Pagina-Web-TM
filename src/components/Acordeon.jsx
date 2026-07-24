@@ -12021,6 +12021,60 @@ const Acordeon = () => {
                             </a>
                           </div>
                         </li>
+                        <li className="list-group-item list-group-item-action ">
+                          2025
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINACIERO_ENE_MZO_2025_3f24bed5e9.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              INFORME FINACIERO  ENE-MZO-2025
+                            </a>
+                           
+                            
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINACIERO_ABR_JUN_2025_bcffad6bb7.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             INFORME FINACIERO  ABR-JUN-2025
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINACIERO_JUL_SEP_2025_089d51cf47.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             INFORME FINACIERO  JUL-SEP-2025
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINACIERO_OCT_DIC_2025_b8fbde1aa5.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                             INFORME FINACIERO  OCT-DIC-2025
+                            </a>
+                          
+                          </div>
+                        </li>
+                         <li className="list-group-item list-group-item-action ">
+                          2026
+                          <div className="list-group">
+                            <a
+                              href="https://apiwebtm.com/uploads/INFORME_FINACIERO_ENE_MZO_2026_83105cfcbf.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            INFORME FINACIERO ENE-MZO-2026
+                            </a>
+                         
+                          </div>
+                        </li>
                       </div>
                     </div>
                   </div>
