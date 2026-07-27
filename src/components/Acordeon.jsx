@@ -10834,6 +10834,14 @@ const Acordeon = () => {
                       >
                        1era Medición de satisfacción - 2026 
                       </a>
+                       <a
+                        href="https://apiwebtm.com/uploads/2da_medicion_de_satisfaccion_2026_Publico_1_aa42b0fd1e.pdf"
+                        className="list-group-item list-group-item-action "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                      2da medición de satisfacción - 2026
+                      </a>
 
                     </div>
                   </li>
