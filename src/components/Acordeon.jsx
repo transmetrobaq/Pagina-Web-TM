@@ -1418,6 +1418,35 @@ const Acordeon = () => {
                                     </a>
                                   </div>
                                 </li>
+                                <li className="list-group-item list-group-item-action ">
+                                  2026
+                                  <div className="list-group">
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RESOLUCION_097_2026_INCREMENTO_SALARIAL_04a77a66be.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                     Resolución 097-2026 Incremento Salarial
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/RESOLUCION_039_DE_2026_POR_MEDIO_DE_LA_CUAL_SE_DA_CUMPLIMIENTO_AL_DECRETO_0052_DE_2026_EXPEDIDO_POR_EL_ALCALDE_DISTRITAL_DE_BARRANQUILLA_TARDE_CIVICA_6aab1aad4a.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      Resolucion 039 De 2026 Por Medio De La Cual Se Da Cumplimiento Al Decreto 0052 De 2026 Expedido Por El Alcalde Distrital De Barranquilla (Tarde Civica)
+                                    </a>
+                                    <a
+                                      href="https://apiwebtm.com/uploads/POR_LA_CUAL_SE_ACTUALIZA_EL_COMITE_INSTITUCIONAL_DE_COORDINACION_DE_CONTROL_INTERNO_1_compressed_c1f299be79.pdf"
+                                      className="list-group-item list-group-item-action "
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                     Por La Cual Se Actualiza El Comité Institucional De Coordinación De Control Interno 
+                                    </a>
+                                  </div>
+                                </li>
                               </div>
                             </div>
                           </div>
