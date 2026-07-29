@@ -418,6 +418,16 @@ const Acordeon = () => {
                             Directorio funcionarios y escala salarial 2026
 
                           </a>
+                           <a
+                            href="https://apiwebtm.com/uploads/DIRECTORIO_CONTRATISTAS_2026_564c0e56ac.pdf"
+                            className="list-group-item list-group-item-action"
+                            aria-current="true"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Directorio Contratistas
+
+                          </a>
 
                         </div>
                       </li>
