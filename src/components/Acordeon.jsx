@@ -97,9 +97,36 @@ const Acordeon = () => {
                             rel="noreferrer"
                           >
                             Reglamento Interno de Trabajo
-                          </a>{' '}
+                          </a>
+                           <a
+                            href="https://apiwebtm.com/uploads/Resolucion_141_1_5b6ea09db0.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Resolución 141 2026
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Reglamento_1_0771d9df7d.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Reglamento 2026
+                          </a>
+                          <a
+                            href="https://apiwebtm.com/uploads/Memorando_7dc25a6702.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Memorando 2026
+                          </a>
+                          {' '}
                         </div>
+                        
                       </li>
+                       
                     </div>
                   </div>
                 </div>
@@ -10117,6 +10144,14 @@ const Acordeon = () => {
                               rel="noreferrer"
                             >
                              Informe PQRSDF - Primer Trimestre 2026
+                            </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_gestion_PQRSDF_01_DE_ABRIL_A_30_DE_JUNIO_DEL_2026_b179ed4dfe.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            Informe PQRSDF - Segundo Trimestre 2026
                             </a>
                           </div>
                         </li>
