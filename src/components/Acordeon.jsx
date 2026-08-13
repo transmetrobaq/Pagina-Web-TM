@@ -6718,6 +6718,14 @@ const Acordeon = () => {
                               >
                                 2023
                               </a>
+                              <a
+                                href="https://apiwebtm.com/uploads/EVIDENCIA_REPORTE_INFORME_SIA_Vig_2025_1cbaabc379.pdf"
+                                className="list-group-item list-group-item-action "
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                2025
+                              </a>
                             </div>
                           </div>
                         </div>
