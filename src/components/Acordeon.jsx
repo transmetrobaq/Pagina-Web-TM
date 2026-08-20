@@ -10696,6 +10696,14 @@ const Acordeon = () => {
                             >
                               Estrategia De Comunicación De Rendición De Cuentas
                             </a>
+                            <a
+                              href="https://apiwebtm.com/uploads/Informe_de_Gestion_Transmetro_2025_1_1_c94a9d5c42.pdf"
+                              className="list-group-item list-group-item-action "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Informe de Gestión Tranmsetro 2025
+                            </a>
 
                             
                           </div>

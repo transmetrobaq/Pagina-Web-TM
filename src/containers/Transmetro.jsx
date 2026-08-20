@@ -278,25 +278,16 @@ const Transmetro = () => {
                     <TabPane tabId="1">
                       <br />
                       <p>
-                        Ser la primera opción para llegar a tu destino de manera
-                        confiable, oportuna y agradable,{' '}
-                        <span>en un escenario incluyente y sostenible,</span>{' '}
-                        generando calidad de vida para Barranquilla y su área
-                        metropolitana.
+                        Conectamos personas y ciudades con un transporte ágil,
+                        seguro y lleno de futuro
                       </p>
                     </TabPane>
 
                     <TabPane tabId="2">
                       <br />
                       <p>
-                        <span>
-                          Transmetro será a 2025 el eje de movilidad urbana
-                          sostenible de Barranquilla
-                        </span>{' '}
-                        y su área metropolitana, integrando los modos de
-                        transporte público masivo, teniendo como principio
-                        fundamental la satisfacción de nuestros usuarios y
-                        públicos de interés.
+                        Seremos el pulso de una movilidad inteligente, digital y
+                        humana que transforma la vida humana.
                       </p>
                     </TabPane>
                   </TabContent>
@@ -416,72 +407,119 @@ const Transmetro = () => {
 
                   <TabContent activeTab={activeTab}>
                     <TabPane tabId="1">
-                      <ol className="lis-group">
-                        <li>Optimizar el uso de los recursos disponibles.</li>
-                        <li>
-                          Gestionar para propender por la sostenibilidad
-                          financiera.
+                      <ol className="ps-4  lis-group-estra ">
+                        <li className="mb-3">
+                          <div>
+                            <span className="fw-bold d-block mb-1">
+                              Consolidar la integración del transporte
+                            </span>
+
+                            <span>
+                              Consolidar la conexión del transporte masivo con
+                              el intermunicipal mediante la adecuación operativa
+                              y comercial del Portal Barranquillita como
+                              terminal de transferencia multimodal, antes de
+                              2027.
+                            </span>
+                          </div>
+                        </li>
+
+                         <li className="mb-3">
+                          <div>
+                            <span className="fw-bold d-block mb-1">
+                              Modernizar y expandir la infraestructura
+                            </span>
+
+                            <span>
+                              Remodelar e intervenir todas las estaciones contempladas en el Plan Distrital, incorporando criterios de sostenibilidad, accesibilidad y experiencia del usuario.
+                            </span>
+                          </div>
                         </li>
                       </ol>
                     </TabPane>
 
-                    <TabPane tabId="2">
-                      <ol className="lis-group">
-                        <li>
-                          Incrementar el nivel de satisfacción de usuarios y
-                          ciudadanos.
+                     <TabPane tabId="2">
+                      <ol className="ps-4  lis-group-estra ">
+                        <li className="mb-3">
+                          <div>
+                            <span className="fw-bold d-block mb-1">
+                             Fortalecer la infraestructura vehicular
+                            </span>
+
+                            <span>
+                             Incorporar progresivamente buses de bajas emisiones, junto con estaciones de carga eléctrica, contribuyendo a la sostenibilidad ambiental del sistema.
+                        
+                               </span>
+                          </div>
                         </li>
-                        <li>
-                          Trabajar bajo el principio de la responsabilidad
-                          social.
-                        </li>
-                        <li>
-                          Gestionar una comunicación adecuada con nuestro
-                          público y generar valor agregado.
-                        </li>
-                        <li>
-                          Contribuir sustancialmente al mejoramiento en la
-                          movilidad.
+
+                         <li className="mb-3">
+                          <div>
+                            <span className="fw-bold d-block mb-1">
+                              Trabajar con alianzas estratégicas y responsabilidad social
+                            </span>
+                            
+
+                            <span>
+                            Establecer colaboraciones con empresas, universidades y sector social para cofinanciar pasajes y promover movilidad sostenible con impacto social.
+                                      </span>
+                          </div>
                         </li>
                       </ol>
                     </TabPane>
 
-                    <TabPane tabId="3">
-                      <div className="content">
-                        <ol className="lis-group">
-                          <li>
-                            Optimizar los procesos internos de acuerdo a
-                            exigencias de MIPG.
-                          </li>
+                   <TabPane tabId="3">
+                      <ol className="ps-4  lis-group-estra ">
+                        <li className="mb-3">
+                          <div>
+                            <span className="fw-bold d-block mb-1">
+                            Transformar el servicio con innovación digital
+                            </span>
 
-                          <li>
-                            Gestionar la integración del Transporte Masivo con
-                            el complementario.
-                          </li>
-                          <li>Mejorar en los indicadores del Sistema.</li>
-                          <li>Construir banco de proyectos.</li>
-                          <li>Incrementar la demanda.</li>
-                        </ol>
-                      </div>
+                            <span>
+                            Implementar tecnologías como seguimiento en tiempo real y sistema tarifario integrado con TPC, mejorando la experiencia ciudadana y eficiencia operativa.
+
+                              </span>
+                          </div>
+                        </li>
+
+                         <li className="mb-3">
+                          <div>
+                            <span className="fw-bold d-block mb-1">
+                              Fortalecer a la entidad y su talento humano
+                            </span>
+                             <span>
+                            Potenciar a la organización, invirtiendo en capacitación continua, estandarizando efectivamente los procesos y optimizando la gestión para una estructura operativa eficiente.
+                             </span>
+                          </div>
+                        </li>
+                      </ol>
                     </TabPane>
-                    <TabPane tabId="4">
-                      <div className="content">
-                        <ol className="lis-group">
-                          <li>
-                            Fortalecer las competencias del talento humano y el
-                            ambiente laboral.
-                          </li>
-                          <li>
-                            Desarrollar una cultura organizacional de trabajo en
-                            equipo y orientación a los logros.
-                          </li>
-                          <li>
-                            Proporcionar ambientes laborales seguros y
-                            armoniosos que redunden en el mejoramiento de la
-                            calidad de vida de los servidores públicos.
-                          </li>
-                        </ol>
-                      </div>
+                   <TabPane tabId="4">
+                      <ol className="ps-4  lis-group-estra ">
+                        <li className="mb-3">
+                          <div>
+                            <span className="fw-bold d-block mb-1">
+                            Propender por la sostenibilidad financiera
+                            </span>
+
+                            <span>
+                          Generar recursos alternativos como alianzas privadas, comercialización en estaciones y turismo (turibús), para garantizar la estabilidad financiera.
+                              </span>
+                          </div>
+                        </li>
+
+                         <li className="mb-3">
+                          <div>
+                            <span className="fw-bold d-block mb-1">
+                            Gestionar adecuadamente la planificación, riesgos y cumplimiento
+                            </span>
+                             <span>
+                             Asegurar el cumplimiento de proyectos e infraestructura alineados con planes nacionales y distritales, anticipando riesgos como competencia, sanciones o incumplimientos.
+                            </span>
+                          </div>
+                        </li>
+                      </ol>
                     </TabPane>
                   </TabContent>
 
@@ -546,14 +584,14 @@ const Transmetro = () => {
               </div>
             </div>
             <div className="col-md-5">
-  <img
-    id="queTm_img"
-    src="https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg"
-    className="img-fluid"
-    alt="Buses de Transmetro en Barranquilla"
-    title="Buses de Transmetro en Barranquilla"
-  />
-</div>
+              <img
+                id="queTm_img"
+                src="https://apiwebtm.com/uploads/PSX_20190514_180111_c36eccfaf8.jpg"
+                className="img-fluid"
+                alt="Buses de Transmetro en Barranquilla"
+                title="Buses de Transmetro en Barranquilla"
+              />
+            </div>
           </div>
         </div>
 
@@ -572,7 +610,7 @@ const Transmetro = () => {
                         src="https://apiwebtm.com/uploads/TMO_eb4f4b7277.png"
                         className="img-fluid rounded-start"
                         alt="logo transmetro"
-                        title='logo transmetro'
+                        title="logo transmetro"
                         style={{
                           width: '150px',
                         }}

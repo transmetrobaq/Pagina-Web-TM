@@ -358,6 +358,45 @@ verde */
  margin-top: 50px;
  
 }
+
+-------------------------------
+
+.obje__Estra .lis-group-estra {
+  counter-reset: item;
+  padding-left: 0;
+  list-style: none;
+}
+
+.obje__Estra .lis-group-estra li {
+  color: #002856;
+  font-size: 20px;
+  counter-increment: item;
+  display: block;
+  padding-left: 2rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.obje__Estra .lis-group-estra li::before {
+  content: counter(item) ".";
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.5rem;
+}
+
+.obje__Estra .lis-group-estra .fw-bold {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.obje__Estra h2 {
+  font-weight: bold;
+  color: #00519E;
+  margin-top: 50px;
+}
 #estra_img{
  /*  background-image: url("https://apiwebtm.com/uploads/Obj_Estra_743c30512f.png"); */
 /*   background-repeat: no-repeat;
