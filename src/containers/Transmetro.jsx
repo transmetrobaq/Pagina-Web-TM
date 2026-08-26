@@ -948,11 +948,12 @@ const Transmetro = () => {
                       Publicidad en infraestructura y buses de Transmetro:
                     </li>
                     <p className="card-text  fw-semibold">
-                      Actualmente contamos con un amplio portafolio de elementos
-                      disponibles, para ser intervenidos con brandeo comercial.
-                      Estos elementos incluyen billboards en estaciones, brandeo
-                      de buses en exterior e interior, actividades de marca,
-                      torniquetes, entre una amplia variedad para escoger.
+                      Actualmente contamos con un amplio portafolio de elementos disponibles,
+                       para ser intervenidos con brandeo comercial. Estos elementos 
+                       incluyen billboards y pantallas publicitarias en estaciones y buses,
+                        brandeo de buses en exterior e interior, actividades de marca, 
+                        torniquetes, entre una amplia variedad para escoger.
+
                     </p>
                     <p className="card-text fw-bold">
                       Agencias comercializadoras
@@ -994,17 +995,53 @@ const Transmetro = () => {
                           </div>
                         </div>
                       </div>
+                      {/* <div className="col-sm-6">
+                        <div
+                          className="card"
+                          style={{
+                            backgroundColor: '#002856',
+                            color: '#FFFFFF',
+                          }}
+                        >
+                          <div className="card-body">
+                            <p className="card-title fw-bold">
+                              SSSSS
+                            </p>
+                            <p className="card-text">
+                              Contacto: 55559
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-6">
+                        <div
+                          className="card"
+                          style={{
+                            backgroundColor: '#F5F5F5',
+                            border: '1px solid #002856',
+                          }}
+                        >
+                          <div className="card-body">
+                            <p className="card-title fw-bold">
+                              TTTTT
+                            </p>
+                            <p className="card-text">
+                              Contacto: 88888
+                            </p>
+                          </div>
+                        </div>
+                      </div> */}
+                      
                     </div>
                     <li className="card-title fw-bold ">
                       Arriendo de locales comerciales
                     </li>
                     <p className="card-text">
-                      Transmetro ofrece 8 locales comerciales ubicados en el
-                      Portal de Soledad, con un área de 11.2 m² c/u. Un promedio
-                      de 94.000 usuarios transita diariamente por este portal.
-                      Para mas información:{' '}
+                      Transmetro ofrece 4 locales comerciales ubicados en el Portal de Soledad,
+                      con un área de 11.2 m² c/u. Un promedio de 94.000 usuarios transita diariamente
+                       por este portal. Para mas información:{' '}
                       <span className=" fw-bold ">
-                        comercial1@transmetro.gov.co
+                        gestionestrategica@transmetro.gov.co
                       </span>
                     </p>
                   </ul>

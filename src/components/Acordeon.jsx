@@ -5871,14 +5871,29 @@ const Acordeon = () => {
                                   </a>
                                 </div>
                               </li>
-                              <a
+
+                               <li className="list-group-item list-group-item-action ">
+                                2026
+                                <div className="list-group">
+                                    <a
                                 href="https://apiwebtm.com/uploads/Plan_de_Accion_2026_compilado_9de9cca390.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                2026
+                                Plan de Acción 2026 Compilado
                               </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/Primer_segumiento_Plan_de_Accion_2026_DEF_compilado_fdc0c727bf.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Formato de seguimiento a plan 1
+                                  </a>
+
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
