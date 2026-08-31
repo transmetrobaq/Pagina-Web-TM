@@ -972,7 +972,7 @@ const Transmetro = () => {
                               iCo Medios S.A.S.
                             </p>
                             <p className="card-text">
-                              Contacto: 3013344039 - 3003072179
+                              Contacto: 3013951709
                             </p>
                           </div>
                         </div>
@@ -990,12 +990,12 @@ const Transmetro = () => {
                               Efectimedios S.A.S.
                             </p>
                             <p className="card-text">
-                              Contacto: 3166182466 - 3208558149
+                              Contacto: 3115385902
                             </p>
                           </div>
                         </div>
                       </div>
-                      {/* <div className="col-sm-6">
+                      <div className="col-sm-6">
                         <div
                           className="card"
                           style={{
@@ -1005,10 +1005,10 @@ const Transmetro = () => {
                         >
                           <div className="card-body">
                             <p className="card-title fw-bold">
-                              SSSSS
+                              Publicidad Barranquilla S.A.S.
                             </p>
                             <p className="card-text">
-                              Contacto: 55559
+                              Contacto: 3175052734
                             </p>
                           </div>
                         </div>
@@ -1023,15 +1023,32 @@ const Transmetro = () => {
                         >
                           <div className="card-body">
                             <p className="card-title fw-bold">
-                              TTTTT
+                              Publimedios & Marcas DM S.A.S.
                             </p>
                             <p className="card-text">
-                              Contacto: 88888
+                              Contacto: 3014150033
                             </p>
                           </div>
                         </div>
-                      </div> */}
-                      
+                      </div> 
+                      <div className="col-sm-6">
+                        <div
+                          className="card"
+                          style={{
+                            backgroundColor: '#002856',
+                            color: '#FFFFFF',
+                          }}
+                        >
+                          <div className="card-body">
+                            <p className="card-title fw-bold">
+                              Bird Marketing Service
+                            </p>
+                            <p className="card-text">
+                              Contacto: 3008332353
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <li className="card-title fw-bold ">
                       Arriendo de locales comerciales
