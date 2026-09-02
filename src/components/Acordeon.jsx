@@ -9489,6 +9489,20 @@ const Acordeon = () => {
                                 Primer informe de seguimiento al mapa de riesgos
                                 institucional
                               </a>
+                              <li className="list-group-item list-group-item-action ">
+                                2026
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_SEGUIMIENTO_A_RIESGOS_A_JUN_2026_d8798408ed.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Informe De Seguimiento A Riesgos Con Corte A Jun 2026
+                                  </a>
+                                  
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
