@@ -178,7 +178,7 @@ const Info = () => {
                 <div className="card-body usu-movilizados ">
                   <h2 className="card-text ">Usuarios Movilizados</h2>
                   <p className="card-text">
-                    Desde el 10 de julio de 2010 hasta <br />5 de abril de 2026
+                    Desde el 10 de julio de 2010 hasta <br />6  de septiembre de 2026
                     <button
                       type="button"
                       className="btn text-white "
@@ -196,7 +196,7 @@ const Info = () => {
                     src="https://apiwebtm.com/uploads/bus_movilizados_836a10bb99.png"
                     alt="Bus Transmetro"
                   />
-                  <h1 className="card-title fw-bold">444.392.452</h1>
+                  <h1 className="card-title fw-bold">452.315.349</h1>
                   <div className="linea-colores-movi" />
                 </div>
               </div>
@@ -243,12 +243,32 @@ const Info = () => {
                     <td>1.287.481</td>
                   </tr>
                    <tr>
-                    <td>Febrero 2026</td>
+                    <td>FEBRERO 2026</td>
                     <td>1.444.600</td>
                   </tr>
                   <tr>
-                    <td>Marzo 2026</td>
+                    <td>MARZO 2026</td>
                     <td>1.686.261</td>
+                  </tr>
+                  <tr>
+                    <td>ABRIL 2026</td>
+                    <td>1.586.312</td>
+                  </tr>
+                  <tr>
+                    <td>MAYO 2026</td>
+                    <td>1.637.711</td>
+                  </tr>
+                  <tr>
+                    <td>JUNIO 2026</td>
+                    <td>1.462.588</td>
+                  </tr>
+                   <tr>
+                    <td>JULIO 2026</td>
+                    <td>1.471.358</td>
+                  </tr>
+                    <tr>
+                    <td>AGOSTO 2026</td>
+                    <td>1.562.098</td>
                   </tr>
                  
                 </tbody>
