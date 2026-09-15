@@ -270,7 +270,7 @@ const Info = () => {
                     <td>AGOSTO 2026</td>
                     <td>1.562.098</td>
                   </tr>
-                 
+
                 </tbody>
               </table>
               <div className="accordion-item">
