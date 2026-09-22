@@ -8298,6 +8298,14 @@ const Acordeon = () => {
                                         >
                                            Informe Austeridad del GASTO TRANSMETRO ENE-MAR 2025 VS 2026
                                         </a>
+                                        <a
+                                          href="https://apiwebtm.com/uploads/Inf_Austeridad_del_GASTO_TRANSMETRO_ENE_JUN_2025_VS_2026_2ef54fd708.pdf"
+                                          className="list-group-item list-group-item-action "
+                                          target="_blank"
+                                          rel="noreferrer"
+                                        >
+                                            Informe De Austeridad Del Gasto 2do Trimestre
+                                        </a>
 
                                       </div>
                                     </li>

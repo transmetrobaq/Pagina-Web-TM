@@ -40,11 +40,9 @@ const Header = () => {
       >
         {/* start carusel items */}
         <div className="carousel-inner">
-          
-
-          {/* <div className="carousel-item " data-bs-interval="2000">
+        {/* <div className="carousel-item active " data-bs-interval="2000">
             <img
-              src="https://apiwebtm.com/uploads/IMG_9512_76b844202b.JPG"
+              src="https://apiwebtm.com/uploads/Banner_Cooasoatlan_9169fc8545.png"
               className="w-100 img-fluid"
               alt="..."
             />
@@ -56,10 +54,30 @@ const Header = () => {
                 </a>
               <div className="linea-coloresHeader" />
             </div>
-          </div> */}
-          {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abaj */}
+          </div>
+           */}
 
-          <div className="carousel-item active " data-bs-interval="10000">
+          <div className="carousel-item active " data-bs-interval="5000">
+           <a href="https://transmetro.gov.co/noticias/continua-la-integracion-con-el-transporte-publico-colectivo-transmetro-inicia-interoperabilidad-con-cooasoatlan">
+             <img
+              src="https://apiwebtm.com/uploads/Banner_Cooasoatlan_9169fc8545.png"
+              className="w-100 img-fluid"
+              alt="Bus de cooasoatlan en la via de barranquilla"
+              title="Integracíon con cooasoatlan"
+             />
+           </a>
+            {/* <div className="carousel-caption  d-block">
+               <a
+                    href="ciudadano/#preguntas-frecuentes">
+                <h2 className="mb-3">Lo que debes saber sobre la migración de información para ingresar al Sistema.
+                </h2>
+                </a>
+              <div className="linea-coloresHeader" />
+            </div> */}
+          </div>
+          {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abajo */}
+
+          <div className="carousel-item " data-bs-interval="10000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
