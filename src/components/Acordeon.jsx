@@ -7930,6 +7930,22 @@ const Acordeon = () => {
                                   >
                                     Informe Final Transmetro
                                   </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/PLAN_MEJORAMIENTO_CONTRALORIA_AUDITORIA_VIGENCIA_2024_F_87db996ee3.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Plan Mejoramiento Contraloria  Auditoria Vigencia 2024
+                                  </a>
+                                    <a
+                                    href="https://apiwebtm.com/uploads/PRIMER_SEGUIMIENTO_PLAN_DE_MEJORAMIENTO_VIGENCIA_2024_1_a29f5cc03b.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                   Primer Seguimiento Plan De Mejoramiento  Vigencia 2024
+                                  </a>
                                 </div>
                               </li>
                             </div>
