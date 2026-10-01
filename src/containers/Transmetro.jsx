@@ -963,8 +963,8 @@ const Transmetro = () => {
                         <div
                           className="card"
                           style={{
-                            backgroundColor: '#002856',
-                            color: '#FFFFFF',
+                             backgroundColor: '#F5F5F5',
+                            border: '1px solid #002856',
                           }}
                         >
                           <div className="card-body">
@@ -999,8 +999,8 @@ const Transmetro = () => {
                         <div
                           className="card"
                           style={{
-                            backgroundColor: '#002856',
-                            color: '#FFFFFF',
+                            backgroundColor: '#F5F5F5',
+                            border: '1px solid #002856',
                           }}
                         >
                           <div className="card-body">
@@ -1035,8 +1035,10 @@ const Transmetro = () => {
                         <div
                           className="card"
                           style={{
-                            backgroundColor: '#002856',
-                            color: '#FFFFFF',
+                            // backgroundColor: '#002856',
+                            // color: '#FFFFFF',
+                             backgroundColor: '#F5F5F5',
+                            border: '1px solid #002856',
                           }}
                         >
                           <div className="card-body">
