@@ -5054,7 +5054,7 @@ const Acordeon = () => {
                           2026
                           <div className="list-group">
                           <a
-                              href="https://apiwebtm.com/uploads/uploads/INGRESOS_Y_GASTOS_ENERO_ENERO_2026_adb825f947.pdf"
+                              href="https://apiwebtm.com/uploads/INGRESOS_Y_GASTOS_ENERO_ENERO_2026_adb825f947.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
@@ -5062,7 +5062,7 @@ const Acordeon = () => {
                          Ingresos Y Gastos Enero - Enero 2026
                             </a>
                             <a
-                              href="https://apiwebtm.com/uploads/uploads/INGRESOS_Y_GASTOS_ENERO_FEBRERO_2026_c511c6bc93.pdf"
+                              href="https://apiwebtm.com/uploads/INGRESOS_Y_GASTOS_ENERO_FEBRERO_2026_c511c6bc93.pdf"
                               className="list-group-item list-group-item-action "
                               target="_blank"
                               rel="noreferrer"
