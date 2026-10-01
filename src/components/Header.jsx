@@ -57,7 +57,26 @@ const Header = () => {
           </div>
            */}
 
-          <div className="carousel-item active " data-bs-interval="5000">
+          
+          {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abajo */}
+
+          <div className="carousel-item active " data-bs-interval="5100">
+            <img
+              src={`https://apiwebtm.com${noti1.url}`}
+              className="w-100 img-fluid"
+              alt={noti1.atl}
+              title={noti1.atl}
+            />
+            <div className="carousel-caption  d-block">
+              <Link to={`/noticias/${noti1.slug}`}>
+                <h2 className="mb-3">{noti1.title}</h2>
+              </Link>
+              <div className="linea-coloresHeader" />
+            </div>
+          </div>
+
+
+          <div className="carousel-item  " data-bs-interval="5000">
            <a href="https://transmetro.gov.co/noticias/continua-la-integracion-con-el-transporte-publico-colectivo-transmetro-inicia-interoperabilidad-con-cooasoatlan">
              <img
               src="https://apiwebtm.com/uploads/Banner_Cooasoatlan_9169fc8545.png"
@@ -74,22 +93,6 @@ const Header = () => {
                 </a>
               <div className="linea-coloresHeader" />
             </div> */}
-          </div>
-          {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abajo */}
-
-          <div className="carousel-item " data-bs-interval="10000">
-            <img
-              src={`https://apiwebtm.com${noti1.url}`}
-              className="w-100 img-fluid"
-              alt={noti1.atl}
-              title={noti1.atl}
-            />
-            <div className="carousel-caption  d-block">
-              <Link to={`/noticias/${noti1.slug}`}>
-                <h2 className="mb-3">{noti1.title}</h2>
-              </Link>
-              <div className="linea-coloresHeader" />
-            </div>
           </div>
 
           {/* <div className="carousel-item  " data-bs-interval="7000">
