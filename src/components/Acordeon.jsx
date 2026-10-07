@@ -5687,6 +5687,14 @@ const Acordeon = () => {
                                   >
                                     1° Informe Monitoreo PTEP a abril 2026
                                   </a> 
+                                  <a
+                                    href="https://apiwebtm.com/uploads/SEGUNDO_INFORME_MONITOREO_PTEP_A_AGOSTO_2026_74463e055e.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    2° Informe Monitoreo PTEP a agosto 2026
+                                  </a> 
                                 </div>
                               </li>
                             </div>
