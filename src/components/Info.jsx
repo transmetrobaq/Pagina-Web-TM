@@ -144,7 +144,7 @@ const Info = () => {
       >
         <iframe
           id="videoHome"
-          src="https://www.youtube.com/embed/lP_YVKwBCls?autoplay=1&loop=1&mute=1&playlist=lP_YVKwBCls&controls=0&showinfo=0&modestbranding=1&vq=hd1080"
+          src="https://www.youtube.com/embed/8A2Ht-zAnCk?autoplay=1&loop=1&mute=1&playlist=8A2Ht-zAnCk&controls=0&showinfo=0&modestbranding=1&vq=hd0"
           frameBorder="0"
           allow="autoplay; encrypted-media"
           allowFullScreen
