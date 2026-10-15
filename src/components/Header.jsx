@@ -60,7 +60,7 @@ const Header = () => {
           
           {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abajo */}
 
-          <div className="carousel-item active " data-bs-interval="5100">
+          <div className="carousel-item active " data-bs-interval="4000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
@@ -76,7 +76,7 @@ const Header = () => {
           </div>
 
 
-          <div className="carousel-item  " data-bs-interval="5000">
+          {/* <div className="carousel-item  " data-bs-interval="5000">
            <a href="https://transmetro.gov.co/noticias/continua-la-integracion-con-el-transporte-publico-colectivo-transmetro-inicia-interoperabilidad-con-cooasoatlan">
              <img
               src="https://apiwebtm.com/uploads/Banner_Cooasoatlan_9169fc8545.png"
@@ -84,7 +84,7 @@ const Header = () => {
               alt="Bus de cooasoatlan en la via de barranquilla"
               title="Integracíon con cooasoatlan"
              />
-           </a>
+           </a> */}
             {/* <div className="carousel-caption  d-block">
                <a
                     href="ciudadano/#preguntas-frecuentes">
@@ -93,7 +93,7 @@ const Header = () => {
                 </a>
               <div className="linea-coloresHeader" />
             </div> */}
-          </div>
+          {/* </div> */}
 
           {/* <div className="carousel-item  " data-bs-interval="7000">
             <a
