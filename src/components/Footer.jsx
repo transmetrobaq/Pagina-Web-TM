@@ -303,12 +303,20 @@ const Footer = () => {
               </a>
             </div>
             <div className="col-md-2">
-            <a href="https://mintransporte.gov.co/" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://mintransporte.gov.co/" target="_blank" rel="noopener noreferrer">
               <img
                 className="gobiIcon_MinTrans img-fluid"
                 src="https://apiwebtm.com/uploads/Mintransporte_39c7a45771.png"
                 alt="Logo Mintransporte"
-                // style={{ width: '100px', height: '50px' }}
+              
+              />
+              </a> */}
+               <a href="https://mintransporte.gov.co/" target="_blank" rel="noopener noreferrer">
+              <img
+                className="gobiIcon_MinTrans img-fluid"
+                src="https://apiwebtm.com/uploads/transporte_Min_acb07df181.png"
+                alt="Logo Mintransporte"
+                style={{ width: '100px', height: '70px' }}
               />
               </a>
             </div>
