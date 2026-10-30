@@ -224,8 +224,22 @@ const Acordeon = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        1.3.1. Mapa de procesos de Transmetro
+                        Mapa de procesos de Transmetro
                       </a>
+
+                      <li className="list-group-item list-group-item-action ">
+                        2026
+                        <div className="list-group">
+                          <a
+                            href="https://apiwebtm.com/uploads/MAPA_DE_PROCESOS_TRANSMETRO_page_0001_f28c354dc1.pdf"
+                            className="list-group-item list-group-item-action "
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                             Mapa de procesos de Transmetro
+                          </a>
+                        </div>
+                      </li>
                       {/* <li className="list-group-item list-group-item-action ">
                         1.3.2 Procesos y procedimientos
                         <div className="list-group">
