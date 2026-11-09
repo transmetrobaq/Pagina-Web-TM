@@ -9529,7 +9529,7 @@ const Acordeon = () => {
                         >
                           <div className="accordion-body">
                             <div className="list-group">
-                              <a
+                              {/* <a
                                 href="https://apiwebtm.com/uploads/IN_FORME_LEY_DE_CUOTA_TRANSMETRO_VIGERNCIA_2024_148d47ad7b.pdf"
                                 className="list-group-item list-group-item-action "
                                 target="_blank"
@@ -9586,21 +9586,74 @@ const Acordeon = () => {
                                 rel="noreferrer"
                               >
                                 Segundo Reporte Ley de Cuota Mujer
-                              </a>
-                               {/* <li className="list-group-item list-group-item-action ">
+                              </a> */}
+                                <li className="list-group-item list-group-item-action ">
                                 2024
                                 <div className="list-group">
                                   <a
-                                    href="https://apiwebtm.com/uploads"
+                                    href="https://apiwebtm.com/uploads/Reporte_de_Cumplimiento_Ley_de_Cuotas_2024_b278d56b09.pdf"
                                     className="list-group-item list-group-item-action "
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                  
+                                  Reporte Ley De Cuotas A Corte Febrero 2024
                                   </a>
                                   
                                 </div>
-                              </li> */}
+                                 <a
+                                    href="https://apiwebtm.com/uploads/Reporte_Ley_de_Cuotas_corte_agosto_2024_ultimo_1_042f1df39f.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                  Reporte Ley De Cuotas A Corte Agosto 2024
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/IN_FORME_LEY_DE_CUOTA_TRANSMETRO_VIGERNCIA_2024_148d47ad7b.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                  Informe Verificacion Reporte De Ley De Cuotas A Febrero 2024
+                                  </a>
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_LEY_DE_CUOTAS_CORTE_31_AGOSTO_2024_1732354cc1.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                  Informe Verificacion Reporte De Ley De Cuotas A Agosto 2024
+                                  </a>
+                              </li>
+                              
+                               <li className="list-group-item list-group-item-action ">
+                                2025
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_LEY_DE_CUOTAS_CORTE_SEP_15_2025_a18aa531f9.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                  Informe De Verificacion Reporte De Ley De Cuotas A Sept 2025
+                                  </a>
+                                  
+                                </div>
+                              </li>
+                               <li className="list-group-item list-group-item-action ">
+                                2026
+                                <div className="list-group">
+                                  <a
+                                    href="https://apiwebtm.com/uploads/INFORME_DE_VERIFICACION_A_REPORTE_DE_LEY_DE_CUOTAS_VIG_2026_838d38fa51.pdf"
+                                    className="list-group-item list-group-item-action "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                  Informe De Verificacion Reporte Ley De Cuota Vig  2026 
+                                  </a>
+                                  
+                                </div>
+                              </li>
                             </div>
                           </div>
                         </div>
