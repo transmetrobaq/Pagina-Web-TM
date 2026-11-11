@@ -100,7 +100,7 @@ const Infra = () => {
                   769 del 2002 las vías troncales son de dos (2) calzadas con
                   ocho (8) o más carriles y con destinación exclusiva de las
                   calzadas interiores para el tránsito de servicio público
-                  masivo.{' '}
+                  masivo{' '}
                   <a
                     className="fw-bold text-decoration-none"
                     style={{ color: '#e30613' }}
