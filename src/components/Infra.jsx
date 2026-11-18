@@ -278,7 +278,7 @@ const Infra = () => {
                       alt="icono bus"
                     />
                   </div>
-                  <div className="col-md-6 align-self-center">
+                  <div className="col-md-8 align-self-center">
                     <div className="card-body">
                       <ol>
                         <li>
@@ -318,7 +318,7 @@ const Infra = () => {
                             role="button"
                             alt="estacion joaquin barrios polo"
                           >
-                            Estación <span>Joaquín Barrios Polo</span> - entre
+                            Estación <span>Joaquín Barrios Polo / Gases del Caribe </span> - entre
                             carreras 1G y 2A.
                           </a>
                         </li>
