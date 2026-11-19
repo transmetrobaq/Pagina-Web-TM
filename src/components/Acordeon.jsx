@@ -4546,6 +4546,31 @@ const Acordeon = () => {
                                 >
                                   ACTA  DE  CIERRE PRESENTACION DE OFERTA
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/RESOLUCION_219_2026_COMITE_EVALUA_20261119100811187060_1_5c5dc6e853.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  RESOLUCION 219-2026COMITE
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/VF_INFORME_PRELIMINAR_EVALUACION_TECNICO_TM_LC_004_2026_d09558b19a.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  VF - INFORME PRELIMINAR EVALUACION TECNICO - TM - LC - 004
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/EVALUACION_JURIDICA_b923cf0a15.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  EVALUACION JURIDICA
+                                </a>
+                                
 
                               </div>
                             </div>
