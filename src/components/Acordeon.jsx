@@ -1702,6 +1702,38 @@ const Acordeon = () => {
                                 >
                                   Políticas, lineamientos y manuales
                                 </a>
+                                <a
+                                  href="https://apiwebtm.com/uploads/POLITICA_DE_DESCONEXION_LABORAL_e2b52d288b.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Politica De Desconexión Laboral
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/POLITICA_DE_PREVENCION_DEL_CONSUMO_DE_ALCOHOL_TABACO_VAPEADORES_PRODUCTOS_DE_NICOTINA_Y_SUSTANCIAS_PSICOACTIVAS_0b07532380.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Politica De Prevención Del Consumo De Alcohol, Tabaco, Vapeadores, Productos De Nicotina Y Sustancias Psicoactivas
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/POLITICA_DE_PREVENCION_Y_ATENCION_DEL_ACOSO_LABORAL_ACOSO_SEXUAL_EN_CONTEXTO_LABORAL_bcfa06f94a.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Politica De Prevención Y Atención Del Acoso Laboral, Acoso Sexual En Contexto Laboral
+                                </a>
+                                 <a
+                                  href="https://apiwebtm.com/uploads/POLITICA_DE_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO_05d16175c7.pdf"
+                                  className="list-group-item list-group-item-action "
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  Politica De Seguridad Y Salud En El Trabajo
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -4504,7 +4536,15 @@ const Acordeon = () => {
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  Observaciones  presentada  por  TEMPO TRABAJO SAS
+                                   OBSERVACIONES  PRESENTADA  POR  TEMPO TRABAJO SAS
+                                </a>
+                                   <a
+                                  href="https://apiwebtm.com/uploads/ACTA_DE_CIERRE_PRESENTACION_DE_OFERTA_d63c8052e1.pdf"
+                                  className="list-group-item list-group-item-action"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  ACTA  DE  CIERRE PRESENTACION DE OFERTA
                                 </a>
 
                               </div>
