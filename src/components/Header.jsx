@@ -69,9 +69,11 @@ const Header = () => {
             />
             <div className="carousel-caption  d-block">
               <Link to={`/noticias/${noti1.slug}`}>
-                <h2 className="mb-3">{noti1.title}</h2>
+                <h2 className="mb-3">{noti1.title}
+                </h2>
+                
               </Link>
-              <div className="linea-coloresHeader" />
+              {/* <div className="linea-coloresHeader" /> */}
             </div>
           </div>
 
