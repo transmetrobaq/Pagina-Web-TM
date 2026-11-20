@@ -40,27 +40,27 @@ const Header = () => {
       >
         {/* start carusel items */}
         <div className="carousel-inner">
-        {/* <div className="carousel-item active " data-bs-interval="2000">
+         <div className="carousel-item active " data-bs-interval="2000">
             <img
-              src="https://apiwebtm.com/uploads/Banner_Cooasoatlan_9169fc8545.png"
+              src="https://apiwebtm.com/uploads/Banner_para_pagina_web_Al_supermetro_en_transmetro_1_3199991382.png"
               className="w-100 img-fluid"
               alt="..."
             />
             <div className="carousel-caption  d-block">
-               <a
+               {/* <a
                     href="ciudadano/#preguntas-frecuentes">
                 <h2 className="mb-3">Lo que debes saber sobre la migración de información para ingresar al Sistema.
                 </h2>
-                </a>
-              <div className="linea-coloresHeader" />
+                </a> */}
+              {/* <div className="linea-coloresHeader" /> */}
             </div>
           </div>
-           */}
+           
 
           
           {/* CUANDO SE QUITE LA IMAGEN DE ARRIBA COLOCAR EL ACTIVE AL de abajo */}
 
-          <div className="carousel-item active " data-bs-interval="4000">
+          <div className="carousel-item  " data-bs-interval="4000">
             <img
               src={`https://apiwebtm.com${noti1.url}`}
               className="w-100 img-fluid"
@@ -73,7 +73,7 @@ const Header = () => {
                 </h2>
                 
               </Link>
-              {/* <div className="linea-coloresHeader" /> */}
+              <div className="linea-coloresHeader" />
             </div>
           </div>
 
